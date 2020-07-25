@@ -1,3 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">money</string>
+    <string name="app_name">Just Money</string>
+
+    <string name="reconcile">Reconcile</string>
+    <string name="menu_accts">Accounts</string>
+    <string name="menu_search_txs">Search transactions</string>
+    <string name="menu_budget">Spending Budgets</string>
+    <string name="bills_reminder">Bills Reminder</string>
+    <string name="menu_txs_calendar">Calendar View</string>
+    <string name="menu_txs_cat_report">Transactions by Category</string>
+    <string name="menu_txs_recurring">Recurring Transactions</string>
+    <string name="menu_bills_header">BILLS REMINDER</string>
+    <string name="menu_bills_list">Bills</string>
+    <string name="menu_bills_list_status">Bills By Status</string>
+    <string name="menu_bills_calendar">Calendar View</string>
+    <string name="menu_bills_recurring">Recurring Bills</string>
+    <string name="for_transactions">For transactions</string>
+
+    <string name="export_body">&lt;p&gt; Sent from \'Just Money\' android App &lt;/p&gt;</string>
+    <string name="app_try_title">Just Money Reminder</string>
+    <string name="app_try_remind">Have you tried the app yet? Its simple and easy to use.</string>
+    <string name="app_use_remind">Have you added your expenses today?</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- account.xml -->
+
+    <!-- Account List -->
+    <string name="acct_add">Create Account</string>
+    <string name="acct_delete">Delete Account</string>
+    <!-- <string name="accts">Account</string>  -->
+    <string name="acct_final_bal">Current Balance</string>
+    <string name="acct_saved_success">Account saved successfully.</string>
+    <string name="acct_delete_unsaved">Cannot delete unsaved Account.</string>
+    <string name="acct_delete_success">Successfully Deleted Account.</string>
+    <string name="acct_delete_warn">Selected account and all the transactions with in it will be deleted..!</string>
+    <string name="acct_delete_error_msg">Error..!\n You need to have at least one active account to operate.</string>
+
+    <string name="acct_desc_default">Account opening balance is: %1$s</string>
+    <string name="acct_menu_filter_favorite">Favorite accounts only</string>
+    <string name="acct_menu_filter_off">Show all accounts</string>
+
+    <!--  Account Details -->
+    <string name="acct_details">Account Details</string>
+    <string name="acct_details_new">New Account Details</string>
+    <string name="acct_name">Account Name</string>
+    <string name="acct_desc">Description</string>
+    <string name="acct_init_bal">Opening Balance</string>
+    <string name="acct_budget">Monthly Budget</string>
+    <string name="acct_currency">Currency</string>
+    <string name="acct_inclInTot">Include balance in total</string>
+    <string name="acct_tx_status">Default Transaction Status</string>
+    <string name="acct_active">Frequently used or favorite account</string>
+    <string name="acct_active_help_msg">In accounts screen you can filter to view only favorite accounts, without bothering about inactive / closed accounts (those you don\'t use frequently). \n\nSo instead of deleting an account, which would remove transactions linked to it, you can use this option.</string>
+    <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
+    <string name="acct_list_empty">No account exists..!</string>
+    <string name="acct_list_empty_warning">No account exists, please create an account first.</string>
+    <string name="acct_list_total_rows">%1$d account(s) total balance:</string>
+    <string name="acct_list_total_rows_multi">%1$d accounts in multiple currencies</string>
+    <string name="acct_list_all_currencies">All Currencies</string>
+    <string name="acct_list_xxx_Accounts">%1$s Accounts</string>
+    <string name="acct_name_err">Account name is empty..!</string>
+
+    <!-- ==================================================================== -->
+    <!-- tx.xml -->
+
+    <string name="tx_detail_tab">Details</string>
+    <string name="tx_detail_tab_new">Enter Details</string>
+    <string name="tx_detail_title_new">New Transaction</string>
+    <string name="tx_detail_title_edit">Existing Transaction</string>
+    <string name="tx_bill_pmt_label">Select a bill to add payment</string>
+    <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
+    <string name="tx_bill_pmt_notes">Bill Payment</string>
+    <string name="tx_bill_pmt_not_selected">Please select a bill to complete the bill payment.</string>
+    <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
+    <string name="tx_payee">Payee, payer or item</string>
+    <string name="tx_payee_hint">Contact person, business or store name</string>
+    <string name="tx_transf_amt">Transfer Amount</string>
+    <string name="tx_date">Transaction date</string>
+    <string name="tx_account">Select an account</string>
+    <!--<string name="tx_deposit">Deposit</string>
+    <string name="tx_withdraw">Withdraw</string>-->
+    <string name="tx_status">Transaction status</string>
+    <string name="tx_new">Add Expense / Income</string>
+    <string name="tx_bill_pmt">Bill Payment</string>
+    <string name="tx_list_empty">No Transactions Exists..!</string>
+    <string name="tx_repeats">Recurring Transaction</string>
+    <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto-generated.</string>-->
+    <string name="tx_error_save_pic">Error while saving the picture: %1$s</string>
+
+    <string name="tx_delete_warn">Delete selected transaction(s)?</string>
+    <string name="tx_delete_multi">%1$d Transaction(s) deleted.</string>
+    <string name="tx_multi_update_count">%1$d Transaction(s) updated.</string>
+    <string name="tx_duplicate_warn">%1$d duplicate Transaction(s) will be created, continue?</string>
+    <string name="tx_duplicate_multi">%1$d Transaction(s) created.</string>
+    <string name="tx_delete_success">Successfully Deleted Transaction(s).</string>
+    <string name="tx_delete_unsaved">Can\'t delete unsaved Transaction.</string>
+    <string name="tx_amt_err">Please enter a valid amount..!</string>
+    <string name="tx_err_future_dt">Please enter a future date.</string>
+    <string name="tx_photo_not_supported">Unable to Capture Photo, Device not supported..!</string>
+    <string-array name="tx_status">
+        <item>Void / Invalid</item>
+        <item>Uncleared / Pending</item>
+        <item>Cleared</item>
+        <item>Cleared &amp; Reconciled</item>
+    </string-array>
+    <string name="tx_add_suc">New transaction added</string>
+    <string name="tx_update_suc">Transaction updated</string>
+    <string name="tx_err_end_dt">\'Repeat until date\' should be after \'Next transaction date\'</string>
+    <string name="tx_rpt_save">Apply recurring changes</string>
+    <string-array name="tx_rpt_save">
+        <item>Without deleting any transaction and create new transactions, if required.</item>
+        <item>Delete &amp; recreate transactions using the new recurring changes. Transactions related to this recurring configuration will only be effected</item>
+        <!-- <item>Effect this &amp; all bills.</item> -->
+    </string-array>
+    <string name="tx_rpt_remove">Remove recurring nature</string>
+    <string-array name="tx_rpt_remove">
+        <item>For this transaction only.</item>
+        <item>For this &amp; all related transactions.</item>
+    </string-array>
+    <string name="bill_delete_single_warn">Bill and any linked bill payment transaction will be deleted, continue?</string>
+    <string name="bill_delete_multi_warn">Selected bills and any linked bill payment transactions will be deleted, continue?</string>
+    <string name="tx_bill_mark_unpaid_warning_title">Mark as unpaid</string>
+    <string name="tx_bill_mark_unpaid_warning">Remove transactions that are associated to this bill?</string>
+
+    <!-- Transaction list -->
+    <string name="tx_view_txs">View Transactions</string>
+    <string name="tx_list_title">Transactions</string>
+    <string name="tx_list_filter_dialog">Filter visible labels</string>
+
+    <string name="tx_export_subject">Money Transactions</string>
+    <string name="tx_export_title">Export as CSV</string>
+    <string name="tx_export_type">text/plain</string>
+    <string name="tx_list_total_rows"> %1$s rows(s) Total: </string>
+    <string name="tx_list_total_rows_multi_curr"> %1$s rows in multiple currencies </string>
+    <string name="tx_list_cleared">(Cleared: </string>
+
+    <string name="tx_list_options_view">View Transaction Details</string>
+    <string name="tx_list_options_select">Select this row</string>
+    <string name="tx_list_options_copy">Create a copy (duplicate)</string>
+    <string name="tx_list_options_delete">Delete Transaction</string>
+
+    <string name="tx_removed_recurring">Transaction unlinked from recurring config.</string>
+
+    <!-- Fund Transfer -->
+    <string name="transfer_fromAcct">From account</string>
+    <string name="transfer_toAcct">To account</string>
+    <string name="transfer_toAmt">Amount transferred after converting into </string>
+    <string name="transfer_exRate">Exchange Rate is </string>
+    <string name="transfer_rate_modify">Modify rate</string>
+    <string name="transfer_save">Transfer funds</string>
+    <string name="transfer_rate_default_err">Invalid exchange rate, please modify the conversion rate.</string>
+    <string name="transfer_diff_acct_err">Please select different accounts to perform fund transfers.</string>
+    <string name="transfer_success">Fund transfer successful.</string>
+    <string name="transfer_to">Transfer to </string>
+    <string name="transfer_from">Transfer from </string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Tools.xml -->
+
+    <string name="import_acct">Select a Account</string>
+    <string name="import_file">Select a CSV file to import</string>
+    <string name="import_choose_file">Choose a CSV format file</string>
+    <string name="import_choose_file_warn">Please choose a CSV file and then click import.</string>
+    <string name="import_dtfmt">Date Format</string>
+    <string name="import_first_heading">First line is column heading</string>
+    <string name="import_signed_amt">Signed Amount, in single column</string>
+    <string name="import_signed_amt_help">When ticked: \nPositive amount is an income and negative amount is an expense.\n\nWhen un-ticked: \nAmount (without sign, Ex: 10.75) exist in only one of the 2 columns (amount debited or amount credited).</string>
+    <string name="import_signed_warn">Please make sure the CSV file has below column order: </string>
+    <string name="import_signed_cols">Date, Payee, Amount, Category, Details</string>
+    <string name="import_unsigned_cols">Date, Payee, Amount Debited, Amount Credited, Category, Details</string>
+    <string name="import_but">Import</string>
+    <string name="import_success">%1$d transactions imported successfully.</string>
+    <string name="import_fail_wrong_content">Unable to import the file, please check the file contents.</string>
+    <string name="import_error_file">\'%1$s\' can not be read, please check if the CSV file exists.</string>
+    <string name="import_progress_msg">Pulling data&#8230;</string>
+    <string name="import_already_started">Import already in progress, please try after sometime..!!</string>
+    <string name="import_confirm">Importing transaction from \'%1$s\' into account \'%2$s\'.\n\nDo you want to continue?</string>
+
+    <string name="export_file">CSV File Name (Saved to: \'%1$s\')</string>
+    <string name="export_column_msg">Exported CSV file will have below column order: </string>
+    <string name="export">Export as CSV</string>
+    <string name="export_to">Export &amp; Send&#8230;</string>
+    <string name="export_success">%1$d transactions exported successfully.</string>
+    <string name="export_fail">Unable to export transactions, please make sure valid file name is supplied.</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- preferences.xml -->
+    <string name="prefTitleForcastDialog">Create Recurring Entries</string>
+    <string name="prefSummaryForcast">Recurring transactions and bills will be auto generated in advance until the period specified. example: 3 month in advance</string>
+
+    <string name="prefScreenTitleTransactions">Transactions</string>
+
+    <string name="prefTitleIgnoreTransferTick">Hide fund transfers</string>
+
+    <string name="prefTitleImportTxs">Import Transactions</string>
+    <string name="prefSummaryImportTxs">To import transactions from CSV file into an selected account, touch here. (Also to view CSV file column order)</string>
+
+    <string name="prefTitleExportTxs">Export Transactions</string>
+    <string name="prefSummaryExportTxs">To export account transactions into a CSV file and share it via email, dropbox, etc. (including photos), touch here.</string>
+
+    <string name="prefLabelSettingsBillsFeature">Integrated Bills Reminder feature</string>
+    <string name="prefSummarySettingsBillsDisabled">Simplified menu options are shown when Bills Reminder is switched off. If you want to manage &amp; track bills and link their payments to a transaction, similar to double entry system, please turn it on.\n\nEnabling this option would show advanced menu options with Bills reminder notifications.</string>
+
+    <!-- ==================================================================== -->
+    <!-- currency.xml -->
+
+    <string name="curr_from">From </string>
+    <string name="curr_to">To </string>
+    <string name="curr_ex_rate">Rate</string>
+    <string name="curr_ex_inverse">Inverse</string>
+    <string name="curr_ex_new">Add exchange rate</string>
+    <string name="curr_ex_edit">Modify exchange rate</string>
+
+    <!-- Error Messages -->
+    <string name="curr_ex_duplicate_err">The exchange rate for the selected currencies already exists..!</string>
+    <string name="curr_ex_update_err">Unable to update exchange rate, please try again..!</string>
+    <string name="curr_ex_same_err">From currency and to currency should be different.!</string>
+    <string name="curr_ex_invalid_rate">Please enter a valid exchange rate for the selected currency..!</string>
+    <string name="curr_ex_rates_warn">Some exchange rates has default values, please modify them with appropriate rates..!</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- budget.xml -->
+
+    <string name="budget_title">Budgets</string>
+    <string name="budget_spend_vs_budget">Spend / Budget: </string>
+    <string name="budget_surplus_vs_budget">Surplus / Budget: </string>
+    <string name="budget_list_empty">No budget exists..! \n (Touch the floating \'+\' button to create one)</string>
+    <string name="budget_amt_invalid_warn">Please enter a valid budget amount that is greater than 0.</string>
+
+    <string name="budget_new">New Budget</string>
+    <string name="budget_edit">Edit Budget</string>
+    <string name="budget_remove">Remove Budget</string>
+    <string name="budget_all_categories">All Categories</string>
+    <string name="budget_all_currency_accounts">All %1$s Accounts</string>
+    <string name="budget_remaining">Remaining to spend</string>
+
+    <string name="budget_category_all">For all categories</string>
+    <string name="budget_category_selected">Selected Category</string>
+    <string name="budget_currency_switch">Currency Budget</string>
+    <string name="budget_currency_for">For all</string>
+    <string name="budget_currency_accts"> accounts </string>
+    <string name="budget_amount">Budget amount</string>
+    <string name="budget_type_spend">To Spend</string>
+    <string name="budget_type_earn">To Earn</string>
+    <string name="budget_period">Spending period</string>
+    <string-array name="budget_seekbar_labels">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+    <string-array name="budget_seekbar_selections">
+        <item>Daily / for a single day</item>
+        <item>Weekly / for whole week</item>
+        <item>Monthly / for a calendar month</item>
+        <item>Yearly / for whole year</item>
+    </string-array>
+
+    <string name="budget_delete_unsaved">Cannot delete unsaved budget.</string>
+    <string name="budget_delete_success">Successfully deleted budget.</string>
+    <string name="budget_delete_warn">Selected budget will be deleted, continue?</string>
+    <string name="budget_save_success">Budget saved successfully</string>
+    <string name="budget_fields_invalid">Budget should be either by currency or by account.</string>
+    <string name="budget_exists_error">Budget already exists..!</string>
+    <string name="error">Error</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- reports.xml -->
+
+    <string name="rpt_title">Reports</string>
+    <string name="select_account">Select an Account</string>
+
+    <string name="tx_rpt_total_expense">Total Spending: %1$s</string>
+    <string name="tx_rpt_total_income">Total Income: %1$s</string>
+    <string name="tx_rpt_type_cat_expense">Expense by Category</string>
+    <string name="tx_rpt_type_cat_income">Income by Category</string>
+    <string name="tx_rpt_pdf_category_filename_template">Category wise report, %1$s - %2$s</string>
+
+
+    <!-- Tx Filter -->
+    <string name="filter_accounts_all">Accounts (all)</string>
+    <string name="filter_accounts_count">Accounts (%1$d)</string>
+    <string name="filter_account_title">Filter accounts</string>
+
+    <!-- Recurring Tx Configs -->
+    <string name="recurtx_list_empty">No recurring configurations exists. \nCreate a new transactions with recurring configuration enabled</string>
+    <string name="tx_deleted_recur">Successfully deleted recurring transactions.</string>
+    <string name="tx_delete_recur_warn">This recurring entry &amp; all associated transactions will be deleted, continue?</string>
+
+    <!-- For Transactions -->
+    <string name="dashboard_summary_txs">Period Overview:</string>
+    <string name="dashboard_summary_balances">Accounts balance: </string>
+    <string name="dashboard_summary_income">Income: </string>
+    <string name="dashboard_summary_expense">Expense: </string>
+    <string name="dashboard_title_tx_chart_expense">Expense by category (transactions)</string>
+    <string name="dashboard_title_tx_chart_income">Income by category (transactions)</string>
+
+    <string name="acct_rpt_balance_label">Accounts balance for 30 days</string>
+    <string name="acct_rpt_balance_info">Line chart showing historical and forecast of account balances, on a daily basis.</string>
+    <string name="acct_rpt_balance_currency">Currency: %1$s</string>
+    <string name="acct_rpt_balance_accounts_all">All %1$s accounts</string>
+    <string name="acct_rpt_balance_accounts_selected">Selected %1$s accounts (%2$d)</string>
+    <string name="acct_rpt_balance_separate_lines">Plot each account</string>
+    <string name="acct_rpt_balance_screen_title">Accounts Balance</string>
+    <string name="acct_rpt_balance_credit">In Credit</string>
+    <string name="acct_rpt_balance_debit">In Debt</string>
+
+
+    <string name="tx_rpt_trends_screen_title">Cash flow trends</string>
+    <string name="tx_rpt_trends_expense_label">Trends for last 30 days (Expense)</string>
+    <string name="tx_rpt_trends_expense_info">Line chart showing both expenses trends in last 30 days.</string>
+    <string name="tx_rpt_trends_income_label">Trends for last 30 days (Income)</string>
+    <string name="tx_rpt_trends_income_info">Line chart showing income cash flow in last 30 days.</string>
+
+    <string name="tx_rpt_category_wise_expenses_label">Expense by Category</string>
+    <string name="tx_rpt_category_wise_expenses_info">Pie chart showing category-wise spending for a given period</string>
+    <string name="tx_rpt_category_wise_income_label">Income by Category</string>
+    <string name="tx_rpt_category_wise_income_info">Pie chart showing category-wise income for a given period</string>
+    <!--<string name="tx_rpt_category_wise_expenses_6months_label">Spending by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_expenses_6months_info">Pie chart showing category-wise spending for a given period</string>
+    <string name="tx_rpt_category_wise_income_6months_label">Income by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_income_6months_info">Pie chart showing category-wise income for a given period</string>-->
+    <string name="tx_rpt_period_wise_expense_label">Month-wise Comparison (Expense)</string>
+    <string name="tx_rpt_period_wise_expense_info">Bar chart comparing expenses for each period.</string>
+    <string name="tx_rpt_period_wise_income_label">Month-wise Comparison (Income)</string>
+    <string name="tx_rpt_period_wise_income_info">Bar chart comparing income for each period.</string>
+    <string name="tx_rpt_account_balance_trends_label">Trends of Account Balances last 30 days</string>
+    <string name="tx_rpt_account_balance_trends_info">Line chart showing account balances in last 30 days.</string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_description">Just Money is a complete financial solution to manage &amp; track your expenses, income, bills, accounts, spending budgets. Simply add a transaction whenever you spend or earn money, also can attach receipt photo. And use reports &amp; charts to analyse your transaction trends, comparison, account balances and many more.</string>
+
+    <string name="feature_label_free">Free Trial</string>
+    <string name="feature_desc_free">The version contains basic features to manage your expenses and income, with below features:\n</string>
+    <string-array name="feature_items_free">
+        <item>Add an income or expense</item>
+        <item>Recurring transactions supported</item>
+        <item>Limited transactions (1000)</item>
+        <item>Limited accounts management (5)</item>
+        <item>Multi currency support</item>
+        <item>More than 150 currencies supported</item>
+        <item>Budget planner for month</item>
+        <item>Attach photo to a transaction</item>
+        <item>Limited categories and subcategories (70)</item>
+        <item>Home screen account widget</item>
+        <item>View transactions month wise</item>
+        <item>Search transactions</item>
+        <item>Calendar view</item>
+        <item>Search transactions</item>
+        <item>Filter display data</item>
+        <item>Sort transactions list</item>
+        <item>Fund transfer between same currency accounts only</item>
+        <item>Dashboard overview for each month</item>
+        <item>Multi select: delete multiple transactions &amp; categories</item>
+        <item>Multi select: copy multiple transactions &amp; categories</item>
+        <item>Reports: Category wise expenses / income for each month</item>
+        <item>Import transactions</item>
+        <item>Scan a barcode &amp; add it to transaction notes</item>
+        <item>Create backup, including attached receipt photos</item>
+        <item>Daily scheduled backups</item>
+        <item>Single profile only</item>
+    </string-array>
+    <string name="feature_label_pro">Premium</string>
+    <string name="feature_desc_pro">This includes all the features provided by \'Free Trial\' \n\t\t\t+\nBelow PREMIUM features: \n</string>
+    <string-array name="feature_items_pro">
+        <item>Unlimited transactions</item>
+        <item>Unlimited accounts</item>
+        <item>Unlimited categories and subcategories</item>
+        <item>Delete recurring transactions &amp; its configuration in one go. (bulk deletion)</item>
+        <item>Multi select: change category of transactions</item>
+        <item>Home screen shortcuts widget</item>
+        <item>Change startup screen</item>
+        <item>Budget planner for Day, Week, Month, and Year</item>
+        <item>Dashboard overview for each Day, Week, Month and Year.</item>
+        <item>View transactions for each Day, Week, Month, Year and custom period</item>
+        <item>Fund transfer between accounts of different currencies</item>
+        <item>Reports: Category wise expenses &amp; income for each Day, Week, Month, Year and custom period</item>
+        <item>Reports: Expense and income trend</item>
+        <item>Reports: Comparison between Weeks, Days, Months, Years</item>
+        <item>Reports: Generate PDF reports &amp; sharing</item>
+        <item>Export transactions and attached photos</item>
+        <item>Control scheduled backups</item>
+        <item>Share and export backups via email, Drive, Dropbox</item>
+        <item>Restore local backups and downloaded from cloud</item>
+        <item>App security using PIN &amp; fingerprint</item>
+    </string-array>
+    <string name="feature_label_bills">Bills Reminder</string>
+    <string name="feature_desc_bills">This requires PREMIUM version.\nAdds Bills Reminder capability to the App, and helps you to link a bill payment with a transaction, something like a double entry. \n</string>
+    <string-array name="feature_items_bills">
+        <item>Integrated Bills Reminder</item>
+        <item>Manage simple &amp; recurring bills</item>
+        <item>Daily bills reminder notification</item>
+        <item>Attach photo to bills</item>
+        <item>Home screen widgets for bills</item>
+        <item>Change reminder notification time</item>
+        <item>Delete recurring bills &amp; its configuration in one go. (bulk deletion)</item>
+        <item>Dashboard overview includes bills</item>
+        <item>View bills by status</item>
+        <item>View bills for each Day, Week, Month, Year and custom period</item>
+        <item>Calendar view of bills</item>
+        <item>Search bills</item>
+        <item>Multi select: bulk deletion of bills &amp; categories</item>
+        <item>Multi select: bulk duplication of bills &amp; categories</item>
+        <item>Multi select: change category of bills</item>
+        <item>Multi select: change reminder notification of bills</item>
+        <item>Reports: Category wise bills for each Day, Week, Month, Year and custom period</item>
+        <item>Reports: Bills trend</item>
+        <item>Reports: Comparison between Weeks, Days, Months, Years</item>
+        <item>Reports: Generate PDF reports &amp; sharing</item>
+        <item>Scan a barcode &amp; add it to bill notes</item>
+        <item>Add a bill payment url to the bill</item>
+    </string-array>
+    <string name="feature_label_multiprof">Multi profile</string>
+    <string-array name="feature_items_multiprof">
+        <item>Accounts</item>
+        <item>Transactions</item>
+        <item>Budgets</item>
+        <item>Categories and Subcategories</item>
+        <item>Bills</item>
+        <item>Recurring settings</item>
+        <item>Reports and other screens will consider entries from its own profile only</item>
+        <item>This will enable profile management features</item>
+    </string-array>
+    <string name="feature_this_version">This is free trial version of Just Money App and you can buy below upgrades to enjoy the app to its best.</string>
+
+
+    <string name="welcome_title4_tx_account">Add an account</string>
+    <string name="welcome_info4_tx_account">Account represents your bank account or cash in your wallet, and is needed for transaction entry.</string>
+    <string name="welcome_title1_tx_detail">Add an expense or income</string>
+    <string name="welcome_info1_tx_detail">Enter transaction details &amp; save. Also supports recurring transactions.</string>
+    <string name="welcome_title1_tx_receipt">Photo your receipt</string>
+    <string name="welcome_info1_tx_receipt">Go paperless by attaching your expense receipt along with the transaction details.</string>
+    <string name="welcome_title2_tx_email">Share transactions &amp; receipts</string>
+    <string name="welcome_info2_tx_email">Export CSV format expenses and income, including attached receipt photos (to email, Dropbox, Drive).</string>
+
+    <string name="welcome_title3_tx_list">Simple tab layout</string>
+    <string name="welcome_info3_tx_list">View transactions for each period &amp; easily swipe between tabs. Filter data based on categories, accounts, etc.</string>
+    <string name="welcome_title4_tx_budget">Budget planner</string>
+    <string name="welcome_info4_tx_budget">Add spending budgets and stay in control of your expenses.</string>
+    <string name="welcome_title5_tx_reports">Extensive reports &amp; charts</string>
+    <string name="welcome_info5_tx_reports">Compare expenses between periods &amp; categories, view account balances both historical &amp; projected, and cash flow trend reports.</string>
+    <string name="welcome_title6_tx_drawer">Navigation drawer menu</string>
+    <string name="welcome_info6_tx_drawer">Dashboard, accounts, multi currency, category &amp; subcategories, budget planner, calendar view, multiple profiles, backup &amp; restore, and many more.</string>
+
+    <string name="widget_acct_balance_title">Account Balance</string>
+    <string name="widget_acct_balance">Balance: </string>
+    <string name="widget_shortcuts_title">Just Money shortcuts</string>
+    <string name="widget_shortcuts">(shortcuts)</string>
+    <string name="coach_mark_add_bill">Click \'+\' floating button to add expenses, income or fund transfer</string>
+
+    <string name="error_max_txs_exceeded">Number of transactions exceeded maximum limit, please upgrade to add more transactions.</string>
+    <string name="error_max_accounts_exceeded">Number of accounts exceeded maximum limit, please upgrade to add more accounts.</string>
+
+    <string name="tx_new_expense">Add Expense</string>
+    <string name="tx_new_income">Add Income</string>
+    <string name="tx_bills_disabled_msg">Do you know this App supports Integrated Bills Reminder feature? Enable it, to manage your bills and payments.</string>
 </resources>

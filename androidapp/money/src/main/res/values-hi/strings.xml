@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Money</string>
+
+    <string name="reconcile">समाधान करना</string>
+    <string name="menu_accts">हिसाब किताब</string>
+    <string name="menu_search_txs">खोज लेनदेन</string>
+    <string name="menu_budget">खर्च बजट</string>
+    <string name="bills_reminder">बिल रिमाइंडर</string>
+    <string name="menu_txs_calendar">कैलेंडर दृश्य</string>
+    <string name="menu_txs_cat_report">श्रेणी के अनुसार लेनदेन</string>
+    <string name="menu_txs_recurring">आवर्ती लेनदेन</string>
+    <string name="menu_bills_header">बिल रिमाइंडर</string>
+    <string name="menu_bills_list">बिल</string>
+    <string name="menu_bills_list_status">स्थिति द्वारा बिल</string>
+    <string name="menu_bills_calendar">कैलेंडर दृश्य</string>
+    <string name="menu_bills_recurring">आवर्ती बिल</string>
+    <string name="for_transactions">लेनदेन के लिए</string>
+
+    <string name="export_body">&lt;p&gt; \'सिर्फ पैसा\' एंड्रॉइड ऐप से भेजा गया &lt;/p&gt;</string>
+    <string name="app_try_title">सिर्फ पैसा रिमाइंडर</string>
+    <string name="app_try_remind">आपने अभी तक ऐप का प्रयास किया है? इसका सरल और आसान उपयोग</string>
+    <string name="app_use_remind">क्या आपने आज अपना खर्च जोड़ा है?</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- account.xml -->
+
+    <!-- Account List -->
+    <string name="acct_add">खाता बनाएं</string>
+    <string name="acct_delete">खाता हटा दो</string>
+    <!-- <string name="accts">Account</string>  -->
+    <string name="acct_final_bal">वर्तमान शेष</string>
+    <string name="acct_saved_success">खाता सफलतापूर्वक सहेजा गया</string>
+    <string name="acct_delete_unsaved">सहेजे न गए खाते को हटा नहीं सकते</string>
+    <string name="acct_delete_success">सफलतापूर्वक हटाए गए खाते</string>
+    <string name="acct_delete_warn">चयनित खाता और उसमें सभी लेनदेन हटा दिए जाएंगे..!</string>
+    <string name="acct_delete_error_msg">त्रुटि..!\n आप को संचालित करने के लिए कम से कम एक सक्रिय खाता होना चाहिए।</string>
+
+    <string name="acct_desc_default">खाता खोलने की शेष राशि है: %1$s</string>
+    <string name="acct_menu_filter_favorite">केवल पसंदीदा खाते</string>
+    <string name="acct_menu_filter_off">सभी खाते दिखाएं</string>
+
+    <!--  Account Details -->
+    <string name="acct_details">खाता विवरण</string>
+    <string name="acct_details_new">नया खाता विवरण</string>
+    <string name="acct_name">खाते का नाम</string>
+    <string name="acct_desc">विवरण</string>
+    <string name="acct_init_bal">प्रारंभिक शेष</string>
+    <string name="acct_budget">महीने का हिसाब - किताब</string>
+    <string name="acct_currency">मुद्रा</string>
+    <string name="acct_inclInTot">कुल में शेष राशि शामिल है</string>
+    <string name="acct_tx_status">डिफ़ॉल्ट लेनदेन स्थिति</string>
+    <string name="acct_active">अक्सर इस्तेमाल किया या पसंदीदा खाता</string>
+    <string name="acct_active_help_msg">खाते स्क्रीन में आप निष्क्रिय / बंद किए गए खातों के बारे में परेशान किए बिना केवल पसंदीदा खाते देखने के लिए फ़िल्टर कर सकते हैं (जो कि आप अक्सर उपयोग नहीं करते हैं)। \n\nइसलिए एक खाते को हटाने के बजाय, जो इससे जुड़े लेनदेन को हटा देगा, आप इस विकल्प का उपयोग कर सकते हैं।</string>
+    <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
+    <string name="acct_list_empty">कोई खाता मौजूद नहीं है..!</string>
+    <string name="acct_list_empty_warning">कोई खाता नहीं है, कृपया पहले एक खाता बनाएं।</string>
+    <string name="acct_list_total_rows">%1$d खाते कुल शेष राशि:</string>
+    <string name="acct_list_total_rows_multi">एकाधिक मुद्राओं में %1$d खाते</string>
+    <string name="acct_list_all_currencies">सभी मुद्राएं</string>
+    <string name="acct_list_xxx_Accounts">%1$s खाते</string>
+    <string name="acct_name_err">खाता नाम खाली है..!</string>
+
+    <!-- ==================================================================== -->
+    <!-- tx.xml -->
+
+    <string name="tx_detail_tab">विवरण</string>
+    <string name="tx_detail_tab_new">विवरण दर्ज करें</string>
+    <string name="tx_detail_title_new">नया लेन-देन</string>
+    <string name="tx_detail_title_edit">मौजूदा लेन-देन</string>
+    <string name="tx_bill_pmt_label">भुगतान जोड़ने के लिए बिल का चयन करें</string>
+    <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
+    <string name="tx_bill_pmt_notes">बिल भुगतान</string>
+    <string name="tx_bill_pmt_not_selected">बिल भुगतान को पूरा करने के लिए कृपया एक बिल का चयन करें</string>
+    <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
+    <string name="tx_payee">आदाता, दाता या आइटम</string>
+    <string name="tx_payee_hint">संपर्क व्यक्ति, व्यवसाय या स्टोर नाम</string>
+    <string name="tx_transf_amt">स्थानांतरण राशि</string>
+    <string name="tx_date">लेन-देन की तारीख</string>
+    <string name="tx_account">एक खाते का चुनाव करें...</string>
+    <!--<string name="tx_deposit">Deposit</string>
+    <string name="tx_withdraw">Withdraw</string>-->
+    <string name="tx_status">लेनदेन की स्थिति</string>
+    <string name="tx_new">व्यय / आय जोड़ें</string>
+    <string name="tx_bill_pmt">बिल भुगतान</string>
+    <string name="tx_list_empty">कोई लेनदेन मौजूद नहीं है..!</string>
+    <string name="tx_repeats">आवर्ती लेनदेन</string>
+    <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
+    <string name="tx_error_save_pic">चित्र सहेजते समय त्रुटि: %1$s</string>
+
+    <string name="tx_delete_warn">चयनित लेनदेन हटाएं?</string>
+    <string name="tx_delete_multi">%1$d लेनदेन हटाए गए</string>
+    <string name="tx_multi_update_count">%1$d लेन-देन अपडेट किए गए</string>
+    <string name="tx_duplicate_warn">%1$d डुप्लिकेट लेन-देन बनाए जाएंगे, जारी रहेगा?</string>
+    <string name="tx_duplicate_multi">%1$d लेनदेन तैयार किए गए</string>
+    <string name="tx_delete_success">सफलतापूर्वक हटाए गए लेनदेन</string>
+    <string name="tx_delete_unsaved">सहेजे न गए लेनदेन को हटा नहीं सकते</string>
+    <string name="tx_amt_err">कृपया एक वैध राशि दर्ज करें..!</string>
+    <string name="tx_err_future_dt">कृपया भविष्य की तिथि दर्ज करें।</string>
+    <string name="tx_photo_not_supported">फ़ोटो को कैद करने में असमर्थ, डिवाइस समर्थित नहीं है..!</string>
+    <string-array name="tx_status">
+        <item>शून्य / अमान्य</item>
+        <item>स्पष्ट / लंबित</item>
+        <item>को मंजूरी दे दी</item>
+        <item>मंजूरी दे दी और सुलभ</item>
+    </string-array>
+    <string name="tx_add_suc">नया लेनदेन जोड़ा गया</string>
+    <string name="tx_update_suc">अद्यतन लेनदेन</string>
+    <string name="tx_err_end_dt">\'अगले लेन-देन की तिथि\' \'तिथि तक दोहराने\' से पहले होनी चाहिए</string>
+    <string name="tx_rpt_save">आवर्ती परिवर्तन लागू करें</string>
+    <string-array name="tx_rpt_save">
+        <item>यदि आवश्यक हो, तो कोई भी लेनदेन हटाने और नया लेनदेन बनाने के बिना।</item>
+        <item>नए आवर्ती परिवर्तनों का उपयोग करके लेनदेन को हटाएं और पुनर्निर्माण करें। इस आवर्ती कॉन्फ़िगरेशन से संबंधित लेन-देन केवल प्रभावी होंगे</item>
+        <!-- <item>Effect this &amp; all bills.</item> -->
+    </string-array>
+    <string name="tx_rpt_remove">आवर्ती प्रकृति को हटा दें</string>
+    <string-array name="tx_rpt_remove">
+        <item>इस सौदे के लिए केवल</item>
+        <item>इस और सभी संबंधित लेनदेन के लिए</item>
+    </string-array>
+    <string name="bill_delete_single_warn">बिल और कोई लिंक बिल भुगतान लेनदेन हटा दिया जाएगा, जारी रहेगा?</string>
+    <string name="bill_delete_multi_warn">चयनित बिल और किसी भी जुड़े बिल भुगतान लेनदेन को हटा दिया जाएगा, जारी रहेगा?</string>
+    <string name="tx_bill_mark_unpaid_warning_title">अवैतनिक के रूप में चिह्नित करें</string>
+    <string name="tx_bill_mark_unpaid_warning">इस बिल से जुड़े लेनदेन को हटा दें?</string>
+
+    <!-- Transaction list -->
+    <string name="tx_view_txs">लेनदेन देखें</string>
+    <string name="tx_list_title">लेन-देन</string>
+    <string name="tx_list_filter_dialog">दृश्यमान लेबल फ़िल्टर करें</string>
+
+    <string name="tx_export_subject">पैसा लेनदेन</string>
+    <string name="tx_export_title">सीएसवी के रूप में निर्यात</string>
+    <string name="tx_export_type">पाठ/सादे</string>
+    <string name="tx_list_total_rows"> %1$s पंक्तियां कुल: </string>
+    <string name="tx_list_total_rows_multi_curr"> एकाधिक मुद्राओं में %1$s पंक्तियाँ </string>
+    <string name="tx_list_cleared">(साफ कर दिया गया: </string>
+
+    <string name="tx_list_options_view">लेनदेन विवरण देखें</string>
+    <string name="tx_list_options_select">इस पंक्ति का चयन करें</string>
+    <string name="tx_list_options_copy">एक कॉपी बनाएं (डुप्लिकेट)</string>
+    <string name="tx_list_options_delete">लेनदेन हटाने</string>
+
+    <string name="tx_removed_recurring">आवर्ती कॉन्फ़िग से लेन-देन अनलिंक किया गया।</string>
+
+    <!-- Fund Transfer -->
+    <string name="transfer_fromAcct">अकाउंट से</string>
+    <string name="transfer_toAcct">खाते में</string>
+    <string name="transfer_toAmt">में परिवर्तित करने के बाद राशि का हस्तांतरण </string>
+    <string name="transfer_exRate">विनिमय दर है </string>
+    <string name="transfer_rate_modify">दर को संशोधित करें</string>
+    <string name="transfer_save">धनराशि का ट्रांसफर</string>
+    <string name="transfer_rate_default_err">अमान्य विनिमय दर, कृपया रूपांतरण दर को संशोधित करें।</string>
+    <string name="transfer_diff_acct_err">निधि अंतरण करने के लिए कृपया विभिन्न खातों का चयन करें।</string>
+    <string name="transfer_success">फंड स्थानांतरण सफल</string>
+    <string name="transfer_to">बदली हुई </string>
+    <string name="transfer_from">से स्थानांतरित </string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Tools.xml -->
+
+    <string name="import_acct">एक खाता चुनें</string>
+    <string name="import_file">आयात करने के लिए एक सीएसवी फ़ाइल चुनें</string>
+    <string name="import_choose_file">एक सीएसवी प्रारूप फ़ाइल चुनें</string>
+    <string name="import_choose_file_warn">कृपया एक सीएसवी फ़ाइल चुनें और फिर आयात करें पर क्लिक करें</string>
+    <string name="import_dtfmt">डेटा प्रारूप</string>
+    <string name="import_first_heading">पहली पंक्ति कॉलम शीर्षक है</string>
+    <string name="import_signed_amt">हस्ताक्षर राशि, एकल स्तंभ में</string>
+    <string name="import_signed_amt_help">जब टिके गए: \nसकारात्मक राशि एक आय है और नकारात्मक राशि एक व्यय है\n\nजब अन-टिकी: \nराशि (बिना हस्ताक्षर किए, उदा। 10.75) केवल 2 कॉलमों में से एक में मौजूद है (राशि डेबिट की गई है या जमा राशि)</string>
+    <string name="import_signed_warn">कृपया सुनिश्चित करें कि सीएसवी फ़ाइल को कॉलम आदेश के नीचे है: </string>
+    <string name="import_signed_cols">तारीख, आदाता, राशि, श्रेणी, विवरण</string>
+    <string name="import_unsigned_cols">तारीख, प्राप्तकर्ता, डेबिट की राशि, जमा राशि, श्रेणी, विवरण</string>
+    <string name="import_but">आयात</string>
+    <string name="import_success">%1$d लेनदेन सफलतापूर्वक आयात किए गए</string>
+    <string name="import_fail_wrong_content">फ़ाइल को आयात करने में असमर्थ, कृपया फाइल सामग्री की जांच करें।</string>
+    <string name="import_error_file">\'%1$s\' पढ़ा नहीं जा सकता, कृपया जांच लें कि सीएसवी फ़ाइल मौजूद है या नहीं।</string>
+    <string name="import_progress_msg">खींचें डेटा&#8230;</string>
+    <string name="import_already_started">आयात पहले से ही प्रगति में है, कृपया कुछ समय बाद कोशिश करो.. !!</string>
+    <string name="import_confirm">\'%1$s\' से \'%2$s\' खाते में लेनदेन आयात करना\n\nक्या आप जारी रखना चाहते हैं?</string>
+
+    <string name="export_file">सीएसवी फ़ाइल नाम (सहेजा गया: \'%1$s\')</string>
+    <string name="export_column_msg">निर्यातित सीएसवी फ़ाइल में स्तंभ आदेश के नीचे होगा: </string>
+    <string name="export">सीएसवी के रूप में निर्यात</string>
+    <string name="export_to">निर्यात और भेजें&#8230;</string>
+    <string name="export_success">%1$d लेनदेन सफलतापूर्वक निर्यात किए गए</string>
+    <string name="export_fail">लेनदेन निर्यात करने में असमर्थ, कृपया सुनिश्चित करें कि मान्य फ़ाइल नाम प्रदान किया गया है।</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- preferences.xml -->
+    <string name="prefTitleForcastDialog">आवर्ती प्रविष्टियां बनाएं</string>
+    <string name="prefSummaryForcast">आवर्ती लेन-देन और बिल निर्दिष्ट किए गए अवधि तक अग्रिम में स्वतः उत्पन्न होंगे। उदाहरण: 3 महीने पहले से</string>
+
+    <string name="prefScreenTitleTransactions">लेन-देन</string>
+
+    <string name="prefTitleIgnoreTransferTick">फंड ट्रांसफर छिपाएं</string>
+
+    <string name="prefTitleImportTxs">आयात लेनदेन</string>
+    <string name="prefSummaryImportTxs">सीएसवी फ़ाइल से एक चयनित खाते में लेनदेन आयात करने के लिए, यहां पर स्पर्श करें। (सीएसवी फ़ाइल कॉलम ऑर्डर देखने के लिए)</string>
+
+    <string name="prefTitleExportTxs">निर्यात लेनदेन</string>
+    <string name="prefSummaryExportTxs">खाता लेनदेन को एक सीएसवी फ़ाइल में निर्यात करने और इसे ईमेल, ड्रापबॉक्स, आदि (फोटो सहित) के माध्यम से साझा करने के लिए, यहां स्पर्श करें।</string>
+
+    <string name="prefLabelSettingsBillsFeature">एकीकृत बिल रिमाइंडर सुविधा</string>
+    <string name="prefSummarySettingsBillsDisabled">सरलीकृत मेनू विकल्प दिखाए जाते हैं जब बिल रिमाइंडर बंद हो जाता है। अगर आप बिल्लों का प्रबंधन और बिलों को ट्रैक करना चाहते हैं और अपने लेन-देन को एक लेन-देन से जुड़ने के लिए चाहते हैं, तो डबल प्रवेश प्रणाली के समान, कृपया इसे चालू करें।\n\nइस विकल्प को सक्षम करने से उन्नत मेनू विकल्प दिखाएगा जिसमें बिल रिमाइंडर नोटिफिकेशन होंगे।</string>
+
+    <!-- ==================================================================== -->
+    <!-- currency.xml -->
+
+    <string name="curr_from">से </string>
+    <string name="curr_to">सेवा मेरे </string>
+    <string name="curr_ex_rate">मूल्यांकन करें</string>
+    <string name="curr_ex_inverse">श्लोक में</string>
+    <string name="curr_ex_new">विनिमय दर जोड़ें</string>
+    <string name="curr_ex_edit">विनिमय दर को संशोधित करें</string>
+
+    <!-- Error Messages -->
+    <string name="curr_ex_duplicate_err">चयनित मुद्राओं के लिए विनिमय दर पहले से ही मौजूद है..!</string>
+    <string name="curr_ex_update_err">विनिमय दर को अपडेट करने में असमर्थ, कृपया पुनः प्रयास करें..!</string>
+    <string name="curr_ex_same_err">मुद्रा और मुद्रा से अलग होना चाहिए।!</string>
+    <string name="curr_ex_invalid_rate">कृपया चयनित मुद्रा के लिए एक वैध विनिमय दर दर्ज करें..!</string>
+    <string name="curr_ex_rates_warn">कुछ विनिमय दरों में डिफ़ॉल्ट मान हैं, कृपया उन्हें उचित दरों के साथ संशोधित करें..!</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- budget.xml -->
+
+    <string name="budget_title">बजट</string>
+    <string name="budget_spend_vs_budget">खर्च / बजट: </string>
+    <string name="budget_surplus_vs_budget">अधिशेष / बजट: </string>
+    <string name="budget_list_empty">कोई भी बजट नहीं है..! \n (एक बनाने के लिए फ़्लोटिंग \'+\' बटन स्पर्श करें)</string>
+    <string name="budget_amt_invalid_warn">कृपया एक मान्य बजट राशि दर्ज करें जो 0 से अधिक है</string>
+
+    <string name="budget_new">नया बजट</string>
+    <string name="budget_edit">बजट संपादित करें</string>
+    <string name="budget_remove">बजट हटाएं</string>
+    <string name="budget_all_categories">सब वर्ग</string>
+    <string name="budget_all_currency_accounts">सभी %1$s खाते</string>
+    <string name="budget_remaining">खर्च करने के लिए शेष</string>
+
+    <string name="budget_category_all">सभी श्रेणियों के लिए</string>
+    <string name="budget_category_selected">चयनित श्रेणी</string>
+    <string name="budget_currency_switch">मुद्रा बजट</string>
+    <string name="budget_currency_for">सबके लिए</string>
+    <string name="budget_currency_accts"> हिसाब किताब </string>
+    <string name="budget_amount">बजट राशि, उदाहरण 300</string>
+    <string name="budget_type_spend">खर्च करना</string>
+    <string name="budget_type_earn">कमाने के लिए</string>
+    <string name="budget_period">खर्च की अवधि</string>
+    <string-array name="budget_seekbar_labels">
+        <item>दिन</item>
+        <item>सप्ताह</item>
+        <item>महीना</item>
+        <item>साल</item>
+    </string-array>
+    <string-array name="budget_seekbar_selections">
+        <item>दैनिक / एक दिन के लिए</item>
+        <item>साप्ताहिक / पूरे सप्ताह के लिए</item>
+        <item>मासिक / एक कैलेंडर माह के लिए</item>
+        <item>सालाना / पूरे वर्ष के लिए</item>
+    </string-array>
+
+    <string name="budget_delete_unsaved">सहेजे न गए बजट को हटा नहीं सकते</string>
+    <string name="budget_delete_success">सफलतापूर्वक हटाए गए बजट</string>
+    <string name="budget_delete_warn">चयनित बजट हटा दिया जाएगा, जारी रहेगा?</string>
+    <string name="budget_save_success">बजट सफलतापूर्वक सहेजा गया</string>
+    <string name="budget_fields_invalid">बजट या तो मुद्रा या खाते द्वारा किया जाना चाहिए</string>
+    <string name="budget_exists_error">बजट पहले से ही मौजूद है..!</string>
+    <string name="error">त्रुटि</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- reports.xml -->
+
+    <string name="rpt_title">रिपोर्ट</string>
+    <string name="select_account">एक खाता चुनें</string>
+
+    <string name="tx_rpt_total_expense">कुल व्यय: %1$s</string>
+    <string name="tx_rpt_total_income">कुल आय: %1$s</string>
+    <string name="tx_rpt_type_cat_expense">श्रेणी के अनुसार व्यय</string>
+    <string name="tx_rpt_type_cat_income">श्रेणी के अनुसार आय</string>
+    <string name="tx_rpt_pdf_category_filename_template">श्रेणीवार रिपोर्ट, %1$s - %2$s</string>
+
+
+    <!-- Tx Filter -->
+    <string name="filter_accounts_all">(सभी) खातों</string>
+    <string name="filter_accounts_count">खाते (%1$d)</string>
+    <string name="filter_account_title">खातों को फ़िल्टर करें</string>
+
+    <!-- Recurring Tx Configs -->
+    <string name="recurtx_list_empty">कोई आवर्ती कॉन्फ़िगरेशन मौजूद नहीं है \nआवर्ती कॉन्फ़िगरेशन सक्षम के साथ एक नया लेनदेन बनाएँ</string>
+    <string name="tx_deleted_recur">सफलतापूर्वक आवर्ती लेनदेन हटाए गए</string>
+    <string name="tx_delete_recur_warn">यह आवर्ती प्रविष्टि और सभी संबद्ध लेन-देन हटा दिए जाएंगे, जारी रहेंगे?</string>
+
+    <!-- For Transactions -->
+    <string name="dashboard_summary_txs">अवधि का अवलोकन:</string>
+    <string name="dashboard_summary_balances">खाते शेष: </string>
+    <string name="dashboard_summary_income">आय: </string>
+    <string name="dashboard_summary_expense">व्यय: </string>
+    <string name="dashboard_title_tx_chart_expense">श्रेणी के अनुसार व्यय (लेनदेन)</string>
+    <string name="dashboard_title_tx_chart_income">श्रेणी के अनुसार आय (लेनदेन)</string>
+
+    <string name="acct_rpt_balance_label">खाते में 30 दिनों के लिए शेष राशि</string>
+    <string name="acct_rpt_balance_info">दैनिक आधार पर ऐतिहासिक और भविष्यवाणी खाते के संतुलन दिखा रहा है।</string>
+    <string name="acct_rpt_balance_currency">मुद्रा: %1$s</string>
+    <string name="acct_rpt_balance_accounts_all">सभी %1$s खाते</string>
+    <string name="acct_rpt_balance_accounts_selected">चयनित %1$s खाते (%2$d)</string>
+    <string name="acct_rpt_balance_separate_lines">प्रत्येक खाते की साजिश करें</string>
+    <string name="acct_rpt_balance_screen_title">खाते शेष</string>
+    <string name="acct_rpt_balance_credit">श्रेय में</string>
+    <string name="acct_rpt_balance_debit">कर्ज में</string>
+
+
+    <string name="tx_rpt_trends_screen_title">नकदी प्रवाह के रुझान</string>
+    <string name="tx_rpt_trends_expense_label">पिछले 30 दिनों के लिए रुझान (व्यय)</string>
+    <string name="tx_rpt_trends_expense_info">लाइन चार्ट पिछले 30 दिनों में दोनों रुझानों के रुझान दिखाते हैं।</string>
+    <string name="tx_rpt_trends_income_label">पिछले 30 दिनों के लिए रुझान (आय)</string>
+    <string name="tx_rpt_trends_income_info">पिछले 30 दिनों में आय नकदी प्रवाह दिखा रहा है।</string>
+
+    <string name="tx_rpt_category_wise_expenses_label">श्रेणी के अनुसार व्यय</string>
+    <string name="tx_rpt_category_wise_expenses_info">किसी दी गई अवधि के लिए श्रेणी-वार व्यय दिखाते हुए पाई चार्ट</string>
+    <string name="tx_rpt_category_wise_income_label">श्रेणी के अनुसार आय</string>
+    <string name="tx_rpt_category_wise_income_info">दी गई अवधि के लिए श्रेणी-वार आय दिखाने वाला पाइ चार्ट</string>
+    <!--<string name="tx_rpt_category_wise_expenses_6months_label">Spending by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_expenses_6months_info">Pie chart showing category wise spending for a given period</string>
+    <string name="tx_rpt_category_wise_income_6months_label">Income by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_income_6months_info">Pie chart showing category wise income for a given period</string>-->
+    <string name="tx_rpt_period_wise_expense_label">माह-वार तुलना (व्यय)</string>
+    <string name="tx_rpt_period_wise_expense_info">बार चार्ट प्रत्येक अवधि के लिए खर्च की तुलना</string>
+    <string name="tx_rpt_period_wise_income_label">माह-वार तुलना (आय)</string>
+    <string name="tx_rpt_period_wise_income_info">बार चार्ट प्रत्येक अवधि के लिए आय की तुलना करते हैं</string>
+    <string name="tx_rpt_account_balance_trends_label">पिछले 30 दिनों के खाते के रुझान का संतुलन</string>
+    <string name="tx_rpt_account_balance_trends_info">पिछले 30 दिनों में खाता शेष दिखाने वाले लाइन चार्ट</string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_description">बस पैसा आपके व्यय, आय, बिल, खातों, खर्च बजट को प्रबंधित करने और ट्रैक करने के लिए एक पूर्ण वित्तीय समाधान है। जब भी आप खर्च करते हैं या पैसे कमाते हैं तो भी एक लेनदेन जोड़ें, रसीद फोटो भी संलग्न कर सकते हैं और अपने लेनदेन प्रवृत्तियों, तुलना, खाता शेष राशि और कई और अधिक का विश्लेषण करने के लिए रिपोर्ट और चार्ट का उपयोग करें।</string>
+
+    <string name="feature_label_free">मुफ्त आज़माइश</string>
+    <string name="feature_desc_free">संस्करण में निम्नलिखित सुविधाओं के साथ अपने खर्चों और आय का प्रबंधन करने के लिए मूलभूत विशेषताएं हैं:\n</string>
+    <string-array name="feature_items_free">
+        <item>एक आय या व्यय जोड़ें</item>
+        <item>आवर्ती लेनदेन समर्थित</item>
+        <item>सीमित लेनदेन (1000)</item>
+        <item>सीमित खाता प्रबंधन (5)</item>
+        <item>एकाधिक मुद्रा समर्थन</item>
+        <item>150 से अधिक मुद्राओं का समर्थन किया</item>
+        <item>महीने के लिए बजट योजनाकार</item>
+        <item>एक लेनदेन के लिए तस्वीर संलग्न करें</item>
+        <item>सीमित श्रेणियों और उपश्रेणियाँ (70)</item>
+        <item>होम स्क्रीन खाता विजेट</item>
+        <item>लेनदेन महीने के अनुसार देखें</item>
+        <item>खोज लेनदेन</item>
+        <item>कैलेंडर दृश्य</item>
+        <item>खोज लेनदेन</item>
+        <item>फ़िल्टर प्रदर्शन डेटा</item>
+        <item>सौदा लेनदेन सूची</item>
+        <item>उसी मुद्रा खातों के बीच फंड ट्रांसफर केवल</item>
+        <item>प्रत्येक महीने के लिए डैशबोर्ड अवलोकन</item>
+        <item>एकाधिक चयन: कई लेन-देन और श्रेणियां हटाएं</item>
+        <item>एकाधिक चयन: कई लेन-देन और श्रेणियां कॉपी करें</item>
+        <item>रिपोर्ट: प्रत्येक माह के लिए श्रेणीवार व्यय / आय</item>
+        <item>आयात लेनदेन</item>
+        <item>एक बारकोड स्कैन करें और इसे लेनदेन नोट्स में जोड़ें</item>
+        <item>संलग्न रसीद फ़ोटो सहित बैकअप बनाओ</item>
+        <item>दैनिक अनुसूचित बैकअप</item>
+        <item>केवल एकल प्रोफ़ाइल</item>
+    </string-array>
+    <string name="feature_label_pro">प्रीमियम</string>
+    <string name="feature_desc_pro">इसमें \'निःशुल्क परीक्षण\' द्वारा प्रदान की गई सभी सुविधाएं शामिल हैं \n\t\t\t+\nप्रीमियम सुविधाओं से नीचे: \n</string>
+    <string-array name="feature_items_pro">
+        <item>असीमित लेनदेन</item>
+        <item>असीमित खाते</item>
+        <item>असीमित श्रेणियों और उपश्रेणियाँ</item>
+        <item>आवर्ती लेन-देन और एक बार इसके कॉन्फ़िगरेशन को हटा दें (थोक विलोपन)</item>
+        <item>एकाधिक चयन: लेनदेन की श्रेणी बदलें</item>
+        <item>होम स्क्रीन शॉर्टकट विजेट</item>
+        <item>स्टार्टअप स्क्रीन बदलें</item>
+        <item>दिन, सप्ताह, महीना और वर्ष के लिए बजट योजनाकार</item>
+        <item>प्रत्येक दिन, सप्ताह, महीने और वर्ष के लिए डैशबोर्ड अवलोकन</item>
+        <item>प्रत्येक दिन, सप्ताह, महीने, वर्ष और कस्टम अवधि के लिए लेनदेन देखें</item>
+        <item>विभिन्न मुद्राओं के खातों के बीच फंड स्थानांतरण</item>
+        <item>रिपोर्ट: श्रेणीवार व्यय और प्रत्येक दिन, सप्ताह, महीने, वर्ष और कस्टम अवधि के लिए आय</item>
+        <item>रिपोर्ट: व्यय और आय प्रवृत्ति</item>
+        <item>रिपोर्ट: सप्ताह, दिनों, महीनों, वर्षों के बीच तुलना</item>
+        <item>रिपोर्ट: पीडीएफ रिपोर्ट और साझाकरण उत्पन्न करें</item>
+        <item>निर्यात लेनदेन और संलग्न फ़ोटो</item>
+        <item>नियंत्रण अनुसूचित बैकअप</item>
+        <item>ईमेल, ड्राइव, ड्रॉपबॉक्स के माध्यम से बैकअप शेयर और निर्यात करें</item>
+        <item>स्थानीय बैकअप को पुनर्स्थापित करें और क्लाउड से डाउनलोड करें</item>
+        <item>पिन और फिंगरप्रिंट का उपयोग करके ऐप सुरक्षा</item>
+    </string-array>
+    <string name="feature_label_bills">बिल रिमाइंडर</string>
+    <string name="feature_desc_bills">इसके लिए प्रीमियम संस्करण की आवश्यकता है\nऐप को बिल के अनुस्मारक की क्षमता जोड़ता है, और लेन-देन के साथ बिल भुगतान को लिंक करने में आपकी मदद करता है, जो कि एक डबल प्रविष्टि जैसी है \n</string>
+    <string-array name="feature_items_bills">
+        <item>एकीकृत बिल अनुस्मारक</item>
+        <item>सरल और आवर्ती बिल का प्रबंधन</item>
+        <item>दैनिक बिल अनुस्मारक अधिसूचना</item>
+        <item>फोटो को बिल में संलग्न करें</item>
+        <item>बिल के लिए होम स्क्रीन विजेट</item>
+        <item>अनुस्मारक अधिसूचना समय बदलें</item>
+        <item>एक बार में आवर्ती बिल और इसके कॉन्फ़िगरेशन को हटा दें (थोक विलोपन)</item>
+        <item>डैशबोर्ड अवलोकन में बिल शामिल हैं</item>
+        <item>स्थिति से बिल देखें</item>
+        <item>प्रत्येक दिन, सप्ताह, महीने, वर्ष और कस्टम अवधि के लिए बिल देखें</item>
+        <item>बिलों का कैलेंडर दृश्य</item>
+        <item>खोज बिल e</item>
+        <item>एकाधिक चयन: बिलों और श्रेणियों के थोक विलोपन</item>
+        <item>एकाधिक चयन: बिल और श्रेणियों के थोक दोहराव</item>
+        <item>एकाधिक चयन: बिल की श्रेणी बदलना</item>
+        <item>एकाधिक चयन: बिलों की रिमाइंडर की सूचना बदलें</item>
+        <item>रिपोर्ट: प्रत्येक दिन, सप्ताह, महीने, वर्ष और कस्टम अवधि के लिए श्रेणी वार बिल</item>
+        <item>रिपोर्ट: बिल प्रवृत्ति</item>
+        <item>रिपोर्ट: सप्ताह, दिनों, महीनों, वर्षों के बीच तुलना</item>
+        <item>रिपोर्ट: पीडीएफ रिपोर्ट और साझाकरण उत्पन्न करें</item>
+        <item>एक बारकोड स्कैन करें और इसे बिल नोट्स में जोड़ें</item>
+        <item>बिल में बिल भुगतान यूआरएल जोड़ें</item>
+    </string-array>
+    <string name="feature_label_multiprof">एकाधिक प्रोफाइल</string>
+    <string-array name="feature_items_multiprof">
+        <item>हिसाब किताब</item>
+        <item>लेन-देन</item>
+        <item>बजट</item>
+        <item>श्रेणियों और उपश्रेणियाँ</item>
+        <item>बिल</item>
+        <item>आवर्ती सेटिंग्स</item>
+        <item>रिपोर्ट और अन्य स्क्रीन केवल अपनी स्वयं की प्रोफ़ाइल से प्रविष्टियों पर विचार करेंगे</item>
+        <item>यह प्रोफ़ाइल प्रबंधन सुविधाओं को सक्षम करेगा</item>
+    </string-array>
+    <string name="feature_this_version">यह सिर्फ मनी ऐप का निशुल्क परीक्षण संस्करण है और आप ऐप का आनंद लेने के लिए उन्नयन के नीचे खरीद सकते हैं।</string>
+
+
+    <string name="welcome_title4_tx_account">एक खाता जोड़ें</string>
+    <string name="welcome_info4_tx_account">खाता आपके बैंक खाते या आपके वॉलेट में नकद का प्रतिनिधित्व करता है, और लेनदेन प्रविष्टि के लिए आवश्यक है</string>
+    <string name="welcome_title1_tx_detail">एक व्यय या आय जोड़ें</string>
+    <string name="welcome_info1_tx_detail">लेनदेन विवरण दर्ज करें और सहेजें आवर्ती लेनदेन का भी समर्थन करता है।</string>
+    <string name="welcome_title1_tx_receipt">फोटो आपकी रसीद</string>
+    <string name="welcome_info1_tx_receipt">लेनदेन के विवरण के साथ अपने व्यय रसीद को जोड़कर कागजी रहित जाएं।</string>
+    <string name="welcome_title2_tx_email">शेयर लेनदेन और प्राप्तियां</string>
+    <string name="welcome_info2_tx_email">सीएसवी स्वरूप का खर्च और आय, संलग्न रसीद फ़ोटो (ईमेल, ड्रॉपबॉक्स, ड्राइव) सहित निर्यात करें।</string>
+
+    <string name="welcome_title3_tx_list">साधारण टैब लेआउट</string>
+    <string name="welcome_info3_tx_list">प्रत्येक अवधि के लिए लेनदेन देखें और टैब के बीच आसानी से स्वाइप करें। श्रेणियों, खातों आदि के आधार पर फ़िल्टर डेटा।</string>
+    <string name="welcome_title4_tx_budget">बजट योजनाकार</string>
+    <string name="welcome_info4_tx_budget">खर्च बजट जोड़ें और अपने खर्चों के नियंत्रण में बने रहें</string>
+    <string name="welcome_title5_tx_reports">विस्तृत रिपोर्ट और चार्ट</string>
+    <string name="welcome_info5_tx_reports">अवधि और श्रेणियों के बीच व्यय का तुलना, ऐतिहासिक और अनुमानित दोनों के खाते के शेष राशि और नकदी प्रवाह की प्रवृत्ति रिपोर्ट देखें।</string>
+    <string name="welcome_title6_tx_drawer">नेविगेशन ड्रॉवर मेनू</string>
+    <string name="welcome_info6_tx_drawer">डैशबोर्ड, खातों, एकाधिक मुद्रा, श्रेणी और उपश्रेणियों, बजट योजनाकार, कैलेंडर दृश्य, एकाधिक प्रोफ़ाइल, बैकअप और पुनर्स्थापना, और कई और अधिक।</string>
+
+    <string name="widget_acct_balance_title">खाते में शेष</string>
+    <string name="widget_acct_balance">संतुलन: </string>
+    <string name="widget_shortcuts_title">सिर्फ पैसे शॉर्टकट</string>
+    <string name="widget_shortcuts">(शॉर्टकट)</string>
+    <string name="coach_mark_add_bill">खर्च, आय या निधि अंतरण जोड़ने के लिए \'+\' फ़्लोटिंग बटन पर क्लिक करें</string>
+
+    <string name="error_max_txs_exceeded">लेन-देन की संख्या अधिकतम सीमा पार कर गई, कृपया अधिक लेनदेन जोड़ने के लिए अपग्रेड करें।</string>
+    <string name="error_max_accounts_exceeded">खातों की संख्या अधिकतम सीमा पार कर दी, कृपया अधिक खाते जोड़ने के लिए अपग्रेड करें।</string>
+
+    <string name="tx_new_expense">खर्च दर्ज करें</string>
+    <string name="tx_new_income">आय दर्ज करें</string>
+    <string name="tx_bills_disabled_msg">क्या आप जानते हैं कि यह ऐप एकीकृत बिल अनुस्मारक सुविधा का समर्थन करता है? अपने बिलों और भुगतानों को प्रबंधित करने के लिए इसे सक्षम करें।</string>
+</resources>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Money</string>
+
+    <string name="reconcile">คืนดี</string>
+    <string name="menu_accts">บัญชี</string>
+    <string name="menu_search_txs">ธุรกรรมการค้นหา</string>
+    <string name="menu_budget">งบประมาณการใช้จ่าย</string>
+    <string name="bills_reminder">แจ้งเตือนเรื่องการเรียกเก็บเงิน</string>
+    <string name="menu_txs_calendar">มุมมองปฏิทิน</string>
+    <string name="menu_txs_cat_report">การทำธุรกรรมตามหมวดหมู่</string>
+    <string name="menu_txs_recurring">ธุรกรรมที่เกิดซ้ำ</string>
+    <string name="menu_bills_header">แจ้งเตือนเรื่องการเรียกเก็บเงิน</string>
+    <string name="menu_bills_list">ธนบัตร</string>
+    <string name="menu_bills_list_status">ตั๋วเงินตามสถานะ</string>
+    <string name="menu_bills_calendar">มุมมองปฏิทิน</string>
+    <string name="menu_bills_recurring">ตั๋วเงินที่เกิดขึ้นประจำ</string>
+    <string name="for_transactions">สำหรับธุรกรรม</string>
+
+    <string name="export_body">&lt;p&gt; ส่งจากแอป Android \"เพียงแค่เงิน\" &lt;/p&gt;</string>
+    <string name="app_try_title">เตือนเงินเพียงอย่างเดียว</string>
+    <string name="app_try_remind">คุณได้ทดลองใช้แอพหรือไม่ ง่ายและใช้งานง่าย</string>
+    <string name="app_use_remind">คุณได้เพิ่มค่าใช้จ่ายของคุณแล้วหรือยัง?</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- account.xml -->
+
+    <!-- Account List -->
+    <string name="acct_add">สร้างบัญชี</string>
+    <string name="acct_delete">ลบบัญชี</string>
+    <!-- <string name="accts">Account</string>  -->
+    <string name="acct_final_bal">ยอดเงินปัจจุบัน</string>
+    <string name="acct_saved_success">บันทึกบัญชีเรียบร้อยแล้ว</string>
+    <string name="acct_delete_unsaved">ไม่สามารถลบบัญชีที่ยังไม่ได้บันทึก</string>
+    <string name="acct_delete_success">ลบบัญชีเรียบร้อยแล้ว</string>
+    <string name="acct_delete_warn">บัญชีที่เลือกและการทำธุรกรรมทั้งหมดที่อยู่ในนั้นจะถูกลบออก..!</string>
+    <string name="acct_delete_error_msg">ข้อผิดพลาด..!\n คุณต้องมีบัญชีที่ใช้งานอยู่อย่างน้อยหนึ่งบัญชีเพื่อดำเนินการ</string>
+
+    <string name="acct_desc_default">ยอดเปิดบัญชีคือ: %1$s</string>
+    <string name="acct_menu_filter_favorite">บัญชีที่ชื่นชอบเท่านั้น</string>
+    <string name="acct_menu_filter_off">แสดงบัญชีทั้งหมด</string>
+
+    <!--  Account Details -->
+    <string name="acct_details">รายละเอียดบัญชี</string>
+    <string name="acct_details_new">รายละเอียดบัญชีใหม่</string>
+    <string name="acct_name">ชื่อบัญชี</string>
+    <string name="acct_desc">ลักษณะ</string>
+    <string name="acct_init_bal">ความสมดุลเปิด</string>
+    <string name="acct_budget">งบประมาณรายเดือน</string>
+    <string name="acct_currency">เงินตรา</string>
+    <string name="acct_inclInTot">รวมยอดรวม</string>
+    <string name="acct_tx_status">สถานะการทำธุรกรรมเริ่มต้น</string>
+    <string name="acct_active">บัญชีที่ใช้บ่อยหรือชื่นชอบ</string>
+    <string name="acct_active_help_msg">ในหน้าจอบัญชีที่คุณสามารถกรองเพื่อดูเฉพาะบัญชีที่ชื่นชอบได้โดยไม่ต้องกังวลเกี่ยวกับบัญชีที่ไม่ใช้งาน / ปิด (บัญชีที่คุณไม่ได้ใช้บ่อยๆ) \n\nแทนการลบบัญชีซึ่งจะลบธุรกรรมที่เชื่อมโยงกับบัญชีนี้คุณสามารถใช้ตัวเลือกนี้ได้</string>
+    <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
+    <string name="acct_list_empty">ไม่มีบัญชีผู้ใช้อยู่..!</string>
+    <string name="acct_list_empty_warning">ไม่มีบัญชีผู้ใช้โปรดสร้างบัญชีก่อน</string>
+    <string name="acct_list_total_rows">ยอดเงินคงเหลือรวม %1$d บัญชี:</string>
+    <string name="acct_list_total_rows_multi">%1$d บัญชีในหลายสกุลเงิน</string>
+    <string name="acct_list_all_currencies">สกุลเงินทั้งหมด</string>
+    <string name="acct_list_xxx_Accounts">บัญชี %1$s</string>
+    <string name="acct_name_err">ชื่อบัญชีว่างเปล่า..!</string>
+
+    <!-- ==================================================================== -->
+    <!-- tx.xml -->
+
+    <string name="tx_detail_tab">รายละเอียด</string>
+    <string name="tx_detail_tab_new">ป้อนรายละเอียด</string>
+    <string name="tx_detail_title_new">ธุรกรรมใหม่</string>
+    <string name="tx_detail_title_edit">ธุรกรรมที่มีอยู่</string>
+    <string name="tx_bill_pmt_label">เลือกใบเรียกเก็บเงินเพื่อเพิ่มการชำระเงิน</string>
+    <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
+    <string name="tx_bill_pmt_notes">จ่ายบิล</string>
+    <string name="tx_bill_pmt_not_selected">โปรดเลือกใบเสร็จเพื่อให้การชำระเงินเสร็จสมบูรณ์</string>
+    <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
+    <string name="tx_payee">ผู้รับเงินหรือรายการ</string>
+    <string name="tx_payee_hint">บุคคลติดต่อชื่อธุรกิจหรือร้านค้า</string>
+    <string name="tx_transf_amt">จำนวนเงินโอน</string>
+    <string name="tx_date">วันที่ทำรายการ</string>
+    <string name="tx_account">เลือกบัญชี</string>
+    <!--<string name="tx_deposit">เงินฝาก</string>
+    <string name="tx_withdraw">Withdraw</string>-->
+    <string name="tx_status">สถานะการทำธุรกรรม</string>
+    <string name="tx_new">เพิ่มค่าใช้จ่าย / รายได้</string>
+    <string name="tx_bill_pmt">จ่ายบิล</string>
+    <string name="tx_list_empty">ไม่มีการทำธุรกรรมอยู่..!</string>
+    <string name="tx_repeats">รายการที่เกิดซ้ำ</string>
+    <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
+    <string name="tx_error_save_pic">ข้อผิดพลาดขณะบันทึกภาพ: %1$s</string>
+
+    <string name="tx_delete_warn">ลบรายการที่เลือกไว้หรือไม่?</string>
+    <string name="tx_delete_multi">ลบ %1$d รายการแล้ว</string>
+    <string name="tx_multi_update_count">อัปเดตธุรกรรม %1$d แล้ว</string>
+    <string name="tx_duplicate_warn">%1$d รายการที่ซ้ำกันจะถูกสร้างขึ้นให้ดำเนินการต่อหรือไม่?แผนภูมิเส้นแสดงยอดคงเหลือในบัญชีในช่วง 30 วันที่ผ่านมา</string>
+    <string name="tx_duplicate_multi">สร้างธุรกรรม %1$d แล้ว</string>
+    <string name="tx_delete_success">ทำรายการสำเร็จแล้ว</string>
+    <string name="tx_delete_unsaved">ไม่สามารถลบรายการที่ยังไม่ได้บันทึก</string>
+    <string name="tx_amt_err">กรุณาใส่จำนวนที่ถูกต้อง..!</string>
+    <string name="tx_err_future_dt">โปรดป้อนวันที่ในอนาคต</string>
+    <string name="tx_photo_not_supported">ไม่สามารถถ่ายภาพอุปกรณ์ไม่สนับสนุน..!</string>
+    <string-array name="tx_status">
+        <item>เป็นโมฆะ / ไม่ถูกต้อง</item>
+        <item>ไม่ชัดเจน / รอดำเนินการ</item>
+        <item>เคลียร์</item>
+        <item>เคลียร์และคืนดี</item>
+    </string-array>
+    <string name="tx_add_suc">เพิ่มธุรกรรมใหม่แล้ว</string>
+    <string name="tx_update_suc">อัปเดตรายการ</string>
+    <string name="tx_err_end_dt">\'วันที่ทำธุรกรรมถัดไป\' ควรเป็นก่อน \'ทำซ้ำจนถึงวันที่\'</string>
+    <string name="tx_rpt_save">ใช้การเปลี่ยนแปลงที่เกิดซ้ำ</string>
+    <string-array name="tx_rpt_save">
+        <item>โดยไม่ต้องลบรายการใด ๆ และสร้างธุรกรรมใหม่หากจำเป็น</item>
+        <item>ลบและสร้างธุรกรรมโดยใช้การเปลี่ยนแปลงที่เกิดขึ้นใหม่ ธุรกรรมที่เกี่ยวข้องกับการกำหนดค่าที่เกิดซ้ำนี้จะได้รับผลกระทบเท่านั้น</item>
+        <!-- <item>Effect this &amp; all bills.</item> -->
+    </string-array>
+    <string name="tx_rpt_remove">ลบลักษณะที่เกิดซ้ำ</string>
+    <string-array name="tx_rpt_remove">
+        <item>สำหรับธุรกรรมนี้เท่านั้น</item>
+        <item>สำหรับธุรกรรมนี้และที่เกี่ยวข้องทั้งหมด</item>
+    </string-array>
+    <string name="bill_delete_single_warn">การเรียกเก็บเงินและการทำธุรกรรมการเรียกเก็บเงินใด ๆ ที่เชื่อมโยงกันจะถูกลบออกดำเนินการต่อหรือไม่?</string>
+    <string name="bill_delete_multi_warn">ตั๋วเงินที่เลือกไว้และการทำรายการชำระเงินที่เชื่อมโยงกันใด ๆ จะถูกลบออกดำเนินการต่อหรือไม่?</string>
+    <string name="tx_bill_mark_unpaid_warning_title">ทำเครื่องหมายว่าไม่มีการชำระเงิน</string>
+    <string name="tx_bill_mark_unpaid_warning">ลบธุรกรรมที่เกี่ยวข้องกับการเรียกเก็บเงินนี้หรือไม่?</string>
+
+    <!-- Transaction list -->
+    <string name="tx_view_txs">ดูธุรกรรม</string>
+    <string name="tx_list_title">การทำธุรกรรม</string>
+    <string name="tx_list_filter_dialog">กรองป้ายกำกับที่มองเห็นได้</string>
+
+    <string name="tx_export_subject">เงิน</string>
+    <string name="tx_export_title">ส่งออกเป็น csv</string>
+    <string name="tx_export_type">ข้อความ / ธรรมดา</string>
+    <string name="tx_list_total_rows"> %1$s แถวทั้งหมด: </string>
+    <string name="tx_list_total_rows_multi_curr"> %1$s แถวในหลายสกุลเงิน </string>
+    <string name="tx_list_cleared">(เคลียร์: </string>
+
+    <string name="tx_list_options_view">ดูรายละเอียดการทำธุรกรรม</string>
+    <string name="tx_list_options_select">เลือกแถวนี้</string>
+    <string name="tx_list_options_copy">สร้างสำเนา (ซ้ำ)</string>
+    <string name="tx_list_options_delete">ลบรายการ</string>
+
+    <string name="tx_removed_recurring">รายการยกเลิกการเชื่อมโยงจากการกำหนดค่าที่เกิดขึ้น</string>
+
+    <!-- Fund Transfer -->
+    <string name="transfer_fromAcct">จากบัญชี</string>
+    <string name="transfer_toAcct">บัญชี</string>
+    <string name="transfer_toAmt">จำนวนเงินที่โอนหลังจากแปลงเป็น </string>
+    <string name="transfer_exRate">อัตราแลกเปลี่ยนคือ </string>
+    <string name="transfer_rate_modify">แก้ไขอัตรา</string>
+    <string name="transfer_save">โอนเงิน</string>
+    <string name="transfer_rate_default_err">อัตราแลกเปลี่ยนที่ไม่ถูกต้องโปรดปรับเปลี่ยนอัตรา Conversion</string>
+    <string name="transfer_diff_acct_err">โปรดเลือกบัญชีอื่นเพื่อทำการโอนเงิน</string>
+    <string name="transfer_success">การโอนเงินสำเร็จ</string>
+    <string name="transfer_to">โอนไป </string>
+    <string name="transfer_from">โอนจาก </string>แผนภูมิเส้นแสดงยอดคงเหลือในบัญชีในช่วง 30 วันที่ผ่านมา
+
+
+    <!-- ==================================================================== -->
+    <!-- Tools.xml -->
+
+    <string name="import_acct">เลือกบัญชี</string>
+    <string name="import_file">เลือกไฟล์ csv ที่จะนำเข้า</string>
+    <string name="import_choose_file">เลือกไฟล์รูปแบบ CSV</string>
+    <string name="import_choose_file_warn">โปรดเลือกไฟล์ csv แล้วคลิกนำเข้า</string>
+    <string name="import_dtfmt">รูปแบบวันที่</string>
+    <string name="import_first_heading">บรรทัดแรกคือส่วนหัวของคอลัมน์</string>
+    <string name="import_signed_amt">จำนวนเงินที่ลงนามในคอลัมน์เดียว</string>
+    <string name="import_signed_amt_help">เมื่อทำเครื่องหมาย: \nจำนวนบวกเป็นรายได้และจำนวนลบเป็นค่าใช้จ่าย\n\nเมื่อยกเลิกการทำเครื่องหมาย:\nจำนวนเงิน (ไม่มีเครื่องหมายเช่น: 10.75) อยู่ในคอลัมน์ 2 คอลัมน์เท่านั้น (จำนวนเงินที่หักหรือเครดิตจำนวน)</string>
+    <string name="import_signed_warn">โปรดตรวจสอบว่าไฟล์ csv มีคำสั่งดังนี้: </string>
+    <string name="import_signed_cols">วันที่ผู้รับเงินจำนวนหมวดหมู่รายละเอียด</string>
+    <string name="import_unsigned_cols">วันที่, ผู้รับเงิน, จำนวนเงินที่หัก, จำนวนเงินที่ได้รับเครดิต, หมวดหมู่, รายละเอียด</string>
+    <string name="import_but">นำเข้า</string>
+    <string name="import_success">ทำการนำเข้าธุรกรรม %1$d สำเร็จแล้ว</string>
+    <string name="import_fail_wrong_content">ไม่สามารถนำเข้าไฟล์ได้โปรดตรวจสอบเนื้อหาของไฟล์</string>
+    <string name="import_error_file">ไม่สามารถอ่าน  \'%1$s\' โปรดตรวจสอบว่าไฟล์ csv มีอยู่หรือไม่</string>
+    <string name="import_progress_msg">ดึงข้อมูล&#8230;</string>
+    <string name="import_already_started">มีการนำเข้าอยู่ในระหว่างดำเนินการโปรดลองหลังจากบางครั้ง..!!</string>
+    <string name="import_confirm">นำเข้าธุรกรรมจาก \'%1$s\' ในบัญชี \'%2$s\' \n\nคุณต้องการดำเนินการต่อหรือไม่?</string>
+
+    <string name="export_file">ชื่อไฟล์ CSV (บันทึกไว้ที่: \'%1$s\')</string>
+    <string name="export_column_msg">ไฟล์ CSV ที่ส่งออกจะมีคำสั่งดังนี้:</string>
+    <string name="export">ส่งออกเป็น csv</string>
+    <string name="export_to">ส่งออกและส่ง&#8230;</string>
+    <string name="export_success">การส่งออก %1$d สำเร็จแล้ว</string>
+    <string name="export_fail">ไม่สามารถส่งออกรายการโปรดตรวจสอบว่ามีชื่อไฟล์ที่ถูกต้อง</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- preferences.xml -->
+    <string name="prefTitleForcastDialog">สร้างรายการที่เกิดขึ้นประจำ</string>
+    <string name="prefSummaryForcast">การทำธุรกรรมและตั๋วเงินที่เกิดซ้ำจะถูกสร้างขึ้นโดยอัตโนมัติจนกว่าจะถึงกำหนดระยะเวลา ตัวอย่าง: ล่วงหน้า 3 เดือน</string>
+
+    <string name="prefScreenTitleTransactions">การทำธุรกรรม</string>
+
+    <string name="prefTitleIgnoreTransferTick">ซ่อนการโอนเงิน</string>
+
+    <string name="prefTitleImportTxs">การนำเข้า</string>
+    <string name="prefSummaryImportTxs">เพื่อนำเข้าธุรกรรมจากไฟล์ csv ไปยังบัญชีที่เลือกให้แตะที่นี่ (เพื่อดูคำสั่งคอลัมน์ไฟล์ csv)</string>
+
+    <string name="prefTitleExportTxs">การส่งออก</string>
+    <string name="prefSummaryExportTxs">เพื่อส่งออกรายการบัญชีไปยังไฟล์ CSV และแบ่งปันผ่านทางอีเมลดรอปบ็อกซ์ ฯลฯ (รวมถึงภาพถ่าย) ให้แตะที่นี่</string>
+
+    <string name="prefLabelSettingsBillsFeature">คุณลักษณะการแจ้งเตือนการเรียกเก็บเงินแบบบูรณาการ</string>
+    <string name="prefSummarySettingsBillsDisabled">ตัวเลือกเมนูแบบง่ายจะปรากฏขึ้นเมื่อมีการปิดการแจ้งเตือนการเรียกเก็บเงิน หากคุณต้องการจัดการและติดตามค่าใช้จ่ายและเชื่อมโยงการชำระเงินกับธุรกรรมเช่นเดียวกับระบบรายการคู่โปรดเปิดใช้งาน\n\nการเปิดใช้ตัวเลือกนี้จะแสดงตัวเลือกเมนูขั้นสูงที่มีการแจ้งเตือนการแจ้งเตือนการเรียกเก็บเงิน</string>
+
+    <!-- ==================================================================== -->
+    <!-- currency.xml -->
+
+    <string name="curr_from">จาก </string>
+    <string name="curr_to">ไปยัง </string>
+    <string name="curr_ex_rate">อัตรา</string>
+    <string name="curr_ex_inverse">ผกผัน</string>
+    <string name="curr_ex_new">เพิ่มอัตราแลกเปลี่ยน</string>
+    <string name="curr_ex_edit">แก้ไขอัตราแลกเปลี่ยน</string>
+
+    <!-- Error Messages -->
+    <string name="curr_ex_duplicate_err">อัตราแลกเปลี่ยนสำหรับสกุลเงินที่เลือกมีอยู่แล้ว..!</string>
+    <string name="curr_ex_update_err">ไม่สามารถอัพเดตอัตราแลกเปลี่ยนโปรดลองอีกครั้ง..!</string>
+    <string name="curr_ex_same_err">จากสกุลเงินและสกุลเงินควรจะแตกต่างกัน!</string>
+    <string name="curr_ex_invalid_rate">โปรดป้อนอัตราแลกเปลี่ยนที่ถูกต้องสำหรับสกุลเงินที่เลือก..!</string>
+    <string name="curr_ex_rates_warn">บางอัตราแลกเปลี่ยนมีค่าเริ่มต้นโปรดปรับเปลี่ยนด้วยอัตราที่เหมาะสม..!</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- budget.xml -->
+
+    <string name="budget_title">งบประมาณ</string>
+    <string name="budget_spend_vs_budget">ค่าใช้จ่าย / งบประมาณ: </string>
+    <string name="budget_surplus_vs_budget">ส่วนเกิน / งบประมาณ: </string>
+    <string name="budget_list_empty">ไม่มีงบประมาณอยู่..! \n (แตะปุ่มลอยตัว \'+\' เพื่อสร้าง)</string>
+    <string name="budget_amt_invalid_warn">โปรดป้อนจำนวนเงินงบประมาณที่ถูกต้องซึ่งมากกว่า 0</string>
+
+    <string name="budget_new">งบประมาณใหม่</string>
+    <string name="budget_edit">แก้ไขงบประมาณ</string>
+    <string name="budget_remove">ลบงบประมาณ</string>
+    <string name="budget_all_categories">ทุกประเภท</string>
+    <string name="budget_all_currency_accounts">บัญชี %1$s ทั้งหมด</string>
+    <string name="budget_remaining">เหลือที่จะใช้จ่าย</string>
+
+    <string name="budget_category_all">สำหรับทุกประเภท</string>
+    <string name="budget_category_selected">หมวดหมู่ที่เลือก</string>
+    <string name="budget_currency_switch">งบประมาณสกุลเงิน</string>
+    <string name="budget_currency_for">สำหรับทุกอย่าง</string>
+    <string name="budget_currency_accts"> บัญชี </string>
+    <string name="budget_amount">งบประมาณตัวอย่างเช่น 300</string>
+    <string name="budget_type_spend">เพื่อใช้จ่าย</string>
+    <string name="budget_type_earn">ที่จะได้รับ</string>
+    <string name="budget_period">ระยะเวลาการใช้จ่าย</string>
+    <string-array name="budget_seekbar_labels">
+        <item>วัน</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>ปี</item>
+    </string-array>
+    <string-array name="budget_seekbar_selections">
+        <item>ทุกวัน / วันเดียว</item>
+        <item>สัปดาห์ / สำหรับทั้งสัปดาห์</item>
+        <item>เดือน / เดือนปฏิทิน</item>
+        <item>ปี / ตลอดทั้งปี</item>
+    </string-array>
+
+    <string name="budget_delete_unsaved">ไม่สามารถลบงบประมาณที่ยังไม่ได้บันทึก</string>
+    <string name="budget_delete_success">งบประมาณที่ถูกลบเรียบร้อยแล้ว</string>
+    <string name="budget_delete_warn">งบประมาณที่เลือกจะถูกลบไปดำเนินการต่อหรือไม่?</string>
+    <string name="budget_save_success">ประหยัดงบประมาณเรียบร้อยแล้ว</string>
+    <string name="budget_fields_invalid">งบประมาณควรเป็นสกุลเงินหรือตามบัญชี</string>
+    <string name="budget_exists_error">งบประมาณมีอยู่แล้ว..!</string>
+    <string name="error">ความผิดพลาด</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- reports.xml -->
+
+    <string name="rpt_title">รายงาน</string>
+    <string name="select_account">เลือกบัญชี</string>
+
+    <string name="tx_rpt_total_expense">การใช้จ่ายทั้งหมด: %1$s</string>
+    <string name="tx_rpt_total_income">รายได้รวม: %1$s</string>
+    <string name="tx_rpt_type_cat_expense">ค่าใช้จ่ายตามประเภท</string>
+    <string name="tx_rpt_type_cat_income">รายได้ตามประเภท</string>
+    <string name="tx_rpt_pdf_category_filename_template">รายงานที่ชาญฉลาดประเภท %1$s - %2$s</string>
+
+
+    <!-- Tx Filter -->
+    <string name="filter_accounts_all">บัญชี (ทั้งหมด)</string>
+    <string name="filter_accounts_count">บัญชี (%1$d)</string>
+    <string name="filter_account_title">กรองบัญชี</string>
+
+    <!-- Recurring Tx Configs -->
+    <string name="recurtx_list_empty">ไม่มีการกำหนดค่าที่เกิดขึ้นอีก \nสร้างธุรกรรมใหม่ที่เปิดใช้งานการกำหนดค่าที่เกิดขึ้นใหม่</string>
+    <string name="tx_deleted_recur">ลบธุรกรรมที่ทำซ้ำแล้ว</string>
+    <string name="tx_delete_recur_warn">รายการที่เกิดขึ้นประจำนี้และรายการที่เกี่ยวข้องทั้งหมดจะถูกลบออกดำเนินการต่อหรือไม่?</string>
+
+    <!-- For Transactions -->
+    <string name="dashboard_summary_txs">ภาพรวมระยะเวลา:</string>
+    <string name="dashboard_summary_balances">ยอดคงเหลือในบัญชี: </string>
+    <string name="dashboard_summary_income">รายได้: </string>
+    <string name="dashboard_summary_expense">ค่าใช้จ่าย: </string>
+    <string name="dashboard_title_tx_chart_expense">ค่าใช้จ่ายตามประเภท (ธุรกรรม)</string>
+    <string name="dashboard_title_tx_chart_income">รายได้ตามประเภท (ธุรกรรม)</string>
+
+    <string name="acct_rpt_balance_label">ยอดบัญชีเป็นเวลา 30 วัน</string>
+    <string name="acct_rpt_balance_info">แผนภูมิเส้นแสดงประวัติศาสตร์และคาดการณ์ยอดคงเหลือในบัญชีเป็นรายวัน</string>
+    <string name="acct_rpt_balance_currency">สกุลเงิน: %1$s</string>
+    <string name="acct_rpt_balance_accounts_all">บัญชี %1$s ทั้งหมด</string>
+    <string name="acct_rpt_balance_accounts_selected">เลือกบัญชี %1$s (%2$d)</string>
+    <string name="acct_rpt_balance_separate_lines">พล็อตแต่ละบัญชี</string>
+    <string name="acct_rpt_balance_screen_title">ยอดคงเหลือบัญชี</string>
+    <string name="acct_rpt_balance_credit">ในเครดิต</string>
+    <string name="acct_rpt_balance_debit">เป็นหนี้</string>
+
+
+    <string name="tx_rpt_trends_screen_title">แนวโน้มกระแสเงินสด</string>
+    <string name="tx_rpt_trends_expense_label">แนวโน้มในช่วง 30 วันที่ผ่านมา (ค่าใช้จ่าย)</string>
+    <string name="tx_rpt_trends_expense_info">กราฟเส้นแสดงทั้งค่าใช้จ่ายในช่วง 30 วันที่ผ่านมา</string>
+    <string name="tx_rpt_trends_income_label">แนวโน้มในช่วง 30 วันที่ผ่านมา (รายได้)</string>
+    <string name="tx_rpt_trends_income_info">แผนภูมิเส้นแสดงกระแสเงินสดของรายได้ในช่วง 30 วันที่ผ่านมา</string>
+
+    <string name="tx_rpt_category_wise_expenses_label">ค่าใช้จ่ายตามประเภท</string>
+    <string name="tx_rpt_category_wise_expenses_info">แผนภูมิวงกลมที่แสดงการใช้จ่ายตามหมวดหมู่ที่ชาญฉลาดสำหรับช่วงเวลาที่กำหนด</string>
+    <string name="tx_rpt_category_wise_income_label">รายได้ตามประเภท</string>
+    <string name="tx_rpt_category_wise_income_info">แผนภูมิวงกลมแสดงรายได้ฉลาดหมวดหมู่สำหรับช่วงเวลาที่กำหนด</string>
+    <!--<string name="tx_rpt_category_wise_expenses_6months_label">Spending by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_expenses_6months_info">Pie chart showing category wise spending for a given period</string>
+    <string name="tx_rpt_category_wise_income_6months_label">Income by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_income_6months_info">Pie chart showing category wise income for a given period</string>-->
+    <string name="tx_rpt_period_wise_expense_label">การเปรียบเทียบรายเดือน (ค่าใช้จ่าย)</string>
+    <string name="tx_rpt_period_wise_expense_info">กราฟแท่งเปรียบเทียบค่าใช้จ่ายสำหรับแต่ละงวด</string>
+    <string name="tx_rpt_period_wise_income_label">การเปรียบเทียบรายเดือน (รายได้)</string>
+    <string name="tx_rpt_period_wise_income_info">กราฟแท่งเปรียบเทียบรายได้สำหรับแต่ละงวด</string>
+    <string name="tx_rpt_account_balance_trends_label">แนวโน้มยอดคงเหลือในบัญชี 30 วันที่ผ่านมา</string>
+    <string name="tx_rpt_account_balance_trends_info">แผนภูมิเส้นแสดงยอดคงเหลือในบัญชีในช่วง 30 วันที่ผ่านมา</string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_description">เงินเพียงอย่างเดียวคือโซลูชันทางการเงินที่สมบูรณ์แบบในการจัดการและติดตามค่าใช้จ่ายรายได้ค่าบัญชีค่าใช้จ่าย เพียงแค่เพิ่มรายการเมื่อใดก็ตามที่คุณใช้หรือหารายได้ก็สามารถแนบรูปถ่ายใบเสร็จ และใช้รายงานและแผนภูมิเพื่อวิเคราะห์แนวโน้มการทำธุรกรรมการเปรียบเทียบยอดคงเหลือในบัญชีและอื่น ๆ อีกมากมาย</string>
+
+    <string name="feature_label_free">ทดลองฟรี</string>
+    <string name="feature_desc_free">รุ่นนี้มีคุณลักษณะพื้นฐานในการจัดการค่าใช้จ่ายและรายได้ของคุณโดยมีคุณสมบัติด้านล่าง:\n</string>
+    <string-array name="feature_items_free">
+        <item>เพิ่มรายได้หรือค่าใช้จ่าย</item>
+        <item>การสนับสนุนธุรกรรมที่เกิดซ้ำ</item>
+        <item>การทำธุรกรรม จำกัด (1000)</item>
+        <item>การจัดการบัญชี จำกัด (5)</item>
+        <item>การสนับสนุนสกุลเงินหลายสกุล</item>
+        <item>รองรับมากกว่า 150 สกุลเงิน</item>
+        <item>วางแผนงบประมาณสำหรับเดือน</item>
+        <item>แนบรูปภาพกับธุรกรรม</item>
+        <item>จำกัด หมวดหมู่และหมวดหมู่ย่อย (70)</item>
+        <item>วิดเจ็ตบัญชีบนหน้าจอหลัก</item>
+        <item>ดูรายการเดือนที่ชาญฉลาด</item>
+        <item>ธุรกรรมการค้นหา</item>
+        <item>มุมมองปฏิทิน</item>
+        <item>ธุรกรรมการค้นหา</item>
+        <item>กรองข้อมูลการแสดงผล</item>
+        <item>เรียงรายการรายการ</item>
+        <item>การโอนเงินระหว่างบัญชีสกุลเงินเดียวกันเท่านั้น</item>
+        <item>ภาพรวมแดชบอร์ดในแต่ละเดือน</item>
+        <item>การเลือกหลายรายการ: ลบรายการและประเภทหลายรายการ</item>
+        <item>การเลือกหลายรายการ: ทำสำเนารายการและประเภทต่างๆ</item>
+        <item>รายงาน: หมวดหมู่ค่าใช้จ่ายที่ชาญฉลาด / รายได้สำหรับแต่ละเดือน</item>
+        <item>การนำเข้า</item>
+        <item>สแกนบาร์โค้ดและเพิ่มลงในบันทึกธุรกรรม</item>
+        <item>สร้างการสำรองข้อมูลรวมถึงรูปถ่ายใบเสร็จที่แนบมาด้วย</item>
+        <item>การสำรองข้อมูลตามกำหนดเวลาทุกวัน</item>
+        <item>เฉพาะรูปแบบเดียว</item>
+    </string-array>
+    <string name="feature_label_pro">เบี้ยประกันภัย</string>
+    <string name="feature_desc_pro">ซึ่งรวมถึงคุณลักษณะทั้งหมดที่มีให้โดย \'ทดลองใช้ฟรี\' \n\t\t\t+\nต่ำกว่าคุณลักษณะพิเศษ: \n</string>
+    <string-array name="feature_items_pro">
+        <item>ธุรกรรมที่ไม่ จำกัด</item>
+        <item>บัญชีที่ไม่ จำกัด</item>
+        <item>หมวดหมู่และหมวดหมู่ย่อยไม่ จำกัด</item>
+        <item>ลบการทำธุรกรรมที่เกิดซ้ำและการกำหนดค่าในครั้งเดียว (การลบจำนวนมาก)</item>
+        <item>การเลือกหลายรายการ: เปลี่ยนประเภทของธุรกรรม</item>
+        <item>วิดเจ็ตทางลัดหน้าจอหลัก</item>
+        <item>เปลี่ยนหน้าจอเริ่มต้น</item>
+        <item>วางแผนงบประมาณสำหรับวันสัปดาห์เดือนและปี</item>
+        <item>ภาพรวมแดชบอร์ดสำหรับแต่ละวันสัปดาห์เดือนและปี</item>
+        <item>ดูธุรกรรมในแต่ละวันสัปดาห์เดือนปีและระยะเวลาที่กำหนดเอง</item>
+        <item>การโอนเงินระหว่างบัญชีต่างสกุลเงิน</item>
+        <item>รายงาน: หมวดหมู่ฉลาดค่าใช้จ่ายและรายได้สำหรับแต่ละวัน, สัปดาห์, เดือน, ปีและระยะเวลาที่กำหนดเอง</item>
+        <item>รายงาน: ค่าใช้จ่ายและรายได้แนวโน้ม</item>
+        <item>รายงาน: การเปรียบเทียบระหว่างสัปดาห์วันเดือนปี</item>
+        <item>รายงาน: สร้างรายงาน PDF และแชร์</item>
+        <item>การส่งออกและภาพถ่ายที่แนบมา</item>
+        <item>ควบคุมการสำรองข้อมูลตามกำหนดเวลา</item>
+        <item>แชร์และส่งออกข้อมูลสำรองผ่านทางอีเมล drive, dropbox</item>
+        <item>เรียกคืนการสำรองข้อมูลในเครื่องและดาวน์โหลดจากระบบคลาวด์</item>
+        <item>ความปลอดภัยของแอปโดยใช้ PIN และลายนิ้วมือ</item>
+    </string-array>
+    <string name="feature_label_bills">แจ้งเตือนเรื่องการเรียกเก็บเงิน</string>
+    <string name="feature_desc_bills">นี้จำเป็นต้องใช้รุ่นพรีเมี่ยม\naddsแจ้งเตือนความสามารถในการแจ้งเตือนไปยัง app และช่วยให้คุณสามารถเชื่อมโยงการชำระเงินค่ากับการทำธุรกรรมบางอย่างเช่นรายการสองครั้ง \n</string>
+    <string-array name="feature_items_bills">
+        <item>การแจ้งเตือนการเรียกเก็บเงินแบบบูรณาการ</item>
+        <item>จัดการค่าใช้จ่ายที่เรียบง่ายและเกิดขึ้นประจำ</item>
+        <item>การแจ้งเตือนการแจ้งเตือนการเรียกเก็บเงินรายวัน</item>
+        <item>แนบภาพไปยังตั๋วเงิน</item>
+        <item>วิดเจ็ตบนหน้าจอหลักสำหรับตั๋วเงิน</item>
+        <item>เปลี่ยนเวลาแจ้งเตือน</item>
+        <item>ลบตั๋วที่เกิดขึ้นประจำและการกำหนดค่าในครั้งเดียว (การลบจำนวนมาก)</item>
+        <item>ภาพรวมแดชบอร์ดรวมถึงตั๋วเงิน</item>
+        <item>ดูตั๋วเงินตามสถานะ</item>
+        <item>ดูตั๋วเงินสำหรับแต่ละวันสัปดาห์เดือนปีและระยะเวลาที่กำหนดเอง</item>
+        <item>มุมมองปฏิทินของตั๋วเงิน</item>
+        <item>ค่าการค้นหา</item>
+        <item>การเลือกหลายรายการ: การลบข้อมูลและหมวดหมู่จำนวนมาก</item>
+        <item>การเลือกหลายรายการ: การทำสำเนาของตั๋วเงินและหมวดหมู่เป็นจำนวนมาก</item>
+        <item>การเลือกหลายรายการ: เปลี่ยนประเภทของตั๋วเงิน</item>
+        <item>การเลือกหลายรายการ: แจ้งเตือนการแจ้งเตือนการเปลี่ยนแปลงของตั๋วเงิน</item>
+        <item>รายงาน: หมวดหมู่ฉลาดค่าสำหรับแต่ละวันสัปดาห์เดือนปีและระยะเวลาที่กำหนดเอง</item>
+        <item>รายงาน: แนวโน้มตั๋วแลกเงิน</item>
+        <item>รายงาน: การเปรียบเทียบระหว่างสัปดาห์วันเดือนปี</item>
+        <item>รายงาน: สร้างรายงาน PDF และแชร์</item>
+        <item>สแกนบาร์โค้ดและเพิ่มลงในธนบัตร</item>
+        <item>เพิ่ม URL การเรียกเก็บเงินในบิล</item>
+    </string-array>
+    <string name="feature_label_multiprof">หลายโปรไฟล์</string>
+    <string-array name="feature_items_multiprof">
+        <item>บัญชี</item>
+        <item>การทำธุรกรรม</item>
+        <item>งบประมาณ</item>
+        <item>หมวดหมู่และหมวดหมู่ย่อย</item>
+        <item>ธนบัตร</item>
+        <item>การตั้งค่าที่เกิดซ้ำ</item>
+        <item>รายงานและหน้าจออื่น ๆ จะพิจารณารายการจากโปรไฟล์ของตัวเองเท่านั้น</item>
+        <item>ซึ่งจะช่วยให้สามารถใช้คุณสมบัติการจัดการโปรไฟล์ได้</item>
+    </string-array>
+    <string name="feature_this_version">นี้เป็นรุ่นทดลองใช้ฟรีเพียง app เงินและคุณสามารถซื้อด้านล่างอัพเกรดเพลิดเพลินไปกับ app ที่ดีที่สุด</string>
+
+
+    <string name="welcome_title4_tx_account">เพิ่มบัญชี</string>
+    <string name="welcome_info4_tx_account">แสดงบัญชีธนาคารของคุณหรือเงินสดในกระเป๋าสตางค์ของคุณและจำเป็นสำหรับการทำธุรกรรม</string>
+    <string name="welcome_title1_tx_detail">เพิ่มค่าใช้จ่ายหรือรายได้</string>
+    <string name="welcome_info1_tx_detail">ป้อนรายละเอียดธุรกรรมและบันทึก ยังสนับสนุนการทำธุรกรรมที่เกิดขึ้นประจำ</string>
+    <string name="welcome_title1_tx_receipt">ภาพใบเสร็จรับเงินของคุณ</string>
+    <string name="welcome_info1_tx_receipt">ไปโดยไม่ต้องใช้กระดาษโดยแนบใบเสร็จรับเงินค่าใช้จ่ายของคุณพร้อมกับรายละเอียดการทำธุรกรรม</string>
+    <string name="welcome_title2_tx_email">การทำธุรกรรมร่วมกันและใบเสร็จรับเงิน</string>
+    <string name="welcome_info2_tx_email">ส่งออกค่าใช้จ่ายและรายได้จากรูปแบบ CSV รวมทั้งรูปถ่ายใบเสร็จที่แนบมาด้วย (อีเมล, Dropbox, ไดรฟ์)</string>
+
+    <string name="welcome_title3_tx_list">การจัดวางแท็บง่ายๆ</string>
+    <string name="welcome_info3_tx_list">ดูธุรกรรมในแต่ละช่วงเวลาได้อย่างง่ายดายและกวาดระหว่างแท็บ กรองข้อมูลตามหมวดหมู่บัญชี ฯลฯ</string>
+    <string name="welcome_title4_tx_budget">วางแผนงบประมาณ</string>
+    <string name="welcome_info4_tx_budget">เพิ่มงบประมาณในการจ่ายและควบคุมค่าใช้จ่ายของคุณ</string>
+    <string name="welcome_title5_tx_reports">รายงานและแผนภูมิที่กว้างขวาง</string>
+    <string name="welcome_info5_tx_reports">เปรียบเทียบยอดค่าใช้จ่ายระหว่างช่วงเวลาและประเภทดูยอดคงเหลือในบัญชีทั้งในอดีตและที่คาดการณ์ไว้และรายงานแนวโน้มกระแสเงินสด</string>
+    <string name="welcome_title6_tx_drawer">เมนูลิ้นชักการนำทาง</string>
+    <string name="welcome_info6_tx_drawer">แดชบอร์ดบัญชีหลายสกุลเงินหมวดหมู่และหมวดหมู่ย่อยวางแผนงบประมาณมุมมองปฏิทินหลายโปรไฟล์การสำรองข้อมูลและเรียกคืนและอื่น ๆ อีกมากมาย</string>
+
+    <string name="widget_acct_balance_title">ยอดเงินในบัญชี</string>
+    <string name="widget_acct_balance">สมดุล: </string>
+    <string name="widget_shortcuts_title">ทางลัดเงินเพียง</string>
+    <string name="widget_shortcuts">(ทางลัด)</string>
+    <string name="coach_mark_add_bill">คลิก \'+\' ลอยตัวเพื่อเพิ่มรายจ่ายรายได้หรือการโอนเงิน</string>
+
+    <string name="error_max_txs_exceeded">จำนวนธุรกรรมเกินขีด จำกัด สูงสุดโปรดอัปเกรดเพื่อเพิ่มธุรกรรมมากขึ้น</string>
+    <string name="error_max_accounts_exceeded">จำนวนบัญชีเกินขีด จำกัด สูงสุดโปรดอัปเกรดเพื่อเพิ่มบัญชีมากขึ้น</string>
+
+    <string name="tx_new_expense">ป้อนค่าใช้จ่าย</string>
+    <string name="tx_new_income">ใส่รายได้</string>
+    <string name="tx_bills_disabled_msg">คุณรู้หรือไม่ว่า App นี้รองรับคุณสมบัติการแจ้งเตือนค่าใช้จ่ายรวม? เปิดใช้งานเพื่อจัดการค่าใช้จ่ายและการชำระเงินของคุณ</string>
+</resources>
