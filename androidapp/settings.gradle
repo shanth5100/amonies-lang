@@ -1,0 +1,2 @@
+include ':app', ':cats'
+rootProject.name='Just Money Manager'
