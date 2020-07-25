@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Money</string>
+
+    <string name="reconcile">conciliar</string>
+    <string name="menu_accts">contas</string>
+    <string name="menu_search_txs">procurar transações</string>
+    <string name="menu_budget">orçamento de gastos</string>
+    <string name="bills_reminder">lembrete de contas</string>
+    <string name="menu_txs_calendar">visão do calendário</string>
+    <string name="menu_txs_cat_report">transações por categoria</string>
+    <string name="menu_txs_recurring">transações recorrentes</string>
+    <string name="menu_bills_header">lembrete de contas</string>
+    <string name="menu_bills_list">contas</string>
+    <string name="menu_bills_list_status">contas por status</string>
+    <string name="menu_bills_calendar">visão do calendário</string>
+    <string name="menu_bills_recurring">contas recorrentes</string>
+    <string name="for_transactions">para transações</string>
+
+    <string name="export_body">&lt;p&gt; enviado de \'apenas dinheiro\' aplicativo Android &lt;/p&gt;</string>
+    <string name="app_try_title">Apenas lembrete de dinheiro</string>
+    <string name="app_try_remind">você já tentou o aplicativo? é simples e fácil de usar.</string>
+    <string name="app_use_remind">você adicionou suas despesas hoje?</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- account.xml -->
+
+    <!-- Account List -->
+    <string name="acct_add">Criar Conta em portugues-Brasil</string>
+    <string name="acct_delete">deletar conta</string>
+    <!-- <string name="accts">Account</string>  -->
+    <string name="acct_final_bal">saldo atual</string>
+    <string name="acct_saved_success">conta salva com sucesso.</string>
+    <string name="acct_delete_unsaved">não é possível excluir a conta não guardada.</string>
+    <string name="acct_delete_success">Excluiu a conta com sucesso.</string>
+    <string name="acct_delete_warn">A conta selecionada e todas as transações nele serão excluídas..!</string>
+    <string name="acct_delete_error_msg">erro..!\n você precisa ter pelo menos uma conta ativa para operar.</string>
+
+    <string name="acct_desc_default">saldo de abertura da conta é: %1$s</string>
+    <string name="acct_menu_filter_favorite">contas favoritas apenas</string>
+    <string name="acct_menu_filter_off">mostrar todas as contas</string>
+
+    <!--  Account Details -->
+    <string name="acct_details">Detalhes da conta</string>
+    <string name="acct_details_new">novos detalhes da conta</string>
+    <string name="acct_name">nome da conta</string>
+    <string name="acct_desc">descrição</string>
+    <string name="acct_init_bal">saldo inicial</string>
+    <string name="acct_budget">orçamento mensal</string>
+    <string name="acct_currency">moeda</string>
+    <string name="acct_inclInTot">incluir o saldo no total</string>
+    <string name="acct_tx_status">status de transação padrão</string>
+    <string name="acct_active">conta usada com freqüência ou favorita</string>
+    <string name="acct_active_help_msg">Na tela de contas, você pode filtrar para visualizar apenas as contas favoritas, sem se preocupar com contas inativas / fechadas (aquelas que você não usa com freqüência). \n\nentão, em vez de excluir uma conta, que removeria as transações ligadas a ela, você pode usar essa opção.</string>
+    <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
+    <string name="acct_list_empty">não existe nenhuma conta..!</string>
+    <string name="acct_list_empty_warning">não há nenhuma conta, crie uma conta primeiro.</string>
+    <string name="acct_list_total_rows">Saldo total de %1$d contas:</string>
+    <string name="acct_list_total_rows_multi">%1$d contas em moedas múltiplas</string>
+    <string name="acct_list_all_currencies">todas as moedas</string>
+    <string name="acct_list_xxx_Accounts">%1$s contas</string>
+    <string name="acct_name_err">o nome da conta está vazio..!</string>
+
+    <!-- ==================================================================== -->
+    <!-- tx.xml -->
+
+    <string name="tx_detail_tab">Detalhes</string>
+    <string name="tx_detail_tab_new">insira detalhes</string>
+    <string name="tx_detail_title_new">Nova Transação</string>
+    <string name="tx_detail_title_edit">Transação existente</string>
+    <string name="tx_bill_pmt_label">Selecione uma fatura para adicionar pagamento</string>
+    <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
+    <string name="tx_bill_pmt_notes">pagamento de conta</string>
+    <string name="tx_bill_pmt_not_selected">selecione uma conta para completar o pagamento da conta.</string>
+    <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
+    <string name="tx_payee">beneficiário, pagador ou item</string>
+    <string name="tx_payee_hint">Pessoa de contato, nome comercial ou de loja</string>
+    <string name="tx_transf_amt">valor da transferência</string>
+    <string name="tx_date">data da transação</string>
+    <string name="tx_account">selecione uma conta</string>
+    <!--<string name="tx_deposit">Deposit</string>
+    <string name="tx_withdraw">Withdraw</string>-->
+    <string name="tx_status">status da transação</string>
+    <string name="tx_new">adicionar despesa / renda</string>
+    <string name="tx_bill_pmt">pagamento de conta</string>
+    <string name="tx_list_empty">não existem transações..!</string>
+    <string name="tx_repeats">transação recorrente</string>
+    <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
+    <string name="tx_error_save_pic">Erro ao salvar a imagem: %1$s</string>
+
+    <string name="tx_delete_warn">excluir transações selecionadas?</string>
+    <string name="tx_delete_multi">%1$d transações excluídas.</string>
+    <string name="tx_multi_update_count">%1$d transações atualizadas.</string>
+    <string name="tx_duplicate_warn">Serão criadas %1$d transações duplicadas, continue?</string>
+    <string name="tx_duplicate_multi">%1$d transações criadas.</string>
+    <string name="tx_delete_success">transações excluídas com sucesso.</string>
+    <string name="tx_delete_unsaved">não é possível excluir a transação não salva.</string>
+    <string name="tx_amt_err">insira um valor válido..!</string>
+    <string name="tx_err_future_dt">insira uma data futura.</string>
+    <string name="tx_photo_not_supported">incapaz de capturar foto, dispositivo não suportado..!</string>
+    <string-array name="tx_status">
+        <item>vazio / inválido</item>
+        <item>não esclarecido / pendente</item>
+        <item>limpo</item>
+        <item>aclarado e reconciliado</item>
+    </string-array>
+    <string name="tx_add_suc">nova transação adicionada</string>
+    <string name="tx_update_suc">transação atualizada</string>
+    <string name="tx_err_end_dt">\'próxima data de transação\' deve ser anterior a \'repetir até a data\'</string>
+    <string name="tx_rpt_save">aplicar mudanças recorrentes</string>
+    <string-array name="tx_rpt_save">
+        <item>sem excluir qualquer transação e criar novas transações, se necessário.</item>
+        <item>Elimine e recriar transações usando as novas mudanças recorrentes. as transações relacionadas a esta configuração recorrente só serão efetuadas</item>
+        <!-- <item>Effect this &amp; all bills.</item> -->
+    </string-array>
+    <string name="tx_rpt_remove">remover a natureza recorrente</string>
+    <string-array name="tx_rpt_remove">
+        <item>apenas para esta transação.</item>
+        <item>para esta e todas as transações relacionadas.</item>
+    </string-array>
+    <string name="bill_delete_single_warn">conta e qualquer transação de pagamento de contas vinculadas serão excluídas, continuar?</string>
+    <string name="bill_delete_multi_warn">as contas selecionadas e as operações de pagamento de contas vinculadas serão excluídas, continuará?</string>
+    <string name="tx_bill_mark_unpaid_warning_title">marca como não remunerada</string>
+    <string name="tx_bill_mark_unpaid_warning">remover as transações que estão associadas a essa conta?</string>
+
+    <!-- Transaction list -->
+    <string name="tx_view_txs">ver transações</string>
+    <string name="tx_list_title">transações</string>
+    <string name="tx_list_filter_dialog">filtro rótulos visíveis</string>
+
+    <string name="tx_export_subject">transações de dinheiro</string>
+    <string name="tx_export_title">exportar como csv</string>
+    <string name="tx_export_type">texto/planície</string>
+    <string name="tx_list_total_rows"> %1$s linhas total: </string>
+    <string name="tx_list_total_rows_multi_curr"> %1$s linhas em várias moedas </string>
+    <string name="tx_list_cleared">(desmarcado: </string>
+
+    <string name="tx_list_options_view">ver detalhes da transação</string>
+    <string name="tx_list_options_select">selecione esta linha</string>
+    <string name="tx_list_options_copy">crie uma cópia (duplicada)</string>
+    <string name="tx_list_options_delete">excluir transação</string>
+
+    <string name="tx_removed_recurring">transação desvinculada da configuração recorrente.</string>
+
+    <!-- Fund Transfer -->
+    <string name="transfer_fromAcct">da conta</string>
+    <string name="transfer_toAcct">para contabilizar</string>
+    <string name="transfer_toAmt">montante transferido após a conversão em </string>
+    <string name="transfer_exRate">taxa de câmbio é </string>
+    <string name="transfer_rate_modify">taxa de modificação</string>
+    <string name="transfer_save">transferir fundos</string>
+    <string name="transfer_rate_default_err">taxa de câmbio inválida, modifique a taxa de conversão.</string>
+    <string name="transfer_diff_acct_err">selecione diferentes contas para executar transferências de fundos.</string>
+    <string name="transfer_success">transferência de fundo bem sucedida.</string>
+    <string name="transfer_to">transferido para </string>
+    <string name="transfer_from">transferido de </string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Tools.xml -->
+
+    <string name="import_acct">selecione uma conta</string>
+    <string name="import_file">selecione um arquivo csv para importar</string>
+    <string name="import_choose_file">escolha um arquivo de formato csv</string>
+    <string name="import_choose_file_warn">Escolha um arquivo csv e clique em Importar.</string>
+    <string name="import_dtfmt">Formato de data</string>
+    <string name="import_first_heading">primeira linha é o título da coluna</string>
+    <string name="import_signed_amt">montante assinado, em coluna única</string>
+    <string name="import_signed_amt_help">quando marcado: \nO montante positivo é um rendimento e um montante negativo é uma despesa.\n\nquando desmarcado: \nquantidade (sem sinal, exemplo: 10.75) existe em apenas uma das 2 colunas (montante debitado ou montante creditado).</string>
+    <string name="import_signed_warn">Certifique-se de que o arquivo csv esteja abaixo da ordem das colunas:</string>
+    <string name="import_signed_cols">data, beneficiário, quantidade, categoria, detalhes</string>
+    <string name="import_unsigned_cols">data, beneficiário, montante debitado, valor creditado, categoria, detalhes</string>
+    <string name="import_but">importar</string>
+    <string name="import_success">%1$d transações importadas com sucesso.</string>
+    <string name="import_fail_wrong_content">incapaz de importar o arquivo, verifique o conteúdo do arquivo.</string>
+    <string name="import_error_file">\'%1$s\' não pode ser lido, verifique se o arquivo csv existe.</string>
+    <string name="import_progress_msg">puxando dados&#8230;</string>
+    <string name="import_already_started">importação já em andamento, tente depois de algum tempo..!!</string>
+    <string name="import_confirm">importando transação de \'%1$s\' para a conta \'%2$s\'.\n\nVocê quer continuar?</string>
+
+    <string name="export_file">Nome do arquivo csv (salvo em: \'%1$s\')</string>
+    <string name="export_column_msg">O arquivo csv exportado terá ordem abaixo da coluna: </string>
+    <string name="export">exportar como csv</string>
+    <string name="export_to">exportar e enviar&#8230;</string>
+    <string name="export_success">%1$d transações exportadas com sucesso.</string>
+    <string name="export_fail">não é possível exportar transações, certifique-se de que o nome do arquivo válido seja fornecido.</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- preferences.xml -->
+    <string name="prefTitleForcastDialog">criar entradas recorrentes</string>
+    <string name="prefSummaryForcast">transações e contas recorrentes serão geradas automaticamente antecipadamente até o período especificado. exemplo: 3 meses de antecedência</string>
+
+    <string name="prefScreenTitleTransactions">transações</string>
+
+    <string name="prefTitleIgnoreTransferTick">Ocultar transferências de fundos</string>
+
+    <string name="prefTitleImportTxs">transações de importação</string>
+    <string name="prefSummaryImportTxs">para importar transações do arquivo csv para uma conta selecionada, toque aqui. (também para visualizar a ordem da coluna do arquivo csv)</string>
+
+    <string name="prefTitleExportTxs">transações de exportação</string>
+    <string name="prefSummaryExportTxs">para exportar transações de contas para um arquivo csv e compartilhá-lo por email, dropbox, etc. (incluindo fotos), toque aqui.</string>
+
+    <string name="prefLabelSettingsBillsFeature">recurso de lembrete de contas integradas</string>
+    <string name="prefSummarySettingsBillsDisabled">Opções de menu simplificadas são mostradas quando o aviso de contas está desligado. se você quiser gerenciar e rastrear contas e vincular seus pagamentos a uma transação, semelhante ao sistema de entrada dupla, por favor, ligue-o.\n\nA ativação desta opção mostra opções de menu avançadas com notificações de lembretes de contas.</string>
+
+    <!-- ==================================================================== -->
+    <!-- currency.xml -->
+
+    <string name="curr_from">a partir de </string>
+    <string name="curr_to">para </string>
+    <string name="curr_ex_rate">taxa</string>
+    <string name="curr_ex_inverse">inverso</string>
+    <string name="curr_ex_new">adicionar taxa de câmbio</string>
+    <string name="curr_ex_edit">modificar a taxa de câmbio</string>
+
+    <!-- Error Messages -->
+    <string name="curr_ex_duplicate_err">a taxa de câmbio para as moedas selecionadas já existe..!</string>
+    <string name="curr_ex_update_err">incapaz de atualizar a taxa de câmbio, tente novamente..!</string>
+    <string name="curr_ex_same_err">da moeda e da moeda devem ser diferentes.!</string>
+    <string name="curr_ex_invalid_rate">insira uma taxa de câmbio válida para a moeda selecionada..!</string>
+    <string name="curr_ex_rates_warn">algumas taxas de câmbio têm valores padrão, modifique-os com as taxas apropriadas..!</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- budget.xml -->
+
+    <string name="budget_title">orçamentos</string>
+    <string name="budget_spend_vs_budget">gastar / orçamento: </string>
+    <string name="budget_surplus_vs_budget">excedente / orçamento: </string>
+    <string name="budget_list_empty">não há orçamento..! \n (toque o botão flutuante \'+\' para criar um)</string>
+    <string name="budget_amt_invalid_warn">insira um valor de orçamento válido superior a 0.</string>
+
+    <string name="budget_new">novo orçamento</string>
+    <string name="budget_edit">editar orçamento</string>
+    <string name="budget_remove">remover orçamento</string>
+    <string name="budget_all_categories">todas as categorias</string>
+    <string name="budget_all_currency_accounts">todas as contas %1$s</string>
+    <string name="budget_remaining">permanecendo para gastar</string>
+
+    <string name="budget_category_all">para todas as categorias</string>
+    <string name="budget_category_selected">categoria selecionada</string>
+    <string name="budget_currency_switch">orçamento de moeda</string>
+    <string name="budget_currency_for">para todos</string>
+    <string name="budget_currency_accts"> contas </string>
+    <string name="budget_amount">montante do orçamento, exemplo 300</string>
+    <string name="budget_type_spend">Gastar</string>
+    <string name="budget_type_earn">Ganhar</string>
+    <string name="budget_period">período de despesa</string>
+    <string-array name="budget_seekbar_labels">
+        <item>dia</item>
+        <item>semana</item>
+        <item>mês</item>
+        <item>ano</item>
+    </string-array>
+    <string-array name="budget_seekbar_selections">
+        <item>diariamente / por um único dia</item>
+        <item>semanalmente / por semana inteira</item>
+        <item>mensal / para um mês de calendário</item>
+        <item>anual / por ano inteiro</item>
+    </string-array>
+
+    <string name="budget_delete_unsaved">não é possível excluir o orçamento não salvo.</string>
+    <string name="budget_delete_success">orçamento excluído com sucesso.</string>
+    <string name="budget_delete_warn">O orçamento selecionado será excluído, continue?</string>
+    <string name="budget_save_success">orçamento salvo com sucesso</string>
+    <string name="budget_fields_invalid">O orçamento deve ser por moeda ou por conta.</string>
+    <string name="budget_exists_error">O orçamento já existe..!</string>
+    <string name="error">erro</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- reports.xml -->
+
+    <string name="rpt_title">relatórios</string>
+    <string name="select_account">selecione uma conta</string>
+
+    <string name="tx_rpt_total_expense">despesa total: %1$s</string>
+    <string name="tx_rpt_total_income">renda total: %1$s</string>
+    <string name="tx_rpt_type_cat_expense">despesa por categoria</string>
+    <string name="tx_rpt_type_cat_income">renda por categoria</string>
+    <string name="tx_rpt_pdf_category_filename_template">relatório de categoria, %1$s - %2$s</string>
+
+
+    <!-- Tx Filter -->
+    <string name="filter_accounts_all">contas (tudo)</string>
+    <string name="filter_accounts_count">contas (%1$d)</string>
+    <string name="filter_account_title">filtrar contas</string>
+
+    <!-- Recurring Tx Configs -->
+    <string name="recurtx_list_empty">não existem configurações recorrentes. \ncriar novas transações com a configuração recorrente habilitada</string>
+    <string name="tx_deleted_recur">excluiu corretamente transações recorrentes.</string>
+    <string name="tx_delete_recur_warn">esta entrada recorrente e todas as transações associadas serão excluídas, continue?</string>
+
+    <!-- For Transactions -->
+    <string name="dashboard_summary_txs">Visão geral do período:</string>
+    <string name="dashboard_summary_balances">saldo das contas: </string>
+    <string name="dashboard_summary_income">renda: </string>
+    <string name="dashboard_summary_expense">despesa: </string>
+    <string name="dashboard_title_tx_chart_expense">despesa por categoria (transações)</string>
+    <string name="dashboard_title_tx_chart_income">renda por categoria (transações)</string>
+
+    <string name="acct_rpt_balance_label">saldo das contas por 30 dias</string>
+    <string name="acct_rpt_balance_info">gráfico de linha que mostra histórico e previsão de saldos de contas, em uma base diária.</string>
+    <string name="acct_rpt_balance_currency">moeda: %1$s</string>
+    <string name="acct_rpt_balance_accounts_all">todas as contas %1$s</string>
+    <string name="acct_rpt_balance_accounts_selected">contas selecionadas de %1$s (%2$d)</string>
+    <string name="acct_rpt_balance_separate_lines">traçar cada conta</string>
+    <string name="acct_rpt_balance_screen_title">saldo de contas</string>
+    <string name="acct_rpt_balance_credit">Em crédito</string>
+    <string name="acct_rpt_balance_debit">Em débito</string>
+
+
+    <string name="tx_rpt_trends_screen_title">Tendências do fluxo de caixa</string>
+    <string name="tx_rpt_trends_expense_label">Tendências nos últimos 30 dias (despesa)</string>
+    <string name="tx_rpt_trends_expense_info">gráfico de linha mostrando as duas tendências de gastos nos últimos 30 dias.</string>
+    <string name="tx_rpt_trends_income_label">tendências nos últimos 30 dias (renda)</string>
+    <string name="tx_rpt_trends_income_info">gráfico de linha mostrando fluxo de caixa de renda nos últimos 30 dias.</string>
+
+    <string name="tx_rpt_category_wise_expenses_label">despesa por categoria</string>
+    <string name="tx_rpt_category_wise_expenses_info">gráfico de torta mostrando despesas sábias por categoria para um determinado período</string>
+    <string name="tx_rpt_category_wise_income_label">renda por categoria</string>
+    <string name="tx_rpt_category_wise_income_info">gráfico de torta mostrando renda sábia de categoria por um determinado período</string>
+    <!--<string name="tx_rpt_category_wise_expenses_6months_label">Spending by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_expenses_6months_info">Pie chart showing category wise spending for a given period</string>
+    <string name="tx_rpt_category_wise_income_6months_label">Income by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_income_6months_info">Pie chart showing category wise income for a given period</string>-->
+    <string name="tx_rpt_period_wise_expense_label">comparação mensal (despesa)</string>
+    <string name="tx_rpt_period_wise_expense_info">gráfico de barras comparando despesas para cada período.</string>
+    <string name="tx_rpt_period_wise_income_label">comparação mensal (renda)</string>
+    <string name="tx_rpt_period_wise_income_info">gráfico de barras que compara a renda para cada período.</string>
+    <string name="tx_rpt_account_balance_trends_label">Tendências dos saldos das contas últimos 30 dias</string>
+    <string name="tx_rpt_account_balance_trends_info">gráfico de linha mostrando os saldos das contas nos últimos 30 dias.</string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_description">Apenas o dinheiro é uma solução financeira completa para gerir e rastrear suas despesas, receitas, contas, contas, orçamentos de gastos. simplesmente adicione uma transação sempre que gastar ou ganhe dinheiro, também pode anexar foto de recebimento. e use relatórios e gráficos para analisar suas tendências de transações, comparação, saldos de contas e muito mais.</string>
+
+    <string name="feature_label_free">teste grátis</string>
+    <string name="feature_desc_free">A versão contém recursos básicos para gerenciar seus gastos e rendimentos, com características abaixo:\n</string>
+    <string-array name="feature_items_free">
+        <item>adicionar uma receita ou despesa</item>
+        <item>transações recorrentes suportadas</item>
+        <item>transações limitadas (1000)</item>
+        <item>gerenciamento limitado de contas (5)</item>
+        <item>suporte de moeda múltipla</item>
+        <item>mais de 150 moedas suportadas</item>
+        <item>planejador de orçamento para o mês</item>
+        <item>anexar foto a uma transação</item>
+        <item>categorias e subcategorias limitadas (70)</item>
+        <item>widget de conta de tela inicial</item>
+        <item>veja as transações no mês</item>
+        <item>procurar transações</item>
+        <item>visão do calendário</item>
+        <item>procurar transações</item>
+        <item>dados de exibição do filtro</item>
+        <item>classificar a lista de transações</item>
+        <item>Transferência de fundos entre contas da mesma moeda apenas</item>
+        <item>Visão geral do painel de bordo para cada mês</item>
+        <item>seleção múltipla: exclua múltiplas transações e categorias</item>
+        <item>seleção múltipla: copie múltiplas transações e categorias</item>
+        <item>Relatórios: despesas / rendimentos de categoria para cada mês</item>
+        <item>transações de importação</item>
+        <item>Digitalize um código de barras e adicione-o às notas da transação</item>
+        <item>criar backup, incluindo fotos de recebimento anexadas</item>
+        <item>backups programados diariamente</item>
+        <item>somente perfil único</item>
+    </string-array>
+    <string name="feature_label_pro">Prêmio</string>
+    <string name="feature_desc_pro">isso inclui todos os recursos fornecidos por \'teste gratuito\' \n\t\t\t+\nabaixo dos recursos premium: \n</string>
+    <string-array name="feature_items_pro">
+        <item>transações ilimitadas</item>
+        <item>contas ilimitadas</item>
+        <item>categorias ilimitadas e subcategorias</item>
+        <item>excluir transações recorrentes e sua configuração de uma só vez. (exclusão em massa)</item>
+        <item>Seleção múltipla: alterar categoria de transações</item>
+        <item>widget de atalhos de tela inicial</item>
+        <item>alterar a tela de inicialização</item>
+        <item>planejador de orçamento para dia, semana, mês e ano</item>
+        <item>dashboard overview for cada dia, semana, mês e ano.</item>
+        <item>ver transações para cada dia, semana, mês, ano e período personalizado</item>
+        <item>Transferência de fundo entre contas de moedas diferentes</item>
+        <item>Relatórios: despesas e receitas de categoria para cada dia, semana, mês, ano e período personalizado</item>
+        <item>Relatórios: despesa e tendência de renda</item>
+        <item>relatórios: comparação entre semanas, dias, meses, anos</item>
+        <item>relatórios: gerar relatórios e compartilhamento de pdf</item>
+        <item>transações de exportação e fotos anexas</item>
+        <item>controlar backups agendados</item>
+        <item>compartilhe e exporte backups via e-mail, drive, dropbox</item>
+        <item>restaure backups locais e baixe da nuvem</item>
+        <item>segurança do aplicativo usando pino e impressões digitais</item>
+    </string-array>
+    <string name="feature_label_bills">lembrete de contas</string>
+    <string name="feature_desc_bills">Isso requer uma versão premium.\nadiciona capacidade de lembrete de contas para o aplicativo e ajuda você a vincular um pagamento de conta com uma transação, algo como uma entrada dupla. \n</string>
+    <string-array name="feature_items_bills">
+        <item>lembrete de contas integradas</item>
+        <item>gerencie contas simples e recorrentes</item>
+        <item>notificação de lembretes de contas diárias</item>
+        <item>anexar foto para contas</item>
+        <item>Widgets da tela inicial para contas</item>
+        <item>alterar o tempo de notificação do lembrete</item>
+        <item>exclua as contas recorrentes e sua configuração de uma só vez. (exclusão em massa)</item>
+        <item>Visão geral do painel inclui contas</item>
+        <item>ver contas por status</item>
+        <item>ver contas para cada dia, semana, mês, ano e período personalizado</item>
+        <item>visão do calendário das contas</item>
+        <item>procura contas</item>
+        <item>seleção múltipla: exclusão em massa de contas e categorias</item>
+        <item>seleção múltipla: duplicação em massa de contas e categorias</item>
+        <item>Seleção múltipla: mudar a categoria de contas</item>
+        <item>seleção múltipla: alteração de aviso notificação de contas</item>
+        <item>relatórios: contas de categoria sábias para cada dia, semana, mês, ano e período personalizado</item>
+        <item>relatórios: tendência de contas</item>
+        <item>relatórios: comparação entre semanas, dias, meses, anos</item>
+        <item>relatórios: gerar relatórios e compartilhamento de pdf</item>
+        <item>digitalize um código de barras e adicione-o a notas de fatura</item>
+        <item>adicione uma url de pagamento de cobrança à conta</item>
+    </string-array>
+    <string name="feature_label_multiprof">múltiplos perfis</string>
+    <string-array name="feature_items_multiprof">
+        <item>contas</item>
+        <item>transações</item>
+        <item>orçamentos</item>
+        <item>categorias e subcategorias</item>
+        <item>contas</item>
+        <item>configurações recorrentes</item>
+        <item>Relatórios e outras telas consideram entradas apenas a partir de seu próprio perfil</item>
+        <item>isso permitirá recursos de gerenciamento de perfil</item>
+    </string-array>
+    <string name="feature_this_version">Esta é a versão de teste gratuita do aplicativo de dinheiro e você pode comprar atualizações abaixo para aproveitar o aplicativo no seu melhor.</string>
+
+
+    <string name="welcome_title4_tx_account">adicione uma conta</string>
+    <string name="welcome_info4_tx_account">A conta representa sua conta bancária ou dinheiro na sua carteira e é necessária para a entrada da transação.</string>
+    <string name="welcome_title1_tx_detail">adicionar uma despesa ou renda</string>
+    <string name="welcome_info1_tx_detail">insira os detalhes da transação e salve. também suporta transações recorrentes.</string>
+    <string name="welcome_title1_tx_receipt">foto seu recibo</string>
+    <string name="welcome_info1_tx_receipt">vá sem papel anexando seu recibo de despesas juntamente com os detalhes da transação.</string>
+    <string name="welcome_title2_tx_email">compartilhar transações e recibos</string>
+    <string name="welcome_info2_tx_email">Exportação de despesas e receitas de formato csv, incluindo fotos de recebimento anexadas (para e-mail, dropbox, drive).</string>
+
+    <string name="welcome_title3_tx_list">layout de guia simples</string>
+    <string name="welcome_info3_tx_list">ver transações para cada período e facilmente deslizar entre guias. Filtrar dados com base em categorias, contas, etc.</string>
+    <string name="welcome_title4_tx_budget">planejador de orçamento</string>
+    <string name="welcome_info4_tx_budget">adicione orçamento de gastos e mantenha o controle de suas despesas.</string>
+    <string name="welcome_title5_tx_reports">relatórios e gráficos extensivos</string>
+    <string name="welcome_info5_tx_reports">compare as despesas entre os períodos e as categorias, veja os saldos das contas tanto históricos quanto projetados e relatórios de tendências do fluxo de caixa.</string>
+    <string name="welcome_title6_tx_drawer">menu de gaveta de navegação</string>
+    <string name="welcome_info6_tx_drawer">painel de controle, contas, moeda múltipla, categoria e subcategorias, planejador de orçamento, exibição de calendário, vários perfis, backup e restauração e muito mais.</string>
+
+    <string name="widget_acct_balance_title">saldo da conta</string>
+    <string name="widget_acct_balance">equilibrar: </string>
+    <string name="widget_shortcuts_title">apenas atalhos de dinheiro</string>
+    <string name="widget_shortcuts">(atalhos)</string>
+    <string name="coach_mark_add_bill">clique no botão flutuante \'+\' para adicionar despesas, receitas ou transferência de fundos</string>
+
+    <string name="error_max_txs_exceeded">número de transações excedido limite máximo, atualize para adicionar mais transações.</string>
+    <string name="error_max_accounts_exceeded">Número de contas excedido limite máximo, atualize para adicionar mais contas.</string>
+
+    <string name="tx_new_expense">Wprowadź wydatki</string>
+    <string name="tx_new_income">Wprowadź dochód</string>
+    <string name="tx_bills_disabled_msg">Você sabia que este aplicativo suporta o recurso de lembrete de contas integrado? Ative-o para gerenciar suas contas e pagamentos.</string>
+</resources>

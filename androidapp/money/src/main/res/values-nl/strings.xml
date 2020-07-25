@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Money</string>
+
+    <string name="reconcile">verzoenen</string>
+    <string name="menu_accts">rekeningen</string>
+    <string name="menu_search_txs">zoek transacties</string>
+    <string name="menu_budget">budgeten uitgeven</string>
+    <string name="bills_reminder">rekeningen herinnering</string>
+    <string name="menu_txs_calendar">kalenderweergave</string>
+    <string name="menu_txs_cat_report">transacties per categorie</string>
+    <string name="menu_txs_recurring">herhalende transacties</string>
+    <string name="menu_bills_header">rekeningen herinnering</string>
+    <string name="menu_bills_list">biljetten</string>
+    <string name="menu_bills_list_status">rekeningen per status</string>
+    <string name="menu_bills_calendar">kalenderweergave</string>
+    <string name="menu_bills_recurring">terugkerende rekeningen</string>
+    <string name="for_transactions">voor transacties</string>
+
+    <string name="export_body">&lt;p&gt; verzonden van \'Gewoon geld\' android app &lt;/p&gt;</string>
+    <string name="app_try_title">alleen geld herinnering</string>
+    <string name="app_try_remind">heb je de app al geprobeerd? het is eenvoudig en makkelijk te gebruiken.</string>
+    <string name="app_use_remind">Heb je je uitgaven vandaag toegevoegd?</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- account.xml -->
+
+    <!-- Account List -->
+    <string name="acct_add">account aanmaken</string>
+    <string name="acct_delete">account verwijderen</string>
+    <!-- <string name="accts">Account</string>  -->
+    <string name="acct_final_bal">huidig saldo</string>
+    <string name="acct_saved_success">account is succesvol opgeslagen.</string>
+    <string name="acct_delete_unsaved">Kan niet opgeslagen account verwijderen.</string>
+    <string name="acct_delete_success">succesvol verwijderd account.</string>
+    <string name="acct_delete_warn">geselecteerd account en alle transacties met daarin zullen worden verwijderd..!</string>
+    <string name="acct_delete_error_msg">fout..!\n u moet minstens één actief account hebben om te kunnen functioneren.</string>
+
+    <string name="acct_desc_default">account opening saldo is: %1$s</string>
+    <string name="acct_menu_filter_favorite">alleen favoriete accounts</string>
+    <string name="acct_menu_filter_off">toon alle accounts</string>
+
+    <!--  Account Details -->
+    <string name="acct_details">account details</string>
+    <string name="acct_details_new">nieuwe accountgegevens</string>
+    <string name="acct_name">accountnaam</string>
+    <string name="acct_desc">Beschrijving</string>
+    <string name="acct_init_bal">openingsbalans</string>
+    <string name="acct_budget">maandelijks budget</string>
+    <string name="acct_currency">valuta</string>
+    <string name="acct_inclInTot">inclusief saldo in totaal</string>
+    <string name="acct_tx_status">standaard transactie status</string>
+    <string name="acct_active">vaak gebruikt of favoriete account</string>
+    <string name="acct_active_help_msg">Op het scherm van de accounts kunt u filteren om alleen favoriete accounts te bekijken, zonder dat u over inactieve / gesloten accounts hoeft te vallen (die u niet vaak gebruikt). \n\ndus in plaats van een account te wissen, waarbij transacties die daarmee verbonden zijn, kunnen verwijderen, kunt u deze optie gebruiken.</string>
+    <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
+    <string name="acct_list_empty">geen account bestaat..!</string>
+    <string name="acct_list_empty_warning">Er bestaat geen account, maak eerst een account aan.</string>
+    <string name="acct_list_total_rows">%1$d accounts totaal saldo:</string>
+    <string name="acct_list_total_rows_multi">%1$d accounts in meerdere valuta\'s</string>
+    <string name="acct_list_all_currencies">alle valuta\'s</string>
+    <string name="acct_list_xxx_Accounts">%1$s accounts</string>
+    <string name="acct_name_err">accountnaam is leeg..!</string>
+
+    <!-- ==================================================================== -->
+    <!-- tx.xml -->
+
+    <string name="tx_detail_tab">gegevens</string>
+    <string name="tx_detail_tab_new">Voer details in</string>
+    <string name="tx_detail_title_new">Nieuwe transactie</string>
+    <string name="tx_detail_title_edit">Bestaande transactie</string>
+    <string name="tx_bill_pmt_label">Selecteer een factuur om de betaling toe te voegen</string>
+    <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
+    <string name="tx_bill_pmt_notes">betaling van facturen</string>
+    <string name="tx_bill_pmt_not_selected">selecteer alstublieft een factuur om de factuurbetaling te voltooien.</string>
+    <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
+    <string name="tx_payee">begunstigde, betaler of post</string>
+    <string name="tx_payee_hint">Contactpersoon, bedrijf of winkelnaam</string>
+    <string name="tx_transf_amt">overboekingsbedrag</string>
+    <string name="tx_date">transactie datum</string>
+    <string name="tx_account">selecteer een account</string>
+    <!--<string name="tx_deposit">Deposit</string>
+    <string name="tx_withdraw">Withdraw</string>-->
+    <string name="tx_status">transactie status</string>
+    <string name="tx_new">voeg kosten / inkomsten toe</string>
+    <string name="tx_bill_pmt">betaling van facturen</string>
+    <string name="tx_list_empty">Er bestaan geen transacties..!</string>
+    <string name="tx_repeats">recurrente transactie</string>
+    <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
+    <string name="tx_error_save_pic">fout tijdens het opslaan van de foto: %1$s</string>
+
+    <string name="tx_delete_warn">Verwijder geselecteerde transacties?</string>
+    <string name="tx_delete_multi">%1$d transacties verwijderd.</string>
+    <string name="tx_multi_update_count">%1$d ransactions bijgewerkt.</string>
+    <string name="tx_duplicate_warn">Er worden %1$d duplicatransacties gemaakt, ga door?</string>
+    <string name="tx_duplicate_multi">%1$d transacties gemaakt.</string>
+    <string name="tx_delete_success">succesvolle verwijderde transacties.</string>
+    <string name="tx_delete_unsaved">kan niet-opgeslagen transactie verwijderen.</string>
+    <string name="tx_amt_err">vul alstublieft een geldig bedrag in..!</string>
+    <string name="tx_err_future_dt">vul een toekomstige datum in.</string>
+    <string name="tx_photo_not_supported">Kan geen foto vastleggen, apparaat wordt niet ondersteund..!</string>
+    <string-array name="tx_status">
+        <item>ongeldig / ongeldig</item>
+        <item>onontreinigd / afwachtend</item>
+        <item>ontruimd</item>
+        <item>gecontroleerd en verzoend</item>
+    </string-array>
+    <string name="tx_add_suc">nieuwe transactie toegevoegd</string>
+    <string name="tx_update_suc">bijgewerkte transactie</string>
+    <string name="tx_err_end_dt">\'volgende transactiedatum\' moet vóór \'herhalen tot datum\'</string>
+    <string name="tx_rpt_save">herhaalde wijzigingen toepassen</string>
+    <string-array name="tx_rpt_save">
+        <item>zonder een transactie te verwijderen en indien nodig nieuwe transacties aan te maken.</item>
+        <item>Verwijder en herstel transacties met behulp van de nieuwe herhalende wijzigingen. transacties die verband houden met deze herhaalde configuratie worden alleen uitgevoerd</item>
+        <!-- <item>Effect this &amp; all bills.</item> -->
+    </string-array>
+    <string name="tx_rpt_remove">verwijder herhalende natuur</string>
+    <string-array name="tx_rpt_remove">
+        <item>alleen voor deze transactie.</item>
+        <item>voor dit en alle gerelateerde transacties.</item>
+    </string-array>
+    <string name="bill_delete_single_warn">factuur en eventuele gekoppelde factuurbetalingstransactie worden verwijderd, ga door?</string>
+    <string name="bill_delete_multi_warn">geselecteerde rekeningen en eventuele gekoppelde factuurbetalingstransacties worden verwijderd, ga door?</string>
+    <string name="tx_bill_mark_unpaid_warning_title">markeer als onbetaald</string>
+    <string name="tx_bill_mark_unpaid_warning">verwijder transacties die bij deze rekening zijn gekoppeld?</string>
+
+    <!-- Transaction list -->
+    <string name="tx_view_txs">transacties bekijken</string>
+    <string name="tx_list_title">transacties</string>
+    <string name="tx_list_filter_dialog">filter zichtbare labels</string>
+
+    <string name="tx_export_subject">geldtransacties</string>
+    <string name="tx_export_title">export als csv</string>
+    <string name="tx_export_type">text/plain</string>
+    <string name="tx_list_total_rows"> %1$s rijen totaal: </string>
+    <string name="tx_list_total_rows_multi_curr"> %1$s rijen in meerdere valuta\'s </string>
+    <string name="tx_list_cleared">(gewist: </string>
+
+    <string name="tx_list_options_view">bekijk transactiegegevens</string>
+    <string name="tx_list_options_select">selecteer deze rij</string>
+    <string name="tx_list_options_copy">maak een kopie (duplicaat)</string>
+    <string name="tx_list_options_delete">verwijder transactie</string>
+
+    <string name="tx_removed_recurring">transactie ontkoppeld uit herhaalde configuratie.</string>
+
+    <!-- Fund Transfer -->
+    <string name="transfer_fromAcct">van account</string>
+    <string name="transfer_toAcct">Naar rekening</string>
+    <string name="transfer_toAmt">bedrag overgedragen na omrekening in </string>
+    <string name="transfer_exRate">wisselkoers is </string>
+    <string name="transfer_rate_modify">verander tarief</string>
+    <string name="transfer_save">overboekingskosten</string>
+    <string name="transfer_rate_default_err">ongeldige wisselkoers, wijzig de conversiepercentage aan.</string>
+    <string name="transfer_diff_acct_err">selecteer alstublieft verschillende accounts om fondsenoverdrachten uit te voeren.</string>
+    <string name="transfer_success">fondsoverdracht succesvol.</string>
+    <string name="transfer_to">overgeplaatst naar </string>
+    <string name="transfer_from">overgedragen van </string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Tools.xml -->
+
+    <string name="import_acct">selecteer een account</string>
+    <string name="import_file">selecteer een csv-bestand om te importeren</string>
+    <string name="import_choose_file">kies een csv-formaatbestand</string>
+    <string name="import_choose_file_warn">kies alsjeblieft een csv-bestand en klik vervolgens op import.</string>
+    <string name="import_dtfmt">datumnotatie</string>
+    <string name="import_first_heading">eerste regel is kolomkop</string>
+    <string name="import_signed_amt">getekend bedrag, in enkele kolom</string>
+    <string name="import_signed_amt_help">wanneer het wordt ingevuld: \npositief bedrag is een inkomen en negatief bedrag is een uitgave.\n\nwanneer onopgemerkt:\nbedrag (zonder teken, voorbeeld: 10.75) bestaat in slechts één van de 2 kolommen (bedrag gedebiteerd of bedrag gecrediteerd).</string>
+    <string name="import_signed_warn">Zorg ervoor dat het csv-bestand onder de kolomvolgorde staat:</string>
+    <string name="import_signed_cols">datum, begunstigde, bedrag, categorie, details</string>
+    <string name="import_unsigned_cols">datum, begunstigde, bedrag gedebiteerd, bedrag gecrediteerd, categorie, details</string>
+    <string name="import_but">importeren</string>
+    <string name="import_success">%1$d transacties werden succesvol geïmporteerd.</string>
+    <string name="import_fail_wrong_content">Kan het bestand niet importeren, controleer de inhoud van het bestand.</string>
+    <string name="import_error_file">\'%1$s\' kan niet worden gelezen, controleer of het csv-bestand bestaat.</string>
+    <string name="import_progress_msg">gegevens trekken&#8230;</string>
+    <string name="import_already_started">invoer al in gang, probeer alstublieft na een tijdje..!!</string>
+    <string name="import_confirm">import transactie van \'%1$s\' in rekening \'%2$s\'.\n\nwil je doorgaan?</string>
+
+    <string name="export_file">csv-bestandsnaam (opgeslagen op: \'%1$s\')</string>
+    <string name="export_column_msg">geëxporteerd csv bestand zal hieronder kolomvolgorde hebben: </string>
+    <string name="export">export als csv</string>
+    <string name="export_to">exporteren en verzenden&#8230;</string>
+    <string name="export_success">%1$d transacties met succes uitgevoerd.</string>
+    <string name="export_fail">Kan transacties niet exporteren, zorg er dan voor dat de geldige bestandsnaam wordt geleverd.</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- preferences.xml -->
+    <string name="prefTitleForcastDialog">maak terugkerende inzendingen</string>
+    <string name="prefSummaryForcast">terugkerende transacties en rekeningen worden vooraf gegenereerd tot de aangegeven periode. Voorbeeld: 3 maanden van tevoren</string>
+
+    <string name="prefScreenTitleTransactions">transacties</string>
+
+    <string name="prefTitleIgnoreTransferTick">Verberg fondsenoverdrachten</string>
+
+    <string name="prefTitleImportTxs">import transacties</string>
+    <string name="prefSummaryImportTxs">Om transacties van csv bestand naar een geselecteerd account te importeren, raakt u hier aan. (ook om de csv-bestands kolom volgorde te bekijken)</string>
+
+    <string name="prefTitleExportTxs">export transacties</string>
+    <string name="prefSummaryExportTxs">Accounttransacties exporteren naar een CSV-bestand en delen via e-mail, dropbox, enz. (inclusief foto\'s), hier aanraken.</string>
+
+    <string name="prefLabelSettingsBillsFeature">geïntegreerde rekeningen herinnering functie</string>
+    <string name="prefSummarySettingsBillsDisabled">vereenvoudigde menuopties worden weergegeven wanneer de rekening herinnering is uitgeschakeld. Als u de facturen wilt beheren en bijhouden en hun betalingen koppelen aan een transactie, vergelijkbaar met het dubbele toegangssysteem, zet u deze dan aan.\n\nAls u deze optie inschakelt, worden geavanceerde menuopties weergegeven met Notificaties herinneringen.</string>
+
+    <!-- ==================================================================== -->
+    <!-- currency.xml -->
+
+    <string name="curr_from">van </string>
+    <string name="curr_to">tot </string>
+    <string name="curr_ex_rate">tarief</string>
+    <string name="curr_ex_inverse">omgekeerde</string>
+    <string name="curr_ex_new">wisselkoers toevoegen</string>
+    <string name="curr_ex_edit">ruilen wisselkoers</string>
+
+    <!-- Error Messages -->
+    <string name="curr_ex_duplicate_err">de wisselkoers voor de geselecteerde valuta bestaat al..!</string>
+    <string name="curr_ex_update_err">Kan de wisselkoers niet bijwerken, probeer het alstublieft nogmaals..!</string>
+    <string name="curr_ex_same_err">van valuta en naar valuta zou anders moeten zijn.!</string>
+    <string name="curr_ex_invalid_rate">vul alstublieft een geldige wisselkoers in voor de geselecteerde valuta..!</string>
+    <string name="curr_ex_rates_warn">sommige wisselkoersen hebben standaardwaarden, verander ze alsjeblieft met passende tarieven..!</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- budget.xml -->
+
+    <string name="budget_title">budgetten</string>
+    <string name="budget_spend_vs_budget">uitgaven / budget: </string>
+    <string name="budget_surplus_vs_budget">overschot / budget: </string>
+    <string name="budget_list_empty">geen budget bestaat..! \n (druk op de drijvende \'+\' knop om een te maken)</string>
+    <string name="budget_amt_invalid_warn">Voer een geldig budgetbedrag in dat groter is dan 0.</string>
+
+    <string name="budget_new">nieuw budget</string>
+    <string name="budget_edit">budget aanpassen</string>
+    <string name="budget_remove">verwijder budget</string>
+    <string name="budget_all_categories">Alle categorieën</string>
+    <string name="budget_all_currency_accounts">alle %1$s accounts</string>
+    <string name="budget_remaining">resterende uitgaven</string>
+
+    <string name="budget_category_all">voor alle categorieën</string>
+    <string name="budget_category_selected">geselecteerde categorie</string>
+    <string name="budget_currency_switch">valuta budget</string>
+    <string name="budget_currency_for">voor iedereen</string>
+    <string name="budget_currency_accts"> rekeningen </string>
+    <string name="budget_amount">budget bedrag, voorbeeld 300</string>
+    <string name="budget_type_spend">spenderen</string>
+    <string name="budget_type_earn">Verdienen</string>
+    <string name="budget_period">bestedingsperiode</string>
+    <string-array name="budget_seekbar_labels">
+        <item>dag</item>
+        <item>week</item>
+        <item>maand</item>
+        <item>jaar</item>
+    </string-array>
+    <string-array name="budget_seekbar_selections">
+        <item>dagelijks / voor een enkele dag</item>
+        <item>wekelijks / voor de hele week</item>
+        <item>maandelijks / voor een kalendermaand</item>
+        <item>jaarlijks / voor heel jaar</item>
+    </string-array>
+
+    <string name="budget_delete_unsaved">Kan niet-opgeslagen budget verwijderen.</string>
+    <string name="budget_delete_success">succesvol verwijderd budget.</string>
+    <string name="budget_delete_warn">geselecteerd budget wordt verwijderd, ga door?</string>
+    <string name="budget_save_success">budget succesvol opgeslagen</string>
+    <string name="budget_fields_invalid">Het budget moet ofwel per valuta of per rekening zijn.</string>
+    <string name="budget_exists_error">budget bestaat al..!</string>
+    <string name="error">fout</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- reports.xml -->
+
+    <string name="rpt_title">rapporten</string>
+    <string name="select_account">selecteer een account</string>
+
+    <string name="tx_rpt_total_expense">totaal in afwachting: %1$s</string>
+    <string name="tx_rpt_total_income">totaal inkomen: %1$s</string>
+    <string name="tx_rpt_type_cat_expense">kosten per categorie</string>
+    <string name="tx_rpt_type_cat_income">inkomen per categorie</string>
+    <string name="tx_rpt_pdf_category_filename_template">categorieverstandig rapport, %1$s - %2$s</string>
+
+
+    <!-- Tx Filter -->
+    <string name="filter_accounts_all">accounts (alle)</string>
+    <string name="filter_accounts_count">accounts (%1$d)</string>
+    <string name="filter_account_title">filter accounts</string>
+
+    <!-- Recurring Tx Configs -->
+    <string name="recurtx_list_empty">Er bestaan geen terugkerende configuraties. \nMaak een nieuwe transactie met herhaalde configuratie ingeschakeld</string>
+    <string name="tx_deleted_recur">succesvolle verwijderde recurrente transacties.</string>
+    <string name="tx_delete_recur_warn">deze terugkerende invoer en alle bijbehorende transacties worden verwijderd, ga door?</string>
+
+    <!-- For Transactions -->
+    <string name="dashboard_summary_txs">periode overzicht:</string>
+    <string name="dashboard_summary_balances">rekeningen saldo: </string>
+    <string name="dashboard_summary_income">inkomen: </string>
+    <string name="dashboard_summary_expense">kosten: </string>
+    <string name="dashboard_title_tx_chart_expense">kosten per categorie (transacties)</string>
+    <string name="dashboard_title_tx_chart_income">inkomsten per categorie (transacties)</string>
+
+    <string name="acct_rpt_balance_label">accounts saldo voor 30 dagen</string>
+    <string name="acct_rpt_balance_info">lijndiagram met een historische en voorspelling van de rekeningbalans op een dagelijkse basis.</string>
+    <string name="acct_rpt_balance_currency">valuta: %1$s</string>
+    <string name="acct_rpt_balance_accounts_all">alle %1$s accounts</string>
+    <string name="acct_rpt_balance_accounts_selected">geselecteerde %1$s accounts (%2$d)</string>
+    <string name="acct_rpt_balance_separate_lines">plot elk account</string>
+    <string name="acct_rpt_balance_screen_title">rekeningen saldo</string>
+    <string name="acct_rpt_balance_credit">In krediet</string>
+    <string name="acct_rpt_balance_debit">In de schulden</string>
+
+
+    <string name="tx_rpt_trends_screen_title">cash flow trends</string>
+    <string name="tx_rpt_trends_expense_label">trends voor de laatste 30 dagen (kosten)</string>
+    <string name="tx_rpt_trends_expense_info">lijndiagram waarin beide uitgaven trends in de laatste 30 dagen worden weergegeven.</string>
+    <string name="tx_rpt_trends_income_label">trends voor de laatste 30 dagen (inkomen)</string>
+    <string name="tx_rpt_trends_income_info">lijndiagram waarin de kasstroom van de inkomsten in de laatste 30 dagen is weergegeven.</string>
+
+    <string name="tx_rpt_category_wise_expenses_label">kosten per categorie</string>
+    <string name="tx_rpt_category_wise_expenses_info">Taartdiagram waarin de categorie uitgaven voor een bepaalde periode wordt weergegeven</string>
+    <string name="tx_rpt_category_wise_income_label">inkomen per categorie</string>
+    <string name="tx_rpt_category_wise_income_info">Taartdiagram met een categorie wijs inkomen voor een bepaalde periode</string>
+    <!--<string name="tx_rpt_category_wise_expenses_6months_label">Spending by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_expenses_6months_info">Pie chart showing category wise spending for a given period</string>
+    <string name="tx_rpt_category_wise_income_6months_label">Income by Category in 6 months</string>
+    <string name="tx_rpt_category_wise_income_6months_info">Pie chart showing category wise income for a given period</string>-->
+    <string name="tx_rpt_period_wise_expense_label">maand verstandige vergelijking (kosten)</string>
+    <string name="tx_rpt_period_wise_expense_info">staafdiagram waarin uitgaven voor elke periode worden vergeleken.</string>
+    <string name="tx_rpt_period_wise_income_label">maand verstandige vergelijking (inkomen)</string>
+    <string name="tx_rpt_period_wise_income_info">staafdiagram waarin inkomsten voor elke periode worden vergeleken.</string>
+    <string name="tx_rpt_account_balance_trends_label">trends van de rekening saldi laatste 30 dagen</string>
+    <string name="tx_rpt_account_balance_trends_info">lijndiagram die de saldi van de laatste 30 dagen weergeeft.</string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_description">alleen geld is een volledige financiële oplossing om uw uitgaven, inkomsten, rekeningen, rekeningen, budgettaire uitgaven te beheersen en te volgen. Voeg simpelweg een transactie toe wanneer u uitgeven of geld verdienen, ook de ontvangstfoto kunt hechten. en gebruik rapporten en grafieken om uw transactietrends, vergelijking, accountbalansen en nog veel meer te analyseren.</string>
+
+    <string name="feature_label_free">gratis proefperiode</string>
+    <string name="feature_desc_free">De versie bevat basisfuncties om uw kosten en inkomsten te beheren, met onderstaande functies:\n</string>
+    <string-array name="feature_items_free">
+        <item>voeg een inkomen of uitgave toe</item>
+        <item>terugkerende transacties worden ondersteund</item>
+        <item>beperkte transacties (1000)</item>
+        <item>beheer van beperkte accounts (5)</item>
+        <item>meerdere valuta ondersteuning</item>
+        <item>meer dan 150 munten worden ondersteund</item>
+        <item>budgetplanner voor maand</item>
+        <item>Voeg een foto toe aan een transactie</item>
+        <item>beperkte categorieën en subcategorieën (70)</item>
+        <item>home screen account widget</item>
+        <item>Bekijk transacties maandelijks</item>
+        <item>zoek transacties</item>
+        <item>kalenderweergave</item>
+        <item>zoek transacties</item>
+        <item>filter display data</item>
+        <item>sorteer transacties lijst</item>
+        <item>geldoverboeking alleen tussen dezelfde valutarekeningen</item>
+        <item>dashboard overzicht voor elke maand</item>
+        <item>meerdere selectie: verwijder meerdere transacties en categorieën</item>
+        <item>meerdere selectie: kopieer meerdere transacties en categorieën</item>
+        <item>Rapporten: categorieën kosten / inkomsten voor elke maand</item>
+        <item>import transacties</item>
+        <item>scan een streepjescode en voeg het toe aan transactie notities</item>
+        <item>Maak een back-up, inclusief bijgevoegde ontvangstfoto\'s</item>
+        <item>dagelijkse geplande backups</item>
+        <item>alleen een enkel profiel</item>
+    </string-array>
+    <string name="feature_label_pro">premie</string>
+    <string name="feature_desc_pro">Dit omvat alle functies die worden geleverd door \'free trial\' \n\t\t\t+\nonder de premiumfuncties: \n</string>
+    <string-array name="feature_items_pro">
+        <item>onbeperkte transacties</item>
+        <item>onbeperkte accounts</item>
+        <item>onbeperkte categorieën en subcategorieën</item>
+        <item>Verwijder recurrente transacties en de configuratie ervan in één keer. (bulk verwijdering)</item>
+        <item>meerdere selectie: verander categorie transacties</item>
+        <item>startscherm snelkoppelingen widget</item>
+        <item>verander startscherm</item>
+        <item>budgetplanner voor dag, week, maand en jaar</item>
+        <item>dashboard overzicht voor elke dag, week, maand en jaar.</item>
+        <item>Bekijk transacties voor elke dag, week, maand, jaar en aangepaste periode</item>
+        <item>Fondsoverdracht tussen accounts van verschillende valuta\'s</item>
+        <item>Rapporten: categorieën kosten en inkomsten voor elke dag, week, maand, jaar en aangepaste periode</item>
+        <item>rapporten: kosten- en inkomensontwikkeling</item>
+        <item>rapporten: vergelijking tussen weken, dagen, maanden, jaren</item>
+        <item>rapporten: genereren pdf rapporten en delen</item>
+        <item>export transacties en bijgevoegde foto\'s</item>
+        <item>controleer geplande backups</item>
+        <item>delen en exporteren van back-ups via email, drive, dropbox</item>
+        <item>Lokale back-ups herstellen en gedownload van de cloud</item>
+        <item>app beveiliging met behulp van pin en vingerafdrukken</item>
+    </string-array>
+    <string name="feature_label_bills">rekeningen herinnering</string>
+    <string name="feature_desc_bills">dit vereist premium versie.\nvoegt de mogelijkheid om herinneringen aan de app toe te voegen en helpt u om een factuurbetaling te koppelen aan een transactie, zoals een dubbele invoer. \n</string>
+    <string-array name="feature_items_bills">
+        <item>geïntegreerde facturen herinnering</item>
+        <item>Beheer eenvoudige en terugkerende facturen</item>
+        <item>dagelijkse facturen herinnering kennisgeving</item>
+        <item>Voeg foto toe aan facturen</item>
+        <item>home screen widgets voor rekeningen</item>
+        <item>wijziging herinnering kennisgeving tijd</item>
+        <item>herhaalde facturen en de configuratie ervan op een rij verwijderen. (bulk verwijdering)</item>
+        <item>dashboard overzicht bevat rekeningen</item>
+        <item>Bekijk de facturen per status</item>
+        <item>Bekijk rekeningen voor elke dag, week, maand, jaar en aangepaste periode</item>
+        <item>kalenderweergave van facturen</item>
+        <item>zoekrekeningen</item>
+        <item>meerdere selectie: bulk verwijdering van facturen en categorieën</item>
+        <item>meerdere selectie: bulk duplicatie van facturen en categorieën</item>
+        <item>meerdere selectie: verander categorie van facturen</item>
+        <item>meerdere selectie: wijziging herinnering kennisgeving van facturen</item>
+        <item>Rapporten: categoriewijzige facturen voor elke dag, week, maand, jaar en aangepaste periode</item>
+        <item>rapporten: facturen trend</item>
+        <item>rapporten: vergelijking tussen weken, dagen, maanden, jaren</item>
+        <item>rapporten: genereren pdf rapporten en delen</item>
+        <item>scan een streepjescode en voeg het toe aan rekeningbiljetten</item>
+        <item>Voeg een rekening-url toe aan de factuur</item>
+    </string-array>
+    <string name="feature_label_multiprof">meerdere profielen</string>
+    <string-array name="feature_items_multiprof">
+        <item>rekeningen</item>
+        <item>transacties</item>
+        <item>budgetten</item>
+        <item>categorieën en subcategorieën</item>
+        <item>biljetten</item>
+        <item>herhalende instellingen</item>
+        <item>rapporten en andere schermen beschouwen alleen de invoer uit zijn eigen profiel</item>
+        <item>Hiermee worden profielfuncties ingeschakeld</item>
+    </string-array>
+    <string name="feature_this_version">dit is gratis proefversie van enkel geld app en u kunt hieronder upgrades kopen om de app op zijn best te kunnen genieten.</string>
+
+
+    <string name="welcome_title4_tx_account">voeg een account toe</string>
+    <string name="welcome_info4_tx_account">account vertegenwoordigt uw bankrekening of contant geld in uw portemonnee, en is nodig voor transactie entry.</string>
+    <string name="welcome_title1_tx_detail">voeg een uitgave of inkomen toe</string>
+    <string name="welcome_info1_tx_detail">voer transactiegegevens in en sla het op. ondersteunt ook herhalende transacties.</string>
+    <string name="welcome_title1_tx_receipt">foto uw ontvangstbewijs</string>
+    <string name="welcome_info1_tx_receipt">ga papierloos door uw kostenbewijs te bevestigen samen met de transactiegegevens.</string>
+    <string name="welcome_title2_tx_email">transacties en ontvangsten delen</string>
+    <string name="welcome_info2_tx_email">export csv-formaat uitgaven en inkomsten, inclusief bijgevoegde bonnenfoto\'s (naar e-mail, dropbox, drive).</string>
+
+    <string name="welcome_title3_tx_list">Eenvoudige tabbladindeling</string>
+    <string name="welcome_info3_tx_list">Bekijk transacties voor elke periode en veeg snel tussen tabbladen. filter data op basis van categorieën, accounts, enz.</string>
+    <string name="welcome_title4_tx_budget">budget planner</string>
+    <string name="welcome_info4_tx_budget">voeg budgetten toe en blijf in de controle over uw uitgaven.</string>
+    <string name="welcome_title5_tx_reports">uitgebreide rapporten en grafieken</string>
+    <string name="welcome_info5_tx_reports">Vergelijk kosten tussen perioden en categorieën, bekijk de rekeningbalansen zowel historisch als geprojecteerd, en cash flow trend rapporten.</string>
+    <string name="welcome_title6_tx_drawer">navigatie lade menu</string>
+    <string name="welcome_info6_tx_drawer">dashboard, accounts, meerdere valuta, categorie, en subcategorieën, budgetplanner, agendaweergave, meerdere profielen, back-up en herstel, en nog veel meer.</string>
+
+    <string name="widget_acct_balance_title">rekening saldo</string>
+    <string name="widget_acct_balance">balans: </string>
+    <string name="widget_shortcuts_title">gewoon geld snelkoppelingen</string>
+    <string name="widget_shortcuts">(snelkoppelingen)</string>
+    <string name="coach_mark_add_bill">Klik op de knop \'+\' Drijvende knop om uitgaven, inkomsten of fondsoverdrachten toe te voegen</string>
+
+    <string name="error_max_txs_exceeded">aantal transacties overschreden maximale limiet, upgrade alstublieft om meer transacties toe te voegen.</string>
+    <string name="error_max_accounts_exceeded">aantal accounts overschreden maximumlimiet, upgrade dan om meer accounts toe te voegen.</string>
+
+    <string name="tx_new_expense">Voer kosten in</string>
+    <string name="tx_new_income">Voer inkomen in</string>
+    <string name="tx_bills_disabled_msg">Weet u dat deze app de geïntegreerde functie voor het herinneren van rekeningen ondersteunt? Schakel het in om uw rekeningen en betalingen te beheren.</string>
+</resources>
