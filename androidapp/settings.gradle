@@ -1,2 +1,2 @@
-include ':app', ':cats'
+include ':app', ':cats', ':utils', ':money'
 rootProject.name='Just Money Manager'
