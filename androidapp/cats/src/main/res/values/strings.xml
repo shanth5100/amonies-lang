@@ -1,3 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">cats</string>
+
+    <string name="menu_upgrade">Upgrade</string>
+    <string name="upgrade_to_pro">Upgrade to PREMIUM</string>
+    <string name="feature_unavailable">This feature is available in premium version only.</string>
+
+    <string name="error_save">Unable to save changes, please try again later.</string>
+    <string name="error_unknown">Unknown error occurred, please contact support.</string>
+    <string name="err_empty_text">Please supply a valid text.</string>
+    <string name="error">Error</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="export">Export</string>
+    <string name="cancel">Cancel</string>
+    <string name="goto_play_store">Open Google Play Store</string>
+    <string name="continue_">Continue</string>
+    <string name="ok">OK</string>
+    <string name="skip">skip</string>
+    <string name="done">got it</string>
+    <string name="select_a_option_warn">Please select an options</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="error_offline_title">No internet</string>
+    <string name="error_offline_message">You need to be online to perform this operation. Please make sure your WiFi or data connection is active.</string>
+    <string name="app_needs_relaunch">App needs to be relaunched in order to apply new settings.</string>
+    <string name="email_send_title">Send Email</string>
+
+    <!-- ==================================================================== -->
+    <!-- CONFIG.XML -->
+
+    <string name="home_data_inst_name">My profile</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="share">Share</string>
+    <string name="add">Add</string>
+    <string name="cat_detail">Category Details</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="receivable">Receivable</string>
+    <string name="payable">Payable</string>
+    <string name="both_expense_income">Expense &amp; Income</string>
+    <string name="both_payable_receivable">Payable &amp; Receivable</string>
+
+
+    <string name="cat_list_title">Categories</string>
+    <string name="cat_list_empty">No category exists..!</string>
+    <string name="cat_added">Category added</string>
+    <string name="cat_deleted">Category deleted</string>
+    <string name="cat_saved">Category saved</string>
+    <string name="cat_select_a_cat">Select Category</string>
+    <string name="cat_change">Change category</string>
+    <string name="cat_deleted_multi">%1$d categories deleted.</string>
+    <string name="cat_edit">Category Details</string>
+    <string name="cat_name_empty">Category name is empty..!</string>
+    <string name="cat_error_selfparent">Category cannot be its own subcategory, please select a different parent category.</string>
+    <string name="cat_name_err">Duplicate category name, please use another name..!</string>
+    <string name="cat_delete_warn">Selected category and any of its subcategories will be deleted. \n\nAlso any entries that are linked to the category will be reassigned to default category.</string>
+    <string name="cat_delete_unsaved">Cannot delete unsaved Category.</string>
+    <string name="cat_name">Category Name</string>
+    <string name="cat_no_of_linked_rows">%1$d bills.</string>
+    <string name="cat_code">Code</string>
+    <string name="cat_code_empty_err">Enter a category code</string>
+    <string name="cat_code_existing_err">Category code already used</string>
+    <string name="cat_type">Type</string>
+    <string name="cat_desc">Category description</string>
+    <string name="cat_color">Color</string>
+    <string name="cat_change_color_tap">Tap to change color</string>
+    <string name="cat_parent_switch">This is a parent category (top level)</string>
+    <string name="cat_subcategory_of">Subcategory of </string>
+    <string name="cat_select_parent">Parent category</string>
+    <string-array name="cat_types">
+        <item>Expense / payable</item>
+        <item>Income / receivable</item>
+    </string-array>
+    <string name="cat_search_hint">Type here to filter</string>
+    <!-- Categories '', '', '') -->
+    <string name="cat_0allCategories">All categories</string>
+    <string name="cat_1others">Other</string>
+    <string name="cat_1_1">Payments</string>
+    <string name="cat_1_2">Gifts</string>
+    <!-- <string name="cat_1_3">Charity</string>
+    <string name="cat_1_4">Pets</string>
+    <string name="cat_1_5">Investment</string> -->
+    <string name="cat_2transfer">Transfer</string>
+
+    <string name="cat_3personal">Personal care</string>
+    <string name="cat_3_1">Hair and beauty</string>
+    <string name="cat_3_2">Gym and fitness</string>
+    <string name="cat_3_3">Medical</string>
+    <string name="cat_3_4">Dental</string>
+
+    <string name="cat_4food">Food and Drink</string>
+    <string name="cat_4_1">Coffee</string>
+    <string name="cat_4_2">Meal</string>
+    <string name="cat_4_3">Takeaway food</string>
+    <string name="cat_4_4">Tea</string>
+    <string name="cat_4_5">Restaurant</string>
+    <string name="cat_4_6">Grocery store</string>
+    <string name="cat_4_7">Snack</string>
+
+    <string name="cat_5entertainment">Entertainment</string>
+    <string name="cat_5_1">Movies</string>
+    <string name="cat_5_2">Drinks</string>
+    <string name="cat_5_4">Holiday</string>
+    <string name="cat_5_5">Concert and theater</string>
+    <string name="cat_5_6">Games</string>
+    <string name="cat_5_7">Party</string>
+
+    <string name="cat_6automobile">Automobile</string>
+    <string name="cat_6_1">Car wash</string>
+    <string name="cat_6_2">Fuel</string>
+    <string name="cat_6_3">Service and repair</string>
+    <string name="cat_6_4">Insurance</string>
+    <string name="cat_6_5">Accessories</string>
+    <string name="cat_6_6">Road tax</string>
+    <string name="cat_6_7">Parking</string>
+    <!--<string name="cat_6_7">Registration</string>-->
+
+    <string name="cat_7shopping">Shopping</string>
+    <string name="cat_7_1">Clothing</string>
+    <string name="cat_7_2">Computers and accessories</string>
+    <string name="cat_7_3">Electronics</string>
+    <string name="cat_7_4">Digital music</string>
+    <string name="cat_7_5">Groceries</string>
+    <string name="cat_7_6">Mobile and gadgets</string>
+    <string name="cat_7_7">Jewellery</string>
+    <string name="cat_7_8">Other shopping</string>
+    <string name="cat_7_9">Furniture</string>
+    <string name="cat_7_10">Toys</string>
+    <string name="cat_7_11">Subscription</string>
+    <string name="cat_7_12">Garden</string>
+
+    <string name="cat_8travel">Travel</string>
+    <string name="cat_8_1">Train</string>
+    <string name="cat_8_2">Bus</string>
+    <string name="cat_8_3">Flight</string>
+    <string name="cat_8_4">Insurance</string>
+    <string name="cat_8_5">Local transport</string>
+    <string name="cat_8_6">Taxi</string>
+    <string name="cat_8_7">Car hire</string>
+    <string name="cat_8_8">Hotel</string>
+    <string name="cat_8_9">Other transportation</string>
+
+    <string name="cat_9banking">Banking</string>
+    <string name="cat_9_1">Loan</string>
+    <string name="cat_9_2">Interest</string>
+    <string name="cat_9_3">Charges</string>
+    <string name="cat_9_4">Savings</string>
+    <string name="cat_9_5">Mortgage</string>
+    <string name="cat_9_6">Stock trading</string>
+    <string name="cat_9_7">Investments</string>
+
+    <string name="cat_10home">Home</string>
+    <string name="cat_10_1">Electricity and gas</string>
+    <string name="cat_10_2">Internet and phone</string>
+    <!--<string name="cat_10_3">Gas</string>-->
+    <string name="cat_10_4">Water</string>
+    <string name="cat_10_5">TV</string>
+    <string name="cat_10_6">Cleaning service</string>
+    <string name="cat_10_7">Repairs</string>
+    <string name="cat_10_8">Utilities</string>
+    <string name="cat_10_9">Accommodation</string>
+    <string name="cat_10_10">Rent</string>
+    <string name="cat_10_11">Insurance</string>
+    <string name="cat_10_12">Property tax</string>
+
+    <string name="cat_11work">Work</string>
+    <string name="cat_11_1">Salary</string>
+    <string name="cat_11_2">Dividend</string>
+    <string name="cat_11_3">Bonus</string>
+    <string name="cat_11_4">Expense claim</string>
+    <string name="cat_11_5">Stationery</string>
+    <string name="cat_11_6">Tax</string>
+
+    <string name="cat_12family">Family</string>
+    <string name="cat_12_1">Child care</string>
+    <string name="cat_12_2">School and college</string>
+    <string name="cat_12_3">Pocket money</string>
+    <string name="cat_12_4">Insurance</string>
+    <string name="cat_12_5">Medical care</string>
+
+    <string name="cat_system">Default category</string>
+    <string name="cat_system_delete_err">Can not delete system category</string>
+
+    <string name="label_list_title">Labels</string>
+    <string name="label_list_empty">No Label exists..!</string>
+    <string name="label_new_title">New Label</string>
+    <string name="label_edit_title">Edit/View Label</string>
+    <string name="label_enter">Enter Label name</string>
+    <string name="label_name_err">Please enter a valid label name.!</string>
+    <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
+    <string name="label_add">Add Labels</string>
+    <string name="label_details">Label details</string>
+    <string name="label_saved">Label saved successfully.</string>
+    <string name="label_deleted">Label deleted successfully.</string>
+    <string name="label_delete_warning">Selected label will be deleted.</string>
+    <string name="labels_filter_title">Filter Labels</string>
+    <string name="labels_filter_all">Labels (All)</string>
+    <string name="labels_filter_count">Labels (%1$d)</string>
+
+    <!-- Startup Screen Chooser -->
+    <string name="startup_screen_title">Choose a startup screen</string>
+    <string name="startup_screen_msg">Select a home screen that you like to see whenever you open the app.</string>
+    <string name="startup_screen_note">You can always change your selection through settings, later.</string>
+    <string name="startup_screen_label_default">%1$s - recommended</string>
+    <string name="startup_screen_change_success">Startup screen changed successfully</string>
+
+    <!-- from string.xml -->
+    <string name="select_currency">Select Currency</string>
+    <string name="warn_invalid_amt">Please enter a valid amount.</string>
+    <string name="warn_invalid_no">Please enter a valid number.</string>
+    <string name="warn_invalid_no_min1">Please enter a valid number greater than 1.</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="amount_empty_warn">Enter amount</string>
+    <string name="amount_hint">Amount, example: 124.55</string>
+    <string name="bill_currency">Currency</string>
+    <string name="change_currency">Change Currency</string>
+    <string name="select_a_option">Select an option</string>
+    <string name="processing">Processing…</string>
+    <string name="email_dev">Contact Developer</string>
+    <string name="exit">Exit</string>
+    <string name="exit_info">Touch EXIT, to close the app.</string>
+    <string name="restart">Restart</string>
+    <string name="drawer_bills_by_status">BILLS BY STATUS</string>
+    <string name="drawer_settings_sep">TOOLS / SETTINGS</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="manage_categories">Categories</string>
+    <string name="drawer_rpt_charts_title">Reports and Charts</string>
+    <string name="update_available_title">@string/app_name</string>
+    <string name="update_available_warn">New update available, with new features and bug fixes.</string>
+    <string name="update_available_force">We no longer support this version.\n\n Please update now.</string>
+    <string name="update_available_force_dummy">Invalid date.\n\nPlease check your internet connection.</string>
+    <string name="update_now">Update Now</string>
+    <string name="later">Later</string>
+    <string name="menu_drawer_group_more">COMMUNICATION / MORE</string>
+    <string name="rate_app_title">Rate This App</string>
+    <string name="share_this_app">Share This App</string>
+    <string name="share_this_app_title">Share Using</string>
+    <string name="share_this_app_subject">Take a look at \"%1$s\" App</string>
+    <string name="about_us">About Us</string>
+    <string name="by_124apps">Sponsored by 124APPS</string> <!-- &#169; -->
+    <string name="rate_app_msg">Is this App helping you? Please rate us and help other users to know about it.\n\n\t* * * * *\nThanks.</string>
+    <string name="rate_app_now">Rate Now</string>
+    <string name="rate_app_later">Later</string>
+    <string name="rate_app_no">no thanks</string>
+
+    <string name="close">Close</string>
+
+    <string-array name="rpt_bills_forcast">
+        <item>Until today only</item>
+        <item>1 month in advance</item>
+        <item>2 months in advance</item>
+        <item>3 months in advance</item>
+        <item>4 months in advance</item>
+        <item>5 months in advance</item>
+        <item>6 months in advance</item>
+        <item>1 year in advance</item>
+        <item>18 months in advance</item>
+        <item>2 years in advance</item>
+        <item>3 years in advance</item>
+        <item>4 years in advance</item>
+        <item>5 years in advance</item>
+        <item>10 years in advance</item>
+    </string-array>
+    <string-array name="notify_days">
+        <item>3 months before due date</item>
+        <item>2 months before due date</item>
+        <item>1 month before due date</item>
+        <item>3 weeks before due date</item>
+        <item>2 weeks before due date</item>
+        <item>10 days before due date</item>
+        <item>9 days before due date</item>
+        <item>8 days before due date</item>
+        <item>7 days before due date</item>
+        <item>6 days before due date</item>
+        <item>5 days before due date</item>
+        <item>4 days before due date</item>
+        <item>3 days before due date</item>
+        <item>2 days before due date</item>
+        <item>1 day before due date</item>
+        <item>- On the due date &amp; onwards -</item>
+        <item>1 day after due date</item>
+        <item>2 days after due date</item>
+        <item>3 days after due date</item>
+        <item>4 days after due date</item>
+        <item>5 days after due date</item>
+        <item>6 days after due date</item>
+        <item>7 days after due date</item>
+        <item>8 days after due date</item>
+        <item>9 days after due date</item>
+        <item>10 days after due date</item>
+        <item>2 weeks after due date</item>
+        <item>3 weeks after due date</item>
+        <item>1 month after due date</item>
+        <item>2 months after due date</item>
+        <item>3 months after due date</item>
+    </string-array>
+
+    <string name="permission_denied_dialog_msg">Please allow external storage read and write, to save data. \nDenying the permissions would cause inconsistency for the App.</string>
+    <string name="permission_denied_dialog_restart">Retry</string>
+    <string name="permission_denied_dialog_dont_care">I don\'t care</string>
+    <string name="permission_denied_camera">App would need camera permission, to capture photos.</string>
+    <string name="permission_denied_camera_receipt">App would need camera permission, to capture receipt photos.</string>
+
+    <!-- ==================================================================== -->
+    <!-- BILLS.XML -->
+    <string name="app_name">Bills Reminder</string>
+    <!--<string name="title_bills_by_status">Bills by status</string>
+    <string name="title_bills_by_period">Bills by period</string>-->
+    <string name="title_bills_list">Bills List</string>
+    <string name="title_bills_report">Bills Report</string>
+
+    <string name="title_bill_upcoming">Upcoming Bills</string>
+    <string name="title_bill_overdue">Overdue Bills</string>
+    <string name="title_bill_paid">Paid Bills</string>
+    <string name="title_bill_unpaid">Unpaid Bills</string>
+    <string name="title_bill_detail">Bill Details</string>
+    <string name="title_bill_detail_new">New Bill Reminder</string>
+    <string name="title_activity_calendar">Calendar View</string>
+    <string name="bills">Bills</string>
+    <string name="bill_new">Add Bill Reminder</string>
+    <string name="bills_overdue">Overdue</string>
+    <string name="bills_upcoming">Upcoming</string>
+    <string name="bills_paid">Paid</string>
+    <string name="bills_unpaid">Unpaid</string>
+    <string name="bills_recurr">Recurring Bills</string>
+    <string name="bills_recur_desc">Repeats every %1$d %2$s.</string>
+    <string name="restart_app">Please restart the app.</string>
+    <string name="bills_view">View bills</string>
+
+    <string name="bill_list_empty_tip">No bill exists. \n(Touch floating \'+\' button to create one)</string>
+    <string name="bill_list_empty">No Bills exists.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dummy_day">Wed</string>
+
+    <string name="bill_delete_unsaved">Cannot delete unsaved bill.</string>
+    <string name="bill_deleted">Bill deleted.</string>
+    <string name="bill_delete_single_warn">Bill &amp; its bill payments will be deleted, continue?</string>
+    <string name="bill_delete_multi_warn">Selected bills &amp; its bill payments will be deleted, continue?</string>
+    <string name="bill_delete_recur_warn">This recurring entry and all associated bills will be deleted, continue?</string>
+    <string name="bill_duplicate_warn">%1$d duplicate bills will be created, continue?</string>
+    <string name="bill_not_found">Bill does not exists.</string>
+    <string name="app_error_restart">Auto fixed an issue, please restart the app.</string>
+    <string name="multi_select_mode_title">%1$s, total: %2$s</string>
+
+    <string name="bill_deleted_recur">Successfully deleted recurring bills.</string>
+    <string name="bill_deleted_multi">%1$d bills deleted.</string>
+    <string name="bill_multi_update_count">%1$d bills updated.</string>
+    <string name="bill_duplicate_multi">%1$d new bills created.</string>
+    <string name="bill_duplicate_multi_error">Please contact developer. Error copying bills: %1$s </string>
+    <string name="bill_added">New bill added.</string>
+    <string name="bill_saved">Bill saved.</string>
+    <string name="bill_populating_recent">Populating with recent values&#8230;</string>
+
+    <string name="bill_payee">Payee / item</string>
+    <string name="bill_duedt">Payment Due date</string>
+    <string name="cat_new_title">New Category</string>
+    <string name="bill_dueNear">Due %1$s</string>
+    <string name="bill_dueIn">Due in %1$d days</string>
+    <string name="bill_dueOver">Overdue by %1$d days</string>
+    <string name="bill_paid">Paid</string>
+    <string name="bill_received">Received</string>
+    <string name="bill_unpaid">Unpaid</string>
+    <string name="bill_paid_on">Paid On</string>
+    <string name="bill_type">Bill Type</string>
+    <string name="bill_change_notification">Change reminder notification</string>
+    <string name="bill_more_options">More options</string>
+    <string name="notify">Show reminder notifications</string>
+    <string name="notify_channel_name_app">App usage</string>
+    <string name="notify_channel_desc_reminder">Notification about bill payment, overdue, or upcoming.</string>
+    <string name="notify_channel_desc_app">About new version updates or App usage reminder.</string>
+    <string name="tx_payee_hint">Example: Rent</string>
+    <string name="tx_notes">Notes or Scan barcode / URL</string>
+    <string name="tx_notes_zing_missing_title">Install Barcode Scanner</string>
+    <string name="tx_notes_zing_missing">This feature requires Barcode scanner, would you like to install it?</string>
+    <string name="tx_error_save_pic">Error while saving the picture: %1$s</string>
+    <string name="tx_photo_not_supported">Unable to capture photo, device not supported..!</string>
+    <string name="tx_photo_take_new_photo">Take New Photo</string>
+    <string name="tx_photo_select_from_gallery">Select From Gallery</string>
+    <string-array name="tx_photo_options">
+        <item>View photo</item>
+        <item>Take New photo</item>
+        <item>Select from gallery</item>
+        <item>Remove photo</item>
+    </string-array>
+    <!-- Sort options -->
+    <string name="menu_sort_by">Sort by</string>
+    <string name="sort_by_date_asc">Date ascending</string>
+    <string name="sort_by_date_desc">Date descending</string>
+    <string name="sort_by_amt_asc">Amount ascending</string>
+    <string name="sort_by_amt_desc">Amount descending</string>
+    <string name="sort_by_payee_asc">Payee ascending</string>
+    <string name="sort_by_payee_desc">Payee descending</string>
+
+    <string name="menu_search_bills">Search bills</string>
+    <string name="bill_total_row">%1$d row, Total: </string>
+    <string name="bill_total_rows">%1$d rows, Total: </string>
+    <string name="bill_total_rows_multi_curr">%1$d rows, in multiple currencies.</string>
+    <string name="bill_rpt_date_beyond">%1$s &amp; beyond</string>
+    <string name="bill_rpt_total_payable">Total payable: %1$s</string>
+    <string name="bill_rpt_total_receivable">Total receivable: %1$s</string>
+    <string name="bill_rpt_type_cat_payable">Bills Payable by Category</string>
+    <string name="bill_rpt_type_cat_receivable">Bills Receivable by Category</string>
+    <string name="bill_rpt_charts_saved">Generated Reports (%1$d)</string>
+    <string name="bill_rpt_charts_saved_empty">No saved reports.\n Have you tried generate PDF report feature yet?</string>
+    <string name="bill_rpt_charts_saved_loc">PDF Reports are stored at: %1$s</string>
+
+    <string name="bill_rpt_1categorywise_pay_label">Category wise chart (Payable)</string>
+    <string name="bill_rpt_1categorywise_pay_info">Pie chart showing category wise comparison for the period.</string>
+    <string name="bill_rpt_2categorywise_receive_label">Category wise chart (Receivable)</string>
+    <string name="bill_rpt_2categorywise_receive_info">Pie chart showing category wise comparison for the period.</string>
+    <string name="bill_rpt_3trends_30days_label">Bills trends for 30 days</string>
+    <string name="bill_rpt_3trends_30days_info">Line chart showing day wise comparison of both payable and receivable for last 30 days</string>
+    <string name="bill_rpt_4monthwise_pay_label">Month wise comparison (Payable)</string>
+    <string name="bill_rpt_4monthwise_pay_info">Bar chart showing month wise comparison of payable bills.</string>
+    <string name="bill_rpt_5monthwise_receive_label">Month wise comparison (Receivable)</string>
+    <string name="bill_rpt_5monthwise_receive_info">Bar chart, showing month wise comparison of receivable bills.</string>
+
+    <string name="bill_rpt_comparison_title">Comparison Report</string>
+    <string name="bill_rpt_comparison_daywise_label">Day wise comparison for %1$d days</string>
+    <string name="bill_rpt_comparison_weekwise_label">Week wise comparison for %1$d weeks</string>
+    <string name="bill_rpt_comparison_monthwise_label">Month wise comparison for %1$d months</string>
+    <string name="bill_rpt_comparison_yearwise_label">Year wise comparison for %1$d years</string>
+
+    <string name="bill_rpt_trends_title">Bills Trend</string>
+    <string name="bill_rpt_trend_daywise_last_30">30 days comparison</string>
+    <string name="bill_rpt_trend_daywise_this_week">7 days comparison, for whole week</string>
+    <string name="bill_rpt_trend_daywise_this_month">Comparison for whole month</string>
+    <string name="bill_rpt_trend_daywise_for_3_months">Recent 3 months comparison</string>
+    <string name="bill_rpt_trend_daywise_for_6_months">Recent 6 months comparison</string>
+    <string name="bill_rpt_trend_daywise_this_year">Full year or 12 months comparison</string>
+
+    <string name="rpt_pdf_menu_title">Generate PDF</string>
+    <string name="rpt_pdf_name_dialog_title">Generate PDF Report</string>
+    <string name="rpt_pdf_name_already_exists">PDF file name already exist, use a different name.</string>
+    <string name="rpt_pdf_name_get_error">Unable to get PDF file name..!</string>
+    <string name="rpt_pdf_generate_error">Unable to generate PDF, is your SD card connected?</string>
+    <string name="rpt_pdf_name_dialog_field">File name</string>
+    <string name="rpt_pdf_unsupported_title">Device not supported</string>
+    <string name="rpt_pdf_unsupported_info">You need to be using Andorid KitKat at least in order to generated PDF reports. \nSorry..!</string>
+    <string name="rpt_pdf_success_title">Generation complete</string>
+    <string name="rpt_pdf_success_view_reports">View Reports</string>
+    <string name="rpt_pdf_success_info_file">The new PDF report is saved as: \n%1$s</string>
+    <string name="rpt_pdf_generating_progress">Generating PDF report</string>
+    <string name="rpt_pdf_created_date">Created on: %1$s</string>
+    <string name="rpt_pdf_delete_confirm">Delete selected report file \'%1$s\'?</string>
+    <string name="rpt_pdf_bills_filename_templete">Bills Report %1$s - %2$s</string>
+    <string name="rpt_pdf_view_activity_not_found">Unable to find a PDF reader. Please install any supporting PDF viewer App, such as Acrobat Reader.</string>
+
+    <string-array name="rpt_pdf_select_options">
+        <item>View / Open</item>
+        <item>Share Report</item>
+        <item>Delete</item>
+    </string-array>
+
+    <!--	Repeation  -->
+    <string name="bill_repeat_info">Using below recurring configuration:</string>
+    <string name="bill_repeat">Recurring Bill</string>
+    <string name="bill_every">Repeats Every</string>
+    <string name="bill_next_due">Next occurrence date</string>
+    <string name="bill_end_none">Repeating forever</string>
+    <string name="bill_ends_on">Repeat until</string>
+    <string name="bill_ends_count_title">Payment terms</string>
+    <string name="bill_ends_count_label">Number of installments or occurrence</string>
+    <string name="bill_ends_count">Repeats for %1$d times</string>
+    <string name="bill_repeat_disable">Disable or stop auto creation of recurring entries</string>
+    <string name="bill_repeat_until_value">Repeat until %1$s</string>
+    <string name="bill_err_future_dt">Please enter a future date.</string>
+    <string name="bill_err_end_dt">\'Repeat until date\' should be after \'Next occurrence date\' </string>
+    <string-array name="repeat_array">
+        <item>Day(s)</item>
+        <item>Week(s)</item>
+        <item>Month(s)</item>
+        <item>Date of Month</item>
+        <item>Year(s)</item>
+    </string-array>
+    <string name="bill_rpt_save">Apply recurring changes</string>
+    <string-array name="bill_rpt_save">
+        <item>Without deleting any bill and create new bills, if required.</item>
+        <item>Delete and recreate bills using the new recurring changes. Bills belonging to this recurring settings will only be effected.</item>
+        <!-- <item>Effect this and all bills.</item> -->
+    </string-array>
+    <string name="bill_rpt_remove">Remove recurring nature</string>
+    <string-array name="bill_rpt_remove">
+        <item>For this bill only.</item>
+        <item>For this and all related bills.</item>
+    </string-array>
+
+    <string name="bill_list_options_view">View bill details</string>
+    <string name="bill_list_options_select">Select Row</string>
+    <string name="bill_list_options_copy">Create a copy (duplicate)</string>
+    <string name="bill_list_options_paid">Mark as PAID</string>
+    <string name="bill_list_options_unpaid">Mark as unpaid</string>
+    <string name="bill_list_options_delete">Delete bill</string>
+
+    <string name="bill_marked_paid_msg">Bill marked as paid</string>
+    <string name="bill_marked_unpaid_msg">Bill is reset to unpaid</string>
+    <string name="bill_removed_recurring">Bill unlinked from recurring config</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- HOME.XML -->
+
+    <string name="inst_name">Business profile name</string>
+    <string name="inst_name_hint">Business or household name for bookkeeping.</string>
+    <string name="inst_dialog_title">Profile Details</string>
+    <string name="inst_dialog_title_edit">Edit Profile</string>
+    <string name="inst_list_title">Profiles</string>
+    <string name="menu_add_profile_title">Add Profile</string>
+    <string name="home_no_instances">No profile exists, please create a new profile.</string>
+
+    <string name="help">Help &#8230; </string>
+    <string name="inst_new">Create New Profile</string>
+    <string name="inst_delete">Delete this Profile</string>
+    <string name="inst_delete_warn">Profile \'%1$s\' and all the data in it will be deleted. \nContinue?</string>
+    <string name="inst_delete_err_1inst">No, this is not possible..!! \nBecause this is the only profile available in this app and you need at lease one profile to work with. </string>
+    <string name="inst_profile_photo">Touch here to change profile photo</string>
+    <string name="inst_change_photo">Change photo</string>
+    <string name="inst_photo_from_gallery">From Gallery</string>
+    <string name="inst_photo_from_camera">Capture photo</string>
+    <string name="inst_warn_no_multi_instance">This version of app supports single profile only. So please delete any unwanted profiles or upgrade to PREMIUM version to keep using multiple profiles.</string>
+
+    <string name="home_help_text">Profile is an organized collection of data, like a storage or accounts book (not bank account). The data (bills, categories, labels) belonging to one profile is stored at one place and never mixed up with that of other profile\'s data. \n\nSo it will give you more control and better management. Example: one profile for personal expenses, and another for your office or business spending.</string>
+    <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
+    <string name="inst_rename">Edit profile</string>
+    <string name="inst_open">Select this profile</string>
+    <string name="default_currency">Default Currency</string>
+
+    <string name="inst_error_add_fail">Unable to add Profile.</string>
+    <string name="inst_error_edit_fail">Unable to rename Profile.</string>
+    <string name="inst_error_edit_name_invalid">Enter a valid profile name</string>
+    <string name="inst_default_curr">default currency: %1$s</string>
+    <string name="inst_error_max_limit">Max profile limit reached for trial version, please upgrade to create more data profiles.</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Backup / Recovery -->
+    <string name="bkp_title">Backup / Restore</string>
+    <string name="bkp_location">Storage Location</string>
+    <string name="bkp_location_info">Backups files are stored at: \n\n%1$s</string>
+    <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
+    <string name="bkp_name">Backup Name</string>
+    <string name="bkp_created">Created: %1$s</string>
+    <!--<string name="bkp_new_pref"> Photo Preference</string>-->
+    <string name="bkp_name_new"> Backup Name</string>
+    <!--<string name="bkp_photos_include">Backup including Photos</string>
+    <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
+    <!--<string name="bkp_create">Create Backup</string>-->
+    <string name="bkp_list_empty">No backup exists..!</string>
+    <string name="bkp_duplicate_bkp">Duplicate backup name, please provide another backup name or delete existing..!</string>
+    <string name="bkp_name_invalid">Invalid backup name \'%1$s\'. \n\nAvoid using spaces and special characters such as: \\ /</string>
+    <string name="bkp_failed">Backup failed..! Please ensure there is enough of free storage space.</string>
+    <string name="bkp_inprogress_warn">Backup / Restore in progress, please be patience..!</string>
+
+    <string name="bkp_restore_fail">Restore failed..! Please try later after sometime.</string>
+    <string name="bkp_send">Share Backup</string>
+    <string name="bkp_existing_label">Existing Backups (%1$d)</string>
+    <string name="bkp_create">Create a new backup</string>
+    <string name="bkp_send_sub">Backup file \'%1$s\'</string>
+    <string name="bkp_rename">Rename Backup</string>
+    <string name="bkp_rename_success">Successfully renamed \'%1$s\' to \'%2$s\'.</string>
+    <string name="bkp_rename_failed">Failed to renamed \'%1$s\' to \'%2$s\'.</string>
+    <string name="bkp_delete">Delete backup</string>
+    <string name="bkp_delete_confirm">Delete selected data backup \'%1$s\'?</string>
+    <string name="bkp_delete_success">Successfully deleted.</string>
+    <string name="bkp_delete_fail">Failed to delete.</string>
+    <string name="bkp_restore_external">Restore from external cloud</string>
+    <string name="bkp_restore_external_title">Download and Restore</string>
+    <string name="bkp_restore_confirm_cloud">Restore would take a few seconds to couple of minutes, so please be patience depending on your backup size. \n\nClick continue to choose a external backup file to import and restore data from.</string>
+    <string name="bkp_last_backup">Last Backup</string>
+    <string name="bkp_last_info">Backup your App data and attachments to Google Drive. You can restore them when you reinstall the app, change phone, or copy data onto another device.</string>
+    <string name="bkp_last_local_time">Local: %1$s</string>
+    <string name="bkp_last_size">Size: %1$s</string>
+    <string name="bkp_backup_now">Backup</string>
+    <string name="bkp_restore_now">Restore</string>
+    <string name="bkp_google_drive_setting">Google Drive Settings</string>
+    <string name="bkp_google_drive_info">Add a Google account to store latest backups. Enabling Backup to Google Drive will overwrite existing app backup on the Google Drive, so please mind it when using on multiple devices.</string>
+    <string name="bkp_to_google_drive_label">Backup to Google Drive</string>
+    <string name="never">Never</string>
+    <string name="bkp_restore_successful">Successfully restored from the backup. \n\nApp needs to be re-launched in order to apply new data.</string>
+    <string name="bkp_create_confirm_msg">Backup can take a few seconds to minutes depending on the app data size, so please be patient. \n\nContinue creation of a backup?</string>
+    <string name="bkp_over_wifi_label">Backup over</string>
+    <string name="bkp_success">Successfully backed up.</string>
+    <string name="bkp_restore_confirm_msg">Restore would take a few seconds to couple of minutes, so please be patience. \n\nAll your existing App data on this device will be replaced from the last backup. Do you want to continue with the restore operation?</string>
+
+    <string-array name="bkp_to_google_drive">
+        <item>@string/never</item>
+        <item>Only when I tap Backup</item>
+        <item>Daily</item>
+    </string-array>
+
+    <string-array name="bkp_over_wifi">
+        <item>Wi-Fi only</item>
+        <item>Wi-Fi or mobile data</item>
+    </string-array>
+
+    <!-- ==================================================================== -->
+    <!-- PREFERENCES.XML -->
+
+    <string name="pref_key">preferences</string>
+
+    <!--<string name="prefTitleAppSetting">App Settings</string>
+    <string name="prefKeyAppSetting">appSettings</string>-->
+    <string name="prefTitleGeneralSetting">General</string>
+    <string name="prefTitleDataSetting">Backups &amp; Reports</string>
+    <string name="prefTitleDataSettingTrial">Backup</string>
+    <!--<string name="prefKeyAppSetting">appSettings</string>-->
+
+    <string name="prefTitleAppPIN">4 digit PIN</string>
+    <string name="prefSummaryAppPIN">For security purpose you can set a PIN to start the app. Once set, you will be asked for the PIN every time the app starts up</string>
+
+    <string name="prefTitleAppPINChange">Change PIN</string>
+    <string name="prefSummaryAppPINChange">Touch here to change your 4 digit PIN.</string>
+
+    <string name="prefTitleStartupScreen">Landing page</string>
+    <string name="prefSummaryStartupScreen">App startup screen that shows up when the app is launched.</string>
+
+    <string name="prefTitleChangeLanguage">Language: %1$s</string>
+    <string name="prefSummaryChangeLanguage">Touch here to change language</string>
+
+    <string name="prefTitleEnableSubcategories">Enable Subcategories</string>
+    <string name="prefSummaryEnableSubcategories">Tick to use two level categories</string>
+
+    <string name="prefTitleInstSetting">Profile</string>
+
+    <string name="prefTitleDefaultCurrency">Default profile currency: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">Currency that is pre populated while adding any new record, for this profile.</string>
+
+    <string name="prefTitleManageInstance">Manage Profiles</string>
+    <string name="prefSummaryManageInstance">To create, delete, or change currency of any other profile.</string>
+
+    <!--<string name="prefKeyBillSettings">billsSettings</string>-->
+    <string name="prefTitleBillSettings">Bills</string>
+    <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
+
+    <string name="prefTitleNotifyTick">Enable Reminder Notifications</string>
+    <string name="prefSummaryNotifyTick">Notify me about bills that were marked to do so. (unselect to disable)</string>
+    <string name="prefSummaryNotifyUnTick">Notifications are now disabled. (select to enable)</string>
+
+    <string name="prefTitleNotifyTime">Notification Time: %1$s:%2$s</string>
+    <string name="prefSummaryNotifyTime">Notifications are popped up at this time, on daily basis</string>
+
+    <string name="prefTitleNotifyDays">Default Reminder Notification</string>
+    <string name="prefSummaryNotifyDays">For new bills, this is pre selected as daily reminder notification option. example: 5 days before due date</string>
+
+    <string name="prefTitleForcast">Forecast Period</string>
+    <string name="prefTitleForcastDialog">Create Recurring Bills</string>
+    <string name="prefSummaryForcast">Recurring Bills will be auto generated in advance until the period specified. example: 3 month in advance</string>
+
+    <string name="pref_inst_currency_set_to">Profile currency set to: %1$s</string>
+
+    <!-- Backup / restore preferences (29.mar.2015) -->
+
+    <string name="prefTitlePDFReports">Generated Reports</string>
+    <string name="prefSummaryPDFReports">Click here to view list of generated PDF files. Whenever a PDF report is generated they are cached by the app where you can view, share, delete them as per your needs.</string>
+
+    <string name="prefTitleBackupPhotos">Backup include attachments</string>
+    <string name="prefSummaryBackupPhotosTick">Backups will now contain data and also attached receipt photos, as in a full backup</string>
+    <string name="prefSummaryBackupPhotosUnTick">Quick backup is active, so backups will includes data only and ignores any attached photos</string>
+
+    <string name="prefSummaryBackupAccount">Select an Google Drive account to store all your application data backups. Enabling Backup to Google Drive will overwrite any existing copy on your Google Drive, so please mind it when using on multiple devices.</string>
+    <string name="prefSummaryBackupAccountUnlink">Do you want to unlink your Google Drive account? So your data won\'t be backed up to the cloud storage.</string>
+
+    <string name="prefTitleBackupDriveSyncTime">Last backup sync time</string>
+
+    <string name="prefTitleBackupWiFi">Backup over WiFi only</string>
+    <string name="prefSummaryBackupWiFi">Enable to perform Google Drive backup via WiFi only. Untick to use both WiFi and mobile internet data.</string>
+
+    <!-- Access Denied / Root detected Activity -->
+    <string name="title_activity_access_denied">AccessDenied</string>
+    <string name="access_denied_lable">Something went wrong..!</string>
+    <string name="access_denied_msg">Please try again or contact developer about the issue.</string>
+    <string name="access_denied_autofixed">An issue has been fixed automatically. \n\nPlease restart the app and you are good to go.</string>
+
+    <!-- Filter Fragement -->
+    <string name="filter_data">Filter data</string>
+    <string name="filter_menu">Filter</string>
+    <string name="filter_apply">Apply filter</string>
+    <string name="filter_selected_save">Save</string>
+    <string name="filter_clear">Reset</string>
+    <string name="filter_invert">Inverse</string>
+    <string name="filter_sort_by">Sort by: %1$s</string>
+    <string name="filter_category_title">Filter categories</string>
+    <string name="filter_categories_all">Categories (all)</string>
+    <string name="filter_categories_count">Categories (%1$d)</string>
+    <string name="filter_currency_title">Filter currencies</string>
+    <string name="filter_currencies_all">Currencies (all)</string>
+    <string name="filter_currencies_count">Currencies (%1$d)</string>
+    <string name="filter_photo_title">Filter records with</string>
+    <string name="filter_photo_any">Receipt photo (any)</string>
+    <string name="filter_photo_yes">Photo attached</string>
+    <string name="filter_photo_no">Photo not attached</string>
+
+    <!-- New Recurring Screen -->
+    <string name="bills_paid_total">Paid: %1$s</string>
+    <string name="recurbill_total">Total: </string>
+    <string name="bills_overdue_total">OverDue: %1$s</string>
+    <string name="bills_upcoming_total">Upcoming: %1$s</string>
+    <string name="recurbill_list_empty">No recurring configurations exists. \n(Touch floating \'+\' button to create one)</string>
+    <string name="recurbill_list_title">Recurring Configurations</string>
+    <string name="recurbill_list_subtitle">For bills</string>
+    <string name="bills_recur_subtitle">Every %1$s %2$s</string>
+    <string name="menu_recurbill_delete">Delete recurring</string>
+    <string name="recurbill_list_unselected">Please select a recurring configuration from the left side frame.</string>
+    <string name="recurring">Recurring</string>
+
+    <string name="currency_all">All currencies</string>
+    <string name="title_activity_inst_edit">Profile Details</string>
+
+    <!-- Period, ViewPager, TabLayout -->
+    <string name="period_dashboard_change">Change period</string>
+    <string name="period_daily">Daily</string>
+    <string name="period_weekly">Weekly</string>
+    <string name="period_monthly">Monthly</string>
+    <string name="period_yearly">Yearly</string>
+    <string name="period_custom">Custom Range</string>
+    <string name="period_custom_range">%1$s - %2$s</string>
+    <string name="period_custom_range_title">SELECT A DATE RANGE</string>
+    <string name="period_custom_enter_from">Enter from date</string>
+    <string name="period_custom_enter_to">Enter to date</string>
+
+    <string name="period_today">Today</string>
+    <string name="period_yesterday">Yesterday</string>
+    <string name="period_tomorrow">Tomorrow</string>
+    <string name="period_thisweek">This week</string>
+    <string name="period_lastweek">Last week</string>
+    <string name="period_nextweek">Next week</string>
+    <string name="period_rangeweek">w/c %1$s</string>
+    <string name="period_rangeweek2">%1$s - %2$s</string>
+    <string name="period_thismonth">This Month</string>
+    <string name="period_lastmonth">Last Month</string>
+    <string name="period_nextmonth">Next Month</string>
+    <string name="period_thisyear">This Year</string>
+    <string name="period_lastyear">Last Year</string>
+    <string name="period_nextyear">Next Year</string>
+    <string name="period_and_future">%1$s &amp; future</string>
+    <string name="period_custom_last_7days">Last 7 days</string>
+    <string name="period_custom_last_30days">Last 30 days</string>
+    <string name="period_custom_last_3months">Last 3 months</string>
+    <string name="period_custom_recent_6months">Recent 6 months</string>
+    <string name="period_custom_recent_12months">Recent 12 months</string>
+    <string name="period_custom_date_range">Custom date range</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_title_bill_chart_payable">Bills Payable (by category)</string>
+    <string name="dashboard_title_bill_chart_receivable">Bills Receivable (by category)</string>
+    <string name="dashboard_title_bill_chart_payable_status">Bills Payable (by status)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">Bills Receivable (by status)</string>
+    <string name="dashboard_summary">Bills Overview </string>
+    <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
+    <string name="dashboard_summary_receivable">Receivable: </string>
+    <string name="dashboard_summary_payable">Payable: </string>
+    <string name="dashboard_summary_total">Total: </string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_title">About</string>
+    <string name="about_version">Version: %1$s</string>
+    <string name="about_version_trial">Version: %1$s (Free Trial)</string>
+    <string name="about_description">Bills Reminder helps you to organise and track your bills both paid / unpaid and payable / receivable. Simply add a bill into this app and it will remind daily about it, until you have marked it as paid or removed it. Bills marked as recurring are automatically created based on supplied configurations and forecast period, thus giving you complete peace of mind.</string>
+    <string name="about_facebook">Like us on facebook</string>
+    <string name="about_twitter">Follow us on twitter</string>
+    <string name="about_googleplay">Rate this app</string>
+    <string name="about_share">Share this app</string>
+    <string name="about_welcome_tutorial">Tutorial screens</string>
+    <string name="about_visit_124">Visit 124APPS</string>
+
+    <string name="feature_label_free">Free Trial</string>
+    <string name="feature_desc_free">The version contains basic features to manage your bills\n</string>
+    <string-array name="feature_items_free">
+        <item>Daily bills reminder notification</item>
+        <item>Attach photo to bills</item>
+        <item>Recurring bills support</item>
+        <item>Limited bills (300)</item>
+        <item>Limited categories and subcategories (70)</item>
+        <item>Change reminder notification time</item>
+        <item>Search bills</item>
+        <item>Dashboard overview of bills for each month</item>
+        <item>View bills by status</item>
+        <item>View bills month wise</item>
+        <item>Calendar view of bills</item>
+        <item>Multiple selection: deletion of multiple bills and categories</item>
+        <item>Multiple selection: copy multiple bills and categories</item>
+        <item>Reports: Category wise bills for each month</item>
+        <item>Scan a barcode and add it to bill notes</item>
+        <item>Add a bill payment url to the bill</item>
+        <item>Create backup, including attached receipt photos</item>
+        <item>Daily scheduled backups</item>
+        <item>Single profile only</item>
+    </string-array>
+    <string name="feature_label_pro">Premium</string>
+    <string name="feature_desc_pro">This includes all the features provided by \'Free Trial\' \n\t\t\t+\nBelow PREMIUM features: \n</string>
+    <string-array name="feature_items_pro">
+        <item>Unlimited bills</item>
+        <item>Unlimited categories and subcategories</item>
+        <item>Delete recurring bills and its configuration in one go. (bulk deletion)</item>
+        <item>Multiple selection: change category of multiple bills</item>
+        <item>Multiple selection: change reminder notification of bills</item>
+        <item>Dashboard overview for each Day, Week, Month and Year.</item>
+        <item>View bills for each Day, Week, Month, Year and custom period</item>
+        <item>Reports: Category wise bills for each Day, Week, Month, Year and custom period</item>
+        <item>Reports: Bills trend</item>
+        <item>Reports: Comparison between Weeks, Days, Months, Years</item>
+        <item>Reports: Generate PDF reports and sharing</item>
+        <item>Change startup screen</item>
+        <item>Control scheduled backups</item>
+        <item>Share and export backups via email, Drive, Dropbox</item>
+        <item>Restore local backups and downloaded from cloud</item>
+        <item>App security using PIN &amp; Fingerprints</item>
+    </string-array>
+    <string name="feature_label_multiprof">Multiple profile</string>
+    <string name="feature_desc_multiprof">This requires PREMIUM version.\nHelps you can maintain multiple profiles, where each profile deals with its own data. For example, separate your personal expenses to that of your business spending. So each profile has its own:\n</string>
+    <string-array name="feature_items_multiprof">
+        <item>Categories</item>
+        <item>Bills</item>
+        <item>Recurring bill settings</item>
+        <item>Reports and other screens will consider bills from its own profile</item>
+        <item>This will enable profile management features</item>
+    </string-array>
+    <string name="feature_tab_title">Features</string>
+    <string name="feature_tab_cloud_title">Cloud subscription</string>
+    <string name="feature_comparison_title">Features Comparison</string>
+    <string name="feature_subscription_title">Features &amp; Upgrade</string>
+    <string name="feature_this_version">This is free trial version of Bills Reminder App and you can buy below upgrades to enjoy the app to its best.</string>
+    <string name="feature_view_comparison">View Features Comparison</string>
+    <string name="feature_purchased">Purchased</string>
+
+    <string name="welcome_title1_bill_detail">Add new bill reminder</string>
+    <string name="welcome_info1_bill_detail">Enter bill details and save. Also supports recurring bills and change currency.</string>
+    <string name="welcome_title2_receipt">Photo your receipt</string>
+    <string name="welcome_info2_receipt">Go paperless by attaching the bill receipt along with the bill details.</string>
+    <string name="welcome_title3_bill_upcoming">View bills by status</string>
+    <string name="welcome_info3_bill_upcoming">Get a quick glance of upcoming, overdue, unpaid and paid bills. </string>
+    <string name="welcome_title4_bill_list">Simple tab layout</string>
+    <string name="welcome_info4_bill_list">View bills for each period and easily swipe between tabs. Example: for each month.</string>
+    <string name="welcome_title5_drawer">Navigation drawer menu</string>
+    <string name="welcome_info5_drawer">Dashboard, categories &amp; subcategories, calendar, multiple currency, reports &amp; charts, multiple profile, backup and restore.</string>
+    <string name="welcome_title6_recurring">Manage recurring bills</string>
+    <string name="welcome_info6_recurring">Recurring configurations helps to easily create, update, delete bills and recurring bills.</string>
+    <string name="welcome_title6_settings">Setting for easy customization</string>
+    <string name="welcome_info6_settings">Change notification time, recurring bills forecast period, change default currency and many more.</string>
+
+    <string name="coffee_title">Buy us a coffee</string>
+    <string name="coffee_description">We work days and nights, to give you the best app experience, adding new features, fixing defects. Please support our development - buy us a coffee.</string>
+    <string name="coffee_buy_now">Buy now</string>
+    <string name="coffee_thank_you">Thank you</string>
+
+    <string name="widget_bill_overview_title">Bills Summary</string>
+    <string name="widget_bill_overview_overdue">Overdue: </string>
+    <string name="widget_bill_overview_today">Due today: </string>
+    <string name="widget_bill_overview_upcoming">Upcoming: </string>
+    <string name="widget_bill_overview_count">%1$d</string>
+
+    <string name="widget_bill_single_title">Track a bill</string>
+    <string name="widget_bill_paid_on">Paid on %1$s</string>
+    <string name="widget_bill_due_in">Due in %1$d days</string>
+    <string name="widget_bill_due_tomorrow">Due tomorrow</string>
+    <string name="widget_bill_due_today">Due today</string>
+    <string name="widget_bill_due_yesterday">Due yesterday</string>
+    <string name="widget_bill_overdue_by">Overdue by %1$d days</string>
+    <string name="coach_mark_burger_icon">Click burger icon to view other screens</string>
+    <string name="coach_mark_add_bill">Click \'+\' floating button to add a bill reminder</string>
+    <string name="widget_bill_select_title">Select a bill</string>
+
+    <string name="error_max_bills_exceeded">Number of bills exceeded maximum limit, please upgrade to add more bills.</string>
+    <string name="error_max_cats_exceeded">Number of categories exceeded maximum limit, please upgrade to add more categories.</string>
+
+    <string name="bill_paid1">Paid Bill</string>
+    <string name="bill_unpaid1">Unpaid Bill</string>
+    <string name="bill_overdue1">Overdue Bill</string>
+    <string name="bill_upcoming1">Upcoming Bill</string>
+    <string name="bill_payments">Payments (%1$d)</string>
+    <string name="bill_payment_mark_paid">PAID in full</string>
+    <string name="bill_payment">Bill Payment</string>
+    <string name="bill_make_payment">Add a payment</string>
+    <string name="bill_payments_empty_text">No payments made on this bill yet.\n(Touch to add a payment)</string>
+    <string name="bill_payment_total">%1$d bill payment(s) total %2$s</string>
+    <string name="bill_payment_total_remaining">%1$s remaining to pay on total due of %2$s</string>
+    <string name="bill_payment_total_overpaid">%1$s overpaid on total due of %2$s</string>
+    <string name="bill_payment_total_equal">Congratulations! This bill is paid.</string>
+    <string name="bill_payment_heading">%1$s due on %2$s</string>
+    <string name="bill_payment_bill_amt">Bill Amount:</string>
+    <string name="bill_payment_amt_paid">Total paid:</string>
+    <string name="bill_payment_amt_due">Amount due:</string>
+    <string name="bill_payment_date">Payment Date</string>
+    <string name="bill_payment_last_paid_dt">Last paid %1$s</string>
+    <string name="bill_payment_not_exits">[None]</string>
+    <string name="bill_payments_tablet_view">Mark as paid, view or add bill payments &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Total Outstanding:</string>
+
+    <string name="contact_name_hint">Contact, customer or business name</string>
+    <string name="contact_payee_empty">Provide a contact name.</string>
+    <string name="contact_max_limit_exceed">Exceeded maximum number of contacts, please upgrade to add more.</string>
+    <string name="recur_list_selectmode_title">Select a Recurring Configuration</string>
+    <string name="recur_details_title">Recurring Configuration</string>
+    <string name="recur_details_saved">New Recurring Config Created.</string>
+    <string name="recur_details_updated">Recurring config updated.</string>
+    <string name="recur_details_edit">Edit Configuration</string>
+    <string name="recur_link_add_label">Add recurring nature</string>
+    <string name="recur_forecast_period_is">Current forecast period is set to %1$s.</string>
+    <string name="recur_forecast_period_date">Meaning, recurring entries will be automatically created up until %1$s.</string>
+    <string name="recur_forecast_view_settings">View Forecast Period</string>
+    <string-array name="recur_config_add_options">
+        <item>Choose an existing configuration</item>
+        <item>Create new recurring configuration</item>
+    </string-array>
+
+    <string name="attachment_title">Attachments</string>
+    <string name="attachment_title_count">Attachments (%1$d)</string>
+    <string name="attachment_non_exists">No Attachments exists, tap above buttons to add a photo or a file to this entry.</string>
+    <string name="attachment_take_photo">Take a photo</string>
+    <string name="attachment_add_file">Add an existing file</string>
+    <string name="attachment_deleting_snackbar">Deleting&#8230; %1$s</string>
+    <string name="bill_attachments_tablet_view">Add or view receipts / attachments &#8230;</string>
+    <string name="bill_attachments_save_label">Save &amp; reload to add attachments</string>
+
+    <string name="cat_no_of_linked_rows_txs_bills">%1$d transactions, %2$d bills.</string>
+    <string name="cat_no_of_linked_rows_txs">%1$d transactions.</string>
+
+    <string name="acct_1name">Cash Wallet</string>
+    <string name="acct_1desc">Click here to edit or delete any account.</string>
+    <string name="acct_2name">Credit Card</string>
+    <string name="acct_2desc">Just tap to view the account transactions.</string>
+    <string name="acct_3name">Bank Account</string>
+    <string name="acct_3desc">View account details to set a monthly budget.</string>
+
+    <string name="transfer_title">Fund Transfer</string>
+    <string name="view_settings">View Settings</string>
+    <string name="google_drive_not_linked">Link your Google account to keep your data backed up in Google Drive storage.</string>
+
+    <string name="cat_icon">Icon</string>
+    <!-- <string name="tax_percent">Tax Rate</string> -->
+    <string name="bill_date">Bill Date</string>
+    <string name="bill_notify_enable">Show daily reminder notifications</string>
+    <string name="menu_txs_list">Transactions</string>
+
+    <string name="contacts_and_groups_label">Contacts &amp; Groups</string>
+    <string name="contacts_list">Contacts</string>
+    <string name="contact_select">Select A Contact</string>
+    <string name="contact_new">New Contact</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="contact_name_empty">Contact name is empty..!</string>
+    <string name="contact_list_empty_hint">No Contact exists. \n(Touch the floating button to add one)</string>
+    <string name="contact_saved">Contact saved</string>
+    <string name="contact_phone">Phone number</string>
+    <string name="contact_email">Email address</string>
+    <string name="contact_phone_alt">Alternate Phone number</string>
+    <string name="contact_email_alt">Alternate Email address</string>
+    <string name="contact_address">Contact physical address</string>
+    <string name="contact_deleted">Contact deleted successfully</string>
+    <string name="contact_inuse_warn_msg">Contact currently in use</string>
+    <string name="contact_deleted_warn">Selected contact will be deleted.</string>
+    <string name="contact_member_of_group">Member of %1$d groups</string>
+
+    <string name="group_new">New Group</string>
+    <string name="group_details">Group Details</string>
+    <string name="group_name_hint">Group or Team name</string>
+    <string name="export_body">&lt;p&gt; Sent from \'Bills Reminder\' android App &lt;/p&gt;</string>
+    <string name="contact_all_title">All Contacts</string>
+    <string name="contact_group_title">Groups</string>
+    <string name="group_list_empty_hint">No contact group exists. \n(Touch the floating button to create one)</string>
+    <string name="group_list_empty">No Contact Groups exists.</string>
+    <string name="group_saved">Contact Group Saved</string>
+    <string name="group_name_empty">Group name is empty..!</string>
+    <string name="delete_unsaved_warn">Cannot delete unsaved record.</string>
+    <string name="group_deleted">Group deleted successfully.</string>
+    <string name="group_delete_warn">Selected group(s) will be deleted.</string>
+    <string name="group_contacts_conut">%1$d contacts</string>
+    <string name="group_add_members">Add Members</string>
+    <string name="group_select_contacts">Select Contacts</string>
+
+    <string name="records_deleted_multi">%1$d records deleted.</string>
+    <string name="records_create_multi">%1$d records created.</string>
+
+    <string name="display_theme_dialog">Display theme</string>
+    <string name="display_theme">Theme</string>
+    <string-array name="display_themes">
+        <item>System default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
 </resources>

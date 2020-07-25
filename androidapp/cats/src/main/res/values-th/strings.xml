@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_upgrade">อัพเกรด</string>
+    <string name="upgrade_to_pro">อัพเกรดเป็นพรีเมี่ยม</string>
+    <string name="feature_unavailable">คุณลักษณะนี้มีเฉพาะในรุ่นพรีเมียมเท่านั้น</string>
+
+    <string name="error_save">ไม่สามารถบันทึกการเปลี่ยนแปลงโปรดลองอีกครั้งในภายหลัง</string>
+    <string name="error_unknown">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุโปรดติดต่อฝ่ายสนับสนุน</string>
+    <string name="err_empty_text">โปรดระบุข้อความที่ถูกต้อง</string>
+    <string name="error">ความผิดพลาด</string>
+    <string name="save">ประหยัด</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="update">ปรับปรุง</string>
+    <string name="delete">ลบ</string>
+    <string name="export">ส่งออก</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="goto_play_store">เปิดร้านเล่น Google Play</string>
+    <string name="continue_">ต่อ</string>
+    <string name="ok">ตกลง</string>
+    <string name="skip">กระโดด</string>
+    <string name="done">ได้รับมัน</string>
+    <string name="select_a_option_warn">โปรดเลือกตัวเลือก</string>
+    <string name="tomorrow">วันพรุ่งนี้</string>
+    <string name="error_offline_title">ไม่มีอินเทอร์เน็ต</string>
+    <string name="error_offline_message">คุณต้องออนไลน์เพื่อดำเนินการนี้ โปรดตรวจสอบว่ามีการใช้งาน WiFi หรือการเชื่อมต่อข้อมูลของคุณอยู่</string>
+    <string name="app_needs_relaunch">ต้องเปิดตัวแอปใหม่เพื่อใช้การตั้งค่าใหม่</string>
+    <string name="email_send_title">ส่งอีเมล</string>
+
+    <!-- ==================================================================== -->
+    <!-- CONFIG.XML -->
+
+    <string name="home_data_inst_name">ประวัติของฉัน</string>
+    <string name="duplicate">ซ้ำ</string>
+    <string name="share">หุ้น</string>
+    <string name="add">เพิ่ม</string>
+    <string name="cat_detail">รายละเอียดหมวดหมู่</string>
+    <string name="expense">ค่าใช้จ่าย</string>
+    <string name="income">เงินได้</string>
+    <string name="receivable">ลูกหนี้</string>
+    <string name="payable">ที่ต้องชำระ</string>
+    <string name="both_expense_income">ค่าใช้จ่ายและรายได้</string>
+    <string name="both_payable_receivable">เจ้าหนี้และลูกหนี้</string>
+
+
+    <string name="cat_list_title">ประเภท</string>
+    <string name="cat_list_empty">ไม่มีหมวดหมู่อยู่..!</string>
+    <string name="cat_added">เพิ่มหมวดหมู่แล้ว</string>
+    <string name="cat_deleted">ลบหมวดหมู่แล้ว</string>
+    <string name="cat_saved">บันทึกหมวดแล้ว</string>
+    <string name="cat_select_a_cat">เลือกหมวดหมู่</string>
+    <string name="cat_change">เปลี่ยนหมวดหมู่</string>
+    <string name="cat_deleted_multi">ลบหมวดแล้ว %1$d หมวด</string>
+    <string name="cat_edit">รายละเอียดหมวดหมู่</string>
+    <string name="cat_name_empty">ชื่อหมวดหมู่ว่างเปล่า..!</string>
+    <string name="cat_error_selfparent">ไม่สามารถเป็นหมวดหมู่ย่อยของตัวเองโปรดเลือกหมวดหมู่หลักที่แตกต่างออกไป</string>
+    <string name="cat_name_err">ซ้ำชื่อหมวดหมู่กรุณาใช้ชื่ออื่น..!</string>
+    <string name="cat_delete_warn">หมวดหมู่ที่เลือกและหมวดหมู่ย่อยใด ๆ จะถูกลบออก \n\nนอกจากนี้รายการใด ๆ ที่เชื่อมโยงกับหมวดหมู่จะถูกกำหนดให้เป็นหมวดหมู่เริ่มต้น</string>
+    <string name="cat_delete_unsaved">ไม่สามารถลบประเภทที่ไม่ได้บันทึกได้</string>
+    <string name="cat_name">ชื่อหมวดหมู่</string>
+    <string name="cat_no_of_linked_rows">%1$d ตั๋วเงิน</string>
+    <string name="cat_code">รหัส</string>
+    <string name="cat_code_empty_err">ป้อนรหัสหมวดหมู่</string>
+    <string name="cat_code_existing_err">รหัสหมวดหมู่ที่ใช้ไปแล้ว</string>
+    <string name="cat_type">ชนิด</string>
+    <string name="cat_desc">คำอธิบายหมวดหมู่</string>
+    <string name="cat_color">สี</string>
+    <string name="cat_change_color_tap">แตะเพื่อเปลี่ยนสี</string>
+    <string name="cat_parent_switch">นี่คือหมวดหมู่หลัก (ระดับบนสุด)</string>
+    <string name="cat_subcategory_of">ประเภทย่อยของ</string>
+    <string name="cat_select_parent">หมวดหมู่ผู้ปกครอง</string>
+    <string-array name="cat_types">
+        <item>ค่าใช้จ่าย / เจ้าหนี้</item>
+        <item>รายได้ / ลูกหนี้</item>
+    </string-array>
+    <string name="cat_search_hint">พิมพ์ที่นี่เพื่อกรอง</string>
+    <!-- Categories '', '', '') -->
+    <string name="cat_0allCategories">ทุกประเภท</string>
+    <string name="cat_1others">อื่น ๆ</string>
+    <string name="cat_1_1">การชำระเงิน</string>
+    <string name="cat_1_2">ของขวัญ</string>
+    <!-- <string name="cat_1_3">Charity</string>
+    <string name="cat_1_4">Pets</string>
+    <string name="cat_1_5">Investment</string> -->
+    <string name="cat_2transfer">โอน</string>
+
+    <string name="cat_3personal">การดูแลส่วนบุคคล</string>
+    <string name="cat_3_1">ผมและความงาม</string>
+    <string name="cat_3_2">ห้องออกกำลังกายและห้องออกกำลังกาย</string>
+    <string name="cat_3_3">ทางการแพทย์</string>
+    <string name="cat_3_4">ทันตกรรม</string>
+
+    <string name="cat_4food">อาหารและเครื่องดื่ม</string>
+    <string name="cat_4_1">กาแฟ</string>
+    <string name="cat_4_2">อาหาร</string>
+    <string name="cat_4_3">อาหารสำเร็จรูป</string>
+    <string name="cat_4_4">ชา</string>
+    <string name="cat_4_5">ร้านอาหาร</string>
+    <string name="cat_4_6">ร้านขายของชำ</string>
+    <string name="cat_4_7">ขนมขบเคี้ยว</string>
+
+    <string name="cat_5entertainment">การบันเทิง</string>
+    <string name="cat_5_1">ภาพยนตร์</string>
+    <string name="cat_5_2">เครื่องดื่ม</string>
+    <string name="cat_5_4">วันหยุด</string>
+    <string name="cat_5_5">คอนเสิร์ตและโรงละคร</string>
+    <string name="cat_5_6">เกม</string>
+    <string name="cat_5_7">พรรค</string>
+
+    <string name="cat_6automobile">รถยนต์</string>
+    <string name="cat_6_1">ล้างรถ</string>
+    <string name="cat_6_2">เชื้อเพลิง</string>
+    <string name="cat_6_3">บริการและซ่อมแซม</string>
+    <string name="cat_6_4">ประกันภัย</string>
+    <string name="cat_6_5">อุปกรณ์</string>
+    <string name="cat_6_6">ภาษีทางถนน</string>
+    <string name="cat_6_7">ที่จอดรถ</string>
+    <!--<string name="cat_6_7">Registration</string>-->
+
+    <string name="cat_7shopping">ช้อปปิ้ง</string>
+    <string name="cat_7_1">เสื้อผ้า</string>
+    <string name="cat_7_2">คอมพิวเตอร์และอุปกรณ์เสริม</string>
+    <string name="cat_7_3">อิเล็กทรอนิกส์</string>
+    <string name="cat_7_4">เพลงดิจิตอล</string>
+    <string name="cat_7_5">ร้านขายของชำ</string>
+    <string name="cat_7_6">โทรศัพท์มือถือและแกดเจ็ต</string>
+    <string name="cat_7_7">เครื่องเพชรพลอย</string>
+    <string name="cat_7_8">ช้อปปิ้งอื่น ๆ</string>
+    <string name="cat_7_9">เฟอร์นิเจอร์</string>
+    <string name="cat_7_10">ของเล่น</string>
+    <string name="cat_7_11">การสมัครสมาชิก</string>
+    <string name="cat_7_12">สวน</string>
+
+    <string name="cat_8travel">การท่องเที่ยว</string>
+    <string name="cat_8_1">รถไฟ</string>
+    <string name="cat_8_2">รถบัส</string>
+    <string name="cat_8_3">เที่ยวบิน</string>
+    <string name="cat_8_4">ประกันภัย</string>
+    <string name="cat_8_5">การคมนาคมในท้องถิ่น</string>
+    <string name="cat_8_6">รถแท็กซี่</string>
+    <string name="cat_8_7">รถเช่า</string>
+    <string name="cat_8_8">โรงแรม</string>
+    <string name="cat_8_9">การขนส่งอื่น ๆ</string>
+
+    <string name="cat_9banking">การธนาคาร</string>
+    <string name="cat_9_1">เงินกู้</string>
+    <string name="cat_9_2">ดอกเบี้ย</string>
+    <string name="cat_9_3">ค่าใช้จ่าย</string>
+    <string name="cat_9_4">เงินออม</string>
+    <string name="cat_9_5">จำนอง</string>
+    <string name="cat_9_6">ซื้อขายหุ้นในตลาดหลักทรัพย์</string>
+    <string name="cat_9_7">การลงทุน</string>
+
+    <string name="cat_10home">บ้าน</string>
+    <string name="cat_10_1">ไฟฟ้าและก๊าซ</string>
+    <string name="cat_10_2">อินเทอร์เน็ตและโทรศัพท์</string>
+    <!--<string name="cat_10_3">Gas</string>-->
+    <string name="cat_10_4">น้ำ</string>
+    <string name="cat_10_5">โทรทัศน์</string>
+    <string name="cat_10_6">บริการทำความสะอาด</string>
+    <string name="cat_10_7">การซ่อมแซม</string>
+    <string name="cat_10_8">สาธารณูปโภค</string>
+    <string name="cat_10_9">ที่พัก</string>
+    <string name="cat_10_10">ให้เช่า</string>
+    <string name="cat_10_11">ประกันภัย</string>
+    <string name="cat_10_12">ภาษีทรัพย์สิน</string>
+
+    <string name="cat_11work">งาน</string>
+    <string name="cat_11_1">เงินเดือน</string>
+    <string name="cat_11_2">เงินปันผล</string>
+    <string name="cat_11_3">โบนัส</string>
+    <string name="cat_11_4">ค่าใช้จ่ายในการเรียกร้อง</string>
+    <string name="cat_11_5">เครื่องเขียน</string>
+    <string name="cat_11_6">ภาษี</string>
+
+    <string name="cat_12family">ครอบครัว</string>
+    <string name="cat_12_1">การดูแลเด็ก</string>
+    <string name="cat_12_2">โรงเรียนและวิทยาลัย</string>
+    <string name="cat_12_3">กระเป๋าเงิน</string>
+    <string name="cat_12_4">ประกันภัย</string>
+    <string name="cat_12_5">ดูแลรักษาทางการแพทย์</string>
+
+    <string name="cat_system">ประเภทเริ่มต้น</string>
+    <string name="cat_system_delete_err">ไม่สามารถลบหมวดหมู่ระบบได้</string>
+
+    <string name="label_list_title">จัดการป้ายกำกับ</string>
+    <string name="label_list_empty">ไม่มีป้ายชื่ออยู่..!</string>
+    <string name="label_new_title">ป้ายกำกับใหม่</string>
+    <string name="label_edit_title">แก้ไข/ดูป้ายกำกับ</string>
+    <string name="label_enter">ป้อนชื่อฉลาก</string>
+    <string name="label_name_err">กรุณาใส่ชื่อฉลากที่ถูกต้อง!</string>
+    <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
+    <string name="label_add">เพิ่มป้ายกำกับ</string>
+    <string name="label_details">รายละเอียดป้ายกำกับ</string>
+    <string name="label_saved">บันทึกป้ายกำกับสำเร็จแล้ว</string>
+    <string name="label_deleted">ลบป้ายกำกับสำเร็จแล้ว</string>
+    <string name="label_delete_warning">ป้ายกำกับที่เลือกจะถูกลบ</string>
+    <string name="labels_filter_title">ป้ายตัวกรอง</string>
+    <string name="labels_filter_all">ป้ายชื่อ (ทั้งหมด)</string>
+    <string name="labels_filter_count">ป้ายชื่อ (%1$d)</string>
+
+    <!-- Startup Screen Chooser -->
+    <string name="startup_screen_title">เลือกหน้าจอเริ่มต้น</string>
+    <string name="startup_screen_msg">เลือกหน้าจอหลักที่คุณต้องการดูทุกครั้งที่เปิดแอป</string>
+    <string name="startup_screen_note">คุณสามารถเปลี่ยนการเลือกของคุณตามการตั้งค่าได้ในภายหลัง</string>
+    <string name="startup_screen_label_default">%1$s - แนะนำ</string>
+    <string name="startup_screen_change_success">เปลี่ยนหน้าจอเริ่มต้นสำเร็จแล้ว</string>
+
+    <!-- from string.xml -->
+    <string name="select_currency">เลือกสกุลเงิน</string>
+    <string name="warn_invalid_amt">โปรดป้อนจำนวนที่ถูกต้อง</string>
+    <string name="warn_invalid_no">โปรดป้อนหมายเลขที่ถูกต้อง</string>
+    <string name="warn_invalid_no_min1">โปรดป้อนหมายเลขที่ถูกต้องมากกว่า 1</string>
+    <string name="category">ประเภท</string>
+    <string name="amount">จำนวน</string>
+    <string name="amount_empty_warn">ใส่จำนวนเงิน</string>
+    <string name="amount_hint">จำนวนเงินตัวอย่าง: 124.55</string>
+    <string name="bill_currency">เงินตรา</string>
+    <string name="change_currency">เปลี่ยนสกุลเงิน</string>
+    <string name="select_a_option">เลือกตัวเลือก</string>
+    <string name="processing">การประมวลผล…</string>
+    <string name="email_dev">ติดต่อผู้พัฒนา</string>
+    <string name="exit">ทางออก</string>
+    <string name="exit_info">แตะเพื่อปิดแอปพลิเคชัน</string>
+    <string name="restart">เริ่มต้นใหม่</string>
+    <string name="drawer_bills_by_status">ตั๋วเงินตามสถานะ</string>
+    <string name="drawer_settings_sep">เครื่องมือ / การตั้งค่า</string>
+    <string name="drawer_settings">การตั้งค่า</string>
+    <string name="manage_categories">ประเภท</string>
+    <string name="drawer_rpt_charts_title">รายงานและแผนภูมิ</string>
+    <string name="update_available_title">@string/app_name</string>
+    <string name="update_available_warn">การปรับปรุงใหม่พร้อมใช้งานพร้อมคุณสมบัติใหม่และการแก้ไขข้อบกพร่อง</string>
+    <string name="update_available_force">เราไม่สนับสนุนเวอร์ชันนี้อีกต่อไป\n\n โปรดอัปเดตเดี๋ยวนี้</string>
+    <string name="update_available_force_dummy">วันที่ไม่ถูกต้อง.\n\nโปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ</string>
+    <string name="update_now">อัปเดตเดี๋ยวนี้</string>
+    <string name="later">ต่อมา</string>
+    <string name="menu_drawer_group_more">การสื่อสาร / อื่น ๆ</string>
+    <string name="rate_app_title">ให้คะแนนแอปนี้</string>
+    <string name="share_this_app">แชร์แอปนี้</string>
+    <string name="share_this_app_title">แชร์โดยใช้</string>
+    <string name="share_this_app_subject">ลองดูที่แอป \'%1$s\'</string>
+    <string name="about_us">เกี่ยวกับเรา</string>
+    <string name="by_124apps">สนับสนุนโดย 124APPS</string> <!-- &#169; -->
+    <string name="rate_app_msg">คุณชอบแอปนี้ไหม \n\nกรุณาสนับสนุนการพัฒนาของเราด้วยคะแนนที่ดี\n\t* * * * *\nขอบคุณ</string>
+    <string name="rate_app_now">อัตราในขณะนี้</string>
+    <string name="rate_app_later">ต่อมา</string>
+    <string name="rate_app_no">ไม่เป็นไรขอบคุณ</string>
+
+    <string name="close">ปิด</string>
+
+    <string-array name="rpt_bills_forcast">
+        <item>จนถึงวันนี้เท่านั้น</item>
+        <item>ล่วงหน้า 1 เดือน</item>
+        <item>ล่วงหน้า 2 เดือน</item>
+        <item>3 เดือนล่วงหน้า</item>
+        <item>4 เดือนล่วงหน้า</item>
+        <item>ล่วงหน้า 5 เดือน</item>
+        <item>6 เดือนล่วงหน้า</item>
+        <item>1 ปีล่วงหน้า</item>
+        <item>18 เดือนล่วงหน้า</item>
+        <item>2 ปีล่วงหน้า</item>
+        <item>3 ปีล่วงหน้า</item>
+        <item>4 ปีล่วงหน้า</item>
+        <item>5 ปีล่วงหน้า</item>
+        <item>10 ปีล่วงหน้า</item>
+    </string-array>
+    <string-array name="notify_days">
+        <item>3 เดือนก่อนถึงกำหนด</item>
+        <item>2 เดือนก่อนถึงกำหนด</item>
+        <item>1 เดือนก่อนถึงกำหนด</item>
+        <item>3 สัปดาห์ก่อนถึงกำหนด</item>
+        <item>2 สัปดาห์ก่อนถึงกำหนด</item>
+        <item>10 วันก่อนถึงกำหนด</item>
+        <item>9 วันก่อนถึงกำหนด</item>
+        <item>8 วันก่อนถึงกำหนด</item>
+        <item>7 วันก่อนถึงกำหนด</item>
+        <item>6 วันก่อนถึงกำหนด</item>
+        <item>5 วันก่อนถึงกำหนด</item>
+        <item>4 วันก่อนถึงกำหนด</item>
+        <item>3 วันก่อนถึงกำหนด</item>
+        <item>2 วันก่อนถึงกำหนด</item>
+        <item>1 วันก่อนถึงกำหนด</item>
+        <item>- ในวันที่กำหนด -</item>
+        <item>1 วันหลังจากวันที่ครบกำหนด</item>
+        <item>2 วันหลังจากวันที่ครบกำหนด</item>
+        <item>3 วันหลังจากวันที่ครบกำหนด</item>
+        <item>4 วันหลังจากวันที่ครบกำหนด</item>
+        <item>5 วันหลังจากวันที่ครบกำหนด</item>
+        <item>6 วันหลังจากวันที่ครบกำหนด</item>
+        <item>7 วันหลังจากวันที่ครบกำหนด</item>
+        <item>8 วันหลังจากวันที่ครบกำหนด</item>
+        <item>9 วันหลังจากวันที่ครบกำหนด</item>
+        <item>10 วันหลังจากวันที่ครบกำหนด</item>
+        <item>2 สัปดาห์หลังจากวันครบกำหนด</item>
+        <item>3 สัปดาห์หลังจากวันครบกำหนด</item>
+        <item>1 เดือนหลังจากวันที่ครบกำหนด</item>
+        <item>2 เดือนหลังจากวันที่ครบกำหนด</item>
+        <item>3 เดือนหลังจากวันที่ครบกำหนด</item>
+    </string-array>
+
+    <string name="permission_denied_dialog_msg">โปรดอนุญาตให้เก็บข้อมูลภายนอกอ่านและเขียนเพื่อบันทึกข้อมูล \nการปฏิเสธสิทธิ์จะทำให้เกิดความไม่สอดคล้องกันสำหรับแอปของเขา</string>
+    <string name="permission_denied_dialog_restart">ลองใหม่อีกครั้ง</string>
+    <string name="permission_denied_dialog_dont_care">ฉันไม่สนใจ</string>
+    <string name="permission_denied_camera">แอปจะต้องได้รับอนุญาตจากกล้องเพื่อจับภาพ</string>
+    <string name="permission_denied_camera_receipt">แอปพลิเคชันจะต้องได้รับอนุญาตจากกล้องถ่ายรูปเพื่อจับภาพการรับภาพ</string>
+
+    <!-- ==================================================================== -->
+    <!-- BILLS.XML -->
+    <string name="app_name">Bills Reminder</string>
+    <!--<string name="title_bills_by_status">ตั๋วเงินตามสถานะ</string>
+    <string name="title_bills_by_period">Bills by period</string>-->
+    <string name="title_bills_list">รายการตั๋วเงิน</string>
+    <string name="title_bills_report">รายงานตั๋วแลกเงิน</string>
+
+    <string name="title_bill_upcoming">ตั๋วเงินที่จะเกิดขึ้น</string>
+    <string name="title_bill_overdue">ตั๋วเงินที่ค้างชำระ</string>
+    <string name="title_bill_paid">ค่าใช้จ่าย</string>
+    <string name="title_bill_unpaid">ตั๋วเงินที่ยังไม่ได้ชำระ</string>
+    <string name="title_bill_detail">รายละเอียดใบเรียกเก็บเงิน</string>
+    <string name="title_bill_detail_new">การเรียกเก็บเงินใหม่</string>
+    <string name="title_activity_calendar">มุมมองปฏิทิน</string>
+    <string name="bills">ธนบัตร</string>
+    <string name="bill_new">เพิ่มการแจ้งเตือนการเรียกเก็บเงิน</string>
+    <string name="bills_overdue">ค้างชำระ</string>
+    <string name="bills_upcoming">ที่จะเกิดขึ้น</string>
+    <string name="bills_paid">ต้องจ่าย</string>
+    <string name="bills_unpaid">ยังไม่ได้ชำระ</string>
+    <string name="bills_recurr">ตั๋วเงินที่เกิดขึ้นประจำ</string>
+    <string name="bills_recur_desc">ทำซ้ำทุก %1$d %2$s</string>
+    <string name="restart_app">โปรดรีสตาร์ทแอพ</string>
+    <string name="bills_view">ดูตั๋วเงิน</string>
+
+    <string name="bill_list_empty_tip">ไม่มีการเรียกเก็บเงิน \n(แตะปุ่ม \'+\' ที่ลอยตัวเพื่อสร้าง)</string>
+    <string name="bill_list_empty">ไม่มีตั๋วเงินอยู่</string>
+
+    <string name="navigation_drawer_open">ลิ้นชักการนำทางแบบเปิด</string>
+    <string name="navigation_drawer_close">ลิ้นชักการนำทางใกล้</string>
+    <string name="dummy_day">พุธ</string>
+
+    <string name="bill_delete_unsaved">ไม่สามารถลบค่าที่ยังไม่ได้บันทึกได้</string>
+    <string name="bill_deleted">เรียกเก็บเงินแล้ว</string>
+    <string name="bill_delete_single_warn">จะถูกลบออกหรือไม่?</string>
+    <string name="bill_delete_multi_warn">เลือกตั๋วเงินแล้วหรือยัง?</string>
+    <string name="bill_delete_recur_warn">รายการที่เกิดซ้ำและค่าใช้จ่ายที่เกี่ยวข้องทั้งหมดจะถูกลบออกดำเนินการต่อ?</string>
+    <string name="bill_duplicate_warn">จะมีการสร้างธนบัตรที่ซ้ำกัน %1$d รายการหรือไม่?</string>
+    <string name="bill_not_found">ไม่มีบิล</string>
+    <string name="app_error_restart">แก้ไขปัญหาโดยอัตโนมัติโปรดเริ่มแอปอีกครั้ง</string>
+    <string name="multi_select_mode_title">%1$s รวม: %2$s</string>
+
+    <string name="bill_deleted_recur">ลบข้อมูลที่เกิดขึ้นแล้ว</string>
+    <string name="bill_deleted_multi">ถูกลบ %1$d เอกสาร</string>
+    <string name="bill_multi_update_count">อัปเดตตั๋วเงินแล้ว %1$d ฉบับ</string>
+    <string name="bill_duplicate_multi">สร้างคลังใหม่ %1$d ฉบับแล้ว</string>
+    <string name="bill_duplicate_multi_error">โปรดติดต่อนักพัฒนาซอฟต์แวร์ ข้อผิดพลาดในการคัดลอกตั๋วเงิน: %1$s </string>
+    <string name="bill_added">เพิ่มบิลใหม่แล้ว</string>
+    <string name="bill_saved">บันทึกบิลแล้ว</string>
+    <string name="bill_populating_recent">ประชากรที่มีค่าล่าสุด</string>
+
+    <string name="bill_payee">ผู้รับ / สินค้า</string>
+    <string name="bill_duedt">วันที่ครบกำหนดชำระเงิน</string>
+    <string name="cat_new_title">หมวดหมู่ใหม่</string>
+    <string name="bill_dueNear">เนื่องจาก %1$s</string>
+    <string name="bill_dueIn">ครบกำหนดชำระภายใน %1$d วัน</string>
+    <string name="bill_dueOver">ค้างชำระ %1$d วัน</string>
+    <string name="bill_paid">ต้องจ่าย</string>
+    <string name="bill_received">ที่ได้รับ</string>
+    <string name="bill_unpaid">ยังไม่ได้ชำระ</string>
+    <string name="bill_paid_on">จ่าย</string>
+    <string name="bill_type">ประเภทการเรียกเก็บเงิน</string>
+    <string name="bill_change_notification">เปลี่ยนการแจ้งเตือน</string>
+    <string name="bill_more_options">ตัวเลือกเพิ่มเติม</string>
+    <string name="notify">แสดงการเตือนความจำ</string>
+    <string name="notify_channel_name_app">การใช้แอพ</string>
+    <string name="notify_channel_desc_reminder">การแจ้งเตือนเกี่ยวกับการชำระบิลเกินกำหนดหรือที่จะเกิดขึ้น</string>
+    <string name="notify_channel_desc_app">เกี่ยวกับการอัปเดตเวอร์ชันใหม่หรือการแจ้งเตือนการใช้แอป</string>
+    <string name="tx_payee_hint">ตัวอย่าง: เช่า</string>
+    <string name="tx_notes">บันทึกหรือ สแกนบาร์โค้ด / url</string>
+    <string name="tx_notes_zing_missing_title">ติดตั้งเครื่องสแกนบาร์โค้ด</string>
+    <string name="tx_notes_zing_missing">คุณลักษณะนี้ต้องใช้เครื่องสแกนบาร์โค้ดคุณต้องการติดตั้งหรือไม่?</string>
+    <string name="tx_error_save_pic">ข้อผิดพลาดขณะบันทึกภาพ: %1$s</string>
+    <string name="tx_photo_not_supported">ไม่สามารถถ่ายภาพอุปกรณ์ไม่สนับสนุน..!</string>
+    <string name="tx_photo_take_new_photo">ถ่ายรูปใหม่</string>
+    <string name="tx_photo_select_from_gallery">เลือกจากแกลเลอรี</string>
+    <string-array name="tx_photo_options">
+        <item>ดูรูปถ่าย</item>
+        <item>ถ่ายรูปใหม่</item>
+        <item>เลือกจากแกลเลอรี</item>
+        <item>ลบรูปภาพ</item>
+    </string-array>
+    <!-- Sort options -->
+    <string name="menu_sort_by">จัดเรียงตาม</string>
+    <string name="sort_by_date_asc">วันที่ขึ้น</string>
+    <string name="sort_by_date_desc">วันที่ลงไป</string>
+    <string name="sort_by_amt_asc">จำนวนเงินที่เพิ่มขึ้น</string>
+    <string name="sort_by_amt_desc">จำนวนเงินที่ลดลง</string>
+    <string name="sort_by_payee_asc">ผู้รับเงินขึ้นไป</string>
+    <string name="sort_by_payee_desc">ผู้รับเงินลง</string>
+
+    <string name="menu_search_bills">ค่าการค้นหา</string>
+    <string name="bill_total_row">%1$d แถวรวม:</string>
+    <string name="bill_total_rows">%1$d แถวรวม:</string>
+    <string name="bill_total_rows_multi_curr">%1$d แถวในหลายสกุลเงิน</string>
+    <string name="bill_rpt_date_beyond">%1$s และอื่น ๆ</string>
+    <string name="bill_rpt_total_payable">จำนวนเงินที่ต้องชำระทั้งหมด: %1$s</string>
+    <string name="bill_rpt_total_receivable">ลูกหนี้: %1$s</string>
+    <string name="bill_rpt_type_cat_payable">ตั๋วเงินตามประเภท</string>
+    <string name="bill_rpt_type_cat_receivable">ตั๋วเงินตามประเภท</string>
+    <string name="bill_rpt_charts_saved">รายงานที่สร้าง (%1$d)</string>
+    <string name="bill_rpt_charts_saved_empty">ไม่มีรายงานที่บันทึกไว้\n คุณได้ลองสร้างคุณลักษณะรายงาน PDF แล้วหรือยัง?</string>
+    <string name="bill_rpt_charts_saved_loc">รายงาน pdf จะถูกเก็บไว้ที่: %1$s</string>
+
+    <string name="bill_rpt_1categorywise_pay_label">แผนภูมิชาญฉลาด (เจ้าหนี้)</string>
+    <string name="bill_rpt_1categorywise_pay_info">แผนภูมิวงกลมแสดงการเปรียบเทียบประเภทฉลาดสำหรับงวด</string>
+    <string name="bill_rpt_2categorywise_receive_label">หมวดหมู่ฉลาดแผนภูมิ (ลูกหนี้)</string>
+    <string name="bill_rpt_2categorywise_receive_info">แผนภูมิวงกลมแสดงการเปรียบเทียบประเภทฉลาดสำหรับงวด</string>
+    <string name="bill_rpt_3trends_30days_label">เรียกเก็บเงินเป็นเวลา 30 วัน</string>
+    <string name="bill_rpt_3trends_30days_info">แผนภูมิเส้นแสดงการเปรียบเทียบวันทั้งของเจ้าหนี้และลูกหนี้สำหรับ 30 วันที่ผ่านมา</string>
+    <string name="bill_rpt_4monthwise_pay_label">เดือนเปรียบเทียบฉลาด (เจ้าหนี้)</string>
+    <string name="bill_rpt_4monthwise_pay_info">กราฟแท่งแสดงเปรียบเทียบเดือนที่ชาญฉลาดของตั๋วเงินเจ้าหนี้</string>
+    <string name="bill_rpt_5monthwise_receive_label">เดือนเปรียบเทียบฉลาด (ลูกหนี้)</string>
+    <string name="bill_rpt_5monthwise_receive_info">กราฟแท่งแสดงเดือนที่เปรียบเทียบความฉลาดของลูกหนี้</string>
+
+    <string name="bill_rpt_comparison_title">รายงานเปรียบเทียบ</string>
+    <string name="bill_rpt_comparison_daywise_label">วันฉลาด เปรียบเทียบเป็นเวลา %1$d วัน</string>
+    <string name="bill_rpt_comparison_weekwise_label">สัปดาห์เปรียบเทียบอย่างชาญฉลาดเป็นเวลา %1$d สัปดาห์</string>
+    <string name="bill_rpt_comparison_monthwise_label">เดือนฉลาดเปรียบเทียบสำหรับ %1$d เดือน</string>
+    <string name="bill_rpt_comparison_yearwise_label">เปรียบเทียบปีสำหรับ %1$d ปี</string>
+
+    <string name="bill_rpt_trends_title">ตั๋วเงินแนวโน้ม</string>
+    <string name="bill_rpt_trend_daywise_last_30">การเปรียบเทียบ 30 วัน</string>
+    <string name="bill_rpt_trend_daywise_this_week">การเปรียบเทียบ 7 วันสำหรับทั้งสัปดาห์</string>
+    <string name="bill_rpt_trend_daywise_this_month">เปรียบเทียบทั้งเดือน</string>
+    <string name="bill_rpt_trend_daywise_for_3_months">เปรียบเทียบ 3 เดือนล่าสุด</string>
+    <string name="bill_rpt_trend_daywise_for_6_months">เปรียบเทียบ 6 เดือนล่าสุด</string>
+    <string name="bill_rpt_trend_daywise_this_year">เปรียบเทียบปีเต็มหรือ 12 เดือน</string>
+
+    <string name="rpt_pdf_menu_title">สร้าง pdf</string>
+    <string name="rpt_pdf_name_dialog_title">สร้างรายงาน PDF</string>
+    <string name="rpt_pdf_name_already_exists">ชื่อไฟล์ pdf อยู่แล้วให้ใช้ชื่ออื่น</string>
+    <string name="rpt_pdf_name_get_error">ไม่สามารถรับไฟล์ pdf..!</string>
+    <string name="rpt_pdf_generate_error">ไม่สามารถสร้าง pdf, sd card ของคุณเชื่อมต่อ?</string>
+    <string name="rpt_pdf_name_dialog_field">ชื่อไฟล์</string>
+    <string name="rpt_pdf_unsupported_title">อุปกรณ์ไม่รองรับ</string>
+    <string name="rpt_pdf_unsupported_info">คุณต้องใช้ android kitkat อย่างน้อยเพื่อสร้างรายงาน pdf \nขอโทษ..!</string>
+    <string name="rpt_pdf_success_title">รุ่นสมบูรณ์</string>
+    <string name="rpt_pdf_success_view_reports">ดูรายงาน</string>
+    <string name="rpt_pdf_success_info_file">รายงาน pdf ใหม่จะได้รับการบันทึกเป็น: \n%1$s</string>
+    <string name="rpt_pdf_generating_progress">สร้างรายงาน PDF</string>
+    <string name="rpt_pdf_created_date">สร้างเมื่อ: %1$s</string>
+    <string name="rpt_pdf_delete_confirm">ลบไฟล์รายงานที่เลือก \'%1$s\' หรือไม่?</string>
+    <string name="rpt_pdf_bills_filename_templete">ตั๋วเงินรายงาน %1$s - %2$s</string>
+    <string name="rpt_pdf_view_activity_not_found">ไม่พบเครื่องอ่าน pdf โปรดติดตั้งแอพพลิเคชัน pdf viewer ที่รองรับเช่น acrobat reader</string>
+
+    <string-array name="rpt_pdf_select_options">
+        <item>ดู / เปิด</item>
+        <item>แชร์รายงาน</item>
+        <item>ลบ</item>
+    </string-array>
+
+    <!--	Repeation  -->
+    <string name="bill_repeat_info">ใช้การกำหนดค่าที่เกิดขึ้นด้านล่างนี้:</string>
+    <string name="bill_repeat">ค่าที่เกิดซ้ำ</string>
+    <string name="bill_every">ซ้ำทุกครั้ง</string>
+    <string name="bill_next_due">วันครบกำหนดถัดไป</string>
+    <string name="bill_end_none">การทำซ้ำตลอดไป</string>
+    <string name="bill_ends_on">ทำซ้ำจนกว่า</string>
+    <string name="bill_ends_count_title">เงื่อนไขการชำระเงิน</string>
+    <string name="bill_ends_count_label">จำนวนงวดหรือเกิดขึ้น</string>
+    <string name="bill_ends_count">ทำซ้ำ %1$d ครั้ง</string>
+    <string name="bill_repeat_disable">ปิดใช้งานหรือหยุดการสร้างรายการที่เกิดขึ้นโดยอัตโนมัติ</string>
+    <string name="bill_repeat_until_value">ทำซ้ำจนถึงวันที่ %1$s</string>
+    <string name="bill_err_future_dt">โปรดป้อนวันที่ในอนาคต</string>
+    <string name="bill_err_end_dt">\'วันที่ครบกำหนดถัดไป\' ควรเป็นก่อน \'ทำซ้ำจนกว่าวันที่\'</string>
+    <string-array name="repeat_array">
+        <item>วัน</item>
+        <item>สัปดาห์ที่ผ่านมา</item>
+        <item>เดือน</item>
+        <item>วันที่ของเดือน</item>
+        <item>ปี</item>
+    </string-array>
+    <string name="bill_rpt_save">ใช้การเปลี่ยนแปลงที่เกิดซ้ำ</string>
+    <string-array name="bill_rpt_save">
+        <item>โดยไม่ต้องลบบิลและสร้างตั๋วเงินใหม่ถ้าจำเป็น</item>
+        <item>ลบและสร้างคลังใหม่โดยใช้การเปลี่ยนแปลงที่เกิดขึ้นใหม่ ตั๋วเงินที่เกิดจากการตั้งค่าที่เกิดซ้ำนี้จะได้รับผลกระทบเท่านั้น</item>
+        <!-- <item>Effect this and all bills.</item> -->
+    </string-array>
+    <string name="bill_rpt_remove">ลบลักษณะที่เกิดซ้ำ</string>
+    <string-array name="bill_rpt_remove">
+        <item>สำหรับการเรียกเก็บเงินนี้เท่านั้น</item>
+        <item>สำหรับค่าใช้จ่ายนี้และที่เกี่ยวข้องทั้งหมด</item>
+    </string-array>
+
+    <string name="bill_list_options_view">ดูรายละเอียดใบเรียกเก็บเงิน</string>
+    <string name="bill_list_options_select">เลือกแถว</string>
+    <string name="bill_list_options_copy">สร้างสำเนา (ซ้ำ)</string>
+    <string name="bill_list_options_paid">ทำเครื่องหมายเป็นเงิน</string>
+    <string name="bill_list_options_unpaid">ทำเครื่องหมายว่าไม่มีการชำระเงิน</string>
+    <string name="bill_list_options_delete">ลบบิล</string>
+
+    <string name="bill_marked_paid_msg">ใบแจ้งหนี้ที่ทำเครื่องหมายไว้</string>
+    <string name="bill_marked_unpaid_msg">การเรียกเก็บเงินถูกตั้งค่าใหม่เป็นค่าจ้างค้างชำระ</string>
+    <string name="bill_removed_recurring">เรียกเก็บค่ายกเลิกการเชื่อมต่อจากการกำหนดค่าที่เกิดขึ้น</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- HOME.XML -->
+
+    <string name="inst_name">ชื่อโปรไฟล์ธุรกิจ</string>
+    <string name="inst_name_hint">ชื่อธุรกิจหรือครัวเรือนสำหรับทำบัญชี</string>
+    <string name="inst_dialog_title">รายละเอียดโปรไฟล์</string>
+    <string name="inst_dialog_title_edit">แก้ไขโปรไฟล์</string>
+    <string name="inst_list_title">โปรไฟล์</string>
+    <string name="menu_add_profile_title">เพิ่มโปรไฟล์</string>
+    <string name="home_no_instances">ไม่มีโปรไฟล์โปรดสร้างโปรไฟล์ใหม่</string>
+
+    <string name="help">ช่วยด้วย </string>
+    <string name="inst_new">สร้างโปรไฟล์ใหม่</string>
+    <string name="inst_delete">ลบโปรไฟล์นี้</string>
+    <string name="inst_delete_warn">โปรไฟล์ \'%1$s\' และข้อมูลทั้งหมดในไฟล์จะถูกลบ \nทำการ?</string>
+    <string name="inst_delete_err_1inst">ไม่ได้นี่เป็นไปไม่ได้..!! \nเนื่องจากนี่เป็นโปรไฟล์เดียวที่พร้อมใช้งานในแอปพลิเคชันนี้และคุณจำเป็นต้องมีสัญญาอนุญาตหนึ่งโปรไฟล์เพื่อทำงานร่วมกับ </string>
+    <string name="inst_profile_photo">แตะที่นี่เพื่อเปลี่ยนรูปโปรไฟล์</string>
+    <string name="inst_change_photo">เปลี่ยนรูป</string>
+    <string name="inst_photo_from_gallery">จากคลังภาพ</string>
+    <string name="inst_photo_from_camera">ถ่ายภาพ</string>
+    <string name="inst_warn_no_multi_instance">แอปรุ่นนี้รองรับเฉพาะโปรไฟล์เดียว ดังนั้นโปรดลบโปรไฟล์ที่ไม่ต้องการออกหรืออัปเกรดเป็นเวอร์ชันพรีเมียมเพื่อใช้โปรไฟล์หลายโปรไฟล์</string>
+
+    <string name="home_help_text">โปรไฟล์คือชุดข้อมูลที่จัดเก็บไว้เช่นที่เก็บข้อมูลหรือสมุดบัญชี (ไม่ใช่บัญชีธนาคาร) ข้อมูล (คลัง, ประเภท, ป้ายกำกับ) ของโปรไฟล์หนึ่งจะถูกจัดเก็บไว้ในที่เดียวและไม่รวมถึงข้อมูลของโปรไฟล์อื่น ๆ \n\nก็จะให้การควบคุมและการจัดการที่ดีขึ้น ตัวอย่าง: หนึ่งโปรไฟล์สำหรับค่าใช้จ่ายส่วนบุคคลและอื่น ๆ สำหรับการใช้จ่ายสำนักงานหรือธุรกิจของคุณ</string>
+    <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
+    <string name="inst_rename">แก้ไขโปรไฟล์</string>
+    <string name="inst_open">เลือกโปรไฟล์นี้</string>
+    <string name="default_currency">สกุลเงินเริ่มต้น</string>
+
+    <string name="inst_error_add_fail">ไม่สามารถเพิ่มโปรไฟล์</string>
+    <string name="inst_error_edit_fail">ไม่สามารถเปลี่ยนชื่อโปรไฟล์</string>
+    <string name="inst_error_edit_name_invalid">ป้อนชื่อโปรไฟล์ที่ถูกต้อง</string>
+    <string name="inst_default_curr">สกุลเงินเริ่มต้น: %1$s</string>
+    <string name="inst_error_max_limit">คุณสามารถเข้าถึงโปรไฟล์สูงสุดได้สำหรับรุ่นทดลองใช้โปรดอัปเกรดเพื่อสร้างโปรไฟล์ข้อมูลเพิ่มเติม</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Backup / Recovery -->
+    <string name="bkp_title">สำรอง / เรียกคืน</string>
+    <string name="bkp_location">ที่เก็บสินค้า</string>
+    <string name="bkp_location_info">ไฟล์สำรองจะถูกเก็บไว้ที่: \n\n%1$s</string>
+    <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
+    <string name="bkp_name">ชื่อสำรอง</string>
+    <string name="bkp_created">สร้าง: %1$s</string>
+    <!--<string name="bkp_new_pref"> Photo Preference</string>-->
+    <string name="bkp_name_new"> ชื่อสำรอง</string>
+    <!--<string name="bkp_photos_include">การสำรองข้อมูลรวมทั้งรูปถ่าย</string>
+    <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
+    <!--<string name="bkp_create">Create Backup</string>-->
+    <string name="bkp_list_empty">ไม่มีการสำรองข้อมูลอยู่..!</string>
+    <string name="bkp_duplicate_bkp">ซ้ำชื่อสำรองโปรดระบุชื่อสำรองอื่นหรือลบที่มีอยู่..!</string>
+    <string name="bkp_name_invalid">ชื่อสำรองไม่ถูกต้อง \'%1$s\' \n\nหลีกเลี่ยงการใช้ช่องว่างและอักขระพิเศษเช่น: \\/</string>
+    <string name="bkp_failed">สำรองล้มเหลว..! โปรดตรวจสอบให้แน่ใจว่ามีเนื้อที่จัดเก็บฟรีเพียงพอ</string>
+    <string name="bkp_inprogress_warn">สำรอง / เรียกคืนในระหว่างดำเนินการโปรดอดทน..!</string>
+
+    <string name="bkp_restore_fail">เรียกคืนล้มเหลว..! โปรดลองภายหลังหลังจากที่บางครั้ง</string>
+    <string name="bkp_send">สำรองข้อมูลร่วมกัน</string>
+    <string name="bkp_existing_label">สำรองข้อมูลที่มีอยู่ (%1$d)</string>
+    <string name="bkp_create">สร้างการสำรองข้อมูลใหม่</string>
+    <string name="bkp_send_sub">ไฟล์สำรอง \'%1$s\'</string>
+    <string name="bkp_rename">เปลี่ยนชื่อการสำรองข้อมูล</string>
+    <string name="bkp_rename_success">เปลี่ยนชื่อ \'%1$s\' เป็น \'%2$s\' เรียบร้อยแล้ว</string>
+    <string name="bkp_rename_failed">ไม่สามารถเปลี่ยนชื่อ \'%1$s\' เป็น \'%2$s\'</string>
+    <string name="bkp_delete">ลบข้อมูลสำรอง</string>
+    <string name="bkp_delete_confirm">ลบข้อมูลที่เลือกสำรอง \'%1$s\' หรือไม่?</string>
+    <string name="bkp_delete_success">ลบเรียบร้อยแล้ว</string>
+    <string name="bkp_delete_fail">ไม่สามารถลบได้</string>
+    <string name="bkp_restore_external">เรียกคืนจากระบบคลาวด์ภายนอก</string>
+    <string name="bkp_restore_external_title">ดาวน์โหลดและเรียกคืน</string>
+    <string name="bkp_restore_confirm_cloud">การกู้คืนจะใช้เวลาสองถึงสามนาทีดังนั้นโปรดอดทนขึ้นอยู่กับขนาดการสำรองข้อมูลของคุณ \n\nคลิกเลือกไฟล์สำรองข้อมูลภายนอกเพื่อนำเข้าและเรียกคืนข้อมูลจากนั้น</string>
+    <string name="bkp_last_backup">การสำรองข้อมูลครั้งล่าสุด</string>
+    <string name="bkp_last_info">สำรองข้อมูลแอปและไฟล์แนบไปยัง Google Drive คุณสามารถคืนค่าได้เมื่อคุณติดตั้งแอพเปลี่ยนโทรศัพท์หรือคัดลอกข้อมูลไปยังอุปกรณ์อื่น</string>
+    <string name="bkp_last_local_time">ในประเทศ: %1$s</string>
+    <string name="bkp_last_size">ขนาด: %1$s</string>
+    <string name="bkp_backup_now">การสำรองข้อมูล</string>
+    <string name="bkp_restore_now">ฟื้นฟู</string>
+    <string name="bkp_google_drive_setting">การตั้งค่า Google Drive</string>
+    <string name="bkp_google_drive_info">เพิ่มบัญชี Google เพื่อเก็บข้อมูลสำรองล่าสุด การเปิดใช้งานการสำรองข้อมูลไปยัง Google DRIVE จะเขียนทับข้อมูลสำรองแอพที่มีอยู่ใน Google DRIVE ดังนั้นโปรดระลึกไว้เสมอเมื่อใช้กับอุปกรณ์หลายเครื่อง</string>
+    <string name="bkp_to_google_drive_label">สำรองไปยัง Google Drive</string>
+    <string name="never">ไม่เคย</string>
+    <string name="bkp_restore_successful">เรียกคืนสำเร็จจากการสำรองข้อมูล แอปจะต้องเปิดตัวอีกครั้งเพื่อใช้ข้อมูลใหม่</string>
+    <string name="bkp_create_confirm_msg">การสำรองข้อมูลอาจใช้เวลาสองสามวินาทีถึงนาทีขึ้นอยู่กับขนาดข้อมูลแอพดังนั้นโปรดอดทนรอ สร้างการสำรองข้อมูลต่อไปหรือไม่</string>
+    <string name="bkp_over_wifi_label">สำรองข้อมูลโดยใช้</string>
+    <string name="bkp_success">สำรองข้อมูลสำเร็จแล้ว</string>
+    <string name="bkp_restore_confirm_msg">การคืนค่าจะใช้เวลาสองสามวินาทีถึงสองสามนาทีดังนั้นโปรดอดทน ข้อมูลแอพที่มีอยู่ทั้งหมดของคุณบนอุปกรณ์นี้จะถูกแทนที่จากข้อมูลสำรองล่าสุด คุณต้องการดำเนินการกู้คืนต่อไปหรือไม่?</string>
+
+    <string-array name="bkp_to_google_drive">
+        <item>@string/never</item>
+        <item>เฉพาะเมื่อฉันแตะสำรองข้อมูล</item>
+        <item>แต่ละ</item>
+    </string-array>
+
+    <string-array name="bkp_over_wifi">
+        <item>Wi-Fi เท่านั้น</item>
+        <item>Wi-Fi หรือข้อมูลมือถือ</item>
+    </string-array>
+
+    <!-- ==================================================================== -->
+    <!-- PREFERENCES.XML -->
+
+    <string name="pref_key">การตั้งค่า</string>
+
+    <!--<string name="prefTitleAppSetting">App Settings</string>
+    <string name="prefKeyAppSetting">appSettings</string>-->
+    <string name="prefTitleGeneralSetting">ทั่วไป</string>
+    <string name="prefTitleDataSetting">การสำรองข้อมูลและรายงาน</string>
+    <string name="prefTitleDataSettingTrial">การสำรองข้อมูล</string>
+    <!--<string name="prefKeyAppSetting">appSettings</string>-->
+
+    <string name="prefTitleAppPIN">พิน 4 หลัก</string>
+    <string name="prefSummaryAppPIN">เพื่อความปลอดภัยคุณสามารถตั้งค่า PIN เพื่อเริ่มต้นแอป เมื่อตั้งค่าแล้วคุณจะได้รับการขอ PIN ทุกครั้งที่แอปพลิเคชันเริ่มทำงาน</string>
+
+    <string name="prefTitleAppPINChange">เปลี่ยนพิน</string>
+    <string name="prefSummaryAppPINChange">แตะที่นี่เพื่อเปลี่ยน PIN 4 หลักของคุณ</string>
+
+    <string name="prefTitleStartupScreen">เปลี่ยนหน้าจอเริ่มต้น</string>
+    <string name="prefSummaryStartupScreen">หน้าจอเริ่มต้นหรือหน้าจอหลักที่แสดงขึ้นเมื่อเปิดใช้งานแอพฯ</string>
+
+    <string name="prefTitleChangeLanguage">ภาษา: %1$s</string>
+    <string name="prefSummaryChangeLanguage">คลิกที่นี่เพื่อเปลี่ยนภาษา</string>
+
+    <string name="prefTitleEnableSubcategories">เปิดใช้งานประเภทย่อย</string>
+    <string name="prefSummaryEnableSubcategories">เลือกเพื่อใช้หมวดหมู่สองระดับ</string>
+
+    <string name="prefTitleInstSetting">ข้อมูลส่วนตัว</string>
+
+    <string name="prefTitleDefaultCurrency">สกุลเงินโปรไฟล์เริ่มต้น: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">สกุลเงินที่มีการเติมข้อมูลล่วงหน้าขณะที่เพิ่มระเบียนใหม่สำหรับโปรไฟล์นี้</string>
+
+    <string name="prefTitleManageInstance">จัดการโปรไฟล์</string>
+    <string name="prefSummaryManageInstance">เพื่อสร้างลบหรือเปลี่ยนสกุลเงินของโปรไฟล์อื่น ๆ</string>
+
+    <!--<string name="prefKeyBillSettings">billsSettings</string>-->
+    <string name="prefTitleBillSettings">ธนบัตร</string>
+    <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
+
+    <string name="prefTitleNotifyTick">การเตือนความจำ</string>
+    <string name="prefSummaryNotifyTick">แจ้งให้ฉันทราบเกี่ยวกับตั๋วเงินที่ทำเครื่องหมายไว้ (ยกเลิกการเลือกเพื่อปิดการใช้งาน)</string>
+    <string name="prefSummaryNotifyUnTick">ปิดใช้งานการแจ้งเตือนแล้ว (เลือกเพื่อเปิดใช้งาน)</string>
+
+    <string name="prefTitleNotifyTime">เวลาแจ้งเตือน: %1$s:%2$s</string>
+    <string name="prefSummaryNotifyTime">การแจ้งเตือนจะปรากฏขึ้นในเวลานี้ทุกวัน</string>
+
+    <string name="prefTitleNotifyDays">การเตือนความจำเริ่มต้น</string>
+    <string name="prefSummaryNotifyDays">สำหรับตั๋วใหม่นี้ได้รับการเลือกล่วงหน้าเป็นตัวเลือกการแจ้งเตือนทุกวัน ตัวอย่าง: 5 วันก่อนถึงกำหนด</string>
+
+    <string name="prefTitleForcast">ระยะเวลาคาดการณ์</string>
+    <string name="prefTitleForcastDialog">สร้างตั๋วเงินที่เกิดขึ้นประจำ</string>
+    <string name="prefSummaryForcast">ตั๋วเงินที่เกิดขึ้นประจำจะถูกสร้างขึ้นโดยอัตโนมัติจนกว่าจะถึงกำหนดระยะเวลา ตัวอย่าง: ล่วงหน้า 3 เดือน</string>
+
+    <string name="pref_inst_currency_set_to">สกุลเงินโปรไฟล์กำหนดไว้ที่: %1$s</string>
+
+    <!-- Backup / restore preferences (29.mar.2015) -->
+
+    <string name="prefTitlePDFReports">สร้างรายงาน</string>
+    <string name="prefSummaryPDFReports">คลิกที่นี่เพื่อดูรายการไฟล์ PDF ที่สร้างขึ้น เมื่อใดก็ตามที่รายงาน PDF ถูกสร้างขึ้นพวกเขาจะแคชโดย app ที่คุณสามารถดูแบ่งปันลบตามความต้องการของคุณ</string>
+
+    <string name="prefTitleBackupPhotos">การสำรองข้อมูลรวมไฟล์แนบ</string>
+    <string name="prefSummaryBackupPhotosTick">ตอนนี้การสำรองข้อมูลจะมีข้อมูลและรูปถ่ายใบเสร็จที่แนบมาเช่นเดียวกับการสำรองข้อมูลทั้งหมด</string>
+    <string name="prefSummaryBackupPhotosUnTick">การสำรองข้อมูลรวดเร็วใช้งานได้ดังนั้นการสำรองข้อมูลจะมีข้อมูลเพียงอย่างเดียวและไม่สนใจรูปที่แนบมาใด ๆ</string>
+
+    <string name="prefSummaryBackupAccount">เลือกบัญชี Google Drive เพื่อเก็บข้อมูลสำรองแอปพลิเคชันของคุณทั้งหมด</string>
+    <string name="prefSummaryBackupAccountUnlink">คุณต้องการยกเลิกการเชื่อมโยงบัญชี Google Drive ของคุณหรือไม่ ดังนั้นข้อมูลของคุณจะไม่ถูกสำรองไว้ในที่จัดเก็บข้อมูลบนคลาวด์</string>
+
+    <string name="prefTitleBackupDriveSyncTime">เวลาซิงค์สำรองข้อมูลครั้งล่าสุด</string>
+
+    <string name="prefTitleBackupWiFi">สำรองข้อมูลผ่าน WiFi เท่านั้น</string>
+    <string name="prefSummaryBackupWiFi">เปิดใช้งานเพื่อสำรองข้อมูล Google Drive ผ่าน WiFi เท่านั้น ไม่ต้องใช้ทั้ง WiFi และข้อมูลอินเทอร์เน็ตบนมือถือ</string>
+
+    <!-- Access Denied / Root detected Activity -->
+    <string name="title_activity_access_denied">ปฏิเสธการเข้าใช้</string>
+    <string name="access_denied_lable">บางอย่างผิดพลาด..!</string>
+    <string name="access_denied_msg">โปรดลองอีกครั้งหรือติดต่อนักพัฒนาซอฟต์แวร์เกี่ยวกับปัญหานี้</string>
+    <string name="access_denied_autofixed">ปัญหาได้รับการแก้ไขโดยอัตโนมัติ \n\nกรุณารีสตาร์ทแอพพลิเคชั่นและคุณก็จะดีไป</string>
+
+    <!-- Filter Fragement -->
+    <string name="filter_data">กรองข้อมูล</string>
+    <string name="filter_menu">กรอง</string>
+    <string name="filter_apply">ใช้ตัวกรอง</string>
+    <string name="filter_selected_save">ประหยัด</string>
+    <string name="filter_clear">รีเซ็ต</string>
+    <string name="filter_invert">ผกผัน</string>
+    <string name="filter_sort_by">เรียงลำดับตาม: %1$s</string>
+    <string name="filter_category_title">กรองหมวดหมู่</string>
+    <string name="filter_categories_all">หมวดหมู่ (ทั้งหมด)</string>
+    <string name="filter_categories_count">หมวดหมู่ (%1$d)</string>
+    <string name="filter_currency_title">กรองสกุลเงิน</string>
+    <string name="filter_currencies_all">สกุลเงิน (ทั้งหมด)</string>
+    <string name="filter_currencies_count">สกุลเงิน (%1$d)</string>
+    <string name="filter_photo_title">กรองระเบียนด้วย</string>
+    <string name="filter_photo_any">รูปภาพใบเสร็จรับเงิน (ใดก็ได้)</string>
+    <string name="filter_photo_yes">แนบรูปภาพแล้ว</string>
+    <string name="filter_photo_no">ไม่ได้แนบรูปภาพ</string>
+
+    <!-- New Recurring Screen -->
+    <string name="bills_paid_total">ชำระเงิน: %1$s</string>
+    <string name="recurbill_total">ทั้งหมด: </string>
+    <string name="bills_overdue_total">ค้างชำระ: %1$s</string>
+    <string name="bills_upcoming_total">กำลังจะมาถึง: %1$s</string>
+    <string name="recurbill_list_empty">ไม่มีการกำหนดค่าที่เกิดขึ้นอีก \n(แตะปุ่มลอยตัว \'+\' เพื่อสร้าง)</string>
+    <string name="recurbill_list_title">การกำหนดค่าที่เกิดซ้ำ</string>
+    <string name="recurbill_list_subtitle">สำหรับตั๋วเงิน</string>
+    <string name="bills_recur_subtitle">ทุก %1$s %2$s</string>
+    <string name="menu_recurbill_delete">ลบที่เกิดขึ้นประจำ</string>
+    <string name="recurbill_list_unselected">โปรดเลือกการกำหนดค่าที่เกิดซ้ำจากกรอบด้านซ้าย</string>
+    <string name="recurring">การคืน</string>
+
+    <string name="currency_all">สกุลเงินทั้งหมด</string>
+    <string name="title_activity_inst_edit">รายละเอียดโปรไฟล์</string>
+
+    <!-- Period, ViewPager, TabLayout -->
+    <string name="period_dashboard_change">ระยะเวลาการเปลี่ยนแปลง</string>
+    <string name="period_daily">ประจำวัน</string>
+    <string name="period_weekly">รายสัปดาห์</string>
+    <string name="period_monthly">รายเดือน</string>
+    <string name="period_yearly">รายปี</string>
+    <string name="period_custom">ช่วงที่กำหนดเอง</string>
+    <string name="period_custom_range">%1$s - %2$s</string>
+    <string name="period_custom_range_title">เลือกช่วงวันที่</string>
+    <string name="period_custom_enter_from">ป้อนจากวันที่</string>
+    <string name="period_custom_enter_to">ป้อนวันที่</string>
+
+    <string name="period_today">ในวันนี้</string>
+    <string name="period_yesterday">เมื่อวาน</string>
+    <string name="period_tomorrow">วันพรุ่งนี้</string>
+    <string name="period_thisweek">ในสัปดาห์นี้</string>
+    <string name="period_lastweek">อาทิตย์ที่แล้ว</string>
+    <string name="period_nextweek">สัปดาห์หน้า</string>
+    <string name="period_rangeweek">w/c %1$s</string>
+    <string name="period_rangeweek2">%1$s - %2$s</string>
+    <string name="period_thismonth">เดือนนี้</string>
+    <string name="period_lastmonth">เดือนที่แล้ว</string>
+    <string name="period_nextmonth">เดือนหน้า</string>
+    <string name="period_thisyear">ปีนี้</string>
+    <string name="period_lastyear">ปีที่แล้ว</string>
+    <string name="period_nextyear">ปีหน้า</string>
+    <string name="period_and_future">%1$s และอนาคต</string>
+    <string name="period_custom_last_7days">7 วันที่ผ่านมา</string>
+    <string name="period_custom_last_30days">30 วันที่ผ่านมา</string>
+    <string name="period_custom_last_3months">3 เดือนที่ผ่านมา</string>
+    <string name="period_custom_recent_6months">ล่าสุด 6 เดือน</string>
+    <string name="period_custom_recent_12months">ล่าสุด 12 เดือน</string>
+    <string name="period_custom_date_range">ช่วงวันที่ที่กำหนดเอง</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">แผงควบคุม</string>
+    <string name="dashboard_title_bill_chart_payable">ตั๋วเงิน (ตามประเภท)</string>
+    <string name="dashboard_title_bill_chart_receivable">ตั๋วเงินรับ (แยกตามประเภท)</string>
+    <string name="dashboard_title_bill_chart_payable_status">ตั๋วเงิน (ตามสถานะ)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">ตั๋วเงิน (ตามสถานะ)</string>
+    <string name="dashboard_summary">ภาพรวมของตั๋วเงิน </string>
+    <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
+    <string name="dashboard_summary_receivable">ลูกหนี้: </string>
+    <string name="dashboard_summary_payable">ที่ต้องชำระ: </string>
+    <string name="dashboard_summary_total">ทั้งหมด: </string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_title">เกี่ยวกับ</string>
+    <string name="about_version">รุ่น: %1$s</string>
+    <string name="about_version_trial">รุ่น: %1$s (ทดลองใช้ฟรี)</string>
+    <string name="about_description">การเรียกเก็บเงินช่วยเตือนช่วยให้คุณสามารถจัดระเบียบและติดตามค่าใช้จ่ายของคุณได้ทั้งแบบชำระเงิน / ไม่ได้ชำระและเจ้าหนี้ / ลูกหนี้ เพียงเพิ่มบิลเข้า app นี้และจะเตือนทุกวันเกี่ยวกับเรื่องนี้จนกว่าคุณจะได้ทำเครื่องหมายว่าเป็นเงินหรือลบออก ตั๋วเงินที่ทำเครื่องหมายว่าเกิดขึ้นเป็นประจำจะถูกสร้างขึ้นโดยอัตโนมัติตามการกำหนดค่าที่ให้มาและระยะเวลาคาดการณ์ซึ่งจะทำให้คุณรู้สึกสงบ</string>
+    <string name="about_facebook">ชอบเราใน facebook</string>
+    <string name="about_twitter">ติดตามเราได้ที่ twitter</string>
+    <string name="about_googleplay">ให้คะแนนแอปนี้</string>
+    <string name="about_share">แชร์แอปนี้</string>
+    <string name="about_welcome_tutorial">หน้าจอการสอน</string>
+    <string name="about_visit_124">ไปที่ 124APPS</string>
+
+    <string name="feature_label_free">ทดลองฟรี</string>
+    <string name="feature_desc_free">รุ่นนี้มีคุณสมบัติพื้นฐานในการจัดการค่าใช้จ่ายของคุณ\n</string>
+    <string-array name="feature_items_free">
+        <item>การแจ้งเตือนการแจ้งเตือนตั๋วเงินประจำวัน</item>
+        <item>แนบภาพไปยังตั๋วเงิน</item>
+        <item>การสนับสนุนค่าใช้จ่ายที่เกิดขึ้นประจำ</item>
+        <item>ตั๋วเงิน จำกัด (300)</item>
+        <item>จำกัด หมวดหมู่และหมวดหมู่ย่อย (70)</item>
+        <item>เปลี่ยนเวลาแจ้งเตือน</item>
+        <item>ค่าการค้นหา</item>
+        <item>หน้าแดชบอร์ดภาพรวมของตั๋วเงินสำหรับแต่ละเดือน</item>
+        <item>ดูตั๋วเงินตามสถานะ</item>
+        <item>ดูบิลเดือนฉลาด</item>
+        <item>มุมมองปฏิทินของตั๋วเงิน</item>
+        <item>การเลือกหลายรายการ: การลบตั๋วเงินและหมวดหมู่หลายรายการ</item>
+        <item>การเลือกหลายรายการ: คัดลอกตั๋วเงินและหมวดหมู่หลายฉบับ</item>
+        <item>รายงาน: หมวดหมู่ฉลาดค่าสำหรับแต่ละเดือน</item>
+        <item>สแกนบาร์โค้ดและเพิ่มลงในธนบัตร</item>
+        <item>เพิ่ม URL การเรียกเก็บเงินในบิล</item>
+        <item>สร้างการสำรองข้อมูลรวมถึงรูปถ่ายใบเสร็จที่แนบมาด้วย</item>
+        <item>การสำรองข้อมูลตามกำหนดเวลาทุกวัน</item>
+        <item>เฉพาะรูปแบบเดียว</item>
+    </string-array>
+    <string name="feature_label_pro">เบี้ยประกันภัย</string>
+    <string name="feature_desc_pro">คุณลักษณะนี้มีคุณลักษณะทั้งหมดที่มีให้โดย \'ทดลองใช้ฟรี\' \n\t\t\t+\nคุณลักษณะพิเศษระดับสูงกว่า: \n</string>
+    <string-array name="feature_items_pro">
+        <item>ตั๋วเงินไม่ จำกัด</item>
+        <item>หมวดหมู่และหมวดหมู่ย่อยไม่ จำกัด</item>
+        <item>ลบตั๋วที่เกิดขึ้นประจำและการกำหนดค่าในครั้งเดียว (การลบจำนวนมาก)</item>
+        <item>การเลือกหลายรายการ: เปลี่ยนประเภทของตั๋วเงินหลายฉบับ</item>
+        <item>การเลือกหลายรายการ: แจ้งเตือนการแจ้งเตือนการเปลี่ยนแปลงของตั๋วเงิน</item>
+        <item>ภาพรวมแดชบอร์ดสำหรับแต่ละวันสัปดาห์เดือนและปี</item>
+        <item>ดูตั๋วเงินสำหรับแต่ละวันสัปดาห์เดือนปีและระยะเวลาที่กำหนดเอง...</item>
+        <item>รายงาน: หมวดหมู่ฉลาดค่าสำหรับแต่ละวันสัปดาห์เดือนปีและระยะเวลาที่กำหนดเอง</item>
+        <item>รายงาน: แนวโน้มตั๋วแลกเงิน</item>
+        <item>รายงาน: การเปรียบเทียบระหว่างสัปดาห์วันเดือนปี</item>
+        <item>รายงาน: สร้างรายงาน PDF และแชร์</item>
+        <item>เปลี่ยนหน้าจอเริ่มต้น</item>
+        <item>ควบคุมการสำรองข้อมูลตามกำหนดเวลา</item>
+        <item>แชร์และส่งออกข้อมูลสำรองผ่านทางอีเมล drive, dropbox</item>
+        <item>เรียกคืนการสำรองข้อมูลในเครื่องและดาวน์โหลดจากระบบคลาวด์</item>
+        <item>ความปลอดภัยของแอปโดยใช้ PIN และลายนิ้วมือ</item>
+    </string-array>
+    <string name="feature_label_multiprof">หลายโปรไฟล์</string>
+    <string name="feature_desc_multiprof">นี้ต้องใช้รุ่นพรีเมี่ยม\nช่วยให้คุณสามารถรักษาโปรไฟล์ได้หลายโปรไฟล์โดยที่แต่ละโปรไฟล์จะเกี่ยวข้องกับข้อมูลของตัวเองตัวอย่างเช่นแยกค่าใช้จ่ายส่วนบุคคลของคุณกับค่าใช้จ่ายของธุรกิจของคุณดังนั้นแต่ละโปรไฟล์จึงมีรูปแบบดังนี้:\n</string>
+    <string-array name="feature_items_multiprof">
+        <item>ประเภท</item>
+        <item>ธนบัตร</item>
+        <item>การตั้งค่าการเรียกเก็บเงินที่เกิดขึ้นประจำ</item>
+        <item>รายงานและหน้าจออื่น ๆ จะพิจารณาตั๋วเงินจากโปรไฟล์ของตัวเอง</item>
+        <item>ซึ่งจะช่วยให้สามารถใช้คุณสมบัติการจัดการโปรไฟล์ได้</item>
+    </string-array>
+    <string name="feature_tab_title">คุณสมบัติ</string>
+    <string name="feature_tab_cloud_title">สมัครสมาชิกระบบคลาวด์</string>
+    <string name="feature_comparison_title">มีการเปรียบเทียบ</string>
+    <string name="feature_subscription_title">คุณลักษณะและการอัปเกรด</string>
+    <string name="feature_this_version">นี้เป็นรุ่นทดลองใช้ฟรีของค่าใช้จ่ายเตือน app และคุณสามารถซื้อด้านล่างอัพเกรดเพลิดเพลินไปกับ app ที่ดีที่สุด</string>
+    <string name="feature_view_comparison">ดูเปรียบเทียบคุณสมบัติ</string>
+    <string name="feature_purchased">ซื้อ</string>
+
+    <string name="welcome_title1_bill_detail">เพิ่มการแจ้งเตือนการเรียกเก็บเงินใหม่</string>
+    <string name="welcome_info1_bill_detail">ป้อนรายละเอียดใบแจ้งหนี้และบันทึก ยังสนับสนุนตั๋วเงินที่เกิดขึ้นและเปลี่ยนสกุลเงิน</string>
+    <string name="welcome_title2_receipt">ภาพใบเสร็จรับเงินของคุณ</string>
+    <string name="welcome_info2_receipt">ไปโดยไม่ใช้กระดาษโดยการแนบใบเสร็จรับเงินพร้อมกับรายละเอียดใบเรียกเก็บเงิน</string>
+    <string name="welcome_title3_bill_upcoming">ดูตั๋วเงินตามสถานะ</string>
+    <string name="welcome_info3_bill_upcoming">ได้อย่างรวดเร็วของที่จะมาถึง, ค้างชำระค่าใช้จ่ายและชำระเงิน </string>
+    <string name="welcome_title4_bill_list">การจัดวางแท็บง่ายๆ</string>
+    <string name="welcome_info4_bill_list">ดูตั๋วเงินในแต่ละช่วงเวลาได้อย่างง่ายดายและรูดระหว่างแท็บ ตัวอย่าง: สำหรับแต่ละเดือน</string>
+    <string name="welcome_title5_drawer">เมนูลิ้นชักการนำทาง</string>
+    <string name="welcome_info5_drawer">แดชบอร์ดหมวดหมู่และหมวดหมู่ย่อยปฏิทินหลายสกุลเงินรายงานและแผนภูมิหลายโปรไฟล์การสำรองข้อมูลและเรียกคืน</string>
+    <string name="welcome_title6_recurring">จัดการตั๋วเงินที่เกิดขึ้นประจำ</string>
+    <string name="welcome_info6_recurring">การกำหนดค่าที่เกิดซ้ำจะช่วยให้สามารถสร้างอัปเดตลบตั๋วเงินและตั๋วเงินที่เกิดขึ้นได้อย่างง่ายดาย</string>
+    <string name="welcome_title6_settings">การตั้งค่าสำหรับการปรับแต่งได้ง่าย</string>
+    <string name="welcome_info6_settings">เวลาแจ้งเตือนการเปลี่ยนแปลง, ระยะเวลาการเรียกเก็บเงินที่เกิดขึ้นประจำ, สกุลเงินเริ่มต้นของการเปลี่ยนแปลงและอื่น ๆ อีกมากมาย</string>
+
+    <string name="coffee_title">ซื้อกาแฟให้เรา</string>
+    <string name="coffee_description">เราทำงานทั้งกลางวันและกลางคืนเพื่อมอบประสบการณ์แอปที่ยอดเยี่ยมที่สุดเพิ่มคุณลักษณะใหม่ ๆ แก้ไขข้อบกพร่อง โปรดสนับสนุนการพัฒนาของเรา - ซื้อกาแฟให้เรา</string>
+    <string name="coffee_buy_now">ซื้อเลย</string>
+    <string name="coffee_thank_you">ขอขอบคุณ</string>
+
+    <string name="widget_bill_overview_title">สรุปตั๋วเงิน</string>
+    <string name="widget_bill_overview_overdue">ค้างชำระ: </string>
+    <string name="widget_bill_overview_today">เนื่องจากวันนี้: </string>
+    <string name="widget_bill_overview_upcoming">ที่จะเกิดขึ้น: </string>
+    <string name="widget_bill_overview_count">%1$d</string>
+
+    <string name="widget_bill_single_title">ติดตามการเรียกเก็บเงิน</string>
+    <string name="widget_bill_paid_on">จ่ายเงินเมื่อ %1$s</string>
+    <string name="widget_bill_due_in">ครบกำหนดใน %1$d วัน</string>
+    <string name="widget_bill_due_tomorrow">ส่งพรุ่งนี้</string>
+    <string name="widget_bill_due_today">เนื่องจากวันนี้</string>
+    <string name="widget_bill_due_yesterday">เนื่องจากเมื่อวานนี้</string>
+    <string name="widget_bill_overdue_by">ค้างชำระโดย %1$d วัน</string>
+    <string name="coach_mark_add_bill">คลิกปุ่ม \'+\' เพื่อเพิ่มการแจ้งเตือนการเรียกเก็บเงิน</string>
+    <string name="coach_mark_burger_icon">คลิกที่ไอคอน burger เพื่อดูหน้าจออื่น ๆ</string>
+    <string name="widget_bill_select_title">เลือกใบเรียกเก็บเงิน</string>
+
+    <string name="error_max_bills_exceeded">จำนวนตั๋วเกินขีด จำกัด สูงสุดโปรดอัปเกรดเพื่อเพิ่มค่าบริการเพิ่มเติม</string>
+    <string name="error_max_cats_exceeded">จำนวนหมวดหมู่เกินขีด จำกัด สูงสุดโปรดอัปเกรดเพื่อเพิ่มหมวดหมู่เพิ่มเติม</string>
+
+    <string name="bill_paid1">จ่ายเงิน</string>
+    <string name="bill_unpaid1">ใบเรียกเก็บเงินที่ค้างชำระ</string>
+    <string name="bill_overdue1">การเรียกเก็บเงินที่ค้างชำระ</string>
+    <string name="bill_upcoming1">การเรียกเก็บเงินที่จะเกิดขึ้น</string>
+    <string name="bill_payments">ชำระเงิน (%1$d)</string>
+    <string name="bill_payment_mark_paid">จะได้รับเงินเต็มจำนวน</string>
+    <string name="bill_payment">จ่ายบิล</string>
+    <string name="bill_make_payment">เพิ่มการชำระเงิน</string>
+    <string name="bill_payments_empty_text">ไม่มีการชำระเงินค่าใช้จ่ายนี้</string>
+    <string name="bill_payment_total">จำนวนเงินทั้งหมด %1$d ใบเรียกชำระเป็น %2$s</string>
+    <string name="bill_payment_total_remaining">%1$s คงเหลือที่จะต้องจ่ายตามยอดรวม %2$s</string>
+    <string name="bill_payment_total_overpaid">%1$s จ่ายเงินส่วนที่เกินกำหนดทั้งหมด %2$s</string>
+    <string name="bill_payment_total_equal">ขอแสดงความยินดี! เรียกเก็บเงินนี้</string>
+    <string name="bill_payment_heading">%1$s จะถึงวันที่ %2$s</string>
+    <string name="bill_payment_bill_amt">จำนวนเงิน:</string>
+    <string name="bill_payment_amt_paid">ทั้งหมดที่จ่าย:</string>
+    <string name="bill_payment_amt_due">จำนวนที่เหลือจำนวนที่ยังค้างอยู่:</string>
+    <string name="bill_payment_date">วันจ่าย</string>
+    <string name="bill_payment_last_paid_dt">จ่ายครั้งสุดท้ายในวันที่ %1$s</string>
+    <string name="bill_payment_not_exits">[ไม่มี]</string>
+    <string name="bill_payments_tablet_view">ทำเครื่องหมายเป็นชำระดูหรือเพิ่มการชำระเงิน &#8230;</string>
+    <string name="bill_payment_amt_outstanding">จำนวนที่เหลืออยู่</string>
+
+    <string name="contact_name_hint">ชื่อผู้ติดต่อลูกค้าหรือธุรกิจ</string>
+    <string name="contact_payee_empty">ระบุชื่อผู้ติดต่อ</string>
+    <string name="contact_max_limit_exceed">มีจำนวนผู้ติดต่อเกินจำนวนสูงสุดโปรดอัปเกรดเพื่อเพิ่มมากขึ้น</string>
+    <string name="recur_list_selectmode_title">เลือกการกำหนดค่าที่เกิดซ้ำ</string>
+    <string name="recur_details_title">การกำหนดค่าที่เกิดซ้ำ</string>
+    <string name="recur_details_saved">สร้างการกำหนดค่าซ้ำแล้วซ้ำอีก</string>
+    <string name="recur_details_updated">อัปเดตการกำหนดค่าที่เกิดซ้ำแล้ว</string>
+    <string name="recur_details_edit">แก้ไขการกำหนดค่า</string>
+    <string name="recur_link_add_label">เพิ่มธรรมชาติที่เกิดขึ้น</string>
+    <string name="recur_forecast_period_is">ช่วงเวลาปัจจุบันถูกตั้งค่าเป็น %1$s</string>
+    <string name="recur_forecast_period_date">ความหมายรายการที่เกิดซ้ำจะถูกสร้างขึ้นโดยอัตโนมัติจนถึง %1$s</string>
+    <string name="recur_forecast_view_settings">ดูระยะเวลาพยากรณ์</string>
+    <string-array name="recur_config_add_options">
+        <item>เลือกการกำหนดค่าที่มีอยู่</item>
+        <item>สร้างการกำหนดค่าที่เกิดซ้ำใหม่</item>
+    </string-array>
+
+    <string name="attachment_title">สิ่งที่แนบมา</string>
+    <string name="attachment_title_count">สิ่งที่แนบมา (%1$d)</string>
+    <string name="attachment_non_exists">ไม่มีไฟล์แนบแตะที่ปุ่มด้านบนเพื่อเพิ่มรูปภาพหรือไฟล์ไปยังรายการนี้</string>
+    <string name="attachment_take_photo">ถ่ายรูป</string>
+    <string name="attachment_add_file">เพิ่มไฟล์ที่มีอยู่</string>
+    <string name="attachment_deleting_snackbar">Deleting&#8230; %1$s</string>
+    <string name="bill_attachments_tablet_view">เพิ่มหรือดูใบเสร็จรับเงิน / สิ่งที่แนบมา &#8230;</string>
+    <string name="bill_attachments_save_label">บันทึกและโหลดซ้ำเพื่อเพิ่มไฟล์แนบ</string>
+
+    <string name="cat_no_of_linked_rows_txs_bills">%1$d รายการ %2$d ตั๋ว</string>
+    <string name="cat_no_of_linked_rows_txs">%1$d ธุรกรรม</string>
+
+    <string name="acct_1name">เงินสด</string>
+    <string name="acct_1desc">คลิกที่นี่เพื่อแก้ไขหรือลบบัญชีใด ๆ</string>
+    <string name="acct_2name">บัตรเครดิต</string>
+    <string name="acct_2desc">เพียงแตะเพื่อดูธุรกรรมบัญชี</string>
+    <string name="acct_3name">บัญชีธนาคาร</string>
+    <string name="acct_3desc">ดูรายละเอียดบัญชีเพื่อตั้งงบประมาณรายเดือน</string>
+
+    <string name="transfer_title">การโอนเงิน</string>
+    <string name="view_settings">ดูการตั้งค่า</string>
+    <string name="google_drive_not_linked">เชื่อมโยงบัญชี Google ของคุณเพื่อสำรองข้อมูลของคุณในที่เก็บข้อมูล Google Drive</string>
+
+    <string name="cat_icon">ไอคอน</string>
+    <!-- <string name="tax_percent">Tax Rate</string> -->
+    <string name="bill_date">วันที่เรียกเก็บเงิน</string>
+    <string name="bill_notify_enable">แสดงการแจ้งเตือนเตือนความจำรายวัน</string>
+    <string name="menu_txs_list">การทำธุรกรรม</string>
+
+    <string name="contacts_and_groups_label">ที่อยู่ติดต่อและกลุ่ม</string>
+    <string name="contacts_list">รายชื่อผู้ติดต่อ</string>
+    <string name="contact_select">เลือกผู้ติดต่อ</string>
+    <string name="contact_new">ใหม่ติดต่อ</string>
+    <string name="contact_details">รายละเอียดการติดต่อ</string>
+    <string name="contact_name_empty">ชื่อผู้ติดต่อว่างเปล่า</string>
+    <string name="contact_list_empty_hint">ไม่มีที่อยู่ติดต่อ \n(แตะปุ่มลอยเพื่อเพิ่มหนึ่งรายการ)</string>
+    <string name="contact_saved">บันทึกที่อยู่ติดต่อแล้ว</string>
+    <string name="contact_phone">หมายเลขโทรศัพท์</string>
+    <string name="contact_email">ที่อยู่อีเมล</string>
+    <string name="contact_phone_alt">หมายเลขโทรศัพท์สำรอง</string>
+    <string name="contact_email_alt">ที่อยู่อีเมลสำรอง</string>
+    <string name="contact_address">ที่อยู่ติดต่อ</string>
+    <string name="contact_deleted">ลบผู้ติดต่อเรียบร้อยแล้ว</string>
+    <string name="contact_inuse_warn_msg">กำลังใช้งานการติดต่ออยู่</string>
+    <string name="contact_deleted_warn">ผู้ติดต่อที่เลือกจะถูกลบ</string>
+    <string name="contact_member_of_group">สมาชิกของ %1$d กลุ่ม</string>
+
+    <string name="group_new">กลุ่มใหม่</string>
+    <string name="group_details">รายละเอียดกลุ่ม</string>
+    <string name="group_name_hint">ชื่อกลุ่มหรือทีม</string>
+    <string name="export_body">&lt;p&gt; ส่งจากแอพเตือนความจำบิล &lt;/p&gt;</string>
+    <string name="contact_all_title">ผู้ติดต่อทั้งหมด</string>
+    <string name="contact_group_title">กลุ่ม</string>
+    <string name="group_list_empty_hint">ไม่มีกลุ่มที่ติดต่อ \n(แตะปุ่มลอยเพื่อสร้าง)</string>
+    <string name="group_list_empty">ไม่มีกลุ่มที่ติดต่อ</string>
+    <string name="group_saved">บันทึกกลุ่มที่ติดต่อแล้ว</string>
+    <string name="group_name_empty">ชื่อกลุ่มว่างเปล่า</string>
+    <string name="delete_unsaved_warn">ไม่สามารถลบบันทึกที่ไม่ได้บันทึก</string>
+    <string name="group_deleted">ลบกลุ่มสำเร็จแล้ว</string>
+    <string name="group_delete_warn">กลุ่มที่เลือกจะถูกลบ</string>
+    <string name="group_contacts_conut">%1$d รายชื่อ</string>
+    <string name="group_add_members">เพิ่มสมาชิก</string>
+    <string name="group_select_contacts">เลือกผู้ติดต่อ</string>
+
+    <string name="records_deleted_multi">ลบแล้ว %1$d รายการ</string>
+    <string name="records_create_multi">สร้างแล้ว %1$d รายการ</string>
+
+</resources>

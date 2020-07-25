@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_upgrade">उन्नयन</string>
+    <string name="upgrade_to_pro">प्रीमियम में अपग्रेड करें</string>
+    <string name="feature_unavailable">यह सुविधा केवल प्रीमियम संस्करण में उपलब्ध है</string>
+
+    <string name="error_save">परिवर्तनों को सहेजने में असमर्थ, कृपया बाद में फिर से प्रयास करें।</string>
+    <string name="error_unknown">अज्ञात त्रुटि हुई, कृपया समर्थन से संपर्क करें</string>
+    <string name="err_empty_text">कृपया एक मान्य पाठ दें</string>
+    <string name="error">त्रुटि</string>
+    <string name="save">बचाना</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="update">अद्यतन</string>
+    <string name="delete">हटाना</string>
+    <string name="export">निर्यात</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="goto_play_store">गूगल प्ले स्टोर खोलें</string>
+    <string name="continue_">जारी रहना</string>
+    <string name="ok">ठीक</string>
+    <string name="skip">छोड़ें</string>
+    <string name="done">समझ गया</string>
+    <string name="select_a_option_warn">कृपया एक विकल्प चुनें</string>
+    <string name="tomorrow">आने वाला कल</string>
+    <string name="error_offline_title">कोई इंटरनेट नहीं</string>
+    <string name="error_offline_message">आपको यह ऑपरेशन करने के लिए ऑनलाइन होना चाहिए। कृपया सुनिश्चित करें कि आपका वाईफ़ाई या डेटा कनेक्शन सक्रिय है</string>
+    <string name="app_needs_relaunch">नई सेटिंग लागू करने के लिए ऐप को फिर से लॉन्च करने की आवश्यकता है</string>
+    <string name="email_send_title">ईमेल भेजें</string>
+
+    <!-- ==================================================================== -->
+    <!-- CONFIG.XML -->
+
+    <string name="home_data_inst_name">मेरी प्रोफाइल</string>
+    <string name="duplicate">प्रतिलिपि</string>
+    <string name="share">शेयर</string>
+    <string name="add">जोड़ना</string>
+    <string name="cat_detail">श्रेणी के विवरण</string>
+    <string name="expense">व्यय</string>
+    <string name="income">आय</string>
+    <string name="receivable">प्राप्य</string>
+    <string name="payable">देय</string>
+    <string name="both_expense_income">खर्च और आय</string>
+    <string name="both_payable_receivable">देय और प्राप्य</string>
+
+
+    <string name="cat_list_title">श्रेणियाँ</string>
+    <string name="cat_list_empty">कोई श्रेणी नहीं है..!</string>
+    <string name="cat_added">श्रेणी जोड़ा गया</string>
+    <string name="cat_deleted">श्रेणी हटाई गई</string>
+    <string name="cat_saved">श्रेणी सहेजी गई</string>
+    <string name="cat_select_a_cat">एक वर्ग का चयन करें</string>
+    <string name="cat_change">श्रेणी बदलें</string>
+    <string name="cat_deleted_multi">%1$d श्रेणियां हटाई गईं</string>
+    <string name="cat_edit">श्रेणी के विवरण</string>
+    <string name="cat_name_empty">श्रेणी का नाम खाली है..!</string>
+    <string name="cat_error_selfparent">श्रेणी अपने उपश्रेणी में नहीं हो सकती, कृपया एक अलग अभिभावक वर्ग चुनें।</string>
+    <string name="cat_name_err">डुप्लिकेट श्रेणी का नाम, कृपया अन्य नाम का उपयोग करें..!</string>
+    <string name="cat_delete_warn">चयनित श्रेणी और उसके उपश्रेणियाँ (यदि कोई हो) हटा दी जाएंगी। \n\nश्रेणी से जुड़े किसी प्रविष्टि को डिफ़ॉल्ट श्रेणी में पुन: असाइन किया जाएगा।</string>
+    <string name="cat_delete_unsaved">सहेजे न गए वर्ग को हटा नहीं सकते।</string>
+    <string name="cat_name">श्रेणी नाम</string>
+    <string name="cat_no_of_linked_rows">%1$d बिल</string>
+    <string name="cat_code">कोड</string>
+    <string name="cat_code_empty_err">एक श्रेणी कोड दर्ज करें</string>
+    <string name="cat_code_existing_err">श्रेणी कोड पहले से ही उपयोग किया जाता है</string>
+    <string name="cat_type">प्रकार</string>
+    <string name="cat_desc">वर्ग विवरण</string>
+    <string name="cat_color">रंग</string>
+    <string name="cat_change_color_tap">रंग बदलने के लिए टैप करें</string>
+    <string name="cat_parent_switch">यह एक अभिभावक वर्ग (शीर्ष स्तर) है</string>
+    <string name="cat_subcategory_of">की उपश्रेणी</string>
+    <string name="cat_select_parent">अभिभावक श्रेणी</string>
+    <string-array name="cat_types">
+        <item>खर्च / देय</item>
+        <item>आय / प्राप्ति योग्य</item>
+    </string-array>
+    <string name="cat_search_hint">फ़िल्टर करने के लिए यहां टाइप करें</string>
+    <!-- Categories '', '', '') -->
+    <string name="cat_0allCategories">सब वर्ग</string>
+    <string name="cat_1others">अन्य</string>
+    <string name="cat_1_1">भुगतान</string>
+    <string name="cat_1_2">उपहार</string>
+    <!-- <string name="cat_1_3">Charity</string>
+    <string name="cat_1_4">Pets</string>
+    <string name="cat_1_5">Investment</string> -->
+    <string name="cat_2transfer">स्थानांतरण</string>
+
+    <string name="cat_3personal">व्यक्तिगत देखभाल</string>
+    <string name="cat_3_1">बाल और सौंदर्य</string>
+    <string name="cat_3_2">जिम और फिटनेस</string>
+    <string name="cat_3_3">मेडिकल</string>
+    <string name="cat_3_4">दंत चिकित्सा</string>
+
+    <string name="cat_4food">खाद्य और पेय</string>
+    <string name="cat_4_1">कॉफ़ी</string>
+    <string name="cat_4_2">भोजन</string>
+    <string name="cat_4_3">ले जाओ</string>
+    <string name="cat_4_4">चाय</string>
+    <string name="cat_4_5">खाने की दुकान</string>
+    <string name="cat_4_6">किराना दुकान</string>
+    <string name="cat_4_7">नाश्ता</string>
+
+    <string name="cat_5entertainment">मनोरंजन</string>
+    <string name="cat_5_1">चलचित्र</string>
+    <string name="cat_5_2">पेय</string>
+    <string name="cat_5_4">छुट्टी का दिन</string>
+    <string name="cat_5_5">संगीत और थिएटर</string>
+    <string name="cat_5_6">खेल</string>
+    <string name="cat_5_7">पार्टी</string>
+
+    <string name="cat_6automobile">ऑटोमोबाइल</string>
+    <string name="cat_6_1">कार धुलाई</string>
+    <string name="cat_6_2">ईंधन</string>
+    <string name="cat_6_3">सेवा और मरम्मत</string>
+    <string name="cat_6_4">बीमा</string>
+    <string name="cat_6_5">सामान</string>
+    <string name="cat_6_6">रोड टैक्स</string>
+    <string name="cat_6_7">पार्किंग</string>
+    <!--<string name="cat_6_7">Registration</string>-->
+
+    <string name="cat_7shopping">खरीदारी</string>
+    <string name="cat_7_1">कपड़ा</string>
+    <string name="cat_7_2">कंप्यूटर और सहायक उपकरण</string>
+    <string name="cat_7_3">इलेक्ट्रानिक्स</string>
+    <string name="cat_7_4">डिजिटल संगीत</string>
+    <string name="cat_7_5">किराने का सामान</string>
+    <string name="cat_7_6">मोबाइल और गैजेट्स</string>
+    <string name="cat_7_7">आभूषण</string>
+    <string name="cat_7_8">अन्य शॉपिंग</string>
+    <string name="cat_7_9">फर्नीचर</string>
+    <string name="cat_7_10">खिलौने</string>
+    <string name="cat_7_11">अंशदान</string>
+    <string name="cat_7_12">बगीचा</string>
+
+    <string name="cat_8travel">यात्रा</string>
+    <string name="cat_8_1">रेल गाडी</string>
+    <string name="cat_8_2">बस</string>
+    <string name="cat_8_3">उड़ान</string>
+    <string name="cat_8_4">बीमा</string>
+    <string name="cat_8_5">स्थानीय परिवहन</string>
+    <string name="cat_8_6">टैक्सी</string>
+    <string name="cat_8_7">कार का किराया</string>
+    <string name="cat_8_8">होटल</string>
+    <string name="cat_8_9">अन्य परिवहन</string>
+
+    <string name="cat_9banking">बैंकिंग</string>
+    <string name="cat_9_1">ऋण</string>
+    <string name="cat_9_2">ब्याज</string>
+    <string name="cat_9_3">प्रभार</string>
+    <string name="cat_9_4">जमा पूंजी</string>
+    <string name="cat_9_5">बंधक</string>
+    <string name="cat_9_6">पूंजी व्यापार</string>
+    <string name="cat_9_7">निवेश</string>
+
+    <string name="cat_10home">घर</string>
+    <string name="cat_10_1">बिजली और गैस</string>
+    <string name="cat_10_2">इंटरनेट और फोन</string>
+    <!--<string name="cat_10_3">Gas</string>-->
+    <string name="cat_10_4">पानी</string>
+    <string name="cat_10_5">टीवी</string>
+    <string name="cat_10_6">सफाई सेवा</string>
+    <string name="cat_10_7">मरम्मत</string>
+    <string name="cat_10_8">उपयोगिताओं</string>
+    <string name="cat_10_9">आवास</string>
+    <string name="cat_10_10">किराया</string>
+    <string name="cat_10_11">बीमा</string>
+    <string name="cat_10_12">संपत्ति कर</string>
+
+    <string name="cat_11work">काम</string>
+    <string name="cat_11_1">वेतन</string>
+    <string name="cat_11_2">लाभांश</string>
+    <string name="cat_11_3">बोनस</string>
+    <string name="cat_11_4">खर्च की माँग</string>
+    <string name="cat_11_5">स्टेशनरी</string>
+    <string name="cat_11_6">कर</string>
+
+    <string name="cat_12family">परिवार</string>
+    <string name="cat_12_1">बाल देखभाल</string>
+    <string name="cat_12_2">स्कूल और कॉलेज</string>
+    <string name="cat_12_3">जेब खर्च</string>
+    <string name="cat_12_4">बीमा</string>
+    <string name="cat_12_5">चिकित्सा देखभाल</string>
+
+    <string name="cat_system">डिफ़ॉल्ट श्रेणी</string>
+    <string name="cat_system_delete_err">सिस्टम श्रेणी को नहीं हटा सकते</string>
+
+    <string name="label_list_title">लेबल प्रबंधित करें</string>
+    <string name="label_list_empty">कोई लेबल मौजूद नहीं है..!</string>
+    <string name="label_new_title">नया लेबल</string>
+    <string name="label_edit_title">संपादन/दृश्य लेबल</string>
+    <string name="label_enter">लेबल नाम दर्ज करें</string>
+    <string name="label_name_err">कृपया एक वैध लेबल नाम दर्ज करें।</string>
+    <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
+    <string name="label_add">लेबल जोड़ें</string>
+    <string name="label_details">लेबल विवरण</string>
+    <string name="label_saved">लेबल सफलतापूर्वक सहेजा गया।</string>
+    <string name="label_deleted">लेबल सफलतापूर्वक हटा दिया गया।</string>
+    <string name="label_delete_warning">चयनित लेबल हटा दिया जाएगा।</string>
+    <string name="labels_filter_title">लेबल फ़िल्टर करें</string>
+    <string name="labels_filter_all">लेबल (सभी)</string>
+    <string name="labels_filter_count">लेबल (%1$d)</string>
+
+    <!-- Startup Screen Chooser -->
+    <string name="startup_screen_title">एक स्टार्टअप स्क्रीन चुनें</string>
+    <string name="startup_screen_msg">एक होम स्क्रीन चुनें, जिसे आप ऐप खोलते समय देखना पसंद करते हैं।</string>
+    <string name="startup_screen_note">आप हमेशा सेटिंग्स के माध्यम से अपने चयन को बाद में बदल सकते हैं।</string>
+    <string name="startup_screen_label_default">%1$s - अनुशंसित</string>
+    <string name="startup_screen_change_success">स्टार्टअप स्क्रीन सफलतापूर्वक परिवर्तित</string>
+
+    <!-- from string.xml -->
+    <string name="select_currency">मुद्रा चुनें</string>
+    <string name="warn_invalid_amt">कृपया एक वैध राशि दर्ज करें</string>
+    <string name="warn_invalid_no">कृपया एक सही संख्या डालिये।</string>
+    <string name="warn_invalid_no_min1">कृपया 1 से अधिक की एक मान्य संख्या दर्ज करें।</string>
+    <string name="category">वर्ग</string>
+    <string name="amount">रकम</string>
+    <string name="amount_empty_warn">राशी डालें</string>
+    <string name="amount_hint">राशि, उदाहरण: 124.55</string>
+    <string name="bill_currency">मुद्रा</string>
+    <string name="change_currency">मुद्रा परिवर्तन करें</string>
+    <string name="select_a_option">एक विकल्प चुनें</string>
+    <string name="processing">प्रसंस्करण…</string>
+    <string name="email_dev">डेवलपर से संपर्क करें</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="exit_info">एप को बंद करने के लिए बाहर निकलें स्पर्श करें</string>
+    <string name="restart">पुनः आरंभ करें</string>
+    <string name="drawer_bills_by_status">स्थिति द्वारा बिल</string>
+    <string name="drawer_settings_sep">उपकरण / सेटिंग्स</string>
+    <string name="drawer_settings">सेटिंग्स</string>
+    <string name="manage_categories">श्रेणियाँ</string>
+    <string name="drawer_rpt_charts_title">रिपोर्ट और चार्ट</string>
+    <string name="update_available_title">@string/app_name</string>
+    <string name="update_available_warn">नई सुविधाएँ और बग फिक्स के साथ उपलब्ध नई अद्यतन</string>
+    <string name="update_available_force">हम अब इस संस्करण का समर्थन नहीं करेंगे।\n\n कृपया अब अपडेट करें</string>
+    <string name="update_available_force_dummy">अमान्य तिथि।\n\nकृपया अपने इंटरनेट कनेक्शन की जाँच करें।</string>
+    <string name="update_now">अभी अद्यतन करें</string>
+    <string name="later">बाद में</string>
+    <string name="menu_drawer_group_more">संचार / अधिक</string>
+    <string name="rate_app_title">इस ऐप्लिकेशन को रेट करे</string>
+    <string name="share_this_app">इस एप को शेयर कीजिए</string>
+    <string name="share_this_app_title">का उपयोग करके साझा करें</string>
+    <string name="share_this_app_subject">\'%1$s\' एप पर एक नज़र डालें</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="by_124apps">124APPS द्वारा प्रायोजित</string> <!-- &#169; -->
+    <string name="rate_app_msg">क्या आप इस ऐप को पसंद करते हैं? \n\nयदि हां, तो कृपया हमारे विकास को एक अच्छी रेटिंग के साथ समर्थन करें।\n\t* * * * *\nधन्यवाद।</string>
+    <string name="rate_app_now">अब रेट करें</string>
+    <string name="rate_app_later">बाद में</string>
+    <string name="rate_app_no">जी नहीं, धन्यवाद</string>
+
+    <string name="close">बंद करे</string>
+
+    <string-array name="rpt_bills_forcast">
+        <item>आज तक ही</item>
+        <item>1 महीने पहले से</item>
+        <item>2 महीने पहले से</item>
+        <item>3 महीने पहले से</item>
+        <item>4 महीने पहले से</item>
+        <item>5 महीने पहले से</item>
+        <item>6 महीने पहले से</item>
+        <item>1 वर्ष पहले से</item>
+        <item>18 महीने पहले से</item>
+        <item>2 साल पहले</item>
+        <item>3 साल पहले</item>
+        <item>4 साल पहले</item>
+        <item>5 साल पहले</item>
+        <item>10 साल पहले</item>
+    </string-array>
+    <string-array name="notify_days">
+        <item>नियत तारीख से 3 महीने पहले</item>
+        <item>नियत तारीख से 2 महीने पहले</item>
+        <item>नियत तारीख से 1 महीने पहले</item>
+        <item>नियत तारीख से 3 सप्ताह पहले</item>
+        <item>नियत तारीख से 2 सप्ताह पहले</item>
+        <item>नियत तारीख से 10 दिन पहले</item>
+        <item>नियत तारीख से 9 दिन पहले</item>
+        <item>नियत तारीख से 8 दिन पहले</item>
+        <item>नियत तारीख से 7 दिन पहले</item>
+        <item>नियत तारीख से 6 दिन पहले</item>
+        <item>नियत तारीख से 5 दिन पहले</item>
+        <item>नियत तारीख से 4 दिन पहले</item>
+        <item>नियत तारीख से 3 दिन पहले</item>
+        <item>नियत तारीख से 2 दिन पहले</item>
+        <item>नियत तारीख से 1 दिन पहले</item>
+        <item>- नियत तिथि पर -</item>
+        <item>नियत तारीख के 1 दिन बाद</item>
+        <item>नियत तारीख के 2 दिन बाद</item>
+        <item>नियत तारीख के 3 दिन बाद</item>
+        <item>नियत तारीख के 4 दिन बाद</item>
+        <item>नियत तारीख के 5 दिन बाद</item>
+        <item>नियत तारीख के 6 दिन बाद</item>
+        <item>नियत तारीख के 7 दिन बाद</item>
+        <item>नियत तारीख के 8 दिन बाद</item>
+        <item>नियत तारीख के 9 दिन बाद</item>
+        <item>नियत तारीख के 10 दिन बाद</item>
+        <item>नियत तिथि के 2 सप्ताह बाद</item>
+        <item>नियत तारीख के 3 सप्ताह बाद</item>
+        <item>नियत तारीख के 1 महीने बाद</item>
+        <item>नियत तारीख के 2 महीने बाद</item>
+        <item>नियत तारीख के 3 महीने बाद</item>
+    </string-array>
+
+    <string name="permission_denied_dialog_msg">कृपया बाह्य संग्रहण को डेटा को बचाने के लिए पढ़ने और लिखने की अनुमति दें। \nअनुमतियों को अस्वीकार करने से ऐप के लिए असंगतता का कारण होगा</string>
+    <string name="permission_denied_dialog_restart">पुन: प्रयास</string>
+    <string name="permission_denied_dialog_dont_care">मुझे परवाह नहीं है</string>
+    <string name="permission_denied_camera">एप को कैमरे की अनुमति की आवश्यकता होगी, फ़ोटो को कैप्चर करने के लिए।</string>
+    <string name="permission_denied_camera_receipt">एप को कैमरा की अनुमति की आवश्यकता होगी, रसीद तस्वीरें कैप्चर करने के लिए</string>
+
+    <!-- ==================================================================== -->
+    <!-- BILLS.XML -->
+    <string name="app_name">Bills Reminder</string>
+    <!--<string name="title_bills_by_status">Bills by status</string>
+    <string name="title_bills_by_period">Bills by period</string>-->
+    <string name="title_bills_list">बिल सूची</string>
+    <string name="title_bills_report">बिल रिपोर्ट</string>
+
+    <string name="title_bill_upcoming">आगामी बिल</string>
+    <string name="title_bill_overdue">अतिदेय बिल</string>
+    <string name="title_bill_paid">भुगतान बिल</string>
+    <string name="title_bill_unpaid">अप्रदत्त बिल</string>
+    <string name="title_bill_detail">बिल विवरण</string>
+    <string name="title_bill_detail_new">नया बिल रिमाइंडर</string>
+    <string name="title_activity_calendar">कैलेंडर दृश्य</string>
+    <string name="bills">बिल</string>
+    <string name="bill_new">बिल रिमाइंडर जोड़ें</string>
+    <string name="bills_overdue">अतिदेय</string>
+    <string name="bills_upcoming">आगामी</string>
+    <string name="bills_paid">भुगतान किया है</string>
+    <string name="bills_unpaid">अवैतनिक</string>
+    <string name="bills_recurr">आवर्ती बिल</string>
+    <string name="bills_recur_desc">प्रत्येक %1$d %2$s को दोहराता है</string>
+    <string name="restart_app">कृपया एप्लिकेशन को पुनरारंभ करें</string>
+    <string name="bills_view">बिल देखें</string>
+
+    <string name="bill_list_empty_tip">कोई बिल मौजूद नहीं है  \n(एक बनाने के लिए फ्लोटिंग \'+\' बटन स्पर्श करें)</string>
+    <string name="bill_list_empty">कोई बिल मौजूद नहीं है</string>
+
+    <string name="navigation_drawer_open">खुला नेविगेशन ड्रॉवर</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉवर बंद करें</string>
+    <string name="dummy_day">मेल कराना</string>
+
+    <string name="bill_delete_unsaved">सहेजे न गए बिल को हटा नहीं सकते</string>
+    <string name="bill_deleted">बिल हटाया गया</string>
+    <string name="bill_delete_single_warn">बिल हटा दिया जाएगा, जारी रहेगा?</string>
+    <string name="bill_delete_multi_warn">चयनित बिल हटा दिए जाएंगे, जारी रहेंगे?</string>
+    <string name="bill_delete_recur_warn">यह आवर्ती प्रविष्टि और सभी संबंधित बिल हटा दिए जाएंगे, जारी रहेंगे?</string>
+    <string name="bill_duplicate_warn">%1$d डुप्लिकेट बिल बनाए जाएंगे, जारी रहेगा?</string>
+    <string name="bill_not_found">बिल मौजूद नहीं है</string>
+    <string name="app_error_restart">स्वत: एक समस्या तय की, कृपया एप्लिकेशन को पुनरारंभ करें</string>
+    <string name="multi_select_mode_title">%1$s, कुल: %2$s</string>
+
+    <string name="bill_deleted_recur">सफलतापूर्वक आवर्ती बिल हटाए गए</string>
+    <string name="bill_deleted_multi">%1$d बिल हटाए गए</string>
+    <string name="bill_multi_update_count">%1$d बिल अपडेट किए गए</string>
+    <string name="bill_duplicate_multi">%1$d नए बिल बनाए गए</string>
+    <string name="bill_duplicate_multi_error">डेवलपर से संपर्क करें बिल कॉपी करने में त्रुटि: %1$s</string>
+    <string name="bill_added">नया बिल जोड़ा।</string>
+    <string name="bill_saved">बिल बचाया</string>
+    <string name="bill_populating_recent">हाल के मूल्यों के साथ लोकप्रिय&#8230;</string>
+
+    <string name="bill_payee">आदाता / वस्तु</string>
+    <string name="bill_duedt">भुगतान देय तिथी</string>
+    <string name="cat_new_title">नई श्रेणी</string>
+    <string name="bill_dueNear">देय %1$s</string>
+    <string name="bill_dueIn">%1$d दिनों में होने के कारण</string>
+    <string name="bill_dueOver">%1$d दिन से अतिदेय</string>
+    <string name="bill_paid">भुगतान किया है</string>
+    <string name="bill_received">प्राप्त किया</string>
+    <string name="bill_unpaid">अवैतनिक</string>
+    <string name="bill_paid_on">भुगतान करना</string>
+    <string name="bill_type">बिल प्रकार</string>
+    <string name="bill_change_notification">अनुस्मारक अधिसूचना बदलें</string>
+    <string name="bill_more_options">अधिक विकल्प</string>
+    <string name="notify">रिमाइंडर सूचनाएं दिखाएं</string>
+    <string name="notify_channel_name_app">ऐप का उपयोग</string>
+    <string name="notify_channel_desc_reminder">बिल भुगतान, अतिदेय, या आगामी के बारे में अधिसूचना।</string>
+    <string name="notify_channel_desc_app">नए संस्करण अपडेट या ऐप उपयोग अनुस्मारक के बारे में।</string>
+    <string name="tx_payee_hint">उदाहरण: किराया</string>
+    <string name="tx_notes">नोट्स या स्कैन बारकोड / यूआरएल</string>
+    <string name="tx_notes_zing_missing_title">बारकोड स्कैनर स्थापित करें</string>
+    <string name="tx_notes_zing_missing">इस सुविधा को बारकोड स्कैनर की आवश्यकता है, क्या आप इसे इंस्टॉल करना चाहते हैं?</string>
+    <string name="tx_error_save_pic">चित्र सहेजते समय त्रुटि: %1$s</string>
+    <string name="tx_photo_not_supported">फ़ोटो को कैद करने में असमर्थ, डिवाइस समर्थित नहीं है..!</string>
+    <string name="tx_photo_take_new_photo">नई तस्वीर ले लो</string>
+    <string name="tx_photo_select_from_gallery">गैलरी से चुनें</string>
+    <string-array name="tx_photo_options">
+        <item>फ़ोटो देखें</item>
+        <item>नई तस्वीर ले लो</item>
+        <item>गैलरी से चुनें</item>
+        <item>फ़ोटो निकालें</item>
+    </string-array>
+    <!-- Sort options -->
+    <string name="menu_sort_by">इसके अनुसार क्रमबद्ध करें</string>
+    <string name="sort_by_date_asc">तिथि आरोही</string>
+    <string name="sort_by_date_desc">दिनांक अवरोही</string>
+    <string name="sort_by_amt_asc">राशि आरोही</string>
+    <string name="sort_by_amt_desc">अवरोही राशि</string>
+    <string name="sort_by_payee_asc">भुगतानकर्ता आरोही</string>
+    <string name="sort_by_payee_desc">आदाता उतरते</string>
+
+    <string name="menu_search_bills">खोज बिल</string>
+    <string name="bill_total_row">%1$d पंक्ति, कुल: </string>
+    <string name="bill_total_rows">%1$d पंक्तियां, कुल: </string>
+    <string name="bill_total_rows_multi_curr">%1$d पंक्तियां, एकाधिक मुद्राओं में</string>
+    <string name="bill_rpt_date_beyond">%1$s और उससे आगे</string>
+    <string name="bill_rpt_total_payable">देय कुल: %1$s</string>
+    <string name="bill_rpt_total_receivable">कुल प्राप्य: %1$s</string>
+    <string name="bill_rpt_type_cat_payable">श्रेणी द्वारा देय बिल</string>
+    <string name="bill_rpt_type_cat_receivable">श्रेणी द्वारा प्राप्ति योग्य बिल</string>
+    <string name="bill_rpt_charts_saved">उत्पन्न रिपोर्ट (%1$d)</string>
+    <string name="bill_rpt_charts_saved_empty">कोई सहेजी रिपोर्ट नहीं \n क्या आपने अभी तक पीडीएफ रिपोर्ट सुविधा उत्पन्न करने की कोशिश की है?</string>
+    <string name="bill_rpt_charts_saved_loc">पीडीएफ रिपोर्ट इस पर संग्रहीत हैं: %1$s</string>
+
+    <string name="bill_rpt_1categorywise_pay_label">श्रेणीवार चार्ट (देय)</string>
+    <string name="bill_rpt_1categorywise_pay_info">पाई चार्ट अवधि के लिए श्रेणी वार तुलना दिखा रहा है।</string>
+    <string name="bill_rpt_2categorywise_receive_label">श्रेणी वार चार्ट (प्राप्य)</string>
+    <string name="bill_rpt_2categorywise_receive_info">पाई चार्ट अवधि के लिए श्रेणी वार तुलना दिखा रहा है।</string>
+    <string name="bill_rpt_3trends_30days_label">30 दिनों के लिए बिल के रुझान</string>
+    <string name="bill_rpt_3trends_30days_info">लाइन चार्ट जो पिछले 30 दिनों के लिए देय और प्राप्य दोनों के दिनवार तुलना दिखा रहा है</string>
+    <string name="bill_rpt_4monthwise_pay_label">महीना वार तुलना (देय)</string>
+    <string name="bill_rpt_4monthwise_pay_info">बार चार्ट, देय बिलों की महीनेवार तुलना दिखा रहा है।</string>
+    <string name="bill_rpt_5monthwise_receive_label">महीनों के अनुसार तुलना (प्राप्य)</string>
+    <string name="bill_rpt_5monthwise_receive_info">बार चार्ट, प्राप्य बिलों की महीनेवार तुलना दिखा रहा है।</string>
+
+    <string name="bill_rpt_comparison_title">तुलना की रिपोर्ट</string>
+    <string name="bill_rpt_comparison_daywise_label">%1$d दिन के लिए दिनवार तुलना</string>
+    <string name="bill_rpt_comparison_weekwise_label">%1$d हफ़्ते के लिए सप्ताह-वार तुलना</string>
+    <string name="bill_rpt_comparison_monthwise_label">%1$d महीनों के लिए महीनेवार तुलना</string>
+    <string name="bill_rpt_comparison_yearwise_label">%1$d वर्ष के लिए वर्षीय तुलना</string>
+
+    <string name="bill_rpt_trends_title">बिल प्रवृत्ति</string>
+    <string name="bill_rpt_trend_daywise_last_30">30 दिन की तुलना</string>
+    <string name="bill_rpt_trend_daywise_this_week">पूरे हफ्ते 7 दिन की तुलना</string>
+    <string name="bill_rpt_trend_daywise_this_month">पूरे महीने की तुलना</string>
+    <string name="bill_rpt_trend_daywise_for_3_months">हाल ही में 3 महीने की तुलना</string>
+    <string name="bill_rpt_trend_daywise_for_6_months">हालिया 6 महीने की तुलना</string>
+    <string name="bill_rpt_trend_daywise_this_year">पूर्ण वर्ष या 12 महीने की तुलना</string>
+
+    <string name="rpt_pdf_menu_title">पीडीएफ उत्पन्न</string>
+    <string name="rpt_pdf_name_dialog_title">पीडीएफ रिपोर्ट उत्पन्न</string>
+    <string name="rpt_pdf_name_already_exists">पीडीएफ फाइल नाम पहले से मौजूद है, एक अलग नाम का उपयोग करें।</string>
+    <string name="rpt_pdf_name_get_error">पीडीएफ फाइल नाम प्राप्त करने में असमर्थ..!</string>
+    <string name="rpt_pdf_generate_error">पीडीएफ जेनरेट करने में असमर्थ, आपका एसडी कार्ड जुड़ा हुआ है?</string>
+    <string name="rpt_pdf_name_dialog_field">फ़ाइल का नाम</string>
+    <string name="rpt_pdf_unsupported_title">उपकरण समर्थित नहीं</string>
+    <string name="rpt_pdf_unsupported_info">पीडीएफ रिपोर्ट्स उत्पन्न करने के लिए आपको कम से कम एंड्रॉइड किटकैट का उपयोग करना होगा। \nमाफ़ कीजिये..!</string>
+    <string name="rpt_pdf_success_title">पीढ़ी पूर्ण</string>
+    <string name="rpt_pdf_success_view_reports">रिपोर्ट देखें</string>
+    <string name="rpt_pdf_success_info_file">नई पीडीएफ रिपोर्ट को इस रूप में सहेजा गया है: \n%1$s</string>
+    <string name="rpt_pdf_generating_progress">पीडीएफ रिपोर्ट तैयार करना</string>
+    <string name="rpt_pdf_created_date">पर बनाया गया: %1$s</string>
+    <string name="rpt_pdf_delete_confirm">चयनित रिपोर्ट फ़ाइल \'%1$s\' को हटाएं?</string>
+    <string name="rpt_pdf_bills_filename_templete">बिल की रिपोर्ट %1$s - %2$s</string>
+    <string name="rpt_pdf_view_activity_not_found">एक पीडीएफ रीडर खोजने में असमर्थ कृपया किसी भी सहायक पीडीएफ दर्शक ऐप को स्थापित करें, जैसे एक्रोबेट रीडर</string>
+
+    <string-array name="rpt_pdf_select_options">
+        <item>खुला / देखें</item>
+        <item>रिपोर्ट साझा करें</item>
+        <item>हटाना</item>
+    </string-array>
+
+    <!--	Repeation  -->
+    <string name="bill_repeat_info">आवर्ती कॉन्फ़िगरेशन के नीचे का उपयोn ग करना:</string>
+    <string name="bill_repeat">आवर्ती बिल</string>
+    <string name="bill_every">दोहराता है हर</string>
+    <string name="bill_next_due">अगला देय तिथि</string>
+    <string name="bill_end_none">हमेशा के लिए दोहरा</string>
+    <string name="bill_ends_on">दोहराओ जब तक</string>
+    <string name="bill_ends_count_title">भुगतान की शर्तें</string>
+    <string name="bill_ends_count_label">किश्तों या घटना की संख्या</string>
+    <string name="bill_ends_count">%1$d बार दोहराता है</string>
+    <string name="bill_repeat_disable">आवर्ती प्रविष्टियों के ऑटो निर्माण को अक्षम या बंद करें</string>
+    <string name="bill_repeat_until_value">%1$s तक दोहराएं</string>
+    <string name="bill_err_future_dt">कृपया भविष्य की तिथि दर्ज करें।</string>
+    <string name="bill_err_end_dt">\'अगले नियत तारीख\' \'तिथि तक दोहराने\'  से पहले होनी चाहिए</string>
+    <string-array name="repeat_array">
+        <item>दिन</item>
+        <item>सप्ताह</item>
+        <item>महीने</item>
+        <item>महीने की तारीख</item>
+        <item>वर्षों</item>
+    </string-array>
+    <string name="bill_rpt_save">आवर्ती परिवर्तन लागू करें</string>
+    <string-array name="bill_rpt_save">
+        <item>किसी भी बिल को हटाने और नए बिल बनाने के लिए, यदि आवश्यक हो तो</item>
+        <item>नए आवर्ती परिवर्तनों का उपयोग करके बिलों को हटा दें और पुनर्निर्माण करें। इस आवर्ती सेटिंग से संबंधित बिल केवल प्रभावी होंगे</item>
+        <!-- <item>Effect this and all bills.</item> -->
+    </string-array>
+    <string name="bill_rpt_remove">आवर्ती प्रकृति को हटा दें</string>
+    <string-array name="bill_rpt_remove">
+        <item>केवल इस बिल के लिए</item>
+        <item>इस और सभी संबंधित बिलों के लिए</item>
+    </string-array>
+
+    <string name="bill_list_options_view">बिल विवरण देखें</string>
+    <string name="bill_list_options_select">पंक्ति चुनें</string>
+    <string name="bill_list_options_copy">एक कॉपी बनाएं (डुप्लिकेट)</string>
+    <string name="bill_list_options_paid">भुगतान के रूप में चिह्नित करें</string>
+    <string name="bill_list_options_unpaid">अवैतनिक के रूप में चिह्नित करें</string>
+    <string name="bill_list_options_delete">बिल हटाएं</string>
+
+    <string name="bill_marked_paid_msg">बिल को भुगतान के रूप में चिह्नित किया गया</string>
+    <string name="bill_marked_unpaid_msg">बिल भुगतान न किए गए पर रीसेट कर दिया गया है</string>
+    <string name="bill_removed_recurring">आवर्ती विन्यास से अनलिंक बिल</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- HOME.XML -->
+
+    <string name="inst_name">व्यवसाय प्रोफ़ाइल नाम</string>
+    <string name="inst_name_hint">बहीखाते के लिए व्यवसाय या घर का नाम।</string>
+    <string name="inst_dialog_title">प्रोफ़ाइल विवरण</string>
+    <string name="inst_dialog_title_edit">प्रोफाइल एडिट करें</string>
+    <string name="inst_list_title">प्रोफाइल</string>
+    <string name="menu_add_profile_title">प्रोफ़ाइल जोड़ें</string>
+    <string name="home_no_instances">कोई प्रोफ़ाइल मौजूद नहीं है, कृपया एक नया प्रोफ़ाइल बनाएं</string>
+
+    <string name="help">मदद &#8230; </string>
+    <string name="inst_new">नया प्रोफाइल बनाएं</string>
+    <string name="inst_delete">इस प्रोफाइल को हटा दें</string>
+    <string name="inst_delete_warn">प्रोफ़ाइल \'%1$s\' और उसके सभी डेटा हटा दिए जाएंगे \nजारी रखें?</string>
+    <string name="inst_delete_err_1inst">नहीं, यह संभव नहीं है..!! \nक्योंकि यह इस ऐप में उपलब्ध एकमात्र प्रोफ़ाइल है और आपको पट्टे पर एक प्रोफ़ाइल के साथ काम करने की जरूरत है। </string>
+    <string name="inst_profile_photo">प्रोफ़ाइल फ़ोटो बदलने के लिए यहां स्पर्श करें</string>
+    <string name="inst_change_photo">तस्वीर बदलिये</string>
+    <string name="inst_photo_from_gallery">गैलरी से</string>
+    <string name="inst_photo_from_camera">फोटो कैप्चर करें</string>
+    <string name="inst_warn_no_multi_instance">ऐप का यह संस्करण केवल एकल प्रोफ़ाइल का समर्थन करता है इसलिए कृपया एकाधिक प्रोफ़ाइल का उपयोग करने के लिए किसी भी अवांछित प्रोफाइल को हटा दें या प्रीमियम संस्करण में अपग्रेड करें।</string>
+
+    <string name="home_help_text">प्रोफ़ाइल डेटा का संगठित संग्रह है, जैसे एक भंडारण या खाता पुस्तक (बैंक खाता नहीं)। एक प्रोफ़ाइल से संबंधित डेटा (बिल, श्रेणियां, लेबल) एक स्थान पर संग्रहीत होता है और कभी भी अन्य प्रोफाइल के डेटा के साथ मिश्रित नहीं होता है \n\nइसलिए यह आपको अधिक नियंत्रण और बेहतर प्रबंधन देगा उदाहरण: व्यक्तिगत खर्च के लिए एक प्रोफ़ाइल, और दूसरे आपके कार्यालय या व्यापारिक खर्च के लिए</string>
+    <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
+    <string name="inst_rename">प्रोफाइल एडिट करें</string>
+    <string name="inst_open">इस प्रोफाइल को चुनें</string>
+    <string name="default_currency">डिफ़ॉल्ट मुद्रा</string>
+
+    <string name="inst_error_add_fail">प्रोफ़ाइल जोड़ने में असमर्थ</string>
+    <string name="inst_error_edit_fail">प्रोफ़ाइल का नाम बदलने में असमर्थ</string>
+    <string name="inst_error_edit_name_invalid">मान्य प्रोफ़ाइल नाम दर्ज करें</string>
+    <string name="inst_default_curr">डिफ़ॉल्ट मुद्रा: %1$s</string>
+    <string name="inst_error_max_limit">परीक्षण संस्करण के लिए अधिकतम प्रोफ़ाइल सीमा तक पहुंच गई, कृपया अधिक डेटा प्रोफाइल बनाने के लिए अपग्रेड करें</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Backup / Recovery -->
+    <string name="bkp_title">बैकअप बहाल</string>
+    <string name="bkp_location">भंडारण स्थान</string>
+    <string name="bkp_location_info">बैकअप फ़ाइलों को यहां पर संग्रहीत किया जाता है: \n\n%1$s</string>
+    <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
+    <string name="bkp_name">बैकअप नाम</string>
+    <string name="bkp_created">निर्मित: %1$s</string>
+    <!--<string name="bkp_new_pref"> Photo Preference</string>-->
+    <string name="bkp_name_new"> बैकअप नाम</string>
+    <!--<string name="bkp_photos_include">Backup including Photos</string>
+    <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
+    <!--<string name="bkp_create">Create Backup</string>-->
+    <string name="bkp_list_empty">कोई बैकअप मौजूद नहीं है..!</string>
+    <string name="bkp_duplicate_bkp">डुप्लिकेट बैकअप नाम, कृपया एक और बैकअप नाम प्रदान करें या मौजूदा हटाएं..!</string>
+    <string name="bkp_name_invalid">अवैध बैकअप नाम \'%1$s\' \n\nरिक्त स्थान और विशेष वर्णों का उपयोग करने से बचें जैसे कि: \\ /</string>
+    <string name="bkp_failed">बैकअप विफल ..! कृपया सुनिश्चित करें कि पर्याप्त निशुल्क संग्रहण स्थान है</string>
+    <string name="bkp_inprogress_warn">बैकअप / बहाल करना जारी है, कृपया धैर्य रखें..!</string>
+
+    <string name="bkp_restore_fail">बहाल बहाल..! कुछ समय बाद बाद में प्रयास करें।</string>
+    <string name="bkp_send">बैकअप साझा करें</string>
+    <string name="bkp_existing_label">मौजूदा बैकअप (%1$d)</string>
+    <string name="bkp_create">एक नया बैकअप बनाएं</string>
+    <string name="bkp_send_sub">बैकअप फ़ाइल \'%1$s\'</string>
+    <string name="bkp_rename">बैकअप का नाम बदलें</string>
+    <string name="bkp_rename_success">सफलतापूर्वक \'%1$s\' से \'%2$s\' नाम बदल दिया गया</string>
+    <string name="bkp_rename_failed">\'%1$s\' को \'%2$s\' के नाम से करने में विफल रहा</string>
+    <string name="bkp_delete">बैकअप हटाएं</string>
+    <string name="bkp_delete_confirm">चयनित डेटा बैकअप \'%1$s\'हटवायचे?</string>
+    <string name="bkp_delete_success">सफलतापूर्वक हटाया गया</string>
+    <string name="bkp_delete_fail">हटाने में विफल</string>
+    <string name="bkp_restore_external">बाहरी बादल से बहाल</string>
+    <string name="bkp_restore_external_title">डाउनलोड और पुनर्स्थापित करें</string>
+    <string name="bkp_restore_confirm_cloud">सिस्टोर कुछ सेकंड के लिए कुछ सेकंड ले जाएगा, इसलिए कृपया अपने बैकअप आकार के आधार पर धैर्य रखें। \n\nसे डेटा को आयात और पुनर्स्थापित करने के लिए बाहरी बैकअप फ़ाइल चुनने के लिए जारी रखें क्लिक करें।</string>
+    <string name="bkp_last_backup">पिछला बैकअप</string>
+    <string name="bkp_last_info">अपने ऐप डेटा और अटैचमेंट को Google डिस्क पर बैकअप करें। जब आप ऐप को पुन: स्थापित करते हैं, तो आप फ़ोन को बदल सकते हैं, या किसी अन्य डिवाइस पर डेटा कॉपी कर सकते हैं।</string>
+    <string name="bkp_last_local_time">स्थानीय: %1$s</string>
+    <string name="bkp_last_size">साइज: %1$s</string>
+    <string name="bkp_backup_now">बैकअप</string>
+    <string name="bkp_restore_now">पुनर्स्थापित</string>
+    <string name="bkp_google_drive_setting">Google Drive सेटिंग</string>
+    <string name="bkp_google_drive_info">नवीनतम बैकअप स्टोर करने के लिए एक Google खाता जोड़ें। Google DRIVE पर बैकअप सक्षम करना Google DRIVE पर मौजूदा ऐप बैकअप को अधिलेखित कर देगा, इसलिए कई उपकरणों का उपयोग करते समय इसे ध्यान में रखें।</string>
+    <string name="bkp_to_google_drive_label">Google DRIVE का बैकअप</string>
+    <string name="never">कभी नहीँ</string>
+    <string name="bkp_restore_successful">बैकअप से सफलतापूर्वक बहाल किया गया। नए डेटा को लागू करने के लिए ऐप को फिर से लॉन्च करने की आवश्यकता है।</string>
+    <string name="bkp_create_confirm_msg">ऐप डेटा के आकार के आधार पर बैकअप में कुछ सेकंड से मिनटों का समय लग सकता है, इसलिए कृपया धैर्य रखें। बैकअप का निर्माण जारी रखें?</string>
+    <string name="bkp_over_wifi_label">बैकअप का उपयोग कर</string>
+    <string name="bkp_success">सफलतापूर्वक बैकअप दिया गया।</string>
+    <string name="bkp_restore_confirm_msg">पुनर्स्थापित करने में कुछ मिनटों का समय लगेगा, इसलिए कृपया धैर्य रखें। \n\nइस डिवाइस पर आपके सभी मौजूदा ऐप डेटा को अंतिम बैकअप से बदल दिया जाएगा। क्या आप पुनर्स्थापना कार्रवाई जारी रखना चाहते हैं?</string>
+
+    <string-array name="bkp_to_google_drive">
+        <item>@string/never</item>
+        <item>केवल जब मैं बैकअप टैप करता हूं</item>
+        <item>रोज</item>
+    </string-array>
+
+    <string-array name="bkp_over_wifi">
+        <item>केवल वाई - फाई</item>
+        <item>वाई-फाई या मोबाइल डेटा</item>
+    </string-array>
+
+    <!-- ==================================================================== -->
+    <!-- PREFERENCES.XML -->
+
+    <string name="pref_key">पसंद</string>
+
+    <!--<string name="prefTitleAppSetting">App Settings</string>
+    <string name="prefKeyAppSetting">appSettings</string>-->
+    <string name="prefTitleGeneralSetting">सामान्य</string>
+    <string name="prefTitleDataSetting">बैकअप और रिपोर्टट</string>
+    <string name="prefTitleDataSettingTrial">बैकअप</string>
+    <!--<string name="prefKeyAppSetting">appSettings</string>-->
+
+    <string name="prefTitleAppPIN">4-अंकीय पिन</string>
+    <string name="prefSummaryAppPIN">सुरक्षा उद्देश्य के लिए आप ऐप को शुरू करने के लिए पिन सेट कर सकते हैं एक बार सेट होने पर, ऐप शुरू होने पर आपको पिन के लिए कहा जाएगा</string>
+
+    <string name="prefTitleAppPINChange">पिन बदलें</string>
+    <string name="prefSummaryAppPINChange">अपने 4-अंकीय पिन को बदलने के लिए यहां स्पर्श करें</string>
+
+    <string name="prefTitleStartupScreen">स्टार्टअप स्क्रीन बदलें</string>
+    <string name="prefSummaryStartupScreen">डिफ़ॉल्ट या होम स्क्रीन जो दिखाता है कि ऐप लॉन्च किया जाता है।</string>
+
+    <string name="prefSummaryChangeLanguage">भाषा बदलने के लिए यहां क्लिक करें</string>
+    <string name="prefTitleChangeLanguage">भाषा: %1$s</string>
+
+    <string name="prefSummaryEnableSubcategories">दो स्तर श्रेणियों का उपयोग करने के लिए टिक करें</string>
+    <string name="prefTitleEnableSubcategories">उपश्रेणियों को सक्षम करें</string>
+
+    <string name="prefTitleInstSetting">प्रोफ़ाइल</string>
+
+    <string name="prefTitleDefaultCurrency">डिफ़ॉल्ट प्रोफ़ाइल मुद्रा: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">इस प्रोफाइल के लिए कोई भी नया रिकॉर्ड जोड़ते समय मुद्रा पूर्व-जनित है।</string>
+
+    <string name="prefTitleManageInstance">प्रोफ़ाइल प्रबंधित करें</string>
+    <string name="prefSummaryManageInstance">किसी भी अन्य प्रोफ़ाइल की मुद्रा बनाने, हटाने, या बदलने के लिए</string>
+
+    <!--<string name="prefKeyBillSettings">billsSettings</string>-->
+    <string name="prefTitleBillSettings">बिल</string>
+    <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
+
+    <string name="prefTitleNotifyTick">अनुस्मारक सूचनाएं</string>
+    <string name="prefSummaryNotifyTick">मुझे बिलों के बारे में सूचित करें जिन्हें ऐसा करने के लिए चिह्नित किया गया था (अक्षम करने के लिए चयन रद्द करें)</string>
+    <string name="prefSummaryNotifyUnTick">सूचनाएं अब अक्षम हैं (सक्षम करने के लिए चयन करें)</string>
+
+    <string name="prefTitleNotifyTime">अधिसूचना समय: %1$s:%2$s</string>
+    <string name="prefSummaryNotifyTime">सूचनाओं को इस समय दैनिक रूप में पॉप अप किया जाता है</string>
+
+    <string name="prefTitleNotifyDays">डिफ़ॉल्ट अनुस्मारक अधिसूचना</string>
+    <string name="prefSummaryNotifyDays">नए बिलों के लिए, यह पूर्व दैनिक अनुस्मारक अधिसूचना विकल्प के रूप में चुना जाता है। उदाहरण: नियत दिनांक से 5 दिन पहले</string>
+
+    <string name="prefTitleForcast">पूर्वानुमान अवधि</string>
+    <string name="prefTitleForcastDialog">आवर्ती बिल बनाना</string>
+    <string name="prefSummaryForcast">आवर्ती बिल स्वचालित रूप से निर्दिष्ट अवधि तक अग्रिम में उत्पन्न होंगे। उदाहरण: 3 महीने पहले से</string>
+
+    <string name="pref_inst_currency_set_to">प्रोफ़ाइल मुद्रा इस पर सेट है: %1$s</string>
+
+    <!-- Backup / restore preferences (29.mar.2015) -->
+
+    <string name="prefTitlePDFReports">उत्पन्न रिपोर्टें</string>
+    <string name="prefSummaryPDFReports">उत्पन्न पीडीएफ फाइलों की सूची देखने के लिए यहां क्लिक करें जब भी कोई पीडीएफ रिपोर्ट तैयार की जाती है, तो वह ऐप द्वारा कैश की जाती है, जहां आप अपनी आवश्यकताओं के अनुसार उन्हें देख सकते हैं, साझा कर सकते हैं, हटा सकते हैं।</string>
+
+    <string name="prefTitleBackupPhotos">बैकअप में संलग्नक शामिल हैं</string>
+    <string name="prefSummaryBackupPhotosTick">बैकअप में अब डेटा और संलग्न रसीद फ़ोटो शामिल होंगे, जैसे कि पूर्ण बैकअप में</string>
+    <string name="prefSummaryBackupPhotosUnTick">त्वरित बैकअप सक्रिय है, इसलिए बैकअप में केवल डेटा शामिल होगा और किसी संलग्न फ़ोटो को अनदेखा कर दिया जाएगा</string>
+
+    <string name="prefSummaryBackupAccount">अपने सभी एप्लिकेशन डेटा बैकअप को संग्रहीत करने के लिए Google ड्राइव खाते का चयन करें।</string>
+    <string name="prefSummaryBackupAccountUnlink">क्या आप अपना Google ड्राइव खाता खोलना चाहते हैं? इसलिए आपके डेटा को क्लाउड स्टोरेज तक वापस नहीं लाया जाएगा।</string>
+
+    <string name="prefTitleBackupDriveSyncTime">अंतिम बैकअप सिंक समय</string>
+
+    <string name="prefTitleBackupWiFi">केवल वाईफाई पर बैकअप</string>
+    <string name="prefSummaryBackupWiFi">केवल वाईफाई के माध्यम से Google ड्राइव बैकअप करने में सक्षम करें। वाईफाई और मोबाइल इंटरनेट डेटा दोनों का उपयोग करने के लिए अन-टिक।</string>
+
+    <!-- Access Denied / Root detected Activity -->
+    <string name="title_activity_access_denied">पहुंच अस्वीकृत</string>
+    <string name="access_denied_lable">कुछ गलत हो गया..!</string>
+    <string name="access_denied_msg">कृपया फिर से प्रयास करें या समस्या के बारे में डेवलपर से संपर्क करें।</string>
+    <string name="access_denied_autofixed">एक मुद्दा स्वचालित रूप से तय हो गया है। \n\nकृपया एप्लिकेशन को पुनः आरंभ करें और आप जाने के लिए अच्छा है</string>
+
+    <!-- Filter Fragement -->
+    <string name="filter_data">फ़िल्टर डेटा</string>
+    <string name="filter_menu">फिल्टर</string>
+    <string name="filter_apply">फिल्टर लागू करें</string>
+    <string name="filter_selected_save">चयनित बचें</string>
+    <string name="filter_clear">रीसेट</string>
+    <string name="filter_invert">उलटा</string>
+    <string name="filter_sort_by">द्वारा सॉर्ट करें: %1$s</string>
+    <string name="filter_category_title">श्रेणियों को फ़िल्टर करें</string>
+    <string name="filter_categories_all">(सभी) श्रेणियां</string>
+    <string name="filter_categories_count">श्रेणियां (%1$d)</string>
+    <string name="filter_currency_title">फ़िल्टर मुद्राएं</string>
+    <string name="filter_currencies_all">(सभी) मुद्राएं</string>
+    <string name="filter_currencies_count">मुद्राएं (%1$d)</string>
+    <string name="filter_photo_title">रिकॉर्ड रिकॉर्ड के साथ</string>
+    <string name="filter_photo_any">रसीद फोटो (किसी) भी</string>
+    <string name="filter_photo_yes">चित्र संलग्न</string>
+    <string name="filter_photo_no">फ़ोटो संलग्न नहीं है</string>
+
+    <!-- New Recurring Screen -->
+    <string name="bills_paid_total">भुगतान किया: %1$s</string>
+    <string name="recurbill_total">कुल: </string>
+    <string name="bills_overdue_total">अतिदेय: %1$s</string>
+    <string name="bills_upcoming_total">आगामी: %1$s</string>
+    <string name="recurbill_list_empty">कोई आवर्ती कॉन्फ़िगरेशन मौजूद नहीं है \n(एक बनाने के लिए फ्लोटिंग \'+\' बटन स्पर्श करें)</string>
+    <string name="recurbill_list_title">आवर्ती विन्यास</string>
+    <string name="recurbill_list_subtitle">बिलों के लिए</string>
+    <string name="bills_recur_subtitle">हर %1$s %2$s</string>
+    <string name="menu_recurbill_delete">आवर्ती हटाना</string>
+    <string name="recurbill_list_unselected">बाईं तरफ फ्रेम से आवर्ती कॉन्फ़िगरेशन का चयन करें।</string>
+    <string name="recurring">आवर्ती</string>
+
+    <string name="currency_all">सभी मुद्राएं</string>
+    <string name="title_activity_inst_edit">प्रोफ़ाइल विवरण</string>
+
+    <!-- Period, ViewPager, TabLayout -->
+    <string name="period_dashboard_change">परिवर्तन की अवधि</string>
+    <string name="period_daily">रोज</string>
+    <string name="period_weekly">साप्ताहिक</string>
+    <string name="period_monthly">महीने के</string>
+    <string name="period_yearly">सालाना</string>
+    <string name="period_custom">कस्टम रेंज</string>
+    <string name="period_custom_range">%1$s - %2$s</string>
+    <string name="period_custom_range_title">दिनांक सीमा चुनें</string>
+    <string name="period_custom_enter_from">तिथि से दर्ज करें</string>
+    <string name="period_custom_enter_to">तिथि दर्ज करें</string>
+
+    <string name="period_today">आज</string>
+    <string name="period_yesterday">बिता कल</string>
+    <string name="period_tomorrow">आने वाला कल</string>
+    <string name="period_thisweek">इस सप्ताह</string>
+    <string name="period_lastweek">पिछले सप्ताह</string>
+    <string name="period_nextweek">अगले सप्ताह</string>
+    <string name="period_rangeweek">w/c %1$s</string>
+    <string name="period_rangeweek2">%1$s - %2$s</string>
+    <string name="period_thismonth">इस महीने</string>
+    <string name="period_lastmonth">पिछले महीने</string>
+    <string name="period_nextmonth">अगले महीने</string>
+    <string name="period_thisyear">इस साल</string>
+    <string name="period_lastyear">पिछले साल</string>
+    <string name="period_nextyear">अगले वर्ष</string>
+    <string name="period_and_future">%1$s और भविष्य</string>
+    <string name="period_custom_last_7days">पिछले 7 दिन</string>
+    <string name="period_custom_last_30days">पिछले 30 दिनों में</string>
+    <string name="period_custom_last_3months">पिछले 3 महीने</string>
+    <string name="period_custom_recent_6months">हाल ही में 6 महीने</string>
+    <string name="period_custom_recent_12months">हाल ही में 12 महीने</string>
+    <string name="period_custom_date_range">कस्टम तिथि सीमा</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">डैशबोर्ड</string>
+    <string name="dashboard_title_bill_chart_payable">देय बिल (श्रेणी के अनुसार)</string>
+    <string name="dashboard_title_bill_chart_receivable">प्राप्त बिल (श्रेणी के अनुसार)</string>
+    <string name="dashboard_title_bill_chart_payable_status">देय बिल (स्थिति से)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">प्राप्त बिल (स्थिति से)</string>
+    <string name="dashboard_summary">बिल का अवलोकन </string>
+    <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
+    <string name="dashboard_summary_receivable">प्राप्य: </string>
+    <string name="dashboard_summary_payable">देय: </string>
+    <string name="dashboard_summary_total">कुल: </string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_title">के बारे में</string>
+    <string name="about_version">संस्करण: %1$s</string>
+    <string name="about_version_trial">संस्करण: %1$s (निःशुल्क परीक्षण)</string>
+    <string name="about_description">बिल रिमाइंडर आपको भुगतान / अवैतनिक और देय / प्राप्ति योग्य दोनों के बिलों को व्यवस्थित और ट्रैक करने में मदद करता है। बस इस ऐप में एक बिल जोड़ें और यह इसके बारे में दैनिक याद दिलाएगा, जब तक कि आपने इसे भुगतान के रूप में चिह्नित नहीं किया है या इसे हटा दिया है। पुनरावर्ती के रूप में चिह्नित बिल स्वचालित रूप से आपूर्ति की गई कॉन्फ़िगरेशन और पूर्वानुमान अवधि के आधार पर बनाए जाते हैं, इस प्रकार आपको मन की पूर्ण शांति प्रदान करते हैं।</string>
+    <string name="about_facebook">हमे फेसबूक पर पसंद करे</string>
+    <string name="about_twitter">हमसे ट्विटर पर सूचित रहें</string>
+    <string name="about_googleplay">इस ऐप्लिकेशन को रेट करे</string>
+    <string name="about_share">इस एप को शेयर कीजिए</string>
+    <string name="about_welcome_tutorial">ट्यूटोरियल स्क्रीन</string>
+    <string name="about_visit_124">यात्रा 124APPS</string>
+
+    <string name="feature_label_free">मुफ्त आज़माइश</string>
+    <string name="feature_desc_free">संस्करण में आपके बिलों को प्रबंधित करने के लिए बुनियादी सुविधाएं हैं \n</string>
+    <string-array name="feature_items_free">
+        <item>दैनिक बिल अनुस्मारक अधिसूचना</item>
+        <item>फोटो को बिल में संलग्न करें</item>
+        <item>आवर्ती बिल समर्थन</item>
+        <item>सीमित बिल (300)</item>
+        <item>सीमित श्रेणियों और उपश्रेणियाँ (70)</item>
+        <item>अनुस्मारक अधिसूचना समय बदलें</item>
+        <item>खोज बिल</item>
+        <item>प्रत्येक महीने के बिल के डैशबोर्ड अवलोकन</item>
+        <item>स्थिति से बिल देखें</item>
+        <item>महीने के अनुसार बिल देखें</item>
+        <item>बिलों का कैलेंडर दृश्य</item>
+        <item>एकाधिक चयन: एकाधिक बिलों और श्रेणियों को हटाने</item>
+        <item>एकाधिक चयन: एकाधिक बिलों और श्रेणियों की प्रतिलिपि बनाएँ</item>
+        <item>रिपोर्ट: प्रत्येक माह के लिए श्रेणी वार बिल</item>
+        <item>एक बारकोड स्कैन करें और इसे बिल नोट्स में जोड़ें</item>
+        <item>बिल में बिल भुगतान यूआरएल जोड़ें</item>
+        <item>संलग्न रसीद फ़ोटो सहित बैकअप बनाओ</item>
+        <item>दैनिक अनुसूचित बैकअप</item>
+        <item>केवल एकल प्रोफ़ाइल</item>
+    </string-array>
+    <string name="feature_label_pro">प्रीमियम</string>
+    <string name="feature_desc_pro">इसमें \'मुफ़्त परीक्षण\' द्वारा प्रदान की गई सभी सुविधाएं शामिल हैं \n\t\t\t+\nप्रीमियम सुविधाओं से नीचे: \n</string>
+    <string-array name="feature_items_pro">
+        <item>असीमित बिल</item>
+        <item>असीमित श्रेणियों और उपश्रेणियाँ</item>
+        <item>एक बार में आवर्ती बिल और इसके कॉन्फ़िगरेशन को हटा दें (थोक विलोपन)</item>
+        <item>एकाधिक चयन: कई बिलों की श्रेणी बदलें</item>
+        <item>एकाधिक चयन: बिलों की रिमाइंडर की सूचना बदलें</item>
+        <item>प्रत्येक दिन, सप्ताह, महीना और वर्ष के लिए डैशबोर्ड अवलोकन</item>
+        <item>प्रत्येक दिन, सप्ताह, महीने, वर्ष और कस्टम अवधि के लिए बिल देखें</item>
+        <item>रिपोर्ट: प्रत्येक दिन, सप्ताह, महीने, वर्ष और कस्टम अवधि के लिए श्रेणी वार बिल</item>
+        <item>रिपोर्ट: बिल प्रवृत्ति</item>
+        <item>रिपोर्ट: सप्ताह, दिनों, महीनों, वर्षों के बीच तुलना</item>
+        <item>रिपोर्ट: पीडीएफ रिपोर्ट्स और शेयरिंग जेनरेट करें</item>
+        <item>स्टार्टअप स्क्रीन बदलें</item>
+        <item>नियंत्रण अनुसूचित बैकअप</item>
+        <item>ईमेल, ड्राइव, ड्रॉपबॉक्स के माध्यमn  से बैकअप शेयर और निर्यात करें</item>
+        <item>स्थानीय बैकअप को पुनर्स्थापित करें और क्लाउड से डाउनलोड करें</item>
+        <item>पिन और फिंगरप्रिंट का उपयोग करके ऐप सुरक्षा</item>
+    </string-array>
+    <string name="feature_label_multiprof">एकाधिक प्रोफ़ाइल</string>
+    <string name="feature_desc_multiprof">इसके लिए प्रीमियम संस्करण की आवश्यकता है\nआपको एकाधिक प्रोफाइल बनाए रखने में सहायता करता है, जहां प्रत्येक प्रोफ़ाइल अपने डेटा से संबंधित है उदाहरण के लिए, अपने व्यक्तिगत खर्चों को आपके व्यवसाय के खर्च से अलग करना इसलिए प्रत्येक प्रोफ़ाइल का अपना स्वयं का है:\n</string>
+    <string-array name="feature_items_multiprof">
+        <item>श्रेणियाँ</item>
+        <item>बिल</item>
+        <item>आवर्ती बिल सेटिंग्स</item>
+        <item>रिपोर्ट और अन्य स्क्रीन अपनी प्रोफ़ाइल से बिलों पर विचार करेंगे</item>
+        <item>यह प्रोफ़ाइल प्रबंधन सुविधाओं को सक्षम करेगा</item>
+    </string-array>
+    <string name="feature_tab_title">विशेषताएं</string>
+    <string name="feature_tab_cloud_title">क्लाउड सदस्यता</string>
+    <string name="feature_comparison_title">सुविधाओं की तुलना</string>
+    <string name="feature_subscription_title">सुविधाओं और उन्नयन</string>
+    <string name="feature_this_version">यह बिल रिमाइंडर ऐप का नि: शुल्क परीक्षण संस्करण है और आप ऐप का आनंद लेने के लिए उन्नयन के नीचे खरीद सकते हैं।</string>
+    <string name="feature_view_comparison">सुविधाओं की तुलना देखें</string>
+    <string name="feature_purchased">खरीदा</string>
+
+    <string name="welcome_title1_bill_detail">नया बिल रिमाइंडर जोड़ें</string>
+    <string name="welcome_info1_bill_detail">बिल विवरण दर्ज करें और सहेजें आवर्ती बिलों और मुद्रा बदलने में भी सहायता करता है</string>
+    <string name="welcome_title2_receipt">फोटो आपकी रसीद</string>
+    <string name="welcome_info2_receipt">बिल के विवरण के साथ बिल रसीद संलग्न करके कागजी रहित जाएं</string>
+    <string name="welcome_title3_bill_upcoming">स्थिति से बिल देखें</string>
+    <string name="welcome_info3_bill_upcoming">आगामी, अतिदेय, अवैतनिक और भुगतान किए गए बिलों की एक त्वरित नज़र प्राप्त करें </string>
+    <string name="welcome_title4_bill_list">साधारण टैब लेआउट</string>
+    <string name="welcome_info4_bill_list">प्रत्येक अवधि के लिए बिल देखें और टैब के बीच आसानी से स्वाइप करें उदाहरण: प्रत्येक माह के लिए</string>
+    <string name="welcome_title5_drawer">नेविगेशन ड्रॉवर मेनू</string>
+    <string name="welcome_info5_drawer">डैशबोर्ड, श्रेणियां और उपश्रेणियाँ, कैलेंडर, एकाधिक मुद्रा, रिपोर्ट और चार्ट, एकाधिक प्रोफ़ाइल, बैकअप और पुनर्स्थापित करें।</string>
+    <string name="welcome_title6_recurring">आवर्ती बिल का प्रबंधन</string>
+    <string name="welcome_info6_recurring">आवर्ती विन्यास आसानी से बिल बनाने, अपडेट करने, बिल हटाने और आवर्ती बिलों को हटाने में मदद करता है।</string>
+    <string name="welcome_title6_settings">आसान अनुकूलन के लिए सेटिंग</string>
+    <string name="welcome_info6_settings">अधिसूचना समय, आवर्ती बिल का पूर्वानुमान अवधि, परिवर्तन डिफ़ॉल्ट मुद्रा और कई और अधिक।</string>
+
+    <string name="coffee_title">हमें एक कॉफी खरीदो</string>
+    <string name="coffee_description">हम दिन और रात काम करते हैं, आपको सबसे अच्छा ऐप अनुभव देने के लिए, नई सुविधाओं को जोड़ने, दोषों को ठीक करने के लिए कृपया हमारे विकास का समर्थन करें - हमें कॉफी खरीदो।</string>
+    <string name="coffee_buy_now">अभी खरीदें</string>
+    <string name="coffee_thank_you">धन्यवाद</string>
+
+    <string name="widget_bill_overview_title">बिल सारांश</string>
+    <string name="widget_bill_overview_overdue">अतिदेय: </string>
+    <string name="widget_bill_overview_today">आज के लिए: </string>
+    <string name="widget_bill_overview_upcoming">आगामी: </string>
+    <string name="widget_bill_overview_count">%1$d</string>
+
+    <string name="widget_bill_single_title">बिल को ट्रैक करें</string>
+    <string name="widget_bill_paid_on">%1$s पर भुगतान किया</string>
+    <string name="widget_bill_due_in">%1$d दिनों में कारण</string>
+    <string name="widget_bill_due_tomorrow">कल के लिए नियत</string>
+    <string name="widget_bill_due_today">आज के लिए</string>
+    <string name="widget_bill_due_yesterday">कल के कारण</string>
+    <string name="widget_bill_overdue_by">%1$d दिन से अतिदेय</string>
+    <string name="coach_mark_add_bill">बिल रिमाइंडर जोड़ने के लिए \'+\' बटन पर क्लिक करें</string>
+    <string name="coach_mark_burger_icon">अन्य स्क्रीन देखने के लिए बर्गर आइकन पर क्लिक करें</string>
+    <string name="widget_bill_select_title">एक बिल का चयन करें</string>
+
+    <string name="error_max_bills_exceeded">बिलों की संख्या अधिकतम सीमा पार कर गई, कृपया अधिक बिल जोड़ने के लिए अपग्रेड करें।</string>
+    <string name="error_max_cats_exceeded">श्रेणियों की संख्या अधिकतम सीमा को पार कर गई, कृपया अधिक श्रेणियां जोड़ने के लिए अपग्रेड करें</string>
+
+    <string name="bill_paid1">भुगतान बिल</string>
+    <string name="bill_unpaid1">अवैतनिक बिल</string>
+    <string name="bill_overdue1">अतिदेय बिल</string>
+    <string name="bill_upcoming1">आगामी बिल</string>
+    <string name="bill_payments">बिल भुगतान (%1$d)</string>
+    <string name="bill_payment_mark_paid">पूर्ण में भुगतान किया जाता है</string>
+    <string name="bill_payment">बिल भुगतान</string>
+    <string name="bill_make_payment">एक भुगतान जोड़ें</string>
+    <string name="bill_payments_empty_text">अभी तक इस बिल पर कोई भुगतान नहीं किया गया है।</string>
+    <string name="bill_payment_total">%1$d बिल भुगतान कुल %2$s है</string>
+    <string name="bill_payment_total_remaining">कुल शेष %2$s पर भुगतान करने के लिए %1$s शेष</string>
+    <string name="bill_payment_total_overpaid">कुल %2$s के कारण कुल भुगतान %1$s</string>
+    <string name="bill_payment_total_equal">बधाई! इस बिल का भुगतान किया जाता है</string>
+    <string name="bill_payment_heading">%1$s %2$s को होने वाला है</string>
+    <string name="bill_payment_bill_amt">बिल की राशि:</string>
+    <string name="bill_payment_amt_paid">कुल भुगतान हो गया:</string>
+    <string name="bill_payment_amt_due">देय राशि:</string>
+    <string name="bill_payment_date">भुगतान तिथि</string>
+    <string name="bill_payment_last_paid_dt">%1$s को अंतिम भुगतान</string>
+    <string name="bill_payment_not_exits">[कोई नहीं]</string>
+    <string name="bill_payments_tablet_view">भुगतान के रूप में चिह्नित करें, देखें या बिल भुगतान जोड़ें &#8230;</string>
+    <string name="bill_payment_amt_outstanding">कुल शेष:</string>
+
+    <string name="contact_name_hint">संपर्क, ग्राहक या व्यवसाय का नाम</string>
+    <string name="contact_payee_empty">एक संपर्क नाम प्रदान करें।</string>
+    <string name="contact_max_limit_exceed">अधिक से अधिक संख्या में संपर्क करें, कृपया अधिक जोड़ने के लिए अपग्रेड करें।</string>
+    <string name="recur_list_selectmode_title">पुनरावर्ती कॉन्फ़िगरेशन का चयन करें</string>
+    <string name="recur_details_title">आवर्ती विन्यास</string>
+    <string name="recur_details_saved">नया आवर्ती विन्यास बनाया गया।</string>
+    <string name="recur_details_updated">आवर्ती विन्यास अपडेट किया गया</string>
+    <string name="recur_details_edit">कॉन्फ़िगरेशन संपादित करें</string>
+    <string name="recur_link_add_label">आवर्ती प्रकृति जोड़ें</string>
+    <string name="recur_forecast_period_is">वर्तमान में पूर्वानुमान की अवधि %1$s के लिए निर्धारित है।</string>
+    <string name="recur_forecast_period_date">मतलब, आवर्ती प्रविष्टियों को %1$s तक स्वचालित रूप से बनाया जाएगा।</string>
+    <string name="recur_forecast_view_settings">पूर्वानुमान अवधि देखें</string>
+    <string-array name="recur_config_add_options">
+        <item>मौजूदा कॉन्फ़िगरेशन चुनें</item>
+        <item>नया आवर्ती कॉन्फ़िगरेशन बनाएँ</item>
+    </string-array>
+
+    <string name="attachment_title">कागजात</string>
+    <string name="attachment_title_count">कागजात (%1$d)</string>
+    <string name="attachment_non_exists">कोई अनुलग्नक मौजूद नहीं है, इस प्रविष्टि में फ़ोटो या फ़ाइल जोड़ने के लिए ऊपर दिए गए आइकन टैप करें।</string>
+    <string name="attachment_take_photo">एक तस्वीर लें</string>
+    <string name="attachment_add_file">एक मौजूदा फ़ाइल जोड़ें</string>
+    <string name="attachment_deleting_snackbar">%1$s को हटाना&#8230;</string>
+    <string name="bill_attachments_tablet_view">रसीदें / संलग्नक जोड़ें या देखें &#8230;</string>
+    <string name="bill_attachments_save_label">संलग्नक जोड़ने के लिए सहेजें और पुनः लोड करें</string>
+
+    <string name="cat_no_of_linked_rows_txs_bills">%1$d लेनदेन, %2$d बिल</string>
+    <string name="cat_no_of_linked_rows_txs">%1$d लेनदेन</string>
+
+    <string name="acct_1name">नकद</string>
+    <string name="acct_1desc">किसी भी खाते को संपादित करने या हटाने के लिए यहां क्लिक करें।</string>
+    <string name="acct_2name">क्रेडिट कार्ड</string>
+    <string name="acct_2desc">बस खाता लेनदेन देखने के लिए टैप करें</string>
+    <string name="acct_3name">बैंक खाता</string>
+    <string name="acct_3desc">मासिक बजट सेट करने के लिए खाता विवरण देखें</string>
+
+    <string name="transfer_title">फंड ट्रांसफर</string>
+    <string name="view_settings">सेटिंग्स देखें</string>
+    <string name="google_drive_not_linked">अपने डेटा को Google Drive संग्रहण में बैकअप रखने के लिए अपने Google खाते को लिंक करें।</string>
+
+    <string name="cat_icon">चिह्न</string>
+    <!-- <string name="tax_percent">Tax Rate</string> -->
+    <string name="bill_date">बिल की तिथि</string>
+    <string name="bill_notify_enable">दैनिक अनुस्मारक सूचना दिखाएं</string>
+    <string name="menu_txs_list">लेन-देन</string>
+
+    <string name="contacts_and_groups_label">संपर्क और समूह</string>
+    <string name="contacts_list">संपर्क</string>
+    <string name="contact_select">एक संपर्क का चयन करें</string>
+    <string name="contact_new">नया कॉन्ट्रैक्ट</string>
+    <string name="contact_details">संपर्क विवरण</string>
+    <string name="contact_name_empty">संपर्क नाम रिक्त है।</string>
+    <string name="contact_list_empty_hint">कोई संपर्क मौजूद नहीं है। \n(एक जोड़ने के लिए फ्लोटिंग बटन को टच करें)</string>
+    <string name="contact_saved">संपर्क सहेजा गया</string>
+    <string name="contact_phone">फ़ोन नंबर</string>
+    <string name="contact_email">ईमेल पता</string>
+    <string name="contact_phone_alt">दूसरा फ़ोन नंबर</string>
+    <string name="contact_email_alt">दूसरा ईमेल पता</string>
+    <string name="contact_address">संपर्क पता</string>
+    <string name="contact_deleted">संपर्क सफलतापूर्वक हटाया गया</string>
+    <string name="contact_inuse_warn_msg">वर्तमान में संपर्क में है</string>
+    <string name="contact_deleted_warn">चयनित संपर्क हटा दिया जाएगा।</string>
+    <string name="contact_member_of_group">%1$d समूहों के सदस्य</string>
+
+    <string name="group_new">नया समूह</string>
+    <string name="group_details">समूह विवरण</string>
+    <string name="group_name_hint">समूह या टीम का नाम</string>
+    <string name="export_body">&lt;p&gt; बिल अनुस्मारक एंड्रॉइड ऐप से भेजे गए &lt;/p&gt;</string>
+    <string name="contact_all_title">सभी संपर्क</string>
+    <string name="contact_group_title">समूह</string>
+    <string name="group_list_empty_hint">कोई संपर्क समूह मौजूद नहीं है। \n(एक बनाने के लिए फ्लोटिंग बटन स्पर्श करें)</string>
+    <string name="group_list_empty">कोई संपर्क समूह मौजूद नहीं है।</string>
+    <string name="group_saved">संपर्क समूह सहेजा गया</string>
+    <string name="group_name_empty">समूह नाम रिक्त है।</string>
+    <string name="delete_unsaved_warn">सहेजे नहीं गए रिकॉर्ड को नष्ट नहीं कर सकता।</string>
+    <string name="group_deleted">समूह को सफलतापूर्वक हटा दिया गया।</string>
+    <string name="group_delete_warn">चयनित समूह हटा दिए जाएंगे।</string>
+    <string name="group_contacts_conut">%1$d संपर्क</string>
+    <string name="group_add_members">सदस्य जोड़ें</string>
+    <string name="group_select_contacts">संपर्क चुनें</string>
+
+    <string name="records_deleted_multi">%1$d रिकॉर्ड हटाए गए</string>
+    <string name="records_create_multi">%1$d रिकॉर्ड बनाए।</string>
+
+</resources>

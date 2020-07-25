@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_upgrade">surclassement</string>
+    <string name="upgrade_to_pro">passer à la version premium</string>
+    <string name="feature_unavailable">Cette fonctionnalité est disponible uniquement en version premium.</string>
+
+    <string name="error_save">impossible denregistrer les modifications, réessayez plus tard.</string>
+    <string name="error_unknown">Une erreur inconnue s\'est produite, veuillez contacter le support technique.</string>
+    <string name="err_empty_text">veuillez fournir un texte valide.</string>
+    <string name="error">Erreur</string>
+    <string name="save">enregistrer</string>
+    <string name="yes">Oui</string>
+    <string name="no">non</string>
+    <string name="update">mettre à jour</string>
+    <string name="delete">effacer</string>
+    <string name="export">exportation</string>
+    <string name="cancel">Annuler</string>
+    <string name="goto_play_store">ouvrir Google Play Store</string>
+    <string name="continue_">continuer</string>
+    <string name="ok">d\'accord</string>
+    <string name="skip">sauter</string>
+    <string name="done">je l\'ai</string>
+    <string name="select_a_option_warn">sélectionnez une option</string>
+    <string name="tomorrow">demain</string>
+    <string name="error_offline_title">pas d\'Internet</string>
+    <string name="error_offline_message">vous devez être en ligne pour effectuer cette opération. Assurez-vous que votre connexion wifi ou de données est active.</string>
+    <string name="app_needs_relaunch">L\'application doit être lancée afin d\'appliquer de nouveaux paramètres.</string>
+    <string name="email_send_title">envoyer un courriel</string>
+
+    <!-- ==================================================================== -->
+    <!-- CONFIG.XML -->
+
+    <string name="home_data_inst_name">mon profil</string>
+    <string name="duplicate">dupliquer</string>
+    <string name="share">Partager</string>
+    <string name="add">ajouter</string>
+    <string name="cat_detail">détails de catégorie</string>
+    <string name="expense">dépenses</string>
+    <string name="income">le revenu</string>
+    <string name="receivable">recevable</string>
+    <string name="payable">payable</string>
+    <string name="both_expense_income">dépenses et revenus</string>
+    <string name="both_payable_receivable">payable et recevable</string>
+
+
+    <string name="cat_list_title">les catégories</string>
+    <string name="cat_list_empty">Aucune catégorie existe..!</string>
+    <string name="cat_added">catégorie ajoutée</string>
+    <string name="cat_deleted">catégorie supprimée</string>
+    <string name="cat_saved">catégorie enregistrée</string>
+    <string name="cat_select_a_cat">Choisir une catégorie</string>
+    <string name="cat_change">changer de catégorie</string>
+    <string name="cat_deleted_multi">%1$d catégories supprimées.</string>
+    <string name="cat_edit">détails de catégorie</string>
+    <string name="cat_name_empty">Le nom de la catégorie est vide..!</string>
+    <string name="cat_error_selfparent">la catégorie ne peut pas être sa propre sous-catégorie, sélectionnez une autre catégorie parentale.</string>
+    <string name="cat_name_err">Nom de la catégorie en double, utilisez un autre nom..!</string>
+    <string name="cat_delete_warn">la catégorie sélectionnée et l\'une de ses sous-catégories seront supprimées. \n\ntoutes les entrées liées à la catégorie seront également réaffectées à la catégorie par défaut.</string>
+    <string name="cat_delete_unsaved">ne peut pas supprimer la catégorie non enregistrée.</string>
+    <string name="cat_name">Nom de catégorie</string>
+    <string name="cat_no_of_linked_rows">%1$d factures.</string>
+    <string name="cat_code">Code</string>
+    <string name="cat_code_empty_err">Entrez un code de catégorie</string>
+    <string name="cat_code_existing_err">Code de catégorie déjà utilisé</string>
+    <string name="cat_type">type</string>
+    <string name="cat_desc">description de la catégorie</string>
+    <string name="cat_color">Couleur</string>
+    <string name="cat_change_color_tap">appuyez sur pour changer de couleur</string>
+    <string name="cat_parent_switch">C\'est une catégorie parente (niveau supérieur)</string>
+    <string name="cat_subcategory_of">Sous-catégorie de</string>
+    <string name="cat_select_parent">Catégorie Parentale</string>
+    <string-array name="cat_types">
+        <item>frais / payables</item>
+        <item>revenu / recevable</item>
+    </string-array>
+    <string name="cat_search_hint">tapez ici pour filtrer</string>
+    <!-- Categories '', '', '') -->
+    <string name="cat_0allCategories">toutes catégories</string>
+    <string name="cat_1others">autre</string>
+    <string name="cat_1_1">Paiements</string>
+    <string name="cat_1_2">cadeaux</string>
+    <!-- <string name="cat_1_3">Charity</string>
+    <string name="cat_1_4">Pets</string>
+    <string name="cat_1_5">Investment</string> -->
+    <string name="cat_2transfer">transfert</string>
+
+    <string name="cat_3personal">soins personnels</string>
+    <string name="cat_3_1">cheveux et beauté</string>
+    <string name="cat_3_2">gymnase et fitness</string>
+    <string name="cat_3_3">médical</string>
+    <string name="cat_3_4">dentaire</string>
+
+    <string name="cat_4food">Nourriture et boisson</string>
+    <string name="cat_4_1">café</string>
+    <string name="cat_4_2">repas</string>
+    <string name="cat_4_3">nourriture à emporter</string>
+    <string name="cat_4_4">thé</string>
+    <string name="cat_4_5">restaurant</string>
+    <string name="cat_4_6">épicerie</string>
+    <string name="cat_4_7">casse-croûte</string>
+
+    <string name="cat_5entertainment">divertissement</string>
+    <string name="cat_5_1">films</string>
+    <string name="cat_5_2">les boissons</string>
+    <string name="cat_5_4">vacances</string>
+    <string name="cat_5_5">concert et théâtre</string>
+    <string name="cat_5_6">Jeux</string>
+    <string name="cat_5_7">fête</string>
+
+    <string name="cat_6automobile">voiture</string>
+    <string name="cat_6_1">Lave-Auto</string>
+    <string name="cat_6_2">carburant</string>
+    <string name="cat_6_3">service et réparation</string>
+    <string name="cat_6_4">Assurance</string>
+    <string name="cat_6_5">accessoires</string>
+    <string name="cat_6_6">taxe routière</string>
+    <string name="cat_6_7">parking</string>
+    <!--<string name="cat_6_7">Registration</string>-->
+
+    <string name="cat_7shopping">achats</string>
+    <string name="cat_7_1">Vêtements</string>
+    <string name="cat_7_2">ordinateurs et accessoires</string>
+    <string name="cat_7_3">électronique</string>
+    <string name="cat_7_4">musique numérique</string>
+    <string name="cat_7_5">les courses</string>
+    <string name="cat_7_6">mobile et gadgets</string>
+    <string name="cat_7_7">bijoux</string>
+    <string name="cat_7_8">autres achats</string>
+    <string name="cat_7_9">meubles</string>
+    <string name="cat_7_10">jouets</string>
+    <string name="cat_7_11">abonnement</string>
+    <string name="cat_7_12">jardin</string>
+
+    <string name="cat_8travel">Voyage</string>
+    <string name="cat_8_1">train</string>
+    <string name="cat_8_2">autobus</string>
+    <string name="cat_8_3">vol</string>
+    <string name="cat_8_4">Assurance</string>
+    <string name="cat_8_5">transport local</string>
+    <string name="cat_8_6">Taxi</string>
+    <string name="cat_8_7">location de voiture</string>
+    <string name="cat_8_8">un hôtel</string>
+    <string name="cat_8_9">autre transport</string>
+
+    <string name="cat_9banking">bancaire</string>
+    <string name="cat_9_1">prêt</string>
+    <string name="cat_9_2">intérêt</string>
+    <string name="cat_9_3">des charges</string>
+    <string name="cat_9_4">des économies</string>
+    <string name="cat_9_5">hypothèque</string>
+    <string name="cat_9_6">stock trading</string>
+    <string name="cat_9_7">investissements</string>
+
+    <string name="cat_10home">maison</string>
+    <string name="cat_10_1">électricité et gaz</string>
+    <string name="cat_10_2">internet et téléphone</string>
+    <!--<string name="cat_10_3">Gas</string>-->
+    <string name="cat_10_4">eau</string>
+    <string name="cat_10_5">la télé</string>
+    <string name="cat_10_6">service de nettoyage</string>
+    <string name="cat_10_7">réparations</string>
+    <string name="cat_10_8">services publics</string>
+    <string name="cat_10_9">hébergement</string>
+    <string name="cat_10_10">location</string>
+    <string name="cat_10_11">Assurance</string>
+    <string name="cat_10_12">taxe de propriété</string>
+
+    <string name="cat_11work">travail</string>
+    <string name="cat_11_1">un salaire</string>
+    <string name="cat_11_2">dividende</string>
+    <string name="cat_11_3">prime</string>
+    <string name="cat_11_4">demande de remboursement</string>
+    <string name="cat_11_5">papeterie</string>
+    <string name="cat_11_6">impôt</string>
+
+    <string name="cat_12family">famille</string>
+    <string name="cat_12_1">garde d\'enfants</string>
+    <string name="cat_12_2">école et collège</string>
+    <string name="cat_12_3">argent de poche</string>
+    <string name="cat_12_4">Assurance</string>
+    <string name="cat_12_5">soins médicaux</string>
+
+    <string name="cat_system">catégorie par défaut</string>
+    <string name="cat_system_delete_err">ne peut pas supprimer la catégorie de système</string>
+
+    <string name="label_list_title">gérer les étiquettes</string>
+    <string name="label_list_empty">aucune étiquette existe...!</string>
+    <string name="label_new_title">Nouvelle étiquette</string>
+    <string name="label_edit_title">éditer/afficher l\'étiquette</string>
+    <string name="label_enter">entrez le nom de l\'étiquette</string>
+    <string name="label_name_err">entrez un nom d\'étiquette valide.!</string>
+    <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
+    <string name="label_add">Ajouter des étiquettes</string>
+    <string name="label_details">Détails de l\'étiquette</string>
+    <string name="label_saved">Libellé enregistré avec succès.</string>
+    <string name="label_deleted">L\'étiquette a bien été supprimée.</string>
+    <string name="label_delete_warning">L\'étiquette sélectionnée sera supprimée.</string>
+    <string name="labels_filter_title">Étiquettes de filtre</string>
+    <string name="labels_filter_all">Étiquettes (toutes)</string>
+    <string name="labels_filter_count">Étiquettes (%1$d)</string>
+
+    <!-- Startup Screen Chooser -->
+    <string name="startup_screen_title">choisissez un écran de démarrage</string>
+    <string name="startup_screen_msg">Sélectionnez un écran d\'accueil que vous souhaitez voir chaque fois que vous ouvrez l\'application.</string>
+    <string name="startup_screen_note">vous pouvez toujours modifier votre sélection à travers les paramètres plus tard.</string>
+    <string name="startup_screen_label_default">%1$s - recommandé</string>
+    <string name="startup_screen_change_success">l\'écran de démarrage a été changé avec succès</string>
+
+    <!-- from string.xml -->
+    <string name="select_currency">Sélectionnez la devise</string>
+    <string name="warn_invalid_amt">entrez un montant valide.</string>
+    <string name="warn_invalid_no">S\'il vous plait, entrez un nombre valide.</string>
+    <string name="warn_invalid_no_min1">entrez un nombre valide supérieur à 1.</string>
+    <string name="category">Catégorie</string>
+    <string name="amount">montant</string>
+    <string name="amount_empty_warn">entrer le montant</string>
+    <string name="amount_hint">montant, exemple: 124.55</string>
+    <string name="bill_currency">devise</string>
+    <string name="change_currency">changer de devise</string>
+    <string name="select_a_option">choisir une option</string>
+    <string name="processing">En traitement...</string>
+    <string name="email_dev">développeur de contact</string>
+    <string name="exit">Sortie</string>
+    <string name="exit_info">touchez sortir, pour fermer l\'application.</string>
+    <string name="restart">redémarrer</string>
+    <string name="drawer_bills_by_status">factures par statut</string>
+    <string name="drawer_settings_sep">outils / paramètres</string>
+    <string name="drawer_settings">paramètres</string>
+    <string name="manage_categories">les catégories</string>
+    <string name="drawer_rpt_charts_title">rapports et tableaux</string>
+    <string name="update_available_title">@string/app_name</string>
+    <string name="update_available_warn">nouvelle mise à jour disponible, avec de nouvelles fonctionnalités et des corrections de bugs.</string>
+    <string name="update_available_force">nous n\'appuyons plus cette version.\n\n veuillez mettre à jour maintenant.</string>
+    <string name="update_available_force_dummy">date invalide.\n\nvérifiez votre connexion Internet.</string>
+    <string name="update_now">mettre à jour maintenant</string>
+    <string name="later">plus tard</string>
+    <string name="menu_drawer_group_more">communication / plus</string>
+    <string name="rate_app_title">évaluer l\'application</string>
+    <string name="share_this_app">partagez cette application</string>
+    <string name="share_this_app_title">partager en utilisant</string>
+    <string name="share_this_app_subject">regardez l\'application \"%1$s\"</string>
+    <string name="about_us">à propos de nous</string>
+    <string name="by_124apps">parrainé par 124APPS</string> <!-- &#169; -->
+    <string name="rate_app_msg">Aimez-vous cette application? \n\nsi oui, soutenez notre développement avec une bonne note. \n\t* * * * *\nMerci.</string>
+    <string name="rate_app_now">notez maintenant</string>
+    <string name="rate_app_later">plus tard</string>
+    <string name="rate_app_no">Non merci</string>
+
+    <string name="close">Fermer</string>
+
+    <string-array name="rpt_bills_forcast">
+        <item>Jusqu\'à aujourd\'hui seulement</item>
+        <item>1 mois à l\'avance</item>
+        <item>2 mois à l\'avance</item>
+        <item>3 mois à l\'avance</item>
+        <item>4 mois à l\'avance</item>
+        <item>5 mois à l\'avance</item>
+        <item>6 mois à l\'avance</item>
+        <item>1 an à l\'avance</item>
+        <item>18 mois à l\'avance</item>
+        <item>2 ans à l\'avance</item>
+        <item>3 ans à l\'avance</item>
+        <item>4 ans à l\'avance</item>
+        <item>5 ans à l\'avance</item>
+        <item>10 ans d\'avance</item>
+    </string-array>
+    <string-array name="notify_days">
+        <item>3 mois avant la date d\'échéance</item>
+        <item>2 mois avant la date d\'échéance</item>
+        <item>1 mois avant la date d\'échéance</item>
+        <item>3 semaines avant la date d\'échéance</item>
+        <item>2 semaines avant la date d\'échéance</item>
+        <item>10 jours avant la date d\'échéance</item>
+        <item>9 jours avant la date d\'échéance</item>
+        <item>8 jours avant la date d\'échéance</item>
+        <item>7 jours avant la date d\'échéance</item>
+        <item>6 jours avant la date d\'échéance</item>
+        <item>5 jours avant la date d\'échéance</item>
+        <item>4 jours avant la date d\'échéance</item>
+        <item>3 jours avant la date d\'échéance</item>
+        <item>2 jours avant la date d\'échéance</item>
+        <item>1 jour avant la date d\'échéance</item>
+        <item>- À la date d\'échéance -</item>
+        <item>1 jour après la date d\'échéance</item>
+        <item>2 jours après la date d\'échéance</item>
+        <item>3 jours après la date d\'échéance</item>
+        <item>4 jours après la date d\'échéance</item>
+        <item>5 jours après la date d\'échéance</item>
+        <item>6 jours après la date d\'échéance</item>
+        <item>7 jours après la date d\'échéance</item>
+        <item>8 jours après la date d\'échéance</item>
+        <item>9 jours après la date d\'échéance</item>
+        <item>10 jours après la date d\'échéance</item>
+        <item>2 semaines après la date d\'échéance</item>
+        <item>3 semaines après la date d\'échéance</item>
+        <item>1 mois après la date d\'échéance</item>
+        <item>2 mois après la date d\'échéance</item>
+        <item>3 mois après la date d\'échéance</item>
+    </string-array>
+
+    <string name="permission_denied_dialog_msg">autorisez la lecture et l\'écriture de stockage externe, pour sauvegarder les données. \nle refus des autorisations entraînerait une incohérence pour l\'application.</string>
+    <string name="permission_denied_dialog_restart">recommencez</string>
+    <string name="permission_denied_dialog_dont_care">je m\'en fous</string>
+    <string name="permission_denied_camera">L\'application aurait besoin d\'une permission d\'appareil photo, pour capturer des photos.</string>
+    <string name="permission_denied_camera_receipt">L\'application aurait besoin d\'une permission d\'appareil photo, pour capturer des photos de réception.</string>
+
+    <!-- ==================================================================== -->
+    <!-- BILLS.XML -->
+    <string name="app_name">Bills Reminder</string>
+    <!--<string name="title_bills_by_status">Bills by status</string>
+    <string name="title_bills_by_period">Bills by period</string>-->
+    <string name="title_bills_list">liste des factures</string>
+    <string name="title_bills_report">rapport de facture</string>
+
+    <string name="title_bill_upcoming">Prochains factures</string>
+    <string name="title_bill_overdue">factures en retard</string>
+    <string name="title_bill_paid">factures payées</string>
+    <string name="title_bill_unpaid">factures impayées</string>
+    <string name="title_bill_detail">détails de la facture</string>
+    <string name="title_bill_detail_new">nouveau rappel de facture</string>
+    <string name="title_activity_calendar">vue du calendrier</string>
+    <string name="bills">factures</string>
+    <string name="bill_new">ajouter un rappel de facture</string>
+    <string name="bills_overdue">en retard</string>
+    <string name="bills_upcoming">prochain</string>
+    <string name="bills_paid">payé</string>
+    <string name="bills_unpaid">non payé</string>
+    <string name="bills_recurr">factures récurrentes</string>
+    <string name="bills_recur_desc">répète tous les %1$d %2$s.</string>
+    <string name="restart_app">redémarrez l\'application.</string>
+    <string name="bills_view">voir les factures</string>
+
+    <string name="bill_list_empty_tip">aucune facture n\'existe. \n(touche flottant \'+\' pour en créer un)</string>
+    <string name="bill_list_empty">il n\'y a pas de facture.</string>
+
+    <string name="navigation_drawer_open">tiroir de navigation ouvert</string>
+    <string name="navigation_drawer_close">tiroir de navigation rapproché</string>
+    <string name="dummy_day">mer</string>
+
+    <string name="bill_delete_unsaved">ne peut pas supprimer la facture non enregistrée.</string>
+    <string name="bill_deleted">facture supprimée.</string>
+    <string name="bill_delete_single_warn">la facture sera supprimée, continuez-vous?</string>
+    <string name="bill_delete_multi_warn">les factures sélectionnées seront supprimées, continuez-vous?</string>
+    <string name="bill_delete_recur_warn">cette entrée récurrente et toutes les factures associées seront supprimées, continuez-vous?</string>
+    <string name="bill_duplicate_warn">%1$d factures en double seront créées, continuez-vous?</string>
+    <string name="bill_not_found">la facture n\'existe pas.</string>
+    <string name="app_error_restart">auto réparé un problème, redémarrez l\'application.</string>
+    <string name="multi_select_mode_title">%1$s, total: %2$s</string>
+
+    <string name="bill_deleted_recur">supprimé avec succès les factures récurrentes.</string>
+    <string name="bill_deleted_multi">%1$d factures supprimées.</string>
+    <string name="bill_multi_update_count">%1$d factures mises à jour.</string>
+    <string name="bill_duplicate_multi">%1$d nouvelles factures créées.</string>
+    <string name="bill_duplicate_multi_error">veuillez contacter le développeur. erreur lors de la copie des factures: %1$s </string>
+    <string name="bill_added">nouvelle facture ajoutée.</string>
+    <string name="bill_saved">facture économisée.</string>
+    <string name="bill_populating_recent">peuplé de valeurs récentes</string>
+
+    <string name="bill_payee">bénéficiaire / élément</string>
+    <string name="bill_duedt">Date limite de paiement</string>
+    <string name="cat_new_title">Nouvelle catégorie</string>
+    <string name="bill_dueNear">dû à %1$s</string>
+    <string name="bill_dueIn">dû en %1$d jours</string>
+    <string name="bill_dueOver">en retard de %1$d jours</string>
+    <string name="bill_paid">Payé</string>
+    <string name="bill_received">Reçu</string>
+    <string name="bill_unpaid">non payé</string>
+    <string name="bill_paid_on">payé sur</string>
+    <string name="bill_type">type de facture</string>
+    <string name="bill_change_notification">changement de notification de rappel</string>
+    <string name="bill_more_options">plus d\'options</string>
+    <string name="notify">Afficher les notifications de rappel</string>
+    <string name="notify_channel_name_app">Utilisation de l\'application</string>
+    <string name="notify_channel_desc_reminder">Notification de paiement de facture, en retard ou à venir.</string>
+    <string name="notify_channel_desc_app">À propos des mises à jour de nouvelles versions ou du rappel d\'utilisation de l\'application</string>
+    <string name="tx_payee_hint">exemple: location</string>
+    <string name="tx_notes">notes ou barcode code / URL</string>
+    <string name="tx_notes_zing_missing_title">installer le scanner de code à barres</string>
+    <string name="tx_notes_zing_missing">cette fonctionnalité nécessite un scanner de code à barres, souhaitez-vous l\'installer?</string>
+    <string name="tx_error_save_pic">erreur lors de l\'enregistrement de l\'image: %1$s</string>
+    <string name="tx_photo_not_supported">incapable de capturer une photo, un périphérique non pris en charge..!</string>
+    <string name="tx_photo_take_new_photo">prendre une nouvelle photo</string>
+    <string name="tx_photo_select_from_gallery">sélectionnez dans la galerie</string>
+    <string-array name="tx_photo_options">
+        <item>voir la photo</item>
+        <item>prendre une nouvelle photo</item>
+        <item>sélectionnez dans la galerie</item>
+        <item>enlever la photo</item>
+    </string-array>
+    <!-- Sort options -->
+    <string name="menu_sort_by">Trier par</string>
+    <string name="sort_by_date_asc">date croissante</string>
+    <string name="sort_by_date_desc">date décroissante</string>
+    <string name="sort_by_amt_asc">montant montant</string>
+    <string name="sort_by_amt_desc">montant décroissant</string>
+    <string name="sort_by_payee_asc">montant croissant</string>
+    <string name="sort_by_payee_desc">bénéficiaire décroissant</string>
+
+    <string name="menu_search_bills">recherche de factures</string>
+    <string name="bill_total_row">%1$d rang, total: </string>
+    <string name="bill_total_rows">%1$d lignes, total: </string>
+    <string name="bill_total_rows_multi_curr">%1$d lignes, en plusieurs devises.</string>
+    <string name="bill_rpt_date_beyond">%1$s et au-delà</string>
+    <string name="bill_rpt_total_payable">total payable: %1$s</string>
+    <string name="bill_rpt_total_receivable">total recevable: %1$s</string>
+    <string name="bill_rpt_type_cat_payable">factures payables par catégorie</string>
+    <string name="bill_rpt_type_cat_receivable">factures à recevoir par catégorie</string>
+    <string name="bill_rpt_charts_saved">rapports générés (%1$d)</string>
+    <string name="bill_rpt_charts_saved_empty">pas de rapports enregistrés.\n avez-vous essayé de générer une fonctionnalité de rapport pdf encore?</string>
+    <string name="bill_rpt_charts_saved_loc">Les rapports pdf sont stockés à: %1$s</string>
+
+    <string name="bill_rpt_1categorywise_pay_label">catégorie sage (payable)</string>
+    <string name="bill_rpt_1categorywise_pay_info">diagramme circulaire montrant une comparaison schématique pour la période.</string>
+    <string name="bill_rpt_2categorywise_receive_label">catégorie sage (recevable)</string>
+    <string name="bill_rpt_2categorywise_receive_info">diagramme circulaire montrant une comparaison schématique pour la période.</string>
+    <string name="bill_rpt_3trends_30days_label">Tendances des factures pendant 30 jours</string>
+    <string name="bill_rpt_3trends_30days_info">tableau linéaire montrant la comparaison quotidienne des deux payables et recevables pour les 30 derniers jours</string>
+    <string name="bill_rpt_4monthwise_pay_label">comparaison mensuelle (payable)</string>
+    <string name="bill_rpt_4monthwise_pay_info">tableau de bord montrant la comparaison mensuelle des factures payables.</string>
+    <string name="bill_rpt_5monthwise_receive_label">comparaison mensuelle (recevable)</string>
+    <string name="bill_rpt_5monthwise_receive_info">tableau de bord, montrant une comparaison mensuelle sérieuse des factures à recevoir.</string>
+
+    <string name="bill_rpt_comparison_title">rapport de comparaison</string>
+    <string name="bill_rpt_comparison_daywise_label">comparaison de jour pendant %1$d jours</string>
+    <string name="bill_rpt_comparison_weekwise_label">semaine de comparaison pendant %1$d semaines</string>
+    <string name="bill_rpt_comparison_monthwise_label">comparaison mensuelle de %1$d mois</string>
+    <string name="bill_rpt_comparison_yearwise_label">année de comparaison pendant %1$d ans</string>
+
+    <string name="bill_rpt_trends_title">tendance des factures</string>
+    <string name="bill_rpt_trend_daywise_last_30">Comparaison de 30 jours</string>
+    <string name="bill_rpt_trend_daywise_this_week">Comparaison de 7 jours, pour toute la semaine</string>
+    <string name="bill_rpt_trend_daywise_this_month">comparaison pour le mois entier</string>
+    <string name="bill_rpt_trend_daywise_for_3_months">comparaison récente de 3 mois</string>
+    <string name="bill_rpt_trend_daywise_for_6_months">comparaison récente de 6 mois</string>
+    <string name="bill_rpt_trend_daywise_this_year">Comparaison de l\'année complète ou des 12 mois</string>
+
+    <string name="rpt_pdf_menu_title">générer pdf</string>
+    <string name="rpt_pdf_name_dialog_title">générer un rapport pdf</string>
+    <string name="rpt_pdf_name_already_exists">Le nom du fichier pdf existe déjà, utilisez un nom différent.</string>
+    <string name="rpt_pdf_name_get_error">impossible d\'obtenir le nom du fichier pdf..!</string>
+    <string name="rpt_pdf_generate_error">impossible de générer des pdf, votre carte SD est-elle connectée?</string>
+    <string name="rpt_pdf_name_dialog_field">nom de fichier</string>
+    <string name="rpt_pdf_unsupported_title">périphérique non pris en charge</string>
+    <string name="rpt_pdf_unsupported_info">vous devez utiliser android kitkat au moins pour générer des rapports pdf. \nPardon..!</string>
+    <string name="rpt_pdf_success_title">génération complète</string>
+    <string name="rpt_pdf_success_view_reports">voir les rapports</string>
+    <string name="rpt_pdf_success_info_file">le nouveau rapport pdf est enregistré comme suit: \n%1$s</string>
+    <string name="rpt_pdf_generating_progress">génération du rapport pdf</string>
+    <string name="rpt_pdf_created_date">créé sur: %1$s</string>
+    <string name="rpt_pdf_delete_confirm">supprimer le fichier de rapport sélectionné \'%1$s\'?</string>
+    <string name="rpt_pdf_bills_filename_templete">rapport de factures %1$s - %2$s</string>
+    <string name="rpt_pdf_view_activity_not_found">incapable de trouver un lecteur de pdf. installez toute application de téléspectateur pdf compatible, comme acrobat reader.</string>
+
+    <string-array name="rpt_pdf_select_options">
+        <item>voir / ouvrir</item>
+        <item>rapport de partage</item>
+        <item>effacer</item>
+    </string-array>
+
+    <!--	Repeation  -->
+    <string name="bill_repeat_info">en utilisant la configuration récurrente ci-dessous:</string>
+    <string name="bill_repeat">facture récurrente</string>
+    <string name="bill_every">répète tous les</string>
+    <string name="bill_next_due">prochaine date d\'échéance</string>
+    <string name="bill_end_none">répétant pour toujours</string>
+    <string name="bill_ends_on">répéter jusqu\'à</string>
+    <string name="bill_ends_count_title">Modalités de paiement</string>
+    <string name="bill_ends_count_label">Nombre de versements ou occurrence</string>
+    <string name="bill_ends_count">Se répète %1$d fois</string>
+    <string name="bill_repeat_disable">Désactiver ou arrêter la création automatique d\'entrées récurrentes</string>
+    <string name="bill_repeat_until_value">Répéter jusqu\'au %1$s</string>
+    <string name="bill_err_future_dt">entrez une date ultérieure.</string>
+    <string name="bill_err_end_dt">\'prochaine échéance\' devrait être avant \'répéter jusqu\'à la date\'</string>
+    <string-array name="repeat_array">
+        <item>journées</item>
+        <item>semaines</item>
+        <item>mois</item>
+        <item>date du mois</item>
+        <item>années</item>
+    </string-array>
+    <string name="bill_rpt_save">appliquer des changements récurrents</string>
+    <string-array name="bill_rpt_save">
+        <item>sans supprimer de facture et créer de nouvelles factures, si nécessaire.</item>
+        <item>supprimer et recréer des factures à l\'aide des nouvelles modifications récurrentes. les factures appartenant à ces paramètres récurrents ne seront effectuées que.</item>
+        <!-- <item>Effect this and all bills.</item> -->
+    </string-array>
+    <string name="bill_rpt_remove">supprimer la nature récurrente</string>
+    <string-array name="bill_rpt_remove">
+        <item>pour cette facture seulement.</item>
+        <item>pour cela et toutes les factures connexes.</item>
+    </string-array>
+
+    <string name="bill_list_options_view">voir les détails de la facture</string>
+    <string name="bill_list_options_select">sélectionnez la rangée</string>
+    <string name="bill_list_options_copy">créer une copie (en double)</string>
+    <string name="bill_list_options_paid">marquer comme payé</string>
+    <string name="bill_list_options_unpaid">marquer comme impayé</string>
+    <string name="bill_list_options_delete">supprimer la facture</string>
+
+    <string name="bill_marked_paid_msg">facture marquée comme payée</string>
+    <string name="bill_marked_unpaid_msg">la facture est réinitialisée à non payée</string>
+    <string name="bill_removed_recurring">facture désaffectée de la configuration récurrente</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- HOME.XML -->
+
+    <string name="inst_name">Nom du profil d\'entreprise</string>
+    <string name="inst_name_hint">Nom de l\'entreprise ou du ménage pour la comptabilité.</string>
+    <string name="inst_dialog_title">Détails du profil</string>
+    <string name="inst_dialog_title_edit">Editer le profil</string>
+    <string name="inst_list_title">profils</string>
+    <string name="menu_add_profile_title">ajouter un profil</string>
+    <string name="home_no_instances">aucun profil n\'existe, créez un nouveau profil.</string>
+
+    <string name="help">Aidez-moi </string>
+    <string name="inst_new">créer un nouveau profil</string>
+    <string name="inst_delete">supprimer ce profil</string>
+    <string name="inst_delete_warn">le profil \'%1$s\' et toutes les données qu\'il contient seront supprimés. \ncontinuer?</string>
+    <string name="inst_delete_err_1inst">Non, ce n\'est pas possible..!! \ncar il s\'agit du seul profil disponible dans cette application et vous avez besoin d\'un profil pour lequel vous travaillez. </string>
+    <string name="inst_profile_photo">touchez ici pour changer la photo de profil</string>
+    <string name="inst_change_photo">changer la photo</string>
+    <string name="inst_photo_from_gallery">de la galerie</string>
+    <string name="inst_photo_from_camera">capture photo</string>
+    <string name="inst_warn_no_multi_instance">cette version de l\'application ne supporte qu\'un seul profil. alors, supprimez les profils indésirables ou la mise à niveau vers une version premium pour continuer à utiliser plusieurs profils.</string>
+
+    <string name="home_help_text">Le profil est une collection organisée de données, comme un compte de stockage ou de comptes (pas un compte bancaire). les données (factures, catégories, étiquettes) appartenant à un profil sont stockées à un endroit et ne se confondent jamais avec celles des autres données du profil. \n\nde sorte qu\'il vous donnera plus de contrôle et une meilleure gestion. exemple: un profil pour les dépenses personnelles, et un autre pour vos dépenses de bureau ou d\'entreprise.</string>
+    <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
+    <string name="inst_rename">Editer le profil</string>
+    <string name="inst_open">sélectionnez ce profil</string>
+    <string name="default_currency">devise par défaut</string>
+
+    <string name="inst_error_add_fail">impossible d\'ajouter un profil.</string>
+    <string name="inst_error_edit_fail">incapable de renommer le profil.</string>
+    <string name="inst_error_edit_name_invalid">entrez un nom de profil valide</string>
+    <string name="inst_default_curr">devise par défaut: %1$s</string>
+    <string name="inst_error_max_limit">limite de profil maximale atteinte pour la version d\'essai, mise à niveau pour créer plus de profils de données.</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Backup / Recovery -->
+    <string name="bkp_title">restauration de / sauvegarde</string>
+    <string name="bkp_location">emplacement de stockage</string>
+    <string name="bkp_location_info">les fichiers de sauvegarde sont stockés à: \n\n%1$s</string>
+    <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
+    <string name="bkp_name">Nom de la sauvegarde</string>
+    <string name="bkp_created">créé: %1$s</string>
+    <!--<string name="bkp_new_pref"> Photo Preference</string>-->
+    <string name="bkp_name_new"> Nom de la sauvegarde</string>
+    <!--<string name="bkp_photos_include">Backup including Photos</string>
+    <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
+    <!--<string name="bkp_create">Create Backup</string>-->
+    <string name="bkp_list_empty">aucune sauvegarde n\'existe...!</string>
+    <string name="bkp_duplicate_bkp">duplicate backup name, veuillez fournir un autre nom de sauvegarde ou supprimer existant..!</string>
+    <string name="bkp_name_invalid">Nom de sauvegarde invalide \'%1$s\'. \n\névitez d\'utiliser des espaces et des caractères spéciaux tels que: \\ /</string>
+    <string name="bkp_failed">la sauvegarde a échoué..! Veillez à ce qu\'il y ait assez d\'espace de stockage gratuit.</string>
+    <string name="bkp_inprogress_warn">sauvegarde / restauration en cours, soyez patience...!</string>
+
+    <string name="bkp_restore_fail">restauration échouée..! Essayez plus tard après un certain temps.</string>
+    <string name="bkp_send">partager la sauvegarde</string>
+    <string name="bkp_existing_label">sauvegardes existantes (%1$d)</string>
+    <string name="bkp_create">créer une nouvelle sauvegarde</string>
+    <string name="bkp_send_sub">fichier de sauvegarde \'%1$s\'</string>
+    <string name="bkp_rename">renommer la sauvegarde</string>
+    <string name="bkp_rename_success">a renommé avec succès \'%1$s\' à \'%2$s\'.</string>
+    <string name="bkp_rename_failed">a échoué à renommer \'%1$s\' à \'%2$s\'.</string>
+    <string name="bkp_delete">Supprimer la sauvegarde</string>
+    <string name="bkp_delete_confirm">Supprimez la sauvegarde des données sélectionnées \'%1$s\'?</string>
+    <string name="bkp_delete_success">supprimé avec succès.</string>
+    <string name="bkp_delete_fail">a échoué à supprimer.</string>
+    <string name="bkp_restore_external">restaurer à partir d\'un nuage externe</string>
+    <string name="bkp_restore_external_title">télécharger et restaurer</string>
+    <string name="bkp_restore_confirm_cloud">la restauration prendrait quelques secondes en quelques minutes, alors patientez en fonction de votre taille de sauvegarde. \n\nCliquez sur continuer à choisir un fichier de sauvegarde externe pour importer et restaurer des données.</string>
+    <string name="bkp_last_backup">Dernière sauvegarde</string>
+    <string name="bkp_last_info">Sauvegardez vos données d\'application et vos pièces jointes sur Google Drive. Vous pouvez les restaurer lorsque vous réinstallez l\'application, changez de téléphone ou copiez des données sur un autre appareil.</string>
+    <string name="bkp_last_local_time">Local: %1$s</string>
+    <string name="bkp_last_size">Taille: %1$s</string>
+    <string name="bkp_backup_now">Sauvegarde</string>
+    <string name="bkp_restore_now">Restaurer</string>
+    <string name="bkp_google_drive_setting">Paramètres de Google Drive</string>
+    <string name="bkp_google_drive_info">Ajoutez un compte Google pour stocker les dernières sauvegardes. L\'activation de la sauvegarde sur Google Drive remplacera la sauvegarde de l\'application existante sur Google Drive, alors faites attention lors de l\'utilisation sur plusieurs appareils.</string>
+    <string name="bkp_to_google_drive_label">Sauvegarde sur Google Drive</string>
+    <string name="never">Jamais</string>
+    <string name="bkp_restore_successful">Restauré avec succès à partir de la sauvegarde. \n\nL\'application doit être relancée afin d\'appliquer de nouvelles données.</string>
+    <string name="bkp_create_confirm_msg">La sauvegarde peut prendre quelques secondes à quelques minutes selon la taille des données de l\'application, alors soyez patient. \n\nContinuer la création d\'une sauvegarde?</string>
+    <string name="bkp_over_wifi_label">Sauvegarde à l\'aide</string>
+    <string name="bkp_success">Sauvegardé avec succès.</string>
+    <string name="bkp_restore_confirm_msg">La restauration prendrait quelques secondes à quelques minutes, alors soyez patient. \n\nToutes vos données d\'application existantes sur cet appareil seront remplacées à partir de la dernière sauvegarde. Voulez-vous continuer l\'opération de restauration?</string>
+
+    <string-array name="bkp_to_google_drive">
+        <item>@string/never</item>
+        <item>Uniquement lorsque j\'appuie sur Sauvegarder</item>
+        <item>du quotidien</item>
+    </string-array>
+
+    <string-array name="bkp_over_wifi">
+        <item>Wi-Fi uniquement</item>
+        <item>Wi-Fi ou données mobiles</item>
+    </string-array>
+
+    <!-- ==================================================================== -->
+    <!-- PREFERENCES.XML -->
+
+    <string name="pref_key">préférences</string>
+
+    <!--<string name="prefTitleAppSetting">App Settings</string>
+    <string name="prefKeyAppSetting">appSettings</string>-->
+    <string name="prefTitleGeneralSetting">général</string>
+    <string name="prefTitleDataSetting">sauvegardes et rapports</string>
+    <string name="prefTitleDataSettingTrial">sauvegarde</string>
+    <!--<string name="prefKeyAppSetting">appSettings</string>-->
+
+    <string name="prefTitleAppPIN">Broche à 4 chiffres</string>
+    <string name="prefSummaryAppPIN">Pour des raisons de sécurité, vous pouvez définir une broche pour démarrer l\'application. Une fois réglé, on vous demandera la broche chaque fois que l\'application démarre</string>
+
+    <string name="prefTitleAppPINChange">broche de changement</string>
+    <string name="prefSummaryAppPINChange">touchez ici pour changer votre broche de 4 chiffres.</string>
+
+    <string name="prefTitleStartupScreen">changer l\'écran de démarrage</string>
+    <string name="prefSummaryStartupScreen">par défaut ou l\'écran d\'accueil s\'affiche lorsque l\'application est lancée.</string>
+
+    <string name="prefTitleChangeLanguage">la langue: %1$s</string>
+    <string name="prefSummaryChangeLanguage">Cliquez ici pour changer de langue</string>
+
+    <string name="prefTitleEnableSubcategories">Activer les sous-catégories</string>
+    <string name="prefSummaryEnableSubcategories">Cocher pour utiliser deux catégories de niveau</string>
+
+    <string name="prefTitleInstSetting">profil</string>
+
+    <string name="prefTitleDefaultCurrency">devise de profil par défaut: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">monnaie pré-remplie lors de l\'ajout d\'un nouvel enregistrement, pour ce profil.</string>
+
+    <string name="prefTitleManageInstance">gérer les profils</string>
+    <string name="prefSummaryManageInstance">pour créer, supprimer ou modifier la devise de tout autre profil.</string>
+
+    <!--<string name="prefKeyBillSettings">billsSettings</string>-->
+    <string name="prefTitleBillSettings">factures</string>
+    <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
+
+    <string name="prefTitleNotifyTick">notifications de rappel</string>
+    <string name="prefSummaryNotifyTick">informez-moi des factures qui ont été marquées pour le faire. (désélectionner pour désactiver)</string>
+    <string name="prefSummaryNotifyUnTick">les notifications sont maintenant désactivées. (sélectionnez pour activer)</string>
+
+    <string name="prefTitleNotifyTime">temps de notification: %1$s:%2$s</string>
+    <string name="prefSummaryNotifyTime">les notifications sont affichées à ce jour, au quotidien</string>
+
+    <string name="prefTitleNotifyDays">notification de rappel par défaut</string>
+    <string name="prefSummaryNotifyDays">pour les nouvelles factures, ceci est pré sélectionné comme option de notification de rappel quotidien. exemple: 5 jours avant la date d\'échéance</string>
+
+    <string name="prefTitleForcast">période de prévision</string>
+    <string name="prefTitleForcastDialog">créer des factures récurrentes</string>
+    <string name="prefSummaryForcast">les factures récurrentes seront générées automatiquement avant la période spécifiée. exemple: 3 mois à l\'avance</string>
+
+    <string name="pref_inst_currency_set_to">La devise de profil est définie sur: %1$s</string>
+
+    <!-- Backup / restore preferences (29.mar.2015) -->
+
+    <string name="prefTitlePDFReports">rapports générés</string>
+    <string name="prefSummaryPDFReports">Cliquez ici pour voir la liste des fichiers pdf générés. Chaque fois qu\'un rapport pdf est généré, ils sont mis en cache par l\'application où vous pouvez visualiser, partager, les supprimer selon vos besoins.</string>
+
+    <string name="prefTitleBackupPhotos">la sauvegarde inclut les pièces jointes</string>
+    <string name="prefSummaryBackupPhotosTick">les sauvegardes contiennent maintenant des données et des photos de réception jointes, comme dans une sauvegarde complète</string>
+    <string name="prefSummaryBackupPhotosUnTick">la sauvegarde rapide est active, donc les sauvegardes incluront uniquement les données et ignoreront toutes les photos attachées</string>
+
+    <string name="prefSummaryBackupAccount">Sélectionnez un compte Google Drive pour stocker toutes vos sauvegardes de données d\'application.</string>
+    <string name="prefSummaryBackupAccountUnlink">Voulez-vous dissocier votre compte Google Drive? Ainsi, vos données ne seront pas sauvegardées sur le stockage cloud.</string>
+
+    <string name="prefTitleBackupDriveSyncTime">Dernière heure de synchronisation de sauvegarde</string>
+
+    <string name="prefTitleBackupWiFi">Sauvegarde via WiFi uniquement</string>
+    <string name="prefSummaryBackupWiFi">Activez cette option pour effectuer des sauvegardes Google Drive via WiFi uniquement. Décochez pour utiliser les données WiFi et Internet mobile.</string>
+
+    <!-- Access Denied / Root detected Activity -->
+    <string name="title_activity_access_denied">accès refusé</string>
+    <string name="access_denied_lable">quelque chose a mal tourné&#8230;!</string>
+    <string name="access_denied_msg">réessayez ou contactez le développeur sur le problème.</string>
+    <string name="access_denied_autofixed">un problème a été réglé automatiquement. \n\nredémarrez l\'application et vous êtes prêt à partir.</string>
+
+    <!-- Filter Fragement -->
+    <string name="filter_data">données de filtrage</string>
+    <string name="filter_menu">filtre</string>
+    <string name="filter_apply">appliquer le filtre</string>
+    <string name="filter_selected_save">enregistrer</string>
+    <string name="filter_clear">réinitialiser</string>
+    <string name="filter_invert">inverse</string>
+    <string name="filter_sort_by">trier par: %1$s</string>
+    <string name="filter_category_title">catégories de filtre</string>
+    <string name="filter_categories_all">catégories (toutes)</string>
+    <string name="filter_categories_count">catégories (%1$d)</string>
+    <string name="filter_currency_title">filtre les devises</string>
+    <string name="filter_currencies_all">monnaies (toutes)</string>
+    <string name="filter_currencies_count">devises (%1$d)</string>
+    <string name="filter_photo_title">filtrer les enregistrements avec</string>
+    <string name="filter_photo_any">photo de réception (aucune)</string>
+    <string name="filter_photo_yes">photo ci-jointe</string>
+    <string name="filter_photo_no">photo non jointe</string>
+
+    <!-- New Recurring Screen -->
+    <string name="bills_paid_total">payé: %1$s</string>
+    <string name="recurbill_total">total: </string>
+    <string name="bills_overdue_total">en retard: %1$s</string>
+    <string name="bills_upcoming_total">à venir: %1$s</string>
+    <string name="recurbill_list_empty">il n\'existe aucune configuration récurrente. \n(touche flottant \'+\' pour en créer un)</string>
+    <string name="recurbill_list_title">configurations récurrentes</string>
+    <string name="recurbill_list_subtitle">pour les factures</string>
+    <string name="bills_recur_subtitle">chaque %1$s %2$s</string>
+    <string name="menu_recurbill_delete">Supprimer récurrent</string>
+    <string name="recurbill_list_unselected">Sélectionnez une configuration récurrente à partir du cadre latéral gauche.</string>
+    <string name="recurring">récurrent</string>
+
+    <string name="currency_all">toutes les devises</string>
+    <string name="title_activity_inst_edit">Détails du profil</string>
+
+    <!-- Period, ViewPager, TabLayout -->
+    <string name="period_dashboard_change">période de changement</string>
+    <string name="period_daily">du quotidien</string>
+    <string name="period_weekly">hebdomadaire</string>
+    <string name="period_monthly">mensuel</string>
+    <string name="period_yearly">annuel</string>
+    <string name="period_custom">gamme personnalisée</string>
+    <string name="period_custom_range">%1$s - %2$s</string>
+    <string name="period_custom_range_title">sélectionnez une plage de dates</string>
+    <string name="period_custom_enter_from">entrer à partir de la date</string>
+    <string name="period_custom_enter_to">entrer à ce jour</string>
+
+    <string name="period_today">aujourd\'hui</string>
+    <string name="period_yesterday">hier</string>
+    <string name="period_tomorrow">demain</string>
+    <string name="period_thisweek">cette semaine</string>
+    <string name="period_lastweek">la semaine dernière</string>
+    <string name="period_nextweek">prochaine semaine</string>
+    <string name="period_rangeweek">w/c %1$s</string>
+    <string name="period_rangeweek2">%1$s - %2$s</string>
+    <string name="period_thismonth">ce mois-ci</string>
+    <string name="period_lastmonth">le mois dernier</string>
+    <string name="period_nextmonth">le mois prochain</string>
+    <string name="period_thisyear">cette année</string>
+    <string name="period_lastyear">l\'année dernière</string>
+    <string name="period_nextyear">l\'année prochaine</string>
+    <string name="period_and_future">%1$s et futur</string>
+    <string name="period_custom_last_7days">les 7 derniers jours</string>
+    <string name="period_custom_last_30days">les 30 derniers jours</string>
+    <string name="period_custom_last_3months">3 derniers mois</string>
+    <string name="period_custom_recent_6months">6 mois récents</string>
+    <string name="period_custom_recent_12months">12 mois récents</string>
+    <string name="period_custom_date_range">plage de dates personnalisée</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">tableau de bord</string>
+    <string name="dashboard_title_bill_chart_payable">factures à payer (par catégorie)</string>
+    <string name="dashboard_title_bill_chart_receivable">factures à recevoir (par catégorie)</string>
+    <string name="dashboard_title_bill_chart_payable_status">factures payables (par statut)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">factures à recevoir (par statut)</string>
+    <string name="dashboard_summary">aperçu des factures </string>
+    <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
+    <string name="dashboard_summary_receivable">recevable: </string>
+    <string name="dashboard_summary_payable">payable: </string>
+    <string name="dashboard_summary_total">total: </string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_title">sur</string>
+    <string name="about_version">version: %1$s</string>
+    <string name="about_version_trial">version: %1$s (essai gratuit)</string>
+    <string name="about_description">Le rappel des factures vous aide à organiser et suivre vos factures payées ou non payées et à recevoir / à recevoir. il suffit d\'ajouter une facture à cette application et elle vous en rappellera quotidiennement, jusqu\'à ce que vous l\'ayez marqué comme payé ou supprimé. les factures marquées comme récurrentes sont automatiquement créées en fonction des configurations fournies et de la période de prévision, ce qui vous donne une totale tranquillité d\'esprit.</string>
+    <string name="about_facebook">Aimez-nous sur facebook</string>
+    <string name="about_twitter">Suivez-nous sur Twitter</string>
+    <string name="about_googleplay">évaluer l\'application</string>
+    <string name="about_share">partagez cette application</string>
+    <string name="about_welcome_tutorial">Tutoriels</string>
+    <string name="about_visit_124">visitez 124APPS</string>
+
+    <string name="feature_label_free">essai gratuit</string>
+    <string name="feature_desc_free">la version contient des fonctionnalités de base pour gérer vos factures\n</string>
+    <string-array name="feature_items_free">
+        <item>notification quotidienne des rappels de factures</item>
+        <item>joindre une photo aux factures</item>
+        <item>support des factures récurrentes</item>
+        <item>Factures limitées (300)</item>
+        <item>catégories et sous-catégories limitées (70)</item>
+        <item>modifier le délai de notification des rappels</item>
+        <item>recherche de factures</item>
+        <item>Vue d\'ensemble du tableau de bord des factures pour chaque mois</item>
+        <item>voir les factures par statut</item>
+        <item>voir les factures chaque mois</item>
+        <item>Vue d\'ensemble des factures</item>
+        <item>Sélection multiple: suppression de plusieurs factures et catégories</item>
+        <item>Sélection multiple: copiez plusieurs factures et catégories</item>
+        <item>rapports: factures de catégorie par mois</item>
+        <item>numérisez un code à barres et ajoutez-le aux notes de facture</item>
+        <item>ajouter une facture de paiement de facture à la facture</item>
+        <item>créer une sauvegarde, y compris des photos de réception jointes</item>
+        <item>sauvegardes régulières quotidiennes</item>
+        <item>seul profil</item>
+    </string-array>
+    <string name="feature_label_pro">prime</string>
+    <string name="feature_desc_pro">cela inclut toutes les fonctionnalités fournies par \'essai gratuit\' \n\t\t\t+\ndessous des fonctionnalités premium: \n</string>
+    <string-array name="feature_items_pro">
+        <item>factures illimitées</item>
+        <item>catégories et sous-catégories illimitées</item>
+        <item>Supprimez les factures récurrentes et sa configuration en une seule fois. (suppression en bloc)</item>
+        <item>sélection multiple: changez la catégorie des factures multiples</item>
+        <item>sélection multiple: changement de rappel notification des factures</item>
+        <item>Vue d\'ensemble du tableau de bord pour chaque jour, semaine, mois et année.</item>
+        <item>Afficher les factures pour chaque jour, semaine, mois, année et période personnalisée</item>
+        <item>rapports: factures de catégorie par jour, semaine, mois, année et période personnalisée</item>
+        <item>rapports: tendance des factures</item>
+        <item>rapports: comparaison entre semaines, jours, mois, années</item>
+        <item>rapports: génère des rapports pdf et partage</item>
+        <item>changer l\'écran de démarrage</item>
+        <item>contrôler les sauvegardes programmées</item>
+        <item>partager et exporter des sauvegardes par courrier électronique, lecteur, dropbox</item>
+        <item>restaurer les sauvegardes locales et télécharger des nuages</item>
+        <item>la sécurité de l\'application à l\'aide de pid et des empreintes digitales</item>
+    </string-array>
+    <string name="feature_label_multiprof">profil multiple</string>
+    <string name="feature_desc_multiprof">cela nécessite une version premium.\nvous aide à maintenir plusieurs profils, chaque profil traitant de ses propres données. par exemple, séparez vos dépenses personnelles par rapport à vos dépenses commerciales. par exemple, séparez vos dépenses personnelles par rapport à vos dépenses commerciales. \n</string>
+    <string-array name="feature_items_multiprof">
+        <item>les catégories</item>
+        <item>factures</item>
+        <item>paramètres récurrents des factures</item>
+        <item>les rapports et autres écrans examineront les factures à partir de son propre profil</item>
+        <item>cela permettra des fonctionnalités de gestion de profil</item>
+    </string-array>
+    <string name="feature_tab_title">fonctionnalités</string>
+    <string name="feature_tab_cloud_title">abonnement cloud</string>
+    <string name="feature_comparison_title">comparaison des caractéristiques</string>
+    <string name="feature_subscription_title">fonctionnalités et mise à niveau</string>
+    <string name="feature_this_version">Ceci est la version d\'essai gratuite de l\'application de rappel des factures et vous pouvez acheter des mises à niveau ci-dessous pour profiter de l\'application à son meilleur.</string>
+    <string name="feature_view_comparison">comparaison des caractéristiques de vue</string>
+    <string name="feature_purchased">acheté</string>
+
+    <string name="welcome_title1_bill_detail">ajouter un nouveau rappel de facture</string>
+    <string name="welcome_info1_bill_detail">Entrez les détails de la facture et enregistrez. soutient également les factures récurrentes et change de monnaie.</string>
+    <string name="welcome_title2_receipt">photo votre reçu</string>
+    <string name="welcome_info2_receipt">passez sans papier en joignant le reçu de facture ainsi que les détails de la facture.</string>
+    <string name="welcome_title3_bill_upcoming">voir les factures par statut</string>
+    <string name="welcome_info3_bill_upcoming">obtenir un coup d\'œil rapide sur les factures à venir, en retard, non payées et payées. </string>
+    <string name="welcome_title4_bill_list">mise en page simple des onglets</string>
+    <string name="welcome_info4_bill_list">voir les factures pour chaque période et glisser facilement entre les onglets. exemple: pour chaque mois.</string>
+    <string name="welcome_title5_drawer">menu du tiroir de navigation</string>
+    <string name="welcome_info5_drawer">tableau de bord, catégories et sous-catégories, calendrier, devis multiple, rapports et graphiques, profil multiple, sauvegarde et restauration.</string>
+    <string name="welcome_title6_recurring">gérer les factures récurrentes</string>
+    <string name="welcome_info6_recurring">les configurations récurrentes aident à créer, mettre à jour, supprimer des factures et des factures récurrentes facilement.</string>
+    <string name="welcome_title6_settings">configuration pour une personnalisation facile</string>
+    <string name="welcome_info6_settings">modifier le délai de notification, la période de prévision des factures récurrentes, modifier la devise par défaut et beaucoup plus.</string>
+
+    <string name="coffee_title">achetez-nous un café</string>
+    <string name="coffee_description">nous travaillons des jours et des nuits, pour vous donner la meilleure expérience d\'application, en ajoutant de nouvelles fonctionnalités, en réparant les défauts. veuillez soutenir notre développement - achetez-nous un café.</string>
+    <string name="coffee_buy_now">Acheter maintenant</string>
+    <string name="coffee_thank_you">Je vous remercie</string>
+
+    <string name="widget_bill_overview_title">résumé des factures</string>
+    <string name="widget_bill_overview_overdue">en retard: </string>
+    <string name="widget_bill_overview_today">dû aujourd\'hui: </string>
+    <string name="widget_bill_overview_upcoming">prochain: </string>
+    <string name="widget_bill_overview_count">%1$d</string>
+
+    <string name="widget_bill_single_title">suivre une facture</string>
+    <string name="widget_bill_paid_on">payé en %1$s</string>
+    <string name="widget_bill_due_in">en raison de %1$d jours</string>
+    <string name="widget_bill_due_tomorrow">demain</string>
+    <string name="widget_bill_due_today">dû aujourd\'hui</string>
+    <string name="widget_bill_due_yesterday">dû hier</string>
+    <string name="widget_bill_overdue_by">en retard de %1$d jours</string>
+    <string name="coach_mark_add_bill">Cliquez sur le bouton \'+\' pour ajouter un rappel de facture</string>
+    <string name="coach_mark_burger_icon">Cliquez sur l\'icône du burger pour voir d\'autres écrans</string>
+    <string name="widget_bill_select_title">Sélectionnez une facture</string>
+
+    <string name="error_max_bills_exceeded">nombre de factures dépassé la limite maximale, s\'il vous plaît mise à niveau pour ajouter plus de factures.</string>
+    <string name="error_max_cats_exceeded">nombre de catégories dépassé la limite maximale, s\'il vous plaît mettre à jour pour ajouter plus de catégories.</string>
+
+    <string name="bill_paid1">facture payée</string>
+    <string name="bill_unpaid1">facture impayée</string>
+    <string name="bill_overdue1">facture en retard</string>
+    <string name="bill_upcoming1">facture à venir</string>
+    <string name="bill_payments">paiements de factures (%1$d)</string>
+    <string name="bill_payment_mark_paid">est payé en totalité</string>
+    <string name="bill_payment">Paiement de factures</string>
+    <string name="bill_make_payment">ajouter un paiement</string>
+    <string name="bill_payments_empty_text">aucun paiement effectué sur cette facture pour le moment.</string>
+    <string name="bill_payment_total">Le total des paiements de %1$d factures est de %2$s</string>
+    <string name="bill_payment_total_remaining">%1$s restant à payer sur le total dû %2$s</string>
+    <string name="bill_payment_total_overpaid">%1$s trop payés sur le total dû de %2$s</string>
+    <string name="bill_payment_total_equal">toutes nos félicitations! ce projet de loi est payé.</string>
+    <string name="bill_payment_heading">%1$s est dû le %2$s</string>
+    <string name="bill_payment_bill_amt">montant de la facture:</string>
+    <string name="bill_payment_amt_paid">total payé:</string>
+    <string name="bill_payment_amt_due">montant dû:</string>
+    <string name="bill_payment_date">date de paiement</string>
+    <string name="bill_payment_last_paid_dt">dernier payé le %1$s</string>
+    <string name="bill_payment_not_exits">[aucun]</string>
+    <string name="bill_payments_tablet_view">marquer comme payé, afficher ou ajouter des paiements de factures &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Total restant:</string>
+
+    <string name="contact_name_hint">Contact, nom du client ou de l\'entreprise</string>
+    <string name="contact_payee_empty">Indiquez un nom de contact.</string>
+    <string name="contact_max_limit_exceed">Nombre maximal de contacts dépassé, veuillez mettre à niveau pour en ajouter d\'autres.</string>
+    <string name="recur_list_selectmode_title">Sélectionnez une configuration récurrente</string>
+    <string name="recur_details_title">Configuration récurrente</string>
+    <string name="recur_details_saved">Nouvelle configuration récurrente créée.</string>
+    <string name="recur_details_updated">Configuration récurrente mise à jour</string>
+    <string name="recur_details_edit">Modifier la configuration</string>
+    <string name="recur_link_add_label">Ajouter une nature récurrente</string>
+    <string name="recur_forecast_period_is">La période de prévision actuelle est fixée à %1$s.</string>
+    <string name="recur_forecast_period_date">Cela signifie que les entrées récurrentes seront automatiquement créées jusqu\'au %1$s.</string>
+    <string name="recur_forecast_view_settings">Afficher la période de prévision</string>
+    <string-array name="recur_config_add_options">
+        <item>Choisissez une configuration existante</item>
+        <item>Créer une nouvelle configuration récurrente</item>
+    </string-array>
+
+    <string name="attachment_title">Pièces jointes</string>
+    <string name="attachment_title_count">Pièces jointes (%1$d)</string>
+    <string name="attachment_non_exists">Aucune pièce jointe n\'existe, appuyez sur les icônes ci-dessus pour ajouter une photo ou un fichier à cette entrée.</string>
+    <string name="attachment_take_photo">Prendre une photo</string>
+    <string name="attachment_add_file">Ajouter un fichier existant</string>
+    <string name="attachment_deleting_snackbar">Suppression&#8230; %1$s</string>
+    <string name="bill_attachments_tablet_view">Ajouter ou afficher des reçus / pièces jointes &#8230;</string>
+    <string name="bill_attachments_save_label">Enregistrer et recharger pour ajouter des pièces jointes</string>
+
+    <string name="cat_no_of_linked_rows_txs_bills">%1$d transactions, %2$d factures.</string>
+    <string name="cat_no_of_linked_rows_txs">%1$d transactions.</string>
+
+    <string name="acct_1name">En espèces</string>
+    <string name="acct_1desc">cliquez ici pour modifier ou supprimer tout compte.</string>
+    <string name="acct_2name">Carte de crédit</string>
+    <string name="acct_2desc">appuyez simplement sur pour afficher les transactions du compte.</string>
+    <string name="acct_3name">Compte bancaire</string>
+    <string name="acct_3desc">afficher les détails du compte pour définir un budget mensuel.</string>
+
+    <string name="transfer_title">transfert de fonds</string>
+    <string name="view_settings">Paramètres d\'affichage</string>
+    <string name="google_drive_not_linked">Associez votre compte Google pour conserver vos données sauvegardées dans le stockage Google Drive.</string>
+
+    <string name="cat_icon">Icône</string>
+    <!-- <string name="tax_percent">Tax Rate</string> -->
+    <string name="bill_date">Date de facturation</string>
+    <string name="bill_notify_enable">Afficher une notification de rappel quotidienne</string>
+    <string name="menu_txs_list">Transactions</string>
+
+    <string name="contacts_and_groups_label">Contacts et groupes</string>
+    <string name="contacts_list">Contacts</string>
+    <string name="contact_select">Sélectionnez un contact</string>
+    <string name="contact_new">Nouveau contact</string>
+    <string name="contact_details">Détails du contact</string>
+    <string name="contact_name_empty">Le nom du contact est vide..!</string>
+    <string name="contact_list_empty_hint">Aucun contact n\'existe. \n(Appuyez sur le bouton flottant pour en ajouter un)</string>
+    <string name="contact_saved">Contact enregistré</string>
+    <string name="contact_phone">Numéro de téléphone</string>
+    <string name="contact_email">Adresse électronique</string>
+    <string name="contact_phone_alt">Autre numéro de téléphone</string>
+    <string name="contact_email_alt">Adresse e-mail de rechange</string>
+    <string name="contact_address">Adresse de contact</string>
+    <string name="contact_deleted">Contact supprimé avec succès</string>
+    <string name="contact_inuse_warn_msg">Contact actuellement utilisé</string>
+    <string name="contact_deleted_warn">Le contact sélectionné sera supprimé.</string>
+    <string name="contact_member_of_group">Membre de %1$d groupes</string>
+
+    <string name="group_new">Nouveau groupe</string>
+    <string name="group_details">Détails du groupe</string>
+    <string name="group_name_hint">Nom du groupe ou de l\'équipe</string>
+    <string name="export_body">&lt;p&gt; Envoyé depuis l\'application de rappel de factures &lt;/p&gt;</string>
+    <string name="contact_all_title">Tous les contacts</string>
+    <string name="contact_group_title">Groupes</string>
+    <string name="group_list_empty_hint">Aucun groupe de contact n\'existe. \n(Appuyez sur le bouton flottant pour en créer un)</string>
+    <string name="group_list_empty">Aucun groupe de contact n\'existe.</string>
+    <string name="group_saved">Groupe de contact enregistré</string>
+    <string name="group_name_empty">Le nom du groupe est vide..!</string>
+    <string name="delete_unsaved_warn">Impossible de supprimer l\'enregistrement non enregistré.</string>
+    <string name="group_deleted">Le groupe a bien été supprimé.</string>
+    <string name="group_delete_warn">Les groupes sélectionnés seront supprimés.</string>
+    <string name="group_contacts_conut">%1$d contacts</string>
+    <string name="group_add_members">Ajouter des membres</string>
+    <string name="group_select_contacts">Sélectionnez les contacts</string>
+
+    <string name="records_deleted_multi">%1$d enregistrements supprimés.</string>
+    <string name="records_create_multi">%1$d enregistrements créés.</string>
+
+</resources>

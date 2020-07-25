@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_upgrade">opgewaardeerd</string>
+    <string name="upgrade_to_pro">upgrade naar premium</string>
+    <string name="feature_unavailable">Deze functie is alleen beschikbaar in premium versie.</string>
+
+    <string name="error_save">Kan geen wijzigingen opslaan, probeer het later nogmaals.</string>
+    <string name="error_unknown">Er is een onbekende fout opgetreden, neem dan contact op met support.</string>
+    <string name="err_empty_text">gelieve een geldige tekst te geven.</string>
+    <string name="error">fout</string>
+    <string name="save">besparen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="update">bijwerken</string>
+    <string name="delete">verwijderen</string>
+    <string name="export">exporteren</string>
+    <string name="cancel">Annuleer</string>
+    <string name="goto_play_store">Open de Google Play Store</string>
+    <string name="continue_">voortzetten</string>
+    <string name="ok">OK</string>
+    <string name="skip">overspringen</string>
+    <string name="done">begrepen</string>
+    <string name="select_a_option_warn">selecteer alstublieft een opties</string>
+    <string name="tomorrow">morgen</string>
+    <string name="error_offline_title">geen internet</string>
+    <string name="error_offline_message">Je moet online zijn om deze operatie uit te voeren. Zorg ervoor dat uw wifi of dataverbinding actief is.</string>
+    <string name="app_needs_relaunch">App moet opnieuw worden gelanceerd om nieuwe instellingen toe te passen.</string>
+    <string name="email_send_title">stuur e-mail</string>
+
+    <!-- ==================================================================== -->
+    <!-- CONFIG.XML -->
+
+    <string name="home_data_inst_name">mijn profiel</string>
+    <string name="duplicate">duplicaat</string>
+    <string name="share">Delen</string>
+    <string name="add">toevoegen</string>
+    <string name="cat_detail">categorie details</string>
+    <string name="expense">uitgaven</string>
+    <string name="income">inkomen</string>
+    <string name="receivable">ontvangbaar</string>
+    <string name="payable">betaalbaar</string>
+    <string name="both_expense_income">uitgaven en inkomsten</string>
+    <string name="both_payable_receivable">betaalbaar en vorderbaar</string>
+
+
+    <string name="cat_list_title">categorieën</string>
+    <string name="cat_list_empty">geen categorie bestaat..!</string>
+    <string name="cat_added">categorie toegevoegd</string>
+    <string name="cat_deleted">categorie verwijderd</string>
+    <string name="cat_saved">categorie opgeslagen</string>
+    <string name="cat_select_a_cat">Kies een categorie</string>
+    <string name="cat_change">categorie wijzigen</string>
+    <string name="cat_deleted_multi">%1$d categorieën verwijderd.</string>
+    <string name="cat_edit">categorie details</string>
+    <string name="cat_name_empty">Categorie naam is leeg..!</string>
+    <string name="cat_error_selfparent">categorie kan niet zijn eigen subcategorie zijn, selecteer aub een andere oudercategorie.</string>
+    <string name="cat_name_err">dubbele categorie naam, gebruik alstublieft een andere naam..!</string>
+    <string name="cat_delete_warn">geselecteerde categorie en eventuele subcategorieën worden verwijderd. \n\nOok alle ingangen die gekoppeld zijn aan de categorie worden opnieuw toegewezen aan de standaardcategorie.</string>
+    <string name="cat_delete_unsaved">kan niet-opgeslagen categorie verwijderen.</string>
+    <string name="cat_name">categorie naam</string>
+    <string name="cat_no_of_linked_rows">%1$d facturen.</string>
+    <string name="cat_code">Code</string>
+    <string name="cat_code_empty_err">Voer een categoriecode in</string>
+    <string name="cat_code_existing_err">Categoriecode al gebruikt</string>
+    <string name="cat_type">type</string>
+    <string name="cat_desc">categorie beschrijving</string>
+    <string name="cat_color">kleur</string>
+    <string name="cat_change_color_tap">tik om kleur te veranderen</string>
+    <string name="cat_parent_switch">Dit is een oudercategorie (bovenste niveau)</string>
+    <string name="cat_subcategory_of">Subcategorie van</string>
+    <string name="cat_select_parent">ouder categorie</string>
+    <string-array name="cat_types">
+        <item>kosten / verschuldigd</item>
+        <item>inkomen / vordering</item>
+    </string-array>
+    <string name="cat_search_hint">Typ hier om te filteren</string>
+    <!-- Categories '', '', '') -->
+    <string name="cat_0allCategories">Alle categorieën</string>
+    <string name="cat_1others">anders</string>
+    <string name="cat_1_1">betalingen</string>
+    <string name="cat_1_2">cadeaus</string>
+    <!-- <string name="cat_1_3">Charity</string>
+    <string name="cat_1_4">Pets</string>
+    <string name="cat_1_5">Investment</string> -->
+    <string name="cat_2transfer">overdracht</string>
+
+    <string name="cat_3personal">persoonlijke verzorging</string>
+    <string name="cat_3_1">haar en schoonheid</string>
+    <string name="cat_3_2">fitnessruimte en fitness</string>
+    <string name="cat_3_3">medisch</string>
+    <string name="cat_3_4">tandheelkundige</string>
+
+    <string name="cat_4food">eten en drinken</string>
+    <string name="cat_4_1">koffie</string>
+    <string name="cat_4_2">maaltijd</string>
+    <string name="cat_4_3">afhaalmaaltijden</string>
+    <string name="cat_4_4">thee</string>
+    <string name="cat_4_5">restaurant</string>
+    <string name="cat_4_6">supermarkt</string>
+    <string name="cat_4_7">snack</string>
+
+    <string name="cat_5entertainment">vermaak</string>
+    <string name="cat_5_1">films</string>
+    <string name="cat_5_2">drankjes</string>
+    <string name="cat_5_4">vakantie</string>
+    <string name="cat_5_5">concert en theater</string>
+    <string name="cat_5_6">spellen</string>
+    <string name="cat_5_7">feest</string>
+
+    <string name="cat_6automobile">auto</string>
+    <string name="cat_6_1">carwash</string>
+    <string name="cat_6_2">brandstof</string>
+    <string name="cat_6_3">service en reparatie</string>
+    <string name="cat_6_4">verzekering</string>
+    <string name="cat_6_5">accessoires</string>
+    <string name="cat_6_6">wegenbelasting</string>
+    <string name="cat_6_7">parkeren</string>
+    <!--<string name="cat_6_7">Registration</string>-->
+
+    <string name="cat_7shopping">het winkelen</string>
+    <string name="cat_7_1">kleding</string>
+    <string name="cat_7_2">computers en accessoires</string>
+    <string name="cat_7_3">elektronica</string>
+    <string name="cat_7_4">digitale muziek</string>
+    <string name="cat_7_5">boodschappen</string>
+    <string name="cat_7_6">mobiel en gadgets</string>
+    <string name="cat_7_7">sieraden</string>
+    <string name="cat_7_8">andere winkelen</string>
+    <string name="cat_7_9">meubilair</string>
+    <string name="cat_7_10">speelgoed</string>
+    <string name="cat_7_11">abonnement</string>
+    <string name="cat_7_12">tuin</string>
+
+    <string name="cat_8travel">reizen</string>
+    <string name="cat_8_1">trein</string>
+    <string name="cat_8_2">bus</string>
+    <string name="cat_8_3">vlucht</string>
+    <string name="cat_8_4">verzekering</string>
+    <string name="cat_8_5">lokaal transport</string>
+    <string name="cat_8_6">taxi</string>
+    <string name="cat_8_7">autoverhuur</string>
+    <string name="cat_8_8">hotel</string>
+    <string name="cat_8_9">ander vervoer</string>
+
+    <string name="cat_9banking">bank</string>
+    <string name="cat_9_1">lening</string>
+    <string name="cat_9_2">interesseren</string>
+    <string name="cat_9_3">kosten</string>
+    <string name="cat_9_4">spaargeld</string>
+    <string name="cat_9_5">hypotheek</string>
+    <string name="cat_9_6">aandelenhandel</string>
+    <string name="cat_9_7">investeringen</string>
+
+    <string name="cat_10home">huis</string>
+    <string name="cat_10_1">elektriciteit en gas</string>
+    <string name="cat_10_2">internet en telefoon</string>
+    <!--<string name="cat_10_3">Gas</string>-->
+    <string name="cat_10_4">water</string>
+    <string name="cat_10_5">TV</string>
+    <string name="cat_10_6">schoonmaakdienst</string>
+    <string name="cat_10_7">reparaties</string>
+    <string name="cat_10_8">utilities</string>
+    <string name="cat_10_9">accommodatie</string>
+    <string name="cat_10_10">huur</string>
+    <string name="cat_10_11">verzekering</string>
+    <string name="cat_10_12">onroerend goed belasting</string>
+
+    <string name="cat_11work">werk</string>
+    <string name="cat_11_1">salaris</string>
+    <string name="cat_11_2">dividend</string>
+    <string name="cat_11_3">bonus</string>
+    <string name="cat_11_4">declaratie</string>
+    <string name="cat_11_5">schrijfbehoeften</string>
+    <string name="cat_11_6">belasting</string>
+
+    <string name="cat_12family">familie</string>
+    <string name="cat_12_1">kinderopvang</string>
+    <string name="cat_12_2">school en college</string>
+    <string name="cat_12_3">zakgeld</string>
+    <string name="cat_12_4">Insurance</string>
+    <string name="cat_12_5">medische zorg</string>
+
+    <string name="cat_system">standaardcategorie</string>
+    <string name="cat_system_delete_err">kan de systeemcategorie niet verwijderen</string>
+
+    <string name="label_list_title">labels beheren</string>
+    <string name="label_list_empty">geen label bestaat..!</string>
+    <string name="label_new_title">nieuw label</string>
+    <string name="label_edit_title">label wijzigen/bekijken</string>
+    <string name="label_enter">voer labelnaam in</string>
+    <string name="label_name_err">vul alstublieft een geldige etiketnaam in.!</string>
+    <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
+    <string name="label_add">Etiketten toevoegen</string>
+    <string name="label_details">Labeldetails</string>
+    <string name="label_saved">Etiket succesvol opgeslagen.</string>
+    <string name="label_deleted">Etiket succesvol verwijderd.</string>
+    <string name="label_delete_warning">Het geselecteerde label wordt verwijderd.</string>
+    <string name="labels_filter_title">Filteretiketten</string>
+    <string name="labels_filter_all">Etiketten (alle)</string>
+    <string name="labels_filter_count">Etiketten (%1$d)</string>
+
+    <!-- Startup Screen Chooser -->
+    <string name="startup_screen_title">kies een opstartscherm</string>
+    <string name="startup_screen_msg">Selecteer een startscherm dat u graag wilt zien wanneer u de app opent.</string>
+    <string name="startup_screen_note">U kunt uw selectie altijd wijzigen via instellingen later.</string>
+    <string name="startup_screen_label_default">%1$s - aanbevolen</string>
+    <string name="startup_screen_change_success">opstartscherm succesvol gewijzigd</string>
+
+    <!-- from string.xml -->
+    <string name="select_currency">selecteer valuta</string>
+    <string name="warn_invalid_amt">vul alstublieft een geldig bedrag in.</string>
+    <string name="warn_invalid_no">Gelieve een geldig nummer invoeren.</string>
+    <string name="warn_invalid_no_min1">Vul alstublieft een geldig nummer in dan 1.</string>
+    <string name="category">categorie</string>
+    <string name="amount">bedrag</string>
+    <string name="amount_empty_warn">voer een bedrag in</string>
+    <string name="amount_hint">bedrag, voorbeeld: 124.55</string>
+    <string name="bill_currency">valuta</string>
+    <string name="change_currency">verander valuta</string>
+    <string name="select_a_option">kies een optie</string>
+    <string name="processing">verwerken…</string>
+    <string name="email_dev">contact ontwikkelaar</string>
+    <string name="exit">Uitgang</string>
+    <string name="exit_info">raak af, om de app te sluiten.</string>
+    <string name="restart">herstarten</string>
+    <string name="drawer_bills_by_status">rekeningen per status</string>
+    <string name="drawer_settings_sep">tools / instellingen</string>
+    <string name="drawer_settings">instellingen</string>
+    <string name="manage_categories">categorieën</string>
+    <string name="drawer_rpt_charts_title">rapporten en grafieken</string>
+    <string name="update_available_title">@string/app_name</string>
+    <string name="update_available_warn">Nieuwe update beschikbaar, met nieuwe functies en bugfixes.</string>
+    <string name="update_available_force">We ondersteunen deze versie niet meer.\n\n Update nu alstublieft.</string>
+    <string name="update_available_force_dummy">ongeldige datum.\n\nControleer alstublieft uw internetverbinding.</string>
+    <string name="update_now">update nu</string>
+    <string name="later">later</string>
+    <string name="menu_drawer_group_more">communicatie / meer</string>
+    <string name="rate_app_title">beoordeel deze app</string>
+    <string name="share_this_app">deel deze app</string>
+    <string name="share_this_app_title">delen met behulp van</string>
+    <string name="share_this_app_subject">kijk naar de \"%1$s\" app</string>
+    <string name="about_us">over ons</string>
+    <string name="by_124apps">gesponsord door 124APPS</string> <!-- &#169; -->
+    <string name="rate_app_msg">vind je deze app leuk? \n\nZo ja, ondersteun alstublieft onze ontwikkeling met een goede beoordeling.\n\t* * * * *\nbedankt.</string>
+    <string name="rate_app_now">beoordeel nu</string>
+    <string name="rate_app_later">later</string>
+    <string name="rate_app_no">Nee, dank u wel</string>
+
+    <string name="close">dichtbij</string>
+
+    <string-array name="rpt_bills_forcast">
+        <item>Tot vandaag alleen</item>
+        <item>1 maand van tevoren</item>
+        <item>2 maanden van tevoren</item>
+        <item>3 maanden van tevoren</item>
+        <item>4 maanden van tevoren</item>
+        <item>5 maanden van tevoren</item>
+        <item>6 maanden van tevoren</item>
+        <item>1 jaar van tevoren</item>
+        <item>18 maanden van tevoren</item>
+        <item>2 jaar van tevoren</item>
+        <item>3 jaar van tevoren</item>
+        <item>4 jaar van tevoren</item>
+        <item>5 jaar van tevoren</item>
+        <item>10 jaar van tevoren</item>
+    </string-array>
+    <string-array name="notify_days">
+        <item>3 maanden voor de vervaldatum</item>
+        <item>2 maanden voor de vervaldatum</item>
+        <item>1 maand voor vervaldatum</item>
+        <item>3 weken voor de vervaldatum</item>
+        <item>2 weken voor de vervaldatum</item>
+        <item>10 dagen voor vervaldatum</item>
+        <item>9 dagen voor vervaldatum</item>
+        <item>8 dagen voor vervaldatum</item>
+        <item>7 dagen voor vervaldatum</item>
+        <item>6 dagen voor vervaldatum</item>
+        <item>5 dagen voor vervaldatum</item>
+        <item>4 dagen voor vervaldatum</item>
+        <item>3 dagen voor vervaldatum</item>
+        <item>2 dagen voor vervaldatum</item>
+        <item>1 dag voor de vervaldatum</item>
+        <item>- Op de uitgerekende datum -</item>
+        <item>1 dag na vervaldatum</item>
+        <item>2 dagen na vervaldatum</item>
+        <item>3 dagen na vervaldatum</item>
+        <item>4 dagen na vervaldatum</item>
+        <item>5 dagen na vervaldatum</item>
+        <item>6 dagen na vervaldatum</item>
+        <item>7 dagen na vervaldatum</item>
+        <item>8 dagen na vervaldatum</item>
+        <item>9 dagen na vervaldatum</item>
+        <item>10 dagen na vervaldatum</item>
+        <item>2 weken na vervaldatum</item>
+        <item>3 weken na vervaldatum</item>
+        <item>1 maand na vervaldatum</item>
+        <item>2 maanden na vervaldatum</item>
+        <item>3 maanden na vervaldatum</item>
+    </string-array>
+
+    <string name="permission_denied_dialog_msg">Gelieve de externe opslag te laten lezen en schrijven, om gegevens op te slaan. \nHet ontkennen van de machtigingen zou leiden tot inconsistentie voor de app.</string>
+    <string name="permission_denied_dialog_restart">opnieuw proberen</string>
+    <string name="permission_denied_dialog_dont_care">het kan me niet schelen</string>
+    <string name="permission_denied_camera">app zou camera toestemming nodig hebben om foto\'s te maken.</string>
+    <string name="permission_denied_camera_receipt">app zou cameravergunning nodig hebben om de ontvangstfoto\'s te kunnen vastleggen.</string>
+
+    <!-- ==================================================================== -->
+    <!-- BILLS.XML -->
+    <string name="app_name">Bills Reminder</string>
+    <!--<string name="title_bills_by_status">Bills by status</string>
+    <string name="title_bills_by_period">Bills by period</string>-->
+    <string name="title_bills_list">factuurlijst</string>
+    <string name="title_bills_report">factuurrapport</string>
+
+    <string name="title_bill_upcoming">aankomende rekeningen</string>
+    <string name="title_bill_overdue">achterstallige facturen</string>
+    <string name="title_bill_paid">betaalde rekeningen</string>
+    <string name="title_bill_unpaid">onbetaalde facturen</string>
+    <string name="title_bill_detail">factuurgegevens</string>
+    <string name="title_bill_detail_new">nieuwe rekening herinnering</string>
+    <string name="title_activity_calendar">kalenderweergave</string>
+    <string name="bills">biljetten</string>
+    <string name="bill_new">Voeg rekening herinnering toe</string>
+    <string name="bills_overdue">achterstallig</string>
+    <string name="bills_upcoming">aankomende</string>
+    <string name="bills_paid">betaald</string>
+    <string name="bills_unpaid">onbetaald</string>
+    <string name="bills_recurr">terugkerende rekeningen</string>
+    <string name="bills_recur_desc">herhaalt elke %1$d %2$s.</string>
+    <string name="restart_app">start de app opnieuw op.</string>
+    <string name="bills_view">bekijk rekeningen</string>
+
+    <string name="bill_list_empty_tip">geen rekening bestaat. \n(raak drijvende \'+\' knop om een te maken)</string>
+    <string name="bill_list_empty">Er bestaan geen rekeningen.</string>
+
+    <string name="navigation_drawer_open">open navigatielade</string>
+    <string name="navigation_drawer_close">sluit navigatielade</string>
+    <string name="dummy_day">trouwen</string>
+
+    <string name="bill_delete_unsaved">kan niet-opgeslagen rekening wissen.</string>
+    <string name="bill_deleted">rekening is verwijderd.</string>
+    <string name="bill_delete_single_warn">rekening zal worden verwijderd, ga door?</string>
+    <string name="bill_delete_multi_warn">geselecteerde rekeningen worden verwijderd, ga door?</string>
+    <string name="bill_delete_recur_warn">deze herhalende invoer en alle bijbehorende facturen worden verwijderd, ga door?</string>
+    <string name="bill_duplicate_warn">Er worden %1$d dubbele facturen gemaakt, ga door?</string>
+    <string name="bill_not_found">factuur bestaat niet.</string>
+    <string name="app_error_restart">automatisch een probleem opgelost, start de app opnieuw op.</string>
+    <string name="multi_select_mode_title">%1$s, totaal: %2$s</string>
+
+    <string name="bill_deleted_recur">succesvolle verwijderde facturen verwijderd.</string>
+    <string name="bill_deleted_multi">%1$d facturen verwijderd.</string>
+    <string name="bill_multi_update_count">%1$d facturen bijgewerkt.</string>
+    <string name="bill_duplicate_multi">%1$d nieuwe rekeningen aangemaakt.</string>
+    <string name="bill_duplicate_multi_error">neem contact op met ontwikkelaar. Fout kopiëren facturen: %1$s</string>
+    <string name="bill_added">nieuwe rekening toegevoegd</string>
+    <string name="bill_saved">rekening opgeslagen.</string>
+    <string name="bill_populating_recent">bevolken met recente waarden</string>
+
+    <string name="bill_payee">begunstigde / post</string>
+    <string name="bill_duedt">Vervaldatum betaling</string>
+    <string name="cat_new_title">Nieuwe categorie</string>
+    <string name="bill_dueNear">te wijten aan %1$s</string>
+    <string name="bill_dueIn">verschuldigd in %1$d dagen</string>
+    <string name="bill_dueOver">achterstallig met %1$d dagen</string>
+    <string name="bill_paid">betaald</string>
+    <string name="bill_received">Ontvangen</string>
+    <string name="bill_unpaid">onbetaald</string>
+    <string name="bill_paid_on">betaald op</string>
+    <string name="bill_type">factuur type</string>
+    <string name="bill_change_notification">verander herinnering kennisgeving</string>
+    <string name="bill_more_options">meer opties</string>
+    <string name="notify">laat kennisgevingen van herinneringen zien</string>
+    <string name="notify_channel_name_app">App gebruik</string>
+    <string name="notify_channel_desc_reminder">Melding over factuurbetaling, achterstallig of aanstaande.</string>
+    <string name="notify_channel_desc_app">Over nieuwe versie-updates of herinnering aan app-gebruik.</string>
+    <string name="tx_payee_hint">voorbeeld: huur</string>
+    <string name="tx_notes">notities of scan barcode / url</string>
+    <string name="tx_notes_zing_missing_title">installeer barcode scanner</string>
+    <string name="tx_notes_zing_missing">Deze functie vereist barcode scanner, wilt u het installeren?</string>
+    <string name="tx_error_save_pic">fout tijdens het opslaan van de foto: %1$s</string>
+    <string name="tx_photo_not_supported">Kan geen foto vastleggen, apparaat wordt niet ondersteund..!</string>
+    <string name="tx_photo_take_new_photo">neem een nieuwe foto</string>
+    <string name="tx_photo_select_from_gallery">selecteer uit galerij</string>
+    <string-array name="tx_photo_options">
+        <item>Bekijk foto</item>
+        <item>neem een nieuwe foto</item>
+        <item>selecteer uit galerij</item>
+        <item>verwijder foto</item>
+    </string-array>
+    <!-- Sort options -->
+    <string name="menu_sort_by">sorteer op</string>
+    <string name="sort_by_date_asc">datum oplopend</string>
+    <string name="sort_by_date_desc">datum aflopend</string>
+    <string name="sort_by_amt_asc">bedrag stijgt</string>
+    <string name="sort_by_amt_desc">aantal aflopend</string>
+    <string name="sort_by_payee_asc">begunstigde stijgen</string>
+    <string name="sort_by_payee_desc">begunstigde aflopend</string>
+
+    <string name="menu_search_bills">zoekrekeningen</string>
+    <string name="bill_total_row">%1$d rij, totaal: </string>
+    <string name="bill_total_rows">%1$d rijen, totaal:</string>
+    <string name="bill_total_rows_multi_curr">%1$d rijen, in meerdere valuta\'s.</string>
+    <string name="bill_rpt_date_beyond">%1$s en daarbuiten</string>
+    <string name="bill_rpt_total_payable">totaal verschuldigd: %1$s</string>
+    <string name="bill_rpt_total_receivable">totaal vordering: %1$s</string>
+    <string name="bill_rpt_type_cat_payable">rekeningen verschuldigd per categorie</string>
+    <string name="bill_rpt_type_cat_receivable">rekeningen ontvangen per categorie</string>
+    <string name="bill_rpt_charts_saved">gegenereerde rapporten (%1$d)</string>
+    <string name="bill_rpt_charts_saved_empty">geen opgeslagen rapporten.\n heb je al geprobeerd een PDF-rapportfunctie te genereren?</string>
+    <string name="bill_rpt_charts_saved_loc">pdf rapporten worden opgeslagen op: %1$s</string>
+
+    <string name="bill_rpt_1categorywise_pay_label">categorie wijze grafiek (betaalbaar)</string>
+    <string name="bill_rpt_1categorywise_pay_info">Taartdiagram waarin de categorie verstandige vergelijking voor de periode wordt weergegeven.</string>
+    <string name="bill_rpt_2categorywise_receive_label">categorie wijze grafiek (debiteur)</string>
+    <string name="bill_rpt_2categorywise_receive_info">Taartdiagram waarin de categorie verstandige vergelijking voor de periode wordt weergegeven.</string>
+    <string name="bill_rpt_3trends_30days_label">rekeningen trends voor 30 dagen</string>
+    <string name="bill_rpt_3trends_30days_info">lijndiagram die de dagwijde vergelijking weergeeft van zowel betaalbaar als debiteurbaar voor de laatste 30 dagen</string>
+    <string name="bill_rpt_4monthwise_pay_label">maand verstandige vergelijking (betaalbaar)</string>
+    <string name="bill_rpt_4monthwise_pay_info">staafdiagram met maandelijkse vergelijking van betaalbare rekeningen.</string>
+    <string name="bill_rpt_5monthwise_receive_label">maand verstandige vergelijking (vordering)</string>
+    <string name="bill_rpt_5monthwise_receive_info">staafdiagram, waarin de maandelijkse vergelijking van debiteurenrekening wordt weergegeven.</string>
+
+    <string name="bill_rpt_comparison_title">vergelijkingsverslag</string>
+    <string name="bill_rpt_comparison_daywise_label">dagverstandige vergelijking voor %1$d dagen</string>
+    <string name="bill_rpt_comparison_weekwise_label">weekwijde vergelijking voor %1$d weken</string>
+    <string name="bill_rpt_comparison_monthwise_label">maand verstandige vergelijking voor %1$d maanden</string>
+    <string name="bill_rpt_comparison_yearwise_label">jaarwijde vergelijking voor %1$d jaar</string>
+
+    <string name="bill_rpt_trends_title">facturen trend</string>
+    <string name="bill_rpt_trend_daywise_last_30">30 dagen vergelijking</string>
+    <string name="bill_rpt_trend_daywise_this_week">7 dagen vergelijking, voor de hele week</string>
+    <string name="bill_rpt_trend_daywise_this_month">vergelijking voor de hele maand</string>
+    <string name="bill_rpt_trend_daywise_for_3_months">recente 3 maanden vergelijking</string>
+    <string name="bill_rpt_trend_daywise_for_6_months">recente 6 maanden vergelijking</string>
+    <string name="bill_rpt_trend_daywise_this_year">volledige jaar of 12 maanden vergelijking</string>
+
+    <string name="rpt_pdf_menu_title">genereren pdf</string>
+    <string name="rpt_pdf_name_dialog_title">genereren pdf-rapport</string>
+    <string name="rpt_pdf_name_already_exists">PDF-bestandsnaam bestaat al, gebruik een andere naam.</string>
+    <string name="rpt_pdf_name_get_error">niet in staat om pdf-bestandsnaam te krijgen..!</string>
+    <string name="rpt_pdf_generate_error">niet in staat om pdf te genereren, is uw sd-kaart aangesloten?</string>
+    <string name="rpt_pdf_name_dialog_field">bestandsnaam</string>
+    <string name="rpt_pdf_unsupported_title">apparaat niet ondersteund</string>
+    <string name="rpt_pdf_unsupported_info">je moet in ieder geval android kitkat gebruiken om pdf-rapporten te genereren. \nSorry..!</string>
+    <string name="rpt_pdf_success_title">generatie voltooid</string>
+    <string name="rpt_pdf_success_view_reports">rapporten weergeven</string>
+    <string name="rpt_pdf_success_info_file">Het nieuwe pdf-rapport is opgeslagen als: \n%1$s</string>
+    <string name="rpt_pdf_generating_progress">het genereren van pdf-rapport</string>
+    <string name="rpt_pdf_created_date">gemaakt op: %1$s</string>
+    <string name="rpt_pdf_delete_confirm">Verwijder geselecteerd rapportbestand \'%1$s\'?</string>
+    <string name="rpt_pdf_bills_filename_templete">facturen rapporteren %1$s - %2$s</string>
+    <string name="rpt_pdf_view_activity_not_found">niet in staat om een pdf-lezer te vinden. installeer alstublieft een ondersteunende pdf viewer-app, zoals een acrobatlezer.</string>
+
+    <string-array name="rpt_pdf_select_options">
+        <item>bekijken / openen</item>
+        <item>deel rapport</item>
+        <item>verwijderen</item>
+    </string-array>
+
+    <!--	Repeation  -->
+    <string name="bill_repeat_info">met behulp van onderstaande terugkerende configuratie:</string>
+    <string name="bill_repeat">terugkerende rekening</string>
+    <string name="bill_every">herhaalt elke</string>
+    <string name="bill_next_due">volgende vervaldatum</string>
+    <string name="bill_end_none">voor altijd herhalen</string>
+    <string name="bill_ends_on">herhaal tot</string>
+    <string name="bill_ends_count_title">Betaalvoorwaarden</string>
+    <string name="bill_ends_count_label">Aantal termijnen of optreden</string>
+    <string name="bill_ends_count">Herhaalt %1$d keer</string>
+    <string name="bill_repeat_disable">Schakel het automatisch maken van terugkerende items uit of stop</string>
+    <string name="bill_repeat_until_value">Herhaal tot %1$s</string>
+    <string name="bill_err_future_dt">vul een toekomstige datum in.</string>
+    <string name="bill_err_end_dt">\'volgende vervaldatum\' moet vóór \'herhalen tot datum\'</string>
+    <string-array name="repeat_array">
+        <item>dagen</item>
+        <item>weken</item>
+        <item>maanden</item>
+        <item>datum van de maand</item>
+        <item>jaar</item>
+    </string-array>
+    <string name="bill_rpt_save">herhaalde wijzigingen toepassen</string>
+    <string-array name="bill_rpt_save">
+        <item>zonder eventueel een rekening te wissen en nieuwe rekeningen te maken.</item>
+        <item>Verwijder en maak rekening met de nieuwe herhalende wijzigingen. facturen die bij deze herhalende instellingen behoren, worden alleen uitgevoerd.</item>
+        <!-- <item>Effect this and all bills.</item> -->
+    </string-array>
+    <string name="bill_rpt_remove">verwijder herhalende natuur</string>
+    <string-array name="bill_rpt_remove">
+        <item>alleen voor deze rekening.</item>
+        <item>voor dit en alle gerelateerde facturen.</item>
+    </string-array>
+
+    <string name="bill_list_options_view">bekijk de factuurgegevens</string>
+    <string name="bill_list_options_select">selecteer rij</string>
+    <string name="bill_list_options_copy">maak een kopie (duplicaat)</string>
+    <string name="bill_list_options_paid">merk als betaald</string>
+    <string name="bill_list_options_unpaid">markeer als onbetaald</string>
+    <string name="bill_list_options_delete">verwijder rekening</string>
+
+    <string name="bill_marked_paid_msg">rekening gemarkeerd als betaald</string>
+    <string name="bill_marked_unpaid_msg">Rekening wordt teruggezet naar onbetaald</string>
+    <string name="bill_removed_recurring">factuur die niet gekoppeld is aan herhalende configuratie</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- HOME.XML -->
+
+    <string name="inst_name">Naam bedrijfsprofiel</string>
+    <string name="inst_name_hint">Bedrijfs- of naam voor boekhouding.</string>
+    <string name="inst_dialog_title">profiel details</string>
+    <string name="inst_dialog_title_edit">bewerk profiel</string>
+    <string name="inst_list_title">profielen</string>
+    <string name="menu_add_profile_title">voeg profiel toe</string>
+    <string name="home_no_instances">geen profiel bestaat, maak een nieuw profiel aan.</string>
+
+    <string name="help">helpen </string>
+    <string name="inst_new">Maak een nieuw profiel</string>
+    <string name="inst_delete">verwijder dit profiel</string>
+    <string name="inst_delete_warn">profiel \'%1$s\' en alle gegevens in het worden verwijderd. \ndoorgaan?</string>
+    <string name="inst_delete_err_1inst">nee, dit is niet mogelijk..!! \nomdat dit het enige profiel is dat in deze app beschikbaar is en u moet een profiel huren om mee te werken. </string>
+    <string name="inst_profile_photo">Raak hier om profielfoto te veranderen</string>
+    <string name="inst_change_photo">verander foto</string>
+    <string name="inst_photo_from_gallery">van galerij</string>
+    <string name="inst_photo_from_camera">foto vastleggen</string>
+    <string name="inst_warn_no_multi_instance">deze versie van de app ondersteunt alleen een enkel profiel. dus verwijder eventueel ongewenste profielen of upgrade naar premium versie om meerdere profielen te gebruiken.</string>
+
+    <string name="home_help_text">profiel is een georganiseerde verzameling gegevens, zoals een opslag of account boek (niet bankrekening). de gegevens (facturen, categorieën, labels) die behoren tot een profiel, worden op één plaats opgeslagen en nooit gemengd met die van de gegevens van andere profielen. \n\ndus het geeft u meer controle en beter beheer. voorbeeld: een profiel voor persoonlijke uitgaven, en een ander voor uw kantoor of bedrijfskosten.</string>
+    <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
+    <string name="inst_rename">bewerk profiel</string>
+    <string name="inst_open">selecteer dit profiel</string>
+    <string name="default_currency">standaard valuta</string>
+
+    <string name="inst_error_add_fail">Kan geen profiel toevoegen.</string>
+    <string name="inst_error_edit_fail">Kan het profiel niet hernoemen.</string>
+    <string name="inst_error_edit_name_invalid">voer een geldige profielnaam in</string>
+    <string name="inst_default_curr">standaard valuta: %1$s</string>
+    <string name="inst_error_max_limit">maximale profiellimiet voor de proefversie, upgrade als u meer gegevensprofielen wilt maken.</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Backup / Recovery -->
+    <string name="bkp_title">back-up herstellen</string>
+    <string name="bkp_location">opslaglocatie</string>
+    <string name="bkp_location_info">Backup bestanden worden opgeslagen op: \n\n%1$s</string>
+    <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
+    <string name="bkp_name">backup naam</string>
+    <string name="bkp_created">gemaakt: %1$s</string>
+    <!--<string name="bkp_new_pref"> Photo Preference</string>-->
+    <string name="bkp_name_new"> backup naam</string>
+    <!--<string name="bkp_photos_include">Backup including Photos</string>
+    <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
+    <!--<string name="bkp_create">Create Backup</string>-->
+    <string name="bkp_list_empty">geen back-up bestaat..!</string>
+    <string name="bkp_duplicate_bkp">duplicaat backup naam, geef een andere backup naam of verwijder bestaande..!</string>
+    <string name="bkp_name_invalid">ongeldige back-upnaam \'%1$s\'. \n\nvermijd het gebruik van spaties en speciale tekens, zoals: \\ /</string>
+    <string name="bkp_failed">backup mislukt..! Zorg ervoor dat er genoeg ruimte is om op te slaan.</string>
+    <string name="bkp_inprogress_warn">backup / herstel in uitvoering, wees alsjeblieft geduld..!</string>
+
+    <string name="bkp_restore_fail">herstel mislukt..! Probeer het later nog een keer.</string>
+    <string name="bkp_send">deel back-up</string>
+    <string name="bkp_existing_label">bestaande back-ups (%1$d)</string>
+    <string name="bkp_create">maak een nieuwe backup</string>
+    <string name="bkp_send_sub">backup bestand \'%1$s\'</string>
+    <string name="bkp_rename">herbenoem de back-up</string>
+    <string name="bkp_rename_success">succesvol hernoemd \'%1$s\' naar \'%2$s\'.</string>
+    <string name="bkp_rename_failed">niet hernoemd naar \'%1$s\' naar \'%2$s\'.</string>
+    <string name="bkp_delete">verwijder de back-up</string>
+    <string name="bkp_delete_confirm">Verwijder geselecteerde gegevens backup \'%1$s\'?</string>
+    <string name="bkp_delete_success">succesvol verwijderd.</string>
+    <string name="bkp_delete_fail">niet kunnen verwijderen.</string>
+    <string name="bkp_restore_external">herstel van externe cloud</string>
+    <string name="bkp_restore_external_title">download en herstel</string>
+    <string name="bkp_restore_confirm_cloud">herstel zou enkele seconden duren tot enkele minuten, dus wees geduld alstublieft, afhankelijk van uw back-upgrootte. \n\nklik op doorgaan om een extern reservebestand te kiezen om gegevens te importeren en te herstellen.</string>
+    <string name="bkp_last_backup">Laatste backup</string>
+    <string name="bkp_last_info">Maak een back-up van uw app-gegevens en bijlagen naar Google Drive. Je kunt ze herstellen wanneer je de app opnieuw installeert, van telefoon verandert of gegevens naar een ander apparaat kopieert.</string>
+    <string name="bkp_last_local_time">Lokaal: %1$s</string>
+    <string name="bkp_last_size">Grootte: %1$s</string>
+    <string name="bkp_backup_now">Back-up</string>
+    <string name="bkp_restore_now">Herstellen</string>
+    <string name="bkp_google_drive_setting">Google Drive-instellingen</string>
+    <string name="bkp_google_drive_info">Voeg een Google-account toe om de nieuwste back-ups op te slaan. Als u Back-up naar Google Drive inschakelt, wordt de bestaande app-back-up op Google Drive overschreven, dus houd er rekening mee bij gebruik op meerdere apparaten.</string>
+    <string name="bkp_to_google_drive_label">Back-up naar Google Drive</string>
+    <string name="never">Nooit</string>
+    <string name="bkp_restore_successful">Hersteld vanaf de back-up. \n\nApp moet opnieuw worden gestart om nieuwe gegevens toe te passen.</string>
+    <string name="bkp_create_confirm_msg">Het maken van een back-up kan enkele seconden tot minuten duren, afhankelijk van de grootte van de app-gegevens, dus wees geduldig. \n\nDoorgaan met het maken van een back-up?</string>
+    <string name="bkp_over_wifi_label">Backup gebruiken</string>
+    <string name="bkp_success">Back-up gemaakt.</string>
+    <string name="bkp_restore_confirm_msg">Herstellen duurt een paar seconden tot een paar minuten, dus even geduld aub. \n\nAl uw bestaande app-gegevens op dit apparaat worden vervangen vanaf de laatste back-up. Wilt u doorgaan met de herstelbewerking?</string>
+
+    <string-array name="bkp_to_google_drive">
+        <item>@string/never</item>
+        <item>Alleen als ik op Back-up tik</item>
+        <item>Dagelijks</item>
+    </string-array>
+
+    <string-array name="bkp_over_wifi">
+        <item>Alleen wifi</item>
+        <item>Wi-Fi of mobiele data</item>
+    </string-array>
+
+    <!-- ==================================================================== -->
+    <!-- PREFERENCES.XML -->
+
+    <string name="pref_key">voorkeuren</string>
+
+    <!--<string name="prefTitleAppSetting">App Settings</string>
+    <string name="prefKeyAppSetting">appSettings</string>-->
+    <string name="prefTitleGeneralSetting">algemeen</string>
+    <string name="prefTitleDataSetting">back-ups en rapporten</string>
+    <string name="prefTitleDataSettingTrial">backup</string>
+    <!--<string name="prefKeyAppSetting">appSettings</string>-->
+
+    <string name="prefTitleAppPIN">4 cijferige pin</string>
+    <string name="prefSummaryAppPIN">Voor beveiligingsdoeleinden kunt u een pin instellen om de app te starten. Eenmaal ingesteld, wordt u gevraagd om de pin elke keer dat de app opstart</string>
+
+    <string name="prefTitleAppPINChange">verander pincode</string>
+    <string name="prefSummaryAppPINChange">Raak hier aan om uw 4 cijferige pin te veranderen.</string>
+
+    <string name="prefTitleStartupScreen">verander startscherm</string>
+    <string name="prefSummaryStartupScreen">standaard of startscherm dat wordt weergegeven wanneer de app wordt gelanceerd.</string>
+
+    <string name="prefTitleChangeLanguage">taal: %1$s</string>
+    <string name="prefSummaryChangeLanguage">Klik hier om de taal te veranderen</string>
+
+    <string name="prefTitleEnableSubcategories">Subcategorieën inschakelen</string>
+    <string name="prefSummaryEnableSubcategories">Tik op om twee niveau categorieën te gebruiken</string>
+
+    <string name="prefTitleInstSetting">profiel</string>
+
+    <string name="prefTitleDefaultCurrency">standaard profiel valuta: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">Valuta die vooraf wordt ingevuld terwijl u een nieuw record toevoegt voor dit profiel.</string>
+
+    <string name="prefTitleManageInstance">profielen beheren</string>
+    <string name="prefSummaryManageInstance">om een ander profiel te maken, te verwijderen of te wijzigen.</string>
+
+    <!--<string name="prefKeyBillSettings">billsSettings</string>-->
+    <string name="prefTitleBillSettings">biljetten</string>
+    <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
+
+    <string name="prefTitleNotifyTick">herinnering aanmeldingen</string>
+    <string name="prefSummaryNotifyTick">Informeer me over de facturen die zijn gemarkeerd om dit te doen. (selecteer uit om uit te schakelen)</string>
+    <string name="prefSummaryNotifyUnTick">meldingen zijn nu uitgeschakeld. (selecteer om in te schakelen)</string>
+
+    <string name="prefTitleNotifyTime">meldtijd: %1$s:%2$s</string>
+    <string name="prefSummaryNotifyTime">Er worden op dit moment dagelijks aanmeldingen opgestoken</string>
+
+    <string name="prefTitleNotifyDays">standaard herinnering aanmelding</string>
+    <string name="prefSummaryNotifyDays">Voor nieuwe facturen, is dit voorversteld als optie voor de herinnering van de herinneringen. Voorbeeld: 5 dagen voor de vervaldag</string>
+
+    <string name="prefTitleForcast">voorspellingsperiode</string>
+    <string name="prefTitleForcastDialog">herhaalde facturen maken</string>
+    <string name="prefSummaryForcast">terugkerende rekeningen worden vooraf gegenereerd tot de aangegeven periode. Voorbeeld: 3 maanden van tevoren</string>
+
+    <string name="pref_inst_currency_set_to">profiel valuta ingesteld op: %1$s</string>
+
+    <!-- Backup / restore preferences (29.mar.2015) -->
+
+    <string name="prefTitlePDFReports">gegenereerde rapporten</string>
+    <string name="prefSummaryPDFReports">Klik hier om de lijst met gegenereerde pdf-bestanden te bekijken. Wanneer een pdf-rapport wordt gegenereerd, worden ze door de app opgeslagen, waar u kunt bekijken, delen, verwijderen volgens uw behoeften.</string>
+
+    <string name="prefTitleBackupPhotos">back-up omvatten bijlagen</string>
+    <string name="prefSummaryBackupPhotosTick">Back-ups bevatten nu gegevens en bijgevoegde bonnenfoto\'s, zoals in een volledige back-up</string>
+    <string name="prefSummaryBackupPhotosUnTick">Snelle back-up is actief, dus back-ups bevatten alleen gegevens en negeren eventuele bijgevoegde foto\'s</string>
+
+    <string name="prefSummaryBackupAccount">Selecteer een Google Drive-account om al uw applicatiegegevensback-up op te slaan.</string>
+    <string name="prefSummaryBackupAccountUnlink">Wilt u uw Google Drive-account ontkoppelen? Er wordt dus geen back-up van uw gegevens gemaakt in de cloudopslag.</string>
+
+    <string name="prefTitleBackupDriveSyncTime">Laatste tijd voor back-upsynchronisatie</string>
+
+    <string name="prefTitleBackupWiFi">Alleen back-up via wifi</string>
+    <string name="prefSummaryBackupWiFi">Schakel in om Google Drive-back-ups alleen via wifi uit te voeren. Verwijder het vinkje om zowel wifi als mobiele internetgegevens te gebruiken.</string>
+
+    <!-- Access Denied / Root detected Activity -->
+    <string name="title_activity_access_denied">toegang geweigerd</string>
+    <string name="access_denied_lable">er is iets fout gegaan..!</string>
+    <string name="access_denied_msg">Probeer het opnieuw of contacteer de ontwikkelaar over het probleem.</string>
+    <string name="access_denied_autofixed">een probleem is automatisch opgelost. \n\nstart de app opnieuw en je bent goed te gaan.</string>
+
+    <!-- Filter Fragement -->
+    <string name="filter_data">filter data</string>
+    <string name="filter_menu">filter</string>
+    <string name="filter_apply">Voeg filter toe</string>
+    <string name="filter_selected_save">besparen</string>
+    <string name="filter_clear">reset</string>
+    <string name="filter_invert">omgekeerde</string>
+    <string name="filter_sort_by">sorteer op: %1$s</string>
+    <string name="filter_category_title">filtercategorieën</string>
+    <string name="filter_categories_all">categorieën (alle)</string>
+    <string name="filter_categories_count">categorieën (%1$d)</string>
+    <string name="filter_currency_title">filter valuta</string>
+    <string name="filter_currencies_all">valuta (alle)</string>
+    <string name="filter_currencies_count">valuta\'s (%1$d)</string>
+    <string name="filter_photo_title">filter records met</string>
+    <string name="filter_photo_any">ontvangstfoto (elke)</string>
+    <string name="filter_photo_yes">foto bijgevoegd</string>
+    <string name="filter_photo_no">foto niet bijgevoegd</string>
+
+    <!-- New Recurring Screen -->
+    <string name="bills_paid_total">betaald: %1$s</string>
+    <string name="recurbill_total">totaal: </string>
+    <string name="bills_overdue_total">achterstallig: %1$s</string>
+    <string name="bills_upcoming_total">aankomend: %1$s</string>
+    <string name="recurbill_list_empty">Er bestaan geen terugkerende configuraties. \n(raak drijvende \'+\' knop om een te maken)</string>
+    <string name="recurbill_list_title">herhalende configuraties</string>
+    <string name="recurbill_list_subtitle">voor rekeningen</string>
+    <string name="bills_recur_subtitle">elke %1$s %2$s</string>
+    <string name="menu_recurbill_delete">herhaaldelijk verwijderen</string>
+    <string name="recurbill_list_unselected">selecteer alsjeblieft een terugkerende configuratie in het linkerkant.</string>
+    <string name="recurring">terugkerend</string>
+
+    <string name="currency_all">alle valuta\'s</string>
+    <string name="title_activity_inst_edit">profiel details</string>
+
+    <!-- Period, ViewPager, TabLayout -->
+    <string name="period_dashboard_change">veranderingsperiode</string>
+    <string name="period_daily">dagelijks</string>
+    <string name="period_weekly">wekelijks</string>
+    <string name="period_monthly">maandelijks</string>
+    <string name="period_yearly">jaar</string>
+    <string name="period_custom">aangepast bereik</string>
+    <string name="period_custom_range">%1$s - %2$s</string>
+    <string name="period_custom_range_title">selecteer een datumbereik</string>
+    <string name="period_custom_enter_from">Voer vanaf datum in</string>
+    <string name="period_custom_enter_to">tot op heden betreden</string>
+
+    <string name="period_today">vandaag</string>
+    <string name="period_yesterday">gisteren</string>
+    <string name="period_tomorrow">morgen</string>
+    <string name="period_thisweek">deze week</string>
+    <string name="period_lastweek">vorige week</string>
+    <string name="period_nextweek">volgende week</string>
+    <string name="period_rangeweek">w/c %1$s</string>
+    <string name="period_rangeweek2">%1$s - %2$s</string>
+    <string name="period_thismonth">deze maand</string>
+    <string name="period_lastmonth">vorige maand</string>
+    <string name="period_nextmonth">volgende maand</string>
+    <string name="period_thisyear">dit jaar</string>
+    <string name="period_lastyear">afgelopen jaar</string>
+    <string name="period_nextyear">volgend jaar</string>
+    <string name="period_and_future">%1$s en toekomst</string>
+    <string name="period_custom_last_7days">laatste 7 dagen</string>
+    <string name="period_custom_last_30days">laatste 30 dagen</string>
+    <string name="period_custom_last_3months">laatste 3 maanden</string>
+    <string name="period_custom_recent_6months">recente 6 maanden</string>
+    <string name="period_custom_recent_12months">recente 12 maanden</string>
+    <string name="period_custom_date_range">aangepast datumbereik</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">dashboard</string>
+    <string name="dashboard_title_bill_chart_payable">betaalbare facturen (per categorie)</string>
+    <string name="dashboard_title_bill_chart_receivable">facturen ontvangen (per categorie)</string>
+    <string name="dashboard_title_bill_chart_payable_status">betaalbare rekeningen (per status)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">facturen ontvangen (door status)</string>
+    <string name="dashboard_summary">rekening overzicht </string>
+    <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
+    <string name="dashboard_summary_receivable">Te ontvangen: </string>
+    <string name="dashboard_summary_payable">vergoeding: </string>
+    <string name="dashboard_summary_total">totaal:</string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_title">over</string>
+    <string name="about_version">versie: %1$s</string>
+    <string name="about_version_trial">versie: %1$s (gratis proef)</string>
+    <string name="about_description">facturen herinnering helpt u om uw betalingen te organiseren en te volgen, zowel betaald / onbetaald als betaalbaar / debiteurbaar. Voeg simpelweg een rekening toe in deze app en het zal er dagelijks aan herinneren, totdat je het hebt gemarkeerd of betaald. facturen die als terugkerend zijn gemarkeerd, worden automatisch gecreëerd op basis van de geleverde configuraties en voorspellingsperiode, waardoor u volledige gemoedsrust krijgt.</string>
+    <string name="about_facebook">vind ons leuk op Facebook</string>
+    <string name="about_twitter">Volg ons op Twitter</string>
+    <string name="about_googleplay">beoordeel deze app</string>
+    <string name="about_share">deel deze app</string>
+    <string name="about_welcome_tutorial">handleiding schermen</string>
+    <string name="about_visit_124">bezoek 124APPS</string>
+
+    <string name="feature_label_free">gratis proefperiode</string>
+    <string name="feature_desc_free">De versie bevat basisfuncties om uw rekeningen te beheren \n</string>
+    <string-array name="feature_items_free">
+        <item>dagelijkse herinnering aan facturen</item>
+        <item>bevestig foto aan rekeningen</item>
+        <item>terugkerende rekeningen ondersteuning</item>
+        <item>beperkte rekeningen (300)</item>
+        <item>beperkte categorieën en subcategorieën (70)</item>
+        <item>wijziging herinnering kennisgeving tijd</item>
+        <item>zoekrekeningen</item>
+        <item>dashboard overzicht van facturen voor elke maand</item>
+        <item>Bekijk de facturen per status</item>
+        <item>Bekijk rekeningen maandverstand</item>
+        <item>kalenderweergave van facturen</item>
+        <item>meerdere selectie: verwijdering van meerdere facturen en categorieën</item>
+        <item>meerdere selectie: kopieer meerdere facturen en categorieën</item>
+        <item>Rapporten: categorie wise facturen voor elke maand</item>
+        <item>scan een streepjescode en voeg het toe aan rekeningbiljetten</item>
+        <item>Voeg een rekening-url toe aan de factuur</item>
+        <item>Maak een back-up, inclusief bijgevoegde ontvangstfoto\'s</item>
+        <item>dagelijkse geplande backups</item>
+        <item>alleen een enkel profiel</item>
+    </string-array>
+    <string name="feature_label_pro">premie</string>
+    <string name="feature_desc_pro">Dit omvat alle functies die worden geleverd door \'free trial\' \n\t\t\t+\nonder de premiumfuncties: \n</string>
+    <string-array name="feature_items_pro">
+        <item>onbeperkte rekeningen</item>
+        <item>onbeperkte categorieën en subcategorieën</item>
+        <item>herhaalde facturen en de configuratie ervan op een rij verwijderen. (bulk verwijdering)</item>
+        <item>meerdere selectie: verander categorie van meerdere facturen</item>
+        <item>meerdere selectie: wijziging herinnering kennisgeving van facturen</item>
+        <item>dashboard overzicht voor elke dag, week, maand en jaar.</item>
+        <item>Bekijk rekeningen voor elke dag, week, maand, jaar en aangepaste periode</item>
+        <item>Rapporten: categoriewijzige facturen voor elke dag, week, maand, jaar en aangepaste periode</item>
+        <item>rapporten: facturen trend</item>
+        <item>rapporten: vergelijking tussen weken, dagen, maanden, jaren</item>
+        <item>rapporten: genereren pdf rapporten en delen</item>
+        <item>verander startscherm</item>
+        <item>controleer geplande backups</item>
+        <item>delen en exporteren van back-ups via email, drive, dropbox</item>
+        <item>Lokale back-ups herstellen en gedownload van de cloud</item>
+        <item>app beveiliging met behulp van pin en vingerafdrukken</item>
+    </string-array>
+    <string name="feature_label_multiprof">meerdere profielen</string>
+    <string name="feature_desc_multiprof">dit vereist premium versie.\nhelpt u bij het behoud van meerdere profielen, waarbij elk profiel betrekking heeft op zijn eigen gegevens. Bijvoorbeeld, scheid uw persoonlijke uitgaven met die van uw bedrijfsuitgaven. dus elk profiel heeft zijn eigen:\n</string>
+    <string-array name="feature_items_multiprof">
+        <item>categorieën</item>
+        <item>biljetten</item>
+        <item>terugkerende factuurinstellingen</item>
+        <item>rapporten en andere schermen zullen rekeningen uit zijn eigen profiel overwegen</item>
+        <item>Hiermee worden profielfuncties ingeschakeld</item>
+    </string-array>
+    <string name="feature_tab_title">Kenmerken</string>
+    <string name="feature_tab_cloud_title">wolkabonnement</string>
+    <string name="feature_comparison_title">functies vergelijking</string>
+    <string name="feature_subscription_title">functies en upgrade</string>
+    <string name="feature_this_version">dit is gratis proefversie van bills reminder app en u kunt hieronder upgrades kopen om de app op zijn best te kunnen genieten.</string>
+    <string name="feature_view_comparison">bekijk functies vergelijking</string>
+    <string name="feature_purchased">gekocht</string>
+
+    <string name="welcome_title1_bill_detail">Voeg een nieuwe factuurherinnering toe</string>
+    <string name="welcome_info1_bill_detail">voer rekeninggegevens in en sla het op. ondersteunt ook herhalende rekeningen en wissel valuta.</string>
+    <string name="welcome_title2_receipt">foto uw ontvangstbewijs</string>
+    <string name="welcome_info2_receipt">ga papierloos door de factuurbevestiging samen met de factuurgegevens aan te vullen.</string>
+    <string name="welcome_title3_bill_upcoming">Bekijk de facturen per status</string>
+    <string name="welcome_info3_bill_upcoming">krijg een snelle blik op aankomende, achterstallige, onbetaalde en betaalde facturen. </string>
+    <string name="welcome_title4_bill_list">Eenvoudige tabbladindeling</string>
+    <string name="welcome_info4_bill_list">Bekijk rekeningen voor elke periode en veeg snel tussen tabbladen. voorbeeld: voor elke maand.</string>
+    <string name="welcome_title5_drawer">navigatie lade menu</string>
+    <string name="welcome_info5_drawer">dashboard, categorieën en subcategorieën, agenda, meerdere valuta, rapporten en grafieken, meerdere profielen, back-up en herstel.</string>
+    <string name="welcome_title6_recurring">Herhaalde facturen beheren</string>
+    <string name="welcome_info6_recurring">herhalende configuraties helpt bij het gemakkelijk maken, bijwerken, verwijderen van facturen en terugkerende facturen.</string>
+    <string name="welcome_title6_settings">instelling voor gemakkelijke aanpassing</string>
+    <string name="welcome_info6_settings">verander kennisgevingstijd, herhalende rekeningen voorspellingsperiode, wissel standaard valuta en nog veel meer.</string>
+
+    <string name="coffee_title">koop ons een koffie</string>
+    <string name="coffee_description">we werken dagen en nachten om u de beste app-ervaring te geven, nieuwe functies toe te voegen, defecten op te lossen. ondersteun alstublieft onze ontwikkeling - koop een kopje koffie.</string>
+    <string name="coffee_buy_now">koop nu</string>
+    <string name="coffee_thank_you">dank je</string>
+
+    <string name="widget_bill_overview_title">rekeningen samenvatting</string>
+    <string name="widget_bill_overview_overdue">achterstallig: </string>
+    <string name="widget_bill_overview_today">verschuldigd vandaag: </string>
+    <string name="widget_bill_overview_upcoming">aankomende: </string>
+    <string name="widget_bill_overview_count">%1$d</string>
+
+    <string name="widget_bill_single_title">een rekening volgen</string>
+    <string name="widget_bill_paid_on">betaald op %1$s</string>
+    <string name="widget_bill_due_in">verschuldigd in %1$d dagen</string>
+    <string name="widget_bill_due_tomorrow">morgen verschijnen</string>
+    <string name="widget_bill_due_today">verschuldigd vandaag</string>
+    <string name="widget_bill_due_yesterday">van gisteren</string>
+    <string name="widget_bill_overdue_by">achterstallig met %1$d dagen</string>
+    <string name="coach_mark_add_bill">Klik op de knop \'+\' om een rekeningherinnering toe te voegen</string>
+    <string name="coach_mark_burger_icon">Klik op de burgerpictogram om andere schermen te bekijken</string>
+    <string name="widget_bill_select_title">Selecteer een factuur</string>
+
+    <string name="error_max_bills_exceeded">aantal facturen overschrijdt de maximale limiet, voer een upgrade uit om meer facturen toe te voegen.</string>
+    <string name="error_max_cats_exceeded">aantal categorieën overschreden maximumlimiet, voer een upgrade uit om meer categorieën toe te voegen.</string>
+
+    <string name="bill_paid1">betaalde factuur</string>
+    <string name="bill_unpaid1">onbetaalde rekening</string>
+    <string name="bill_overdue1">achterstallige rekening</string>
+    <string name="bill_upcoming1">aankomende rekening</string>
+    <string name="bill_payments">rekeningbetalingen (%1$d)</string>
+    <string name="bill_payment_mark_paid">wordt volledig betaald</string>
+    <string name="bill_payment">betaling van facturen</string>
+    <string name="bill_make_payment">voeg een betaling toe</string>
+    <string name="bill_payments_empty_text">nog geen betalingen op deze factuur.</string>
+    <string name="bill_payment_total">Het totaal van %1$d factureringsbetalingen is %2$s</string>
+    <string name="bill_payment_total_remaining">%1$s blijven betalen op het totaal verschuldigde bedrag %2$s</string>
+    <string name="bill_payment_total_overpaid">%1$s te veel betaald op het totale verschuldigde bedrag van %2$s</string>
+    <string name="bill_payment_total_equal">hartelijk gefeliciteerd! deze rekening wordt betaald.</string>
+    <string name="bill_payment_heading">%1$s is beschikbaar op %2$s</string>
+    <string name="bill_payment_bill_amt">rekening hoeveelheid:</string>
+    <string name="bill_payment_amt_paid">totaal betaald:</string>
+    <string name="bill_payment_amt_due">verschuldigd bedrag:</string>
+    <string name="bill_payment_date">betaaldatum</string>
+    <string name="bill_payment_last_paid_dt">laatst betaald op %1$s</string>
+    <string name="bill_payment_not_exits">[geen]</string>
+    <string name="bill_payments_tablet_view">markeer als betaald, bekijk of voeg factuurbetalingen toe &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Totaal resterend:</string>
+
+    <string name="contact_name_hint">Contact-, klant- of bedrijfsnaam</string>
+    <string name="contact_payee_empty">Geef een contactnaam op.</string>
+    <string name="contact_max_limit_exceed">Maximum aantal contacten overschreden, voer een upgrade uit om meer toe te voegen.</string>
+    <string name="recur_list_selectmode_title">Selecteer een terugkerende configuratie</string>
+    <string name="recur_details_title">Terugkerende configuratie</string>
+    <string name="recur_details_saved">Nieuwe terugkerende configuratie gemaakt.</string>
+    <string name="recur_details_updated">Terugkerende configuratie bijgewerkt</string>
+    <string name="recur_details_edit">Configuratie bewerken</string>
+    <string name="recur_link_add_label">Voeg terugkerende aard toe</string>
+    <string name="recur_forecast_period_is">De huidige voorspellingsperiode is ingesteld op %1$s.</string>
+    <string name="recur_forecast_period_date">Dit betekent dat terugkerende vermeldingen automatisch worden gemaakt tot %1$s.</string>
+    <string name="recur_forecast_view_settings">Voorspellingsperiode bekijken</string>
+    <string-array name="recur_config_add_options">
+        <item>Kies een bestaande configuratie</item>
+        <item>Maak een nieuwe terugkerende configuratie</item>
+    </string-array>
+
+    <string name="attachment_title">Bijlagen</string>
+    <string name="attachment_title_count">Bijlagen (%1$d)</string>
+    <string name="attachment_non_exists">Geen bijlagen bestaat, tik op bovenstaande knoppen om een ​​foto of bestand aan dit item toe te voegen.</string>
+    <string name="attachment_take_photo">Maak een foto</string>
+    <string name="attachment_add_file">Voeg een bestaand bestand toe</string>
+    <string name="attachment_deleting_snackbar">%1$s verwijderen&#8230;</string>
+    <string name="bill_attachments_tablet_view">Ontvangsten / bijlagen toevoegen of bekijken &#8230;</string>
+    <string name="bill_attachments_save_label">Opslaan en opnieuw laden om bijlagen toe te voegen</string>
+
+    <string name="cat_no_of_linked_rows_txs_bills">%1$d transacties, %2$d facturen.</string>
+    <string name="cat_no_of_linked_rows_txs">%1$d transacties.</string>
+
+    <string name="acct_1name">Contant geld</string>
+    <string name="acct_1desc">Klik hier om een account te bewerken of te verwijderen.</string>
+    <string name="acct_2name">Kredietkaart</string>
+    <string name="acct_2desc">Tik gewoon op om de accounttransacties te bekijken.</string>
+    <string name="acct_3name">Bankrekening</string>
+    <string name="acct_3desc">Bekijk accountgegevens om een maandelijks budget in te stellen.</string>
+
+    <string name="transfer_title">geld transfer</string>
+    <string name="view_settings">Bekijk instellingen</string>
+    <string name="google_drive_not_linked">Koppel uw Google-account om een ​​back-up van uw gegevens te maken in Google Drive-opslag.</string>
+
+    <string name="cat_icon">Icoon</string>
+    <!-- <string name="tax_percent">Tax Rate</string> -->
+    <string name="bill_date">Factuurdatum</string>
+    <string name="bill_notify_enable">Dagelijkse herinneringsmelding weergeven</string>
+    <string name="menu_txs_list">transacties</string>
+
+    <string name="contacts_and_groups_label">Contacten en groepen</string>
+    <string name="contacts_list">Contacten</string>
+    <string name="contact_select">Selecteer een contactpersoon</string>
+    <string name="contact_new">Nieuw contact</string>
+    <string name="contact_details">Contact details</string>
+    <string name="contact_name_empty">Contactnaam is leeg..!</string>
+    <string name="contact_list_empty_hint">Er bestaat geen contact. \n(Raak de zwevende knop aan om er een toe te voegen)</string>
+    <string name="contact_saved">Contact opgeslagen</string>
+    <string name="contact_phone">Telefoonnummer</string>
+    <string name="contact_email">E-mailadres</string>
+    <string name="contact_phone_alt">Alternatief telefoonnummer</string>
+    <string name="contact_email_alt">Alternatief email adres</string>
+    <string name="contact_address">Contact adres</string>
+    <string name="contact_deleted">Contact succesvol verwijderd</string>
+    <string name="contact_inuse_warn_msg">Contact momenteel in gebruik</string>
+    <string name="contact_deleted_warn">Het geselecteerde contact wordt verwijderd.</string>
+    <string name="contact_member_of_group">Lid van %1$d groepen</string>
+
+    <string name="group_new">Nieuwe groep</string>
+    <string name="group_details">Groepsdetails</string>
+    <string name="group_name_hint">Groeps- of teamnaam</string>
+    <string name="export_body">&lt;p&gt; Verzonden vanuit de Android-app voor het herinneren van rekeningen &lt;/p&gt;</string>
+    <string name="contact_all_title">Alle contacten</string>
+    <string name="contact_group_title">Groepen</string>
+    <string name="group_list_empty_hint">Er bestaat geen contactgroep. \n(Raak de zwevende knop aan om er een te maken)</string>
+    <string name="group_list_empty">Er bestaat geen contactgroep.</string>
+    <string name="group_saved">Contactgroep opgeslagen</string>
+    <string name="group_name_empty">Groepsnaam is leeg..!</string>
+    <string name="delete_unsaved_warn">Kan niet-opgeslagen record niet verwijderen.</string>
+    <string name="group_deleted">Groep succesvol verwijderd.</string>
+    <string name="group_delete_warn">Geselecteerde groepen worden verwijderd.</string>
+    <string name="group_contacts_conut">%1$d contacten</string>
+    <string name="group_add_members">Leden toevoegen</string>
+    <string name="group_select_contacts">Selecteer Contacten</string>
+
+    <string name="records_deleted_multi">%1$d records verwijderd.</string>
+    <string name="records_create_multi">%1$d records gemaakt.</string>
+
+</resources>

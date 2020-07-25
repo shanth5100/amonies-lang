@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_upgrade">Aktualisierung</string>
+    <string name="upgrade_to_pro">auf Premium upgraden</string>
+    <string name="feature_unavailable">Diese Funktion ist nur in Premium Version verfügbar.</string>
+
+    <string name="error_save">nicht in der Lage Änderungen zu speichern, bitte versuchen Sie es später erneut.</string>
+    <string name="error_unknown">unbekannter Fehler aufgetreten, wenden Sie sich bitte an Support.</string>
+    <string name="err_empty_text">Bitte geben Sie einen gültigen Text an.</string>
+    <string name="error">Fehler</string>
+    <string name="save">sparen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="update">aktualisieren</string>
+    <string name="delete">löschen</string>
+    <string name="export">Export</string>
+    <string name="cancel">stornieren</string>
+    <string name="goto_play_store">offener Google Play Store</string>
+    <string name="continue_">fortsetzen</string>
+    <string name="ok">OK</string>
+    <string name="skip">überspringen</string>
+    <string name="done">Ich habs</string>
+    <string name="select_a_option_warn">Bitte wählen Sie eine Option aus</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="error_offline_title">kein Internet</string>
+    <string name="error_offline_message">Du musst online sein um diesen Vorgang durchzuführen. Bitte stellen Sie sicher dass Ihre WiFi oder Datenverbindung aktiv ist.</string>
+    <string name="app_needs_relaunch">App muss neu gestartet werden um neue Einstellungen zu übernehmen.</string>
+    <string name="email_send_title">Email senden</string>
+
+    <!-- ==================================================================== -->
+    <!-- CONFIG.XML -->
+
+    <string name="home_data_inst_name">mein Profil</string>
+    <string name="duplicate">Duplikat</string>
+    <string name="share">Teilen</string>
+    <string name="add">hinzufügen</string>
+    <string name="cat_detail">Kategorie Details</string>
+    <string name="expense">Kosten</string>
+    <string name="income">Einkommen</string>
+    <string name="receivable">empfangbar</string>
+    <string name="payable">zahlbar</string>
+    <string name="both_expense_income">Aufwendungen und Erträge</string>
+    <string name="both_payable_receivable">zahlbar und empfangbar</string>
+
+
+    <string name="cat_list_title">kategorien</string>
+    <string name="cat_list_empty">keine Kategorie existiert..!</string>
+    <string name="cat_added">Kategorie hinzugefügt</string>
+    <string name="cat_deleted">Kategorie gelöscht</string>
+    <string name="cat_saved">Kategorie gespeichert</string>
+    <string name="cat_select_a_cat">Kategorie wählen</string>
+    <string name="cat_change">Kategorie ändern</string>
+    <string name="cat_deleted_multi">%1$d Kategorien gelöscht.</string>
+    <string name="cat_edit">Kategorie Details</string>
+    <string name="cat_name_empty">Kategorie Name ist leer..!</string>
+    <string name="cat_error_selfparent">Kategorie kann nicht seine eigene Unterkategorie sein, bitte wählen Sie eine andere übergeordnete Kategorie.</string>
+    <string name="cat_name_err">Duplikat Kategorie Name, bitte verwenden Sie einen anderen Namen..!</string>
+    <string name="cat_delete_warn">ausgewählte Kategorie und ihre Unterkategorien werden gelöscht. \n\nauch alle Einträge die mit der Kategorie verknüpft sind werden der Standardkategorie zugewiesen.</string>
+    <string name="cat_delete_unsaved">kann nicht gelöschte Kategorie löschen.</string>
+    <string name="cat_name">Kategoriename</string>
+    <string name="cat_no_of_linked_rows">%1$d Rechnungen.</string>
+    <string name="cat_code">Code</string>
+    <string name="cat_code_empty_err">Geben Sie einen Kategoriecode ein</string>
+    <string name="cat_code_existing_err">Kategoriencode bereits verwendet</string>
+    <string name="cat_type">Art</string>
+    <string name="cat_desc">Kategorie beschreibung</string>
+    <string name="cat_color">Farbe</string>
+    <string name="cat_change_color_tap">tippen um die Farbe zu ändern</string>
+    <string name="cat_parent_switch">Dies ist eine übergeordnete Kategorie (oberste Ebene)</string>
+    <string name="cat_subcategory_of">Unterkategorie von</string>
+    <string name="cat_select_parent">Eltern Kategorie</string>
+    <string-array name="cat_types">
+        <item>Aufwendungen / Verbindlichkeiten</item>
+        <item>Einkommen / Forderungen</item>
+    </string-array>
+    <string name="cat_search_hint">hier zu filtern</string>
+    <!-- Categories '', '', '') -->
+    <string name="cat_0allCategories">Alle Kategorien</string>
+    <string name="cat_1others">andere</string>
+    <string name="cat_1_1">zahlungen</string>
+    <string name="cat_1_2">Geschenke</string>
+    <!-- <string name="cat_1_3">Charity</string>
+    <string name="cat_1_4">Pets</string>
+    <string name="cat_1_5">Investment</string> -->
+    <string name="cat_2transfer">Übertragung</string>
+
+    <string name="cat_3personal">Körperpflege</string>
+    <string name="cat_3_1">Haare und Schönheit</string>
+    <string name="cat_3_2">Fitness und Fitness</string>
+    <string name="cat_3_3">medizinisch</string>
+    <string name="cat_3_4">zahnmedizinisch</string>
+
+    <string name="cat_4food">Essen und Trinken</string>
+    <string name="cat_4_1">Kaffee</string>
+    <string name="cat_4_2">Mahlzeit</string>
+    <string name="cat_4_3">Essen zum Mitnehmen</string>
+    <string name="cat_4_4">Tee</string>
+    <string name="cat_4_5">Restaurant</string>
+    <string name="cat_4_6">Lebensmittelmarkt</string>
+    <string name="cat_4_7">Snack</string>
+
+    <string name="cat_5entertainment">Unterhaltung</string>
+    <string name="cat_5_1">Filme</string>
+    <string name="cat_5_2">trinken</string>
+    <string name="cat_5_4">Urlaub</string>
+    <string name="cat_5_5">Konzert und Theater</string>
+    <string name="cat_5_6">spiele</string>
+    <string name="cat_5_7">Party</string>
+
+    <string name="cat_6automobile">Automobil</string>
+    <string name="cat_6_1">Autowäsche</string>
+    <string name="cat_6_2">Treibstoff</string>
+    <string name="cat_6_3">Service und Reparatur</string>
+    <string name="cat_6_4">Versicherung</string>
+    <string name="cat_6_5">Zubehör</string>
+    <string name="cat_6_6">Kfz Steuer</string>
+    <string name="cat_6_7">Parken</string>
+    <!--<string name="cat_6_7">Registration</string>-->
+
+    <string name="cat_7shopping">Einkaufen</string>
+    <string name="cat_7_1">Kleidung</string>
+    <string name="cat_7_2">Computer und Zubehör</string>
+    <string name="cat_7_3">Elektronik</string>
+    <string name="cat_7_4">digitale Musik</string>
+    <string name="cat_7_5">Lebensmittel</string>
+    <string name="cat_7_6">mobile und gadgets</string>
+    <string name="cat_7_7">Schmuck</string>
+    <string name="cat_7_8">andere einkaufen</string>
+    <string name="cat_7_9">Möbel</string>
+    <string name="cat_7_10">Spielzeug</string>
+    <string name="cat_7_11">Abonnement</string>
+    <string name="cat_7_12">Garten</string>
+
+    <string name="cat_8travel">Reise</string>
+    <string name="cat_8_1">Zug</string>
+    <string name="cat_8_2">Bus</string>
+    <string name="cat_8_3">Flug</string>
+    <string name="cat_8_4">Versicherung</string>
+    <string name="cat_8_5">Nahverkehr</string>
+    <string name="cat_8_6">Taxi</string>
+    <string name="cat_8_7">Autovermietung</string>
+    <string name="cat_8_8">Hotel</string>
+    <string name="cat_8_9">anderen Transport</string>
+
+    <string name="cat_9banking">banking</string>
+    <string name="cat_9_1">Darlehen</string>
+    <string name="cat_9_2">interessieren</string>
+    <string name="cat_9_3">Gebühren</string>
+    <string name="cat_9_4">Ersparnisse</string>
+    <string name="cat_9_5">Hypothek</string>
+    <string name="cat_9_6">Aktienhandel</string>
+    <string name="cat_9_7">Investitionen</string>
+
+    <string name="cat_10home">Zuhause</string>
+    <string name="cat_10_1">Strom und Gas</string>
+    <string name="cat_10_2">Internet und Telefon</string>
+    <!--<string name="cat_10_3">Gas</string>-->
+    <string name="cat_10_4">Wasser</string>
+    <string name="cat_10_5">Fernseher</string>
+    <string name="cat_10_6">Reinigungsservice</string>
+    <string name="cat_10_7">reparaturen</string>
+    <string name="cat_10_8">Dienstprogramme</string>
+    <string name="cat_10_9">Unterkunft</string>
+    <string name="cat_10_10">Miete</string>
+    <string name="cat_10_11">Versicherung</string>
+    <string name="cat_10_12">Vermögenssteuer</string>
+
+    <string name="cat_11work">Arbeit</string>
+    <string name="cat_11_1">Gehalt</string>
+    <string name="cat_11_2">Dividende</string>
+    <string name="cat_11_3">Bonus</string>
+    <string name="cat_11_4">Kostenabrechnung</string>
+    <string name="cat_11_5">Schreibwaren</string>
+    <string name="cat_11_6">Steuer</string>
+
+    <string name="cat_12family">Familie</string>
+    <string name="cat_12_1">Kinderbetreuung</string>
+    <string name="cat_12_2">Schule und Hochschule</string>
+    <string name="cat_12_3">Taschengeld</string>
+    <string name="cat_12_4">Versicherung</string>
+    <string name="cat_12_5">medizinische Versorgung</string>
+
+    <string name="cat_system">Standardkategorie</string>
+    <string name="cat_system_delete_err">kann die Systemkategorie nicht löschen</string>
+
+    <string name="label_list_title">Etiketten</string>
+    <string name="label_list_empty">kein Etikett existiert..!</string>
+    <string name="label_new_title">Neues Label</string>
+    <string name="label_edit_title">Bearbeiten/Anzeigen von Etiketten</string>
+    <string name="label_enter">Geben Sie den Labelsamen ein</string>
+    <string name="label_name_err">Bitte geben Sie einen gültigen Etikettennamen ein.!</string>
+    <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
+    <string name="label_add">Etiketten hinzufügen</string>
+    <string name="label_details">Etikettendetails</string>
+    <string name="label_saved">Etikett erfolgreich gespeichert.</string>
+    <string name="label_deleted">Etikett erfolgreich gelöscht.</string>
+    <string name="label_delete_warning">Das ausgewählte Etikett wird gelöscht.</string>
+    <string name="labels_filter_title">Filteretiketten</string>
+    <string name="labels_filter_all">Etiketten (Alle)</string>
+    <string name="labels_filter_count">Etiketten (%1$d)</string>
+
+    <!-- Startup Screen Chooser -->
+    <string name="startup_screen_title">Wähle einen Startbildschirm</string>
+    <string name="startup_screen_msg">Wählen Sie einen Startbildschirm aus den Sie gerne sehen wann immer Sie die App öffnen.</string>
+    <string name="startup_screen_note">Du kannst jederzeit deine Auswahl durch Einstellungen ändern.</string>
+    <string name="startup_screen_label_default">%1$s - empfohlen</string>
+    <string name="startup_screen_change_success">Startbildschirm wurde erfolgreich geändert</string>
+
+    <!-- from string.xml -->
+    <string name="select_currency">Währung wählen</string>
+    <string name="warn_invalid_amt">Bitte geben Sie einen gültigen Betrag ein.</string>
+    <string name="warn_invalid_no">Bitte geben Sie eine gültige Nummer ein.</string>
+    <string name="warn_invalid_no_min1">Bitte geben Sie eine gültige Zahl größer als 1 ein.</string>
+    <string name="category">Kategorie</string>
+    <string name="amount">Menge</string>
+    <string name="amount_empty_warn">Menge eingeben</string>
+    <string name="amount_hint">Betrag, Beispiel: 124.55</string>
+    <string name="bill_currency">Währung</string>
+    <string name="change_currency">währung ändern</string>
+    <string name="select_a_option">Wähle eine Option</string>
+    <string name="processing">wird bearbeitet…</string>
+    <string name="email_dev">Kontaktentwickler</string>
+    <string name="exit">Ausfahrt</string>
+    <string name="exit_info">Tippen Sie auf, um die App zu schließen</string>
+    <string name="restart">Neustart</string>
+    <string name="drawer_bills_by_status">Rechnungen nach Status</string>
+    <string name="drawer_settings_sep">Werkzeuge / Einstellungen</string>
+    <string name="drawer_settings">Einstellungen</string>
+    <string name="manage_categories">kategorien</string>
+    <string name="drawer_rpt_charts_title">Berichte und Diagramme</string>
+    <string name="update_available_title">@string/app_name</string>
+    <string name="update_available_warn">neues Update verfügbar, mit neuen Features und Bugfixes.</string>
+    <string name="update_available_force">Wir unterstützen diese Version nicht mehr.\n\n bitte jetzt aktualisieren.</string>
+    <string name="update_available_force_dummy">ungültiges Datum.\n\nBitte überprüfe deine Internetverbindung.</string>
+    <string name="update_now">Jetzt aktualisieren</string>
+    <string name="later">später</string>
+    <string name="menu_drawer_group_more">Kommunikation / mehr</string>
+    <string name="rate_app_title">Bewerte diese App</string>
+    <string name="share_this_app">Teile diese App</string>
+    <string name="share_this_app_title">teilen mit</string>
+    <string name="share_this_app_subject">werfen Sie einen Blick auf \"%1$s\" app</string>
+    <string name="about_us">Über uns</string>
+    <string name="by_124apps">gesponsert von 124APPS</string> <!-- &#169; -->
+    <string name="rate_app_msg">magst du diese app? \n\nWenn ja, bitte unterstützen Sie unsere Entwicklung mit einer netten Bewertung.\n\t* * * * *\nVielen Dank.</string>
+    <string name="rate_app_now">jetzt bewerten</string>
+    <string name="rate_app_later">später</string>
+    <string name="rate_app_no">Nein Danke</string>
+
+    <string name="close">schließen</string>
+
+    <string-array name="rpt_bills_forcast">
+        <item>Bis heute nur</item>
+        <item>1 Monat im Voraus</item>
+        <item>2 Monate im Voraus</item>
+        <item>3 Monate im Voraus</item>
+        <item>4 Monate im Voraus</item>
+        <item>5 Monate im Voraus</item>
+        <item>6 Monate im Voraus</item>
+        <item>1 Jahr im Voraus</item>
+        <item>18 Monate im Voraus</item>
+        <item>2 Jahre im Voraus</item>
+        <item>3 Jahre im Voraus</item>
+        <item>4 Jahre im Voraus</item>
+        <item>5 Jahre im Voraus</item>
+        <item>10 Jahre im Voraus</item>
+    </string-array>
+    <string-array name="notify_days">
+        <item>3 Monate vor Fälligkeit</item>
+        <item>2 Monate vor Fälligkeit</item>
+        <item>1 Monat vor Fälligkeit</item>
+        <item>3 Wochen vor Fälligkeit</item>
+        <item>2 Wochen vor Fälligkeit</item>
+        <item>10 Tage vor Fälligkeit</item>
+        <item>9 Tage vor Fälligkeit</item>
+        <item>8 Tage vor Fälligkeit</item>
+        <item>7 Tage vor Fälligkeit</item>
+        <item>6 Tage vor Fälligkeit</item>
+        <item>5 Tage vor Fälligkeit</item>
+        <item>4 Tage vor Fälligkeit</item>
+        <item>3 Tage vor Fälligkeit</item>
+        <item>2 Tage vor Fälligkeit</item>
+        <item>1 Tag vor Fälligkeit</item>
+        <item>- am Fälligkeitstag -</item>
+        <item>1 Tag nach Fälligkeit</item>
+        <item>2 Tage nach Fälligkeit</item>
+        <item>3 Tage nach Fälligkeit</item>
+        <item>4 Tage nach Fälligkeit</item>
+        <item>5 Tage nach Fälligkeit</item>
+        <item>6 Tage nach Fälligkeit</item>
+        <item>7 Tage nach Fälligkeit</item>
+        <item>8 Tage nach Fälligkeit</item>
+        <item>9 Tage nach Fälligkeit</item>
+        <item>10 Tage nach Fälligkeit</item>
+        <item>2 Wochen nach Fälligkeit</item>
+        <item>3 Wochen nach Fälligkeit</item>
+        <item>1 Monat nach Fälligkeit</item>
+        <item>2 Monate nach Fälligkeit</item>
+        <item>3 Monate nach Fälligkeit</item>
+    </string-array>
+
+    <string name="permission_denied_dialog_msg">Bitte erlauben Sie externe Speicherung lesen und schreiben, um Daten zu speichern. \ndie Verweigerung der Berechtigungen würde zu Inkonsistenz für die App führen.</string>
+    <string name="permission_denied_dialog_restart">wiederholen</string>
+    <string name="permission_denied_dialog_dont_care">Es ist mir egal</string>
+    <string name="permission_denied_camera">App würde Kamera Erlaubnis benötigen, um Fotos zu erfassen.</string>
+    <string name="permission_denied_camera_receipt">App würde die Erlaubnis der Kamera benötigen, um Quittungsfotos zu erfassen.</string>
+
+    <!-- ==================================================================== -->
+    <!-- BILLS.XML -->
+    <string name="app_name">Bills Reminder</string>
+    <!--<string name="title_bills_by_status">Bills by status</string>
+    <string name="title_bills_by_period">Bills by period</string>-->
+    <string name="title_bills_list">Rechnungsliste</string>
+    <string name="title_bills_report">Rechnungen melden</string>
+
+    <string name="title_bill_upcoming">bevorstehende Rechnungen</string>
+    <string name="title_bill_overdue">überfällige Rechnungen</string>
+    <string name="title_bill_paid">bezahlte Rechnungen</string>
+    <string name="title_bill_unpaid">unbezahlte Rechnungen</string>
+    <string name="title_bill_detail">rechnung details</string>
+    <string name="title_bill_detail_new">neue Rechnung Erinnerung</string>
+    <string name="title_activity_calendar">Kalenderansicht</string>
+    <string name="bills">rechnungen</string>
+    <string name="bill_new">fügen Sie Rechnung Erinnerung</string>
+    <string name="bills_overdue">überfällig</string>
+    <string name="bills_upcoming">bevorstehende</string>
+    <string name="bills_paid">bezahlt</string>
+    <string name="bills_unpaid">unbezahlt</string>
+    <string name="bills_recurr">wiederkehrende Rechnungen</string>
+    <string name="bills_recur_desc">wiederholt alle %1$d %2$s.</string>
+    <string name="restart_app">Bitte starten Sie die App neu.</string>
+    <string name="bills_view">Rechnungen anzeigen</string>
+
+    <string name="bill_list_empty_tip">keine rechnung existiert \n(berühren Sie die schwebende \'+\' Taste um eine zu erstellen)</string>
+    <string name="bill_list_empty">Es gibt keine Rechnungen.</string>
+
+    <string name="navigation_drawer_open">offene Schublade</string>
+    <string name="navigation_drawer_close">Schliessschloss</string>
+    <string name="dummy_day">heiraten</string>
+
+    <string name="bill_delete_unsaved">kann nicht gelöschte Rechnung löschen.</string>
+    <string name="bill_deleted">Rechnung gelöscht.</string>
+    <string name="bill_delete_single_warn">Rechnung wird gelöscht, weiter?</string>
+    <string name="bill_delete_multi_warn">ausgewählte Rechnungen werden gelöscht, weiter?</string>
+    <string name="bill_delete_recur_warn">dieser wiederkehrende Eintrag und alle damit verbundenen Rechnungen werden gelöscht, weiter?</string>
+    <string name="bill_duplicate_warn">%1$d doppelte Rechnungen werden erstellt, weiter?</string>
+    <string name="bill_not_found">Rechnung ist nicht vorhanden.</string>
+    <string name="app_error_restart">Automatisch ein Problem beheben, bitte die App neu starten.</string>
+    <string name="multi_select_mode_title">%1$s, gesamt: %2$s</string>
+
+    <string name="bill_deleted_recur">erfolgreich wiederkehrende Rechnungen gelöscht.</string>
+    <string name="bill_deleted_multi">%1$d Rechnungen gelöscht.</string>
+    <string name="bill_multi_update_count">%1$d Rechnungen aktualisiert.</string>
+    <string name="bill_duplicate_multi">%1$d neue Rechnungen erstellt.</string>
+    <string name="bill_duplicate_multi_error">wenden Sie sich bitte an Entwickler. Fehler beim Kopieren von Rechnungen: %1$s </string>
+    <string name="bill_added">neue Rechnung hinzugefügt.</string>
+    <string name="bill_saved">Rechnung gespeichert.</string>
+    <string name="bill_populating_recent">mit neuen Werten bevölkern</string>
+
+    <string name="bill_payee">Zahlungsempfänger / Posten</string>
+    <string name="bill_duedt">Fälligkeitsdatum</string>
+    <string name="cat_new_title">Neue Kategorie</string>
+    <string name="bill_dueNear">fällig %1$s</string>
+    <string name="bill_dueIn">fällig in %1$d Tagen</string>
+    <string name="bill_dueOver">überfällig bis %1$d Tage</string>
+    <string name="bill_paid">bezahlt</string>
+    <string name="bill_received">Empfangen</string>
+    <string name="bill_unpaid">unbezahlt</string>
+    <string name="bill_paid_on">bezahlt am</string>
+    <string name="bill_type">Rechnungsart</string>
+    <string name="bill_change_notification">Benachrichtigung ändern</string>
+    <string name="bill_more_options">mehr Optionen</string>
+    <string name="notify">Mahnmeldungen anzeigen</string>
+    <string name="notify_channel_name_app">App-Nutzung</string>
+    <string name="notify_channel_desc_reminder">Benachrichtigung über die Zahlung der Rechnung, überfällig oder bevorstehend.</string>
+    <string name="notify_channel_desc_app">Informationen zu neuen Versionsaktualisierungen oder zur Erinnerung an die App-Nutzung.</string>
+    <string name="tx_payee_hint">Beispiel: Miete</string>
+    <string name="tx_notes">Notizen oder scannen barcode / url</string>
+    <string name="tx_notes_zing_missing_title">Barcode Scanner installieren</string>
+    <string name="tx_notes_zing_missing">diese Funktion erfordert Barcode Scanner, möchten Sie es installieren?</string>
+    <string name="tx_error_save_pic">Fehler beim Speichern des Bildes: %1$s</string>
+    <string name="tx_photo_not_supported">nicht in der Lage Foto zu erfassen, Gerät nicht unterstützt..!</string>
+    <string name="tx_photo_take_new_photo">nehme neues foto</string>
+    <string name="tx_photo_select_from_gallery">aus der Galerie auswählen</string>
+    <string-array name="tx_photo_options">
+        <item>Foto ansehen</item>
+        <item>nehme neues foto</item>
+        <item>aus der Galerie auswählen</item>
+        <item>Foto entfernen</item>
+    </string-array>
+    <!-- Sort options -->
+    <string name="menu_sort_by">sortiere nach</string>
+    <string name="sort_by_date_asc">Datum aufsteigend</string>
+    <string name="sort_by_date_desc">Datum absteigend</string>
+    <string name="sort_by_amt_asc">Betrag aufsteigend</string>
+    <string name="sort_by_amt_desc">Betrag absteigend</string>
+    <string name="sort_by_payee_asc">Zahlungsempfänger aufsteigend</string>
+    <string name="sort_by_payee_desc">Zahlungsempfänger absteigend</string>
+
+    <string name="menu_search_bills">suche rechnungen</string>
+    <string name="bill_total_row">%1$d reihe, gesamt: </string>
+    <string name="bill_total_rows">%1$d reihen, gesamt: </string>
+    <string name="bill_total_rows_multi_curr">%1$d Zeilen in mehreren Währungen.</string>
+    <string name="bill_rpt_date_beyond">%1$s und darüber hinaus</string>
+    <string name="bill_rpt_total_payable">Summe zahlbar: %1$s</string>
+    <string name="bill_rpt_total_receivable">Gesamtforderungen: %1$s</string>
+    <string name="bill_rpt_type_cat_payable">Rechnungen zahlbar nach Kategorie</string>
+    <string name="bill_rpt_type_cat_receivable">Rechnungen nach Kategorie</string>
+    <string name="bill_rpt_charts_saved">erzeugte Berichte (%1$d)</string>
+    <string name="bill_rpt_charts_saved_empty">keine gespeicherten Berichte.\n Haben Sie versucht pdf Report Feature noch zu generieren?</string>
+    <string name="bill_rpt_charts_saved_loc">pdf Berichte werden gespeichert bei: %1$s</string>
+
+    <string name="bill_rpt_1categorywise_pay_label">Kategorie weise Chart (zahlbar)</string>
+    <string name="bill_rpt_1categorywise_pay_info">Kreisdiagramm mit Kategorie weise Vergleich für den Zeitraum.</string>
+    <string name="bill_rpt_2categorywise_receive_label">Kategorie weise Chart (empfangbar)</string>
+    <string name="bill_rpt_2categorywise_receive_info">Kreisdiagramm mit Kategorie weise Vergleich für den Zeitraum.</string>
+    <string name="bill_rpt_3trends_30days_label">Rechnungen Trends für 30 Tage</string>
+    <string name="bill_rpt_3trends_30days_info">line Diagramm zeigt Tag weise Vergleich der beiden zahlbar und empfangbar für die letzten 30 Tage</string>
+    <string name="bill_rpt_4monthwise_pay_label">Monatlicher Vergleich (zahlbar)</string>
+    <string name="bill_rpt_4monthwise_pay_info">Balkendiagramm zeigt monatlichen Vergleich der zahlbaren Rechnungen.</string>
+    <string name="bill_rpt_5monthwise_receive_label">Monatlicher Vergleich (empfangbar)</string>
+    <string name="bill_rpt_5monthwise_receive_info">Balkendiagramm, das den monatlichen Vergleich der Forderungsrechnungen zeigt.</string>
+
+    <string name="bill_rpt_comparison_title">Vergleichsbericht</string>
+    <string name="bill_rpt_comparison_daywise_label">Tag weise Vergleich für %1$d Tage</string>
+    <string name="bill_rpt_comparison_weekwise_label">Wochenweise Vergleich für %1$d Wochen</string>
+    <string name="bill_rpt_comparison_monthwise_label">Monatlicher Vergleich für %1$d Monate</string>
+    <string name="bill_rpt_comparison_yearwise_label">Jahresvergleich für %1$d Jahre</string>
+
+    <string name="bill_rpt_trends_title">Rechnungen Trend</string>
+    <string name="bill_rpt_trend_daywise_last_30">30 Tage Vergleich</string>
+    <string name="bill_rpt_trend_daywise_this_week">7 Tage Vergleich, für die ganze Woche</string>
+    <string name="bill_rpt_trend_daywise_this_month">Vergleich für den ganzen Monat</string>
+    <string name="bill_rpt_trend_daywise_for_3_months">letzten 3 Monate Vergleich</string>
+    <string name="bill_rpt_trend_daywise_for_6_months">letzten 6 Monate Vergleich</string>
+    <string name="bill_rpt_trend_daywise_this_year">ganzes Jahr oder 12 Monate Vergleich</string>
+
+    <string name="rpt_pdf_menu_title">pdf generieren</string>
+    <string name="rpt_pdf_name_dialog_title">PDF Bericht erstellen</string>
+    <string name="rpt_pdf_name_already_exists">pdf Dateiname existiert bereits, benutze einen anderen Namen.</string>
+    <string name="rpt_pdf_name_get_error">nicht in der Lage pdf Dateiname zu bekommen..!</string>
+    <string name="rpt_pdf_generate_error">nicht in der Lage pdf zu generieren, ist Ihre SD Karte verbunden?</string>
+    <string name="rpt_pdf_name_dialog_field">Dateiname</string>
+    <string name="rpt_pdf_unsupported_title">Gerät nicht unterstützt</string>
+    <string name="rpt_pdf_unsupported_info">Du musst zumindest android kitkat verwenden um pdf Berichte zu generieren. \nEs tut uns leid..!</string>
+    <string name="rpt_pdf_success_title">Generation komplett</string>
+    <string name="rpt_pdf_success_view_reports">Berichte anzeigen</string>
+    <string name="rpt_pdf_success_info_file">Der neue pdf Report wird gespeichert als: \n%1$s</string>
+    <string name="rpt_pdf_generating_progress">pdf Bericht erstellen</string>
+    <string name="rpt_pdf_created_date">erstellt am: %1$s</string>
+    <string name="rpt_pdf_delete_confirm">löschen Sie die ausgewählte Berichtdatei \'%1$s\'?</string>
+    <string name="rpt_pdf_bills_filename_templete">Rechnungen melden %1$s - %2$s</string>
+    <string name="rpt_pdf_view_activity_not_found">nicht in der Lage einen pdf Leser zu finden. Bitte installieren Sie jede unterstützende pdf Viewer App, wie zB Akrobat Reader.</string>
+
+    <string-array name="rpt_pdf_select_options">
+        <item>Ansicht / offen</item>
+        <item>Bericht teilen</item>
+        <item>löschen</item>
+    </string-array>
+
+    <!--	Repeation  -->
+    <string name="bill_repeat_info">unterhalb der wiederkehrenden Konfiguration:</string>
+    <string name="bill_repeat">wiederkehrende Rechnung</string>
+    <string name="bill_every">wiederholt alle</string>
+    <string name="bill_next_due">Nächstes Fälligkeitsdatum</string>
+    <string name="bill_end_none">wiederholen für immer</string>
+    <string name="bill_ends_on">wiederhole bis</string>
+    <string name="bill_ends_count_title">Zahlungsbedingungen</string>
+    <string name="bill_ends_count_label">Anzahl der Raten oder Vorkommen</string>
+    <string name="bill_ends_count">Wiederholt sich %1$d mal</string>
+    <string name="bill_repeat_disable">Deaktivieren oder stoppen Sie die automatische Erstellung wiederkehrender Einträge</string>
+    <string name="bill_repeat_until_value">Wiederholen Sie bis %1$s</string>
+    <string name="bill_err_future_dt">Bitte geben Sie ein zukünftiges Datum ein.</string>
+    <string name="bill_err_end_dt">\'next due date\' sollte vor \'wiederholen bis dato\'</string>
+    <string-array name="repeat_array">
+        <item>Tage</item>
+        <item>Wochen</item>
+        <item>Monate</item>
+        <item>Datum des Monats</item>
+        <item>Jahre</item>
+    </string-array>
+    <string name="bill_rpt_save">gelten wiederkehrende Änderungen</string>
+    <string-array name="bill_rpt_save">
+        <item>ohne irgendeine Rechnung zu löschen und bei Bedarf neue Rechnungen zu erstellen.</item>
+        <item>Löschen und neu erstellen Rechnungen mit den neuen wiederkehrenden Änderungen. Rechnungen die zu diesen wiederkehrenden Einstellungen gehören, werden nur durchgeführt.</item>
+        <!-- <item>Effect this and all bills.</item> -->
+    </string-array>
+    <string name="bill_rpt_remove">entfernen wiederkehrende Natur</string>
+    <string-array name="bill_rpt_remove">
+        <item>nur für diese Rechnung.</item>
+        <item>für diese und alle damit zusammenhängenden Rechnungen.</item>
+    </string-array>
+
+    <string name="bill_list_options_view">sehen Sie sich die Details an</string>
+    <string name="bill_list_options_select">Zeile auswählen</string>
+    <string name="bill_list_options_copy">Erstellen Sie eine Kopie (Duplikat)</string>
+    <string name="bill_list_options_paid">als Schmerzen markieren</string>
+    <string name="bill_list_options_unpaid">als unbezahlt markieren</string>
+    <string name="bill_list_options_delete">löschen</string>
+
+    <string name="bill_marked_paid_msg">Rechnung als bezahlt markiert</string>
+    <string name="bill_marked_unpaid_msg">Rechnung wird auf unbezahlte zurückgesetzt</string>
+    <string name="bill_removed_recurring">Rechnung aus der wiederkehrenden config</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- HOME.XML -->
+
+    <string name="inst_name">Name des Geschäftsprofils</string>
+    <string name="inst_name_hint">Geschäfts- oder Haushaltsname für die Buchhaltung.</string>
+    <string name="inst_dialog_title">Profildetails</string>
+    <string name="inst_dialog_title_edit">Profil bearbeiten</string>
+    <string name="inst_list_title">profiles</string>
+    <string name="menu_add_profile_title">Profil hinzufügen</string>
+    <string name="home_no_instances">kein Profil existiert, bitte ein neues Profil erstellen.</string>
+
+    <string name="help">Hilfe </string>
+    <string name="inst_new">Neues Profil erstellen</string>
+    <string name="inst_delete">Dieses Profil löschen</string>
+    <string name="inst_delete_warn">Profil \'%1$s\' und alle darin enthaltenen Daten werden gelöscht. \nfortsetzen?</string>
+    <string name="inst_delete_err_1inst">Nein das ist nicht möglich..!! \ndenn dies ist das einzige Profil das in dieser App verfügbar ist und du brauchst bei Lease ein Profil zu arbeiten. </string>
+    <string name="inst_profile_photo">Berühren Sie hier um Profilfoto zu wechseln</string>
+    <string name="inst_change_photo">Foto ändern</string>
+    <string name="inst_photo_from_gallery">von der Galerie</string>
+    <string name="inst_photo_from_camera">Foto einfangen</string>
+    <string name="inst_warn_no_multi_instance">Diese Version der App unterstützt nur ein Profil. So löschen Sie bitte alle unerwünschten Profile oder aktualisieren Sie auf Premium Version um mehrere Profile zu verwenden.</string>
+
+    <string name="home_help_text">Profil ist eine organisierte Sammlung von Daten, wie ein Speicher oder Konten Buch (nicht Bankkonto). Die Daten (Rechnungen, Kategorien, Etiketten) die zu einem Profil gehören werden an einem Ort gespeichert und niemals mit dem der anderen Profildaten verwechselt. \n\nSo wird es Ihnen mehr Kontrolle und besseres Management geben. Beispiel: ein Profil für persönliche Ausgaben und ein anderes für Ihr Büro oder Geschäftsausgaben.</string>
+    <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
+    <string name="inst_rename">Profil bearbeiten</string>
+    <string name="inst_open">Wählen Sie dieses Profil aus</string>
+    <string name="default_currency">Standardwährung</string>
+
+    <string name="inst_error_add_fail">kein Profil hinzufügen.</string>
+    <string name="inst_error_edit_fail">Das Profil kann nicht umbenannt werden.</string>
+    <string name="inst_error_edit_name_invalid">Geben Sie einen gültigen Profilnamen ein</string>
+    <string name="inst_default_curr">Standardwährung: %1$s</string>
+    <string name="inst_error_max_limit">max Profilgrenze für die Testversion, bitte aktualisieren um weitere Datenprofile zu erstellen.</string>
+
+
+    <!-- ==================================================================== -->
+    <!-- Backup / Recovery -->
+    <string name="bkp_title">Backup &amp; wiederherstellen</string>
+    <string name="bkp_location">Lagerraum</string>
+    <string name="bkp_location_info">Backup Dateien werden gespeichert unter: \n\n%1$s</string>
+    <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
+    <string name="bkp_name">Sicherungsname</string>
+    <string name="bkp_created">erstellt: %1$s</string>
+    <!--<string name="bkp_new_pref"> Photo Preference</string>-->
+    <string name="bkp_name_new"> Sicherungsname</string>
+    <!--<string name="bkp_photos_include">Backup including Photos</string>
+    <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
+    <!--<string name="bkp_create">Create Backup</string>-->
+    <string name="bkp_list_empty">kein Backup existiert..!</string>
+    <string name="bkp_duplicate_bkp">Duplizieren Sie den Sicherungsnamen, geben Sie bitte einen anderen Sicherungsnamen an oder löschen Sie vorhanden..!</string>
+    <string name="bkp_name_invalid">ungültiger Sicherungsname \'%1$s\'. \n\nvermeiden Sie die Verwendung von Leerzeichen und Sonderzeichen wie: \\ /</string>
+    <string name="bkp_failed">Sicherung fehlgeschlagen..! Bitte stellen Sie sicher dass es genügend freien Speicherplatz gibt.</string>
+    <string name="bkp_inprogress_warn">backup / restore in progress, bitte sei geduld..!</string>
+
+    <string name="bkp_restore_fail">Wiederherstellung fehlgeschlagen..! Bitte versuchen Sie es später später.</string>
+    <string name="bkp_send">Aktien sichern</string>
+    <string name="bkp_existing_label">bestehende Backups (%1$d)</string>
+    <string name="bkp_create">Erstellen Sie eine neue Sicherung</string>
+    <string name="bkp_send_sub">Sicherungsdatei \'%1$s\'</string>
+    <string name="bkp_rename">umbenennen</string>
+    <string name="bkp_rename_success">erfolgreich umbenannt \'%1$s\' zu \'%2$s\'.</string>
+    <string name="bkp_rename_failed">nicht umbenannt \'%1$s\' zu \'%2$s\'.</string>
+    <string name="bkp_delete">Sicherung löschen</string>
+    <string name="bkp_delete_confirm">Löschen der ausgewählten Datensicherung \'%1$s\'?</string>
+    <string name="bkp_delete_success">erfolgreich gelöscht.</string>
+    <string name="bkp_delete_fail">konnte nicht gelöscht werden.</string>
+    <string name="bkp_restore_external">Wiederherstellung von externer Wolke</string>
+    <string name="bkp_restore_external_title">herunterladen und wiederherstellen</string>
+    <string name="bkp_restore_confirm_cloud">Wiederherstellung würde ein paar Sekunden zu paar Minuten dauern, also bitte Geduld abhängig von deiner Backup Größe. \n\nKlicken Sie auf Weiter, um eine externe Sicherungsdatei zum Importieren und Wiederherstellen von Daten auszuwählen.</string>
+    <string name="bkp_last_backup">Letzte Sicherung</string>
+    <string name="bkp_last_info">Sichern Sie Ihre App-Daten und Anhänge in Google Drive. Sie können sie wiederherstellen, wenn Sie die App neu installieren, das Telefon wechseln oder Daten auf ein anderes Gerät kopieren.</string>
+    <string name="bkp_last_local_time">Lokal: %1$s</string>
+    <string name="bkp_last_size">Größe: %1$s</string>
+    <string name="bkp_backup_now">Sichern</string>
+    <string name="bkp_restore_now">Wiederherstellen</string>
+    <string name="bkp_google_drive_setting">Google Drive-Einstellungen</string>
+    <string name="bkp_google_drive_info">Fügen Sie ein Google-Konto hinzu, um das neueste Backup zu speichern. Durch Aktivieren der Sicherung in Google Drive wird die vorhandene App-Sicherung in Google Drive überschrieben. Beachten Sie dies, wenn Sie sie auf mehreren Geräten verwenden.</string>
+    <string name="bkp_to_google_drive_label">Sichern Sie auf Google Drive</string>
+    <string name="never">noch nie</string>
+    <string name="bkp_restore_successful">Erfolgreich von der Sicherung wiederhergestellt. \n\nDie App muss neu gestartet werden, um neue Daten anzuwenden.</string>
+    <string name="bkp_create_confirm_msg">Das Sichern kann je nach Größe der App-Daten einige Sekunden bis Minuten dauern. Bitte haben Sie etwas Geduld. \n\nErstellen Sie das Backup weiter?</string>
+    <string name="bkp_over_wifi_label">Sichern mit</string>
+    <string name="bkp_success">Erfolgreich gesichert.</string>
+    <string name="bkp_restore_confirm_msg">Die Wiederherstellung würde einige Sekunden bis einige Minuten dauern. Seien Sie also bitte geduldig. \n\nAlle Ihre vorhandenen App-Daten auf diesem Gerät werden aus der letzten Sicherung ersetzt. Möchten Sie mit dem Wiederherstellungsvorgang fortfahren?</string>
+
+    <string-array name="bkp_to_google_drive">
+        <item>@string/never</item>
+        <item>Nur wenn ich auf Backup tippe</item>
+        <item>Täglich</item>
+    </string-array>
+
+    <string-array name="bkp_over_wifi">
+        <item>Nur Wifi</item>
+        <item>Wi-Fi oder mobile Daten</item>
+    </string-array>
+
+    <!-- ==================================================================== -->
+    <!-- PREFERENCES.XML -->
+
+    <string name="pref_key">präferenzen</string>
+
+    <!--<string name="prefTitleAppSetting">App Settings</string>
+    <string name="prefKeyAppSetting">appSettings</string>-->
+    <string name="prefTitleGeneralSetting">general</string>
+    <string name="prefTitleDataSetting">Sicherungen und Berichte</string>
+    <string name="prefTitleDataSettingTrial">backup</string>
+    <!--<string name="prefKeyAppSetting">appSettings</string>-->
+
+    <string name="prefTitleAppPIN">4 stelliger Stift</string>
+    <string name="prefSummaryAppPIN">aus Sicherheitsgründen können Sie einen Pin setzen um die App zu starten. Einmal gesetzt werden Sie für die Pin gefragt jedes Mal, wenn die App startet</string>
+
+    <string name="prefTitleAppPINChange">PIN ändern</string>
+    <string name="prefSummaryAppPINChange">berühren Sie hier um Ihren 4 stelligen Stift zu ändern.</string>
+
+    <string name="prefTitleStartupScreen">Startbildschirm ändern</string>
+    <string name="prefSummaryStartupScreen">Standard oder Startbildschirm der angezeigt wird wenn die App gestartet wird.</string>
+
+    <string name="prefTitleChangeLanguage">Sprache: %1$s</string>
+    <string name="prefSummaryChangeLanguage">Klicken Sie hier, um die Sprache zu ändern</string>
+
+    <string name="prefTitleEnableSubcategories">Unterkategorien aktivieren</string>
+    <string name="prefSummaryEnableSubcategories">Kreuzen Sie zwei Kategorien an</string>
+
+    <string name="prefTitleInstSetting">Profil</string>
+
+    <string name="prefTitleDefaultCurrency">Standardprofilwährung: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">Währung die vor dem Hinzufügen eines neuen Datensatzes belegt ist, für dieses Profil.</string>
+
+    <string name="prefTitleManageInstance">verwalten Profile</string>
+    <string name="prefSummaryManageInstance">um die Währung eines anderen Profils zu erstellen, zu löschen oder zu ändern.</string>
+
+    <!--<string name="prefKeyBillSettings">billsSettings</string>-->
+    <string name="prefTitleBillSettings">rechnungen</string>
+    <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
+
+    <string name="prefTitleNotifyTick">Erinnerungsbenachrichtigungen</string>
+    <string name="prefSummaryNotifyTick">benachrichtige mich über Rechnungen die dazu aufgezeichnet wurden. (unselect deaktivieren)</string>
+    <string name="prefSummaryNotifyUnTick">Benachrichtigungen sind deaktiviert. (wählen um zu aktivieren)</string>
+
+    <string name="prefTitleNotifyTime">Benachrichtigungszeit: %1$s:%2$s</string>
+    <string name="prefSummaryNotifyTime">Meldungen werden zu diesem Zeitpunkt täglich aufgetaucht</string>
+
+    <string name="prefTitleNotifyDays">Standard Erinnerungsbenachrichtigung</string>
+    <string name="prefSummaryNotifyDays">Für neue Rechnungen ist dies als Option zur täglichen Erinnerung ausgewählt. Beispiel: 5 Tage vor Fälligkeit</string>
+
+    <string name="prefTitleForcast">prognoseperiode</string>
+    <string name="prefTitleForcastDialog">schaffen wiederkehrende Rechnungen</string>
+    <string name="prefSummaryForcast">Wiederkehrende Rechnungen werden automatisch im Voraus bis zur angegebenen Frist generiert. Beispiel: 3 Monate im Voraus</string>
+
+    <string name="pref_inst_currency_set_to">Profilwährung auf: %1$s</string>
+
+    <!-- Backup / restore preferences (29.mar.2015) -->
+
+    <string name="prefTitlePDFReports">erzeugte Berichte</string>
+    <string name="prefSummaryPDFReports">Klicken Sie hier um die Liste der generierten PDF Dateien anzuzeigen. wann immer ein pdf Bericht generiert wird, werden sie von der App zwischengespeichert, wo man sie ansehen, teilen und nach Bedarf löschen kann.</string>
+
+    <string name="prefTitleBackupPhotos">Backup beinhalten Anhänge</string>
+    <string name="prefSummaryBackupPhotosTick">Backups werden nun Daten und auch beigefügte Quittungsfotos enthalten, wie bei einer vollständigen Sicherung</string>
+    <string name="prefSummaryBackupPhotosUnTick">schnelle Sicherung ist aktiv, so dass Backups nur Daten enthalten und ignoriert alle angehängten Fotos</string>
+
+    <string name="prefSummaryBackupAccount">Wählen Sie ein Google Drive-Konto aus, um alle Ihre Anwendungsdatensicherungen zu speichern.</string>
+    <string name="prefSummaryBackupAccountUnlink">Möchten Sie die Verknüpfung Ihres Google Drive-Kontos aufheben? Ihre Daten werden also nicht im Cloud-Speicher gesichert.</string>
+
+    <string name="prefTitleBackupDriveSyncTime">Letzte Synchronisierungszeit für das Backup</string>
+
+    <string name="prefTitleBackupWiFi">Backup nur über WiFi</string>
+    <string name="prefSummaryBackupWiFi">Aktivieren Sie diese Option, um Google Drive-Sicherungen nur über WLAN durchzuführen. Deaktivieren Sie diese Option, um sowohl WLAN- als auch mobile Internetdaten zu verwenden.</string>
+
+    <!-- Access Denied / Root detected Activity -->
+    <string name="title_activity_access_denied">Zugriff abgelehnt</string>
+    <string name="access_denied_lable">etwas ist schief gelaufen..!</string>
+    <string name="access_denied_msg">Bitte versuchen Sie es erneut oder wenden Sie sich an den Entwickler.</string>
+    <string name="access_denied_autofixed">ein Problem wurde automatisch behoben. \n\nBitte starten Sie die App neu und Sie sind gut zu gehen.</string>
+
+    <!-- Filter Fragement -->
+    <string name="filter_data">Filterdaten</string>
+    <string name="filter_menu">filter</string>
+    <string name="filter_apply">Filter anwenden</string>
+    <string name="filter_selected_save">sparen</string>
+    <string name="filter_clear">zurücksetzen</string>
+    <string name="filter_invert">umgekehrt</string>
+    <string name="filter_sort_by">sortieren nach: %1$s</string>
+    <string name="filter_category_title">Filterkategorien</string>
+    <string name="filter_categories_all">Kategorien (alle)</string>
+    <string name="filter_categories_count">Kategorien (%1$d)</string>
+    <string name="filter_currency_title">Filterwährungen filtern</string>
+    <string name="filter_currencies_all">Währungen (alle)</string>
+    <string name="filter_currencies_count">Währungen (%1$d)</string>
+    <string name="filter_photo_title">Filtersätze mit</string>
+    <string name="filter_photo_any">Quittungsfoto (beliebig)</string>
+    <string name="filter_photo_yes">Foto beigefügt</string>
+    <string name="filter_photo_no">Foto nicht beigefügt</string>
+
+    <!-- New Recurring Screen -->
+    <string name="bills_paid_total">bezahlt: %1$s</string>
+    <string name="recurbill_total">gesamt: </string>
+    <string name="bills_overdue_total">überfällig: %1$s</string>
+    <string name="bills_upcoming_total">bevorstehend: %1$s</string>
+    <string name="recurbill_list_empty">Es sind keine wiederkehrenden Konfigurationen vorhanden. \n(berühren Sie die schwebende \'+\' Taste um eine zu erstellen)</string>
+    <string name="recurbill_list_title">wiederkehrende Konfigurationen</string>
+    <string name="recurbill_list_subtitle">für Rechnungen</string>
+    <string name="bills_recur_subtitle">jeder %1$s %2$s</string>
+    <string name="menu_recurbill_delete">löschen wiederkehrende</string>
+    <string name="recurbill_list_unselected">Bitte wählen Sie eine wiederkehrende Konfiguration aus dem linken Seitenrahmen.</string>
+    <string name="recurring">wiederkehrend</string>
+
+    <string name="currency_all">alle Währungen</string>
+    <string name="title_activity_inst_edit">Profildetails</string>
+
+    <!-- Period, ViewPager, TabLayout -->
+    <string name="period_dashboard_change">Änderungszeitraum</string>
+    <string name="period_daily">Täglich</string>
+    <string name="period_weekly">wöchentlich</string>
+    <string name="period_monthly">monatlich</string>
+    <string name="period_yearly">jährlich</string>
+    <string name="period_custom">benutzerdefinierten Bereich</string>
+    <string name="period_custom_range">%1$s - %2$s</string>
+    <string name="period_custom_range_title">Wählen Sie einen Datumsbereich aus</string>
+    <string name="period_custom_enter_from">ab Datum eingeben</string>
+    <string name="period_custom_enter_to">bis heute eintragen</string>
+
+    <string name="period_today">heute</string>
+    <string name="period_yesterday">gestern</string>
+    <string name="period_tomorrow">Morgen</string>
+    <string name="period_thisweek">diese Woche</string>
+    <string name="period_lastweek">letzte Woche</string>
+    <string name="period_nextweek">nächste Woche</string>
+    <string name="period_rangeweek">w/c %1$s</string>
+    <string name="period_rangeweek2">%1$s - %2$s</string>
+    <string name="period_thismonth">diesen Monat</string>
+    <string name="period_lastmonth">Im vergangenen Monat</string>
+    <string name="period_nextmonth">nächsten Monat</string>
+    <string name="period_thisyear">dieses Jahr</string>
+    <string name="period_lastyear">letztes Jahr</string>
+    <string name="period_nextyear">nächstes Jahr</string>
+    <string name="period_and_future">%1$s und Zukunft</string>
+    <string name="period_custom_last_7days">Letzten 7 Tage</string>
+    <string name="period_custom_last_30days">letzte 30 Tage</string>
+    <string name="period_custom_last_3months">letzte 3 Monate</string>
+    <string name="period_custom_recent_6months">letzte 6 Monate</string>
+    <string name="period_custom_recent_12months">letzten 12 Monate</string>
+    <string name="period_custom_date_range">benutzerdefinierte Datumsbereich</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Instrumententafel</string>
+    <string name="dashboard_title_bill_chart_payable">Rechnungen zahlbar (nach Kategorie)</string>
+    <string name="dashboard_title_bill_chart_receivable">Rechnungen (nach Kategorie)</string>
+    <string name="dashboard_title_bill_chart_payable_status">Rechnungen zahlbar (nach Status)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">Rechnungen (nach Status)</string>
+    <string name="dashboard_summary">Rechnungsübersicht </string>
+    <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
+    <string name="dashboard_summary_receivable">empfangbar: </string>
+    <string name="dashboard_summary_payable">zahlbar: </string>
+    <string name="dashboard_summary_total">gesamt: </string>
+
+    <!-- About / welcome Screen -->
+    <string name="about_title">Über</string>
+    <string name="about_version">Version: %1$s</string>
+    <string name="about_version_trial">version: %1$s (kostenlose Testversion)</string>
+    <string name="about_description">Rechnungen Erinnerung hilft Ihnen zu organisieren und zu verfolgen Ihre Rechnungen bezahlt / unbezahlt und zahlbar / empfangbar. fügen Sie einfach eine Rechnung in diese App und es wird täglich daran erinnern, bis Sie es als bezahlt markiert oder entfernt haben. Rechnungen, die als wiederkehrend markiert sind, werden automatisch basierend auf den bereitgestellten Konfigurationen und dem Prognosezeitraum erstellt.</string>
+    <string name="about_facebook">like uns auf Facebook</string>
+    <string name="about_twitter">Folge uns auf Twitter</string>
+    <string name="about_googleplay">Bewerte diese App</string>
+    <string name="about_share">Teile diese App</string>
+    <string name="about_welcome_tutorial">Tutorial Bildschirme</string>
+    <string name="about_visit_124">besuche 124APPS</string>
+
+    <string name="feature_label_free">kostenlose Testversion</string>
+    <string name="feature_desc_free">Die Version enthält grundlegende Funktionen um Ihre Rechnungen zu verwalten\n</string>
+    <string-array name="feature_items_free">
+        <item>tägliche Rechnungen Erinnerung Benachrichtigung</item>
+        <item>Foto an Rechnungen anhängen</item>
+        <item>wiederkehrende Rechnungen unterstützen</item>
+        <item>Begrenzte Rechnungen (300)</item>
+        <item>Begrenzte Kategorien und Unterkategorien (70)</item>
+        <item>Änderungsmeldung Benachrichtigungszeit</item>
+        <item>suche rechnungen</item>
+        <item>Dashboard Übersicht der Rechnungen für jeden Monat</item>
+        <item>Rechnungen nach Status anzeigen</item>
+        <item>bills monatlich sehen</item>
+        <item>Kalenderansicht der Rechnungen</item>
+        <item>Mehrfachauswahl: Löschen mehrerer Rechnungen und Kategorien</item>
+        <item>Mehrfachauswahl: Kopie mehrerer Rechnungen und Kategorien</item>
+        <item>Berichte: Kategorie weise Rechnungen für jeden Monat</item>
+        <item>Scannen Sie einen Barcode und fügen Sie ihn zu Notizen hinzu</item>
+        <item>fügen Sie eine Rechnung Zahlung URL an die Rechnung</item>
+        <item>Erstellen Sie Backup, einschließlich beigefügter Quittungsfotos</item>
+        <item>täglich geplante Backups</item>
+        <item>nur einzelnes Profil</item>
+    </string-array>
+    <string name="feature_label_pro">Prämie</string>
+    <string name="feature_desc_pro">Dazu gehören alle Features die von \'free trial\' \n\t\t\t+\nbereitgestellt werdenunterhalb der Premium Features: \n</string>
+    <string-array name="feature_items_pro">
+        <item>unbegrenzte Rechnungen</item>
+        <item>unbegrenzte Kategorien und Unterkategorien</item>
+        <item>löschen Sie wiederkehrende Rechnungen und ihre Konfiguration auf einmal. (Massenlöschung)</item>
+        <item>Mehrfachauswahl: Änderungskategorie mehrerer Rechnungen</item>
+        <item>Mehrfachauswahl: Änderungsmeldung Benachrichtigung über Rechnungen</item>
+        <item>Armaturenbrettübersicht für jeden Tag, Woche, Monat und Jahr.</item>
+        <item>sehen Sie Rechnungen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
+        <item>Berichte: Kategorie weise Rechnungen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
+        <item>Berichte: Rechnungen Trend</item>
+        <item>Berichte: Vergleich zwischen Wochen, Tagen, Monaten, Jahren</item>
+        <item>Berichte: PDF Berichte generieren und teilen</item>
+        <item>Startbildschirm ändern</item>
+        <item>Kontrollieren Sie geplante Backups</item>
+        <item>teilen und exportieren Backups per Email, Laufwerk, Dropbox</item>
+        <item>Wiederherstellung lokaler Backups und heruntergeladen von Cloud</item>
+        <item>App Sicherheit mit Pin und Fingerabdrücken</item>
+    </string-array>
+    <string name="feature_label_multiprof">Mehrfachprofil</string>
+    <string name="feature_desc_multiprof">Dies erfordert eine Premium Version.\nhilft Ihnen, mehrere Profile zu pflegen, wobei jedes Profil seine eigenen Daten behandelt. zum Beispiel, trennen Sie Ihre persönlichen Ausgaben auf die Ihrer Geschäftsausgaben. so hat jedes Profil seine eigene:\n</string>
+    <string-array name="feature_items_multiprof">
+        <item>kategorien</item>
+        <item>rechnungen</item>
+        <item>wiederkehrende Rechnungseinstellungen</item>
+        <item>Berichte und andere Bildschirme werden Rechnungen aus ihrem eigenen Profil betrachten</item>
+        <item>Dadurch werden Profilverwaltungsfunktionen aktiviert</item>
+    </string-array>
+    <string name="feature_tab_title">Eigenschaften</string>
+    <string name="feature_tab_cloud_title">Cloud Abonnement</string>
+    <string name="feature_comparison_title">Leistungsvergleich</string>
+    <string name="feature_subscription_title">Features und Upgrade</string>
+    <string name="feature_this_version">Dies ist kostenlose Testversion von Rechnungen Erinnerung App und Sie können unten Upgrades kaufen um die App zu seinem besten genießen.</string>
+    <string name="feature_view_comparison">View Features Vergleich</string>
+    <string name="feature_purchased">gekauft</string>
+
+    <string name="welcome_title1_bill_detail">neue Rechnung hinzufügen</string>
+    <string name="welcome_info1_bill_detail">Geben Sie Rechnungsdetails ein und speichern Sie. unterstützt auch wiederkehrende Rechnungen und wandelt die Währung um.</string>
+    <string name="welcome_title2_receipt">foto deine quittung</string>
+    <string name="welcome_info2_receipt">gehen papierlos indem sie den Rechnungsbeleg zusammen mit den Rechnungsdetails anhängen.</string>
+    <string name="welcome_title3_bill_upcoming">Rechnungen nach Status anzeigen</string>
+    <string name="welcome_info3_bill_upcoming">erhalten einen schnellen Blick auf bevorstehende, überfällige, unbezahlte und bezahlte Rechnungen. </string>
+    <string name="welcome_title4_bill_list">einfaches tabulatorlayout</string>
+    <string name="welcome_info4_bill_list">Zeilen für jede Periode anzeigen und leicht zwischen den Tabs wechseln. Beispiel: für jeden Monat.</string>
+    <string name="welcome_title5_drawer">Navigationsschublade Menü</string>
+    <string name="welcome_info5_drawer">dashboard, Kategorien und Unterkategorien, Kalender, Mehrfachwährung, Berichte und Charts, Mehrfachprofil, Backup und Restore.</string>
+    <string name="welcome_title6_recurring">verwalten wiederkehrende Rechnungen</string>
+    <string name="welcome_info6_recurring">Wiederkehrende Konfigurationen helfen einfach zu erstellen, zu aktualisieren, löschen Rechnungen und wiederkehrende Rechnungen.</string>
+    <string name="welcome_title6_settings">Einstellung für einfache Anpassung</string>
+    <string name="welcome_info6_settings">Änderungsmeldungszeit, wiederkehrende Rechnungsvorhersageperiode, Änderungsstandardwährung und vieles mehr.</string>
+
+    <string name="coffee_title">kauf uns einen kaffee</string>
+    <string name="coffee_description">Wir arbeiten Tage und Nächte, um Ihnen die beste App Erfahrung zu geben, neue Features hinzuzufügen und Fehler zu beheben. Bitte unterstützen Sie unsere Entwicklung - kaufen Sie uns einen Kaffee.</string>
+    <string name="coffee_buy_now">kaufe jetzt</string>
+    <string name="coffee_thank_you">Danke</string>
+
+    <string name="widget_bill_overview_title">Rechnungen Zusammenfassung</string>
+    <string name="widget_bill_overview_overdue">überfällig: </string>
+    <string name="widget_bill_overview_today">heute fällig: </string>
+    <string name="widget_bill_overview_upcoming">bevorstehende: </string>
+    <string name="widget_bill_overview_count">%1$d</string>
+
+    <string name="widget_bill_single_title">eine Rechnung verfolgen</string>
+    <string name="widget_bill_paid_on">bezahlt auf %1$s</string>
+    <string name="widget_bill_due_in">fällig in %1$d Tagen</string>
+    <string name="widget_bill_due_tomorrow">Bis morgen</string>
+    <string name="widget_bill_due_today">heute fällig</string>
+    <string name="widget_bill_due_yesterday">fällig gestern</string>
+    <string name="widget_bill_overdue_by">überfällig bis %1$d Tage</string>
+    <string name="coach_mark_add_bill">Klicken Sie auf die Schaltfläche \'+\', um eine Rechnungserinnerung hinzuzufügen.</string>
+    <string name="coach_mark_burger_icon">Klicken Sie auf das Burger-Symbol, um andere Bildschirme anzuzeigen.</string>
+    <string name="widget_bill_select_title">Wählen Sie eine Rechnung aus</string>
+
+    <string name="error_max_bills_exceeded">Anzahl der Rechnungen überschritten Höchstgrenze, bitte aktualisieren, um weitere Rechnungen hinzuzufügen.</string>
+    <string name="error_max_cats_exceeded">Anzahl der Kategorien überschritten Höchstgrenze, bitte aktualisieren Sie, um weitere Kategorien hinzuzufügen.</string>
+
+    <string name="bill_paid1">bezahlte Rechnung</string>
+    <string name="bill_unpaid1">unbezahlte Rechnung</string>
+    <string name="bill_overdue1">überfällige Rechnung</string>
+    <string name="bill_upcoming1">bevorstehende Rechnung</string>
+    <string name="bill_payments">Rechnungszahlungen (%1$d)</string>
+    <string name="bill_payment_mark_paid">ist vollständig bezahlt</string>
+    <string name="bill_payment">Rechnungszahlung</string>
+    <string name="bill_make_payment">füge eine Zahlung hinzu</string>
+    <string name="bill_payments_empty_text">Noch keine Zahlungen auf dieser Rechnung.</string>
+    <string name="bill_payment_total">%1$d Rechnungszahlungen insgesamt sind %2$s</string>
+    <string name="bill_payment_total_remaining">%1$s restliche zu zahlende Summe insgesamt %2$s</string>
+    <string name="bill_payment_total_overpaid">%1$s von insgesamt %2$s überbezahlt</string>
+    <string name="bill_payment_total_equal">Herzliche Glückwünsche! Diese Rechnung ist bezahlt.</string>
+    <string name="bill_payment_heading">%1$s ist fällig am %2$s</string>
+    <string name="bill_payment_bill_amt">Rechnungsbetrag:</string>
+    <string name="bill_payment_amt_paid">ganz bezahlt:</string>
+    <string name="bill_payment_amt_due">Offener Betrag:</string>
+    <string name="bill_payment_date">Zahlungsdatum</string>
+    <string name="bill_payment_last_paid_dt">zuletzt bezahlt am %1$s</string>
+    <string name="bill_payment_not_exits">[keiner]</string>
+    <string name="bill_payments_tablet_view">Als bezahlt markieren, Rechnungsbeträge anzeigen oder hinzufügen &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Gesamte verbleibende:</string>
+
+    <string name="contact_name_hint">Kontakt-, Kunden- oder Firmenname</string>
+    <string name="contact_payee_empty">Geben Sie einen Kontaktnamen an.</string>
+    <string name="contact_max_limit_exceed">Die maximale Anzahl an Kontakten wurde überschritten. Bitte aktualisieren Sie, um weitere hinzuzufügen.</string>
+    <string name="recur_list_selectmode_title">Wählen Sie eine wiederkehrende Konfiguration</string>
+    <string name="recur_details_title">Wiederkehrende Konfiguration</string>
+    <string name="recur_details_saved">Neue wiederkehrende Konfiguration erstellt.</string>
+    <string name="recur_details_updated">Aktualisierte wiederkehrende Konfiguration</string>
+    <string name="recur_details_edit">Konfiguration bearbeiten</string>
+    <string name="recur_link_add_label">Fügen Sie wiederkehrende Natur hinzu</string>
+    <string name="recur_forecast_period_is">Derzeit ist der Prognosezeitraum auf %1$s festgelegt.</string>
+    <string name="recur_forecast_period_date">Das bedeutet, dass wiederkehrende Einträge automatisch bis zum %1$s erstellt werden.</string>
+    <string name="recur_forecast_view_settings">Prognosezeitraum anzeigen</string>
+    <string-array name="recur_config_add_options">
+        <item>Wählen Sie eine vorhandene Konfiguration</item>
+        <item>Neue wiederkehrende Konfiguration erstellen</item>
+    </string-array>
+
+    <string name="attachment_title">Anhänge</string>
+    <string name="attachment_title_count">Anhänge (%1$d)</string>
+    <string name="attachment_non_exists">Es sind keine Anhänge vorhanden. Tippen Sie auf die obigen Symbole, um diesem Eintrag ein Foto oder eine Datei hinzuzufügen.</string>
+    <string name="attachment_take_photo">Mach ein Foto</string>
+    <string name="attachment_add_file">Fügen Sie eine vorhandene Datei hinzu</string>
+    <string name="attachment_deleting_snackbar">Löschen&#8230; %1$s</string>
+    <string name="bill_attachments_tablet_view">Hinzufügen oder Anzeigen von Belegen oder Anhängen &#8230;</string>
+    <string name="bill_attachments_save_label">Speichern und erneut laden, um Anhänge hinzuzufügen</string>
+
+    <string name="cat_no_of_linked_rows_txs_bills">%1$d transaktionen, %2$d rechnungen.</string>
+    <string name="cat_no_of_linked_rows_txs">%1$d transaktionen.</string>
+
+    <string name="acct_1name">Kasse</string>
+    <string name="acct_1desc">klicken sie hier um ein Konto zu bearbeiten oder zu löschen.</string>
+    <string name="acct_2name">Kreditkarte</string>
+    <string name="acct_2desc">tippen sie einfach auf die kontotransaktionen.</string>
+    <string name="acct_3name">Bankkonto</string>
+    <string name="acct_3desc">kontoinformationen anzeigen um ein monatliches Budget festzulegen.</string>
+
+    <string name="transfer_title">fondsübertragung</string>
+    <string name="view_settings">Einstellungen anzeigen</string>
+    <string name="google_drive_not_linked">Verknüpfen Sie Ihr Google-Konto, um Ihre Daten im Google Drive-Speicher zu sichern.</string>
+
+    <string name="cat_icon">Symbol</string>
+    <!-- <string name="tax_percent">Tax Rate</string> -->
+    <string name="bill_date">Rechnungsdatum</string>
+    <string name="bill_notify_enable">Tägliche Erinnerungsbenachrichtigung anzeigen</string>
+    <string name="menu_txs_list">transaktionen</string>
+
+    <string name="contacts_and_groups_label">Kontakte &amp; Gruppen</string>
+    <string name="contacts_list">Kontakte</string>
+    <string name="contact_select">Wählen Sie einen Kontakt</string>
+    <string name="contact_new">Neuer Kontakt</string>
+    <string name="contact_details">Kontaktdetails</string>
+    <string name="contact_name_empty">Der Name des Kontakts ist leer..!</string>
+    <string name="contact_list_empty_hint">Es sind keine Kontakte vorhanden. \n(Berühren Sie die schwebende Schaltfläche, um eine hinzuzufügen.)</string>
+    <string name="contact_saved">Kontakt gespeichert</string>
+    <string name="contact_phone">Telefonnummer</string>
+    <string name="contact_email">E-Mail-Addresse</string>
+    <string name="contact_phone_alt">Alternative Telefonnummer</string>
+    <string name="contact_email_alt">Alternative E-Mail-Adresse</string>
+    <string name="contact_address">Kontakt Anschrift</string>
+    <string name="contact_deleted">Kontakt erfolgreich gelöscht</string>
+    <string name="contact_inuse_warn_msg">Kontakt wird derzeit verwendet</string>
+    <string name="contact_deleted_warn">Der ausgewählte Kontakt wird gelöscht.</string>
+    <string name="contact_member_of_group">Mitglied von %1$d Gruppen</string>
+
+    <string name="group_new">Neue Gruppe</string>
+    <string name="group_details">Gruppendetails</string>
+    <string name="group_name_hint">Gruppen- oder Teamname</string>
+    <string name="export_body">&lt;p&gt; Gesendet von \"Rechnungen Erinnerung\" Android App &lt;/p&gt;</string>
+    <string name="contact_all_title">Alle Kontakte</string>
+    <string name="contact_group_title">Gruppen</string>
+    <string name="group_list_empty_hint">Es sind keine Kontaktgruppen vorhanden. \n(Berühren Sie die schwebende Schaltfläche, um eine zu erstellen.)</string>
+    <string name="group_list_empty">Es sind keine Kontaktgruppen vorhanden.</string>
+    <string name="group_saved">Kontaktgruppe gespeichert</string>
+    <string name="group_name_empty">Der Gruppenname ist leer..!</string>
+    <string name="delete_unsaved_warn">Nicht gespeicherter Datensatz kann nicht gelöscht werden.</string>
+    <string name="group_deleted">Gruppe erfolgreich gelöscht.</string>
+    <string name="group_delete_warn">Ausgewählte Gruppen werden gelöscht.</string>
+    <string name="group_contacts_conut">%1$d Kontakte</string>
+    <string name="group_add_members">Mitglieder hinzufügen</string>
+    <string name="group_select_contacts">Wählen Sie Kontakte</string>
+
+    <string name="records_deleted_multi">%1$d Datensätze gelöscht.</string>
+    <string name="records_create_multi">%1$d Datensätze erstellt.</string>
+
+</resources>
