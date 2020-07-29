@@ -1,0 +1,10 @@
+<resources>
+    <!-- Abbreviate form of Week days -->
+    <string name="monday">सोम</string>
+    <string name="tuesday">मंगल</string>
+    <string name="wednesday">बुध</string>
+    <string name="thursday">गुरु</string>
+    <string name="friday">शुक्र</string>
+    <string name="saturday">शनि</string>
+    <string name="sunday">रवि</string>
+</resources>

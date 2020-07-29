@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="tuesday">Tue</string>
+    <!-- Abbreviate form of Week days -->
+    <string name="monday">lun</string>
+    <string name="tuesday">mar</string>
+    <string name="wednesday">mer</string>
+    <string name="thursday">jeu</string>
+    <string name="friday">ven</string>
+    <string name="saturday">sam</string>
+    <string name="sunday">dim</string>
 </resources>

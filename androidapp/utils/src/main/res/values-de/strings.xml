@@ -1,10 +1,10 @@
 <resources>
     <!-- Abbreviate form of Week days -->
-    <string name="monday">Mon</string>
-    <string name="tuesday">Tue</string>
-    <string name="wednesday">Wed</string>
-    <string name="thursday">Thu</string>
-    <string name="friday">Fri</string>
-    <string name="saturday">Sat</string>
-    <string name="sunday">Sun</string>
+    <string name="monday">Mo</string>
+    <string name="tuesday">Di</string>
+    <string name="wednesday">Mi</string>
+    <string name="thursday">Do</string>
+    <string name="friday">Fr</string>
+    <string name="saturday">Sa</string>
+    <string name="sunday">So</string>
 </resources>
