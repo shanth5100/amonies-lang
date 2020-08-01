@@ -7,4 +7,13 @@
     <string name="friday">Vie</string>
     <string name="saturday">Sáb</string>
     <string name="sunday">Dom</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">lunes</string>
+    <string name="tuesday_full">martes</string>
+    <string name="wednesday_full">miércoles</string>
+    <string name="thursday_full">jueves</string>
+    <string name="friday_full">viernes</string>
+    <string name="saturday_full">sábado</string>
+    <string name="sunday_full">domingo</string>
 </resources>
