@@ -7,4 +7,13 @@
     <string name="friday">Fr</string>
     <string name="saturday">Sa</string>
     <string name="sunday">So</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">Montag</string>
+    <string name="tuesday_full">Dienstag</string>
+    <string name="wednesday_full">Mittwoch</string>
+    <string name="thursday_full">Donnerstag</string>
+    <string name="friday_full">Freitag</string>
+    <string name="saturday_full">Samstag</string>
+    <string name="sunday_full">Sonntag</string>
 </resources>
