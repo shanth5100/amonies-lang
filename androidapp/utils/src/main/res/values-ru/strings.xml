@@ -9,11 +9,11 @@
     <string name="sunday">Вс</string>
 
     <!-- Full week day names -->
-    <string name="monday_full">понедельник</string>
-    <string name="tuesday_full">вторник</string>
-    <string name="wednesday_full">среда</string>
-    <string name="thursday_full">четверг</string>
-    <string name="friday_full">пятница</string>
-    <string name="saturday_full">суббота</string>
-    <string name="sunday_full">воскресенье</string>
+    <string name="monday_full">Понедельник</string>
+    <string name="tuesday_full">Вторник</string>
+    <string name="wednesday_full">Среда</string>
+    <string name="thursday_full">Четверг</string>
+    <string name="friday_full">Пятница</string>
+    <string name="saturday_full">Cуббота</string>
+    <string name="sunday_full">Bоскресенье</string>
 </resources>

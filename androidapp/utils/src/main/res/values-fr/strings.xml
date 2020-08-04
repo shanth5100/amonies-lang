@@ -1,19 +1,19 @@
 <resources>
     <!-- Abbreviate form of Week days -->
-    <string name="monday">lun</string>
-    <string name="tuesday">mar</string>
-    <string name="wednesday">mer</string>
-    <string name="thursday">jeu</string>
-    <string name="friday">ven</string>
-    <string name="saturday">sam</string>
-    <string name="sunday">dim</string>
+    <string name="monday">Lun</string>
+    <string name="tuesday">Mar</string>
+    <string name="wednesday">Mer</string>
+    <string name="thursday">Jeu</string>
+    <string name="friday">Ven</string>
+    <string name="saturday">Sam</string>
+    <string name="sunday">Dim</string>
 
     <!-- Full week day names -->
-    <string name="monday_full">lundi</string>
-    <string name="tuesday_full">mardi</string>
-    <string name="wednesday_full">mercredi</string>
-    <string name="thursday_full">jeudi</string>
-    <string name="friday_full">vendredi</string>
-    <string name="saturday_full">samedi</string>
-    <string name="sunday_full">dimanche</string>
+    <string name="monday_full">Lundi</string>
+    <string name="tuesday_full">Mardi</string>
+    <string name="wednesday_full">Mercredi</string>
+    <string name="thursday_full">Jeudi</string>
+    <string name="friday_full">Vendredi</string>
+    <string name="saturday_full">Samedi</string>
+    <string name="sunday_full">Dimanche</string>
 </resources>

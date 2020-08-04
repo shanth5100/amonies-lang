@@ -9,11 +9,11 @@
     <string name="sunday">Dom</string>
 
     <!-- Full week day names -->
-    <string name="monday_full">lunes</string>
-    <string name="tuesday_full">martes</string>
-    <string name="wednesday_full">miércoles</string>
-    <string name="thursday_full">jueves</string>
-    <string name="friday_full">viernes</string>
-    <string name="saturday_full">sábado</string>
-    <string name="sunday_full">domingo</string>
+    <string name="monday_full">Lunes</string>
+    <string name="tuesday_full">Martes</string>
+    <string name="wednesday_full">Miércoles</string>
+    <string name="thursday_full">Jueves</string>
+    <string name="friday_full">Viernes</string>
+    <string name="saturday_full">Sábado</string>
+    <string name="sunday_full">Domingo</string>
 </resources>
