@@ -1,12 +1,12 @@
 <resources>
     <!-- Abbreviate form of Week days -->
-    <string name="monday">Пн</string>
-    <string name="tuesday">Вт</string>
-    <string name="wednesday">Ср</string>
-    <string name="thursday">Чт</string>
-    <string name="friday">Пт</string>
-    <string name="saturday">Сб</string>
-    <string name="sunday">Вс</string>
+    <string name="monday">Пнд</string>
+    <string name="tuesday">Втр</string>
+    <string name="wednesday">Срд</string>
+    <string name="thursday">Чтв</string>
+    <string name="friday">Птн</string>
+    <string name="saturday">Сбт</string>
+    <string name="sunday">Вск</string>
 
     <!-- Full week day names -->
     <string name="monday_full">Понедельник</string>
