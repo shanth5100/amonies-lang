@@ -1,12 +1,12 @@
 <resources>
     !-- Abbreviate form of Week days -->
-    <string name="monday">seg</string>
-    <string name="tuesday">ter</string>
-    <string name="wednesday">qua</string>
-    <string name="thursday">qui</string>
-    <string name="friday">sex</string>
-    <string name="saturday">sab</string>
-    <string name="sunday">dom</string>
+    <string name="monday">Seg</string>
+    <string name="tuesday">Ter</string>
+    <string name="wednesday">Qua</string>
+    <string name="thursday">Qui</string>
+    <string name="friday">Sex</string>
+    <string name="saturday">Sab</string>
+    <string name="sunday">Dom</string>
 
     <!-- Full week day names -->
     <string name="monday_full">Segunda-feira</string>
