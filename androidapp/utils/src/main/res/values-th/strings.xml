@@ -1,12 +1,12 @@
 <resources>
     <!-- Abbreviate form of Week days -->
-    <string name="monday">จ</string>
-    <string name="tuesday">อ</string>
-    <string name="wednesday">พ</string>
-    <string name="thursday">พฤ</string>
-    <string name="friday">ศ</string>
-    <string name="saturday">ส</string>
-    <string name="sunday">อา</string>
+    <string name="monday">จ.</string>
+    <string name="tuesday">อ.</string>
+    <string name="wednesday">พ.</string>
+    <string name="thursday">พฤ.</string>
+    <string name="friday">ศ.</string>
+    <string name="saturday">ส.</string>
+    <string name="sunday">อา.</string>
 
     <!-- Full week day names -->
     <string name="monday_full">วันจันทร์</string>
