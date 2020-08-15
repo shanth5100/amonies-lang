@@ -16,4 +16,6 @@
     <string name="friday_full">Piątek</string>
     <string name="saturday_full">Sobota</string>
     <string name="sunday_full">Niedziela</string>
+
+    <string name="week_start_day">Pierwszy dzień tygodnia</string>
 </resources>

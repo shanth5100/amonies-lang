@@ -16,4 +16,6 @@
     <string name="friday_full">Vrijdag</string>
     <string name="saturday_full">Zaterdag</string>
     <string name="sunday_full">Zondag</string>
+
+    <string name="week_start_day">Eerste dag van de week</string>
 </resources>

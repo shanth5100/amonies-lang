@@ -16,4 +16,6 @@
     <string name="friday_full">วันศุกร์</string>
     <string name="saturday_full">วันเสาร์</string>
     <string name="sunday_full">วันอาทิตย์</string>
+
+    <string name="week_start_day">วันแรกของสัปดาห์</string>
 </resources>

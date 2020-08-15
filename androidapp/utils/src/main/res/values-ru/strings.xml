@@ -16,4 +16,6 @@
     <string name="friday_full">Пятница</string>
     <string name="saturday_full">Cуббота</string>
     <string name="sunday_full">Bоскресенье</string>
+
+    <string name="week_start_day">Первый день недели</string>
 </resources>

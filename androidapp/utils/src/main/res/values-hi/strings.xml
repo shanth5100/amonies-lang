@@ -16,4 +16,6 @@
     <string name="friday_full">शुक्रवार</string>
     <string name="saturday_full">शनिवार</string>
     <string name="sunday_full">रविवार</string>
+
+    <string name="week_start_day">सप्ताह का पहला दिन</string>
 </resources>
