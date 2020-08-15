@@ -1,0 +1,21 @@
+<resources>
+    <!-- Abbreviate form of Week days -->
+    <string name="monday">月</string>
+    <string name="tuesday">火</string>
+    <string name="wednesday">水</string>
+    <string name="thursday">木</string>
+    <string name="friday">金</string>
+    <string name="saturday">土</string>
+    <string name="sunday">日</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">月曜日</string>
+    <string name="tuesday_full">火曜日</string>
+    <string name="wednesday_full">水曜日</string>
+    <string name="thursday_full">木曜日</string>
+    <string name="friday_full">金曜日</string>
+    <string name="saturday_full">土曜日</string>
+    <string name="sunday_full">日曜日</string>
+
+    <string name="week_start_day">週の最初の日</string>
+</resources>
