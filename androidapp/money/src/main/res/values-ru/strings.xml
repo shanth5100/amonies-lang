@@ -6,19 +6,19 @@
     <string name="menu_accts">Счета</string>
     <string name="menu_search_txs">Поисковые транзакции</string>
     <string name="menu_budget">Бюджетов расходов</string>
-    <string name="bills_reminder">Напоминание о выплатах</string>
+    <string name="bills_reminder">Напоминание О cчетах</string>
     <string name="menu_txs_calendar">Просмотр календаря</string>
     <string name="menu_txs_cat_report">Сделки по категориям</string>
     <string name="menu_txs_recurring">Повторяющиеся транзакции</string>
-    <string name="menu_bills_header">Напоминание о выплатах</string>
-    <string name="menu_bills_list">банкноты</string>
+    <string name="menu_bills_header">НАПОМИНАНИЕ О СЧЕТАХ</string>
+    <string name="menu_bills_list">законопроекты</string>
     <string name="menu_bills_list_status">Счета по статусу</string>
     <string name="menu_bills_calendar">Просмотр календаря</string>
     <string name="menu_bills_recurring">Повторяющиеся счета</string>
     <string name="for_transactions">Для транзакций</string>
 
     <string name="export_body">&lt;р&gt; Отправлено из приложения \'just money\' android &lt;/p&gt;</string>
-    <string name="app_try_title">Просто напоминание денег</string>
+    <string name="app_try_title">Просто Напоминание О Деньгах</string>
     <string name="app_try_remind">Вы еще пробовали приложение? Его простой и простой в использовании.</string>
     <string name="app_use_remind">Вы добавили свои расходы сегодня?</string>
 
@@ -27,39 +27,39 @@
     <!-- account.xml -->
 
     <!-- Account List -->
-    <string name="acct_add">Создать Счет</string>
+    <string name="acct_add">Cоздать аккаунт</string>
     <string name="acct_delete">удалить аккаунт</string>
     <!-- <string name="accts">Account</string>  -->
     <string name="acct_final_bal">текущий баланс</string>
-    <string name="acct_saved_success">Успешно сохранена.</string>
-    <string name="acct_delete_unsaved">Он не может удалить неспасную учетную запись.</string>
+    <string name="acct_saved_success">Учетная запись успешно сохранена.</string>
+    <string name="acct_delete_unsaved">Невозможно удалить несохраненную учетную запись.</string>
     <string name="acct_delete_success">Успешно удалена учетная запись.</string>
     <string name="acct_delete_warn">Выбранная учетная запись и все транзакции с ней будут удалены..!</string>
     <string name="acct_delete_error_msg">ошибка..!\n Вам нужно иметь как минимум одну активную учетную запись для работы.</string>
 
-    <string name="acct_desc_default">Баланс открытия счета: %1$s</string>
+    <string name="acct_desc_default">Начальный баланс счета составляет: %1$s</string>
     <string name="acct_menu_filter_favorite">Только избранные аккаунты</string>
-    <string name="acct_menu_filter_off">Показать все счета</string>
+    <string name="acct_menu_filter_off">Показать все аккаунты</string>
 
     <!--  Account Details -->
     <string name="acct_details">Детали учетной записи</string>
     <string name="acct_details_new">Новые данные учетной записи</string>
-    <string name="acct_name">Название Счета</string>
-    <string name="acct_desc">описание</string>
-    <string name="acct_init_bal">начальное сальдо</string>
-    <string name="acct_budget">ежемесячный бюджет</string>
-    <string name="acct_currency">валюта</string>
-    <string name="acct_inclInTot">Включать общий баланс</string>
+    <string name="acct_name">Название cчета</string>
+    <string name="acct_desc">Описание</string>
+    <string name="acct_init_bal">Hачальное сальдо</string>
+    <string name="acct_budget">Eжемесячный бюджет</string>
+    <string name="acct_currency">Валюта</string>
+    <string name="acct_inclInTot">Включить остаток в общую сумму</string>
     <string name="acct_tx_status">Статус транзакции по умолчанию</string>
     <string name="acct_active">Часто используемый или любимый аккаунт</string>
     <string name="acct_active_help_msg">На экране учетных записей вы можете фильтровать, чтобы просматривать только избранные аккаунты, не беспокоясь о неактивных / закрытых счетах (те, которые вы часто не используете). \n\nПоэтому вместо удаления учетной записи, которая удалит связанные с ней транзакции, вы можете использовать эту опцию.</string>
     <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
-    <string name="acct_list_empty">Нет счет..!</string>
+    <string name="acct_list_empty">Счета не существует..!</string>
     <string name="acct_list_empty_warning">Нет учетной записи, сначала создайте учетную запись.</string>
     <string name="acct_list_total_rows">%1$d счета общий баланс:</string>
-    <string name="acct_list_total_rows_multi">%1$d счета в разных валютах</string>
+    <string name="acct_list_total_rows_multi">%1$d счета в нескольких валютах</string>
     <string name="acct_list_all_currencies">Все валюты</string>
-    <string name="acct_list_xxx_Accounts">%1$s счета</string>
+    <string name="acct_list_xxx_Accounts">%1$s Cчета</string>
     <string name="acct_name_err">Имя учетной записи пуст..!</string>
 
     <!-- ==================================================================== -->
@@ -67,24 +67,24 @@
 
     <string name="tx_detail_tab">Детали</string>
     <string name="tx_detail_tab_new">Введите детали</string>
-    <string name="tx_detail_title_new">Новая сделка</string>
-    <string name="tx_detail_title_edit">Существующая сделка</string>
-    <string name="tx_bill_pmt_label">Выберите счет для добавления оплаты</string>
+    <string name="tx_detail_title_new">Новая транзакция</string>
+    <string name="tx_detail_title_edit">Существующая транзакция</string>
+    <string name="tx_bill_pmt_label">Выберите законопроект для добавления оплата</string>
     <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
     <string name="tx_bill_pmt_notes">оплата счетов</string>
-    <string name="tx_bill_pmt_not_selected">Выберите счет, чтобы оплатить счет.</string>
+    <string name="tx_bill_pmt_not_selected">Пожалуйста, выберите законопроект, чтобы завершить оплату счета.</string>
     <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
-    <string name="tx_payee">Получатель, плательщик или товар</string>
+    <string name="tx_payee">Получатель платежа, плательщик или товар</string>
     <string name="tx_payee_hint">Имя контактного лица, предприятия или магазина</string>
     <string name="tx_transf_amt">Сумма перевода</string>
-    <string name="tx_date">Дата сделки</string>
+    <string name="tx_date">Дата совершения операции</string>
     <string name="tx_account">Выберите учетную запись</string>
     <!--<string name="tx_deposit">Deposit</string>
     <string name="tx_withdraw">изымать</string>-->
     <string name="tx_status">Статус транзакции</string>
     <string name="tx_new">Добавить расход / доход</string>
-    <string name="tx_bill_pmt">оплата счетов</string>
-    <string name="tx_list_empty">Нет сделка есть..!</string>
+    <string name="tx_bill_pmt">Oплата счетов</string>
+    <string name="tx_list_empty">Транзакций нет существовать ..!</string>
     <string name="tx_repeats">Повторяющиеся транзакции</string>
     <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
     <string name="tx_error_save_pic">Ошибка при сохранении изображения: %1$s</string>
@@ -96,9 +96,9 @@
     <string name="tx_duplicate_multi">Создано %1$d транзакции.</string>
     <string name="tx_delete_success">Успешно удаленные транзакции.</string>
     <string name="tx_delete_unsaved">Он не может удалить несохраненные транзакции.</string>
-    <string name="tx_amt_err">Укажите действительную сумму..!</string>
-    <string name="tx_err_future_dt">Введите дату в будущем.</string>
-    <string name="tx_photo_not_supported">Он не смог захватить фотографию, устройство не поддерживается..!</string>
+    <string name="tx_amt_err">Пожалуйста, введите действительную сумму ..!</string>
+    <string name="tx_err_future_dt">Пожалуйста, введите будущую дату.</string>
+    <string name="tx_photo_not_supported">Невозможно сделать снимок, устройство не поддерживается..!</string>
     <string-array name="tx_status">
         <item>недействительным / инвалид</item>
         <item>Нерассмотренный / ожидающий</item>
