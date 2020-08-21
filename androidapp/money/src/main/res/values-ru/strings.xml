@@ -100,10 +100,10 @@
     <string name="tx_err_future_dt">Пожалуйста, введите будущую дату.</string>
     <string name="tx_photo_not_supported">Невозможно сделать снимок, устройство не поддерживается..!</string>
     <string-array name="tx_status">
-        <item>недействительным / инвалид</item>
-        <item>Нерассмотренный / ожидающий</item>
-        <item>очищается</item>
-        <item>Рассмотренная и согласованная</item>
+        <item>Ничтожным / недействительным</item>
+        <item>Не очищено / ожидающий</item>
+        <item>Очищено</item>
+        <item>Очищено и согласовано</item>
     </string-array>
     <string name="tx_add_suc">Добавлена новая транзакция</string>
     <string name="tx_update_suc">Обновленная транзакция</string>
@@ -114,47 +114,47 @@
         <item>Удалять и воссоздавать транзакции с использованием новых повторяющихся изменений. Транзакции, связанные с этой повторяющейся конфигурацией, будут выполняться только</item>
         <!-- <item>Effect this &amp; all bills.</item> -->
     </string-array>
-    <string name="tx_rpt_remove">Удалить повторяющийся характер</string>
+    <string name="tx_rpt_remove">Удалите возвращающуюся природу</string>
     <string-array name="tx_rpt_remove">
         <item>Только для этой транзакции.</item>
         <item>Для этого и всех связанных транзакций.</item>
     </string-array>
-    <string name="bill_delete_single_warn">Счета и любой связанной транзакции с оплатой счета будут удалены, продолжите?</string>
-    <string name="bill_delete_multi_warn">Выбранные счета и любые связанные транзакции с оплатой счетов будут удалены, продолжите?</string>
+    <string name="bill_delete_single_warn">законопроект и какая-нибудь связанная сделка оплаты счета будут удалены, продолжат?</string>
+    <string name="bill_delete_multi_warn">Отобранные законопроект и какие-нибудь связанные сделки оплаты счета будут удалены, продолжатся?</string>
     <string name="tx_bill_mark_unpaid_warning_title">Отмечать как неоплачиваемый</string>
-    <string name="tx_bill_mark_unpaid_warning">Удалить транзакции, связанные с этим счетом?</string>
+    <string name="tx_bill_mark_unpaid_warning">Удалить транзакции, связанные с этим законопроект?</string>
 
     <!-- Transaction list -->
     <string name="tx_view_txs">Просматривать транзакции</string>
     <string name="tx_list_title">Транзакции</string>
     <string name="tx_list_filter_dialog">Фильтровать видимые метки</string>
 
-    <string name="tx_export_subject">Денежные переводы</string>
+    <string name="tx_export_subject">денег транзакции</string>
     <string name="tx_export_title">Экспортировать как csv</string>
-    <string name="tx_export_type">текст/обычный</string>
-    <string name="tx_list_total_rows"> %1$s рядов всего: </string>
-    <string name="tx_list_total_rows_multi_curr"> %1$s строки в нескольких валютах </string>
+    <string name="tx_export_type">Tекст/равнина</string>
+    <string name="tx_list_total_rows"> %1$s ряд(и) Итого: </string>
+    <string name="tx_list_total_rows_multi_curr"> %1$s ряды в многократных валютах </string>
     <string name="tx_list_cleared">(очищается: </string>
 
     <string name="tx_list_options_view">Просмотреть сведения о транзакции</string>
-    <string name="tx_list_options_select">Выберите эту строку</string>
+    <string name="tx_list_options_select">Выберите этот ряд</string>
     <string name="tx_list_options_copy">Создать копию (дубликат)</string>
     <string name="tx_list_options_delete">Удалить транзакцию</string>
 
-    <string name="tx_removed_recurring">Транзакция несвязана с повторяющейся конфигурацией.</string>
+    <string name="tx_removed_recurring">Транзакция разорвать связь от возвращающейся конфигурации.</string>
 
     <!-- Fund Transfer -->
     <string name="transfer_fromAcct">Со счета</string>
     <string name="transfer_toAcct">На счет</string>
-    <string name="transfer_toAmt">Сумму, переведенную после преобразования в </string>
-    <string name="transfer_exRate">Обменный курс</string>
+    <string name="transfer_toAmt">Сумма, переданное после преобразования в </string>
+    <string name="transfer_exRate">Обменный курс составляет</string>
     <string name="transfer_rate_modify">Изменять скорость</string>
-    <string name="transfer_save">Переводить средства</string>
+    <string name="transfer_save">фонды передачи</string>
     <string name="transfer_rate_default_err">Недействительный обменный курс, пожалуйста, измените коэффициент конверсии.</string>
-    <string name="transfer_diff_acct_err"> Выберите различные учетные записи для перевода средств.</string>
+    <string name="transfer_diff_acct_err"> Пожалуйста, выберите разные счета для перевода средств.</string>
     <string name="transfer_success">Передача средств успешна.</string>
-    <string name="transfer_to">перемещенный в </string>
-    <string name="transfer_from">Переведен из </string>
+    <string name="transfer_to">Передача в </string>
+    <string name="transfer_from">Передача из </string>
 
 
     <!-- ==================================================================== -->
@@ -168,7 +168,7 @@
     <string name="import_first_heading">Первая строка - заголовок столбца</string>
     <string name="import_signed_amt">Подписанная сумма, в одном столбце</string>
     <string name="import_signed_amt_help">При тике: \nПоложительная сумма - это доход, а отрицательная сумма - это расход.\n\nКогда не было: \nСумма (без знака, пример: 10.75) существует только в одном из двух столбцов (сумма дебетовая или сумма зачислена).</string>
-    <string name="import_signed_warn">Убедитесь, что файл csv имеет порядок столбцов: </string>
+    <string name="import_signed_warn">Убедитесь, что csv-файл имеет ниже порядок столбцов: </string>
     <string name="import_signed_cols">Дата, получатель, сумма, категория, детали</string>
     <string name="import_unsigned_cols">Дата, получатель, сумма списана, сумма, зачисленная, категория, детали</string>
     <string name="import_but">Импортировать</string>
@@ -176,14 +176,14 @@
     <string name="import_fail_wrong_content">Не удалось импортировать файл, проверьте содержимое файла.</string>
     <string name="import_error_file">\'%1$s\'не может быть прочитан, проверьте, существует ли файл csv.</string>
     <string name="import_progress_msg">Вытягивание данных&#8230;</string>
-    <string name="import_already_started">Импорт уже выполняется, пожалуйста, попробуйте когда-нибудь..!!</string>
-    <string name="import_confirm">Импортируя транзакцию с \'%1$s\' на счет \'%2$s\'.\n\nВы хотите продолжать?</string>
+    <string name="import_already_started">Импорт уже выполняется, пожалуйста, попробуйте после когда-нибудь..!!</string>
+    <string name="import_confirm">Импорт транзакции из \'%1$s\'в учетную запись \'%2$s\'.\n\nвы хотите продолжить?</string>
 
     <string name="export_file">Имя файла csv (сохранено в: \'%1$s\')</string>
-    <string name="export_column_msg">Экспортированный файл csv будет иметь порядок столбцов:</string>
+    <string name="export_column_msg">Экспортированный файл csv будет иметь ниже порядок столбцов:</string>
     <string name="export">Экспортировать как csv</string>
-    <string name="export_to">Экспорт и отправка&#8230;</string>
-    <string name="export_success">%1$d успешно экспортированы.</string>
+    <string name="export_to">Экспорт и Отправить&#8230;</string>
+    <string name="export_success">%1$d транзакции успешно экспортированы.</string>
     <string name="export_fail">Не удалось экспортировать транзакции, убедитесь, что задано правильное имя файла.</string>
 
 
@@ -208,17 +208,17 @@
     <!-- ==================================================================== -->
     <!-- currency.xml -->
 
-    <string name="curr_from">из </string>
+    <string name="curr_from">от </string>
     <string name="curr_to">в </string>
-    <string name="curr_ex_rate">ставка</string>
-    <string name="curr_ex_inverse">обратный</string>
+    <string name="curr_ex_rate">Cтавка</string>
+    <string name="curr_ex_inverse">Oбратный</string>
     <string name="curr_ex_new">Добавить курс обмена</string>
-    <string name="curr_ex_edit">добавить обменный курс</string>
+    <string name="curr_ex_edit">Изменение обменного курса</string>
 
     <!-- Error Messages -->
     <string name="curr_ex_duplicate_err">Обменный курс для выбранных валют уже существует..!</string>
     <string name="curr_ex_update_err">Не удалось обновить обменный курс, повторите попытку..!</string>
-    <string name="curr_ex_same_err">От валюты и валюты должны быть разными.!</string>
+    <string name="curr_ex_same_err">От валюты и к валюте должно быть иначе.!</string>
     <string name="curr_ex_invalid_rate">Введите действительный курс обмена для выбранной валюты..!</string>
     <string name="curr_ex_rates_warn">Некоторые обменные курсы имеют значения по умолчанию, пожалуйста, измените их с соответствующими ставками..!</string>
 
@@ -237,26 +237,26 @@
     <string name="budget_remove">Удалить бюджет</string>
     <string name="budget_all_categories">все категории</string>
     <string name="budget_all_currency_accounts">Все %1$s аккаунты</string>
-    <string name="budget_remaining">Оставшихся</string>
+    <string name="budget_remaining">Осталось потратить</string>
 
     <string name="budget_category_all">Для всех категорий</string>
     <string name="budget_category_selected">Выбранная категория</string>
-    <string name="budget_currency_switch">Валютный бюджет</string>
+    <string name="budget_currency_switch">Валюта бюджета</string>
     <string name="budget_currency_for">для всех</string>
     <string name="budget_currency_accts"> Счета </string>
-    <string name="budget_amount">Сумма бюджета, пример 300</string>
+    <string name="budget_amount">Сумма бюджета</string>
     <string name="budget_type_spend">Потратить</string>
     <string name="budget_type_earn">Заработать</string>
     <string name="budget_period">Период расходов</string>
     <string-array name="budget_seekbar_labels">
-        <item>день</item>
-        <item>неделю</item>
-        <item>месяц</item>
-        <item>год</item>
+        <item>День</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+        <item>Год</item>
     </string-array>
     <string-array name="budget_seekbar_selections">
         <item>Ежедневно / в течение одного дня</item>
-        <item>Еженедельно / на целую неделю</item>
+        <item>Еженедельно / на всю неделю</item>
         <item>Ежемесячно / за календарный месяц</item>
         <item>Ежегодно / за весь год</item>
     </string-array>
