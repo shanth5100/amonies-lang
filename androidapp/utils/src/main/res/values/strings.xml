@@ -1,4 +1,5 @@
 <resources>
+    <!-- Abbreviate form of Week days -->
     <string name="monday">Mon</string>
     <string name="tuesday">Tue</string>
     <string name="wednesday">Wed</string>
@@ -7,6 +8,7 @@
     <string name="saturday">Sat</string>
     <string name="sunday">Sun</string>
 
+    <!-- Full week day names -->
     <string name="monday_full">Monday</string>
     <string name="tuesday_full">Tuesday</string>
     <string name="wednesday_full">Wednesday</string>
@@ -14,4 +16,6 @@
     <string name="friday_full">Friday</string>
     <string name="saturday_full">Saturday</string>
     <string name="sunday_full">Sunday</string>
+
+    <string name="week_start_day">First day of the week</string>
 </resources>

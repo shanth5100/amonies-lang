@@ -1,0 +1,21 @@
+<resources>
+    <!-- Abbreviate form of Week days -->
+    <string name="monday">Pon</string>
+    <string name="tuesday">Wto</string>
+    <string name="wednesday">Śro</string>
+    <string name="thursday">Czw</string>
+    <string name="friday">Pią</string>
+    <string name="saturday">Sob</string>
+    <string name="sunday">Ndz</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">Poniedziałek</string>
+    <string name="tuesday_full">Wtorek</string>
+    <string name="wednesday_full">Środa</string>
+    <string name="thursday_full">Czwartek</string>
+    <string name="friday_full">Piątek</string>
+    <string name="saturday_full">Sobota</string>
+    <string name="sunday_full">Niedziela</string>
+
+    <string name="week_start_day">Pierwszy dzień tygodnia</string>
+</resources>

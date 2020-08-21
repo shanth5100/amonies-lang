@@ -1,0 +1,21 @@
+<resources>
+    <!-- Abbreviate form of Week days -->
+    <string name="monday">Maa</string>
+    <string name="tuesday">Din</string>
+    <string name="wednesday">Woe</string>
+    <string name="thursday">Don</string>
+    <string name="friday">Vri</string>
+    <string name="saturday">Zat</string>
+    <string name="sunday">Zon</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">Maandag</string>
+    <string name="tuesday_full">Dinsdag</string>
+    <string name="wednesday_full">Woensdag</string>
+    <string name="thursday_full">Donderdag</string>
+    <string name="friday_full">Vrijdag</string>
+    <string name="saturday_full">Zaterdag</string>
+    <string name="sunday_full">Zondag</string>
+
+    <string name="week_start_day">Eerste dag van de week</string>
+</resources>

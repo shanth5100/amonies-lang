@@ -1,0 +1,21 @@
+<resources>
+    <!-- Abbreviate form of Week days -->
+    <string name="monday">Lun</string>
+    <string name="tuesday">Mar</string>
+    <string name="wednesday">Mié</string>
+    <string name="thursday">Jue</string>
+    <string name="friday">Vie</string>
+    <string name="saturday">Sáb</string>
+    <string name="sunday">Dom</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">Lunes</string>
+    <string name="tuesday_full">Martes</string>
+    <string name="wednesday_full">Miércoles</string>
+    <string name="thursday_full">Jueves</string>
+    <string name="friday_full">Viernes</string>
+    <string name="saturday_full">Sábado</string>
+    <string name="sunday_full">Domingo</string>
+
+    <string name="week_start_day">Primer día de la semana</string>
+</resources>

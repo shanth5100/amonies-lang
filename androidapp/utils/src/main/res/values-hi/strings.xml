@@ -1,0 +1,21 @@
+<resources>
+    <!-- Abbreviate form of Week days -->
+    <string name="monday">सोम</string>
+    <string name="tuesday">मंगल</string>
+    <string name="wednesday">बुध</string>
+    <string name="thursday">गुरु</string>
+    <string name="friday">शुक्र</string>
+    <string name="saturday">शनि</string>
+    <string name="sunday">रवि</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">सोमवार</string>
+    <string name="tuesday_full">मंगलवार</string>
+    <string name="wednesday_full">बुधवार</string>
+    <string name="thursday_full">गुरुवार</string>
+    <string name="friday_full">शुक्रवार</string>
+    <string name="saturday_full">शनिवार</string>
+    <string name="sunday_full">रविवार</string>
+
+    <string name="week_start_day">सप्ताह का पहला दिन</string>
+</resources>

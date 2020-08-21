@@ -1,0 +1,21 @@
+<resources>
+    !-- Abbreviate form of Week days -->
+    <string name="monday">Seg</string>
+    <string name="tuesday">Ter</string>
+    <string name="wednesday">Qua</string>
+    <string name="thursday">Qui</string>
+    <string name="friday">Sex</string>
+    <string name="saturday">Sab</string>
+    <string name="sunday">Dom</string>
+
+    <!-- Full week day names -->
+    <string name="monday_full">Segunda-feira</string>
+    <string name="tuesday_full">Terça-feira</string>
+    <string name="wednesday_full">Quarta-feira</string>
+    <string name="thursday_full">Quinta-feira</string>
+    <string name="friday_full">Sexta-feira</string>
+    <string name="saturday_full">Sábado</string>
+    <string name="sunday_full">Domingo</string>
+
+    <string name="week_start_day">Primeiro dia da semana</string>
+</resources>
