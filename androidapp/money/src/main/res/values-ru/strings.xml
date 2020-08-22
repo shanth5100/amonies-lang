@@ -422,10 +422,10 @@
         <item>Транзакции</item>
         <item>бюджеты</item>
         <item>Категории и подкатегории</item>
-        <item>банкноты</item>
+        <item>законопроекты</item>
         <item>Повторяющиеся настройки</item>
         <item>Отчеты и другие данные будут доступны только из собственного профиля</item>
-        <item>Это позволит использовать функции управления профилем</item>
+        <item>Это включит функции управления профилем</item>
     </string-array>
     <string name="feature_this_version">Это бесплатная пробная версия простого денежного приложения, и вы можете купить ниже апгрейдов, чтобы наслаждаться приложением в своих лучших проявлениях.</string>
 
@@ -436,8 +436,8 @@
     <string name="welcome_info1_tx_detail">Введите данные транзакции и сохраните. Также поддерживает повторяющиеся транзакции.</string>
     <string name="welcome_title1_tx_receipt">Фото ваша квитанция</string>
     <string name="welcome_info1_tx_receipt">Идите без документов, добавив квитанцию о расходах вместе с информацией о транзакции.</string>
-    <string name="welcome_title2_tx_email">Операции с акциями и квитанции</string>
-    <string name="welcome_info2_tx_email">Экспорт cvv формат и доход, включая прикрепленные квитанции (по электронной почте, Dropbox, диск).</string>
+    <string name="welcome_title2_tx_email">Делитесь транзакциями и квитанциями</string>
+    <string name="welcome_info2_tx_email">Экспорт расходов и доходов в формате csv, включая приложенные квитанции (электронная почта, Dropbox, диск).</string>
 
     <string name="welcome_title3_tx_list">Простая компоновка вкладок</string>
     <string name="welcome_info3_tx_list">Просматривать транзакции за каждый период и легко прокручивать между вкладками. Фильтровать данные на основе категорий, учетных записей и т. Д.</string>
@@ -448,16 +448,16 @@
     <string name="welcome_title6_tx_drawer">Меню навигационного ящика</string>
     <string name="welcome_info6_tx_drawer">панель, учетные записи, несколько валют, категории и подкатегории, планировщик бюджета, просмотр календаря, несколько профилей, резервное копирование и восстановление и многое другое.</string>
 
-    <string name="widget_acct_balance_title">баланс</string>
-    <string name="widget_acct_balance">баланс: </string>
+    <string name="widget_acct_balance_title">Остаток на счету</string>
+    <string name="widget_acct_balance">Баланс: </string>
     <string name="widget_shortcuts_title">Просто деньги ярлыки</string>
-    <string name="widget_shortcuts">(сочетания)</string>
-    <string name="coach_mark_add_bill">нажмите \'+\' плавающая кнопка, чтобы добавить расходы, доход или передачу средств</string>
+    <string name="widget_shortcuts">(ярлыки)</string>
+    <string name="coach_mark_add_bill">Hажмите \'+\' плавающая кнопка, чтобы добавить расходы, доход или передачу средств</string>
 
-    <string name="error_max_txs_exceeded">количество транзакций превысило максимальный лимит, пожалуйста, обновите, чтобы добавить больше транзакций.</string>
-    <string name="error_max_accounts_exceeded">количество аккаунтов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные учетные записи.</string>
+    <string name="error_max_txs_exceeded">Kоличество транзакций превысило максимальный лимит, пожалуйста, обновите, чтобы добавить больше транзакций.</string>
+    <string name="error_max_accounts_exceeded">Kоличество аккаунтов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные учетные записи.</string>
 
-    <string name="tx_new_expense">Wprowadź wydatki</string>
-    <string name="tx_new_income">Wprowadź dochód</string>
+    <string name="tx_new_expense">Добавить расходы</string>
+    <string name="tx_new_income">Добавить доход</string>
     <string name="tx_bills_disabled_msg">Знаете ли вы, что это приложение поддерживает встроенную функцию напоминания счета? Включите его, чтобы управлять своими счетами и платежами.</string>
 </resources>
