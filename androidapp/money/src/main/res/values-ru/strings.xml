@@ -10,7 +10,7 @@
     <string name="menu_txs_calendar">Просмотр календаря</string>
     <string name="menu_txs_cat_report">Сделки по категориям</string>
     <string name="menu_txs_recurring">Повторяющиеся транзакции</string>
-    <string name="menu_bills_header">НАПОМИНАНИЕ О СЧЕТАХ</string>
+    <string name="menu_bills_header">Напоминание о счетах</string>
     <string name="menu_bills_list">законопроекты</string>
     <string name="menu_bills_list_status">Счета по статусу</string>
     <string name="menu_bills_calendar">Просмотр календаря</string>
@@ -37,7 +37,7 @@
     <string name="acct_delete_warn">Выбранная учетная запись и все транзакции с ней будут удалены..!</string>
     <string name="acct_delete_error_msg">ошибка..!\n Вам нужно иметь как минимум одну активную учетную запись для работы.</string>
 
-    <string name="acct_desc_default">Начальный баланс счета составляет: %1$s</string>
+    <string name="acct_desc_default">Остаток на открытие счета: %1$s</string>
     <string name="acct_menu_filter_favorite">Только избранные аккаунты</string>
     <string name="acct_menu_filter_off">Показать все аккаунты</string>
 
@@ -72,7 +72,7 @@
     <string name="tx_bill_pmt_label">Выберите законопроект для добавления оплата</string>
     <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
     <string name="tx_bill_pmt_notes">оплата счетов</string>
-    <string name="tx_bill_pmt_not_selected">Пожалуйста, выберите законопроект, чтобы завершить оплату счета.</string>
+    <string name="tx_bill_pmt_not_selected">Пожалуйста, выберите законопроект, чтобы завершить оплату.</string>
     <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
     <string name="tx_payee">Получатель платежа, плательщик или товар</string>
     <string name="tx_payee_hint">Имя контактного лица, предприятия или магазина</string>
