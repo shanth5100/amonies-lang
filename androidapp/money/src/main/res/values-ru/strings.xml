@@ -37,7 +37,7 @@
     <string name="acct_delete_warn">Выбранная учетная запись и все транзакции с ней будут удалены..!</string>
     <string name="acct_delete_error_msg">ошибка..!\n Вам нужно иметь как минимум одну активную учетную запись для работы.</string>
 
-    <string name="acct_desc_default">Остаток на открытие счета: %1$s</string>
+    <string name="acct_desc_default">Остаток на открытие счета %1$s</string>
     <string name="acct_menu_filter_favorite">Только избранные аккаунты</string>
     <string name="acct_menu_filter_off">Показать все аккаунты</string>
 
