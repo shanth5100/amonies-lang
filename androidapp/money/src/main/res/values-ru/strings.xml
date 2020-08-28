@@ -276,7 +276,7 @@
     <string name="rpt_title">Отчеты</string>
     <string name="select_account">Выберите учетную запись</string>
 
-    <string name="tx_rpt_total_expense">Общие расходы: %1$s</string>
+    <string name="tx_rpt_total_expense">Общие расходы %1$s</string>
     <string name="tx_rpt_total_income">Общий доход: %1$s</string>
     <string name="tx_rpt_type_cat_expense">Расходы по категориям</string>
     <string name="tx_rpt_type_cat_income">Доход по категориям</string>
@@ -303,7 +303,7 @@
 
     <string name="acct_rpt_balance_label">Баланс аккаунта на 30 дней</string>
     <string name="acct_rpt_balance_info">Линейная диаграмма, показывающая исторические и прогнозные остатки на счетах, ежедневно.</string>
-    <string name="acct_rpt_balance_currency">Валюта: %1$s</string>
+    <string name="acct_rpt_balance_currency">Валюта %1$s</string>
     <string name="acct_rpt_balance_accounts_all">Все %1$s аккаунты</string>
     <string name="acct_rpt_balance_accounts_selected">Выбранные учетные записи %1$s (%2$d)</string>
     <string name="acct_rpt_balance_separate_lines">Постройте каждый счет</string>
@@ -314,7 +314,7 @@
 
     <string name="tx_rpt_trends_screen_title">Тенденции движения денежных средств</string>
     <string name="tx_rpt_trends_expense_label">Тенденции за последние 30 дней (расходы)</string>
-    <string name="tx_rpt_trends_expense_info">Линейный чат показывает обе тенденции расходов за последние 30 дней.</string>
+    <string name="tx_rpt_trends_expense_info">Линейный график показывает обе тенденции расходов за последние 30 дней.</string>
     <string name="tx_rpt_trends_income_label">Тенденции за последние 30 дней (доход)</string>
     <string name="tx_rpt_trends_income_info">Линейная диаграмма, показывающая денежный поток дохода за последние 30 дней.</string>
 
