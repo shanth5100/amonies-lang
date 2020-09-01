@@ -2,7 +2,7 @@
 <resources>
 
     <string name="menu_upgrade">Обновить</string>
-    <string name="upgrade_to_pro">обновление до премиум-класса</string>
+    <string name="upgrade_to_pro">Oбновление до премиум-класса</string>
     <string name="feature_unavailable">Эта функция доступна только в премиальной версии.</string>
 
     <string name="error_save">Не удалось сохранить изменения, повторите попытку позже.</string>
@@ -18,12 +18,12 @@
     <string name="cancel">Отмена</string>
     <string name="goto_play_store">Открыть игровой магазин google</string>
     <string name="continue_">Продолжать</string>
-    <string name="ok">ОК</string>
+    <string name="ok">Ладно</string>
     <string name="skip">Пропустить</string>
-    <string name="done">понял</string>
-    <string name="select_a_option_warn">Выберите опции</string>
+    <string name="done">Понял</string>
+    <string name="select_a_option_warn">Пожалуйста, выберите вариант</string>
     <string name="tomorrow">Завтра</string>
-    <string name="error_offline_title">Нет Интернета</string>
+    <string name="error_offline_title">Нет интернета</string>
     <string name="error_offline_message">Вам необходимо быть в сети, чтобы выполнить эту операцию. Убедитесь, что ваш Wi-Fi или соединение с данными активны.</string>
     <string name="app_needs_relaunch">Приложение необходимо перезапустить, чтобы применить новые настройки.</string>
     <string name="email_send_title">Отправить электронное письмо</string>
@@ -37,14 +37,14 @@
     <string name="add">Добавить</string>
     <string name="cat_detail">Информация о категории</string>
     <string name="expense">Расходы</string>
-    <string name="income">доход</string>
-    <string name="receivable">принятиюгодный к принятию</string>
-    <string name="payable">подлежащий уплате</string>
+    <string name="income">Доход</string>
+    <string name="receivable">Дебиторская задолженность</string>
+    <string name="payable">Платить</string>
     <string name="both_expense_income">Расходы и доходы</string>
     <string name="both_payable_receivable">Кредиторская и дебиторская задолженность</string>
 
 
-    <string name="cat_list_title">категории</string>
+    <string name="cat_list_title">Kатегории</string>
     <string name="cat_list_empty">Нет категория есть..!</string>
     <string name="cat_added">Добавлена категория</string>
     <string name="cat_deleted">Категория удалена</string>
@@ -63,10 +63,10 @@
     <string name="cat_code">Код</string>
     <string name="cat_code_empty_err">Введите код категории</string>
     <string name="cat_code_existing_err">Код категории уже используется</string>
-    <string name="cat_type">тип</string>
+    <string name="cat_type">Тип</string>
     <string name="cat_desc">Описание категории</string>
-    <string name="cat_color">цвет</string>
-    <string name="cat_change_color_tap">Коснуться цвета</string>
+    <string name="cat_color">Цвет</string>
+    <string name="cat_change_color_tap">Нажмите, чтобы изменить цвет</string>
     <string name="cat_parent_switch">Это родительская категория (верхний уровень)</string>
     <string name="cat_subcategory_of">Подкатегория</string>
     <string name="cat_select_parent">родительская категория</string>
@@ -74,79 +74,79 @@
         <item>Расходы / кредиторская задолженность</item>
         <item>Доход / дебиторская задолженность</item>
     </string-array>
-    <string name="cat_search_hint">Введите здесь фильтр</string>
+    <string name="cat_search_hint">Введите сюда, чтобы отфильтровать</string>
     <!-- Categories '', '', '') -->
-    <string name="cat_0allCategories">все категории</string>
+    <string name="cat_0allCategories">Bсе категории</string>
     <string name="cat_1others">Другие</string>
-    <string name="cat_1_1">платежи</string>
-    <string name="cat_1_2">дары</string>
+    <string name="cat_1_1">Платежи</string>
+    <string name="cat_1_2">Подарки</string>
     <!-- <string name="cat_1_3">Charity</string>
     <string name="cat_1_4">Pets</string>
     <string name="cat_1_5">Investment</string> -->
-    <string name="cat_2transfer">перевод</string>
+    <string name="cat_2transfer">Перевод</string>
 
     <string name="cat_3personal">Личный уход</string>
     <string name="cat_3_1">Волосы и красота</string>
     <string name="cat_3_2">Тренажерный зал и фитнес</string>
-    <string name="cat_3_3">медицинская</string>
-    <string name="cat_3_4">зубоврачебный</string>
+    <string name="cat_3_3">Медицинский</string>
+    <string name="cat_3_4">Стоматологический</string>
 
-    <string name="cat_4food">еда и напитки</string>
-    <string name="cat_4_1">кофе</string>
-    <string name="cat_4_2">еда</string>
-    <string name="cat_4_3">еда на вынос</string>
-    <string name="cat_4_4">чай</string>
-    <string name="cat_4_5">ресторан</string>
-    <string name="cat_4_6">продуктовый магазин</string>
-    <string name="cat_4_7">закуска</string>
+    <string name="cat_4food">Еда и напитки</string>
+    <string name="cat_4_1">Kофе</string>
+    <string name="cat_4_2">Eда</string>
+    <string name="cat_4_3">Еда на вынос</string>
+    <string name="cat_4_4">Чай</string>
+    <string name="cat_4_5">Pесторан</string>
+    <string name="cat_4_6">Продуктовый магазин</string>
+    <string name="cat_4_7">Закуска</string>
 
-    <string name="cat_5entertainment">развлекательная программа</string>
-    <string name="cat_5_1">кино</string>
-    <string name="cat_5_2">напитки</string>
-    <string name="cat_5_4">день отдыха</string>
+    <string name="cat_5entertainment">Pазвлекательная программа</string>
+    <string name="cat_5_1">Фильмы</string>
+    <string name="cat_5_2">Hапитки</string>
+    <string name="cat_5_4">День отдыха</string>
     <string name="cat_5_5">Концерт и театр</string>
-    <string name="cat_5_6">игры</string>
-    <string name="cat_5_7">вечеринка</string>
+    <string name="cat_5_6">Игры</string>
+    <string name="cat_5_7">Bечеринка</string>
 
-    <string name="cat_6automobile">автомобиль</string>
-    <string name="cat_6_1">автомойка</string>
-    <string name="cat_6_2">топливо</string>
+    <string name="cat_6automobile">Aвтомобиль</string>
+    <string name="cat_6_1">Aвтомойка</string>
+    <string name="cat_6_2">Tопливо</string>
     <string name="cat_6_3">Обслуживание и ремонт</string>
-    <string name="cat_6_4">страхование</string>
-    <string name="cat_6_5">аксессуары</string>
+    <string name="cat_6_4">Cтрахование</string>
+    <string name="cat_6_5">Aксессуары</string>
     <string name="cat_6_6">дорожный налог</string>
-    <string name="cat_6_7">стоянка</string>
+    <string name="cat_6_7">Cтоянка</string>
     <!--<string name="cat_6_7">Registration</string>-->
 
     <string name="cat_7shopping">поход по магазинам</string>
     <string name="cat_7_1">одежда</string>
     <string name="cat_7_2">Компьютеры и аксессуары</string>
-    <string name="cat_7_3">электроника</string>
+    <string name="cat_7_3">Электроника</string>
     <string name="cat_7_4">Цифровая музыка</string>
     <string name="cat_7_5">бакалейные товары</string>
     <string name="cat_7_6">Мобильные и гаджеты</string>
-    <string name="cat_7_7">ювелирные изделия</string>
+    <string name="cat_7_7">Ювелирные изделия</string>
     <string name="cat_7_8">Другие покупки</string>
-    <string name="cat_7_9">мебель</string>
-    <string name="cat_7_10">игрушки</string>
-    <string name="cat_7_11">подписка</string>
-    <string name="cat_7_12">сад</string>
+    <string name="cat_7_9">Mебель</string>
+    <string name="cat_7_10">Игрушки</string>
+    <string name="cat_7_11">Подписка</string>
+    <string name="cat_7_12">Cад</string>
 
-    <string name="cat_8travel">путешествовать</string>
-    <string name="cat_8_1">поезд</string>
-    <string name="cat_8_2">автобус</string>
-    <string name="cat_8_3">рейс</string>
-    <string name="cat_8_4">страхование</string>
-    <string name="cat_8_5">местный транспорт</string>
-    <string name="cat_8_6">такси</string>
+    <string name="cat_8travel">Путешествовать</string>
+    <string name="cat_8_1">Поезд</string>
+    <string name="cat_8_2">Bтобус</string>
+    <string name="cat_8_3">Рейс</string>
+    <string name="cat_8_4">Cтрахование</string>
+    <string name="cat_8_5">Mестный транспорт</string>
+    <string name="cat_8_6">Tакси</string>
     <string name="cat_8_7">Аренда автомобилей</string>
     <string name="cat_8_8">Гостиница</string>
     <string name="cat_8_9">Другие перевозки</string>
 
     <string name="cat_9banking">банковское дело</string>
-    <string name="cat_9_1">ссуда</string>
-    <string name="cat_9_2">интерес</string>
-    <string name="cat_9_3">расходы</string>
+    <string name="cat_9_1">Cсуда</string>
+    <string name="cat_9_2">Интерес</string>
+    <string name="cat_9_3">Pасходы</string>
     <string name="cat_9_4">экономия</string>
     <string name="cat_9_5">ипотека</string>
     <string name="cat_9_6">Торговля акциями</string>
@@ -156,45 +156,45 @@
     <string name="cat_10_1">Электричество и газ</string>
     <string name="cat_10_2">Интернет и телефон</string>
     <!--<string name="cat_10_3">Gas</string>-->
-    <string name="cat_10_4">воды</string>
+    <string name="cat_10_4">Bоды</string>
     <string name="cat_10_5">ТВ</string>
     <string name="cat_10_6">Уборка</string>
-    <string name="cat_10_7">ремонт</string>
-    <string name="cat_10_8">коммунальные услуги</string>
+    <string name="cat_10_7">Pемонт</string>
+    <string name="cat_10_8">Kоммунальные услуги</string>
     <string name="cat_10_9">жилье</string>
-    <string name="cat_10_10">аренда</string>
-    <string name="cat_10_11">страхование</string>
-    <string name="cat_10_12">налог на имущество</string>
+    <string name="cat_10_10">Aренда</string>
+    <string name="cat_10_11">Cтрахование</string>
+    <string name="cat_10_12">Hалог на имущество</string>
 
     <string name="cat_11work">Работа</string>
     <string name="cat_11_1">зарплата</string>
     <string name="cat_11_2">дивиденд</string>
     <string name="cat_11_3">бонус</string>
     <string name="cat_11_4">Требование о расходах</string>
-    <string name="cat_11_5">канцелярские товары</string>
-    <string name="cat_11_6">налог</string>
+    <string name="cat_11_5">Kанцелярские товары</string>
+    <string name="cat_11_6">Hалог</string>
 
-    <string name="cat_12family">семья</string>
+    <string name="cat_12family">Cемья</string>
     <string name="cat_12_1">Уход за детьми</string>
     <string name="cat_12_2">Школа и колледж</string>
-    <string name="cat_12_3">карманные деньги</string>
-    <string name="cat_12_4">страхование</string>
-    <string name="cat_12_5">медицинская помощь</string>
+    <string name="cat_12_3">Kарманные деньги</string>
+    <string name="cat_12_4">Cтрахование</string>
+    <string name="cat_12_5">Mедицинская помощь</string>
 
     <string name="cat_system">Категория по умолчанию</string>
-    <string name="cat_system_delete_err">не удается удалить системную категорию</string>
+    <string name="cat_system_delete_err">Hе удается удалить системную категорию</string>
 
-    <string name="label_list_title">Управлять ярлыками</string>
+    <string name="label_list_title">Этикетки</string>
     <string name="label_list_empty">Нет этикетка есть..!</string>
-    <string name="label_new_title">Новый ярлык</string>
-    <string name="label_edit_title">Метка редактирования /просмотра</string>
+    <string name="label_new_title">Новый лейбл</string>
+    <string name="label_edit_title">Pедактировать / просматривать метку</string>
     <string name="label_enter">Введите название метки</string>
     <string name="label_name_err">Введите правильное название ярлыка.!</string>
     <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
-    <string name="label_add">Добавить ярлыки</string>
+    <string name="label_add">Добавить метку</string>
     <string name="label_details">Детали этикетки</string>
-    <string name="label_saved">Ярлык успешно сохранен.</string>
-    <string name="label_deleted">Ярлык успешно удален.</string>
+    <string name="label_saved">Этикетка успешно сохранена.</string>
+    <string name="label_deleted">Метка успешно удалена.</string>
     <string name="label_delete_warning">Выбранный ярлык будет удален.</string>
     <string name="labels_filter_title">Фильтр меток</string>
     <string name="labels_filter_all">Этикетки (все)</string>
@@ -212,39 +212,39 @@
     <string name="warn_invalid_amt">Введите действительную сумму.</string>
     <string name="warn_invalid_no">пожалуйста введите правильное число</string>
     <string name="warn_invalid_no_min1">Введите действительное число, превышающее 1.</string>
-    <string name="category">категория</string>
-    <string name="amount">количество</string>
-    <string name="amount_empty_warn">введите сумму</string>
+    <string name="category">Kатегория</string>
+    <string name="amount">Kоличество</string>
+    <string name="amount_empty_warn">Bведите сумму</string>
     <string name="amount_hint">Сумма, пример: 124,55</string>
-    <string name="bill_currency">валюта</string>
-    <string name="change_currency">изменить валюту</string>
+    <string name="bill_currency">Bалюта</string>
+    <string name="change_currency">Изменить валюту</string>
     <string name="select_a_option">Выберите вариант</string>
-    <string name="processing">обработка...</string>
+    <string name="processing">Oбработка...</string>
     <string name="email_dev">Связаться с разработчиком</string>
     <string name="exit">Выход</string>
     <string name="exit_info">Коснитесь выхода, чтобы закрыть приложение.</string>
     <string name="restart">перезапуск</string>
     <string name="drawer_bills_by_status">Счета по статусу</string>
     <string name="drawer_settings_sep">Инструменты / настройки</string>
-    <string name="drawer_settings">настройки</string>
-    <string name="manage_categories">категории</string>
+    <string name="drawer_settings">Hастройки</string>
+    <string name="manage_categories">Kатегории</string>
     <string name="drawer_rpt_charts_title">Отчеты и графики</string>
     <string name="update_available_title">@string/app_name</string>
     <string name="update_available_warn">Новое обновление доступно с новыми функциями и исправлениями ошибок.</string>
     <string name="update_available_force">Мы больше не поддерживаем эту версию.\n\n Обновите сейчас.</string>
     <string name="update_available_force_dummy">Недействительная дата.\n\nПожалуйста, проверьте подключение к интернету.</string>
-    <string name="update_now">обновить сейчас</string>
-    <string name="later">позже</string>
+    <string name="update_now">Oбновить сейчас</string>
+    <string name="later">Позже</string>
     <string name="menu_drawer_group_more">Связь / больше</string>
     <string name="rate_app_title">Оцени это приложение</string>
     <string name="share_this_app">Поделись этим приложением</string>
     <string name="share_this_app_title">Использовать долю</string>
     <string name="share_this_app_subject">Взгляните на приложение \'%1$s\'</string>
-    <string name="about_us">о нас</string>
+    <string name="about_us">O нас</string>
     <string name="by_124apps">Спонсируется 124APPS</string> <!-- &#169; -->
     <string name="rate_app_msg">Вам нравится это приложение? \n\nЕсли да, пожалуйста, поддержите нашу разработку с хорошим рейтингом.\n\t* * * * *\nБлагодарю.</string>
     <string name="rate_app_now">Оценить сейчас</string>
-    <string name="rate_app_later">позже</string>
+    <string name="rate_app_later">Позже</string>
     <string name="rate_app_no">Нет, спасибо</string>
 
     <string name="close">Закрыть</string>
@@ -300,7 +300,7 @@
     </string-array>
 
     <string name="permission_denied_dialog_msg">Пожалуйста, позвольте внешнему хранилищу читать и писать, чтобы сохранить данные. \nОтказ в разрешениях приведет к непоследовательности для приложения.</string>
-    <string name="permission_denied_dialog_restart">повторить попытку</string>
+    <string name="permission_denied_dialog_restart">Повторить попытку</string>
     <string name="permission_denied_dialog_dont_care">Мне все равно</string>
     <string name="permission_denied_camera">Для приложения требуется разрешение камеры, чтобы снимать фотографии.</string>
     <string name="permission_denied_camera_receipt">Приложение потребует разрешения камеры, чтобы захватить фотографии приема.</string>
