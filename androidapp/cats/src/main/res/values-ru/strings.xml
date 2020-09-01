@@ -320,41 +320,41 @@
     <string name="title_bill_detail">Детали счета</string>
     <string name="title_bill_detail_new">Новое напоминание о счете</string>
     <string name="title_activity_calendar">Просмотр календаря</string>
-    <string name="bills">банкноты</string>
+    <string name="bills">Законопроекты</string>
     <string name="bill_new">Добавить напоминание о счете</string>
-    <string name="bills_overdue">просроченный</string>
-    <string name="bills_upcoming">предстоящий</string>
-    <string name="bills_paid">оплаченный</string>
-    <string name="bills_unpaid">неоплаченный</string>
-    <string name="bills_recurr">Повторяющиеся счета</string>
+    <string name="bills_overdue">Просроченный</string>
+    <string name="bills_upcoming">Предстоящий</string>
+    <string name="bills_paid">Oплаченный</string>
+    <string name="bills_unpaid">Hеоплаченный</string>
+    <string name="bills_recurr">Повторяющиеся Законопроекты</string>
     <string name="bills_recur_desc">Повторяет каждый %1$d %2$s.</string>
     <string name="restart_app">Перезагрузите приложение.</string>
-    <string name="bills_view">Просматривать счета</string>
+    <string name="bills_view">Просматривать Законопроекты</string>
 
     <string name="bill_list_empty_tip">Вексель не существует. \n(Коснитесь плавающей кнопки \'+\', чтобы создать ее)</string>
     <string name="bill_list_empty">Нет счетов.</string>
 
     <string name="navigation_drawer_open">Открыть навигационный ящик</string>
     <string name="navigation_drawer_close">Закрыть навигационный ящик</string>
-    <string name="dummy_day">мы б</string>
+    <string name="dummy_day">Мы бы</string>
 
     <string name="bill_delete_unsaved">Не может удалить несохраненный счет.</string>
     <string name="bill_deleted">Счет удален.</string>
-    <string name="bill_delete_single_warn">Законопроект будет удален, продолжите?</string>
-    <string name="bill_delete_multi_warn">Выбранные счета будут удалены, продолжите?</string>
-    <string name="bill_delete_recur_warn">Эта повторяющаяся запись и все связанные с ней счета будут удалены, продолжите?</string>
+    <string name="bill_delete_single_warn">Счет и его платежи будут удалены, вы продолжите?</string>
+    <string name="bill_delete_multi_warn">Выбранный счет и платежи по нему будут удалены, вы продолжите?</string>
+    <string name="bill_delete_recur_warn">Эта повторяющаяся запись и все связанные с ней Законопроекты будут удалены, продолжите?</string>
     <string name="bill_duplicate_warn">Будет создано %1$d дублирующих счета, продолжение?</string>
-    <string name="bill_not_found">Счет не существует.</string>
+    <string name="bill_not_found">Законопроекты не существует.</string>
     <string name="app_error_restart">Авто исправлена проблема, перезапустите приложение.</string>
     <string name="multi_select_mode_title">%1$s, Всего: %2$s</string>
 
-    <string name="bill_deleted_recur">Успешно удалены повторяющиеся счета.</string>
-    <string name="bill_deleted_multi">%1$d счета удалены.</string>
-    <string name="bill_multi_update_count">Обновлено %1$d счета.</string>
-    <string name="bill_duplicate_multi">Создано %1$d новых счета.</string>
+    <string name="bill_deleted_recur">Успешно удалены повторяющиеся Законопроекты.</string>
+    <string name="bill_deleted_multi">%1$d Законопроекты удалены.</string>
+    <string name="bill_multi_update_count">Обновлено %1$d Законопроекты.</string>
+    <string name="bill_duplicate_multi">Создано %1$d новых Законопроекты.</string>
     <string name="bill_duplicate_multi_error">Свяжитесь с разработчиком. Ошибка копирования :%1$s </string>
     <string name="bill_added">Добавлен новый законопроект.</string>
-    <string name="bill_saved">Счет сохраняется.</string>
+    <string name="bill_saved">Билл сохранен</string>
     <string name="bill_populating_recent">Заполнение последних значений</string>
 
     <string name="bill_payee">Получатель / товар</string>
@@ -363,11 +363,11 @@
     <string name="bill_dueNear">Из-за %1$s</string>
     <string name="bill_dueIn">Через %1$d дня</string>
     <string name="bill_dueOver">Просрочено на %1$d дня</string>
-    <string name="bill_paid">оплаченный</string>
+    <string name="bill_paid">Оплачено</string>
     <string name="bill_received">Получили</string>
-    <string name="bill_unpaid">неоплаченный</string>
+    <string name="bill_unpaid">Hеоплаченный</string>
     <string name="bill_paid_on">Оплачивается</string>
-    <string name="bill_type">Тип счета</string>
+    <string name="bill_type">Тип Билль</string>
     <string name="bill_change_notification">Уведомление об изменении напоминания</string>
     <string name="bill_more_options">больше вариантов</string>
     <string name="notify">Показать уведомление напоминания</string>
@@ -393,7 +393,7 @@
     <string name="sort_by_date_asc">Дата по возрастанию</string>
     <string name="sort_by_date_desc">Дата по убыванию</string>
     <string name="sort_by_amt_asc">Сумма по возрастанию</string>
-    <string name="sort_by_amt_desc">Количество по убыванию</string>
+    <string name="sort_by_amt_desc">Сумма по убыванию</string>
     <string name="sort_by_payee_asc">Получатель платежа по возрастанию</string>
     <string name="sort_by_payee_desc">Получатель платежа по убыванию</string>
 
