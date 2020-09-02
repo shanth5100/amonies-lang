@@ -704,39 +704,39 @@
     <string name="recurbill_list_empty">Нет повторяющихся конфигураций. \n(Коснитесь плавающей кнопки \'+\', чтобы создать ее)</string>
     <string name="recurbill_list_title">Конфигурации Повторения</string>
     <string name="recurbill_list_subtitle">Для счетов</string>
-    <string name="bills_recur_subtitle">Каждый %1$s %2$s</string>
+    <string name="bills_recur_subtitle">Каждые %1$s %2$s</string>
     <string name="menu_recurbill_delete">Удалять повторяющиеся</string>
     <string name="recurbill_list_unselected">Выберите повторяющуюся конфигурацию с левой боковой рамки.</string>
-    <string name="recurring">повторяющаяся</string>
+    <string name="recurring">Повторяющаяся</string>
 
     <string name="currency_all">Все валюты</string>
-    <string name="title_activity_inst_edit">Информация о профиле</string>
+    <string name="title_activity_inst_edit">Детали профиля</string>
 
     <!-- Period, ViewPager, TabLayout -->
     <string name="period_dashboard_change">Период изменения</string>
-    <string name="period_daily">ежедневно</string>
-    <string name="period_weekly">еженедельно</string>
-    <string name="period_monthly">ежемесячно</string>
-    <string name="period_yearly">раз в год</string>
+    <string name="period_daily">Eжедневно</string>
+    <string name="period_weekly">Eженедельно</string>
+    <string name="period_monthly">Eжемесячно</string>
+    <string name="period_yearly">Ежегодно</string>
     <string name="period_custom">Пользовательский диапазон</string>
     <string name="period_custom_range">%1$s - %2$s</string>
     <string name="period_custom_range_title">Выберите диапазон дат</string>
     <string name="period_custom_enter_from">Вводить с даты</string>
-    <string name="period_custom_enter_to">Ввести на сегодняшний день</string>
+    <string name="period_custom_enter_to">войти в день</string>
 
     <string name="period_today">Cегодня</string>
-    <string name="period_yesterday">вчера</string>
+    <string name="period_yesterday">Bчера</string>
     <string name="period_tomorrow">завтра</string>
-    <string name="period_thisweek">на этой неделе</string>
-    <string name="period_lastweek">на прошлой неделе</string>
+    <string name="period_thisweek">Hа этой неделе</string>
+    <string name="period_lastweek">Hа прошлой неделе</string>
     <string name="period_nextweek">Следующая неделя</string>
     <string name="period_rangeweek">w/c %1$s</string>
     <string name="period_rangeweek2">%1$s - %2$s</string>
     <string name="period_thismonth">этот месяц</string>
-    <string name="period_lastmonth">прошлый месяц</string>
-    <string name="period_nextmonth">в следующем месяце</string>
-    <string name="period_thisyear">в этом году</string>
-    <string name="period_lastyear">в прошлом году</string>
+    <string name="period_lastmonth">Прошлый месяц</string>
+    <string name="period_nextmonth">B следующем месяце</string>
+    <string name="period_thisyear">B этом году</string>
+    <string name="period_lastyear">B прошлом году</string>
     <string name="period_nextyear">Следующий год</string>
     <string name="period_and_future">%1$s и будущее</string>
     <string name="period_custom_last_7days">Последние 7 дней</string>
@@ -747,23 +747,23 @@
     <string name="period_custom_date_range">Пользовательский диапазон дат</string>
 
     <!-- Dashboard -->
-    <string name="dashboard_title">панель приборов</string>
+    <string name="dashboard_title">Панель приборов</string>
     <string name="dashboard_title_bill_chart_payable">Кредиторская задолженность (по категориям)</string>
     <string name="dashboard_title_bill_chart_receivable">Дебиторская задолженность (по категориям)</string>
-    <string name="dashboard_title_bill_chart_payable_status">Платежи для оплаты (по статусу)</string>
+    <string name="dashboard_title_bill_chart_payable_status">Счета к оплате (по статусу)</string>
     <string name="dashboard_title_bill_chart_receivable_status">Дебиторская задолженность (по статусу)</string>
     <string name="dashboard_summary">Обзор счетов </string>
     <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
-    <string name="dashboard_summary_receivable">дебиторская задолженность: </string>
+    <string name="dashboard_summary_receivable">Дебиторская задолженность: </string>
     <string name="dashboard_summary_payable">К оплате: </string>
     <string name="dashboard_summary_total">Всего: </string>
 
     <!-- About / welcome Screen -->
-    <string name="about_title">около</string>
+    <string name="about_title">Oколо</string>
     <string name="about_version">Версия: %1$s</string>
     <string name="about_version_trial">Версия: %1$s (бесплатная пробная версия)</string>
     <string name="about_description">Напоминание счетов поможет вам организовать и отслеживать ваши счета как оплаченные, так и неоплаченные и подлежащие оплате / дебиторской задолженности. Просто добавьте счет в это приложение, и он будет напоминать каждый день об этом, пока вы не отметили его как оплаченную или не удалили. Счета, отмеченные как повторяющиеся, автоматически создаются на основе предоставленных конфигураций и периода прогноза, что дает вам полное спокойствие.</string>
-    <string name="about_facebook">поставьте нам лайк на фейсбуке</string>
+    <string name="about_facebook">Поставьте нам лайк на фейсбуке</string>
     <string name="about_twitter">Следуйте за нами на Twitter</string>
     <string name="about_googleplay">Оцени это приложение</string>
     <string name="about_share">Поделись этим приложением</string>
@@ -773,9 +773,9 @@
     <string name="feature_label_free">бесплатная пробная версия</string>
     <string name="feature_desc_free">Версия содержит основные функции для управления вашими счетами\n</string>
     <string-array name="feature_items_free">
-        <item>уведомление о ежедневных счетах</item>
-        <item>прикреплять фотографию к счетам</item>
-        <item>поддержка повторяющихся счетов</item>
+        <item>Уведомление с напоминанием о ежедневных счетах</item>
+        <item>Прикреплять фотографию к счетам</item>
+        <item>Поддержка повторяющихся счетов</item>
         <item>ограниченные счета (300)</item>
         <item>ограниченные категории и подкатегории (70)</item>
         <item>Изменить время уведомления напоминания</item>
