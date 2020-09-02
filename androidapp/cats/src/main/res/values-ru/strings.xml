@@ -527,7 +527,7 @@
 
     <string name="home_help_text">Профиль - это организованная коллекция данных, таких как хранилище или учетная книга (а не банковская учетная запись). Данные (счета, категории, метки), принадлежащие одному профилю, хранятся в одном месте и никогда не смешиваются с данными других профилей. \n\nПоэтому он даст вам больше контроля и лучшего управления. Пример: один профиль для личных расходов, а другой - для вашего офиса или деловых расходов.</string>
     <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
-    <string name="inst_rename">редактировать профиль</string>
+    <string name="inst_rename">Pедактировать профиль</string>
     <string name="inst_open">Выберите этот профиль</string>
     <string name="default_currency">Валюта по умолчанию</string>
 
@@ -540,8 +540,8 @@
 
     <!-- ==================================================================== -->
     <!-- Backup / Recovery -->
-    <string name="bkp_title">восстановления резервной / копии</string>
-    <string name="bkp_location">место хранения</string>
+    <string name="bkp_title">Bосстановления резервной / копии</string>
+    <string name="bkp_location">Mесто хранения</string>
     <string name="bkp_location_info">Файлы резервных копий сохраняются по адресу: \n\n%1$s</string>
     <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
     <string name="bkp_name">Имя резервной копии</string>
@@ -571,12 +571,12 @@
     <string name="bkp_delete_fail">Не удалось удалить.</string>
     <string name="bkp_restore_external">Восстановить из внешнего облака</string>
     <string name="bkp_restore_external_title">Скачать и восстановить</string>
-    <string name="bkp_restore_confirm_cloud">Восстановление займет несколько секунд до двух минут, поэтому, пожалуйста, будьте терпеливы в зависимости от размера резервной копии. \n\nНажмите \'Продолжить\', чтобы выбрать внешний файл резервной копии для импорта и восстановления данных.</string>
-    <string name="bkp_last_backup">последняя резервная копия</string>
+    <string name="bkp_restore_confirm_cloud">Восстановление займет несколько секунд до пары минут, поэтому, пожалуйста, будьте терпеливы в зависимости от размера резервной копии. \n\nНажмите \'Продолжить\', чтобы выбрать внешний файл резервной копии для импорта и восстановления данных.</string>
+    <string name="bkp_last_backup">Последняя резервная копия</string>
     <string name="bkp_last_info">Резервное копирование данных приложения и вложений на Google Drive. Вы можете восстановить их при переустановке приложения, смене телефона или копировании данных на другое устройство.</string>
     <string name="bkp_last_local_time">Местный: %1$s</string>
     <string name="bkp_last_size">Размер: %1$s</string>
-    <string name="bkp_backup_now">Резервный</string>
+    <string name="bkp_backup_now">Резервное копирование</string>
     <string name="bkp_restore_now">Восстановить</string>
     <string name="bkp_google_drive_setting">Настройки Google DRIVE</string>
     <string name="bkp_google_drive_info">Добавьте учетную запись Google для хранения последних резервных копий. Включение резервного копирования на Google Drive приведет к перезаписи существующей резервной копии приложения на Google Drive, поэтому помните об этом при использовании на нескольких устройствах.</string>
@@ -584,8 +584,8 @@
     <string name="never">Никогда</string>
     <string name="bkp_restore_successful">Успешно восстановлен из резервной копии. \n\nПриложение необходимо перезапустить, чтобы применить новые данные.</string>
     <string name="bkp_create_confirm_msg">Резервное копирование может занять от нескольких секунд до минут, в зависимости от размера данных приложения, поэтому наберитесь терпения. \n\nПродолжить создание резервной копии?</string>
-    <string name="bkp_over_wifi_label">резервное копирование</string>
-    <string name="bkp_success">успешно резервное копирование.</string>
+    <string name="bkp_over_wifi_label">Pезервное копирование</string>
+    <string name="bkp_success">Yспешно резервное копирование.</string>
     <string name="bkp_restore_confirm_msg">Восстановление займет от нескольких секунд до нескольких минут, поэтому наберитесь терпения. \n\nВсе ваши существующие данные приложения на этом устройстве будут заменены из последней резервной копии. Вы хотите продолжить операцию восстановления?</string>
 
     <string-array name="bkp_to_google_drive">
@@ -602,13 +602,13 @@
     <!-- ==================================================================== -->
     <!-- PREFERENCES.XML -->
 
-    <string name="pref_key">предпочтения</string>
+    <string name="pref_key">Предпочтения</string>
 
     <!--<string name="prefTitleAppSetting">App Settings</string>
     <string name="prefKeyAppSetting">appSettings</string>-->
     <string name="prefTitleGeneralSetting">Генеральная</string>
     <string name="prefTitleDataSetting">Резервные копии и отчеты</string>
-    <string name="prefTitleDataSettingTrial">резервное копирование</string>
+    <string name="prefTitleDataSettingTrial">Pрезервное копирование</string>
     <!--<string name="prefKeyAppSetting">appSettings</string>-->
 
     <string name="prefTitleAppPIN">4-значный ПИН-код</string>
@@ -617,16 +617,16 @@
     <string name="prefTitleAppPINChange">Сменить ПИН-код</string>
     <string name="prefSummaryAppPINChange">Коснитесь здесь, чтобы изменить свой 4-значный ПИН-код.</string>
 
-    <string name="prefTitleStartupScreen">Изменить начальный экран</string>
+    <string name="prefTitleStartupScreen">Целевая страница</string>
     <string name="prefSummaryStartupScreen">Экран по умолчанию или домашний экран, который появляется при запуске приложения.</string>
 
-    <string name="prefTitleChangeLanguage">язык: %1$s</string>
+    <string name="prefTitleChangeLanguage">Лангуаже: %1$s</string>
     <string name="prefSummaryChangeLanguage">Нажмите здесь, чтобы изменить язык</string>
 
     <string name="prefTitleEnableSubcategories">Включить подкатегории</string>
     <string name="prefSummaryEnableSubcategories">Отметьте, чтобы использовать две категории уровней</string>
 
-    <string name="prefTitleInstSetting">профиль</string>
+    <string name="prefTitleInstSetting">Профиль</string>
 
     <string name="prefTitleDefaultCurrency">Валюта профиля по умолчанию: %1$s</string>
     <string name="prefSummaryDefaultCurrency">Валюта, которая предварительно заполняется при добавлении новой записи для этого профиля.</string>
@@ -638,7 +638,7 @@
     <string name="prefTitleBillSettings">Счета</string>
     <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
 
-    <string name="prefTitleNotifyTick">Напоминания</string>
+    <string name="prefTitleNotifyTick">Включить напоминание</string>
     <string name="prefSummaryNotifyTick">Сообщите мне о счетах, которые были отмечены для этого. (Отключить отключение)</string>
     <string name="prefSummaryNotifyUnTick">Уведомления теперь отключены. (Выберите, чтобы включить)</string>
 
@@ -649,10 +649,10 @@
     <string name="prefSummaryNotifyDays">Для новых счетов это предварительно выбирается как функция ежедневного напоминания. Пример: за 5 дней до установленной даты</string>
 
     <string name="prefTitleForcast">Период прогноза</string>
-    <string name="prefTitleForcastDialog">Создавать повторяющиеся счета</string>
-    <string name="prefSummaryForcast">Повторяющиеся счета будут автоматически генерироваться заранее до указанного периода. Пример: за 3 месяца</string>
+    <string name="prefTitleForcastDialog">Создавать повторяющиеся законопроект</string>
+    <string name="prefSummaryForcast">Повторяющиеся законопроект будут автоматически генерироваться заранее до указанного периода. Пример: за 3 месяца</string>
 
-    <string name="pref_inst_currency_set_to">В валюте профиля: %1$s</string>
+    <string name="pref_inst_currency_set_to">Валюта профиля установлена ​​на: %1$s</string>
 
     <!-- Backup / restore preferences (29.mar.2015) -->
 
@@ -680,10 +680,10 @@
     <!-- Filter Fragement -->
     <string name="filter_data">Данные фильтра</string>
     <string name="filter_menu">фильтр</string>
-    <string name="filter_apply">применить фильтр</string>
-    <string name="filter_selected_save">спасти</string>
-    <string name="filter_clear">сброс</string>
-    <string name="filter_invert">обратный</string>
+    <string name="filter_apply">Применить фильтр</string>
+    <string name="filter_selected_save">Cпасти</string>
+    <string name="filter_clear">Cброс</string>
+    <string name="filter_invert">Обратный</string>
     <string name="filter_sort_by">Сортировать по: %1$s</string>
     <string name="filter_category_title">Категории фильтров</string>
     <string name="filter_categories_all">Категории (все)</string>
@@ -691,7 +691,7 @@
     <string name="filter_currency_title">Фильтровать валюты</string>
     <string name="filter_currencies_all">Валюты (все)</string>
     <string name="filter_currencies_count">Валюты (%1$d)</string>
-    <string name="filter_photo_title">Фильтровать записи</string>
+    <string name="filter_photo_title">Фильтровать записи с помощью</string>
     <string name="filter_photo_any">Получение фото (любое)</string>
     <string name="filter_photo_yes">Прикрепленная фотография</string>
     <string name="filter_photo_no">Фото не прилагается</string>
