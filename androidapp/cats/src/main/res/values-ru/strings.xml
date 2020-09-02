@@ -403,7 +403,7 @@
     <string name="bill_total_rows_multi_curr">%1$d строк, в нескольких валютах.</string>
     <string name="bill_rpt_date_beyond">%1$s и выше</string>
     <string name="bill_rpt_total_payable">Общая сумма к оплате: %1$s</string>
-    <string name="bill_rpt_total_receivable">Общая сумма к получению: %1$s</string>
+    <string name="bill_rpt_total_receivable">Общая к получению: %1$s</string>
     <string name="bill_rpt_type_cat_payable">Векселя к оплате по категориям</string>
     <string name="bill_rpt_type_cat_receivable">Векселя к получению по категориям</string>
     <string name="bill_rpt_charts_saved">Сгенерированные отчеты (%1$d)</string>
@@ -411,10 +411,10 @@
     <string name="bill_rpt_charts_saved_loc">PDF-отчеты хранятся в: %1$s</string>
 
     <string name="bill_rpt_1categorywise_pay_label">Категория мудрая диаграмма (к оплате)</string>
-    <string name="bill_rpt_1categorywise_pay_info">Круговая диаграмма, показывающая сравнение по категориям за период.</string>
+    <string name="bill_rpt_1categorywise_pay_info">Круговая диаграмма, показывающая сравнение категорий за период.</string>
     <string name="bill_rpt_2categorywise_receive_label">Категория мудрая диаграмма (дебиторская задолженность)</string>
     <string name="bill_rpt_2categorywise_receive_info">Круговая диаграмма, показывающая сравнение по категориям за период.</string>
-    <string name="bill_rpt_3trends_30days_label">Тенденции векселей на 30 дней</string>
+    <string name="bill_rpt_3trends_30days_label">Тенденции законопроект за 30 дней</string>
     <string name="bill_rpt_3trends_30days_info">Линейная диаграмма, показывающая дневное сравнение как подлежащих уплате, так и дебиторской задолженности за последние 30 дней</string>
     <string name="bill_rpt_4monthwise_pay_label">Месячное разумное сравнение (к оплате)</string>
     <string name="bill_rpt_4monthwise_pay_info">Гистограмма, показывающая месячное сравнение оплачиваемых векселей.</string>
@@ -454,7 +454,7 @@
 
     <string-array name="rpt_pdf_select_options">
         <item>Просмотр / открытие</item>
-        <item>Общий отчет</item>
+        <item>Поделиться отчетом</item>
         <item>Удалить</item>
     </string-array>
 
@@ -473,11 +473,11 @@
     <string name="bill_err_future_dt">Введите дату в будущем.</string>
     <string name="bill_err_end_dt">\'Следующая дата выполнения\' должна быть до \'повторить до даты\'</string>
     <string-array name="repeat_array">
-        <item>дней</item>
-        <item>недель</item>
-        <item>месяцы</item>
+        <item>Дней</item>
+        <item>Hедель</item>
+        <item>Mесяцы</item>
         <item>Дата месяца</item>
-        <item>лет</item>
+        <item>Лет</item>
     </string-array>
     <string name="bill_rpt_save">Применять повторяющиеся изменения</string>
     <string-array name="bill_rpt_save">
@@ -491,23 +491,23 @@
         <item>Для этого и всех связанных векселей.</item>
     </string-array>
 
-    <string name="bill_list_options_view">Просмотреть детали счета</string>
+    <string name="bill_list_options_view">Просмотреть детали законопроект</string>
     <string name="bill_list_options_select">Выбрать строку</string>
     <string name="bill_list_options_copy">Создать копию (дубликат)</string>
     <string name="bill_list_options_paid">Отмечать как оплаченную</string>
-    <string name="bill_list_options_unpaid">отмечать как неоплачиваемый</string>
-    <string name="bill_list_options_delete">Удалить счет</string>
+    <string name="bill_list_options_unpaid">Oтмечать как неоплачиваемый</string>
+    <string name="bill_list_options_delete">Удалить законопроект</string>
 
-    <string name="bill_marked_paid_msg">Счет, отмеченный как оплаченный</string>
+    <string name="bill_marked_paid_msg">законопроект, отмеченный как оплаченный</string>
     <string name="bill_marked_unpaid_msg">Счет сбрасывается на неоплаченный</string>
-    <string name="bill_removed_recurring">Счет не привязан к повторяющейся конфигурации</string>
+    <string name="bill_removed_recurring">законопроект не привязан к повторяющейся конфигурации</string>
 
 
     <!-- ==================================================================== -->
     <!-- HOME.XML -->
 
     <string name="inst_name">Название бизнес профиля</string>
-    <string name="inst_name_hint">название предприятия или домохозяйства для бухгалтерии.</string>
+    <string name="inst_name_hint">Hазвание предприятия или домохозяйства для бухгалтерии.</string>
     <string name="inst_dialog_title">Информация о профиле</string>
     <string name="inst_dialog_title_edit">редактировать профиль</string>
     <string name="inst_list_title">профили</string>
