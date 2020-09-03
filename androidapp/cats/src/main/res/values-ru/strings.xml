@@ -776,8 +776,8 @@
         <item>Уведомление с напоминанием о ежедневных счетах</item>
         <item>Прикреплять фотографию к счетам</item>
         <item>Поддержка повторяющихся счетов</item>
-        <item>ограниченные счета (300)</item>
-        <item>ограниченные категории и подкатегории (70)</item>
+        <item>Oграниченные счета (300)</item>
+        <item>Oграниченные категории и подкатегории (70)</item>
         <item>Изменить время уведомления напоминания</item>
         <item>Поисковые счета</item>
         <item>Обзор таблиц для каждого месяца</item>
@@ -793,11 +793,11 @@
         <item>Ежедневное резервное копирование</item>
         <item>Только один профиль</item>
     </string-array>
-    <string name="feature_label_pro">премия</string>
+    <string name="feature_label_pro">Премия</string>
     <string name="feature_desc_pro">Это включает в себя все функции, предоставляемые \'бесплатной пробной версией\' \n\t\t\t+\nвещей премиум-функции: \n</string>
     <string-array name="feature_items_pro">
-        <item>неограниченные счета</item>
-        <item>неограниченные категории и подкатегории</item>
+        <item>Hеограниченные счета</item>
+        <item>Hеограниченные категории и подкатегории</item>
         <item>Удалять повторяющиеся счета и его конфигурацию за один раз. (Объемное удаление)</item>
         <item>множественный выбор: изменение категории нескольких счетов</item>
         <item>множественный выбор: изменение напоминания о выставлении счетов</item>
@@ -816,7 +816,7 @@
     <string name="feature_label_multiprof">Несколько профилей</string>
     <string name="feature_desc_multiprof">Это требует премиальной версии.\nПомогает вам поддерживать несколько профилей, где каждый профиль имеет свои собственные данные. Например, отделить ваши личные расходы от расходов вашего бизнеса.Поэтому каждый профиль имеет свой собственный: \n</string>
     <string-array name="feature_items_multiprof">
-        <item>категории</item>
+        <item>Kатегории</item>
         <item>банкноты</item>
         <item>Повторяющиеся настройки счета</item>
         <item>Отчеты и другие экраны будут рассматривать счета из собственного профиля</item>
@@ -828,18 +828,18 @@
     <string name="feature_subscription_title">Функции и обновление</string>
     <string name="feature_this_version">Это бесплатная пробная версия приложения напоминаний о счетах, и вы можете купить ниже обновлений, чтобы наслаждаться приложением в своих лучших проявлениях.</string>
     <string name="feature_view_comparison">Сравнение характеристик</string>
-    <string name="feature_purchased">купленный</string>
+    <string name="feature_purchased">Kупленный</string>
 
     <string name="welcome_title1_bill_detail">Добавить напоминание о налоге</string>
     <string name="welcome_info1_bill_detail">Введите данные счета и сохраните. Также поддерживает повторяющиеся счета и изменение валюты.</string>
     <string name="welcome_title2_receipt">Фото ваша квитанция</string>
     <string name="welcome_info2_receipt">Идите без документов, добавив квитанцию об оплате вместе с деталями счета.</string>
-    <string name="welcome_title3_bill_upcoming">Просматривать счета по статусу</string>
+    <string name="welcome_title3_bill_upcoming">Просматривать законопроект по статусу</string>
     <string name="welcome_info3_bill_upcoming">Быстро взглянуть на предстоящие, просроченные, неоплаченные и оплаченные счета. </string>
     <string name="welcome_title4_bill_list">Простая компоновка вкладок</string>
     <string name="welcome_info4_bill_list">Просматривать счета за каждый период и легко прокручивать между вкладками. Пример: для каждого месяца.</string>
     <string name="welcome_title5_drawer">Меню навигационного ящика</string>
-    <string name="welcome_info5_drawer">панели, категории и подкатегории, календарь, несколько валют, отчеты и диаграммы, несколько профилей, резервное копирование и восстановление.</string>
+    <string name="welcome_info5_drawer">Панели, категории и подкатегории, календарь, несколько валют, отчеты и диаграммы, несколько профилей, резервное копирование и восстановление.</string>
     <string name="welcome_title6_recurring">Управлять повторяющимися счетами</string>
     <string name="welcome_info6_recurring">Повторяющиеся конфигурации помогают легко создавать, обновлять, удалять счета и повторяющиеся счета.</string>
     <string name="welcome_title6_settings">Настройка для легкой настройки</string>
@@ -856,42 +856,42 @@
     <string name="widget_bill_overview_upcoming">предстоящий: </string>
     <string name="widget_bill_overview_count">%1$d</string>
 
-    <string name="widget_bill_single_title">Отслеживать счет</string>
+    <string name="widget_bill_single_title">Отслеживать законопроект</string>
     <string name="widget_bill_paid_on">Оплачивается %1$s</string>
-    <string name="widget_bill_due_in">В %1$d дней</string>
-    <string name="widget_bill_due_tomorrow">До завтра</string>
-    <string name="widget_bill_due_today">Сегодня</string>
-    <string name="widget_bill_due_yesterday">Вчера</string>
+    <string name="widget_bill_due_in">к оплате через %1$d дн.</string>
+    <string name="widget_bill_due_tomorrow">Срок сдачи завтра</string>
+    <string name="widget_bill_due_today">Срок сдачи сегодня</string>
+    <string name="widget_bill_due_yesterday">Срок сдачи вчера</string>
     <string name="widget_bill_overdue_by">Просрочено на %1$d дней</string>
-    <string name="coach_mark_add_bill">Нажмите кнопку \'+\', чтобы добавить напоминание о счете</string>
     <string name="coach_mark_burger_icon">Нажмите значок бургер для просмотра других экранов</string>
-    <string name="widget_bill_select_title">Выберите счет</string>
+    <string name="coach_mark_add_bill">Нажмите кнопку \'+\', чтобы добавить напоминание о счете</string>
+    <string name="widget_bill_select_title">Выберите законопроект</string>
 
-    <string name="error_max_bills_exceeded">количество счетов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные счета.</string>
-    <string name="error_max_cats_exceeded">количество категорий превысило максимальный предел, пожалуйста, обновите, чтобы добавить больше категорий.</string>
+    <string name="error_max_bills_exceeded">Kоличество счетов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные счета.</string>
+    <string name="error_max_cats_exceeded">Kоличество категорий превысило максимальный предел, пожалуйста, обновите, чтобы добавить больше категорий.</string>
 
-    <string name="bill_paid1">оплаченный счет</string>
-    <string name="bill_unpaid1">неоплаченный счет</string>
-    <string name="bill_overdue1">просроченный счет</string>
-    <string name="bill_upcoming1">предстоящий законопроект</string>
-    <string name="bill_payments">оплата счетов (%1$d)</string>
-    <string name="bill_payment_mark_paid">выплачивается полностью</string>
-    <string name="bill_payment">оплата счетов</string>
-    <string name="bill_make_payment">добавить платеж</string>
-    <string name="bill_payments_empty_text">никаких платежей по этому счету пока нет.</string>
+    <string name="bill_paid1">Oплаченный законопроект</string>
+    <string name="bill_unpaid1">Hеоплаченный законопроект</string>
+    <string name="bill_overdue1">Просроченный законопроект</string>
+    <string name="bill_upcoming1">Предстоящий законопроект</string>
+    <string name="bill_payments">Платеж (%1$d)</string>
+    <string name="bill_payment_mark_paid">Bыплачивается полностью</string>
+    <string name="bill_payment">Oплата счетов</string>
+    <string name="bill_make_payment">Добавить платеж</string>
+    <string name="bill_payments_empty_text">Hикаких платежей по этому законопроект пока нет.</string>
     <string name="bill_payment_total">Всего %1$d платежей -  %2$s</string>
     <string name="bill_payment_total_remaining">%1$s оставшихся на общую сумму %2$s</string>
-    <string name="bill_payment_total_overpaid">%1$s переплата по общей сумме из-за %2$s</string>
-    <string name="bill_payment_total_equal">поздравления! этот счет оплачивается.</string>
+    <string name="bill_payment_total_overpaid">%1$s переплата по общей из-за %2$s</string>
+    <string name="bill_payment_total_equal">поздравления! этот законопроект оплачивается.</string>
     <string name="bill_payment_heading">%1$s должен состояться %2$s</string>
-    <string name="bill_payment_bill_amt">сумма счета:</string>
-    <string name="bill_payment_amt_paid">общий платеж:</string>
+    <string name="bill_payment_bill_amt">Cумма счета:</string>
+    <string name="bill_payment_amt_paid">Oбщий платеж:</string>
     <string name="bill_payment_amt_due">Сумма долга:</string>
     <string name="bill_payment_date">дата платежа</string>
     <string name="bill_payment_last_paid_dt">последний платеж %1$s</string>
     <string name="bill_payment_not_exits">[никто]</string>
-    <string name="bill_payments_tablet_view">отмечать как оплаченные, просматривать или добавлять платежи по счетам &#8230;</string>
-    <string name="bill_payment_amt_outstanding">общий остаток</string>
+    <string name="bill_payments_tablet_view">Oтмечать как оплаченные, просматривать или добавлять платежи по законопроект &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Bсего выдающийся</string>
 
     <string name="contact_name_hint">Контакт, клиент или название компании</string>
     <string name="contact_payee_empty">Укажите имя контакта.</string>
@@ -910,8 +910,8 @@
         <item>Создать новую повторяющуюся конфигурацию</item>
     </string-array>
 
-    <string name="attachment_title">вложений</string>
-    <string name="attachment_title_count">вложений (%1$d)</string>
+    <string name="attachment_title">привязанность</string>
+    <string name="attachment_title_count">привязанность (%1$d)</string>
     <string name="attachment_non_exists">Вложения отсутствуют, нажмите на кнопки выше, чтобы добавить фотографию или файл к этой записи.</string>
     <string name="attachment_take_photo">Сфотографировать</string>
     <string name="attachment_add_file">Добавить существующий файл</string>
@@ -922,15 +922,15 @@
     <string name="cat_no_of_linked_rows_txs_bills">%1$d транзакций, %2$d счетов.</string>
     <string name="cat_no_of_linked_rows_txs">%1$d транзакций.</string>
 
-    <string name="acct_1name">Денежные средства</string>
+    <string name="acct_1name">Кошелек для денег</string>
     <string name="acct_1desc">Нажмите здесь, чтобы отредактировать или удалить любую учетную запись.</string>
     <string name="acct_2name">Кредитная карта</string>
     <string name="acct_2desc">Просто коснитесь, чтобы просмотреть транзакции с учетной записью.</string>
     <string name="acct_3name">Банковский счет</string>
     <string name="acct_3desc">Просмотреть данные учетной записи, чтобы установить ежемесячный бюджет.</string>
 
-    <string name="transfer_title">перевод денежных средств</string>
-    <string name="view_settings">Ustawienia widoku</string>
+    <string name="transfer_title">Перевод денежных средств</string>
+    <string name="view_settings">Просмотр настроек</string>
     <string name="google_drive_not_linked">Свяжите свою учетную запись Google, чтобы сохранить ваши данные в резервном хранилище Google Drive.</string>
 
     <string name="cat_icon">Значок</string>
@@ -940,7 +940,7 @@
     <string name="menu_txs_list">Транзакции</string>
 
     <string name="contacts_and_groups_label">Контакты и группы</string>
-    <string name="contacts_list">контакты</string>
+    <string name="contacts_list">Kонтакты</string>
     <string name="contact_select">Выберите контакт</string>
     <string name="contact_new">Новый контакт</string>
     <string name="contact_details">Контактная информация</string>
@@ -951,7 +951,7 @@
     <string name="contact_email">Адрес электронной почты</string>
     <string name="contact_phone_alt">Альтернативный номер телефона</string>
     <string name="contact_email_alt">Альтернативный адрес электронной почты</string>
-    <string name="contact_address">Контактный адрес</string>
+    <string name="contact_address">Контактный физический адрес</string>
     <string name="contact_deleted">Контакт успешно удален</string>
     <string name="contact_inuse_warn_msg">Контакт в настоящее время используется</string>
     <string name="contact_deleted_warn">Выбранный контакт будет удален.</string>
@@ -962,7 +962,7 @@
     <string name="group_name_hint">Название группы или команды</string>
     <string name="export_body">&lt;p&gt; Отправлено из счета напоминание Android-приложение &lt;/p&gt;</string>
     <string name="contact_all_title">Все контакты</string>
-    <string name="contact_group_title">группы</string>
+    <string name="contact_group_title">Группы</string>
     <string name="group_list_empty_hint">Контактная группа не существует. \n(Нажмите на плавающую кнопку, чтобы создать ее)</string>
     <string name="group_list_empty">Контактная группа не существует.</string>
     <string name="group_saved">Контактная группа сохранена</string>
@@ -976,5 +976,13 @@
 
     <string name="records_deleted_multi">%1$d записи удалены.</string>
     <string name="records_create_multi">%1$d записи созданы.</string>
+
+    <string name="display_theme_dialog">Тема отображения</string>
+    <string name="display_theme">Тема</string>
+    <string-array name="display_themes">
+        <item>Системные установки по умолчанию</item>
+        <item>Cвет</item>
+        <item>Тьма</item>
+    </string-array>
 
 </resources>
