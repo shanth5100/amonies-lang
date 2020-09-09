@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="menu_upgrade">Aktualisierung</string>
+    <string name="menu_upgrade">Upgraden</string>
     <string name="upgrade_to_pro">auf Premium upgraden</string>
-    <string name="feature_unavailable">Diese Funktion ist nur in Premium Version verfügbar.</string>
+    <string name="feature_unavailable">Diese Funktion ist nur in der Premium-Version verfügbar.</string>
 
     <string name="error_save">nicht in der Lage Änderungen zu speichern, bitte versuchen Sie es später erneut.</string>
-    <string name="error_unknown">unbekannter Fehler aufgetreten, wenden Sie sich bitte an Support.</string>
+    <string name="error_unknown">Unbekannter Fehler aufgetreten, bitte wenden Sie sich an den Support.</string>
     <string name="err_empty_text">Bitte geben Sie einen gültigen Text an.</string>
     <string name="error">Fehler</string>
     <string name="save">sparen</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
-    <string name="update">aktualisieren</string>
-    <string name="delete">löschen</string>
+    <string name="update">Aktualisieren</string>
+    <string name="delete">Löschen</string>
     <string name="export">Export</string>
-    <string name="cancel">stornieren</string>
-    <string name="goto_play_store">offener Google Play Store</string>
-    <string name="continue_">fortsetzen</string>
+    <string name="cancel">Stornieren</string>
+    <string name="goto_play_store">Offener Google Play Store</string>
+    <string name="continue_">Fortsetzen</string>
     <string name="ok">OK</string>
     <string name="skip">überspringen</string>
-    <string name="done">Ich habs</string>
+    <string name="done">habe es</string>
     <string name="select_a_option_warn">Bitte wählen Sie eine Option aus</string>
     <string name="tomorrow">Morgen</string>
-    <string name="error_offline_title">kein Internet</string>
+    <string name="error_offline_title">Kein Internet</string>
     <string name="error_offline_message">Du musst online sein um diesen Vorgang durchzuführen. Bitte stellen Sie sicher dass Ihre WiFi oder Datenverbindung aktiv ist.</string>
     <string name="app_needs_relaunch">App muss neu gestartet werden um neue Einstellungen zu übernehmen.</string>
     <string name="email_send_title">Email senden</string>
@@ -36,49 +36,49 @@
     <string name="share">Teilen</string>
     <string name="add">hinzufügen</string>
     <string name="cat_detail">Kategorie Details</string>
-    <string name="expense">Kosten</string>
+    <string name="expense">Aufwand</string>
     <string name="income">Einkommen</string>
-    <string name="receivable">empfangbar</string>
-    <string name="payable">zahlbar</string>
+    <string name="receivable">Empfangbar</string>
+    <string name="payable">Zahlbar</string>
     <string name="both_expense_income">Aufwendungen und Erträge</string>
-    <string name="both_payable_receivable">zahlbar und empfangbar</string>
+    <string name="both_payable_receivable">Zahlbar und empfangbar</string>
 
 
-    <string name="cat_list_title">kategorien</string>
-    <string name="cat_list_empty">keine Kategorie existiert..!</string>
+    <string name="cat_list_title">Kategorien</string>
+    <string name="cat_list_empty">Keine Kategorie existiert..!</string>
     <string name="cat_added">Kategorie hinzugefügt</string>
     <string name="cat_deleted">Kategorie gelöscht</string>
     <string name="cat_saved">Kategorie gespeichert</string>
-    <string name="cat_select_a_cat">Kategorie wählen</string>
+    <string name="cat_select_a_cat">Wählen eine Kategorie</string>
     <string name="cat_change">Kategorie ändern</string>
     <string name="cat_deleted_multi">%1$d Kategorien gelöscht.</string>
     <string name="cat_edit">Kategorie Details</string>
-    <string name="cat_name_empty">Kategorie Name ist leer..!</string>
+    <string name="cat_name_empty">Kategorie name ist leer..!</string>
     <string name="cat_error_selfparent">Kategorie kann nicht seine eigene Unterkategorie sein, bitte wählen Sie eine andere übergeordnete Kategorie.</string>
     <string name="cat_name_err">Duplikat Kategorie Name, bitte verwenden Sie einen anderen Namen..!</string>
-    <string name="cat_delete_warn">ausgewählte Kategorie und ihre Unterkategorien werden gelöscht. \n\nauch alle Einträge die mit der Kategorie verknüpft sind werden der Standardkategorie zugewiesen.</string>
-    <string name="cat_delete_unsaved">kann nicht gelöschte Kategorie löschen.</string>
+    <string name="cat_delete_warn">Die ausgewählte Kategorie und ihre Unterkategorien werden gelöscht. \n\nauch alle Einträge, die mit der Kategorie verknüpft sind, werden auch der Standardkategorie zugewiesen.</string>
+    <string name="cat_delete_unsaved">Nicht gespeicherte Kategorie kann nicht gelöscht werden.</string>
     <string name="cat_name">Kategoriename</string>
     <string name="cat_no_of_linked_rows">%1$d Rechnungen.</string>
     <string name="cat_code">Code</string>
     <string name="cat_code_empty_err">Geben Sie einen Kategoriecode ein</string>
     <string name="cat_code_existing_err">Kategoriencode bereits verwendet</string>
-    <string name="cat_type">Art</string>
+    <string name="cat_type">Typ</string>
     <string name="cat_desc">Kategorie beschreibung</string>
     <string name="cat_color">Farbe</string>
-    <string name="cat_change_color_tap">tippen um die Farbe zu ändern</string>
+    <string name="cat_change_color_tap">Tippen um die Farbe zu ändern</string>
     <string name="cat_parent_switch">Dies ist eine übergeordnete Kategorie (oberste Ebene)</string>
     <string name="cat_subcategory_of">Unterkategorie von</string>
     <string name="cat_select_parent">Eltern Kategorie</string>
     <string-array name="cat_types">
-        <item>Aufwendungen / Verbindlichkeiten</item>
+        <item>Aufwendungen / zahlbar</item>
         <item>Einkommen / Forderungen</item>
     </string-array>
-    <string name="cat_search_hint">hier zu filtern</string>
+    <string name="cat_search_hint">Geben Sie hier ein, um zu filtern</string>
     <!-- Categories '', '', '') -->
     <string name="cat_0allCategories">Alle Kategorien</string>
-    <string name="cat_1others">andere</string>
-    <string name="cat_1_1">zahlungen</string>
+    <string name="cat_1others">Andere</string>
+    <string name="cat_1_1">Zahlungen</string>
     <string name="cat_1_2">Geschenke</string>
     <!-- <string name="cat_1_3">Charity</string>
     <string name="cat_1_4">Pets</string>
@@ -87,9 +87,9 @@
 
     <string name="cat_3personal">Körperpflege</string>
     <string name="cat_3_1">Haare und Schönheit</string>
-    <string name="cat_3_2">Fitness und Fitness</string>
-    <string name="cat_3_3">medizinisch</string>
-    <string name="cat_3_4">zahnmedizinisch</string>
+    <string name="cat_3_2">Fitnessstudio und Fitness</string>
+    <string name="cat_3_3">Medizinisch</string>
+    <string name="cat_3_4">Zahnmedizinisch</string>
 
     <string name="cat_4food">Essen und Trinken</string>
     <string name="cat_4_1">Kaffee</string>
@@ -102,10 +102,10 @@
 
     <string name="cat_5entertainment">Unterhaltung</string>
     <string name="cat_5_1">Filme</string>
-    <string name="cat_5_2">trinken</string>
-    <string name="cat_5_4">Urlaub</string>
+    <string name="cat_5_2">Trinken</string>
+    <string name="cat_5_4">Ferien</string>
     <string name="cat_5_5">Konzert und Theater</string>
-    <string name="cat_5_6">spiele</string>
+    <string name="cat_5_6">Spiele</string>
     <string name="cat_5_7">Party</string>
 
     <string name="cat_6automobile">Automobil</string>
@@ -123,8 +123,8 @@
     <string name="cat_7_2">Computer und Zubehör</string>
     <string name="cat_7_3">Elektronik</string>
     <string name="cat_7_4">digitale Musik</string>
-    <string name="cat_7_5">Lebensmittel</string>
-    <string name="cat_7_6">mobile und gadgets</string>
+    <string name="cat_7_5">Lebensmittelgeschäft</string>
+    <string name="cat_7_6">Handy und Gadgets</string>
     <string name="cat_7_7">Schmuck</string>
     <string name="cat_7_8">andere einkaufen</string>
     <string name="cat_7_9">Möbel</string>
@@ -145,21 +145,21 @@
 
     <string name="cat_9banking">banking</string>
     <string name="cat_9_1">Darlehen</string>
-    <string name="cat_9_2">interessieren</string>
+    <string name="cat_9_2">Interesse</string>
     <string name="cat_9_3">Gebühren</string>
     <string name="cat_9_4">Ersparnisse</string>
     <string name="cat_9_5">Hypothek</string>
     <string name="cat_9_6">Aktienhandel</string>
     <string name="cat_9_7">Investitionen</string>
 
-    <string name="cat_10home">Zuhause</string>
+    <string name="cat_10home">Hause</string>
     <string name="cat_10_1">Strom und Gas</string>
     <string name="cat_10_2">Internet und Telefon</string>
     <!--<string name="cat_10_3">Gas</string>-->
     <string name="cat_10_4">Wasser</string>
     <string name="cat_10_5">Fernseher</string>
     <string name="cat_10_6">Reinigungsservice</string>
-    <string name="cat_10_7">reparaturen</string>
+    <string name="cat_10_7">Reparaturen</string>
     <string name="cat_10_8">Dienstprogramme</string>
     <string name="cat_10_9">Unterkunft</string>
     <string name="cat_10_10">Miete</string>
@@ -179,13 +179,13 @@
     <string name="cat_12_2">Schule und Hochschule</string>
     <string name="cat_12_3">Taschengeld</string>
     <string name="cat_12_4">Versicherung</string>
-    <string name="cat_12_5">medizinische Versorgung</string>
+    <string name="cat_12_5">Medizinische Versorgung</string>
 
     <string name="cat_system">Standardkategorie</string>
     <string name="cat_system_delete_err">kann die Systemkategorie nicht löschen</string>
 
     <string name="label_list_title">Etiketten</string>
-    <string name="label_list_empty">kein Etikett existiert..!</string>
+    <string name="label_list_empty">Kein Etikett existiert..!</string>
     <string name="label_new_title">Neues Label</string>
     <string name="label_edit_title">Bearbeiten/Anzeigen von Etiketten</string>
     <string name="label_enter">Geben Sie den Labelsamen ein</string>
