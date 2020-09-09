@@ -977,4 +977,11 @@
     <string name="records_deleted_multi">%1$d registros excluídos.</string>
     <string name="records_create_multi">%1$d registros criados.</string>
 
+    <string name="display_theme">Tema</string>
+    <string-array name="display_themes">
+        <item>Sistema padrão</item>
+        <item>Luz</item>
+        <item>Escuro</item>
+    </string-array>
+
 </resources>

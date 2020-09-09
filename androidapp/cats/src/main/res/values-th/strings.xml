@@ -977,4 +977,11 @@
     <string name="records_deleted_multi">ลบแล้ว %1$d รายการ</string>
     <string name="records_create_multi">สร้างแล้ว %1$d รายการ</string>
 
+    <string name="display_theme">กระทู้</string>
+    <string-array name="display_themes">
+        <item>ค่าเริ่มต้นของระบบ</item>
+        <item>สว่าง</item>
+        <item>มืด</item>
+    </string-array>
+
 </resources>
