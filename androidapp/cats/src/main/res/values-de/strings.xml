@@ -230,9 +230,9 @@
     <string name="manage_categories">kategorien</string>
     <string name="drawer_rpt_charts_title">Berichte und Diagramme</string>
     <string name="update_available_title">@string/app_name</string>
-    <string name="update_available_warn">neues Update verfügbar, mit neuen Features und Bugfixes.</string>
+    <string name="update_available_warn">Neues Update verfügbar, mit neuen Features und Bugfixes.</string>
     <string name="update_available_force">Wir unterstützen diese Version nicht mehr.\n\n bitte jetzt aktualisieren.</string>
-    <string name="update_available_force_dummy">ungültiges Datum.\n\nBitte überprüfe deine Internetverbindung.</string>
+    <string name="update_available_force_dummy">Ungültiges Datum.\n\nBitte überprüfe deine Internetverbindung.</string>
     <string name="update_now">Jetzt aktualisieren</string>
     <string name="later">später</string>
     <string name="menu_drawer_group_more">Kommunikation / mehr</string>
@@ -243,11 +243,11 @@
     <string name="about_us">Über uns</string>
     <string name="by_124apps">gesponsert von 124APPS</string> <!-- &#169; -->
     <string name="rate_app_msg">magst du diese app? \n\nWenn ja, bitte unterstützen Sie unsere Entwicklung mit einer netten Bewertung.\n\t* * * * *\nVielen Dank.</string>
-    <string name="rate_app_now">jetzt bewerten</string>
-    <string name="rate_app_later">später</string>
+    <string name="rate_app_now">Jetzt bewerten</string>
+    <string name="rate_app_later">Später</string>
     <string name="rate_app_no">Nein Danke</string>
 
-    <string name="close">schließen</string>
+    <string name="close">Schlie</string>
 
     <string-array name="rpt_bills_forcast">
         <item>Bis heute nur</item>
@@ -281,7 +281,7 @@
         <item>3 Tage vor Fälligkeit</item>
         <item>2 Tage vor Fälligkeit</item>
         <item>1 Tag vor Fälligkeit</item>
-        <item>- am Fälligkeitstag -</item>
+        <item>- ab Fälligkeit -</item>
         <item>1 Tag nach Fälligkeit</item>
         <item>2 Tage nach Fälligkeit</item>
         <item>3 Tage nach Fälligkeit</item>
@@ -302,102 +302,102 @@
     <string name="permission_denied_dialog_msg">Bitte erlauben Sie externe Speicherung lesen und schreiben, um Daten zu speichern. \ndie Verweigerung der Berechtigungen würde zu Inkonsistenz für die App führen.</string>
     <string name="permission_denied_dialog_restart">wiederholen</string>
     <string name="permission_denied_dialog_dont_care">Es ist mir egal</string>
-    <string name="permission_denied_camera">App würde Kamera Erlaubnis benötigen, um Fotos zu erfassen.</string>
-    <string name="permission_denied_camera_receipt">App würde die Erlaubnis der Kamera benötigen, um Quittungsfotos zu erfassen.</string>
+    <string name="permission_denied_camera">Die App würde Kamera Erlaubnis benötigen, um Fotos zu erfassen.</string>
+    <string name="permission_denied_camera_receipt">Die App würde die Erlaubnis der Kamera benötigen, um Quittungsfotos zu erfassen.</string>
 
     <!-- ==================================================================== -->
     <!-- BILLS.XML -->
     <string name="app_name">Bills Reminder</string>
     <!--<string name="title_bills_by_status">Bills by status</string>
     <string name="title_bills_by_period">Bills by period</string>-->
-    <string name="title_bills_list">Rechnungsliste</string>
-    <string name="title_bills_report">Rechnungen melden</string>
+    <string name="title_bills_list">Rechnungen Liste</string>
+    <string name="title_bills_report">Rechnungen-Bericht</string>
 
-    <string name="title_bill_upcoming">bevorstehende Rechnungen</string>
+    <string name="title_bill_upcoming">Bevorstehende Rechnungen</string>
     <string name="title_bill_overdue">überfällige Rechnungen</string>
-    <string name="title_bill_paid">bezahlte Rechnungen</string>
-    <string name="title_bill_unpaid">unbezahlte Rechnungen</string>
-    <string name="title_bill_detail">rechnung details</string>
-    <string name="title_bill_detail_new">neue Rechnung Erinnerung</string>
+    <string name="title_bill_paid">Bezahlte Rechnungen</string>
+    <string name="title_bill_unpaid">Unbezahlte Rechnungen</string>
+    <string name="title_bill_detail">Rechnungen details</string>
+    <string name="title_bill_detail_new">Neue Rechnung Erinnerung</string>
     <string name="title_activity_calendar">Kalenderansicht</string>
     <string name="bills">rechnungen</string>
-    <string name="bill_new">fügen Sie Rechnung Erinnerung</string>
+    <string name="bill_new">Rechnung Erinnerung hinzufügen</string>
     <string name="bills_overdue">überfällig</string>
     <string name="bills_upcoming">bevorstehende</string>
-    <string name="bills_paid">bezahlt</string>
-    <string name="bills_unpaid">unbezahlt</string>
-    <string name="bills_recurr">wiederkehrende Rechnungen</string>
-    <string name="bills_recur_desc">wiederholt alle %1$d %2$s.</string>
+    <string name="bills_paid">Bezahlt</string>
+    <string name="bills_unpaid">Unbezahlt</string>
+    <string name="bills_recurr">Wiederkehrende Rechnungen</string>
+    <string name="bills_recur_desc">Wiederholt allee %1$d %2$s.</string>
     <string name="restart_app">Bitte starten Sie die App neu.</string>
     <string name="bills_view">Rechnungen anzeigen</string>
 
-    <string name="bill_list_empty_tip">keine rechnung existiert \n(berühren Sie die schwebende \'+\' Taste um eine zu erstellen)</string>
+    <string name="bill_list_empty_tip">Es ist keine Rechnung vorhanden \n(Berühren Sie die schwebende Schaltfläche \'+\' um eine zu erstellen.)</string>
     <string name="bill_list_empty">Es gibt keine Rechnungen.</string>
 
-    <string name="navigation_drawer_open">offene Schublade</string>
-    <string name="navigation_drawer_close">Schliessschloss</string>
-    <string name="dummy_day">heiraten</string>
+    <string name="navigation_drawer_open">Navigation Schublade öffnen</string>
+    <string name="navigation_drawer_close">Schließen Sie die Navigation Schublade</string>
+    <string name="dummy_day">Mi</string>
 
-    <string name="bill_delete_unsaved">kann nicht gelöschte Rechnung löschen.</string>
+    <string name="bill_delete_unsaved">Nicht gespeicherte Rechnungen können nicht gelöscht werden.</string>
     <string name="bill_deleted">Rechnung gelöscht.</string>
-    <string name="bill_delete_single_warn">Rechnung wird gelöscht, weiter?</string>
-    <string name="bill_delete_multi_warn">ausgewählte Rechnungen werden gelöscht, weiter?</string>
-    <string name="bill_delete_recur_warn">dieser wiederkehrende Eintrag und alle damit verbundenen Rechnungen werden gelöscht, weiter?</string>
+    <string name="bill_delete_single_warn">Rechnung und ihre Rechnungszahlungen werden gelöscht, weiter?</string>
+    <string name="bill_delete_multi_warn">Ausgewählte Rechnung und deren Rechnungszahlungen werden als nächstes gelöscht?</string>
+    <string name="bill_delete_recur_warn">Dieser wiederkehrende Eintrag und alle damit verbundenen Rechnungen werden gelöscht, weiter?</string>
     <string name="bill_duplicate_warn">%1$d doppelte Rechnungen werden erstellt, weiter?</string>
-    <string name="bill_not_found">Rechnung ist nicht vorhanden.</string>
+    <string name="bill_not_found">Es gibt keine Rechnung.</string>
     <string name="app_error_restart">Automatisch ein Problem beheben, bitte die App neu starten.</string>
     <string name="multi_select_mode_title">%1$s, gesamt: %2$s</string>
 
-    <string name="bill_deleted_recur">erfolgreich wiederkehrende Rechnungen gelöscht.</string>
+    <string name="bill_deleted_recur">Wiederkehrende Rechnungen erfolgreich gelöscht.</string>
     <string name="bill_deleted_multi">%1$d Rechnungen gelöscht.</string>
     <string name="bill_multi_update_count">%1$d Rechnungen aktualisiert.</string>
     <string name="bill_duplicate_multi">%1$d neue Rechnungen erstellt.</string>
-    <string name="bill_duplicate_multi_error">wenden Sie sich bitte an Entwickler. Fehler beim Kopieren von Rechnungen: %1$s </string>
-    <string name="bill_added">neue Rechnung hinzugefügt.</string>
-    <string name="bill_saved">Rechnung gespeichert.</string>
-    <string name="bill_populating_recent">mit neuen Werten bevölkern</string>
+    <string name="bill_duplicate_multi_error">Wenden Sie sich bitte an Entwickler. Fehler beim Kopieren von Rechnungen: %1$s </string>
+    <string name="bill_added">Neue Rechnung hinzugefügt.</string>
+        <string name="bill_saved">Rechnung gespeichert.</string>
+    <string name="bill_populating_recent">Füllen Sie mit neuen Werten</string>
 
     <string name="bill_payee">Zahlungsempfänger / Posten</string>
-    <string name="bill_duedt">Fälligkeitsdatum</string>
+    <string name="bill_duedt">Fälligkeit der Zahlung</string>
     <string name="cat_new_title">Neue Kategorie</string>
     <string name="bill_dueNear">fällig %1$s</string>
     <string name="bill_dueIn">fällig in %1$d Tagen</string>
     <string name="bill_dueOver">überfällig bis %1$d Tage</string>
     <string name="bill_paid">bezahlt</string>
     <string name="bill_received">Empfangen</string>
-    <string name="bill_unpaid">unbezahlt</string>
-    <string name="bill_paid_on">bezahlt am</string>
+    <string name="bill_unpaid">Unbezahlt</string>
+    <string name="bill_paid_on">Bezahlt am</string>
     <string name="bill_type">Rechnungsart</string>
-    <string name="bill_change_notification">Benachrichtigung ändern</string>
-    <string name="bill_more_options">mehr Optionen</string>
-    <string name="notify">Mahnmeldungen anzeigen</string>
+    <string name="bill_change_notification">Erinnerung Benachrichtigung ändern</string>
+    <string name="bill_more_options">Mehr Optionen</string>
+    <string name="notify">Erinnerungen Benachrichtigungen anzeigen</string>
     <string name="notify_channel_name_app">App-Nutzung</string>
-    <string name="notify_channel_desc_reminder">Benachrichtigung über die Zahlung der Rechnung, überfällig oder bevorstehend.</string>
+    <string name="notify_channel_desc_reminder">Benachrichtigung über überfällige oder bevorstehende Rechnungszahlung.</string>
     <string name="notify_channel_desc_app">Informationen zu neuen Versionsaktualisierungen oder zur Erinnerung an die App-Nutzung.</string>
     <string name="tx_payee_hint">Beispiel: Miete</string>
     <string name="tx_notes">Notizen oder scannen barcode / url</string>
     <string name="tx_notes_zing_missing_title">Barcode Scanner installieren</string>
-    <string name="tx_notes_zing_missing">diese Funktion erfordert Barcode Scanner, möchten Sie es installieren?</string>
+    <string name="tx_notes_zing_missing">Diese Funktion erfordert Barcode Scanner, möchten Sie es installieren?</string>
     <string name="tx_error_save_pic">Fehler beim Speichern des Bildes: %1$s</string>
-    <string name="tx_photo_not_supported">nicht in der Lage Foto zu erfassen, Gerät nicht unterstützt..!</string>
-    <string name="tx_photo_take_new_photo">nehme neues foto</string>
-    <string name="tx_photo_select_from_gallery">aus der Galerie auswählen</string>
+    <string name="tx_photo_not_supported">Nicht in der Lage Foto zu erfassen, Gerät nicht unterstützt..!</string>
+    <string name="tx_photo_take_new_photo">Nehme neues foto</string>
+    <string name="tx_photo_select_from_gallery">Aus der Galerie auswählen</string>
     <string-array name="tx_photo_options">
         <item>Foto ansehen</item>
-        <item>nehme neues foto</item>
-        <item>aus der Galerie auswählen</item>
+        <item>Tehme neues foto</item>
+        <item>Aus der Galerie auswählen</item>
         <item>Foto entfernen</item>
     </string-array>
     <!-- Sort options -->
-    <string name="menu_sort_by">sortiere nach</string>
+    <string name="menu_sort_by">Sortiere nach</string>
     <string name="sort_by_date_asc">Datum aufsteigend</string>
     <string name="sort_by_date_desc">Datum absteigend</string>
     <string name="sort_by_amt_asc">Betrag aufsteigend</string>
-    <string name="sort_by_amt_desc">Betrag absteigend</string>
+        <string name="sort_by_amt_desc">Betrag absteigend</string>
     <string name="sort_by_payee_asc">Zahlungsempfänger aufsteigend</string>
     <string name="sort_by_payee_desc">Zahlungsempfänger absteigend</string>
 
-    <string name="menu_search_bills">suche rechnungen</string>
+    <string name="menu_search_bills">Suche rechnungen</string>
     <string name="bill_total_row">%1$d reihe, gesamt: </string>
     <string name="bill_total_rows">%1$d reihen, gesamt: </string>
     <string name="bill_total_rows_multi_curr">%1$d Zeilen in mehreren Währungen.</string>
