@@ -699,90 +699,90 @@
     <!-- New Recurring Screen -->
     <string name="bills_paid_total">Bezahlt: %1$s</string>
     <string name="recurbill_total">gesamt: </string>
-    <string name="bills_overdue_total">überfällig: %1$s</string>
-    <string name="bills_upcoming_total">bevorstehend: %1$s</string>
+    <string name="bills_overdue_total">Überfällig: %1$s</string>
+    <string name="bills_upcoming_total">Bevorstehende: %1$s</string>
     <string name="recurbill_list_empty">Es sind keine wiederkehrenden Konfigurationen vorhanden. \n(berühren Sie die schwebende \'+\' Taste um eine zu erstellen)</string>
-    <string name="recurbill_list_title">wiederkehrende Konfigurationen</string>
-    <string name="recurbill_list_subtitle">für Rechnungen</string>
+    <string name="recurbill_list_title">Wiederkehrende Konfigurationen</string>
+    <string name="recurbill_list_subtitle">Für Rechnungen</string>
     <string name="bills_recur_subtitle">jeder %1$s %2$s</string>
     <string name="menu_recurbill_delete">löschen wiederkehrende</string>
     <string name="recurbill_list_unselected">Bitte wählen Sie eine wiederkehrende Konfiguration aus dem linken Seitenrahmen.</string>
-    <string name="recurring">wiederkehrend</string>
+    <string name="recurring">Wiederkehrend</string>
 
-    <string name="currency_all">alle Währungen</string>
+    <string name="currency_all">Alle Währungen</string>
     <string name="title_activity_inst_edit">Profildetails</string>
 
     <!-- Period, ViewPager, TabLayout -->
     <string name="period_dashboard_change">Änderungszeitraum</string>
     <string name="period_daily">Täglich</string>
-    <string name="period_weekly">wöchentlich</string>
-    <string name="period_monthly">monatlich</string>
-    <string name="period_yearly">jährlich</string>
-    <string name="period_custom">benutzerdefinierten Bereich</string>
+    <string name="period_weekly">Wöchentlich</string>
+    <string name="period_monthly">Monatlich</string>
+    <string name="period_yearly">Jährlich</string>
+    <string name="period_custom">Benutzerdefinierten Bereich</string>
     <string name="period_custom_range">%1$s - %2$s</string>
     <string name="period_custom_range_title">Wählen Sie einen Datumsbereich aus</string>
     <string name="period_custom_enter_from">ab Datum eingeben</string>
-    <string name="period_custom_enter_to">bis heute eintragen</string>
+    <string name="period_custom_enter_to">Geben Sie das Bis-Datum ein</string>
 
     <string name="period_today">heute</string>
-    <string name="period_yesterday">gestern</string>
+    <string name="period_yesterday">Gestern</string>
     <string name="period_tomorrow">Morgen</string>
-    <string name="period_thisweek">diese Woche</string>
-    <string name="period_lastweek">letzte Woche</string>
-    <string name="period_nextweek">nächste Woche</string>
+    <string name="period_thisweek">Diese Woche</string>
+    <string name="period_lastweek">Letzte Woche</string>
+    <string name="period_nextweek">Nächste Woche</string>
     <string name="period_rangeweek">w/c %1$s</string>
     <string name="period_rangeweek2">%1$s - %2$s</string>
-    <string name="period_thismonth">diesen Monat</string>
+    <string name="period_thismonth">Diesen Monat</string>
     <string name="period_lastmonth">Im vergangenen Monat</string>
-    <string name="period_nextmonth">nächsten Monat</string>
-    <string name="period_thisyear">dieses Jahr</string>
-    <string name="period_lastyear">letztes Jahr</string>
-    <string name="period_nextyear">nächstes Jahr</string>
+    <string name="period_nextmonth">Nächsten Monat</string>
+    <string name="period_thisyear">Dieses Jahr</string>
+    <string name="period_lastyear">Letztes Jahr</string>
+    <string name="period_nextyear">Nächstes Jahr</string>
     <string name="period_and_future">%1$s und Zukunft</string>
     <string name="period_custom_last_7days">Letzten 7 Tage</string>
-    <string name="period_custom_last_30days">letzte 30 Tage</string>
-    <string name="period_custom_last_3months">letzte 3 Monate</string>
-    <string name="period_custom_recent_6months">letzte 6 Monate</string>
-    <string name="period_custom_recent_12months">letzten 12 Monate</string>
-    <string name="period_custom_date_range">benutzerdefinierte Datumsbereich</string>
+    <string name="period_custom_last_30days">Letzte 30 Tage</string>
+    <string name="period_custom_last_3months">Letzte 3 Monate</string>
+    <string name="period_custom_recent_6months">Letzte 6 Monate</string>
+    <string name="period_custom_recent_12months">Letzten 12 Monate</string>
+    <string name="period_custom_date_range">Benutzerdefinierte Datumsbereich</string>
 
     <!-- Dashboard -->
     <string name="dashboard_title">Instrumententafel</string>
     <string name="dashboard_title_bill_chart_payable">Rechnungen zahlbar (nach Kategorie)</string>
-    <string name="dashboard_title_bill_chart_receivable">Rechnungen (nach Kategorie)</string>
+    <string name="dashboard_title_bill_chart_receivable">Rechnungen forderungen (nach Kategorie)</string>
     <string name="dashboard_title_bill_chart_payable_status">Rechnungen zahlbar (nach Status)</string>
-    <string name="dashboard_title_bill_chart_receivable_status">Rechnungen (nach Status)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">Rechnungen forderungen (nach Status)</string>
     <string name="dashboard_summary">Rechnungsübersicht </string>
     <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
-    <string name="dashboard_summary_receivable">empfangbar: </string>
-    <string name="dashboard_summary_payable">zahlbar: </string>
+    <string name="dashboard_summary_receivable">Empfangbar: </string>
+    <string name="dashboard_summary_payable">Zahlbar: </string>
     <string name="dashboard_summary_total">gesamt: </string>
 
     <!-- About / welcome Screen -->
     <string name="about_title">Über</string>
     <string name="about_version">Version: %1$s</string>
-    <string name="about_version_trial">version: %1$s (kostenlose Testversion)</string>
+    <string name="about_version_trial">Version: %1$s (kostenlose Testversion)</string>
     <string name="about_description">Rechnungen Erinnerung hilft Ihnen zu organisieren und zu verfolgen Ihre Rechnungen bezahlt / unbezahlt und zahlbar / empfangbar. fügen Sie einfach eine Rechnung in diese App und es wird täglich daran erinnern, bis Sie es als bezahlt markiert oder entfernt haben. Rechnungen, die als wiederkehrend markiert sind, werden automatisch basierend auf den bereitgestellten Konfigurationen und dem Prognosezeitraum erstellt.</string>
-    <string name="about_facebook">like uns auf Facebook</string>
+    <string name="about_facebook">Like uns auf Facebook</string>
     <string name="about_twitter">Folge uns auf Twitter</string>
     <string name="about_googleplay">Bewerte diese App</string>
     <string name="about_share">Teile diese App</string>
     <string name="about_welcome_tutorial">Tutorial Bildschirme</string>
-    <string name="about_visit_124">besuche 124APPS</string>
+    <string name="about_visit_124">Besuche 124APPS</string>
 
-    <string name="feature_label_free">kostenlose Testversion</string>
+    <string name="feature_label_free">Kostenlose Test</string>
     <string name="feature_desc_free">Die Version enthält grundlegende Funktionen um Ihre Rechnungen zu verwalten\n</string>
     <string-array name="feature_items_free">
-        <item>tägliche Rechnungen Erinnerung Benachrichtigung</item>
+        <item>Tägliche Rechnungen Erinnerung Benachrichtigung</item>
         <item>Foto an Rechnungen anhängen</item>
         <item>wiederkehrende Rechnungen unterstützen</item>
         <item>Begrenzte Rechnungen (300)</item>
         <item>Begrenzte Kategorien und Unterkategorien (70)</item>
-        <item>Änderungsmeldung Benachrichtigungszeit</item>
-        <item>suche rechnungen</item>
+        <item>Ändern Sie die Benachrichtigungszeit für Erinnerungen</item>
+        <item>Suche nach Rechnungen</item>
         <item>Dashboard Übersicht der Rechnungen für jeden Monat</item>
         <item>Rechnungen nach Status anzeigen</item>
-        <item>bills monatlich sehen</item>
+        <item>Siehe monatliche Rechnungen</item>
         <item>Kalenderansicht der Rechnungen</item>
         <item>Mehrfachauswahl: Löschen mehrerer Rechnungen und Kategorien</item>
         <item>Mehrfachauswahl: Kopie mehrerer Rechnungen und Kategorien</item>
@@ -791,80 +791,80 @@
         <item>fügen Sie eine Rechnung Zahlung URL an die Rechnung</item>
         <item>Erstellen Sie Backup, einschließlich beigefügter Quittungsfotos</item>
         <item>täglich geplante Backups</item>
-        <item>nur einzelnes Profil</item>
+        <item>Nur einzelnes Profil</item>
     </string-array>
-    <string name="feature_label_pro">Prämie</string>
-    <string name="feature_desc_pro">Dazu gehören alle Features die von \'free trial\' \n\t\t\t+\nbereitgestellt werdenunterhalb der Premium Features: \n</string>
+    <string name="feature_label_pro">Aufgeld</string>
+    <string name="feature_desc_pro">Dies umfasst alle Features, die von \'kostenlose Testversion \' \n\t\t\t+\nunter den Premium-Features bereitgestellt werden: \n</string>
     <string-array name="feature_items_pro">
-        <item>unbegrenzte Rechnungen</item>
-        <item>unbegrenzte Kategorien und Unterkategorien</item>
-        <item>löschen Sie wiederkehrende Rechnungen und ihre Konfiguration auf einmal. (Massenlöschung)</item>
+        <item>Unbegrenzte Rechnungen</item>
+        <item>Unbegrenzte Kategorien und Unterkategorien</item>
+        <item>Löschen Sie wiederkehrende Rechnungen und ihre Konfiguration auf einmal. (Massenlöschung)</item>
         <item>Mehrfachauswahl: Änderungskategorie mehrerer Rechnungen</item>
-        <item>Mehrfachauswahl: Änderungsmeldung Benachrichtigung über Rechnungen</item>
-        <item>Armaturenbrettübersicht für jeden Tag, Woche, Monat und Jahr.</item>
-        <item>sehen Sie Rechnungen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
+        <item>Mehrfachauswahl: Ändern Sie die Erinnerung Benachrichtigung für Rechnungen</item>
+        <item>Armaturenbrett Übersicht für jeden Tag, Woche, Monat und Jahr.</item>
+        <item>Sehen Sie Rechnungen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
         <item>Berichte: Kategorie weise Rechnungen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
         <item>Berichte: Rechnungen Trend</item>
         <item>Berichte: Vergleich zwischen Wochen, Tagen, Monaten, Jahren</item>
         <item>Berichte: PDF Berichte generieren und teilen</item>
         <item>Startbildschirm ändern</item>
         <item>Kontrollieren Sie geplante Backups</item>
-        <item>teilen und exportieren Backups per Email, Laufwerk, Dropbox</item>
+        <item>Teilen und exportieren Backups per Email, Laufwerk, Dropbox</item>
         <item>Wiederherstellung lokaler Backups und heruntergeladen von Cloud</item>
         <item>App Sicherheit mit Pin und Fingerabdrücken</item>
     </string-array>
-    <string name="feature_label_multiprof">Mehrfachprofil</string>
+    <string name="feature_label_multiprof">Mehrfach profil</string>
     <string name="feature_desc_multiprof">Dies erfordert eine Premium Version.\nhilft Ihnen, mehrere Profile zu pflegen, wobei jedes Profil seine eigenen Daten behandelt. zum Beispiel, trennen Sie Ihre persönlichen Ausgaben auf die Ihrer Geschäftsausgaben. so hat jedes Profil seine eigene:\n</string>
     <string-array name="feature_items_multiprof">
-        <item>kategorien</item>
-        <item>rechnungen</item>
-        <item>wiederkehrende Rechnungseinstellungen</item>
+        <item>Kategorien</item>
+        <item>Rechnungen</item>
+        <item>Einstellungen für wiederkehrende Rechnungen</item>
         <item>Berichte und andere Bildschirme werden Rechnungen aus ihrem eigenen Profil betrachten</item>
-        <item>Dadurch werden Profilverwaltungsfunktionen aktiviert</item>
+        <item>Dadurch werden Profilverwaltungs Features aktiviert</item>
     </string-array>
     <string name="feature_tab_title">Eigenschaften</string>
     <string name="feature_tab_cloud_title">Cloud Abonnement</string>
-    <string name="feature_comparison_title">Leistungsvergleich</string>
-    <string name="feature_subscription_title">Features und Upgrade</string>
+    <string name="feature_comparison_title">Feature-Vergleich</string>
+    <string name="feature_subscription_title">Funktionen und Upgrade</string>
     <string name="feature_this_version">Dies ist kostenlose Testversion von Rechnungen Erinnerung App und Sie können unten Upgrades kaufen um die App zu seinem besten genießen.</string>
-    <string name="feature_view_comparison">View Features Vergleich</string>
-    <string name="feature_purchased">gekauft</string>
+    <string name="feature_view_comparison">Features Vergleich Ansehen</string>
+    <string name="feature_purchased">kaufen</string>
 
-    <string name="welcome_title1_bill_detail">neue Rechnung hinzufügen</string>
-    <string name="welcome_info1_bill_detail">Geben Sie Rechnungsdetails ein und speichern Sie. unterstützt auch wiederkehrende Rechnungen und wandelt die Währung um.</string>
-    <string name="welcome_title2_receipt">foto deine quittung</string>
-    <string name="welcome_info2_receipt">gehen papierlos indem sie den Rechnungsbeleg zusammen mit den Rechnungsdetails anhängen.</string>
+    <string name="welcome_title1_bill_detail">Fügen Sie eine neue Rechnungserinnerung hinzu</string>
+    <string name="welcome_info1_bill_detail">Rechnungsdetails eingeben und speichern. unterstützt auch wiederkehrende Rechnungen und Währungsänderungen.</string>
+    <string name="welcome_title2_receipt">Foto deine quittung</string>
+    <string name="welcome_info2_receipt">Gehen papierlos indem sie den Rechnungsbeleg zusammen mit den Rechnungsdetails anhängen.</string>
     <string name="welcome_title3_bill_upcoming">Rechnungen nach Status anzeigen</string>
-    <string name="welcome_info3_bill_upcoming">erhalten einen schnellen Blick auf bevorstehende, überfällige, unbezahlte und bezahlte Rechnungen. </string>
-    <string name="welcome_title4_bill_list">einfaches tabulatorlayout</string>
-    <string name="welcome_info4_bill_list">Zeilen für jede Periode anzeigen und leicht zwischen den Tabs wechseln. Beispiel: für jeden Monat.</string>
+    <string name="welcome_info3_bill_upcoming">Erhalten einen schnellen Blick auf bevorstehende, überfällige, unbezahlte und bezahlte Rechnungen. </string>
+    <string name="welcome_title4_bill_list">Einfaches tabulator layout</string>
+    <string name="welcome_info4_bill_list">Zeigen Sie Rechnungen für jeden Zeitraum an und wechseln Sie einfach zwischen den Registerkarten. Beispiel: für jeden Monat.</string>
     <string name="welcome_title5_drawer">Navigationsschublade Menü</string>
-    <string name="welcome_info5_drawer">dashboard, Kategorien und Unterkategorien, Kalender, Mehrfachwährung, Berichte und Charts, Mehrfachprofil, Backup und Restore.</string>
-    <string name="welcome_title6_recurring">verwalten wiederkehrende Rechnungen</string>
+    <string name="welcome_info5_drawer">Dashboard, Kategorien und Unterkategorien, Kalender, mehrere Währungen, Berichte und Diagramme, mehrere Profile, Sicherung und Wiederherstellung.</string>
+    <string name="welcome_title6_recurring">Verwalten wiederkehrende Rechnungen</string>
     <string name="welcome_info6_recurring">Wiederkehrende Konfigurationen helfen einfach zu erstellen, zu aktualisieren, löschen Rechnungen und wiederkehrende Rechnungen.</string>
-    <string name="welcome_title6_settings">Einstellung für einfache Anpassung</string>
+    <string name="welcome_title6_settings">Einstellung für einfache Anpassungsoptionen</string>
     <string name="welcome_info6_settings">Änderungsmeldungszeit, wiederkehrende Rechnungsvorhersageperiode, Änderungsstandardwährung und vieles mehr.</string>
 
-    <string name="coffee_title">kauf uns einen kaffee</string>
+    <string name="coffee_title">Bauf uns einen kaffee</string>
     <string name="coffee_description">Wir arbeiten Tage und Nächte, um Ihnen die beste App Erfahrung zu geben, neue Features hinzuzufügen und Fehler zu beheben. Bitte unterstützen Sie unsere Entwicklung - kaufen Sie uns einen Kaffee.</string>
-    <string name="coffee_buy_now">kaufe jetzt</string>
+    <string name="coffee_buy_now">Kaufe jetzt</string>
     <string name="coffee_thank_you">Danke</string>
 
     <string name="widget_bill_overview_title">Rechnungen Zusammenfassung</string>
     <string name="widget_bill_overview_overdue">überfällig: </string>
-    <string name="widget_bill_overview_today">heute fällig: </string>
-    <string name="widget_bill_overview_upcoming">bevorstehende: </string>
+    <string name="widget_bill_overview_today">Heute fällig: </string>
+    <string name="widget_bill_overview_upcoming">Bevorstehende: </string>
     <string name="widget_bill_overview_count">%1$d</string>
 
-    <string name="widget_bill_single_title">eine Rechnung verfolgen</string>
+    <string name="widget_bill_single_title">Eine Rechnung verfolgen</string>
     <string name="widget_bill_paid_on">bezahlt auf %1$s</string>
     <string name="widget_bill_due_in">fällig in %1$d Tagen</string>
-    <string name="widget_bill_due_tomorrow">Bis morgen</string>
-    <string name="widget_bill_due_today">heute fällig</string>
-    <string name="widget_bill_due_yesterday">fällig gestern</string>
+    <string name="widget_bill_due_tomorrow">Fällig morgen</string>
+    <string name="widget_bill_due_today">Fällig heute</string>
+    <string name="widget_bill_due_yesterday">Fällig gestern</string>
     <string name="widget_bill_overdue_by">überfällig bis %1$d Tage</string>
-    <string name="coach_mark_add_bill">Klicken Sie auf die Schaltfläche \'+\', um eine Rechnungserinnerung hinzuzufügen.</string>
     <string name="coach_mark_burger_icon">Klicken Sie auf das Burger-Symbol, um andere Bildschirme anzuzeigen.</string>
+    <string name="coach_mark_add_bill">Klicken Sie auf die Schaltfläche \'+\', um eine Rechnung serinnerung hinzuzufügen.</string>
     <string name="widget_bill_select_title">Wählen Sie eine Rechnung aus</string>
 
     <string name="error_max_bills_exceeded">Anzahl der Rechnungen überschritten Höchstgrenze, bitte aktualisieren, um weitere Rechnungen hinzuzufügen.</string>
