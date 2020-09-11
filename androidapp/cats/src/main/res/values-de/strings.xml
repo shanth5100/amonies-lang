@@ -354,7 +354,7 @@
     <string name="bill_duplicate_multi">%1$d neue Rechnungen erstellt.</string>
     <string name="bill_duplicate_multi_error">Wenden Sie sich bitte an Entwickler. Fehler beim Kopieren von Rechnungen: %1$s </string>
     <string name="bill_added">Neue Rechnung hinzugefügt.</string>
-        <string name="bill_saved">Rechnung gespeichert.</string>
+    <string name="bill_saved">Rechnung gespeichert.</string>
     <string name="bill_populating_recent">Füllen Sie mit neuen Werten</string>
 
     <string name="bill_payee">Zahlungsempfänger / Posten</string>
@@ -393,7 +393,7 @@
     <string name="sort_by_date_asc">Datum aufsteigend</string>
     <string name="sort_by_date_desc">Datum absteigend</string>
     <string name="sort_by_amt_asc">Betrag aufsteigend</string>
-        <string name="sort_by_amt_desc">Betrag absteigend</string>
+    <string name="sort_by_amt_desc">Betrag absteigend</string>
     <string name="sort_by_payee_asc">Zahlungsempfänger aufsteigend</string>
     <string name="sort_by_payee_desc">Zahlungsempfänger absteigend</string>
 
@@ -506,22 +506,22 @@
     <!-- ==================================================================== -->
     <!-- HOME.XML -->
 
-    <string name="inst_name">Name des Geschäftsprofils</string>
+    <string name="inst_name">Name des Geschäfts Profils</string>
     <string name="inst_name_hint">Geschäfts- oder Haushaltsname für die Buchhaltung.</string>
     <string name="inst_dialog_title">Profildetails</string>
     <string name="inst_dialog_title_edit">Profil bearbeiten</string>
-    <string name="inst_list_title">profiles</string>
+    <string name="inst_list_title">Profile</string>
     <string name="menu_add_profile_title">Profil hinzufügen</string>
-    <string name="home_no_instances">kein Profil existiert, bitte ein neues Profil erstellen.</string>
+    <string name="home_no_instances">Kein Profil existiert, bitte ein neues Profil erstellen.</string>
 
     <string name="help">Hilfe </string>
     <string name="inst_new">Neues Profil erstellen</string>
     <string name="inst_delete">Dieses Profil löschen</string>
     <string name="inst_delete_warn">Profil \'%1$s\' und alle darin enthaltenen Daten werden gelöscht. \nfortsetzen?</string>
-    <string name="inst_delete_err_1inst">Nein das ist nicht möglich..!! \ndenn dies ist das einzige Profil das in dieser App verfügbar ist und du brauchst bei Lease ein Profil zu arbeiten. </string>
-    <string name="inst_profile_photo">Berühren Sie hier um Profilfoto zu wechseln</string>
+    <string name="inst_delete_err_1inst">Nein das ist nicht möglich..!! \nWeil dies das einzige in dieser App verfügbare Profil ist und Sie mindestens ein Profil benötigen, um zu funktionieren. </string>
+    <string name="inst_profile_photo">Berühren Sie hier um das Profilfoto zu ändern</string>
     <string name="inst_change_photo">Foto ändern</string>
-    <string name="inst_photo_from_gallery">von der Galerie</string>
+    <string name="inst_photo_from_gallery">Aus der Galerie</string>
     <string name="inst_photo_from_camera">Foto einfangen</string>
     <string name="inst_warn_no_multi_instance">Diese Version der App unterstützt nur ein Profil. So löschen Sie bitte alle unerwünschten Profile oder aktualisieren Sie auf Premium Version um mehrere Profile zu verwenden.</string>
 
@@ -531,45 +531,45 @@
     <string name="inst_open">Wählen Sie dieses Profil aus</string>
     <string name="default_currency">Standardwährung</string>
 
-    <string name="inst_error_add_fail">kein Profil hinzufügen.</string>
-    <string name="inst_error_edit_fail">Das Profil kann nicht umbenannt werden.</string>
+    <string name="inst_error_add_fail">Profil unfähig nicht hinzugefügt werden.</string>
+    <string name="inst_error_edit_fail">Unfähig nicht umbenannt werden Profil.</string>
     <string name="inst_error_edit_name_invalid">Geben Sie einen gültigen Profilnamen ein</string>
     <string name="inst_default_curr">Standardwährung: %1$s</string>
-    <string name="inst_error_max_limit">max Profilgrenze für die Testversion, bitte aktualisieren um weitere Datenprofile zu erstellen.</string>
+    <string name="inst_error_max_limit">Maximales Profillimit für die Trial-Version. Bitte aktualisieren, um zusätzliche Datenprofile zu erstellen.</string>
 
 
     <!-- ==================================================================== -->
     <!-- Backup / Recovery -->
-    <string name="bkp_title">Backup &amp; wiederherstellen</string>
+    <string name="bkp_title">Backup / Wiederherstellen</string>
     <string name="bkp_location">Lagerraum</string>
     <string name="bkp_location_info">Backup Dateien werden gespeichert unter: \n\n%1$s</string>
     <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
     <string name="bkp_name">Sicherungsname</string>
-    <string name="bkp_created">erstellt: %1$s</string>
+    <string name="bkp_created">Erstellt: %1$s</string>
     <!--<string name="bkp_new_pref"> Photo Preference</string>-->
     <string name="bkp_name_new"> Sicherungsname</string>
     <!--<string name="bkp_photos_include">Backup including Photos</string>
     <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
     <!--<string name="bkp_create">Create Backup</string>-->
-    <string name="bkp_list_empty">kein Backup existiert..!</string>
+    <string name="bkp_list_empty">Kein Backup existiert..!</string>
     <string name="bkp_duplicate_bkp">Duplizieren Sie den Sicherungsnamen, geben Sie bitte einen anderen Sicherungsnamen an oder löschen Sie vorhanden..!</string>
     <string name="bkp_name_invalid">ungültiger Sicherungsname \'%1$s\'. \n\nvermeiden Sie die Verwendung von Leerzeichen und Sonderzeichen wie: \\ /</string>
     <string name="bkp_failed">Sicherung fehlgeschlagen..! Bitte stellen Sie sicher dass es genügend freien Speicherplatz gibt.</string>
-    <string name="bkp_inprogress_warn">backup / restore in progress, bitte sei geduld..!</string>
+    <string name="bkp_inprogress_warn">Backup / wiederherstellen in Bearbeitung, bitte haben Sie etwas Geduld ..!</string>
 
     <string name="bkp_restore_fail">Wiederherstellung fehlgeschlagen..! Bitte versuchen Sie es später später.</string>
-    <string name="bkp_send">Aktien sichern</string>
+    <string name="bkp_send">Backup teilen</string>
     <string name="bkp_existing_label">bestehende Backups (%1$d)</string>
     <string name="bkp_create">Erstellen Sie eine neue Sicherung</string>
     <string name="bkp_send_sub">Sicherungsdatei \'%1$s\'</string>
-    <string name="bkp_rename">umbenennen</string>
+    <string name="bkp_rename">Backup umbenennen</string>
     <string name="bkp_rename_success">erfolgreich umbenannt \'%1$s\' zu \'%2$s\'.</string>
-    <string name="bkp_rename_failed">nicht umbenannt \'%1$s\' zu \'%2$s\'.</string>
+    <string name="bkp_rename_failed">Benennen Sie fehlgeschlagenes \'%1$s\' zu \'%2$s\'.</string>
     <string name="bkp_delete">Sicherung löschen</string>
     <string name="bkp_delete_confirm">Löschen der ausgewählten Datensicherung \'%1$s\'?</string>
-    <string name="bkp_delete_success">erfolgreich gelöscht.</string>
-    <string name="bkp_delete_fail">konnte nicht gelöscht werden.</string>
-    <string name="bkp_restore_external">Wiederherstellung von externer Wolke</string>
+    <string name="bkp_delete_success">Erfolgreich gelöscht.</string>
+    <string name="bkp_delete_fail">Fehler beim löschen</string>
+    <string name="bkp_restore_external">Wiederherstellung aus einer externen Cloud</string>
     <string name="bkp_restore_external_title">herunterladen und wiederherstellen</string>
     <string name="bkp_restore_confirm_cloud">Wiederherstellung würde ein paar Sekunden zu paar Minuten dauern, also bitte Geduld abhängig von deiner Backup Größe. \n\nKlicken Sie auf Weiter, um eine externe Sicherungsdatei zum Importieren und Wiederherstellen von Daten auszuwählen.</string>
     <string name="bkp_last_backup">Letzte Sicherung</string>
@@ -584,9 +584,9 @@
     <string name="never">noch nie</string>
     <string name="bkp_restore_successful">Erfolgreich von der Sicherung wiederhergestellt. \n\nDie App muss neu gestartet werden, um neue Daten anzuwenden.</string>
     <string name="bkp_create_confirm_msg">Das Sichern kann je nach Größe der App-Daten einige Sekunden bis Minuten dauern. Bitte haben Sie etwas Geduld. \n\nErstellen Sie das Backup weiter?</string>
-    <string name="bkp_over_wifi_label">Sichern mit</string>
-    <string name="bkp_success">Erfolgreich gesichert.</string>
-    <string name="bkp_restore_confirm_msg">Die Wiederherstellung würde einige Sekunden bis einige Minuten dauern. Seien Sie also bitte geduldig. \n\nAlle Ihre vorhandenen App-Daten auf diesem Gerät werden aus der letzten Sicherung ersetzt. Möchten Sie mit dem Wiederherstellungsvorgang fortfahren?</string>
+    <string name="bkp_over_wifi_label">Backup vorbei</string>
+    <string name="bkp_success">Sicherung erfolgreich abgeschlossen.</string>
+    <string name="bkp_restore_confirm_msg">Die Wiederherstellu würde einige Sekunden bis einige Minuten dauern. Seien Sie also bitte geduldig. \n\nAlle Ihre vorhandenen App-Daten auf diesem Gerät werden aus der letzten Sicherung ersetzt. Möchten Sie mit dem Wiederherstellu ngsvorgang fortfahren?</string>
 
     <string-array name="bkp_to_google_drive">
         <item>@string/never</item>
@@ -606,9 +606,9 @@
 
     <!--<string name="prefTitleAppSetting">App Settings</string>
     <string name="prefKeyAppSetting">appSettings</string>-->
-    <string name="prefTitleGeneralSetting">general</string>
+    <string name="prefTitleGeneralSetting">Allgemeines</string>
     <string name="prefTitleDataSetting">Sicherungen und Berichte</string>
-    <string name="prefTitleDataSettingTrial">backup</string>
+    <string name="prefTitleDataSettingTrial">Backup</string>
     <!--<string name="prefKeyAppSetting">appSettings</string>-->
 
     <string name="prefTitleAppPIN">4 stelliger Stift</string>
@@ -617,56 +617,56 @@
     <string name="prefTitleAppPINChange">PIN ändern</string>
     <string name="prefSummaryAppPINChange">berühren Sie hier um Ihren 4 stelligen Stift zu ändern.</string>
 
-    <string name="prefTitleStartupScreen">Startbildschirm ändern</string>
-    <string name="prefSummaryStartupScreen">Standard oder Startbildschirm der angezeigt wird wenn die App gestartet wird.</string>
+    <string name="prefTitleStartupScreen">Zielseite</string>
+    <string name="prefSummaryStartupScreen">APP-Startbildschirm, der beim Starten der App angezeigt wird.</string>
 
     <string name="prefTitleChangeLanguage">Sprache: %1$s</string>
     <string name="prefSummaryChangeLanguage">Klicken Sie hier, um die Sprache zu ändern</string>
 
     <string name="prefTitleEnableSubcategories">Unterkategorien aktivieren</string>
-    <string name="prefSummaryEnableSubcategories">Kreuzen Sie zwei Kategorien an</string>
+    <string name="prefSummaryEnableSubcategories">Aktivieren Sie dieses Kontrollkästchen, um zwei Ebenen-Kategorien zu verwenden</string>
 
     <string name="prefTitleInstSetting">Profil</string>
 
-    <string name="prefTitleDefaultCurrency">Standardprofilwährung: %1$s</string>
-    <string name="prefSummaryDefaultCurrency">Währung die vor dem Hinzufügen eines neuen Datensatzes belegt ist, für dieses Profil.</string>
+    <string name="prefTitleDefaultCurrency">Standardprofil währung: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">Währung, die beim Hinzufügen eines neuen Datensatzes für dieses Profil vorab ausgefüllt wird.</string>
 
-    <string name="prefTitleManageInstance">verwalten Profile</string>
+    <string name="prefTitleManageInstance">Verwalten Profile</string>
     <string name="prefSummaryManageInstance">um die Währung eines anderen Profils zu erstellen, zu löschen oder zu ändern.</string>
 
     <!--<string name="prefKeyBillSettings">billsSettings</string>-->
     <string name="prefTitleBillSettings">rechnungen</string>
     <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
 
-    <string name="prefTitleNotifyTick">Erinnerungsbenachrichtigungen</string>
-    <string name="prefSummaryNotifyTick">benachrichtige mich über Rechnungen die dazu aufgezeichnet wurden. (unselect deaktivieren)</string>
+    <string name="prefTitleNotifyTick">Aktivieren Sie Erinnerung Benachrichtigungen</string>
+    <string name="prefSummaryNotifyTick">Benachrichtigen Sie mich mir Rechnungen, die zu diesem Zweck markiert sind. (abwählen zu deaktivieren.)</string>
     <string name="prefSummaryNotifyUnTick">Benachrichtigungen sind deaktiviert. (wählen um zu aktivieren)</string>
 
     <string name="prefTitleNotifyTime">Benachrichtigungszeit: %1$s:%2$s</string>
-    <string name="prefSummaryNotifyTime">Meldungen werden zu diesem Zeitpunkt täglich aufgetaucht</string>
+    <string name="prefSummaryNotifyTime">Zu diesem Zeitpunkt werden täglich Benachrichtigungen angezeigt</string>
 
-    <string name="prefTitleNotifyDays">Standard Erinnerungsbenachrichtigung</string>
+    <string name="prefTitleNotifyDays">Standarderinnerung Benachrichtigung</string>
     <string name="prefSummaryNotifyDays">Für neue Rechnungen ist dies als Option zur täglichen Erinnerung ausgewählt. Beispiel: 5 Tage vor Fälligkeit</string>
 
-    <string name="prefTitleForcast">prognoseperiode</string>
-    <string name="prefTitleForcastDialog">schaffen wiederkehrende Rechnungen</string>
+    <string name="prefTitleForcast">Prognoseperiode</string>
+    <string name="prefTitleForcastDialog">Schaffen wiederkehrende Rechnungen</string>
     <string name="prefSummaryForcast">Wiederkehrende Rechnungen werden automatisch im Voraus bis zur angegebenen Frist generiert. Beispiel: 3 Monate im Voraus</string>
 
-    <string name="pref_inst_currency_set_to">Profilwährung auf: %1$s</string>
+    <string name="pref_inst_currency_set_to">Profilwährung eingestellt auf: %1$s</string>
 
     <!-- Backup / restore preferences (29.mar.2015) -->
 
-    <string name="prefTitlePDFReports">erzeugte Berichte</string>
+    <string name="prefTitlePDFReports">Erzeugte Berichte</string>
     <string name="prefSummaryPDFReports">Klicken Sie hier um die Liste der generierten PDF Dateien anzuzeigen. wann immer ein pdf Bericht generiert wird, werden sie von der App zwischengespeichert, wo man sie ansehen, teilen und nach Bedarf löschen kann.</string>
 
     <string name="prefTitleBackupPhotos">Backup beinhalten Anhänge</string>
-    <string name="prefSummaryBackupPhotosTick">Backups werden nun Daten und auch beigefügte Quittungsfotos enthalten, wie bei einer vollständigen Sicherung</string>
+    <string name="prefSummaryBackupPhotosTick">Backups werden nun Daten und auch beigefügte Quittungs Fotos enthalten, wie bei einer vollständigen Sicherung</string>
     <string name="prefSummaryBackupPhotosUnTick">schnelle Sicherung ist aktiv, so dass Backups nur Daten enthalten und ignoriert alle angehängten Fotos</string>
 
     <string name="prefSummaryBackupAccount">Wählen Sie ein Google Drive-Konto aus, um alle Ihre Anwendungsdatensicherungen zu speichern.</string>
     <string name="prefSummaryBackupAccountUnlink">Möchten Sie die Verknüpfung Ihres Google Drive-Kontos aufheben? Ihre Daten werden also nicht im Cloud-Speicher gesichert.</string>
 
-    <string name="prefTitleBackupDriveSyncTime">Letzte Synchronisierungszeit für das Backup</string>
+    <string name="prefTitleBackupDriveSyncTime">Letzte Synchronisierungs Zeit für das Backup</string>
 
     <string name="prefTitleBackupWiFi">Backup nur über WiFi</string>
     <string name="prefSummaryBackupWiFi">Aktivieren Sie diese Option, um Google Drive-Sicherungen nur über WLAN durchzuführen. Deaktivieren Sie diese Option, um sowohl WLAN- als auch mobile Internetdaten zu verwenden.</string>
@@ -674,7 +674,7 @@
     <!-- Access Denied / Root detected Activity -->
     <string name="title_activity_access_denied">Zugriff abgelehnt</string>
     <string name="access_denied_lable">etwas ist schief gelaufen..!</string>
-    <string name="access_denied_msg">Bitte versuchen Sie es erneut oder wenden Sie sich an den Entwickler.</string>
+    <string name="access_denied_msg">Bitte versuchen Sie es erneut oder wenden Sie sich bezüglich des Problems an den Entwickler.</string>
     <string name="access_denied_autofixed">ein Problem wurde automatisch behoben. \n\nBitte starten Sie die App neu und Sie sind gut zu gehen.</string>
 
     <!-- Filter Fragement -->
@@ -682,22 +682,22 @@
     <string name="filter_menu">filter</string>
     <string name="filter_apply">Filter anwenden</string>
     <string name="filter_selected_save">sparen</string>
-    <string name="filter_clear">zurücksetzen</string>
-    <string name="filter_invert">umgekehrt</string>
-    <string name="filter_sort_by">sortieren nach: %1$s</string>
+    <string name="filter_clear">Zurückset</string>
+    <string name="filter_invert">Invers</string>
+    <string name="filter_sort_by">Sortieren nach: %1$s</string>
     <string name="filter_category_title">Filterkategorien</string>
     <string name="filter_categories_all">Kategorien (alle)</string>
     <string name="filter_categories_count">Kategorien (%1$d)</string>
     <string name="filter_currency_title">Filterwährungen filtern</string>
     <string name="filter_currencies_all">Währungen (alle)</string>
     <string name="filter_currencies_count">Währungen (%1$d)</string>
-    <string name="filter_photo_title">Filtersätze mit</string>
+    <string name="filter_photo_title">Datensätze filtern mit</string>
     <string name="filter_photo_any">Quittungsfoto (beliebig)</string>
     <string name="filter_photo_yes">Foto beigefügt</string>
     <string name="filter_photo_no">Foto nicht beigefügt</string>
 
     <!-- New Recurring Screen -->
-    <string name="bills_paid_total">bezahlt: %1$s</string>
+    <string name="bills_paid_total">Bezahlt: %1$s</string>
     <string name="recurbill_total">gesamt: </string>
     <string name="bills_overdue_total">überfällig: %1$s</string>
     <string name="bills_upcoming_total">bevorstehend: %1$s</string>
