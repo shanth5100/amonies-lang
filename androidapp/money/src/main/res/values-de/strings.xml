@@ -2,25 +2,25 @@
 <resources>
     <string name="app_name">Just Money</string>
 
-    <string name="reconcile">versöhnen</string>
-    <string name="menu_accts">konten</string>
-    <string name="menu_search_txs">suchtransaktionen</string>
-    <string name="menu_budget">ausgabenbudgets</string>
-    <string name="bills_reminder">rechnungen erinnerung</string>
-    <string name="menu_txs_calendar">kalenderansicht</string>
-    <string name="menu_txs_cat_report">transaktionen nach kategorie</string>
-    <string name="menu_txs_recurring">wiederkehrende geschäfte</string>
-    <string name="menu_bills_header">rechnungen erinnerung</string>
+    <string name="reconcile">Versöhnen</string>
+    <string name="menu_accts">Konten</string>
+    <string name="menu_search_txs">Suche transaktionen</string>
+    <string name="menu_budget">Ausgabenbudgets</string>
+    <string name="bills_reminder">Rechnungen erinnerung</string>
+    <string name="menu_txs_calendar">Kalenderansicht</string>
+    <string name="menu_txs_cat_report">Transaktionen nach kategorie</string>
+    <string name="menu_txs_recurring">Wiederkehrende Transaktionen</string>
+    <string name="menu_bills_header">Rechnungen erinnerung</string>
     <string name="menu_bills_list">rechnungen</string>
-    <string name="menu_bills_list_status">rechnungen nach Status</string>
+    <string name="menu_bills_list_status">Rechnung nach Status</string>
     <string name="menu_bills_calendar">kalenderansicht</string>
     <string name="menu_bills_recurring">wiederkehrende Rechnungen</string>
     <string name="for_transactions">für transaktionen</string>
 
-    <string name="export_body">&lt;p&gt; gesendet von \'Gerade Geld\' android app &lt;/p&gt;</string>
-    <string name="app_try_title">nur geld erinnerung</string>
-    <string name="app_try_remind">hast du die App noch nicht probiert? seine einfache und einfach zu bedienen.</string>
-    <string name="app_use_remind">haben Sie Ihre Kosten heute hinzugefügt?</string>
+    <string name="export_body">&lt;p&gt; Gesendet von \'Gerade Geld\' android app &lt;/p&gt;</string>
+    <string name="app_try_title">Nur Geld Erinnerung</string>
+    <string name="app_try_remind">Hast du die App noch nicht probiert? seine einfache und einfach zu bedienen.</string>
+    <string name="app_use_remind">Haben Sie Ihre Kosten heute hinzugefügt?</string>
 
 
     <!-- ==================================================================== -->
@@ -28,39 +28,39 @@
 
     <!-- Account List -->
     <string name="acct_add">benutzerkonto anlegen</string>
-    <string name="acct_delete">konto löschen</string>
+    <string name="acct_delete">Löschen Sie ein Konto</string>
     <!-- <string name="accts">Account</string>  -->
-    <string name="acct_final_bal">aktuelles gleichgewicht</string>
-    <string name="acct_saved_success">konto wurde erfolgreich gespeichert.</string>
-    <string name="acct_delete_unsaved">kann nicht gelöschtes Konto löschen.</string>
+    <string name="acct_final_bal">Aktuelles gleichgewicht</string>
+    <string name="acct_saved_success">Konto erfolgreich gespeichert.</string>
+    <string name="acct_delete_unsaved">Nicht gespeichertes Konto kann nicht gelöscht werden</string>
     <string name="acct_delete_success">erfolgreich gelöschtes konto.</string>
-    <string name="acct_delete_warn">ausgewähltes konto und alle Transaktionen mit ihm werden gelöscht..!</string>
-    <string name="acct_delete_error_msg">fehler..!\n du musst mindestens ein aktives Konto betreiben.</string>
+    <string name="acct_delete_warn">Ausgewähltes konto und alle Transaktionen mit ihm werden gelöscht..!</string>
+    <string name="acct_delete_error_msg">Error ..! \ N Sie müssen mindestens ein aktives Konto haben, um arbeiten zu können.</string>
 
     <string name="acct_desc_default">konto eröffnungssaldo ist: %1$s</string>
-    <string name="acct_menu_filter_favorite">lieblings konten nur</string>
-    <string name="acct_menu_filter_off">alle Konten anzeigen</string>
+    <string name="acct_menu_filter_favorite">Lieblings konten nur</string>
+    <string name="acct_menu_filter_off">Alle Konten anzeigen</string>
 
     <!--  Account Details -->
-    <string name="acct_details">kontodetails</string>
-    <string name="acct_details_new">neue kontodetails</string>
-    <string name="acct_name">kontobezeichnung</string>
+    <string name="acct_details">Kontodetails</string>
+    <string name="acct_details_new">Neue kontodetails</string>
+    <string name="acct_name">Konto namen</string>
     <string name="acct_desc">beschreibung</string>
-    <string name="acct_init_bal">anfangsbestand</string>
-    <string name="acct_budget">monatliches Budget</string>
+    <string name="acct_init_bal">Anfangsbestand</string>
+    <string name="acct_budget">Monatliches Budget</string>
     <string name="acct_currency">währung</string>
-    <string name="acct_inclInTot">das gleichgewicht insgesamt beinhalten</string>
-    <string name="acct_tx_status">standard transaktionsstatus</string>
-    <string name="acct_active">häufig benutztes oder lieblings konto</string>
+    <string name="acct_inclInTot">Enthalten Saldo in der Summe</string>
+    <string name="acct_tx_status">Standard Transaktionsstatus</string>
+    <string name="acct_active">Häufig benutztes oder lieblings konto</string>
     <string name="acct_active_help_msg">in konten bildschirm können sie filtern um nur lieblings konten anzeigen, ohne sich über inaktive / geschlossene Konten (die Sie nicht häufig verwenden). \n\nalso anstatt ein Konto zu löschen, das die damit verbundenen transaktionen entfernen würde, können Sie diese Option verwenden.</string>
     <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
-    <string name="acct_list_empty">kein Konto existiert..!</string>
-    <string name="acct_list_empty_warning">kein Konto vorhanden, bitte zuerst ein Konto erstellen.</string>
-    <string name="acct_list_total_rows">%1$d konten Gesamtbilanz:</string>
+    <string name="acct_list_empty">Kein Konto existiert..!</string>
+    <string name="acct_list_empty_warning">Kein Konto vorhanden, bitte zuerst ein Konto erstellen.</string>
+    <string name="acct_list_total_rows">%1$d konte(n) Gesamtbilanz:</string>
     <string name="acct_list_total_rows_multi">%1$d konten in mehreren Währungen</string>
-    <string name="acct_list_all_currencies">alle Währungen</string>
+    <string name="acct_list_all_currencies">Alle Währungen</string>
     <string name="acct_list_xxx_Accounts">%1$s Konten</string>
-    <string name="acct_name_err">kontoname ist leer..!</string>
+    <string name="acct_name_err">Kontoname ist leer..!</string>
 
     <!-- ==================================================================== -->
     <!-- tx.xml -->
@@ -71,41 +71,41 @@
     <string name="tx_detail_title_edit">Bestehende Transaktion</string>
     <string name="tx_bill_pmt_label">Wählen Sie eine Rechnung aus, um eine Zahlung hinzuzufügen</string>
     <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
-    <string name="tx_bill_pmt_notes">rechnungszahlung</string>
-    <string name="tx_bill_pmt_not_selected">bitte wählen Sie eine Rechnung aus um die Rechnung zu beenden.</string>
+    <string name="tx_bill_pmt_notes">Rechnungszahlung</string>
+    <string name="tx_bill_pmt_not_selected">Bitte wählen Sie eine Rechnung aus, um die Rechnungszahlung abzuschließen.</string>
     <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
-    <string name="tx_payee">zahlungsempfänger, Zahler oder Posten</string>
+    <string name="tx_payee">Zahlungsempfänger, Zahler oder Posten</string>
     <string name="tx_payee_hint">Ansprechpartner, Geschäft oder Filialname</string>
     <string name="tx_transf_amt">Überweisungsbetrag</string>
-    <string name="tx_date">transaktionsdatum</string>
-    <string name="tx_account">wählen Sie ein Konto aus</string>
+    <string name="tx_date">Transaktionsdatum</string>
+    <string name="tx_account">Wählen Sie ein Konto aus</string>
     <!--<string name="tx_deposit">Deposit</string>
     <string name="tx_withdraw">Withdraw</string>-->
-    <string name="tx_status">transaktionsstatus</string>
-    <string name="tx_new">fügen Sie Kosten / Einkommen hinzu</string>
-    <string name="tx_bill_pmt">rechnungszahlung</string>
-    <string name="tx_list_empty">keine transaktionen existieren..!</string>
-    <string name="tx_repeats">wiederkehrende transaktion</string>
+    <string name="tx_status">Transaktionsstatus</string>
+    <string name="tx_new">Kosten / Einnahmen hinzufügen</string>
+    <string name="tx_bill_pmt">Rechnungszahlung</string>
+    <string name="tx_list_empty">Keine transaktionen existieren..!</string>
+    <string name="tx_repeats">Wiederkehrende transaktion</string>
     <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
     <string name="tx_error_save_pic">fehler beim Speichern des Bildes: %1$s</string>
 
-    <string name="tx_delete_warn">löschen Sie ausgewählte transaktionen?</string>
-    <string name="tx_delete_multi">%1$d transaktionen gelöscht.</string>
-    <string name="tx_multi_update_count">%1$d transaktionen aktualisiert.</string>
-    <string name="tx_duplicate_warn">%1$d doppelte transaktionen werden erstellt, weiter?</string>
-    <string name="tx_duplicate_multi">%1$d transaktionen erstellt.</string>
-    <string name="tx_delete_success">erfolgreich gelöschte transaktionen.</string>
-    <string name="tx_delete_unsaved">kann nicht gespeicherte transaktion löschen.</string>
-    <string name="tx_amt_err">bitte geben Sie einen gültigen Betrag ein..!</string>
-    <string name="tx_err_future_dt">bitte geben Sie ein zukünftiges Datum ein.</string>
-    <string name="tx_photo_not_supported">nicht in der Lage Foto zu erfassen, Gerät nicht unterstützt..!</string>
+    <string name="tx_delete_warn">Ausgewählte Transaktione(n) löschen?</string>
+    <string name="tx_delete_multi">%1$d transaktione(n) gelöscht.</string>
+    <string name="tx_multi_update_count">%1$d transaktione(n) aktualisiert.</string>
+    <string name="tx_duplicate_warn">%1$d doppelte transaktione(n) werden erstellt, weiter?</string>
+    <string name="tx_duplicate_multi">%1$d transaktione(n) erstellt.</string>
+    <string name="tx_delete_success">Erfolgreich gelöschte transaktione(n).</string>
+    <string name="tx_delete_unsaved">Nicht gespeicherte Transaktion kann nicht gelöscht werden.</string>
+    <string name="tx_amt_err">Bitte geben Sie einen gültigen Betrag ein..!</string>
+    <string name="tx_err_future_dt">Bitte geben Sie ein zukünftiges Datum ein.</string>
+    <string name="tx_photo_not_supported">Nicht in der Lage Foto zu erfassen, Gerät nicht unterstützt..!</string>
     <string-array name="tx_status">
-        <item>ungültig / ungültig</item>
-        <item>ungeklärt / anhängig</item>
-        <item>geklärt</item>
+        <item>Nichtig / ungültig</item>
+        <item>Ungeklärt / anhängig</item>
+        <item>Gelöscht</item>
         <item>geklärt und versöhnt</item>
     </string-array>
-    <string name="tx_add_suc">neue Transaktion hinzugefügt</string>
+    <string name="tx_add_suc">Neue Transaktion hinzugefügt</string>
     <string name="tx_update_suc">aktualisierte Transaktion</string>
     <string name="tx_err_end_dt">\'next transaction date\' sollte vor \'wiederholen bis dato\'</string>
     <string name="tx_rpt_save">gelten wiederkehrende Änderungen</string>
