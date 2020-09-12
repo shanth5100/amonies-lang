@@ -851,7 +851,7 @@
     <string name="coffee_thank_you">Danke</string>
 
     <string name="widget_bill_overview_title">Rechnungen Zusammenfassung</string>
-    <string name="widget_bill_overview_overdue">überfällig: </string>
+    <string name="widget_bill_overview_overdue">Überfällig: </string>
     <string name="widget_bill_overview_today">Heute fällig: </string>
     <string name="widget_bill_overview_upcoming">Bevorstehende: </string>
     <string name="widget_bill_overview_count">%1$d</string>
@@ -870,15 +870,15 @@
     <string name="error_max_bills_exceeded">Anzahl der Rechnungen überschritten Höchstgrenze, bitte aktualisieren, um weitere Rechnungen hinzuzufügen.</string>
     <string name="error_max_cats_exceeded">Anzahl der Kategorien überschritten Höchstgrenze, bitte aktualisieren Sie, um weitere Kategorien hinzuzufügen.</string>
 
-    <string name="bill_paid1">bezahlte Rechnung</string>
-    <string name="bill_unpaid1">unbezahlte Rechnung</string>
-    <string name="bill_overdue1">überfällige Rechnung</string>
-    <string name="bill_upcoming1">bevorstehende Rechnung</string>
-    <string name="bill_payments">Rechnungszahlungen (%1$d)</string>
-    <string name="bill_payment_mark_paid">ist vollständig bezahlt</string>
+    <string name="bill_paid1">Bezahlte Rechnung</string>
+    <string name="bill_unpaid1">Unbezahlte Rechnung</string>
+    <string name="bill_overdue1">Überfällige Rechnung</string>
+    <string name="bill_upcoming1">Bevorstehende Rechnung</string>
+    <string name="bill_payments">Zahlungen(%1$d)</string>
+    <string name="bill_payment_mark_paid">Vollständig bezahlt</string>
     <string name="bill_payment">Rechnungszahlung</string>
-    <string name="bill_make_payment">füge eine Zahlung hinzu</string>
-    <string name="bill_payments_empty_text">Noch keine Zahlungen auf dieser Rechnung.</string>
+    <string name="bill_make_payment">Füge eine Zahlung hinzu</string>
+    <string name="bill_payments_empty_text">Noch keine Zahlungen für diese Rechnung.\n(Berühren Sie, um eine Zahlung hinzuzufügen.)</string>
     <string name="bill_payment_total">%1$d Rechnungszahlungen insgesamt sind %2$s</string>
     <string name="bill_payment_total_remaining">%1$s restliche zu zahlende Summe insgesamt %2$s</string>
     <string name="bill_payment_total_overpaid">%1$s von insgesamt %2$s überbezahlt</string>
@@ -886,12 +886,12 @@
     <string name="bill_payment_heading">%1$s ist fällig am %2$s</string>
     <string name="bill_payment_bill_amt">Rechnungsbetrag:</string>
     <string name="bill_payment_amt_paid">ganz bezahlt:</string>
-    <string name="bill_payment_amt_due">Offener Betrag:</string>
+    <string name="bill_payment_amt_due">Fälliger betrag:</string>
     <string name="bill_payment_date">Zahlungsdatum</string>
-    <string name="bill_payment_last_paid_dt">zuletzt bezahlt am %1$s</string>
+    <string name="bill_payment_last_paid_dt">zuletzt bezahlt %1$s</string>
     <string name="bill_payment_not_exits">[keiner]</string>
-    <string name="bill_payments_tablet_view">Als bezahlt markieren, Rechnungsbeträge anzeigen oder hinzufügen &#8230;</string>
-    <string name="bill_payment_amt_outstanding">Gesamte verbleibende:</string>
+    <string name="bill_payments_tablet_view">Als bezahlt markieren, Rechnungszahlungen anzeigen oder hinzufügen &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Insgesamt Außenstände:</string>
 
     <string name="contact_name_hint">Kontakt-, Kunden- oder Firmenname</string>
     <string name="contact_payee_empty">Geben Sie einen Kontaktnamen an.</string>
@@ -912,7 +912,7 @@
 
     <string name="attachment_title">Anhänge</string>
     <string name="attachment_title_count">Anhänge (%1$d)</string>
-    <string name="attachment_non_exists">Es sind keine Anhänge vorhanden. Tippen Sie auf die obigen Symbole, um diesem Eintrag ein Foto oder eine Datei hinzuzufügen.</string>
+    <string name="attachment_non_exists">Es gibt keine Anhänge. Tippen Sie auf die Schaltfläche oben, um diesem Eintrag ein Foto oder eine Datei hinzuzufügen.</string>
     <string name="attachment_take_photo">Mach ein Foto</string>
     <string name="attachment_add_file">Fügen Sie eine vorhandene Datei hinzu</string>
     <string name="attachment_deleting_snackbar">Löschen&#8230; %1$s</string>
@@ -922,22 +922,22 @@
     <string name="cat_no_of_linked_rows_txs_bills">%1$d transaktionen, %2$d rechnungen.</string>
     <string name="cat_no_of_linked_rows_txs">%1$d transaktionen.</string>
 
-    <string name="acct_1name">Kasse</string>
-    <string name="acct_1desc">klicken sie hier um ein Konto zu bearbeiten oder zu löschen.</string>
+    <string name="acct_1name">Bargeld Brieftasche</string>
+    <string name="acct_1desc">Klicken sie hier um ein Konto zu bearbeiten oder zu löschen.</string>
     <string name="acct_2name">Kreditkarte</string>
-    <string name="acct_2desc">tippen sie einfach auf die kontotransaktionen.</string>
+    <string name="acct_2desc">Tippen sie einfach auf die kontotransaktionen.</string>
     <string name="acct_3name">Bankkonto</string>
     <string name="acct_3desc">kontoinformationen anzeigen um ein monatliches Budget festzulegen.</string>
 
-    <string name="transfer_title">fondsübertragung</string>
+    <string name="transfer_title">Fonds übertragung</string>
     <string name="view_settings">Einstellungen anzeigen</string>
     <string name="google_drive_not_linked">Verknüpfen Sie Ihr Google-Konto, um Ihre Daten im Google Drive-Speicher zu sichern.</string>
 
-    <string name="cat_icon">Symbol</string>
+    <string name="cat_icon">ikone</string>
     <!-- <string name="tax_percent">Tax Rate</string> -->
     <string name="bill_date">Rechnungsdatum</string>
-    <string name="bill_notify_enable">Tägliche Erinnerungsbenachrichtigung anzeigen</string>
-    <string name="menu_txs_list">transaktionen</string>
+    <string name="bill_notify_enable">Tägliche Erinnerungs benachrichtigung anzeigen</string>
+    <string name="menu_txs_list">Transaktionen</string>
 
     <string name="contacts_and_groups_label">Kontakte &amp; Gruppen</string>
     <string name="contacts_list">Kontakte</string>
@@ -948,10 +948,10 @@
     <string name="contact_list_empty_hint">Es sind keine Kontakte vorhanden. \n(Berühren Sie die schwebende Schaltfläche, um eine hinzuzufügen.)</string>
     <string name="contact_saved">Kontakt gespeichert</string>
     <string name="contact_phone">Telefonnummer</string>
-    <string name="contact_email">E-Mail-Addresse</string>
+    <string name="contact_email">E-Mail-Adresse</string>
     <string name="contact_phone_alt">Alternative Telefonnummer</string>
     <string name="contact_email_alt">Alternative E-Mail-Adresse</string>
-    <string name="contact_address">Kontakt Anschrift</string>
+    <string name="contact_address">Kontaktieren Sie die physische Adresse</string>
     <string name="contact_deleted">Kontakt erfolgreich gelöscht</string>
     <string name="contact_inuse_warn_msg">Kontakt wird derzeit verwendet</string>
     <string name="contact_deleted_warn">Der ausgewählte Kontakt wird gelöscht.</string>
@@ -959,17 +959,17 @@
 
     <string name="group_new">Neue Gruppe</string>
     <string name="group_details">Gruppendetails</string>
-    <string name="group_name_hint">Gruppen- oder Teamname</string>
+    <string name="group_name_hint">Gruppen- oder Team Name</string>
     <string name="export_body">&lt;p&gt; Gesendet von \"Rechnungen Erinnerung\" Android App &lt;/p&gt;</string>
     <string name="contact_all_title">Alle Kontakte</string>
     <string name="contact_group_title">Gruppen</string>
     <string name="group_list_empty_hint">Es sind keine Kontaktgruppen vorhanden. \n(Berühren Sie die schwebende Schaltfläche, um eine zu erstellen.)</string>
-    <string name="group_list_empty">Es sind keine Kontaktgruppen vorhanden.</string>
+        <string name="group_list_empty">Es sind keine Kontaktgruppen vorhanden.</string>
     <string name="group_saved">Kontaktgruppe gespeichert</string>
     <string name="group_name_empty">Der Gruppenname ist leer..!</string>
     <string name="delete_unsaved_warn">Nicht gespeicherter Datensatz kann nicht gelöscht werden.</string>
     <string name="group_deleted">Gruppe erfolgreich gelöscht.</string>
-    <string name="group_delete_warn">Ausgewählte Gruppen werden gelöscht.</string>
+    <string name="group_delete_warn">Ausgewählte Gruppe(n) werden gelöscht.</string>
     <string name="group_contacts_conut">%1$d Kontakte</string>
     <string name="group_add_members">Mitglieder hinzufügen</string>
     <string name="group_select_contacts">Wählen Sie Kontakte</string>
@@ -979,7 +979,7 @@
 
     <string name="display_theme">Thema</string>
     <string-array name="display_themes">
-        <item>Systemfehler</item>
+        <item>Systemstandard</item>
         <item>Licht</item>
         <item>Dunkel</item>
     </string-array>
