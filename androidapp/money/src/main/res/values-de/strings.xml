@@ -189,58 +189,58 @@
 
     <!-- ==================================================================== -->
     <!-- preferences.xml -->
-    <string name="prefTitleForcastDialog">erstellen sie wiederkehrende Einträge</string>
+    <string name="prefTitleForcastDialog">Erstellen sie wiederkehrende Einträge</string>
     <string name="prefSummaryForcast">wiederkehrende transaktionen und Rechnungen werden automatisch im Voraus bis zur angegebenen Frist generiert. Beispiel: 3 Monate im Voraus</string>
 
-    <string name="prefScreenTitleTransactions">transaktionen</string>
+    <string name="prefScreenTitleTransactions">Transaktionen</string>
 
     <string name="prefTitleIgnoreTransferTick">Geldüberweisungen ausblenden</string>
 
-    <string name="prefTitleImportTxs">importtransaktionen</string>
-    <string name="prefSummaryImportTxs">um transaktionen aus der csv datei in ein ausgewähltes Konto zu importieren, hier zu berühren. (auch zum Anzeigen der csv dateisäulenreihenfolge)</string>
+    <string name="prefTitleImportTxs">Import transaktionen</string>
+    <string name="prefSummaryImportTxs">Um transaktionen aus der csv datei in ein ausgewähltes Konto zu importieren, hier zu berühren. (auch zum Anzeigen der csv dateisäulenreihenfolge)</string>
 
-    <string name="prefTitleExportTxs">exporttransaktionen</string>
-    <string name="prefSummaryExportTxs">um Konto transaktionen in eine CSV datei zu exportieren und sie per email, Dropbox, etc. (einschließlich Fotos) zu teilen, hier zu berühren.</string>
+    <string name="prefTitleExportTxs">Export transaktionen</string>
+    <string name="prefSummaryExportTxs">Um Konto transaktionen in eine CSV datei zu exportieren und sie per email, Dropbox, etc. (einschließlich Fotos) zu teilen, hier zu berühren.</string>
 
-    <string name="prefLabelSettingsBillsFeature">integrierte Rechnungen Erinnerung Feature</string>
-    <string name="prefSummarySettingsBillsDisabled">vereinfachte Menüoptionen werden angezeigt wenn die Rechnungsmeldung ausgeschaltet ist. Wenn sie Rechnungen verwalten und verfolgen wollen und ihre Zahlungen an eine Transaktion verknüpfen möchten, ähnlich dem doppelten Einstiegssystem, schalten sie es bitte ein.\n\nmit dieser Option können sie erweiterte Menüoptionen mit bills erinnerungsbenachrichtigungen anzeigen.</string>
+    <string name="prefLabelSettingsBillsFeature">Integrierte Bills Reminder Feature</string>
+    <string name="prefSummarySettingsBillsDisabled">Vereinfachte Menüoptionen werden angezeigt wenn die Bills Reminder ausgeschaltet ist. Wenn sie Rechnungen verwalten und verfolgen wollen und ihre Zahlungen an eine Transaktion verknüpfen möchten, ähnlich dem doppelten Einstiegssystem, schalten sie es bitte ein.\n\nmit dieser Option können sie erweiterte Menüoptionen mit bills erinnerungsbenachrichtigungen anzeigen.</string>
 
     <!-- ==================================================================== -->
     <!-- currency.xml -->
 
-    <string name="curr_from">von </string>
-    <string name="curr_to">nach </string>
+    <string name="curr_from">Von </string>
+    <string name="curr_to">Nach </string>
     <string name="curr_ex_rate">Preis</string>
-    <string name="curr_ex_inverse">umgekehrt</string>
-    <string name="curr_ex_new">wechselkurs hinzufügen</string>
-    <string name="curr_ex_edit">wechselkurs ändern</string>
+    <string name="curr_ex_inverse">Invers</string>
+    <string name="curr_ex_new">Wechselkurs hinzufügen</string>
+    <string name="curr_ex_edit">Wechselkurs ändern</string>
 
     <!-- Error Messages -->
-    <string name="curr_ex_duplicate_err">der Wechselkurs für die ausgewählten Währungen existiert bereits..!</string>
-    <string name="curr_ex_update_err">nicht in der Lage den Wechselkurs zu aktualisieren, bitte versuchen sie es erneut..!</string>
-    <string name="curr_ex_same_err">aus währung und währung sollte anders sein.!</string>
-    <string name="curr_ex_invalid_rate">geben sie bitte einen gültigen Wechselkurs für die ausgewählte Währung ein..!</string>
-    <string name="curr_ex_rates_warn">einige Wechselkurse haben Vorgabewerte, bitte ändern sie mit entsprechenden Tarifen..!</string>
+    <string name="curr_ex_duplicate_err">Der Wechselkurs für die ausgewählten Währungen existiert bereits..!</string>
+    <string name="curr_ex_update_err">Nicht in der Lage den Wechselkurs zu aktualisieren, bitte versuchen sie es erneut..!</string>
+    <string name="curr_ex_same_err">Von Währung zu Währung, sollte unterschiedlich sein!</string>
+    <string name="curr_ex_invalid_rate">Geben sie bitte einen gültigen Wechselkurs für die ausgewählte Währung ein..!</string>
+    <string name="curr_ex_rates_warn">Einige Wechselkurse haben Vorgabewerte, bitte ändern sie mit entsprechenden Tarifen..!</string>
 
 
     <!-- ==================================================================== -->
     <!-- budget.xml -->
 
-    <string name="budget_title">budgets</string>
+    <string name="budget_title">Budgets</string>
     <string name="budget_spend_vs_budget">verbringen / budget: </string>
     <string name="budget_surplus_vs_budget">Überschuss / budget: </string>
     <string name="budget_list_empty">kein budget existiert..! \n (berühre die schwimmende \'+\' Taste um eine zu erstellen)</string>
-    <string name="budget_amt_invalid_warn">Please enter a valid budget amount that is greater than 0.</string>
+    <string name="budget_amt_invalid_warn">Bitte geben Sie einen gültigen Budgetbetrag ein, der größer als 0 ist.</string>
 
-    <string name="budget_new">neues budget</string>
-    <string name="budget_edit">budget bearbeiten</string>
-    <string name="budget_remove">budget entfernen</string>
+    <string name="budget_new">Neues budget</string>
+    <string name="budget_edit">Budget bearbeiten</string>
+    <string name="budget_remove">Budget entfernen</string>
     <string name="budget_all_categories">alle Kategorien</string>
-    <string name="budget_all_currency_accounts">alle %1$s konten</string>
+    <string name="budget_all_currency_accounts">Alle %1$s konten</string>
     <string name="budget_remaining">verbleibend zu verbringen</string>
 
-    <string name="budget_category_all">für alle Kategorien</string>
-    <string name="budget_category_selected">ausgewählte Kategorie</string>
+    <string name="budget_category_all">Für alle Kategorien</string>
+    <string name="budget_category_selected">Ausgewählte Kategorie</string>
     <string name="budget_currency_switch">Währungsbudget</string>
     <string name="budget_currency_for">für alle</string>
     <string name="budget_currency_accts"> Konten </string>
