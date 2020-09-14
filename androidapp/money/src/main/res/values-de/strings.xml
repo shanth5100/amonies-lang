@@ -242,11 +242,11 @@
     <string name="budget_category_all">Für alle Kategorien</string>
     <string name="budget_category_selected">Ausgewählte Kategorie</string>
     <string name="budget_currency_switch">Währungsbudget</string>
-    <string name="budget_currency_for">für alle</string>
+    <string name="budget_currency_for">ür alle</string>
     <string name="budget_currency_accts"> Konten </string>
-    <string name="budget_amount">budgetbetrag, Beispiel 300</string>
-    <string name="budget_type_spend">Ausgeben</string>
-    <string name="budget_type_earn">verdienen</string>
+    <string name="budget_amount">Budgetbetrag</string>
+    <string name="budget_type_spend">Senden</string>
+    <string name="budget_type_earn">Verdienen</string>
     <string name="budget_period">Ausgaben Zeitraum</string>
     <string-array name="budget_seekbar_labels">
         <item>tag</item>
@@ -261,131 +261,131 @@
         <item>jährlich / ganzjährig</item>
     </string-array>
 
-    <string name="budget_delete_unsaved">kann nicht gelöschtes budget löschen.</string>
-    <string name="budget_delete_success">erfolgreich gelöschtes budget.</string>
-    <string name="budget_delete_warn">ausgewähltes budget wird gelöscht, weiter?</string>
-    <string name="budget_save_success">budget erfolgreich gespeichert</string>
-    <string name="budget_fields_invalid">budget sollte entweder per Währung oder auf Rechnung sein.</string>
-    <string name="budget_exists_error">budget existiert bereits..!</string>
+    <string name="budget_delete_unsaved">Nicht gespeichertes Budget kann nicht gelöscht werden.</string>
+    <string name="budget_delete_success">Erfolgreich gelöschtes budget.</string>
+    <string name="budget_delete_warn">Ausgewähltes budget wird gelöscht, weiter?</string>
+    <string name="budget_save_success">Budget erfolgreich gespeichert</string>
+    <string name="budget_fields_invalid">Budget sollte entweder per Währung oder auf Rechnung sein.</string>
+    <string name="budget_exists_error">Budget existiert bereits..!</string>
     <string name="error">fehler</string>
 
 
     <!-- ==================================================================== -->
     <!-- reports.xml -->
 
-    <string name="rpt_title">berichtet</string>
-    <string name="select_account">wählen sie ein Konto aus</string>
+    <string name="rpt_title">Berichte</string>
+    <string name="select_account">Wählen sie ein Konto aus</string>
 
-    <string name="tx_rpt_total_expense">gesamtausgaben: %1$s</string>
-    <string name="tx_rpt_total_income">gesamteinkommen: %1$s</string>
-    <string name="tx_rpt_type_cat_expense">aufwand nach Kategorie</string>
-    <string name="tx_rpt_type_cat_income">einkommen nach Kategorie</string>
-    <string name="tx_rpt_pdf_category_filename_template">kategorie weise Bericht, %1$s - %2$s</string>
+    <string name="tx_rpt_total_expense">Gesamtausgaben: %1$s</string>
+    <string name="tx_rpt_total_income">Gesamteinkommen: %1$s</string>
+    <string name="tx_rpt_type_cat_expense">Kosten nach Kategorie</string>
+    <string name="tx_rpt_type_cat_income">Einkommen nach Kategorie</string>
+    <string name="tx_rpt_pdf_category_filename_template">Kategorie weise Bericht, %1$s - %2$s</string>
 
 
     <!-- Tx Filter -->
-    <string name="filter_accounts_all">konten (alle)</string>
-    <string name="filter_accounts_count">konten (%1$d)</string>
-    <string name="filter_account_title">filterkonten</string>
+    <string name="filter_accounts_all">Konten (alle)</string>
+    <string name="filter_accounts_count">Konten (%1$d)</string>
+    <string name="filter_account_title">Filterkonten</string>
 
     <!-- Recurring Tx Configs -->
-    <string name="recurtx_list_empty">es sind keine wiederkehrenden Konfigurationen vorhanden. \nerstellen sie eine neue Transaktion mit wiederkehrender Konfiguration aktiviert</string>
-    <string name="tx_deleted_recur">erfolgreich wiederkehrende transaktionen gelöscht.</string>
-    <string name="tx_delete_recur_warn">diese wiederkehrende Eintragung und alle damit verbundenen transaktionen werden gelöscht, weiter?</string>
+    <string name="recurtx_list_empty">Es sind keine wiederkehrenden Konfigurationen vorhanden. \nerstellen sie eine neue Transaktion mit wiederkehrender Konfiguration aktiviert</string>
+    <string name="tx_deleted_recur">Erfolgreich gelöscht wiederkehrende transaktionen.</string>
+    <string name="tx_delete_recur_warn">Diese wiederkehrende Eintragung und alle damit verbundenen transaktionen werden gelöscht, weiter?</string>
 
     <!-- For Transactions -->
-    <string name="dashboard_summary_txs">zeitraumübersicht:</string>
-    <string name="dashboard_summary_balances">kontenbilanz:</string>
-    <string name="dashboard_summary_income">einkommen: </string>
-    <string name="dashboard_summary_expense">kosten: </string>
+    <string name="dashboard_summary_txs">Zeitraum Übersicht:</string>
+    <string name="dashboard_summary_balances">Konto balance:</string>
+    <string name="dashboard_summary_income">Einkommen: </string>
+    <string name="dashboard_summary_expense">Kosten: </string>
     <string name="dashboard_title_tx_chart_expense">aufwand nach Kategorie (transaktionen)</string>
     <string name="dashboard_title_tx_chart_income">einkommen nach Kategorie (transaktionen)</string>
 
-    <string name="acct_rpt_balance_label">kontenbilanz für 30 Tage</string>
-    <string name="acct_rpt_balance_info">line Diagramm zeigt historische und Prognose der Kontostände, auf einer täglichen Basis.</string>
+    <string name="acct_rpt_balance_label">Konten bilanz für 30 Tage</string>
+    <string name="acct_rpt_balance_info">Line Diagramm zeigt historische und Prognose der Kontostände, auf einer täglichen Basis.</string>
     <string name="acct_rpt_balance_currency">währung: %1$s</string>
-    <string name="acct_rpt_balance_accounts_all">alle %1$s Konten</string>
-    <string name="acct_rpt_balance_accounts_selected">ausgewählte %1$s Konten (%2$d)</string>
-    <string name="acct_rpt_balance_separate_lines">zeichne jedes Konto</string>
-    <string name="acct_rpt_balance_screen_title">kontenbilanz</string>
-    <string name="acct_rpt_balance_credit">im Kredit</string>
-    <string name="acct_rpt_balance_debit">Schulden haben</string>
+    <string name="acct_rpt_balance_accounts_all">Alle %1$s Konten</string>
+    <string name="acct_rpt_balance_accounts_selected">Ausgewählte %1$s Konten (%2$d)</string>
+    <string name="acct_rpt_balance_separate_lines">Zeichnen Sie jedes Konto</string>
+    <string name="acct_rpt_balance_screen_title">Konto stand</string>
+    <string name="acct_rpt_balance_credit">Im Kredit</string>
+    <string name="acct_rpt_balance_debit">Im Schulden</string>
 
 
-    <string name="tx_rpt_trends_screen_title">cashflow trends</string>
-    <string name="tx_rpt_trends_expense_label">trends für die letzten 30 Tage (Kosten)</string>
-    <string name="tx_rpt_trends_expense_info">line diagramm zeigt beide Ausgaben Trends in den letzten 30 Tagen.</string>
-    <string name="tx_rpt_trends_income_label">trends für die letzten 30 Tage (Einkommen)</string>
-    <string name="tx_rpt_trends_income_info">line diagramm zeigt Einkommen Cashflow in den letzten 30 Tagen.</string>
+    <string name="tx_rpt_trends_screen_title">Cashflow trends</string>
+    <string name="tx_rpt_trends_expense_label">Trends für die letzten 30 Tage (Kosten)</string>
+    <string name="tx_rpt_trends_expense_info">Line diagramm zeigt beide Ausgaben Trends in den letzten 30 Tagen.</string>
+    <string name="tx_rpt_trends_income_label">Trends für die letzten 30 Tage (Einkommen)</string>
+    <string name="tx_rpt_trends_income_info">Line diagramm zeigt Einkommen Cashflow in den letzten 30 Tagen.</string>
 
-    <string name="tx_rpt_category_wise_expenses_label">aufwand nach Kategorie</string>
-    <string name="tx_rpt_category_wise_expenses_info">kreisdiagramm zeigt Kategorie weise Ausgaben für einen bestimmten Zeitraum</string>
-    <string name="tx_rpt_category_wise_income_label">einkommen nach Kategorie</string>
-    <string name="tx_rpt_category_wise_income_info">kreisdiagramm das die Kategorie weise Einkommen für einen bestimmten Zeitraum zeigt</string>
+    <string name="tx_rpt_category_wise_expenses_label">Kosten nach Kategorie</string>
+    <string name="tx_rpt_category_wise_expenses_info">Kreisdiagramm zeigt Kategorie weise Ausgaben für einen bestimmten Zeitraum</string>
+    <string name="tx_rpt_category_wise_income_label">Einkommen nach Kategorie</string>
+    <string name="tx_rpt_category_wise_income_info">Kreisdiagramm zeigt Kategorie weise einkommen für einen bestimmten Zeitraum</string>
     <!--<string name="tx_rpt_category_wise_expenses_6months_label">Spending by Category in 6 months</string>
     <string name="tx_rpt_category_wise_expenses_6months_info">Pie chart showing category wise spending for a given period</string>
     <string name="tx_rpt_category_wise_income_6months_label">Income by Category in 6 months</string>
     <string name="tx_rpt_category_wise_income_6months_info">Pie chart showing category wise income for a given period</string>-->
-    <string name="tx_rpt_period_wise_expense_label">monatlicher Vergleich (aufwand)</string>
-    <string name="tx_rpt_period_wise_expense_info">balkendiagramm Vergleich der Ausgaben für jede Periode.</string>
-    <string name="tx_rpt_period_wise_income_label">monatlicher Vergleich (einkommen)</string>
-    <string name="tx_rpt_period_wise_income_info">balkendiagramm Vergleich der Einkommen für jede Periode.</string>
-    <string name="tx_rpt_account_balance_trends_label">trends der Kontostände die letzten 30 Tage</string>
-    <string name="tx_rpt_account_balance_trends_info">line diagramm das Kontostände in den letzten 30 Tagen zeigt.</string>
+    <string name="tx_rpt_period_wise_expense_label">Monats vergleich (Kosten)</string>
+    <string name="tx_rpt_period_wise_expense_info">Balkendiagramm Vergleich der Ausgaben für jede Periode.</string>
+    <string name="tx_rpt_period_wise_income_label">Monatlicher Vergleich (einkommen)</string>
+    <string name="tx_rpt_period_wise_income_info">Balkendiagramm Vergleich der Einkommen für jede Periode.</string>
+    <string name="tx_rpt_account_balance_trends_label">Trends des Kontostands in den letzten 30 Tagen</string>
+    <string name="tx_rpt_account_balance_trends_info">Line diagramm das Kontostände in den letzten 30 Tagen zeigt.</string>
 
     <!-- About / welcome Screen -->
-    <string name="about_description">nur Geld ist eine komplette finanzielle Lösung zu verwalten und verfolgen sie Ihre Ausgaben, Einkommen, Rechnungen, Konten, Ausgaben budgets. fügen sie einfach eine Transaktion hinzu, wann immer sie Geld ausgeben oder Geld verdienen. und verwenden sie Berichte und Diagramme, um Ihre transaktions trends, Vergleich, Kontostände und vieles mehr zu analysieren.</string>
+    <string name="about_description">ust Money ist eine vollständige Finanzlösung zur Verwaltung und Verfolgung Ihrer Ausgaben, Einnahmen, Rechnungen, Konten und Ausgabenbudgets. Fügen Sie einfach eine Transaktion hinzu, wenn Sie Geld ausgeben oder verdienen. Außerdem können Sie ein Foto anhängen. Und verwenden sie Berichte und Diagramme, um Ihre transaktions trends, Vergleich, Kontostände und vieles mehr zu analysieren.</string>
 
     <string name="feature_label_free">kostenlose Testversion</string>
-    <string name="feature_desc_free">die Version enthält grundlegende Funktionen, um Ihre Ausgaben und Einkommen zu verwalten mit unten Features:\n</string>
+    <string name="feature_desc_free">Die Version enthält grundlegende Funktionen, um Ihre Ausgaben und Einkommen zu verwalten mit unten Features:\n</string>
     <string-array name="feature_items_free">
-        <item>fügen sie ein Einkommen oder Kosten hinzu</item>
-        <item>wiederkehrende Transaktionen unterstützt</item>
+        <item>Fügen sie ein Einkommen oder Kosten hinzu</item>
+        <item>Wiederkehrende Transaktionen unterstützt</item>
         <item>begrenzte Transaktionen (1000)</item>
-        <item>eingeschränkte Kontenverwaltung (5)</item>
-        <item>mehrfachwährungsunterstützung</item>
-        <item>mehr als 150 Währungen unterstützt</item>
-        <item>budgetplaner für Monat</item>
-        <item>foto an eine transaktion anhängen</item>
+        <item>Eingeschränkte Kontenverwaltung (5)</item>
+        <item>Mehrfach währung unterstützung</item>
+        <item>Mehr als 150 Währungen unterstützt</item>
+        <item>Budgetplaner für Monat</item>
+        <item>Foto an eine transaktion anhängen</item>
         <item>Begrenzte Kategorien und Unterkategorien (70)</item>
-        <item>Home-Screen-Account-Widget</item>
-        <item>sehen transaktionen Monat weise</item>
-        <item>suchtransaktionen</item>
-        <item>kalenderansicht</item>
-        <item>suchtransaktionen</item>
-        <item>filteranzeigedaten</item>
+        <item>Widget für das Startbildschirm konto</item>
+        <item>Sehen transaktionen Monat weise</item>
+        <item>Suche transaktionen</item>
+        <item>Kalenderansicht</item>
+        <item>Suche transaktionen</item>
+        <item>Filteranzeige daten</item>
         <item>sortier transaktionsliste</item>
-        <item>Überweisung nur zwischen denselben Währungskonten</item>
-        <item>armaturenbrettübersicht für jeden Monat</item>
-        <item>mehrfachauswahl: Mehrere transaktionen und Kategorien löschen</item>
-        <item>mehrfachauswahl: mehrere transaktionen und Kategorien kopieren</item>
-        <item>berichte: Kategorie weise Aufwendungen / Einkommen für jeden Monat</item>
-        <item>importtransaktionen</item>
-        <item>scannen sie einen Barcode und fügen sie ihn zu transaktionsnotizen hinzu</item>
-        <item>erstellen sie Backup, einschließlich beigefügter Quittungsfotos</item>
-        <item>täglich geplante Backups</item>
+        <item>Fondsüberweisung nur zwischen gleichen währungskonten</item>
+        <item>Armaturenbrett übersicht für jeden Monat</item>
+        <item>Mehrfachauswahl: Mehrere transaktionen und Kategorien löschen</item>
+        <item>Mehrfachauswahl: mehrere transaktionen und Kategorien kopieren</item>
+        <item>Berichte: Kategorie weise Aufwendungen / Einkommen für jeden Monat</item>
+        <item>Transaktionen importieren</item>
+        <item>Scannen sie einen Barcode und fügen sie ihn zu transaktionsnotizen hinzu</item>
+        <item>Erstellen sie Backup, einschließlich beigefügter Quittungsfotos</item>
+        <item>Täglich geplante Backups</item>
         <item>nur ein Profil</item>
     </string-array>
-    <string name="feature_label_pro">prämie</string>
-    <string name="feature_desc_pro">dazu gehören alle Features die von \'free trial\' \n\t\t\t+\nunterhalb der Premium Features: \n</string>
+    <string name="feature_label_pro">Prämie</string>
+    <string name="feature_desc_pro">Dies beinhaltet alle Features von \'kostenlose Testversion\' \n\t\t\t+\nunter den Premium Features: \n</string>
     <string-array name="feature_items_pro">
-        <item>unbegrenzte Transaktionen</item>
-        <item>unbegrenzte Konten</item>
-        <item>unbegrenzte Kategorien und Unterkategorien</item>
-        <item>löschen sie wiederkehrende transaktionen und ihre Konfiguration in einem Rutsch. (bulk deletion)</item>
-        <item>mehrfachauswahl: Änderungskategorie der transaktionen</item>
-        <item>Home-Screen-Account-Widget</item>
-        <item>startbildschirm ändern</item>
-        <item>budgetplaner für Tag, Woche, Monat, und Jahr</item>
-        <item>armaturenbrettübersicht für jeden Tag, Woche, Monat, und Jahr.</item>
-        <item>sehen sie transaktionen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeitraum</item>
-        <item>fondsüberweisung zwischen Konten verschiedener Währungen</item>
+        <item>Unbegrenzte Transaktionen</item>
+        <item>Unbegrenzte Konten</item>
+        <item>Unbegrenzte Kategorien und Unterkategorien</item>
+        <item>Löschen sie wiederkehrende transaktionen und ihre Konfiguration in einem Rutsch. (Massenlöschung)</item>
+        <item>Mehrfachauswahl: Änderung Kategorie der transaktionen</item>
+        <item>Widget für das Startbildschirm Konto</item>
+        <item>Startbildschirm ändern</item>
+        <item>Budgetplaner für Tag, Woche, Monat, und Jahr</item>
+        <item>Armaturenbrett übersicht für jeden Tag, Woche, Monat, und Jahr.</item>
+        <item>Sehen sie transaktionen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeitraum</item>
+        <item>fonds überweisung zwischen Konten verschiedener Währungen</item>
         <item>berichte: Kategorie weise Aufwendungen und Einkommen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
-        <item>berichte: Aufwand und Ertragsentwicklung</item>
-        <item>berichte: Vergleich zwischen Wochen, Tagen, Monaten, Jahren</item>
-        <item>berichte: PDF Berichte generieren und teilen</item>
-        <item>exporttransaktionen und angehängte Fotos</item>
-        <item>kontrollieren sie geplante Backups</item>
+        <item>Berichte: Ausgaben- und Einnahmen </item>
+        <item>Berichte: Vergleich zwischen Wochen, Tagen, Monaten, Jahren</item>
+        <item>Berichte: PDF Berichte generieren und teilen</item>
+        <item>Export transaktionen und angehängte Fotos</item>
+        <item>Kontrollieren sie geplante Backups</item>
         <item>teilen und exportieren Backups per email, Laufwerk, Dropbox</item>
         <item>wiederherstellung lokaler Backups und heruntergeladen von Cloud</item>
         <item>app Sicherheit mit Pin und Fingerabdrücken</item>
