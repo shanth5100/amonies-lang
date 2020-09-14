@@ -106,85 +106,85 @@
         <item>geklärt und versöhnt</item>
     </string-array>
     <string name="tx_add_suc">Neue Transaktion hinzugefügt</string>
-    <string name="tx_update_suc">aktualisierte Transaktion</string>
-    <string name="tx_err_end_dt">\'next transaction date\' sollte vor \'wiederholen bis dato\'</string>
+    <string name="tx_update_suc">Aktualisierte Transaktion</string>
+    <string name="tx_err_end_dt">\'Wiederholen Sie bis zum Datum\' sollte nach sein \'Nächstes Transaktionsdatum\'</string>
     <string name="tx_rpt_save">gelten wiederkehrende Änderungen</string>
     <string-array name="tx_rpt_save">
-        <item>ohne eine Transaktion zu löschen und ggf. neue transaktionen zu erstellen.</item>
-        <item>löschen und neu zu erstellen transaktionen mit den neuen wiederkehrenden Änderungen. transaktionen die sich auf diese wiederkehrende Konfiguration beziehen werden nur durchgeführt</item>
+        <item>Ohne eine Transaktion zu löschen und ggf. neue transaktionen zu erstellen.</item>
+        <item>Löschen und neu zu erstellen transaktionen mit den neuen wiederkehrenden Änderungen. transaktionen die sich auf diese wiederkehrende Konfiguration beziehen werden nur durchgeführt</item>
         <!-- <item>Effect this &amp; all bills.</item> -->
     </string-array>
-    <string name="tx_rpt_remove">entfernen wiederkehrende Natur</string>
+    <string name="tx_rpt_remove">Entfernen wiederkehrende Natur</string>
     <string-array name="tx_rpt_remove">
-        <item>nur für diese Transaktion.</item>
-        <item>für diese und alle damit zusammenhängenden transaktionen.</item>
+        <item>Nur für diese Transaktion.</item>
+        <item>Für diese und alle damit zusammenhängenden transaktionen.</item>
     </string-array>
-    <string name="bill_delete_single_warn">rechnung und jede verknüpfte Rechnung Zahlung Transaktion wird gelöscht werden, weiter?</string>
-    <string name="bill_delete_multi_warn">ausgewählte Rechnungen und alle verknüpften Rechnungen Zahlungsvorgänge werden gelöscht, weiter?</string>
-    <string name="tx_bill_mark_unpaid_warning_title">als unbezahlt markieren</string>
-    <string name="tx_bill_mark_unpaid_warning">entfernen Sie transaktionen die dieser Rechnung zugeordnet sind?</string>
+    <string name="bill_delete_single_warn">Rechnung und alle verknüpften Rechnungszahlungs transaktionen werden als nächstes gelöscht?.</string>
+    <string name="bill_delete_multi_warn">Ausgewählte Rechnungen und alle verknüpften Rechnungszahlungs transaktionen werden als nächstes gelöscht.</string>
+    <string name="tx_bill_mark_unpaid_warning_title">Als unbezahlt markieren</string>
+    <string name="tx_bill_mark_unpaid_warning">Transaktionen entfernen, die dieser Rechnung zugeordnet sind?</string>
 
     <!-- Transaction list -->
-    <string name="tx_view_txs">transaktionen anzeigen</string>
-    <string name="tx_list_title">transaktionen</string>
+    <string name="tx_view_txs">Transaktionen Anzeigen</string>
+    <string name="tx_list_title">Transaktionen</string>
     <string name="tx_list_filter_dialog">Filter sichtbare Etiketten</string>
 
-    <string name="tx_export_subject">geldtransaktionen</string>
-    <string name="tx_export_title">exportieren als csv</string>
-    <string name="tx_export_type">text/plain</string>
-    <string name="tx_list_total_rows"> %1$s zeilen insgesamt: </string>
+    <string name="tx_export_subject">Geld transaktionen</string>
+    <string name="tx_export_title">Exportieren als CSV</string>
+    <string name="tx_export_type">Text/plain</string>
+    <string name="tx_list_total_rows"> %1$s zeil(en) insgesamt: </string>
     <string name="tx_list_total_rows_multi_curr"> %1$s Zeilen in mehreren Währungen </string>
     <string name="tx_list_cleared">(gelöscht: </string>
 
-    <string name="tx_list_options_view">transaktionsdetails anzeigen</string>
-    <string name="tx_list_options_select">diese Zeile auswählen</string>
-    <string name="tx_list_options_copy">erstellen Sie eine Kopie (duplikat)</string>
-    <string name="tx_list_options_delete">die Transaktion löschen</string>
+    <string name="tx_list_options_view">Transaktionsdetails anzeigen</string>
+    <string name="tx_list_options_select">Wählen Sie diese Zeile aus</string>
+    <string name="tx_list_options_copy">Erstellen Sie eine Kopie (duplikat)</string>
+    <string name="tx_list_options_delete">Die Transaktion löschen</string>
 
-    <string name="tx_removed_recurring">transaktion aus der wiederkehrenden Config verknüpft</string>
+    <string name="tx_removed_recurring">Transaktion von der wiederkehrenden Konfiguration getrennt</string>
 
     <!-- Fund Transfer -->
-    <string name="transfer_fromAcct">vom Konto</string>
+    <string name="transfer_fromAcct">Vom Konto</string>
     <string name="transfer_toAcct">zu berücksichtigen</string>
-    <string name="transfer_toAmt">betrag nach Umwandlung in </string>
-    <string name="transfer_exRate">wechselkurs ist </string>
-    <string name="transfer_rate_modify">Änderungsrate ändern</string>
-    <string name="transfer_save">geld übertragen</string>
+    <string name="transfer_toAmt">Überweisungsbetrag nach Umrechnung in</string>
+    <string name="transfer_exRate">Wechselkurs ist </string>
+    <string name="transfer_rate_modify">Rate ändern</string>
+    <string name="transfer_save">Geld übertragen</string>
     <string name="transfer_rate_default_err">ungültiger Wechselkurs, bitte ändern Sie den Umrechnungskurs.</string>
     <string name="transfer_diff_acct_err">bitte wählen Sie verschiedene Konten aus um Fondentransfers durchzuführen.</string>
-    <string name="transfer_success">fondsübertragung erfolgreich</string>
-    <string name="transfer_to">übertragen auf </string>
-    <string name="transfer_from">übertragen von </string>
+    <string name="transfer_success">fonds übertragung erfolgreich</string>
+    <string name="transfer_to">Übertragen auf </string>
+    <string name="transfer_from">Übertragen von </string>
 
 
     <!-- ==================================================================== -->
     <!-- Tools.xml -->
 
-    <string name="import_acct">ein Konto auswählen</string>
-    <string name="import_file">wählen sie eine zu importierende CSV datei aus</string>
-    <string name="import_choose_file">wähle eine CSV datei</string>
-    <string name="import_choose_file_warn">bitte wählen sie eine CSV Datei und klicken sie dann auf Import.</string>
-    <string name="import_dtfmt">datumsformat</string>
-    <string name="import_first_heading">erste Zeile ist Spaltenüberschrift</string>
-    <string name="import_signed_amt">signierter Betrag in Einzelspalte</string>
-    <string name="import_signed_amt_help">wenn getickt: \npositiver Betrag ist ein Einkommen und negativer Betrag ist ein Aufwand.\n\nwenn nicht getroffen: \nbetrag (ohne Vorzeichen, Beispiel: 10.75) existiert nur in einer der 2 Spalten (Betrag belastet oder Betrag gutgeschrieben).</string>
-    <string name="import_signed_warn">bitte stellen Sie sicher dass die CSV datei unterhalb der Spaltenreihenfolge steht:</string>
-    <string name="import_signed_cols">datum, Zahlungsempfänger, Betrag, Kategorie, Details</string>
+    <string name="import_acct">Ein Konto auswählen</string>
+    <string name="import_file">Wählen sie eine zu importierende CSV datei aus</string>
+    <string name="import_choose_file">Wählen Sie eine Datei im CSV-Format</string>
+    <string name="import_choose_file_warn">Bitte wählen sie eine CSV Datei und klicken sie dann auf Import.</string>
+    <string name="import_dtfmt">Datumsformat</string>
+    <string name="import_first_heading">Erste Zeile ist Spaltenüberschrift</string>
+    <string name="import_signed_amt">Signierter Betrag in Einzelspalte</string>
+    <string name="import_signed_amt_help">Wenn getickt: \npositiver Betrag ist ein Einkommen und negativer Betrag ist ein Aufwand.\n\nwenn nicht getickt: \nbetrag (ohne Vorzeichen, Beispiel: 10.75) existiert nur in einer der 2 Spalten (Betrag belastet oder Betrag gutgeschrieben).</string>
+    <string name="import_signed_warn">Bitte stellen Sie sicher dass die CSV datei unterhalb der Spaltenreihenfolge steht:</string>
+    <string name="import_signed_cols">Datum, Zahlungsempfänger, Betrag, Kategorie, Details</string>
     <string name="import_unsigned_cols">datum, Zahlungsempfänger, Betrag belastet, Betrag gutgeschrieben, Kategorie, Details</string>
-    <string name="import_but">einführen</string>
+    <string name="import_but">Importieren</string>
     <string name="import_success">%1$d transaktionen erfolgreich importiert.</string>
-    <string name="import_fail_wrong_content">kann die datei nicht importieren, bitte den Inhalt der Datei überprüfen.</string>
+    <string name="import_fail_wrong_content">Kann die datei nicht importieren, bitte den Inhalt der Datei überprüfen.</string>
     <string name="import_error_file">\'%1$s\' kann nicht gelesen werden, bitte überprüfen sie ob die CSV Datei existiert.</string>
-    <string name="import_progress_msg">daten ziehen&#8230;</string>
+    <string name="import_progress_msg">Daten ziehen&#8230;</string>
     <string name="import_already_started">import schon im Gange, bitte nach irgendwann versuchen..!!</string>
-    <string name="import_confirm">importieren von transaktionen aus \'%1$s\' in Rechnung \'%2$s\'.\n\nmöchtest du fortfahren?</string>
+    <string name="import_confirm">importieren von transaktionen aus \'%1$s\' in das Konto \'%2$s\'.\n\nmöchtest du fortfahren?</string>
 
     <string name="export_file">csv Dateiname (gespeichert in: \'%1$s\')</string>
-    <string name="export_column_msg">exportierte csv Datei wird unterhalb der Spalte Reihenfolge:</string>
-    <string name="export">exportieren als csv</string>
+    <string name="export_column_msg">Exportierte csv Datei wird unterhalb der Spalte Reihenfolge:</string>
+    <string name="export">Exportieren als csv</string>
     <string name="export_to">exportieren und senden&#8230;</string>
     <string name="export_success">%1$d transaktionen erfolgreich exportiert.</string>
-    <string name="export_fail">nicht in der Lage transaktionen zu exportieren, stellen sie bitte sicher dass gültiger Dateiname geliefert wird.</string>
+    <string name="export_fail">Nicht in der Lage transaktionen zu exportieren, stellen sie bitte sicher dass gültiger Dateiname geliefert wird.</string>
 
 
     <!-- ==================================================================== -->
