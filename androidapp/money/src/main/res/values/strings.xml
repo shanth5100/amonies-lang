@@ -314,7 +314,7 @@
 
     <string name="tx_rpt_trends_screen_title">Cash flow trends</string>
     <string name="tx_rpt_trends_expense_label">Trends for last 30 days (Expense)</string>
-    <string name="tx_rpt_trends_expense_info">Line chart showing both expenses trends in last 30 days.</string>
+    <string name="tx_rpt_trends_expense_info">Line chart showing expenses trends in last 30 days.</string>
     <string name="tx_rpt_trends_income_label">Trends for last 30 days (Income)</string>
     <string name="tx_rpt_trends_income_info">Line chart showing income cash flow in last 30 days.</string>
 

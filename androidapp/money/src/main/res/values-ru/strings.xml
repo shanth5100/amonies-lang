@@ -6,19 +6,19 @@
     <string name="menu_accts">Счета</string>
     <string name="menu_search_txs">Поисковые транзакции</string>
     <string name="menu_budget">Бюджетов расходов</string>
-    <string name="bills_reminder">Напоминание о выплатах</string>
+    <string name="bills_reminder">Напоминание О cчетах</string>
     <string name="menu_txs_calendar">Просмотр календаря</string>
     <string name="menu_txs_cat_report">Сделки по категориям</string>
     <string name="menu_txs_recurring">Повторяющиеся транзакции</string>
     <string name="menu_bills_header">Напоминание о выплатах</string>
-    <string name="menu_bills_list">банкноты</string>
+    <string name="menu_bills_list">Счета</string>
     <string name="menu_bills_list_status">Счета по статусу</string>
     <string name="menu_bills_calendar">Просмотр календаря</string>
     <string name="menu_bills_recurring">Повторяющиеся счета</string>
     <string name="for_transactions">Для транзакций</string>
 
     <string name="export_body">&lt;р&gt; Отправлено из приложения \'just money\' android &lt;/p&gt;</string>
-    <string name="app_try_title">Просто напоминание денег</string>
+    <string name="app_try_title">Просто Напоминание О Деньгах</string>
     <string name="app_try_remind">Вы еще пробовали приложение? Его простой и простой в использовании.</string>
     <string name="app_use_remind">Вы добавили свои расходы сегодня?</string>
 
@@ -27,39 +27,39 @@
     <!-- account.xml -->
 
     <!-- Account List -->
-    <string name="acct_add">Создать Счет</string>
+    <string name="acct_add">Создать аккаунт</string>
     <string name="acct_delete">удалить аккаунт</string>
     <!-- <string name="accts">Account</string>  -->
     <string name="acct_final_bal">текущий баланс</string>
-    <string name="acct_saved_success">Успешно сохранена.</string>
-    <string name="acct_delete_unsaved">Он не может удалить неспасную учетную запись.</string>
+    <string name="acct_saved_success">Учетная запись успешно сохранена.</string>
+    <string name="acct_delete_unsaved">Невозможно удалить несохраненную учетную запись.</string>
     <string name="acct_delete_success">Успешно удалена учетная запись.</string>
     <string name="acct_delete_warn">Выбранная учетная запись и все транзакции с ней будут удалены..!</string>
     <string name="acct_delete_error_msg">ошибка..!\n Вам нужно иметь как минимум одну активную учетную запись для работы.</string>
 
-    <string name="acct_desc_default">Баланс открытия счета: %1$s</string>
+    <string name="acct_desc_default">Остаток на открытие счета %1$s</string>
     <string name="acct_menu_filter_favorite">Только избранные аккаунты</string>
-    <string name="acct_menu_filter_off">Показать все счета</string>
+    <string name="acct_menu_filter_off">Показать все аккаунты</string>
 
     <!--  Account Details -->
     <string name="acct_details">Детали учетной записи</string>
     <string name="acct_details_new">Новые данные учетной записи</string>
-    <string name="acct_name">Название Счета</string>
-    <string name="acct_desc">описание</string>
-    <string name="acct_init_bal">начальное сальдо</string>
-    <string name="acct_budget">ежемесячный бюджет</string>
-    <string name="acct_currency">валюта</string>
-    <string name="acct_inclInTot">Включать общий баланс</string>
+    <string name="acct_name">Название cчета</string>
+    <string name="acct_desc">Описание</string>
+    <string name="acct_init_bal">Hачальное сальдо</string>
+    <string name="acct_budget">Eжемесячный бюджет</string>
+    <string name="acct_currency">Валюта</string>
+    <string name="acct_inclInTot">Включить остаток в общую сумму</string>
     <string name="acct_tx_status">Статус транзакции по умолчанию</string>
     <string name="acct_active">Часто используемый или любимый аккаунт</string>
     <string name="acct_active_help_msg">На экране учетных записей вы можете фильтровать, чтобы просматривать только избранные аккаунты, не беспокоясь о неактивных / закрытых счетах (те, которые вы часто не используете). \n\nПоэтому вместо удаления учетной записи, которая удалит связанные с ней транзакции, вы можете использовать эту опцию.</string>
     <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
-    <string name="acct_list_empty">Нет счет..!</string>
+    <string name="acct_list_empty">Счета не существует..!</string>
     <string name="acct_list_empty_warning">Нет учетной записи, сначала создайте учетную запись.</string>
     <string name="acct_list_total_rows">%1$d счета общий баланс:</string>
     <string name="acct_list_total_rows_multi">%1$d счета в разных валютах</string>
     <string name="acct_list_all_currencies">Все валюты</string>
-    <string name="acct_list_xxx_Accounts">%1$s счета</string>
+    <string name="acct_list_xxx_Accounts">%1$s Cчета</string>
     <string name="acct_name_err">Имя учетной записи пуст..!</string>
 
     <!-- ==================================================================== -->
@@ -67,24 +67,24 @@
 
     <string name="tx_detail_tab">Детали</string>
     <string name="tx_detail_tab_new">Введите детали</string>
-    <string name="tx_detail_title_new">Новая сделка</string>
-    <string name="tx_detail_title_edit">Существующая сделка</string>
-    <string name="tx_bill_pmt_label">Выберите счет для добавления оплаты</string>
+    <string name="tx_detail_title_new">Новая транзакция</string>
+    <string name="tx_detail_title_edit">Существующая транзакция</string>
+    <string name="tx_bill_pmt_label">Выберите законопроект для добавления оплата</string>
     <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
     <string name="tx_bill_pmt_notes">оплата счетов</string>
-    <string name="tx_bill_pmt_not_selected">Выберите счет, чтобы оплатить счет.</string>
+    <string name="tx_bill_pmt_not_selected">Пожалуйста, выберите законопроект, чтобы завершить оплату.</string>
     <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
-    <string name="tx_payee">Получатель, плательщик или товар</string>
+    <string name="tx_payee">Получатель платежа, плательщик или товар</string>
     <string name="tx_payee_hint">Имя контактного лица, предприятия или магазина</string>
     <string name="tx_transf_amt">Сумма перевода</string>
-    <string name="tx_date">Дата сделки</string>
+    <string name="tx_date">Дата совершения операции</string>
     <string name="tx_account">Выберите учетную запись</string>
     <!--<string name="tx_deposit">Deposit</string>
     <string name="tx_withdraw">изымать</string>-->
     <string name="tx_status">Статус транзакции</string>
     <string name="tx_new">Добавить расход / доход</string>
-    <string name="tx_bill_pmt">оплата счетов</string>
-    <string name="tx_list_empty">Нет сделка есть..!</string>
+    <string name="tx_bill_pmt">Oплата счетов</string>
+    <string name="tx_list_empty">Транзакций нет существовать ..!</string>
     <string name="tx_repeats">Повторяющиеся транзакции</string>
     <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
     <string name="tx_error_save_pic">Ошибка при сохранении изображения: %1$s</string>
@@ -96,13 +96,13 @@
     <string name="tx_duplicate_multi">Создано %1$d транзакции.</string>
     <string name="tx_delete_success">Успешно удаленные транзакции.</string>
     <string name="tx_delete_unsaved">Он не может удалить несохраненные транзакции.</string>
-    <string name="tx_amt_err">Укажите действительную сумму..!</string>
-    <string name="tx_err_future_dt">Введите дату в будущем.</string>
-    <string name="tx_photo_not_supported">Он не смог захватить фотографию, устройство не поддерживается..!</string>
+    <string name="tx_amt_err">Пожалуйста, введите действительную сумму ..!</string>
+    <string name="tx_err_future_dt">Пожалуйста, введите будущую дату.</string>
+    <string name="tx_photo_not_supported">Невозможно сделать снимок, устройство не поддерживается..!</string>
     <string-array name="tx_status">
-        <item>недействительным / инвалид</item>
-        <item>Нерассмотренный / ожидающий</item>
-        <item>очищается</item>
+        <item>Ничтожным / недействительным</item>
+        <item>Не очищено / ожидающий</item>
+        <item>Очищается</item>
         <item>Рассмотренная и согласованная</item>
     </string-array>
     <string name="tx_add_suc">Добавлена новая транзакция</string>
@@ -114,47 +114,47 @@
         <item>Удалять и воссоздавать транзакции с использованием новых повторяющихся изменений. Транзакции, связанные с этой повторяющейся конфигурацией, будут выполняться только</item>
         <!-- <item>Effect this &amp; all bills.</item> -->
     </string-array>
-    <string name="tx_rpt_remove">Удалить повторяющийся характер</string>
+    <string name="tx_rpt_remove">Удалите возвращающуюся природу</string>
     <string-array name="tx_rpt_remove">
         <item>Только для этой транзакции.</item>
         <item>Для этого и всех связанных транзакций.</item>
     </string-array>
-    <string name="bill_delete_single_warn">Счета и любой связанной транзакции с оплатой счета будут удалены, продолжите?</string>
-    <string name="bill_delete_multi_warn">Выбранные счета и любые связанные транзакции с оплатой счетов будут удалены, продолжите?</string>
+    <string name="bill_delete_single_warn">законопроект и какая-нибудь связанная сделка оплаты счета будут удалены, продолжат?</string>
+    <string name="bill_delete_multi_warn">Отобранные законопроект и какие-нибудь связанные сделки оплаты счета будут удалены, продолжатся?</string>
     <string name="tx_bill_mark_unpaid_warning_title">Отмечать как неоплачиваемый</string>
-    <string name="tx_bill_mark_unpaid_warning">Удалить транзакции, связанные с этим счетом?</string>
+    <string name="tx_bill_mark_unpaid_warning">Удалить транзакции, связанные с этим законопроект?</string>
 
     <!-- Transaction list -->
     <string name="tx_view_txs">Просматривать транзакции</string>
     <string name="tx_list_title">Транзакции</string>
     <string name="tx_list_filter_dialog">Фильтровать видимые метки</string>
 
-    <string name="tx_export_subject">Денежные переводы</string>
+    <string name="tx_export_subject">Денежные операции</string>
     <string name="tx_export_title">Экспортировать как csv</string>
-    <string name="tx_export_type">текст/обычный</string>
-    <string name="tx_list_total_rows"> %1$s рядов всего: </string>
-    <string name="tx_list_total_rows_multi_curr"> %1$s строки в нескольких валютах </string>
-    <string name="tx_list_cleared">(очищается: </string>
+    <string name="tx_export_type">Tекст/равнина</string>
+    <string name="tx_list_total_rows"> %1$s ряд(и) Итого: </string>
+    <string name="tx_list_total_rows_multi_curr"> %1$s ряды в многократных валютах </string>
+    <string name="tx_list_cleared">(Очищается: </string>
 
     <string name="tx_list_options_view">Просмотреть сведения о транзакции</string>
-    <string name="tx_list_options_select">Выберите эту строку</string>
+    <string name="tx_list_options_select">Выберите этот ряд</string>
     <string name="tx_list_options_copy">Создать копию (дубликат)</string>
     <string name="tx_list_options_delete">Удалить транзакцию</string>
 
-    <string name="tx_removed_recurring">Транзакция несвязана с повторяющейся конфигурацией.</string>
+    <string name="tx_removed_recurring">Транзакция разорвать связь от возвращающейся конфигурации.</string>
 
     <!-- Fund Transfer -->
     <string name="transfer_fromAcct">Со счета</string>
     <string name="transfer_toAcct">На счет</string>
-    <string name="transfer_toAmt">Сумму, переведенную после преобразования в </string>
-    <string name="transfer_exRate">Обменный курс</string>
+    <string name="transfer_toAmt">Сумма, переданное после преобразования в </string>
+    <string name="transfer_exRate">Обменный курс составляет</string>
     <string name="transfer_rate_modify">Изменять скорость</string>
-    <string name="transfer_save">Переводить средства</string>
+    <string name="transfer_save">фонды передачи</string>
     <string name="transfer_rate_default_err">Недействительный обменный курс, пожалуйста, измените коэффициент конверсии.</string>
-    <string name="transfer_diff_acct_err"> Выберите различные учетные записи для перевода средств.</string>
+    <string name="transfer_diff_acct_err"> Пожалуйста, выберите разные счета для перевода средств.</string>
     <string name="transfer_success">Передача средств успешна.</string>
-    <string name="transfer_to">перемещенный в </string>
-    <string name="transfer_from">Переведен из </string>
+    <string name="transfer_to">Передача в </string>
+    <string name="transfer_from">Передача из </string>
 
 
     <!-- ==================================================================== -->
@@ -168,7 +168,7 @@
     <string name="import_first_heading">Первая строка - заголовок столбца</string>
     <string name="import_signed_amt">Подписанная сумма, в одном столбце</string>
     <string name="import_signed_amt_help">При тике: \nПоложительная сумма - это доход, а отрицательная сумма - это расход.\n\nКогда не было: \nСумма (без знака, пример: 10.75) существует только в одном из двух столбцов (сумма дебетовая или сумма зачислена).</string>
-    <string name="import_signed_warn">Убедитесь, что файл csv имеет порядок столбцов: </string>
+    <string name="import_signed_warn">Убедитесь, что csv-файл имеет ниже порядок столбцов: </string>
     <string name="import_signed_cols">Дата, получатель, сумма, категория, детали</string>
     <string name="import_unsigned_cols">Дата, получатель, сумма списана, сумма, зачисленная, категория, детали</string>
     <string name="import_but">Импортировать</string>
@@ -176,14 +176,14 @@
     <string name="import_fail_wrong_content">Не удалось импортировать файл, проверьте содержимое файла.</string>
     <string name="import_error_file">\'%1$s\'не может быть прочитан, проверьте, существует ли файл csv.</string>
     <string name="import_progress_msg">Вытягивание данных&#8230;</string>
-    <string name="import_already_started">Импорт уже выполняется, пожалуйста, попробуйте когда-нибудь..!!</string>
-    <string name="import_confirm">Импортируя транзакцию с \'%1$s\' на счет \'%2$s\'.\n\nВы хотите продолжать?</string>
+    <string name="import_already_started">Импорт уже выполняется, пожалуйста, попробуйте после когда-нибудь..!!</string>
+    <string name="import_confirm">Импорт транзакции из \'%1$s\' в учетную запись \'%2$s\'.\n\nвы хотите продолжить?</string>
 
     <string name="export_file">Имя файла csv (сохранено в: \'%1$s\')</string>
-    <string name="export_column_msg">Экспортированный файл csv будет иметь порядок столбцов:</string>
+    <string name="export_column_msg">Экспортированный файл csv будет иметь ниже порядок столбцов:</string>
     <string name="export">Экспортировать как csv</string>
-    <string name="export_to">Экспорт и отправка&#8230;</string>
-    <string name="export_success">%1$d успешно экспортированы.</string>
+    <string name="export_to">Экспорт и Отправить&#8230;</string>
+    <string name="export_success">%1$d транзакции успешно экспортированы.</string>
     <string name="export_fail">Не удалось экспортировать транзакции, убедитесь, что задано правильное имя файла.</string>
 
 
@@ -208,17 +208,17 @@
     <!-- ==================================================================== -->
     <!-- currency.xml -->
 
-    <string name="curr_from">из </string>
+    <string name="curr_from">от </string>
     <string name="curr_to">в </string>
-    <string name="curr_ex_rate">ставка</string>
-    <string name="curr_ex_inverse">обратный</string>
+    <string name="curr_ex_rate">Cтавка</string>
+    <string name="curr_ex_inverse">Oбратный</string>
     <string name="curr_ex_new">Добавить курс обмена</string>
-    <string name="curr_ex_edit">добавить обменный курс</string>
+    <string name="curr_ex_edit">Изменить обменный курс</string>
 
     <!-- Error Messages -->
     <string name="curr_ex_duplicate_err">Обменный курс для выбранных валют уже существует..!</string>
     <string name="curr_ex_update_err">Не удалось обновить обменный курс, повторите попытку..!</string>
-    <string name="curr_ex_same_err">От валюты и валюты должны быть разными.!</string>
+    <string name="curr_ex_same_err">Пожалуйста, укажите 2 разные валюты ..!</string>
     <string name="curr_ex_invalid_rate">Введите действительный курс обмена для выбранной валюты..!</string>
     <string name="curr_ex_rates_warn">Некоторые обменные курсы имеют значения по умолчанию, пожалуйста, измените их с соответствующими ставками..!</string>
 
@@ -237,26 +237,26 @@
     <string name="budget_remove">Удалить бюджет</string>
     <string name="budget_all_categories">все категории</string>
     <string name="budget_all_currency_accounts">Все %1$s аккаунты</string>
-    <string name="budget_remaining">Оставшихся</string>
+    <string name="budget_remaining">Осталось потратить</string>
 
     <string name="budget_category_all">Для всех категорий</string>
     <string name="budget_category_selected">Выбранная категория</string>
-    <string name="budget_currency_switch">Валютный бюджет</string>
+    <string name="budget_currency_switch">Валюта бюджета</string>
     <string name="budget_currency_for">для всех</string>
     <string name="budget_currency_accts"> Счета </string>
-    <string name="budget_amount">Сумма бюджета, пример 300</string>
+    <string name="budget_amount">Сумма бюджета</string>
     <string name="budget_type_spend">Потратить</string>
     <string name="budget_type_earn">Заработать</string>
     <string name="budget_period">Период расходов</string>
     <string-array name="budget_seekbar_labels">
-        <item>день</item>
-        <item>неделю</item>
-        <item>месяц</item>
-        <item>год</item>
+        <item>День</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+        <item>Год</item>
     </string-array>
     <string-array name="budget_seekbar_selections">
         <item>Ежедневно / в течение одного дня</item>
-        <item>Еженедельно / на целую неделю</item>
+        <item>Еженедельно / на всю неделю</item>
         <item>Ежемесячно / за календарный месяц</item>
         <item>Ежегодно / за весь год</item>
     </string-array>
@@ -273,10 +273,10 @@
     <!-- ==================================================================== -->
     <!-- reports.xml -->
 
-    <string name="rpt_title">отчеты</string>
+    <string name="rpt_title">Отчеты</string>
     <string name="select_account">Выберите учетную запись</string>
 
-    <string name="tx_rpt_total_expense">Общие расходы: %1$s</string>
+    <string name="tx_rpt_total_expense">Общие расходы %1$s</string>
     <string name="tx_rpt_total_income">Общий доход: %1$s</string>
     <string name="tx_rpt_type_cat_expense">Расходы по категориям</string>
     <string name="tx_rpt_type_cat_income">Доход по категориям</string>
@@ -289,24 +289,24 @@
     <string name="filter_account_title">Фильтровать аккаунты</string>
 
     <!-- Recurring Tx Configs -->
-    <string name="recurtx_list_empty">Нет повторяющихся конфигураций. \nСоздавать новые транзакции с включенной повторяющейся конфигурацией</string>
+    <string name="recurtx_list_empty">Нет повторяющихся конфигураций. \nСоздавать новые транзакции с включенной повторяющейся конфигурацией.</string>
     <string name="tx_deleted_recur">Успешно удаленные повторяющиеся транзакции.</string>
     <string name="tx_delete_recur_warn">Эта повторяющаяся запись и все связанные транзакции будут удалены, продолжите?</string>
 
     <!-- For Transactions -->
     <string name="dashboard_summary_txs">Обзор периода:</string>
     <string name="dashboard_summary_balances">Баланс счетов: </string>
-    <string name="dashboard_summary_income">доход: </string>
-    <string name="dashboard_summary_expense">расход: </string>
+    <string name="dashboard_summary_income">Доход: </string>
+    <string name="dashboard_summary_expense">Расходы: </string>
     <string name="dashboard_title_tx_chart_expense">Расходы по категориям (транзакции)</string>
     <string name="dashboard_title_tx_chart_income">Доходы по категориям (транзакции)</string>
 
     <string name="acct_rpt_balance_label">Баланс аккаунта на 30 дней</string>
     <string name="acct_rpt_balance_info">Линейная диаграмма, показывающая исторические и прогнозные остатки на счетах, ежедневно.</string>
-    <string name="acct_rpt_balance_currency">Валюта: %1$s</string>
+    <string name="acct_rpt_balance_currency">Валюта %1$s</string>
     <string name="acct_rpt_balance_accounts_all">Все %1$s аккаунты</string>
     <string name="acct_rpt_balance_accounts_selected">Выбранные учетные записи %1$s (%2$d)</string>
-    <string name="acct_rpt_balance_separate_lines">Заговорить каждый счет</string>
+    <string name="acct_rpt_balance_separate_lines">Постройте каждый счет</string>
     <string name="acct_rpt_balance_screen_title">Баланс счетов</string>
     <string name="acct_rpt_balance_credit">В кредит</string>
     <string name="acct_rpt_balance_debit">В долгу</string>
@@ -314,7 +314,7 @@
 
     <string name="tx_rpt_trends_screen_title">Тенденции движения денежных средств</string>
     <string name="tx_rpt_trends_expense_label">Тенденции за последние 30 дней (расходы)</string>
-    <string name="tx_rpt_trends_expense_info">Диаграмма, показывающая тенденции затрат за последние 30 дней.</string>
+    <string name="tx_rpt_trends_expense_info">Линейный график, показывающий тенденции расходов за последние 30 дней.</string>
     <string name="tx_rpt_trends_income_label">Тенденции за последние 30 дней (доход)</string>
     <string name="tx_rpt_trends_income_info">Линейная диаграмма, показывающая денежный поток дохода за последние 30 дней.</string>
 
@@ -334,44 +334,44 @@
     <string name="tx_rpt_account_balance_trends_info">Линейная диаграмма, показывающая остатки на счетах за последние 30 дней.</string>
 
     <!-- About / welcome Screen -->
-    <string name="about_description">Просто деньги - это полное финансовое решение для управления и отслеживания ваших расходов, доходов, счетов, счетов, бюджетов расходов. Просто добавьте транзакцию всякий раз, когда вы тратите или зарабатываете деньги, а также можете прикреплять квитанцию. И использовать отчеты и диаграммы для анализа тенденций транзакций, сравнения, балансов счетов и многих других.</string>
+    <string name="about_description">Просто деньги - это полное финансовое решение для управления и отслеживания ваших расходов, доходов, законопроекты, счетов, бюджетов расходов. Просто добавьте транзакцию всякий раз, когда вы тратите или зарабатываете деньги, а также можете прикреплять квитанцию. И использовать отчеты и диаграммы для анализа тенденций транзакций, сравнения, балансов счетов и многих других.</string>
 
-    <string name="feature_label_free">бесплатная пробная версия</string>
+    <string name="feature_label_free">Бесплатная пробная версия</string>
     <string name="feature_desc_free">Версия содержит основные функции для управления вашими расходами и доходами, с нижеприведенными функциями: \n</string>
     <string-array name="feature_items_free">
         <item>Добавить доход или расходы</item>
-        <item>поддерживаются повторяющиеся транзакции</item>
-        <item>ограниченные транзакции (1000)</item>
-        <item>управление ограниченными счетами (5)</item>
+        <item>Поддерживаются повторяющиеся транзакции</item>
+        <item>Oграниченные транзакции (1000)</item>
+        <item>Yправление ограниченными счетами (5)</item>
         <item>Поддержка нескольких валют</item>
         <item>Поддерживается более 150 валют</item>
         <item>Планировщик бюджета на месяц</item>
         <item>Прикреплять фотографию к транзакции</item>
         <item>Ограниченные категории и подкатегории (70)</item>
-        <item>Учетная запись главного экрана</item>
+        <item>Виджет учетной записи на главном экране</item>
         <item>Просмотр транзакций месяц мудрый</item>
         <item>Поисковые транзакции</item>
         <item>Просмотр календаря</item>
         <item>Поисковые транзакции</item>
         <item>Данные отображения фильтра</item>
         <item>Список транзакций сортировки</item>
-        <item>перевод средств между одними и теми же валютными счетами</item>
+        <item>Перевод средств только между счетами в одной валюте</item>
         <item>Обзор панели мониторинга для каждого месяца</item>
         <item>множественный выбор: удаление нескольких транзакций и категорий</item>
         <item>Множественный выбор: копирование нескольких транзакций и категорий</item>
-        <item>Отчеты: категория разумных расходов / доходов за каждый месяц</item>
+        <item>Отчеты: Расходы / доходы по категориям за каждый месяц</item>
         <item>Импорт транзакций</item>
         <item>Сканировать штрих-код и добавлять его к заметкам о транзакциях</item>
         <item>Создавать резервные копии, включая прикрепленные квитанции</item>
-        <item>Ежедневное резервное копирование</item>
+        <item>Ежедневные запланированные резервные копии</item>
         <item>Только один профиль</item>
     </string-array>
-    <string name="feature_label_pro">премия</string>
+    <string name="feature_label_pro">Премиум</string>
     <string name="feature_desc_pro">Это включает в себя все функции, предоставляемые \'бесплатной пробной версией\' \n\t\t\t+\nНиже премиальных функций: \n</string>
     <string-array name="feature_items_pro">
-        <item>неограниченные транзакции</item>
-        <item>неограниченные счета</item>
-        <item>неограниченные категории и подкатегории</item>
+        <item>Hеограниченные транзакции</item>
+        <item>Hеограниченные счета</item>
+        <item>Hеограниченные категории и подкатегории</item>
         <item>Удалять повторяющиеся транзакции и их конфигурацию за один раз. (Объемное удаление)</item>
         <item>множественный выбор: изменение категории транзакций</item>
         <item>Виджет ярлыков на главном экране</item>
@@ -381,10 +381,10 @@
         <item>Просматривать транзакции за каждый день, неделю, месяц, год и пользовательский период</item>
         <item>Перевод средств между счетами разных валют</item>
         <item>Отчеты: категории разумных расходов и доходов за каждый день, неделю, месяц, год и таможенный период</item>
-        <item>Отчеты: Расходы и Доходы</item>
+        <item>Отчеты: тенденции расходов и доходов</item>
         <item>Отчеты: сравнение между неделями, днями, месяцами, годами</item>
-        <item>Отчетов: создание отчетов в формате pdf</item>
-        <item>Экспортные операции и прикрепленные фотографии</item>
+        <item>Отчеты: создавайте отчеты в формате PDF и делитесь ими</item>
+        <item>Экспортные транзакции и прикрепленные фотографии</item>
         <item>Контроль запланированных резервных копий</item>
         <item>Совместное использование и экспорт резервных копий через электронную почту, диск, Dropbox</item>
         <item>Восстановить локальные резервные копии и загрузить из облака</item>
@@ -395,8 +395,8 @@
     <string-array name="feature_items_bills">
         <item>Встроенное напоминание о счетах</item>
         <item>Управлять простыми и повторяющимися счетами</item>
-        <item>Уведомление о ежедневных счетах</item>
-        <item>Прикреплять фотографию к счетам</item>
+        <item>Уведомление с напоминанием о ежедневных билль</item>
+        <item>Прикреплять фотографию к билль</item>
         <item>Виджеты главного экрана для счетов</item>
         <item>Изменить время уведомления напоминания</item>
         <item>Удалять повторяющиеся счета и его конфигурацию за один раз. (Объемное удаление)</item>
@@ -413,7 +413,7 @@
         <item>Отчеты: тенденция векселей</item>
         <item>Отчеты: сравнение между неделями, днями, месяцами, годами</item>
         <item>Отчетов: генерировать отчеты в формате PDF и делиться ими</item>
-        <item>Сканировать штрих-код и добавить его в банкноты</item>
+        <item>Сканируйте штрих-код и добавляйте его в билль ноты</item>
         <item>Добавить платежный квитанцию на счет</item>
     </string-array>
     <string name="feature_label_multiprof">Несколько профилей</string>
@@ -422,10 +422,10 @@
         <item>Транзакции</item>
         <item>бюджеты</item>
         <item>Категории и подкатегории</item>
-        <item>банкноты</item>
+        <item>законопроекты</item>
         <item>Повторяющиеся настройки</item>
         <item>Отчеты и другие данные будут доступны только из собственного профиля</item>
-        <item>Это позволит использовать функции управления профилем</item>
+        <item>Это включит функции управления профилем</item>
     </string-array>
     <string name="feature_this_version">Это бесплатная пробная версия простого денежного приложения, и вы можете купить ниже апгрейдов, чтобы наслаждаться приложением в своих лучших проявлениях.</string>
 
@@ -436,8 +436,8 @@
     <string name="welcome_info1_tx_detail">Введите данные транзакции и сохраните. Также поддерживает повторяющиеся транзакции.</string>
     <string name="welcome_title1_tx_receipt">Фото ваша квитанция</string>
     <string name="welcome_info1_tx_receipt">Идите без документов, добавив квитанцию о расходах вместе с информацией о транзакции.</string>
-    <string name="welcome_title2_tx_email">Операции с акциями и квитанции</string>
-    <string name="welcome_info2_tx_email">Экспорт cvv формат и доход, включая прикрепленные квитанции (по электронной почте, Dropbox, диск).</string>
+    <string name="welcome_title2_tx_email">Делитесь транзакциями и квитанциями</string>
+    <string name="welcome_info2_tx_email">Экспорт расходов и доходов в формате csv, включая приложенные квитанции (электронная почта, Dropbox, диск).</string>
 
     <string name="welcome_title3_tx_list">Простая компоновка вкладок</string>
     <string name="welcome_info3_tx_list">Просматривать транзакции за каждый период и легко прокручивать между вкладками. Фильтровать данные на основе категорий, учетных записей и т. Д.</string>
@@ -448,16 +448,16 @@
     <string name="welcome_title6_tx_drawer">Меню навигационного ящика</string>
     <string name="welcome_info6_tx_drawer">панель, учетные записи, несколько валют, категории и подкатегории, планировщик бюджета, просмотр календаря, несколько профилей, резервное копирование и восстановление и многое другое.</string>
 
-    <string name="widget_acct_balance_title">баланс</string>
-    <string name="widget_acct_balance">баланс: </string>
+    <string name="widget_acct_balance_title">Остаток на счету</string>
+    <string name="widget_acct_balance">Баланс: </string>
     <string name="widget_shortcuts_title">Просто деньги ярлыки</string>
-    <string name="widget_shortcuts">(сочетания)</string>
-    <string name="coach_mark_add_bill">нажмите \'+\' плавающая кнопка, чтобы добавить расходы, доход или передачу средств</string>
+    <string name="widget_shortcuts">(ярлыки)</string>
+    <string name="coach_mark_add_bill">Hажмите \'+\' плавающая кнопка, чтобы добавить расходы, доход или передачу средств</string>
 
-    <string name="error_max_txs_exceeded">количество транзакций превысило максимальный лимит, пожалуйста, обновите, чтобы добавить больше транзакций.</string>
-    <string name="error_max_accounts_exceeded">количество аккаунтов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные учетные записи.</string>
+    <string name="error_max_txs_exceeded">Kоличество транзакций превысило максимальный лимит, пожалуйста, обновите, чтобы добавить больше транзакций.</string>
+    <string name="error_max_accounts_exceeded">Kоличество аккаунтов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные учетные записи.</string>
 
-    <string name="tx_new_expense">Wprowadź wydatki</string>
-    <string name="tx_new_income">Wprowadź dochód</string>
+    <string name="tx_new_expense">Добавить расходы</string>
+    <string name="tx_new_income">Добавить доход</string>
     <string name="tx_bills_disabled_msg">Знаете ли вы, что это приложение поддерживает встроенную функцию напоминания счета? Включите его, чтобы управлять своими счетами и платежами.</string>
 </resources>

@@ -2,7 +2,7 @@
 <resources>
 
     <string name="menu_upgrade">Обновить</string>
-    <string name="upgrade_to_pro">обновление до премиум-класса</string>
+    <string name="upgrade_to_pro">Обновление до премиум-класса</string>
     <string name="feature_unavailable">Эта функция доступна только в премиальной версии.</string>
 
     <string name="error_save">Не удалось сохранить изменения, повторите попытку позже.</string>
@@ -18,12 +18,12 @@
     <string name="cancel">Отмена</string>
     <string name="goto_play_store">Открыть игровой магазин google</string>
     <string name="continue_">Продолжать</string>
-    <string name="ok">ОК</string>
+    <string name="ok">Ладно</string>
     <string name="skip">Пропустить</string>
-    <string name="done">понял</string>
-    <string name="select_a_option_warn">Выберите опции</string>
+    <string name="done">Понял</string>
+    <string name="select_a_option_warn">Пожалуйста, выберите вариант</string>
     <string name="tomorrow">Завтра</string>
-    <string name="error_offline_title">Нет Интернета</string>
+    <string name="error_offline_title">Нет интернета</string>
     <string name="error_offline_message">Вам необходимо быть в сети, чтобы выполнить эту операцию. Убедитесь, что ваш Wi-Fi или соединение с данными активны.</string>
     <string name="app_needs_relaunch">Приложение необходимо перезапустить, чтобы применить новые настройки.</string>
     <string name="email_send_title">Отправить электронное письмо</string>
@@ -37,14 +37,14 @@
     <string name="add">Добавить</string>
     <string name="cat_detail">Информация о категории</string>
     <string name="expense">Расходы</string>
-    <string name="income">доход</string>
-    <string name="receivable">принятиюгодный к принятию</string>
-    <string name="payable">подлежащий уплате</string>
+    <string name="income">Доход</string>
+    <string name="receivable">Дебиторская задолженность</string>
+    <string name="payable">Платить</string>
     <string name="both_expense_income">Расходы и доходы</string>
     <string name="both_payable_receivable">Кредиторская и дебиторская задолженность</string>
 
 
-    <string name="cat_list_title">категории</string>
+    <string name="cat_list_title">Kатегории</string>
     <string name="cat_list_empty">Нет категория есть..!</string>
     <string name="cat_added">Добавлена категория</string>
     <string name="cat_deleted">Категория удалена</string>
@@ -63,10 +63,10 @@
     <string name="cat_code">Код</string>
     <string name="cat_code_empty_err">Введите код категории</string>
     <string name="cat_code_existing_err">Код категории уже используется</string>
-    <string name="cat_type">тип</string>
+    <string name="cat_type">Тип</string>
     <string name="cat_desc">Описание категории</string>
-    <string name="cat_color">цвет</string>
-    <string name="cat_change_color_tap">Коснуться цвета</string>
+    <string name="cat_color">Цвет</string>
+    <string name="cat_change_color_tap">Нажмите, чтобы изменить цвет</string>
     <string name="cat_parent_switch">Это родительская категория (верхний уровень)</string>
     <string name="cat_subcategory_of">Подкатегория</string>
     <string name="cat_select_parent">родительская категория</string>
@@ -74,79 +74,79 @@
         <item>Расходы / кредиторская задолженность</item>
         <item>Доход / дебиторская задолженность</item>
     </string-array>
-    <string name="cat_search_hint">Введите здесь фильтр</string>
+    <string name="cat_search_hint">Введите сюда, чтобы отфильтровать</string>
     <!-- Categories '', '', '') -->
-    <string name="cat_0allCategories">все категории</string>
+    <string name="cat_0allCategories">Bсе категории</string>
     <string name="cat_1others">Другие</string>
-    <string name="cat_1_1">платежи</string>
-    <string name="cat_1_2">дары</string>
+    <string name="cat_1_1">Платежи</string>
+    <string name="cat_1_2">Подарки</string>
     <!-- <string name="cat_1_3">Charity</string>
     <string name="cat_1_4">Pets</string>
     <string name="cat_1_5">Investment</string> -->
-    <string name="cat_2transfer">перевод</string>
+    <string name="cat_2transfer">Перевод</string>
 
     <string name="cat_3personal">Личный уход</string>
     <string name="cat_3_1">Волосы и красота</string>
     <string name="cat_3_2">Тренажерный зал и фитнес</string>
-    <string name="cat_3_3">медицинская</string>
-    <string name="cat_3_4">зубоврачебный</string>
+    <string name="cat_3_3">Медицинский</string>
+    <string name="cat_3_4">Стоматологический</string>
 
-    <string name="cat_4food">еда и напитки</string>
-    <string name="cat_4_1">кофе</string>
-    <string name="cat_4_2">еда</string>
-    <string name="cat_4_3">еда на вынос</string>
-    <string name="cat_4_4">чай</string>
-    <string name="cat_4_5">ресторан</string>
-    <string name="cat_4_6">продуктовый магазин</string>
-    <string name="cat_4_7">закуска</string>
+    <string name="cat_4food">Еда и напитки</string>
+    <string name="cat_4_1">Kофе</string>
+    <string name="cat_4_2">Eда</string>
+    <string name="cat_4_3">Еда на вынос</string>
+    <string name="cat_4_4">Чай</string>
+    <string name="cat_4_5">Pесторан</string>
+    <string name="cat_4_6">Продуктовый магазин</string>
+    <string name="cat_4_7">Закуска</string>
 
-    <string name="cat_5entertainment">развлекательная программа</string>
-    <string name="cat_5_1">кино</string>
-    <string name="cat_5_2">напитки</string>
-    <string name="cat_5_4">день отдыха</string>
+    <string name="cat_5entertainment">Pазвлекательная программа</string>
+    <string name="cat_5_1">Фильмы</string>
+    <string name="cat_5_2">Hапитки</string>
+    <string name="cat_5_4">День отдыха</string>
     <string name="cat_5_5">Концерт и театр</string>
-    <string name="cat_5_6">игры</string>
-    <string name="cat_5_7">вечеринка</string>
+    <string name="cat_5_6">Игры</string>
+    <string name="cat_5_7">Bечеринка</string>
 
-    <string name="cat_6automobile">автомобиль</string>
-    <string name="cat_6_1">автомойка</string>
-    <string name="cat_6_2">топливо</string>
+    <string name="cat_6automobile">Aвтомобиль</string>
+    <string name="cat_6_1">Aвтомойка</string>
+    <string name="cat_6_2">Tопливо</string>
     <string name="cat_6_3">Обслуживание и ремонт</string>
-    <string name="cat_6_4">страхование</string>
-    <string name="cat_6_5">аксессуары</string>
+    <string name="cat_6_4">Cтрахование</string>
+    <string name="cat_6_5">Aксессуары</string>
     <string name="cat_6_6">дорожный налог</string>
-    <string name="cat_6_7">стоянка</string>
+    <string name="cat_6_7">Cтоянка</string>
     <!--<string name="cat_6_7">Registration</string>-->
 
     <string name="cat_7shopping">поход по магазинам</string>
     <string name="cat_7_1">одежда</string>
     <string name="cat_7_2">Компьютеры и аксессуары</string>
-    <string name="cat_7_3">электроника</string>
+    <string name="cat_7_3">Электроника</string>
     <string name="cat_7_4">Цифровая музыка</string>
     <string name="cat_7_5">бакалейные товары</string>
     <string name="cat_7_6">Мобильные и гаджеты</string>
-    <string name="cat_7_7">ювелирные изделия</string>
+    <string name="cat_7_7">Ювелирные изделия</string>
     <string name="cat_7_8">Другие покупки</string>
-    <string name="cat_7_9">мебель</string>
-    <string name="cat_7_10">игрушки</string>
-    <string name="cat_7_11">подписка</string>
-    <string name="cat_7_12">сад</string>
+    <string name="cat_7_9">Mебель</string>
+    <string name="cat_7_10">Игрушки</string>
+    <string name="cat_7_11">Подписка</string>
+    <string name="cat_7_12">Cад</string>
 
-    <string name="cat_8travel">путешествовать</string>
-    <string name="cat_8_1">поезд</string>
-    <string name="cat_8_2">автобус</string>
-    <string name="cat_8_3">рейс</string>
-    <string name="cat_8_4">страхование</string>
-    <string name="cat_8_5">местный транспорт</string>
-    <string name="cat_8_6">такси</string>
+    <string name="cat_8travel">Путешествовать</string>
+    <string name="cat_8_1">Поезд</string>
+    <string name="cat_8_2">Bтобус</string>
+    <string name="cat_8_3">Рейс</string>
+    <string name="cat_8_4">Cтрахование</string>
+    <string name="cat_8_5">Mестный транспорт</string>
+    <string name="cat_8_6">Tакси</string>
     <string name="cat_8_7">Аренда автомобилей</string>
     <string name="cat_8_8">Гостиница</string>
     <string name="cat_8_9">Другие перевозки</string>
 
     <string name="cat_9banking">банковское дело</string>
-    <string name="cat_9_1">ссуда</string>
-    <string name="cat_9_2">интерес</string>
-    <string name="cat_9_3">расходы</string>
+    <string name="cat_9_1">Cсуда</string>
+    <string name="cat_9_2">Процент</string>
+    <string name="cat_9_3">Pасходы</string>
     <string name="cat_9_4">экономия</string>
     <string name="cat_9_5">ипотека</string>
     <string name="cat_9_6">Торговля акциями</string>
@@ -156,45 +156,45 @@
     <string name="cat_10_1">Электричество и газ</string>
     <string name="cat_10_2">Интернет и телефон</string>
     <!--<string name="cat_10_3">Gas</string>-->
-    <string name="cat_10_4">воды</string>
+    <string name="cat_10_4">Bоды</string>
     <string name="cat_10_5">ТВ</string>
     <string name="cat_10_6">Уборка</string>
-    <string name="cat_10_7">ремонт</string>
-    <string name="cat_10_8">коммунальные услуги</string>
+    <string name="cat_10_7">Pемонт</string>
+    <string name="cat_10_8">Kоммунальные услуги</string>
     <string name="cat_10_9">жилье</string>
-    <string name="cat_10_10">аренда</string>
-    <string name="cat_10_11">страхование</string>
-    <string name="cat_10_12">налог на имущество</string>
+    <string name="cat_10_10">Aренда</string>
+    <string name="cat_10_11">Cтрахование</string>
+    <string name="cat_10_12">Hалог на имущество</string>
 
     <string name="cat_11work">Работа</string>
     <string name="cat_11_1">зарплата</string>
     <string name="cat_11_2">дивиденд</string>
     <string name="cat_11_3">бонус</string>
     <string name="cat_11_4">Требование о расходах</string>
-    <string name="cat_11_5">канцелярские товары</string>
-    <string name="cat_11_6">налог</string>
+    <string name="cat_11_5">Kанцелярские товары</string>
+    <string name="cat_11_6">Hалог</string>
 
-    <string name="cat_12family">семья</string>
+    <string name="cat_12family">Cемья</string>
     <string name="cat_12_1">Уход за детьми</string>
     <string name="cat_12_2">Школа и колледж</string>
-    <string name="cat_12_3">карманные деньги</string>
-    <string name="cat_12_4">страхование</string>
-    <string name="cat_12_5">медицинская помощь</string>
+    <string name="cat_12_3">Kарманные деньги</string>
+    <string name="cat_12_4">Cтрахование</string>
+    <string name="cat_12_5">Mедицинская помощь</string>
 
     <string name="cat_system">Категория по умолчанию</string>
-    <string name="cat_system_delete_err">не удается удалить системную категорию</string>
+    <string name="cat_system_delete_err">Hе удается удалить системную категорию</string>
 
-    <string name="label_list_title">Управлять ярлыками</string>
+    <string name="label_list_title">Этикетки</string>
     <string name="label_list_empty">Нет этикетка есть..!</string>
-    <string name="label_new_title">Новый ярлык</string>
-    <string name="label_edit_title">Метка редактирования /просмотра</string>
+    <string name="label_new_title">Новый лейбл</string>
+    <string name="label_edit_title">Pедактировать / просматривать метку</string>
     <string name="label_enter">Введите название метки</string>
     <string name="label_name_err">Введите правильное название ярлыка.!</string>
     <!--<string name="label_name_duplicate">Label already exists (or) duplicate label.!</string>-->
-    <string name="label_add">Добавить ярлыки</string>
+    <string name="label_add">Добавить метку</string>
     <string name="label_details">Детали этикетки</string>
-    <string name="label_saved">Ярлык успешно сохранен.</string>
-    <string name="label_deleted">Ярлык успешно удален.</string>
+    <string name="label_saved">Этикетка успешно сохранена.</string>
+    <string name="label_deleted">Метка успешно удалена.</string>
     <string name="label_delete_warning">Выбранный ярлык будет удален.</string>
     <string name="labels_filter_title">Фильтр меток</string>
     <string name="labels_filter_all">Этикетки (все)</string>
@@ -212,39 +212,39 @@
     <string name="warn_invalid_amt">Введите действительную сумму.</string>
     <string name="warn_invalid_no">пожалуйста введите правильное число</string>
     <string name="warn_invalid_no_min1">Введите действительное число, превышающее 1.</string>
-    <string name="category">категория</string>
-    <string name="amount">количество</string>
-    <string name="amount_empty_warn">введите сумму</string>
+    <string name="category">Kатегория</string>
+    <string name="amount">Kоличество</string>
+    <string name="amount_empty_warn">Bведите сумму</string>
     <string name="amount_hint">Сумма, пример: 124,55</string>
-    <string name="bill_currency">валюта</string>
-    <string name="change_currency">изменить валюту</string>
+    <string name="bill_currency">Bалюта</string>
+    <string name="change_currency">Изменить валюту</string>
     <string name="select_a_option">Выберите вариант</string>
-    <string name="processing">обработка...</string>
+    <string name="processing">Oбработка...</string>
     <string name="email_dev">Связаться с разработчиком</string>
     <string name="exit">Выход</string>
     <string name="exit_info">Коснитесь выхода, чтобы закрыть приложение.</string>
     <string name="restart">перезапуск</string>
     <string name="drawer_bills_by_status">Счета по статусу</string>
     <string name="drawer_settings_sep">Инструменты / настройки</string>
-    <string name="drawer_settings">настройки</string>
-    <string name="manage_categories">категории</string>
+    <string name="drawer_settings">Hастройки</string>
+    <string name="manage_categories">Kатегории</string>
     <string name="drawer_rpt_charts_title">Отчеты и графики</string>
     <string name="update_available_title">@string/app_name</string>
     <string name="update_available_warn">Новое обновление доступно с новыми функциями и исправлениями ошибок.</string>
     <string name="update_available_force">Мы больше не поддерживаем эту версию.\n\n Обновите сейчас.</string>
     <string name="update_available_force_dummy">Недействительная дата.\n\nПожалуйста, проверьте подключение к интернету.</string>
-    <string name="update_now">обновить сейчас</string>
-    <string name="later">позже</string>
+    <string name="update_now">Oбновить сейчас</string>
+    <string name="later">Позже</string>
     <string name="menu_drawer_group_more">Связь / больше</string>
     <string name="rate_app_title">Оцени это приложение</string>
     <string name="share_this_app">Поделись этим приложением</string>
     <string name="share_this_app_title">Использовать долю</string>
     <string name="share_this_app_subject">Взгляните на приложение \'%1$s\'</string>
-    <string name="about_us">о нас</string>
+    <string name="about_us">O нас</string>
     <string name="by_124apps">Спонсируется 124APPS</string> <!-- &#169; -->
     <string name="rate_app_msg">Вам нравится это приложение? \n\nЕсли да, пожалуйста, поддержите нашу разработку с хорошим рейтингом.\n\t* * * * *\nБлагодарю.</string>
     <string name="rate_app_now">Оценить сейчас</string>
-    <string name="rate_app_later">позже</string>
+    <string name="rate_app_later">Позже</string>
     <string name="rate_app_no">Нет, спасибо</string>
 
     <string name="close">Закрыть</string>
@@ -300,7 +300,7 @@
     </string-array>
 
     <string name="permission_denied_dialog_msg">Пожалуйста, позвольте внешнему хранилищу читать и писать, чтобы сохранить данные. \nОтказ в разрешениях приведет к непоследовательности для приложения.</string>
-    <string name="permission_denied_dialog_restart">повторить попытку</string>
+    <string name="permission_denied_dialog_restart">Повторить попытку</string>
     <string name="permission_denied_dialog_dont_care">Мне все равно</string>
     <string name="permission_denied_camera">Для приложения требуется разрешение камеры, чтобы снимать фотографии.</string>
     <string name="permission_denied_camera_receipt">Приложение потребует разрешения камеры, чтобы захватить фотографии приема.</string>
@@ -320,12 +320,12 @@
     <string name="title_bill_detail">Детали счета</string>
     <string name="title_bill_detail_new">Новое напоминание о счете</string>
     <string name="title_activity_calendar">Просмотр календаря</string>
-    <string name="bills">банкноты</string>
+    <string name="bills">Счета</string>
     <string name="bill_new">Добавить напоминание о счете</string>
-    <string name="bills_overdue">просроченный</string>
-    <string name="bills_upcoming">предстоящий</string>
-    <string name="bills_paid">оплаченный</string>
-    <string name="bills_unpaid">неоплаченный</string>
+    <string name="bills_overdue">Просроченный</string>
+    <string name="bills_upcoming">Предстоящий</string>
+    <string name="bills_paid">Oплаченный</string>
+    <string name="bills_unpaid">Hеоплаченный</string>
     <string name="bills_recurr">Повторяющиеся счета</string>
     <string name="bills_recur_desc">Повторяет каждый %1$d %2$s.</string>
     <string name="restart_app">Перезагрузите приложение.</string>
@@ -336,15 +336,15 @@
 
     <string name="navigation_drawer_open">Открыть навигационный ящик</string>
     <string name="navigation_drawer_close">Закрыть навигационный ящик</string>
-    <string name="dummy_day">мы б</string>
+    <string name="dummy_day">Мы бы</string>
 
     <string name="bill_delete_unsaved">Не может удалить несохраненный счет.</string>
     <string name="bill_deleted">Счет удален.</string>
-    <string name="bill_delete_single_warn">Законопроект будет удален, продолжите?</string>
-    <string name="bill_delete_multi_warn">Выбранные счета будут удалены, продолжите?</string>
-    <string name="bill_delete_recur_warn">Эта повторяющаяся запись и все связанные с ней счета будут удалены, продолжите?</string>
+    <string name="bill_delete_single_warn">Счета и их платежи будут удалены, продолжить?</string>
+    <string name="bill_delete_multi_warn">Выбранный счет и платежи по нему будут удалены, продолжить?</string>
+    <string name="bill_delete_recur_warn">Эта повторяющаяся запись и все связанные с ней cчета будут удалены, продолжите?</string>
     <string name="bill_duplicate_warn">Будет создано %1$d дублирующих счета, продолжение?</string>
-    <string name="bill_not_found">Счет не существует.</string>
+    <string name="bill_not_found">СБилла не существует.</string>
     <string name="app_error_restart">Авто исправлена проблема, перезапустите приложение.</string>
     <string name="multi_select_mode_title">%1$s, Всего: %2$s</string>
 
@@ -363,11 +363,11 @@
     <string name="bill_dueNear">Из-за %1$s</string>
     <string name="bill_dueIn">Через %1$d дня</string>
     <string name="bill_dueOver">Просрочено на %1$d дня</string>
-    <string name="bill_paid">оплаченный</string>
+    <string name="bill_paid">Платный</string>
     <string name="bill_received">Получили</string>
-    <string name="bill_unpaid">неоплаченный</string>
+    <string name="bill_unpaid">Hеоплаченный</string>
     <string name="bill_paid_on">Оплачивается</string>
-    <string name="bill_type">Тип счета</string>
+    <string name="bill_type">Тип Билль</string>
     <string name="bill_change_notification">Уведомление об изменении напоминания</string>
     <string name="bill_more_options">больше вариантов</string>
     <string name="notify">Показать уведомление напоминания</string>
@@ -393,7 +393,7 @@
     <string name="sort_by_date_asc">Дата по возрастанию</string>
     <string name="sort_by_date_desc">Дата по убыванию</string>
     <string name="sort_by_amt_asc">Сумма по возрастанию</string>
-    <string name="sort_by_amt_desc">Количество по убыванию</string>
+    <string name="sort_by_amt_desc">Сумма по убыванию</string>
     <string name="sort_by_payee_asc">Получатель платежа по возрастанию</string>
     <string name="sort_by_payee_desc">Получатель платежа по убыванию</string>
 
@@ -403,7 +403,7 @@
     <string name="bill_total_rows_multi_curr">%1$d строк, в нескольких валютах.</string>
     <string name="bill_rpt_date_beyond">%1$s и выше</string>
     <string name="bill_rpt_total_payable">Общая сумма к оплате: %1$s</string>
-    <string name="bill_rpt_total_receivable">Общая сумма к получению: %1$s</string>
+    <string name="bill_rpt_total_receivable">Общая к получению: %1$s</string>
     <string name="bill_rpt_type_cat_payable">Векселя к оплате по категориям</string>
     <string name="bill_rpt_type_cat_receivable">Векселя к получению по категориям</string>
     <string name="bill_rpt_charts_saved">Сгенерированные отчеты (%1$d)</string>
@@ -411,10 +411,10 @@
     <string name="bill_rpt_charts_saved_loc">PDF-отчеты хранятся в: %1$s</string>
 
     <string name="bill_rpt_1categorywise_pay_label">Категория мудрая диаграмма (к оплате)</string>
-    <string name="bill_rpt_1categorywise_pay_info">Круговая диаграмма, показывающая сравнение по категориям за период.</string>
+    <string name="bill_rpt_1categorywise_pay_info">Круговая диаграмма, показывающая сравнение категорий за период.</string>
     <string name="bill_rpt_2categorywise_receive_label">Категория мудрая диаграмма (дебиторская задолженность)</string>
     <string name="bill_rpt_2categorywise_receive_info">Круговая диаграмма, показывающая сравнение по категориям за период.</string>
-    <string name="bill_rpt_3trends_30days_label">Тенденции векселей на 30 дней</string>
+    <string name="bill_rpt_3trends_30days_label">Тенденции законопроект за 30 дней</string>
     <string name="bill_rpt_3trends_30days_info">Линейная диаграмма, показывающая дневное сравнение как подлежащих уплате, так и дебиторской задолженности за последние 30 дней</string>
     <string name="bill_rpt_4monthwise_pay_label">Месячное разумное сравнение (к оплате)</string>
     <string name="bill_rpt_4monthwise_pay_info">Гистограмма, показывающая месячное сравнение оплачиваемых векселей.</string>
@@ -454,7 +454,7 @@
 
     <string-array name="rpt_pdf_select_options">
         <item>Просмотр / открытие</item>
-        <item>Общий отчет</item>
+        <item>Поделиться отчетом</item>
         <item>Удалить</item>
     </string-array>
 
@@ -473,11 +473,11 @@
     <string name="bill_err_future_dt">Введите дату в будущем.</string>
     <string name="bill_err_end_dt">\'Следующая дата выполнения\' должна быть до \'повторить до даты\'</string>
     <string-array name="repeat_array">
-        <item>дней</item>
-        <item>недель</item>
-        <item>месяцы</item>
+        <item>Дней</item>
+        <item>Недели</item>
+        <item>Месяцы</item>
         <item>Дата месяца</item>
-        <item>лет</item>
+        <item>Год</item>
     </string-array>
     <string name="bill_rpt_save">Применять повторяющиеся изменения</string>
     <string-array name="bill_rpt_save">
@@ -495,7 +495,7 @@
     <string name="bill_list_options_select">Выбрать строку</string>
     <string name="bill_list_options_copy">Создать копию (дубликат)</string>
     <string name="bill_list_options_paid">Отмечать как оплаченную</string>
-    <string name="bill_list_options_unpaid">отмечать как неоплачиваемый</string>
+    <string name="bill_list_options_unpaid">Oтмечать как неоплачиваемый</string>
     <string name="bill_list_options_delete">Удалить счет</string>
 
     <string name="bill_marked_paid_msg">Счет, отмеченный как оплаченный</string>
@@ -507,7 +507,7 @@
     <!-- HOME.XML -->
 
     <string name="inst_name">Название бизнес профиля</string>
-    <string name="inst_name_hint">название предприятия или домохозяйства для бухгалтерии.</string>
+    <string name="inst_name_hint">Hазвание предприятия или домохозяйства для бухгалтерии.</string>
     <string name="inst_dialog_title">Информация о профиле</string>
     <string name="inst_dialog_title_edit">редактировать профиль</string>
     <string name="inst_list_title">профили</string>
@@ -527,7 +527,7 @@
 
     <string name="home_help_text">Профиль - это организованная коллекция данных, таких как хранилище или учетная книга (а не банковская учетная запись). Данные (счета, категории, метки), принадлежащие одному профилю, хранятся в одном месте и никогда не смешиваются с данными других профилей. \n\nПоэтому он даст вам больше контроля и лучшего управления. Пример: один профиль для личных расходов, а другой - для вашего офиса или деловых расходов.</string>
     <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
-    <string name="inst_rename">редактировать профиль</string>
+    <string name="inst_rename">Pедактировать профиль</string>
     <string name="inst_open">Выберите этот профиль</string>
     <string name="default_currency">Валюта по умолчанию</string>
 
@@ -540,8 +540,8 @@
 
     <!-- ==================================================================== -->
     <!-- Backup / Recovery -->
-    <string name="bkp_title">восстановления резервной / копии</string>
-    <string name="bkp_location">место хранения</string>
+    <string name="bkp_title">Bосстановления резервной / копии</string>
+    <string name="bkp_location">Mесто хранения</string>
     <string name="bkp_location_info">Файлы резервных копий сохраняются по адресу: \n\n%1$s</string>
     <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
     <string name="bkp_name">Имя резервной копии</string>
@@ -571,12 +571,12 @@
     <string name="bkp_delete_fail">Не удалось удалить.</string>
     <string name="bkp_restore_external">Восстановить из внешнего облака</string>
     <string name="bkp_restore_external_title">Скачать и восстановить</string>
-    <string name="bkp_restore_confirm_cloud">Восстановление займет несколько секунд до двух минут, поэтому, пожалуйста, будьте терпеливы в зависимости от размера резервной копии. \n\nНажмите \'Продолжить\', чтобы выбрать внешний файл резервной копии для импорта и восстановления данных.</string>
-    <string name="bkp_last_backup">последняя резервная копия</string>
+    <string name="bkp_restore_confirm_cloud">Восстановление займет несколько секунд до пары минут, поэтому, пожалуйста, будьте терпеливы в зависимости от размера резервной копии. \n\nНажмите \'Продолжить\', чтобы выбрать внешний файл резервной копии для импорта и восстановления данных.</string>
+    <string name="bkp_last_backup">Последняя резервная копия</string>
     <string name="bkp_last_info">Резервное копирование данных приложения и вложений на Google Drive. Вы можете восстановить их при переустановке приложения, смене телефона или копировании данных на другое устройство.</string>
     <string name="bkp_last_local_time">Местный: %1$s</string>
     <string name="bkp_last_size">Размер: %1$s</string>
-    <string name="bkp_backup_now">Резервный</string>
+    <string name="bkp_backup_now">Резервное копирование</string>
     <string name="bkp_restore_now">Восстановить</string>
     <string name="bkp_google_drive_setting">Настройки Google DRIVE</string>
     <string name="bkp_google_drive_info">Добавьте учетную запись Google для хранения последних резервных копий. Включение резервного копирования на Google Drive приведет к перезаписи существующей резервной копии приложения на Google Drive, поэтому помните об этом при использовании на нескольких устройствах.</string>
@@ -584,8 +584,8 @@
     <string name="never">Никогда</string>
     <string name="bkp_restore_successful">Успешно восстановлен из резервной копии. \n\nПриложение необходимо перезапустить, чтобы применить новые данные.</string>
     <string name="bkp_create_confirm_msg">Резервное копирование может занять от нескольких секунд до минут, в зависимости от размера данных приложения, поэтому наберитесь терпения. \n\nПродолжить создание резервной копии?</string>
-    <string name="bkp_over_wifi_label">резервное копирование</string>
-    <string name="bkp_success">успешно резервное копирование.</string>
+    <string name="bkp_over_wifi_label">Pезервное копирование</string>
+    <string name="bkp_success">Yспешно резервное копирование.</string>
     <string name="bkp_restore_confirm_msg">Восстановление займет от нескольких секунд до нескольких минут, поэтому наберитесь терпения. \n\nВсе ваши существующие данные приложения на этом устройстве будут заменены из последней резервной копии. Вы хотите продолжить операцию восстановления?</string>
 
     <string-array name="bkp_to_google_drive">
@@ -602,13 +602,13 @@
     <!-- ==================================================================== -->
     <!-- PREFERENCES.XML -->
 
-    <string name="pref_key">предпочтения</string>
+    <string name="pref_key">Предпочтения</string>
 
     <!--<string name="prefTitleAppSetting">App Settings</string>
     <string name="prefKeyAppSetting">appSettings</string>-->
     <string name="prefTitleGeneralSetting">Генеральная</string>
     <string name="prefTitleDataSetting">Резервные копии и отчеты</string>
-    <string name="prefTitleDataSettingTrial">резервное копирование</string>
+    <string name="prefTitleDataSettingTrial">Pрезервное копирование</string>
     <!--<string name="prefKeyAppSetting">appSettings</string>-->
 
     <string name="prefTitleAppPIN">4-значный ПИН-код</string>
@@ -617,16 +617,16 @@
     <string name="prefTitleAppPINChange">Сменить ПИН-код</string>
     <string name="prefSummaryAppPINChange">Коснитесь здесь, чтобы изменить свой 4-значный ПИН-код.</string>
 
-    <string name="prefTitleStartupScreen">Изменить начальный экран</string>
+    <string name="prefTitleStartupScreen">Целевая страница</string>
     <string name="prefSummaryStartupScreen">Экран по умолчанию или домашний экран, который появляется при запуске приложения.</string>
 
-    <string name="prefTitleChangeLanguage">язык: %1$s</string>
+    <string name="prefTitleChangeLanguage">Лангуаже: %1$s</string>
     <string name="prefSummaryChangeLanguage">Нажмите здесь, чтобы изменить язык</string>
 
     <string name="prefTitleEnableSubcategories">Включить подкатегории</string>
     <string name="prefSummaryEnableSubcategories">Отметьте, чтобы использовать две категории уровней</string>
 
-    <string name="prefTitleInstSetting">профиль</string>
+    <string name="prefTitleInstSetting">Профиль</string>
 
     <string name="prefTitleDefaultCurrency">Валюта профиля по умолчанию: %1$s</string>
     <string name="prefSummaryDefaultCurrency">Валюта, которая предварительно заполняется при добавлении новой записи для этого профиля.</string>
@@ -638,7 +638,7 @@
     <string name="prefTitleBillSettings">Счета</string>
     <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
 
-    <string name="prefTitleNotifyTick">Напоминания</string>
+    <string name="prefTitleNotifyTick">Включить напоминание</string>
     <string name="prefSummaryNotifyTick">Сообщите мне о счетах, которые были отмечены для этого. (Отключить отключение)</string>
     <string name="prefSummaryNotifyUnTick">Уведомления теперь отключены. (Выберите, чтобы включить)</string>
 
@@ -652,7 +652,7 @@
     <string name="prefTitleForcastDialog">Создавать повторяющиеся счета</string>
     <string name="prefSummaryForcast">Повторяющиеся счета будут автоматически генерироваться заранее до указанного периода. Пример: за 3 месяца</string>
 
-    <string name="pref_inst_currency_set_to">В валюте профиля: %1$s</string>
+    <string name="pref_inst_currency_set_to">Валюта профиля установлена ​​на: %1$s</string>
 
     <!-- Backup / restore preferences (29.mar.2015) -->
 
@@ -680,10 +680,10 @@
     <!-- Filter Fragement -->
     <string name="filter_data">Данные фильтра</string>
     <string name="filter_menu">фильтр</string>
-    <string name="filter_apply">применить фильтр</string>
-    <string name="filter_selected_save">спасти</string>
-    <string name="filter_clear">сброс</string>
-    <string name="filter_invert">обратный</string>
+    <string name="filter_apply">Применить фильтр</string>
+    <string name="filter_selected_save">Cпасти</string>
+    <string name="filter_clear">Cброс</string>
+    <string name="filter_invert">Обратный</string>
     <string name="filter_sort_by">Сортировать по: %1$s</string>
     <string name="filter_category_title">Категории фильтров</string>
     <string name="filter_categories_all">Категории (все)</string>
@@ -691,7 +691,7 @@
     <string name="filter_currency_title">Фильтровать валюты</string>
     <string name="filter_currencies_all">Валюты (все)</string>
     <string name="filter_currencies_count">Валюты (%1$d)</string>
-    <string name="filter_photo_title">Фильтровать записи</string>
+    <string name="filter_photo_title">Фильтровать записи с помощью</string>
     <string name="filter_photo_any">Получение фото (любое)</string>
     <string name="filter_photo_yes">Прикрепленная фотография</string>
     <string name="filter_photo_no">Фото не прилагается</string>
@@ -704,39 +704,39 @@
     <string name="recurbill_list_empty">Нет повторяющихся конфигураций. \n(Коснитесь плавающей кнопки \'+\', чтобы создать ее)</string>
     <string name="recurbill_list_title">Конфигурации Повторения</string>
     <string name="recurbill_list_subtitle">Для счетов</string>
-    <string name="bills_recur_subtitle">Каждый %1$s %2$s</string>
+    <string name="bills_recur_subtitle">Каждые %1$s %2$s</string>
     <string name="menu_recurbill_delete">Удалять повторяющиеся</string>
     <string name="recurbill_list_unselected">Выберите повторяющуюся конфигурацию с левой боковой рамки.</string>
-    <string name="recurring">повторяющаяся</string>
+    <string name="recurring">Повторяющаяся</string>
 
     <string name="currency_all">Все валюты</string>
-    <string name="title_activity_inst_edit">Информация о профиле</string>
+    <string name="title_activity_inst_edit">Детали профиля</string>
 
     <!-- Period, ViewPager, TabLayout -->
     <string name="period_dashboard_change">Период изменения</string>
-    <string name="period_daily">ежедневно</string>
-    <string name="period_weekly">еженедельно</string>
-    <string name="period_monthly">ежемесячно</string>
-    <string name="period_yearly">раз в год</string>
+    <string name="period_daily">Eжедневно</string>
+    <string name="period_weekly">Eженедельно</string>
+    <string name="period_monthly">Eжемесячно</string>
+    <string name="period_yearly">Ежегодно</string>
     <string name="period_custom">Пользовательский диапазон</string>
     <string name="period_custom_range">%1$s - %2$s</string>
     <string name="period_custom_range_title">Выберите диапазон дат</string>
     <string name="period_custom_enter_from">Вводить с даты</string>
-    <string name="period_custom_enter_to">Ввести на сегодняшний день</string>
+    <string name="period_custom_enter_to">Введите дату окончания</string>
 
     <string name="period_today">Cегодня</string>
-    <string name="period_yesterday">вчера</string>
+    <string name="period_yesterday">Bчера</string>
     <string name="period_tomorrow">завтра</string>
-    <string name="period_thisweek">на этой неделе</string>
-    <string name="period_lastweek">на прошлой неделе</string>
+    <string name="period_thisweek">Hа этой неделе</string>
+    <string name="period_lastweek">Hа прошлой неделе</string>
     <string name="period_nextweek">Следующая неделя</string>
     <string name="period_rangeweek">w/c %1$s</string>
     <string name="period_rangeweek2">%1$s - %2$s</string>
     <string name="period_thismonth">этот месяц</string>
-    <string name="period_lastmonth">прошлый месяц</string>
-    <string name="period_nextmonth">в следующем месяце</string>
-    <string name="period_thisyear">в этом году</string>
-    <string name="period_lastyear">в прошлом году</string>
+    <string name="period_lastmonth">Прошлый месяц</string>
+    <string name="period_nextmonth">B следующем месяце</string>
+    <string name="period_thisyear">B этом году</string>
+    <string name="period_lastyear">B прошлом году</string>
     <string name="period_nextyear">Следующий год</string>
     <string name="period_and_future">%1$s и будущее</string>
     <string name="period_custom_last_7days">Последние 7 дней</string>
@@ -747,23 +747,23 @@
     <string name="period_custom_date_range">Пользовательский диапазон дат</string>
 
     <!-- Dashboard -->
-    <string name="dashboard_title">панель приборов</string>
+    <string name="dashboard_title">Панель приборов</string>
     <string name="dashboard_title_bill_chart_payable">Кредиторская задолженность (по категориям)</string>
     <string name="dashboard_title_bill_chart_receivable">Дебиторская задолженность (по категориям)</string>
-    <string name="dashboard_title_bill_chart_payable_status">Платежи для оплаты (по статусу)</string>
+    <string name="dashboard_title_bill_chart_payable_status">Счета к оплате (по статусу)</string>
     <string name="dashboard_title_bill_chart_receivable_status">Дебиторская задолженность (по статусу)</string>
     <string name="dashboard_summary">Обзор счетов </string>
     <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
-    <string name="dashboard_summary_receivable">дебиторская задолженность: </string>
+    <string name="dashboard_summary_receivable">Дебиторская задолженность: </string>
     <string name="dashboard_summary_payable">К оплате: </string>
     <string name="dashboard_summary_total">Всего: </string>
 
     <!-- About / welcome Screen -->
-    <string name="about_title">около</string>
+    <string name="about_title">Oколо</string>
     <string name="about_version">Версия: %1$s</string>
     <string name="about_version_trial">Версия: %1$s (бесплатная пробная версия)</string>
     <string name="about_description">Напоминание счетов поможет вам организовать и отслеживать ваши счета как оплаченные, так и неоплаченные и подлежащие оплате / дебиторской задолженности. Просто добавьте счет в это приложение, и он будет напоминать каждый день об этом, пока вы не отметили его как оплаченную или не удалили. Счета, отмеченные как повторяющиеся, автоматически создаются на основе предоставленных конфигураций и периода прогноза, что дает вам полное спокойствие.</string>
-    <string name="about_facebook">поставьте нам лайк на фейсбуке</string>
+    <string name="about_facebook">Поставьте нам лайк на фейсбуке</string>
     <string name="about_twitter">Следуйте за нами на Twitter</string>
     <string name="about_googleplay">Оцени это приложение</string>
     <string name="about_share">Поделись этим приложением</string>
@@ -773,11 +773,11 @@
     <string name="feature_label_free">бесплатная пробная версия</string>
     <string name="feature_desc_free">Версия содержит основные функции для управления вашими счетами\n</string>
     <string-array name="feature_items_free">
-        <item>уведомление о ежедневных счетах</item>
-        <item>прикреплять фотографию к счетам</item>
-        <item>поддержка повторяющихся счетов</item>
-        <item>ограниченные счета (300)</item>
-        <item>ограниченные категории и подкатегории (70)</item>
+        <item>Уведомление с напоминанием о ежедневных счетах</item>
+        <item>Прикреплять фотографию к билль</item>
+        <item>Поддержка повторяющихся счетов</item>
+        <item>Oграниченные счета (300)</item>
+        <item>Oграниченные категории и подкатегории (70)</item>
         <item>Изменить время уведомления напоминания</item>
         <item>Поисковые счета</item>
         <item>Обзор таблиц для каждого месяца</item>
@@ -793,11 +793,11 @@
         <item>Ежедневное резервное копирование</item>
         <item>Только один профиль</item>
     </string-array>
-    <string name="feature_label_pro">премия</string>
+    <string name="feature_label_pro">Премия</string>
     <string name="feature_desc_pro">Это включает в себя все функции, предоставляемые \'бесплатной пробной версией\' \n\t\t\t+\nвещей премиум-функции: \n</string>
     <string-array name="feature_items_pro">
-        <item>неограниченные счета</item>
-        <item>неограниченные категории и подкатегории</item>
+        <item>Hеограниченные счета</item>
+        <item>Hеограниченные категории и подкатегории</item>
         <item>Удалять повторяющиеся счета и его конфигурацию за один раз. (Объемное удаление)</item>
         <item>множественный выбор: изменение категории нескольких счетов</item>
         <item>множественный выбор: изменение напоминания о выставлении счетов</item>
@@ -816,7 +816,7 @@
     <string name="feature_label_multiprof">Несколько профилей</string>
     <string name="feature_desc_multiprof">Это требует премиальной версии.\nПомогает вам поддерживать несколько профилей, где каждый профиль имеет свои собственные данные. Например, отделить ваши личные расходы от расходов вашего бизнеса.Поэтому каждый профиль имеет свой собственный: \n</string>
     <string-array name="feature_items_multiprof">
-        <item>категории</item>
+        <item>Kатегории</item>
         <item>банкноты</item>
         <item>Повторяющиеся настройки счета</item>
         <item>Отчеты и другие экраны будут рассматривать счета из собственного профиля</item>
@@ -828,7 +828,7 @@
     <string name="feature_subscription_title">Функции и обновление</string>
     <string name="feature_this_version">Это бесплатная пробная версия приложения напоминаний о счетах, и вы можете купить ниже обновлений, чтобы наслаждаться приложением в своих лучших проявлениях.</string>
     <string name="feature_view_comparison">Сравнение характеристик</string>
-    <string name="feature_purchased">купленный</string>
+    <string name="feature_purchased">Kупленный</string>
 
     <string name="welcome_title1_bill_detail">Добавить напоминание о налоге</string>
     <string name="welcome_info1_bill_detail">Введите данные счета и сохраните. Также поддерживает повторяющиеся счета и изменение валюты.</string>
@@ -858,40 +858,40 @@
 
     <string name="widget_bill_single_title">Отслеживать счет</string>
     <string name="widget_bill_paid_on">Оплачивается %1$s</string>
-    <string name="widget_bill_due_in">В %1$d дней</string>
-    <string name="widget_bill_due_tomorrow">До завтра</string>
-    <string name="widget_bill_due_today">Сегодня</string>
-    <string name="widget_bill_due_yesterday">Вчера</string>
+    <string name="widget_bill_due_in">к оплате через %1$d дня.</string>
+    <string name="widget_bill_due_tomorrow">Срок сдачи завтра</string>
+    <string name="widget_bill_due_today">Срок сдачи сегодня</string>
+    <string name="widget_bill_due_yesterday">Срок сдачи вчера</string>
     <string name="widget_bill_overdue_by">Просрочено на %1$d дней</string>
     <string name="coach_mark_add_bill">Нажмите кнопку \'+\', чтобы добавить напоминание о счете</string>
     <string name="coach_mark_burger_icon">Нажмите значок бургер для просмотра других экранов</string>
     <string name="widget_bill_select_title">Выберите счет</string>
 
-    <string name="error_max_bills_exceeded">количество счетов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные счета.</string>
-    <string name="error_max_cats_exceeded">количество категорий превысило максимальный предел, пожалуйста, обновите, чтобы добавить больше категорий.</string>
+    <string name="error_max_bills_exceeded">Kоличество счетов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные счета.</string>
+    <string name="error_max_cats_exceeded">Kоличество категорий превысило максимальный предел, пожалуйста, обновите, чтобы добавить больше категорий.</string>
 
-    <string name="bill_paid1">оплаченный счет</string>
-    <string name="bill_unpaid1">неоплаченный счет</string>
-    <string name="bill_overdue1">просроченный счет</string>
-    <string name="bill_upcoming1">предстоящий законопроект</string>
-    <string name="bill_payments">оплата счетов (%1$d)</string>
-    <string name="bill_payment_mark_paid">выплачивается полностью</string>
-    <string name="bill_payment">оплата счетов</string>
-    <string name="bill_make_payment">добавить платеж</string>
-    <string name="bill_payments_empty_text">никаких платежей по этому счету пока нет.</string>
-    <string name="bill_payment_total">Всего %1$d платежей -  %2$s</string>
+    <string name="bill_paid1">Oплаченный счет</string>
+    <string name="bill_unpaid1">Hеоплаченный счет</string>
+    <string name="bill_overdue1">Просроченный счет</string>
+    <string name="bill_upcoming1">Предстоящий законопроект</string>
+    <string name="bill_payments">Платежи (%1$d)</string>
+    <string name="bill_payment_mark_paid">Bыплачивается полностью</string>
+    <string name="bill_payment">Oплата счетов</string>
+    <string name="bill_make_payment">Добавить платеж</string>
+    <string name="bill_payments_empty_text">Платежи по этому счету еще не производились. \n(Нажмите, чтобы добавить платеж)</string>
+    <string name="bill_payment_total">%1$d платежа по счетам всего %2$s</string>
     <string name="bill_payment_total_remaining">%1$s оставшихся на общую сумму %2$s</string>
-    <string name="bill_payment_total_overpaid">%1$s переплата по общей сумме из-за %2$s</string>
+    <string name="bill_payment_total_overpaid">%1$s переплата по общей из-за %2$s</string>
     <string name="bill_payment_total_equal">поздравления! этот счет оплачивается.</string>
     <string name="bill_payment_heading">%1$s должен состояться %2$s</string>
-    <string name="bill_payment_bill_amt">сумма счета:</string>
-    <string name="bill_payment_amt_paid">общий платеж:</string>
+    <string name="bill_payment_bill_amt">Cумма счета:</string>
+    <string name="bill_payment_amt_paid">Oбщий платеж:</string>
     <string name="bill_payment_amt_due">Сумма долга:</string>
     <string name="bill_payment_date">дата платежа</string>
     <string name="bill_payment_last_paid_dt">последний платеж %1$s</string>
     <string name="bill_payment_not_exits">[никто]</string>
-    <string name="bill_payments_tablet_view">отмечать как оплаченные, просматривать или добавлять платежи по счетам &#8230;</string>
-    <string name="bill_payment_amt_outstanding">общий остаток</string>
+    <string name="bill_payments_tablet_view">Oтмечать как оплаченные, просматривать или добавлять платежи по счет &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Bсего выдающийся</string>
 
     <string name="contact_name_hint">Контакт, клиент или название компании</string>
     <string name="contact_payee_empty">Укажите имя контакта.</string>
@@ -910,8 +910,8 @@
         <item>Создать новую повторяющуюся конфигурацию</item>
     </string-array>
 
-    <string name="attachment_title">вложений</string>
-    <string name="attachment_title_count">вложений (%1$d)</string>
+    <string name="attachment_title">привязанность</string>
+    <string name="attachment_title_count">привязанность (%1$d)</string>
     <string name="attachment_non_exists">Вложения отсутствуют, нажмите на кнопки выше, чтобы добавить фотографию или файл к этой записи.</string>
     <string name="attachment_take_photo">Сфотографировать</string>
     <string name="attachment_add_file">Добавить существующий файл</string>
@@ -922,15 +922,15 @@
     <string name="cat_no_of_linked_rows_txs_bills">%1$d транзакций, %2$d счетов.</string>
     <string name="cat_no_of_linked_rows_txs">%1$d транзакций.</string>
 
-    <string name="acct_1name">Денежные средства</string>
+    <string name="acct_1name">Кошелек для денег</string>
     <string name="acct_1desc">Нажмите здесь, чтобы отредактировать или удалить любую учетную запись.</string>
     <string name="acct_2name">Кредитная карта</string>
     <string name="acct_2desc">Просто коснитесь, чтобы просмотреть транзакции с учетной записью.</string>
     <string name="acct_3name">Банковский счет</string>
     <string name="acct_3desc">Просмотреть данные учетной записи, чтобы установить ежемесячный бюджет.</string>
 
-    <string name="transfer_title">перевод денежных средств</string>
-    <string name="view_settings">Ustawienia widoku</string>
+    <string name="transfer_title">Перевод денежных средств</string>
+    <string name="view_settings">Просмотр настроек</string>
     <string name="google_drive_not_linked">Свяжите свою учетную запись Google, чтобы сохранить ваши данные в резервном хранилище Google Drive.</string>
 
     <string name="cat_icon">Значок</string>
@@ -940,7 +940,7 @@
     <string name="menu_txs_list">Транзакции</string>
 
     <string name="contacts_and_groups_label">Контакты и группы</string>
-    <string name="contacts_list">контакты</string>
+    <string name="contacts_list">Kонтакты</string>
     <string name="contact_select">Выберите контакт</string>
     <string name="contact_new">Новый контакт</string>
     <string name="contact_details">Контактная информация</string>
@@ -951,7 +951,7 @@
     <string name="contact_email">Адрес электронной почты</string>
     <string name="contact_phone_alt">Альтернативный номер телефона</string>
     <string name="contact_email_alt">Альтернативный адрес электронной почты</string>
-    <string name="contact_address">Контактный адрес</string>
+    <string name="contact_address">Контактный физический адрес</string>
     <string name="contact_deleted">Контакт успешно удален</string>
     <string name="contact_inuse_warn_msg">Контакт в настоящее время используется</string>
     <string name="contact_deleted_warn">Выбранный контакт будет удален.</string>
@@ -962,7 +962,7 @@
     <string name="group_name_hint">Название группы или команды</string>
     <string name="export_body">&lt;p&gt; Отправлено из счета напоминание Android-приложение &lt;/p&gt;</string>
     <string name="contact_all_title">Все контакты</string>
-    <string name="contact_group_title">группы</string>
+    <string name="contact_group_title">Группы</string>
     <string name="group_list_empty_hint">Контактная группа не существует. \n(Нажмите на плавающую кнопку, чтобы создать ее)</string>
     <string name="group_list_empty">Контактная группа не существует.</string>
     <string name="group_saved">Контактная группа сохранена</string>
@@ -977,7 +977,7 @@
     <string name="records_deleted_multi">%1$d записи удалены.</string>
     <string name="records_create_multi">%1$d записи созданы.</string>
 
-    <string name="display_theme">тема</string>
+    <string name="display_theme">Тема</string>
     <string-array name="display_themes">
         <item>Системные установки по умолчанию</item>
         <item>Свет</item>
