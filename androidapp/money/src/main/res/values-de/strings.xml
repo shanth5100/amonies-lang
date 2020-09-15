@@ -386,78 +386,78 @@
         <item>Berichte: PDF Berichte generieren und teilen</item>
         <item>Export transaktionen und angehängte Fotos</item>
         <item>Kontrollieren sie geplante Backups</item>
-        <item>teilen und exportieren Backups per email, Laufwerk, Dropbox</item>
-        <item>wiederherstellung lokaler Backups und heruntergeladen von Cloud</item>
-        <item>app Sicherheit mit Pin und Fingerabdrücken</item>
+        <item>Teilen und exportieren Backups per email, Laufwerk, Dropbox</item>
+        <item>Wiederherstellung lokaler Backups und heruntergeladen von Cloud</item>
+        <item>App Sicherheit mit Pin und Fingerabdrücken</item>
     </string-array>
-    <string name="feature_label_bills">rechnungen Erinnerung</string>
+    <string name="feature_label_bills">Rechnungen Erinnerung</string>
     <string name="feature_desc_bills">dies erfordert eine premium version.\nfügt Bills Erinnerung Fähigkeit um die App, und hilft Ihnen eine Rechnung Zahlung mit einer Transaktion zu verknüpfen, so etwas wie ein doppelter Eintrag. \n</string>
     <string-array name="feature_items_bills">
-        <item>integrierte Rechnungen Erinnerung</item>
+        <item>Integrierte Rechnungen Erinnerung</item>
         <item>einfache und wiederkehrende Rechnungen zu verwalten</item>
-        <item>tägliche Rechnungen Erinnerung Benachrichtigung</item>
-        <item>foto an Rechnungen anhängen</item>
-        <item>home Screen Widgets für Rechnungen</item>
-        <item>anderungsmeldung Benachrichtigungszeit</item>
-        <item>löschen sie wiederkehrende Rechnungen und ihre Konfiguration auf einmal. (bulk deletion)</item>
-        <item>dashboard Übersicht enthält Rechnungen</item>
+        <item>Tägliche Rechnungen Erinnerung Benachrichtigung</item>
+        <item>Foto an Rechnungen anhängen</item>
+        <item>Startbildschirm-Widgets für Rechnungen</item>
+        <item>Ändern Sie die Benachrichtigungs zeit für Erinnerungen</item>
+        <item>Löschen sie wiederkehrende Rechnungen und ihre Konfiguration auf einmal. (Massenlöschung)</item>
+        <item>Die Dashboard-Übersicht enthält Rechnungen</item>
         <item>rechnungen nach Status anzeigen</item>
-        <item>sehen sie Rechnungen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
+        <item>Zeigen Sie Rechnungen für jeden Tag, jede Woche, jeden Monat, jedes Jahr und jede benutzerdefinierte Zeit an</item>
         <item>Kalenderansicht der Rechnungen</item>
-        <item>suche rechnungen</item>
-        <item>mehrfachauswahl: bulk streichung von Rechnungen und Kategorien</item>
+        <item>Suche rechnungen</item>
+        <item>mehrfachauswahl: Massenlöschung von Rechnungen und Kategorien</item>
         <item>mehrfachauswahl: bulk duplizierung von Rechnungen und Kategorien</item>
-        <item>mehrfachauswahl: anderungskategorie der Rechnungen</item>
-        <item>mehrfachauswahl: anderungsmeldung Benachrichtigung über Rechnungen</item>
+        <item>mehrfachauswahl: Rechnungs kategorie ändern</item>
+        <item>mehrfachauswahl: Änderungs erinnerung Benachrichtigung über Rechnungen</item>
         <item>berichte: Kategorie weise Rechnungen für jeden Tag, Woche, Monat, Jahr und benutzerdefinierte Zeit</item>
         <item>berichte: Rechnungen Trend</item>
         <item>berichte: Vergleich zwischen Wochen, Tagen, Monaten, Jahren</item>
         <item>berichte: PDF Berichte generieren und teilen</item>
-        <item>scannen sie einen Barcode und fügen Sie ihn zu Notizen hinzu</item>
-        <item>fügen sie eine Rechnung Zahlung URL an die Rechnung</item>
+        <item>Scannen Sie einen Barcode und fügen Sie ihn den Rechnungsnotizen hinzu</item>
+        <item>Fügen sie eine Rechnung Zahlung URL an die Rechnung</item>
     </string-array>
-    <string name="feature_label_multiprof">mehrere Profile</string>
+    <string name="feature_label_multiprof">Mehrere Profile</string>
     <string-array name="feature_items_multiprof">
         <item>konten</item>
         <item>transaktionen</item>
-        <item>budgets</item>
-        <item>kategorien und Unterkategorien</item>
+        <item>Budgets</item>
+        <item>Kategorien und Unterkategorien</item>
         <item>rechnungen</item>
-        <item>wiederkehrende Einstellungen</item>
-        <item>berichte und andere Bildschirme werden nur Einträge aus dem eigenen Profil betrachten</item>
-        <item>dadurch werden Profilverwaltungsfunktionen aktiviert</item>
+        <item>Wiederkehrende Einstellungen</item>
+        <item>Berichte und andere Bildschirme berücksichtigen nur Einträge aus dem eigenen Profil</item>
+        <item>Dadurch werden Profilverwaltungs Features aktiviert</item>
     </string-array>
-    <string name="feature_this_version">dies ist kostenlose Testversion von nur Geld App und sie können unten Upgrades kaufen um die App zu seinem besten genießen.</string>
+    <string name="feature_this_version">Dies ist kostenlose Testversion der Just Money App und sie können unten Upgrades kaufen um die App zu seinem besten genießen.</string>
 
 
     <string name="welcome_title4_tx_account">fügen sie ein Konto hinzu</string>
-    <string name="welcome_info4_tx_account">konto stellt Ihr Bankkonto oder Bargeld in Ihrer Brieftasche dar und wird für die Transaktionseintragung benötigt.</string>
-    <string name="welcome_title1_tx_detail">fügen sie einen Aufwand oder Einkommen hinzu</string>
+    <string name="welcome_info4_tx_account">Konto stellt Ihr Bankkonto oder Bargeld in Ihrer Brieftasche dar und wird für die Transaktionseintragung benötigt.</string>
+    <string name="welcome_title1_tx_detail">Fügen sie einen Aufwand oder Einkommen hinzu</string>
     <string name="welcome_info1_tx_detail">transaktionsdetails eingeben und speichern. unterstützt auch wiederkehrende transaktionen.</string>
-    <string name="welcome_title1_tx_receipt">foto deine quittung</string>
-    <string name="welcome_info1_tx_receipt">gehen papierlos indem sie Ihren Kostenbeleg zusammen mit den Transaktionsdetails anhängen.</string>
-    <string name="welcome_title2_tx_email">aktie transaktionen und Quittungen</string>
-    <string name="welcome_info2_tx_email">export csv Format Aufwendungen und Einnahmen, einschließlich der beigefügten Quittung Fotos (zu email, Dropbox, Laufwerk).</string>
+    <string name="welcome_title1_tx_receipt">Foto deine quittung</string>
+    <string name="welcome_info1_tx_receipt">Gehen papierlos indem sie Ihren Kostenbeleg zusammen mit den Transaktionsdetails anhängen.</string>
+    <string name="welcome_title2_tx_email">Aktie transaktionen und Quittungen</string>
+    <string name="welcome_info2_tx_email">Export csv Format Aufwendungen und Einnahmen, einschließlich der beigefügten Quittung Fotos (zu email, Dropbox, Laufwerk).</string>
 
-    <string name="welcome_title3_tx_list">einfaches tabulatorlayout</string>
+    <string name="welcome_title3_tx_list">Einfaches tabulator layout</string>
     <string name="welcome_info3_tx_list">transaktionen für jede Periode anzeigen und leicht zwischen den Tabs wechseln. Filtern von Daten nach Kategorien, Konten, usw.</string>
-    <string name="welcome_title4_tx_budget">budgetplaner</string>
-    <string name="welcome_info4_tx_budget">fügen sie Ausgaben budgets und bleiben sie die Kontrolle über Ihre Kosten.</string>
+    <string name="welcome_title4_tx_budget">Budgetplaner</string>
+    <string name="welcome_info4_tx_budget">Fügen sie Ausgaben budgets und bleiben sie die Kontrolle über Ihre Kosten.</string>
     <string name="welcome_title5_tx_reports">umfangreiche Berichte und Charts</string>
     <string name="welcome_info5_tx_reports">vergleichen sie die Aufwendungen zwischen Perioden und Kategorien, sehen sie Kontostände sowohl historische als auch projizierte und cashflow trendberichte an.</string>
-    <string name="welcome_title6_tx_drawer">navigationsschublade Menü</string>
-    <string name="welcome_info6_tx_drawer">dashboard, Konten, Mehrfachwährung, Kategorie und Unterkategorien, budgetplaner, Kalenderansicht, Mehrfachprofile, Backup und Restore und vieles mehr.</string>
+    <string name="welcome_title6_tx_drawer">Navigationsschublade Menü</string>
+    <string name="welcome_info6_tx_drawer">Dashboard, Konten, Mehrfach währung, Kategorie und Unterkategorien, budgetplaner, Kalenderansicht, Mehrfach profile, Backup und Restore und vieles mehr.</string>
 
-    <string name="widget_acct_balance_title">kontostand</string>
-    <string name="widget_acct_balance">balance: </string>
-    <string name="widget_shortcuts_title">nur Geldverkürzungen</string>
+    <string name="widget_acct_balance_title">Kontostand</string>
+    <string name="widget_acct_balance">Balance: </string>
+    <string name="widget_shortcuts_title">Just Money Verknüpfung</string>
     <string name="widget_shortcuts">(verknüpfungen)</string>
-    <string name="coach_mark_add_bill">Klicken Sie auf die Schaltfläche \'+\', um Kosten, Erträge oder Überweisungen hinzuzufügen.</string>
+    <string name="coach_mark_add_bill">Klicken Sie auf die Schaltfläche \'+\', um Kosten, Erträge oder Geldtransfer hinzuzufügen.</string>
 
-    <string name="error_max_txs_exceeded">Die Anzahl der Transaktionen hat das maximale Limit überschritten. Bitte aktualisieren Sie, um weitere Transaktionen hinzuzufügen.</string>
-    <string name="error_max_accounts_exceeded">Die Anzahl der Konten hat das maximale Limit überschritten. Bitte aktualisieren Sie, um weitere Konten hinzuzufügen.</string>
+    <string name="error_max_txs_exceeded">Die Anzahl der Transaktionen hat das maximale Limit überschritten. Bitte upgraden Sie, um weitere Transaktionen hinzuzufügen.</string>
+    <string name="error_max_accounts_exceeded">Die Anzahl der Konten hat das maximale Limit überschritten. Bitte upgraden Sie, um weitere Konten hinzuzufügen.</string>
 
-    <string name="tx_new_expense">Ausgaben eingeben</string>
-    <string name="tx_new_income">Einkommen eingeben</string>
-    <string name="tx_bills_disabled_msg">Wissen Sie, dass diese App die integrierte Funktion zur Erinnerung an Rechnungen unterstützt? Aktivieren Sie es, um Ihre Rechnungen und Zahlungen zu verwalten.</string>
+    <string name="tx_new_expense">Ausgaben hinzufügen</string>
+    <string name="tx_new_income">Einkommen hinzufügen</string>
+    <string name="tx_bills_disabled_msg">Wissen Sie, dass diese App die integrierte Bills Reminder Feature unterstützt? Aktivieren Sie es, um Ihre Rechnungen und Zahlungen zu verwalten.</string>
 </resources>
