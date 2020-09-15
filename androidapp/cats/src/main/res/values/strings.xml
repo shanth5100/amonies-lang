@@ -348,7 +348,7 @@
     <string name="app_error_restart">Auto fixed an issue, please restart the app.</string>
     <string name="multi_select_mode_title">%1$s, total: %2$s</string>
 
-    <string name="bill_deleted_recur">Successfully deleted recurring bills.</string>
+    <string name="bill_deleted_recur">Recurring bills successfully deleted.</string>
     <string name="bill_deleted_multi">%1$d bills deleted.</string>
     <string name="bill_multi_update_count">%1$d bills updated.</string>
     <string name="bill_duplicate_multi">%1$d new bills created.</string>
@@ -617,8 +617,8 @@
     <string name="prefTitleAppPINChange">Change PIN</string>
     <string name="prefSummaryAppPINChange">Touch here to change your 4 digit PIN.</string>
 
-    <string name="prefTitleStartupScreen">Landing page</string>
-    <string name="prefSummaryStartupScreen">App startup screen that shows up when the app is launched.</string>
+    <string name="prefTitleStartupScreen">Startup screen</string>
+    <string name="prefSummaryStartupScreen">App\'s landing page that shows up when the app is launched.</string>
 
     <string name="prefTitleChangeLanguage">Language: %1$s</string>
     <string name="prefSummaryChangeLanguage">Touch here to change language</string>

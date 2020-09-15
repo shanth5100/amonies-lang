@@ -2,7 +2,7 @@
 <resources>
 
     <string name="menu_upgrade">Обновить</string>
-    <string name="upgrade_to_pro">Oбновление до премиум-класса</string>
+    <string name="upgrade_to_pro">Обновление до премиум-класса</string>
     <string name="feature_unavailable">Эта функция доступна только в премиальной версии.</string>
 
     <string name="error_save">Не удалось сохранить изменения, повторите попытку позже.</string>
@@ -145,7 +145,7 @@
 
     <string name="cat_9banking">банковское дело</string>
     <string name="cat_9_1">Cсуда</string>
-    <string name="cat_9_2">Интерес</string>
+    <string name="cat_9_2">Процент</string>
     <string name="cat_9_3">Pасходы</string>
     <string name="cat_9_4">экономия</string>
     <string name="cat_9_5">ипотека</string>
@@ -320,16 +320,16 @@
     <string name="title_bill_detail">Детали счета</string>
     <string name="title_bill_detail_new">Новое напоминание о счете</string>
     <string name="title_activity_calendar">Просмотр календаря</string>
-    <string name="bills">Законопроекты</string>
+    <string name="bills">Счета</string>
     <string name="bill_new">Добавить напоминание о счете</string>
     <string name="bills_overdue">Просроченный</string>
     <string name="bills_upcoming">Предстоящий</string>
     <string name="bills_paid">Oплаченный</string>
     <string name="bills_unpaid">Hеоплаченный</string>
-    <string name="bills_recurr">Повторяющиеся Законопроекты</string>
+    <string name="bills_recurr">Повторяющиеся счета</string>
     <string name="bills_recur_desc">Повторяет каждый %1$d %2$s.</string>
     <string name="restart_app">Перезагрузите приложение.</string>
-    <string name="bills_view">Просматривать Законопроекты</string>
+    <string name="bills_view">Просматривать счета</string>
 
     <string name="bill_list_empty_tip">Вексель не существует. \n(Коснитесь плавающей кнопки \'+\', чтобы создать ее)</string>
     <string name="bill_list_empty">Нет счетов.</string>
@@ -340,21 +340,21 @@
 
     <string name="bill_delete_unsaved">Не может удалить несохраненный счет.</string>
     <string name="bill_deleted">Счет удален.</string>
-    <string name="bill_delete_single_warn">Счет и его платежи будут удалены, вы продолжите?</string>
-    <string name="bill_delete_multi_warn">Выбранный счет и платежи по нему будут удалены, вы продолжите?</string>
-    <string name="bill_delete_recur_warn">Эта повторяющаяся запись и все связанные с ней Законопроекты будут удалены, продолжите?</string>
+    <string name="bill_delete_single_warn">Счета и их платежи будут удалены, продолжить?</string>
+    <string name="bill_delete_multi_warn">Выбранный счет и платежи по нему будут удалены, продолжить?</string>
+    <string name="bill_delete_recur_warn">Эта повторяющаяся запись и все связанные с ней cчета будут удалены, продолжите?</string>
     <string name="bill_duplicate_warn">Будет создано %1$d дублирующих счета, продолжение?</string>
-    <string name="bill_not_found">Законопроекты не существует.</string>
+    <string name="bill_not_found">СБилла не существует.</string>
     <string name="app_error_restart">Авто исправлена проблема, перезапустите приложение.</string>
     <string name="multi_select_mode_title">%1$s, Всего: %2$s</string>
 
-    <string name="bill_deleted_recur">Успешно удалены повторяющиеся Законопроекты.</string>
-    <string name="bill_deleted_multi">%1$d Законопроекты удалены.</string>
-    <string name="bill_multi_update_count">Обновлено %1$d Законопроекты.</string>
-    <string name="bill_duplicate_multi">Создано %1$d новых Законопроекты.</string>
+    <string name="bill_deleted_recur">Успешно удалены повторяющиеся счета.</string>
+    <string name="bill_deleted_multi">%1$d счета удалены.</string>
+    <string name="bill_multi_update_count">Обновлено %1$d счета.</string>
+    <string name="bill_duplicate_multi">Создано %1$d новых счета.</string>
     <string name="bill_duplicate_multi_error">Свяжитесь с разработчиком. Ошибка копирования :%1$s </string>
     <string name="bill_added">Добавлен новый законопроект.</string>
-    <string name="bill_saved">Билл сохранен</string>
+    <string name="bill_saved">Счет сохраняется.</string>
     <string name="bill_populating_recent">Заполнение последних значений</string>
 
     <string name="bill_payee">Получатель / товар</string>
@@ -363,7 +363,7 @@
     <string name="bill_dueNear">Из-за %1$s</string>
     <string name="bill_dueIn">Через %1$d дня</string>
     <string name="bill_dueOver">Просрочено на %1$d дня</string>
-    <string name="bill_paid">Оплачено</string>
+    <string name="bill_paid">Платный</string>
     <string name="bill_received">Получили</string>
     <string name="bill_unpaid">Hеоплаченный</string>
     <string name="bill_paid_on">Оплачивается</string>
@@ -474,10 +474,10 @@
     <string name="bill_err_end_dt">\'Следующая дата выполнения\' должна быть до \'повторить до даты\'</string>
     <string-array name="repeat_array">
         <item>Дней</item>
-        <item>Hедель</item>
-        <item>Mесяцы</item>
+        <item>Недели</item>
+        <item>Месяцы</item>
         <item>Дата месяца</item>
-        <item>Лет</item>
+        <item>Год</item>
     </string-array>
     <string name="bill_rpt_save">Применять повторяющиеся изменения</string>
     <string-array name="bill_rpt_save">
@@ -491,16 +491,16 @@
         <item>Для этого и всех связанных векселей.</item>
     </string-array>
 
-    <string name="bill_list_options_view">Просмотреть детали законопроект</string>
+    <string name="bill_list_options_view">Просмотреть детали счета</string>
     <string name="bill_list_options_select">Выбрать строку</string>
     <string name="bill_list_options_copy">Создать копию (дубликат)</string>
     <string name="bill_list_options_paid">Отмечать как оплаченную</string>
     <string name="bill_list_options_unpaid">Oтмечать как неоплачиваемый</string>
-    <string name="bill_list_options_delete">Удалить законопроект</string>
+    <string name="bill_list_options_delete">Удалить счет</string>
 
-    <string name="bill_marked_paid_msg">законопроект, отмеченный как оплаченный</string>
+    <string name="bill_marked_paid_msg">Счет, отмеченный как оплаченный</string>
     <string name="bill_marked_unpaid_msg">Счет сбрасывается на неоплаченный</string>
-    <string name="bill_removed_recurring">законопроект не привязан к повторяющейся конфигурации</string>
+    <string name="bill_removed_recurring">Счет не привязан к повторяющейся конфигурации</string>
 
 
     <!-- ==================================================================== -->
@@ -649,8 +649,8 @@
     <string name="prefSummaryNotifyDays">Для новых счетов это предварительно выбирается как функция ежедневного напоминания. Пример: за 5 дней до установленной даты</string>
 
     <string name="prefTitleForcast">Период прогноза</string>
-    <string name="prefTitleForcastDialog">Создавать повторяющиеся законопроект</string>
-    <string name="prefSummaryForcast">Повторяющиеся законопроект будут автоматически генерироваться заранее до указанного периода. Пример: за 3 месяца</string>
+    <string name="prefTitleForcastDialog">Создавать повторяющиеся счета</string>
+    <string name="prefSummaryForcast">Повторяющиеся счета будут автоматически генерироваться заранее до указанного периода. Пример: за 3 месяца</string>
 
     <string name="pref_inst_currency_set_to">Валюта профиля установлена ​​на: %1$s</string>
 
@@ -722,7 +722,7 @@
     <string name="period_custom_range">%1$s - %2$s</string>
     <string name="period_custom_range_title">Выберите диапазон дат</string>
     <string name="period_custom_enter_from">Вводить с даты</string>
-    <string name="period_custom_enter_to">войти в день</string>
+    <string name="period_custom_enter_to">Введите дату окончания</string>
 
     <string name="period_today">Cегодня</string>
     <string name="period_yesterday">Bчера</string>
@@ -762,7 +762,7 @@
     <string name="about_title">Oколо</string>
     <string name="about_version">Версия: %1$s</string>
     <string name="about_version_trial">Версия: %1$s (бесплатная пробная версия)</string>
-    <string name="about_description">Напоминание законопроект поможет вам организовать и отслеживать ваши счета как оплаченные, так и неоплаченные и подлежащие оплате / дебиторской задолженности. Просто добавьте законопроект в это приложение, и он будет напоминать каждый день об этом, пока вы не отметили его как оплаченную или не удалили. законопроект, отмеченные как повторяющиеся, автоматически создаются на основе предоставленных конфигураций и периода прогноза, что дает вам полное спокойствие.</string>
+    <string name="about_description">Напоминание счетов поможет вам организовать и отслеживать ваши счета как оплаченные, так и неоплаченные и подлежащие оплате / дебиторской задолженности. Просто добавьте счет в это приложение, и он будет напоминать каждый день об этом, пока вы не отметили его как оплаченную или не удалили. Счета, отмеченные как повторяющиеся, автоматически создаются на основе предоставленных конфигураций и периода прогноза, что дает вам полное спокойствие.</string>
     <string name="about_facebook">Поставьте нам лайк на фейсбуке</string>
     <string name="about_twitter">Следуйте за нами на Twitter</string>
     <string name="about_googleplay">Оцени это приложение</string>
@@ -834,12 +834,12 @@
     <string name="welcome_info1_bill_detail">Введите данные счета и сохраните. Также поддерживает повторяющиеся счета и изменение валюты.</string>
     <string name="welcome_title2_receipt">Фото ваша квитанция</string>
     <string name="welcome_info2_receipt">Идите без документов, добавив квитанцию об оплате вместе с деталями счета.</string>
-    <string name="welcome_title3_bill_upcoming">Просматривать законопроект по статусу</string>
+    <string name="welcome_title3_bill_upcoming">Просматривать счета по статусу</string>
     <string name="welcome_info3_bill_upcoming">Быстро взглянуть на предстоящие, просроченные, неоплаченные и оплаченные счета. </string>
     <string name="welcome_title4_bill_list">Простая компоновка вкладок</string>
     <string name="welcome_info4_bill_list">Просматривать счета за каждый период и легко прокручивать между вкладками. Пример: для каждого месяца.</string>
     <string name="welcome_title5_drawer">Меню навигационного ящика</string>
-    <string name="welcome_info5_drawer">Панели, категории и подкатегории, календарь, несколько валют, отчеты и диаграммы, несколько профилей, резервное копирование и восстановление.</string>
+    <string name="welcome_info5_drawer">панели, категории и подкатегории, календарь, несколько валют, отчеты и диаграммы, несколько профилей, резервное копирование и восстановление.</string>
     <string name="welcome_title6_recurring">Управлять повторяющимися счетами</string>
     <string name="welcome_info6_recurring">Повторяющиеся конфигурации помогают легко создавать, обновлять, удалять счета и повторяющиеся счета.</string>
     <string name="welcome_title6_settings">Настройка для легкой настройки</string>
@@ -856,33 +856,33 @@
     <string name="widget_bill_overview_upcoming">предстоящий: </string>
     <string name="widget_bill_overview_count">%1$d</string>
 
-    <string name="widget_bill_single_title">Отслеживать законопроект</string>
+    <string name="widget_bill_single_title">Отслеживать счет</string>
     <string name="widget_bill_paid_on">Оплачивается %1$s</string>
-    <string name="widget_bill_due_in">к оплате через %1$d дн.</string>
+    <string name="widget_bill_due_in">к оплате через %1$d дня.</string>
     <string name="widget_bill_due_tomorrow">Срок сдачи завтра</string>
     <string name="widget_bill_due_today">Срок сдачи сегодня</string>
     <string name="widget_bill_due_yesterday">Срок сдачи вчера</string>
     <string name="widget_bill_overdue_by">Просрочено на %1$d дней</string>
-    <string name="coach_mark_burger_icon">Нажмите значок бургер для просмотра других экранов</string>
     <string name="coach_mark_add_bill">Нажмите кнопку \'+\', чтобы добавить напоминание о счете</string>
-    <string name="widget_bill_select_title">Выберите законопроект</string>
+    <string name="coach_mark_burger_icon">Нажмите значок бургер для просмотра других экранов</string>
+    <string name="widget_bill_select_title">Выберите счет</string>
 
     <string name="error_max_bills_exceeded">Kоличество счетов превысило максимальный лимит, пожалуйста, обновите, чтобы добавить дополнительные счета.</string>
     <string name="error_max_cats_exceeded">Kоличество категорий превысило максимальный предел, пожалуйста, обновите, чтобы добавить больше категорий.</string>
 
-    <string name="bill_paid1">Oплаченный законопроект</string>
-    <string name="bill_unpaid1">Hеоплаченный законопроект</string>
-    <string name="bill_overdue1">Просроченный законопроект</string>
+    <string name="bill_paid1">Oплаченный счет</string>
+    <string name="bill_unpaid1">Hеоплаченный счет</string>
+    <string name="bill_overdue1">Просроченный счет</string>
     <string name="bill_upcoming1">Предстоящий законопроект</string>
-    <string name="bill_payments">Платеж (%1$d)</string>
+    <string name="bill_payments">Платежи (%1$d)</string>
     <string name="bill_payment_mark_paid">Bыплачивается полностью</string>
     <string name="bill_payment">Oплата счетов</string>
     <string name="bill_make_payment">Добавить платеж</string>
-    <string name="bill_payments_empty_text">Hикаких платежей по этому законопроект пока нет.</string>
-    <string name="bill_payment_total">Всего %1$d платежей -  %2$s</string>
+    <string name="bill_payments_empty_text">Платежи по этому счету еще не производились. \n(Нажмите, чтобы добавить платеж)</string>
+    <string name="bill_payment_total">%1$d платежа по счетам всего %2$s</string>
     <string name="bill_payment_total_remaining">%1$s оставшихся на общую сумму %2$s</string>
     <string name="bill_payment_total_overpaid">%1$s переплата по общей из-за %2$s</string>
-    <string name="bill_payment_total_equal">поздравления! этот законопроект оплачивается.</string>
+    <string name="bill_payment_total_equal">поздравления! этот счет оплачивается.</string>
     <string name="bill_payment_heading">%1$s должен состояться %2$s</string>
     <string name="bill_payment_bill_amt">Cумма счета:</string>
     <string name="bill_payment_amt_paid">Oбщий платеж:</string>
@@ -890,7 +890,7 @@
     <string name="bill_payment_date">дата платежа</string>
     <string name="bill_payment_last_paid_dt">последний платеж %1$s</string>
     <string name="bill_payment_not_exits">[никто]</string>
-    <string name="bill_payments_tablet_view">Oтмечать как оплаченные, просматривать или добавлять платежи по законопроект &#8230;</string>
+    <string name="bill_payments_tablet_view">Oтмечать как оплаченные, просматривать или добавлять платежи по счет &#8230;</string>
     <string name="bill_payment_amt_outstanding">Bсего выдающийся</string>
 
     <string name="contact_name_hint">Контакт, клиент или название компании</string>
@@ -980,7 +980,7 @@
     <string name="display_theme">Тема</string>
     <string-array name="display_themes">
         <item>Системные установки по умолчанию</item>
-        <item>Cвет</item>
+        <item>Свет</item>
         <item>Тьма</item>
     </string-array>
 
