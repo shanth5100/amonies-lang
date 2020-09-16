@@ -617,8 +617,8 @@
     <string name="prefTitleAppPINChange">PIN ändern</string>
     <string name="prefSummaryAppPINChange">berühren Sie hier um Ihren 4 stelligen Stift zu ändern.</string>
 
-    <string name="prefTitleStartupScreen">Zielseite</string>
-    <string name="prefSummaryStartupScreen">APP-Startbildschirm, der beim Starten der App angezeigt wird.</string>
+    <string name="prefTitleStartupScreen">Startbild schirm</string>
+    <string name="prefSummaryStartupScreen">APP\'s-Zielseite, der beim Starten der App angezeigt wird.</string>
 
     <string name="prefTitleChangeLanguage">Sprache: %1$s</string>
     <string name="prefSummaryChangeLanguage">Klicken Sie hier, um die Sprache zu ändern</string>

@@ -314,7 +314,7 @@
 
     <string name="tx_rpt_trends_screen_title">Cashflow trends</string>
     <string name="tx_rpt_trends_expense_label">Trends für die letzten 30 Tage (Kosten)</string>
-    <string name="tx_rpt_trends_expense_info">Line diagramm zeigt beide Ausgaben Trends in den letzten 30 Tagen.</string>
+    <string name="tx_rpt_trends_expense_info">Liniendiagramm zeigt Ausgabenent trends in den letzten 30 Tagen.</string>
     <string name="tx_rpt_trends_income_label">Trends für die letzten 30 Tage (Einkommen)</string>
     <string name="tx_rpt_trends_income_info">Line diagramm zeigt Einkommen Cashflow in den letzten 30 Tagen.</string>
 
