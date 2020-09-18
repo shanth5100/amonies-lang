@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="menu_upgrade">Aktualizacja</string>
-    <string name="upgrade_to_pro">uaktualnij do premium</string>
-    <string name="feature_unavailable">ta funkcja jest dostępna tylko w wersji premium.</string>
+    <string name="menu_upgrade">Uaktualnij</string>
+    <string name="upgrade_to_pro">Uaktualnij do premium</string>
+    <string name="feature_unavailable">Ta funkcja jest dostępna tylko w wersji premium.</string>
 
-    <string name="error_save">nie można zapisać zmian, spróbuj ponownie później.</string>
+    <string name="error_save">Nie można zapisać zmian, spróbuj ponownie później.</string>
     <string name="error_unknown">Wystąpił nieznany błąd, skontaktuj się z pomocą techniczną.</string>
-    <string name="err_empty_text">proszę podać prawidłowy tekst.</string>
+    <string name="err_empty_text">Proszę podać prawidłowy tekst.</string>
     <string name="error">błąd</string>
-    <string name="save">zapisać</string>
-    <string name="yes">tak</string>
+    <string name="save">Zaoszczędzić</string>
+    <string name="yes">Tak</string>
     <string name="no">Nie</string>
-    <string name="update">aktualizacja</string>
-    <string name="delete">kasować</string>
-    <string name="export">eksport</string>
+    <string name="update">Aktualizacja</string>
+    <string name="delete">Kasować</string>
+    <string name="export">Eksport</string>
     <string name="cancel">Anuluj</string>
     <string name="goto_play_store">otwarty sklep z Google Play</string>
     <string name="continue_">Kontyntynuj</string>
-    <string name="ok">ok</string>
-    <string name="skip">pominąć</string>
+    <string name="ok">Zgoda</string>
+    <string name="skip">Pominąć</string>
     <string name="done">Rozumiem</string>
-    <string name="select_a_option_warn">wybierz opcje</string>
-    <string name="tomorrow">jutro</string>
-    <string name="error_offline_title">brak internetu</string>
+    <string name="select_a_option_warn">Proszę wybrać opcje</string>
+    <string name="tomorrow">Jutro</string>
+    <string name="error_offline_title">Brak internetu</string>
     <string name="error_offline_message">Aby wykonać tę operację, musisz być online. upewnij się, że połączenie wifi lub danych jest aktywne.</string>
-    <string name="app_needs_relaunch">aplikacja musi zostać ponownie uruchomiona w celu zastosowania nowych ustawień.</string>
-    <string name="email_send_title">wysłać email</string>
+    <string name="app_needs_relaunch">Aplikacja musi zostać ponownie uruchomiona w celu zastosowania nowych ustawień.</string>
+    <string name="email_send_title">Wysłać email</string>
 
     <!-- ==================================================================== -->
     <!-- CONFIG.XML -->
 
-    <string name="home_data_inst_name">mój profil</string>
-    <string name="duplicate">duplikować</string>
+    <string name="home_data_inst_name">Mój profil</string>
+    <string name="duplicate">Duplikować</string>
     <string name="share">Dzielić</string>
     <string name="add">Dodaj</string>
-    <string name="cat_detail">szczegóły kategorii</string>
-    <string name="expense">wydatki</string>
-    <string name="income">dochód</string>
-    <string name="receivable">należności</string>
-    <string name="payable">płatny</string>
+    <string name="cat_detail">szczegóły Kategorii</string>
+    <string name="expense">Wydatki</string>
+    <string name="income">Dochód</string>
+    <string name="receivable">Należnoś</string>
+    <string name="payable">Platne</string>
     <string name="both_expense_income">wydatki i dochody</string>
-    <string name="both_payable_receivable">należne i należne</string>
+    <string name="both_payable_receivable">Płatne i należnoś</string>
 
 
-    <string name="cat_list_title">kategorie</string>
+    <string name="cat_list_title">Kategorie</string>
     <string name="cat_list_empty">żadna kategoria nie istnieje..!</string>
-    <string name="cat_added">dodana kategoria</string>
-    <string name="cat_deleted">usunięto kategorię</string>
-    <string name="cat_saved">zapisana kategoria</string>
+    <string name="cat_added">Dodana kategoria</string>
+    <string name="cat_deleted">Usunięto kategorię</string>
+    <string name="cat_saved">Zapisana kategoria</string>
     <string name="cat_select_a_cat">Wybierz kategorię</string>
     <string name="cat_change">Zmień kategorię</string>
     <string name="cat_deleted_multi">Usunięto %1$d kategorie.</string>
-    <string name="cat_edit">szczegóły kategorii</string>
-    <string name="cat_name_empty">nazwa kategorii jest pusta..!</string>
-    <string name="cat_error_selfparent">kategoria nie może być własną podkategorią, wybierz inną kategorię macierzystą.</string>
-    <string name="cat_name_err">duplikuj nazwę kategorii, użyj innej nazwy..!</string>
-    <string name="cat_delete_warn">wybrana kategoria i którąkolwiek z jego podkategorii zostaną usunięte. \n\ntakże wszystkie wpisy powiązane z kategorią zostaną przypisane do kategorii domyślnej.</string>
-    <string name="cat_delete_unsaved">nie można usunąć kategorii niezapisanej.</string>
+    <string name="cat_edit">szczegóły Kategorii</string>
+    <string name="cat_name_empty">Nazwa kategorii jest pusta..!</string>
+    <string name="cat_error_selfparent">kategoria nie może być własną podkategorią, wybierz inną kategorię nadrzędną.</string>
+    <string name="cat_name_err">Duplikuj nazwę kategorii, użyj innej nazwy..!</string>
+    <string name="cat_delete_warn">Wybrana kategoria i którąkolwiek z jego podkategorii zostaną usunięte. \n\ntakże wszystkie wpisy powiązane z kategorią zostaną przypisane do kategorii domyślnej.</string>
+    <string name="cat_delete_unsaved">Nie można usunąć kategorii niezapisanej.</string>
     <string name="cat_name">Nazwa Kategorii</string>
     <string name="cat_no_of_linked_rows">%1$d rachunki.</string>
     <string name="cat_code">Kod</string>
     <string name="cat_code_empty_err">Wpisz kod kategorii</string>
     <string name="cat_code_existing_err">Kod kategorii jest już używany</string>
     <string name="cat_type">rodzaj</string>
-    <string name="cat_desc">opis kategorii</string>
-    <string name="cat_color">kolor</string>
-    <string name="cat_change_color_tap">stuknij, aby zmienić kolor</string>
+    <string name="cat_desc">Opis kategorii</string>
+    <string name="cat_color">Kolor</string>
+    <string name="cat_change_color_tap">Stuknij, aby zmienić kolor</string>
     <string name="cat_parent_switch">Jest to grupa nadrzędna (najwyższy poziom)</string>
     <string name="cat_subcategory_of">Podkategoria</string>
     <string name="cat_select_parent">Kategoria nadrzędna</string>
     <string-array name="cat_types">
-        <item>wydatki / należności</item>
-        <item>dochód / należność</item>
+        <item>Wydatki / do zapłacenia</item>
+        <item>Dochód / należność</item>
     </string-array>
-    <string name="cat_search_hint">wpisz tutaj filtr</string>
+    <string name="cat_search_hint">Wprowadź tutaj, aby filtrować</string>
     <!-- Categories '', '', '') -->
     <string name="cat_0allCategories">Wszystkie kategorie</string>
-    <string name="cat_1others">inny</string>
-    <string name="cat_1_1">płatności</string>
-    <string name="cat_1_2">prezenty</string>
+    <string name="cat_1others">Innych</string>
+    <string name="cat_1_1">Płatności</string>
+    <string name="cat_1_2">Prezenty</string>
     <!-- <string name="cat_1_3">Charity</string>
     <string name="cat_1_4">Pets</string>
     <string name="cat_1_5">Investment</string> -->
-    <string name="cat_2transfer">transfer</string>
+    <string name="cat_2transfer">Transfer</string>
 
-    <string name="cat_3personal">higieny osobistej</string>
+    <string name="cat_3personal">Higieny osobistej</string>
     <string name="cat_3_1">włosy i piękno</string>
-    <string name="cat_3_2">siłownię i siłownię</string>
-    <string name="cat_3_3">medyczny</string>
-    <string name="cat_3_4">dentystyczny</string>
+    <string name="cat_3_2">Siłownię i fitness</string>
+    <string name="cat_3_3">Medyczny</string>
+    <string name="cat_3_4">Dentystyczny</string>
 
-    <string name="cat_4food">jedzenie i picie</string>
+    <string name="cat_4food">Jedzenie i picie</string>
     <string name="cat_4_1">Kawa</string>
-    <string name="cat_4_2">posiłek</string>
-    <string name="cat_4_3">jedzenie na wynos</string>
-    <string name="cat_4_4">herbata</string>
-    <string name="cat_4_5">restauracja</string>
-    <string name="cat_4_6">sklep spożywczy</string>
-    <string name="cat_4_7">przekąska</string>
+    <string name="cat_4_2">Posiłek</string>
+    <string name="cat_4_3">Jedzenie na wynos</string>
+    <string name="cat_4_4">Herbata</string>
+    <string name="cat_4_5">Restauracja</string>
+    <string name="cat_4_6">Sklep spożywczy</string>
+    <string name="cat_4_7">Przekąska</string>
 
     <string name="cat_5entertainment">zabawa</string>
     <string name="cat_5_1">kino</string>
