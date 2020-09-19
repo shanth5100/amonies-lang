@@ -201,53 +201,53 @@
     <string name="labels_filter_count">Etykiety (%1$d)</string>
 
     <!-- Startup Screen Chooser -->
-    <string name="startup_screen_title">wybierz ekran startowy</string>
-    <string name="startup_screen_msg">wybierz ekran główny, który chcesz zobaczyć podczas otwierania aplikacji.</string>
-    <string name="startup_screen_note">zawsze możesz zmienić wybór przez ustawienia, później.</string>
+    <string name="startup_screen_title">Wybierz ekran startowy</string>
+    <string name="startup_screen_msg">Wybierz ekran główny, który chcesz zobaczyć podczas otwierania aplikacji.</string>
+    <string name="startup_screen_note">Zawsze możesz zmienić wybór przez ustawienia, później.</string>
     <string name="startup_screen_label_default">%1$s - zalecane</string>
-    <string name="startup_screen_change_success">ekran startowy został pomyślnie zmieniony</string>
+    <string name="startup_screen_change_success">Ekran startowy został pomyślnie zmieniony</string>
 
     <!-- from string.xml -->
     <string name="select_currency">Wybierz walutę</string>
-    <string name="warn_invalid_amt">wpisz prawidłową kwotę.</string>
+    <string name="warn_invalid_amt">Wprowadź prawidłową kwotę.</string>
     <string name="warn_invalid_no">Proszę wprowadzić poprawny numer.</string>
-    <string name="warn_invalid_no_min1">wpisz prawidłową liczbę większą niż 1.</string>
+    <string name="warn_invalid_no_min1">Wpisz prawidłową liczbę większą niż 1.</string>
     <string name="category">Kategoria</string>
-    <string name="amount">ilość</string>
-    <string name="amount_empty_warn">Wprowadź ilość</string>
-    <string name="amount_hint">kwota, przykład: 124.55</string>
-    <string name="bill_currency">waluta</string>
-    <string name="change_currency">zmienić walutę</string>
+    <string name="amount">Kwota</string>
+    <string name="amount_empty_warn">Podać kwotę</string>
+    <string name="amount_hint">Kwota, przykład: 124.55</string>
+    <string name="bill_currency">Waluta</string>
+    <string name="change_currency">Zmienić walutę</string>
     <string name="select_a_option">Wybierz opcję</string>
-    <string name="processing">przetwarzanie...</string>
-    <string name="email_dev">contact developer</string>
+    <string name="processing">Przetwarzanie...</string>
+    <string name="email_dev">Skontaktuj się z programistą</string>
     <string name="exit">wyjście</string>
     <string name="exit_info">dotknij przycisku Zakończ, aby zamknąć aplikację.</string>
-    <string name="restart">zrestartuj</string>
+    <string name="restart">Uruchom ponownie</string>
     <string name="drawer_bills_by_status">rachunki według statusu</string>
-    <string name="drawer_settings_sep">narzędzia / ustawienia</string>
-    <string name="drawer_settings">ustawienia</string>
+    <string name="drawer_settings_sep">Narzędzia / ustawienia</string>
+    <string name="drawer_settings">Ustawienia</string>
     <string name="manage_categories">kategorie</string>
-    <string name="drawer_rpt_charts_title">raporty i wykresy</string>
+    <string name="drawer_rpt_charts_title">Raporty i wykresy</string>
     <string name="update_available_title">@string/app_name</string>
-    <string name="update_available_warn">Nowa aktualizacja, z nowymi funkcjami i poprawkami błędów.</string>
+    <string name="update_available_warn">Dostępna jest nowa aktualizacja z nowymi funkcjami i poprawkami błędów.</string>
     <string name="update_available_force">Nie obsługujemy tej wersji.\n\n Proszę teraz zaktualizować.</string>
     <string name="update_available_force_dummy">Nieprawidłowa data.\n\nProszę sprawdzić swoje połączenie z internetem.</string>
     <string name="update_now">Aktualizuj teraz</string>
-    <string name="later">później</string>
-    <string name="menu_drawer_group_more">komunikacja / więcej</string>
+    <string name="later">Później</string>
+    <string name="menu_drawer_group_more">Komunikacja / więcej</string>
     <string name="rate_app_title">Oceń tę aplikację</string>
     <string name="share_this_app">Udostępnij tą aplikację</string>
-    <string name="share_this_app_title">współużytkować za pomocą</string>
-    <string name="share_this_app_subject">spójrz na aplikację \"%1$s\"</string>
-    <string name="about_us">o nas</string>
-    <string name="by_124apps">sponsorowane przez 124APPS</string> <!-- &#169; -->
-    <string name="rate_app_msg">lubisz tę aplikację? \n\njeśli tak, poprzyj nasz rozwój z miłym rankingiem.\n\t* * * * *\ndzięki.</string>
+    <string name="share_this_app_title">Współużytkować za pomocą</string>
+    <string name="share_this_app_subject">Spójrz na aplikację \"%1$s\"</string>
+    <string name="about_us">O nas</string>
+    <string name="by_124apps">Sponsorowane przez 124APPS</string> <!-- &#169; -->
+    <string name="rate_app_msg">Lubisz tę aplikację? \n\njeśli tak, poprzyj nasz rozwój z miłym rankingiem.\n\t* * * * *\ndzięki.</string>
     <string name="rate_app_now">Oceń teraz</string>
-    <string name="rate_app_later">później</string>
+    <string name="rate_app_later">Później</string>
     <string name="rate_app_no">Nie, dziękuję</string>
 
-    <string name="close">blisko</string>
+    <string name="close">Szczelnie</string>
 
     <string-array name="rpt_bills_forcast">
         <item>Tylko do dzisiaj</item>
@@ -256,9 +256,9 @@
         <item>Z wyprzedzeniem 3 miesięcy</item>
         <item>Z wyprzedzeniem 4 miesięcy</item>
         <item>Z wyprzedzeniem 5 miesięcy</item>
-        <item>6 miesięcy wcześniej</item>
+        <item>Z wyprzedzeniem 6 miesięcy</item>
         <item>Z wyprzedzeniem 1 rok</item>
-        <item>18 miesięcy wcześniej</item>
+        <item>Z wyprzedzeniem 18 miesięcy</item>
         <item>Z wyprzedzeniem 2 lata</item>
         <item>Z wyprzedzeniem 3 lata</item>
         <item>Z wyprzedzeniem 4 lat</item>
@@ -266,81 +266,81 @@
         <item>10 lat wcześniej</item>
     </string-array>
     <string-array name="notify_days">
-        <item>3 miesiące przed terminem</item>
-        <item>2 miesiące przed terminem</item>
-        <item>1 miesiąc przed terminem</item>
-        <item>3 tygodnie przed terminem</item>
-        <item>2 tygodnie przed terminem</item>
-        <item>10 dni przed terminem</item>
-        <item>9 dni przed terminem</item>
-        <item>8 dni przed terminem</item>
-        <item>7 dni przed terminem</item>
-        <item>6 dni przed terminem</item>
-        <item>5 dni przed terminem</item>
-        <item>4 dni przed terminem</item>
-        <item>3 dni przed terminem</item>
-        <item>2 dni przed terminem</item>
-        <item>1 dzień przed terminem</item>
-        <item>- taki sam jak termin -</item>
-        <item>1 dzień po terminie</item>
-        <item>2 dni po terminie</item>
-        <item>3 dni po terminie</item>
-        <item>4 dni po terminie</item>
-        <item>5 dni po terminie</item>
-        <item>6 dni po terminie</item>
-        <item>7 dni po terminie</item>
-        <item>8 dni po terminie</item>
-        <item>9 dni po terminie</item>
-        <item>10 dni po terminie</item>
-        <item>2 tygodnie po terminie</item>
-        <item>3 tygodnie po terminie</item>
-        <item>1 miesiąc po terminie</item>
-        <item>2 miesiące po terminie</item>
-        <item>3 miesiące po terminie</item>
+        <item>3 miesiące przed terminem płatności</item>
+        <item>2 miesiące przed terminem płatności</item>
+        <item>1 miesiące przed terminem płatności</item>
+        <item>3 tygodnie przed terminem płatności</item>
+        <item>2 tygodnie przed terminem płatności</item>
+        <item>10 dni przed terminem płatności</item>
+        <item>9 dni przed terminem płatności</item>
+        <item>8 dni przed terminem płatności</item>
+        <item>7 dni przed terminem płatności</item>
+        <item>6 dni przed terminem płatności</item>
+        <item>5 dni przed terminem płatności</item>
+        <item>4 dni przed terminem płatności</item>
+        <item>3 dni przed terminem płatności</item>
+        <item>2 dni przed terminem płatności</item>
+        <item>1 dzień przed terminem płatności</item>
+        <item>- taki sam jak termin i później -</item>
+        <item>1 dzień po terminiepłatności</item>
+        <item>2 dni po terminiepłatności</item>
+        <item>3 dni po terminiepłatności</item>
+        <item>4 dni po terminiepłatności</item>
+        <item>5 dni po terminiepłatności</item>
+        <item>6 dni po terminiepłatności</item>
+        <item>7 dni po terminiepłatności</item>
+        <item>8 dni po terminiepłatności</item>
+        <item>9 dni po terminiepłatności</item>
+        <item>10 dni po terminiepłatności</item>
+        <item>2 tygodnie po terminiepłatności</item>
+        <item>3 tygodnie po terminiepłatności</item>
+        <item>1 miesiąc po terminiepłatności</item>
+        <item>2 miesiące po terminiepłatności</item>
+        <item>3 miesiące po terminiepłatności</item>
     </string-array>
 
     <string name="permission_denied_dialog_msg">proszę pozwolić na odczyt i zapis pamięci zewnętrznej, aby zapisać dane. \nodmowa uprawnień powodowałaby niezgodność aplikacji.</string>
-    <string name="permission_denied_dialog_restart">spróbować ponownie</string>
+    <string name="permission_denied_dialog_restart">Spróbować ponownie</string>
     <string name="permission_denied_dialog_dont_care">Nie obchodzi mnie to</string>
-    <string name="permission_denied_camera">aplikacja potrzebuje pozwolenia na aparat, aby robić zdjęcia.</string>
-    <string name="permission_denied_camera_receipt">aplikacja potrzebuje pozwolenia na aparat, aby przechwytywać zdjęcia z potwierdzeniem odbioru.</string>
+    <string name="permission_denied_camera">Aplikacja potrzebuje pozwolenia na aparat, aby robić zdjęcia.</string>
+    <string name="permission_denied_camera_receipt">Aplikacja potrzebuje pozwolenia na aparat, aby przechwytywać zdjęcia z potwierdzeniem odbioru.</string>
 
     <!-- ==================================================================== -->
     <!-- BILLS.XML -->
     <string name="app_name">Bills Reminder</string>
     <!--<string name="title_bills_by_status">rachunki według statusu</string>
     <string name="title_bills_by_period">Bills by period</string>-->
-    <string name="title_bills_list">listy rachunków</string>
-    <string name="title_bills_report">rachunki</string>
+    <string name="title_bills_list">Listy rachunków</string>
+    <string name="title_bills_report">Raporty rachunki</string>
 
-    <string name="title_bill_upcoming">zbliżające się rachunki</string>
-    <string name="title_bill_overdue">zaległe rachunki</string>
-    <string name="title_bill_paid">płacone rachunki</string>
-    <string name="title_bill_unpaid">niezapłacone rachunki</string>
-    <string name="title_bill_detail">szczegóły rachunku</string>
-    <string name="title_bill_detail_new">nowe przypomnienie o rachunku</string>
-    <string name="title_activity_calendar">widok kalendarza</string>
-    <string name="bills">rachunki</string>
+    <string name="title_bill_upcoming">Zbliżające się rachunki</string>
+    <string name="title_bill_overdue">Zaległe rachunki</string>
+    <string name="title_bill_paid">rachunki Płacone</string>
+    <string name="title_bill_unpaid">Niezapłacone rachunki</string>
+    <string name="title_bill_detail">Szczegóły rachunku</string>
+    <string name="title_bill_detail_new">Nowe przypomnienie o rachunku</string>
+    <string name="title_activity_calendar">Widok kalendarza</string>
+    <string name="bills">Rachunki</string>
     <string name="bill_new">dodać przypomnienie o rachunku</string>
-    <string name="bills_overdue">zaległy</string>
-    <string name="bills_upcoming">nadchodzące</string>
-    <string name="bills_paid">płatny</string>
-    <string name="bills_unpaid">nie zapłacony</string>
-    <string name="bills_recurr">powtarzające się rachunki</string>
+    <string name="bills_overdue">Zaległy</string>
+    <string name="bills_upcoming">Nadchodzące</string>
+    <string name="bills_paid">Płatn</string>
+    <string name="bills_unpaid">Nie zapłacony</string>
+    <string name="bills_recurr">Powtarzające się rachunki</string>
     <string name="bills_recur_desc">powtarza co %1$d %2$s.</string>
-    <string name="restart_app">zrestartuj aplikację.</string>
-    <string name="bills_view">wyświetlić rachunki</string>
+    <string name="restart_app">Uruchom ponownie aplikację</string>
+    <string name="bills_view">Zobacz rachunki</string>
 
-    <string name="bill_list_empty_tip">nie ma rachunku. \n(kliknij pływający przycisk \'+\' aby go utworzyć)</string>
+    <string name="bill_list_empty_tip">Nie ma rachunku. \n(kliknij pływający przycisk \'+\' aby go utworzyć)</string>
     <string name="bill_list_empty">brak rachunków.</string>
 
     <string name="navigation_drawer_open">otwarta szuflada nawigacyjna</string>
     <string name="navigation_drawer_close">zamknij szufladę nawigacyjną</string>
-    <string name="dummy_day">poślubić</string>
+    <string name="dummy_day">Śro</string>
 
-    <string name="bill_delete_unsaved">nie można usunąć niezapisanego rachunku.</string>
-    <string name="bill_deleted">usunięto rachunek.</string>
-    <string name="bill_delete_single_warn">rachunek zostanie usunięty, kontynuuj?</string>
+    <string name="bill_delete_unsaved">Nie można usunąć niezapisanego rachunku.</string>
+    <string name="bill_deleted">Rachunek usunięty</string>
+    <string name="bill_delete_single_warn">Rachunek i jego płatności zostaną usunięte, kontynuować?</string>
     <string name="bill_delete_multi_warn">wybrane rachunki zostaną usunięte, kontynuuj?</string>
     <string name="bill_delete_recur_warn">ten powtarzający się wpis i wszystkie powiązane rachunki zostaną usunięte, kontynuuj?</string>
     <string name="bill_duplicate_warn">Powtórzemy %1$d duplikaty rachunków, kontynuuj?</string>
