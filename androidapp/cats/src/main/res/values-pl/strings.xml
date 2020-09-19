@@ -341,91 +341,91 @@
     <string name="bill_delete_unsaved">Nie można usunąć niezapisanego rachunku.</string>
     <string name="bill_deleted">Rachunek usunięty</string>
     <string name="bill_delete_single_warn">Rachunek i jego płatności zostaną usunięte, kontynuować?</string>
-    <string name="bill_delete_multi_warn">wybrane rachunki zostaną usunięte, kontynuuj?</string>
-    <string name="bill_delete_recur_warn">ten powtarzający się wpis i wszystkie powiązane rachunki zostaną usunięte, kontynuuj?</string>
-    <string name="bill_duplicate_warn">Powtórzemy %1$d duplikaty rachunków, kontynuuj?</string>
-    <string name="bill_not_found">rachunek nie istnieje.</string>
+    <string name="bill_delete_multi_warn">Wybrane rachunek i jego płatności zostaną usunięte, kontynuować?</string>
+    <string name="bill_delete_recur_warn">Ten powtarzający się wpis i wszystkie powiązane rachunki zostaną usunięte, kontynuuj?</string>
+    <string name="bill_duplicate_warn">Zostaną utworzone zduplikowane rachunki %1$d, kontynuować?</string>
+    <string name="bill_not_found">Rachunek nie istnieje.</string>
     <string name="app_error_restart">Automatycznie rozwiązano problem, zrestartuj aplikację.</string>
     <string name="multi_select_mode_title">%1$s, ogółem: %2$s</string>
 
-    <string name="bill_deleted_recur">pomyślnie skreślać powtarzające się rachunki.</string>
+    <string name="bill_deleted_recur">Pomyślnie usunięto rachunki cykliczne.</string>
     <string name="bill_deleted_multi">Usunięto %1$d rachunki.</string>
     <string name="bill_multi_update_count">Zaktualizowano %1$d rachunki.</string>
     <string name="bill_duplicate_multi">Utworzono %1$d nowe rachunki.</string>
-    <string name="bill_duplicate_multi_error">skontaktuj się z developerem. błąd kopiowania rachunków: %1$s</string>
-    <string name="bill_added">dodano nowy rachunek.</string>
-    <string name="bill_saved">rachunek zaoszczędzony.</string>
-    <string name="bill_populating_recent">populating z ostatnich wartości</string>
+    <string name="bill_duplicate_multi_error">Skontaktuj się z deweloperem. błąd kopiowania rachunków: %1$s</string>
+    <string name="bill_added">Dodano nowy rachunek.</string>
+    <string name="bill_saved">Rachunek zaoszczędzony.</string>
+    <string name="bill_populating_recent">Populating z ostatnich wartości</string>
 
     <string name="bill_payee">odbiorca / przedmiot</string>
     <string name="bill_duedt">Termin płatności</string>
     <string name="cat_new_title">Nowa kategoria</string>
-    <string name="bill_dueNear">należny %1$s</string>
-    <string name="bill_dueIn">należny za %1$d dni</string>
+    <string name="bill_dueNear">Należny %1$s</string>
+    <string name="bill_dueIn">Należny za %1$d dni</string>
     <string name="bill_dueOver">przeterminowane o %1$d dni</string>
-    <string name="bill_paid">płatny</string>
+    <string name="bill_paid">Płatne</string>
     <string name="bill_received">Odebrane</string>
-    <string name="bill_unpaid">nie zapłacony</string>
-    <string name="bill_paid_on">zapłacone</string>
-    <string name="bill_type">rodzaj rachunku</string>
-    <string name="bill_change_notification">zmienić powiadomienie o przypomnieniu</string>
-    <string name="bill_more_options">więcej możliwości</string>
-    <string name="notify">wyświetla powiadomienia o przypomnieniach</string>
+    <string name="bill_unpaid">Niezapłacony</string>
+    <string name="bill_paid_on">Zapłacone</string>
+    <string name="bill_type">Rodzaj rachuneku</string>
+    <string name="bill_change_notification">Zmienić powiadomienie o przypomnieniu</string>
+    <string name="bill_more_options">Więcej możliwości</string>
+    <string name="notify">Wyświetla powiadomienia o przypomnieniach</string>
     <string name="notify_channel_name_app">Wykorzystanie aplikacji</string>
-    <string name="notify_channel_desc_reminder">Powiadomienie o zapłacie rachunku, zaległym lub zbliżającym się terminie.</string>
-    <string name="notify_channel_desc_app">Informacje o aktualizacjach nowej wersji lub przypomnieniu o korzystaniu z aplikacji.</string>
-    <string name="tx_payee_hint">przykład: wynajem</string>
-    <string name="tx_notes">notatki lub skanowanie kodu kreskowego / adresu URL</string>
-    <string name="tx_notes_zing_missing_title">zainstaluj skaner kodów kreskowych</string>
-    <string name="tx_notes_zing_missing">ta funkcja wymaga skanera kodu kreskowego, czy chcesz go zainstalować?</string>
-    <string name="tx_error_save_pic">błąd podczas zapisywania obrazu: %1$s</string>
-    <string name="tx_photo_not_supported">niezdolny do przechwytywania zdjęcia, urządzenia nieobsługiwanego..!</string>
-    <string name="tx_photo_take_new_photo">robić nowe zdjęcie</string>
-    <string name="tx_photo_select_from_gallery">wybierz z galerii</string>
+    <string name="notify_channel_desc_reminder">Powiadomienie o płatności za rachunki, zaległych lub zbliżających się.</string>
+    <string name="notify_channel_desc_app">O aktualizacjach nowej wersji lub przypomnieniu o korzystaniu z aplikacji.</string>
+    <string name="tx_payee_hint">Przykład: wynajem</string>
+    <string name="tx_notes">Notatki lub skanowanie kodu kreskowego / adresu URL</string>
+    <string name="tx_notes_zing_missing_title">Zainstaluj skaner kodów kreskowych</string>
+    <string name="tx_notes_zing_missing">Ta funkcja wymaga skanera kodu kreskowego, czy chcesz go zainstalować?</string>
+    <string name="tx_error_save_pic">Błąd podczas zapisywania obrazu: %1$s</string>
+    <string name="tx_photo_not_supported">Niezdolny do przechwytywania zdjęcia, urządzenia nieobsługiwanego..!</string>
+    <string name="tx_photo_take_new_photo">Zrobić nowe zdjęcie</string>
+    <string name="tx_photo_select_from_gallery">Wybierz z galerii</string>
     <string-array name="tx_photo_options">
         <item>zobacz zdjęcie</item>
-        <item>robić nowe zdjęcie</item>
-        <item>wybierz z galerii</item>
+        <item>Zrobić nowe zdjęcie</item>
+        <item>Wybierz z galerii</item>
         <item>usuń zdjęcie</item>
     </string-array>
     <!-- Sort options -->
     <string name="menu_sort_by">Sortuj według</string>
     <string name="sort_by_date_asc">data rosnąco</string>
     <string name="sort_by_date_desc">data malejąca</string>
-    <string name="sort_by_amt_asc">kwota rosnąco</string>
-    <string name="sort_by_amt_desc">kwota malejąca</string>
+    <string name="sort_by_amt_asc">Kwota rosnąco</string>
+    <string name="sort_by_amt_desc">Kwota malejąca</string>
     <string name="sort_by_payee_asc">odbiorca rosnący</string>
     <string name="sort_by_payee_desc">odbiorca zstępujący</string>
 
-    <string name="menu_search_bills">wyszukiwać rachunki</string>
-    <string name="bill_total_row">%1$d wiersz, razem: </string>
+    <string name="menu_search_bills">Wyszukiwać rachunki</string>
+    <string name="bill_total_row">%1$d wiersz, łącznie:</string>
     <string name="bill_total_rows">%1$d rzędy, łącznie: </string>
-    <string name="bill_rpt_date_beyond">%1$s i więcej</string>
-    <string name="bill_total_rows_multi_curr">%1$d wiersze, w wielu walutach.</string>
+    <string name="bill_total_rows_multi_curr">%1$d rzędy, w wielu walutach.</string>
+    <string name="bill_rpt_date_beyond">%1$s i poza nią</string>
     <string name="bill_rpt_total_payable">całkowita kwota należna: %1$s</string>
-    <string name="bill_rpt_total_receivable">należność ogółem: %1$s</string>
-    <string name="bill_rpt_type_cat_payable">rachunki płatne według kategorii</string>
-    <string name="bill_rpt_type_cat_receivable">należności według kategorii</string>
-    <string name="bill_rpt_charts_saved">wygenerowane raporty (%1$d)</string>
-    <string name="bill_rpt_charts_saved_empty">bez zapisanych raportów.\n Czy próbowałeś już wygenerować funkcję raportowania w formacie pdf?</string>
+    <string name="bill_rpt_total_receivable">Należność ogółem: %1$s</string>
+    <string name="bill_rpt_type_cat_payable">Rachunki płatne według kategorii</string>
+    <string name="bill_rpt_type_cat_receivable">Rachunki należności według kategorii</string>
+    <string name="bill_rpt_charts_saved">Wygenerowane raporty (%1$d)</string>
+    <string name="bill_rpt_charts_saved_empty">Bez zapisanych raportów.\n Czy próbowałeś już wygenerować funkcję raportowania w formacie pdf?</string>
     <string name="bill_rpt_charts_saved_loc">Raporty pdf są przechowywane w: %1$s</string>
 
-    <string name="bill_rpt_1categorywise_pay_label">wykres kategorii (płatny)</string>
+    <string name="bill_rpt_1categorywise_pay_label">Wykres według kategorii (płatny)</string>
     <string name="bill_rpt_1categorywise_pay_info">Wykres kołowy przedstawiający porównanie kategorii w danym okresie.</string>
-    <string name="bill_rpt_2categorywise_receive_label">kategorii mądry wykres (należności)</string>
+    <string name="bill_rpt_2categorywise_receive_label">Kategorii mądry wykres (należności)</string>
     <string name="bill_rpt_2categorywise_receive_info">Wykres kołowy przedstawiający porównanie kategorii w danym okresie.</string>
-    <string name="bill_rpt_3trends_30days_label">rachunki trwa 30 dni</string>
-    <string name="bill_rpt_3trends_30days_info">wykres liniowy pokazujący codzienne porównanie należności i należności za ostatnie 30 dni</string>
-    <string name="bill_rpt_4monthwise_pay_label">miesięczne porównanie (płatne)</string>
+    <string name="bill_rpt_3trends_30days_label">Rachunki trwa 30 dni</string>
+    <string name="bill_rpt_3trends_30days_info">wykres liniowy pokazujący codzienne porównanie płatny i należności za ostatnie 30 dni</string>
+    <string name="bill_rpt_4monthwise_pay_label">Miesięczne porównanie (płatne)</string>
     <string name="bill_rpt_4monthwise_pay_info">wykres słupkowy wykazujący miesięczne porównanie płatnych rachunków.</string>
     <string name="bill_rpt_5monthwise_receive_label">miesięczne porównanie (należności)</string>
-    <string name="bill_rpt_5monthwise_receive_info">wykres słupkowy, wykazujący miesięczne porównanie należności rachunki.</string>
+    <string name="bill_rpt_5monthwise_receive_info">Wykres słupkowy, wykazujący miesięczne porównanie należności rachunek.</string>
 
-    <string name="bill_rpt_comparison_title">raport porównawczy</string>
+    <string name="bill_rpt_comparison_title">Raport porównawczy</string>
     <string name="bill_rpt_comparison_daywise_label">day wise porównanie przez %1$d dni</string>
-    <string name="bill_rpt_comparison_weekwise_label">tygodniowe porównanie przez %1$d tygodnie</string>
-    <string name="bill_rpt_comparison_monthwise_label">miesięczne porównanie przez %1$d miesiące</string>
-    <string name="bill_rpt_comparison_yearwise_label">letniego porównania przez %1$d lata</string>
+    <string name="bill_rpt_comparison_weekwise_label">Tygodniowe porównanie przez %1$d tygodnie</string>
+    <string name="bill_rpt_comparison_monthwise_label">Miesięczne porównanie przez %1$d miesiące</string>
+    <string name="bill_rpt_comparison_yearwise_label">Porównanie przez %1$d lat</string>
 
     <string name="bill_rpt_trends_title">rachunki</string>
     <string name="bill_rpt_trend_daywise_last_30">Porównanie 30 dni</string>
