@@ -830,117 +830,117 @@
     <string name="feature_view_comparison">Wyświetl funkcje porównawcze</string>
     <string name="feature_purchased">Zakupione</string>
 
-    <string name="welcome_title1_bill_detail">dodać nowe przypomnienie o rachunku</string>
-    <string name="welcome_info1_bill_detail">wpisz szczegóły rachunku i zapisz. obsługuje także powtarzające się rachunki i zmienia walutę.</string>
-    <string name="welcome_title2_receipt">zdjęcie pokwitowanie</string>
-    <string name="welcome_info2_receipt">przejdź bez karty, dołączając rachunek wraz ze szczegółami rachunku.</string>
-    <string name="welcome_title3_bill_upcoming">wyświetlać rachunki według statusu</string>
-    <string name="welcome_info3_bill_upcoming">zapoznaj się z nadchodzącymi, zaległymi, niezapłaconymi i zapłaconymi rachunkami. </string>
-    <string name="welcome_title4_bill_list">prosty układ kart</string>
-    <string name="welcome_info4_bill_list">wyświetlać rachunki za każdy okres i łatwo przesuwać między kartami. przykład: za każdy miesiąc.</string>
-    <string name="welcome_title5_drawer">menu szuflad nawigacyjnych</string>
-    <string name="welcome_info5_drawer">dashboard, kategorie i podkategorie, kalendarz, wiele walut, raporty i wykresy, wiele profili, tworzenie kopii zapasowych i przywracanie.</string>
-    <string name="welcome_title6_recurring">zarządzaj powtarzającymi się rachunkami</string>
+    <string name="welcome_title1_bill_detail">Dodać nowe przypomnienie o rachunku</string>
+    <string name="welcome_info1_bill_detail">Wpisz szczegóły rachunku i zapisz. obsługuje także powtarzające się rachunki i zmienia walutę.</string>
+    <string name="welcome_title2_receipt">Zdjęcie pokwitowanie</string>
+    <string name="welcome_info2_receipt">Idź bez papieru, dołączając paragon wraz ze szczegółami rachunku.</string>
+    <string name="welcome_title3_bill_upcoming">Wyświetlać rachunek według statusu</string>
+    <string name="welcome_info3_bill_upcoming">Zapoznaj się z nadchodzącymi, zaległymi, niezapłaconymi i zapłaconymi rachunkami. </string>
+    <string name="welcome_title4_bill_list">Prosty układ zakładek</string>
+    <string name="welcome_info4_bill_list">Wyświetlać rachunki za każdy okres i łatwo przesuwać między zakładek. przykład: za każdy miesiąc.</string>
+    <string name="welcome_title5_drawer">Menu szuflad nawigacyjnych</string>
+    <string name="welcome_info5_drawer">Dashboard, kategorie i podkategorie, kalendarz, wiele walut, raporty i wykresy, wiele profili, tworzenie kopii zapasowych i przywracanie.</string>
+    <string name="welcome_title6_recurring">Zarządzaj powtarzającymi się rachunkami</string>
     <string name="welcome_info6_recurring">powtarzające się konfiguracje pomagają łatwo tworzyć, aktualizować, usuwać rachunki i powtarzające się rachunki.</string>
     <string name="welcome_title6_settings">ustawienie ułatwiające dostosowanie</string>
     <string name="welcome_info6_settings">czas powiadamiania o zmianach, powtarzające się okresy prognoz rachunków, zmianę domyślnej waluty i wiele innych.</string>
 
-    <string name="coffee_title">kup nam kawę</string>
+    <string name="coffee_title">Kup nam kawę</string>
     <string name="coffee_description">robimy dni i noce, aby uzyskać najlepsze doświadczenia z aplikacjami, dodawać nowe funkcje, naprawiać wady. proszę wspierać nasz rozwój - kup nam kawę.</string>
     <string name="coffee_buy_now">Kup teraz</string>
     <string name="coffee_thank_you">Dziękuję Ci</string>
 
-    <string name="widget_bill_overview_title">streszczenia rachunków</string>
+    <string name="widget_bill_overview_title">streszczenia rachunek</string>
     <string name="widget_bill_overview_overdue">zaległy: </string>
     <string name="widget_bill_overview_today">do dziś: </string>
-    <string name="widget_bill_overview_upcoming">nadchodzące: </string>
+    <string name="widget_bill_overview_upcoming">Nadchodzących: </string>
     <string name="widget_bill_overview_count">%1$d</string>
 
     <string name="widget_bill_single_title">Śledź rachunek</string>
-    <string name="widget_bill_paid_on">Zapłaciliśmy %1$s</string>
-    <string name="widget_bill_due_in">Termin w ciągu %1$d dni</string>
-    <string name="widget_bill_due_tomorrow">na jutro</string>
+    <string name="widget_bill_paid_on">Zapłacono %1$s</string>
+    <string name="widget_bill_due_in">Termin za %1$d dni</string>
+    <string name="widget_bill_due_tomorrow">Ze względu jutro</string>
     <string name="widget_bill_due_today">do dziś</string>
     <string name="widget_bill_due_yesterday">wczoraj</string>
     <string name="widget_bill_overdue_by">przeterminowane o %1$d dni</string>
-    <string name="coach_mark_add_bill">Kliknij przycisk \'+\', aby dodać przypomnienie o gotówce</string>
     <string name="coach_mark_burger_icon">Kliknij ikonę burgera, aby wyświetlić inne ekrany</string>
+    <string name="coach_mark_add_bill">Kliknij przycisk \'+\', aby dodać przypomnienie o rachunek</string>
     <string name="widget_bill_select_title">Wybierz rachunek</string>
 
-    <string name="error_max_bills_exceeded">liczba rachunków przekroczyła maksymalny limit, zaktualizuj, aby dodać więcej rachunków.</string>
-    <string name="error_max_cats_exceeded">liczba kategorii przekroczyła maksymalny limit, zaktualizuj, aby dodać więcej kategorii.</string>
+    <string name="error_max_bills_exceeded">Liczba rachunek przekroczyła maksymalny limit, uaktualnienia, aby dodać więcej rachunków.</string>
+    <string name="error_max_cats_exceeded">Liczba kategorii przekroczyła maksymalny limit, uaktualnienia, aby dodać więcej kategorii.</string>
 
     <string name="bill_paid1">płatny rachunek</string>
-    <string name="bill_unpaid1">niezapłacony rachunek</string>
-    <string name="bill_overdue1">zaległy rachunek</string>
-    <string name="bill_upcoming1">nadchodzący rachunek</string>
-    <string name="bill_payments">płatności za rachunki (%1$d)</string>
+    <string name="bill_unpaid1">Niezapłacony rachunek</string>
+    <string name="bill_overdue1">Zaległy rachunek</string>
+    <string name="bill_upcoming1">Nadchodzących rachunek</string>
+    <string name="bill_payments">Płatności (%1$d)</string>
     <string name="bill_payment_mark_paid">jest wypłacana w całości</string>
-    <string name="bill_payment">opłata za rachunki</string>
-    <string name="bill_make_payment">dodaj płatność</string>
-    <string name="bill_payments_empty_text">nie dokonano jeszcze żadnych płatności na tym rachunku.</string>
-    <string name="bill_payment_total">%1$d płatności za rachunki to %2$s</string>
-    <string name="bill_payment_total_remaining">%1$s pozostałe do spłaty w łącznej wysokości %2$s</string>
+    <string name="bill_payment">Opłata za rachunki</string>
+    <string name="bill_make_payment">Dodaj płatność</string>
+    <string name="bill_payments_empty_text">nie dokonano jeszcze żadnych płatności na tym rachunku. \n(Dotknij, aby dodać płatność)</string>
+    <string name="bill_payment_total">%1$d płatności za rachunki to łącznie %2$s</string>
+    <string name="bill_payment_total_remaining">%1$s pozostałe do zapłacenia łącznej kwoty %2$s</string>
     <string name="bill_payment_total_overpaid">%1$s nadpłacone w całości z powodu %2$s</string>
     <string name="bill_payment_total_equal">Gratulacje! ten rachunek jest płatny.</string>
-    <string name="bill_payment_heading">%1$s przypada na %2$s</string>
-    <string name="bill_payment_bill_amt">kwota rachunku:</string>
+    <string name="bill_payment_heading">%1$s z powodu %2$s</string>
+    <string name="bill_payment_bill_amt">Kwota rachunek:</string>
     <string name="bill_payment_amt_paid">pełna kwota:</string>
     <string name="bill_payment_amt_due">do zapłaty:</string>
-    <string name="bill_payment_date">termin płatności</string>
-    <string name="bill_payment_last_paid_dt">ostatni zapłacony %1$s</string>
+    <string name="bill_payment_date">Termin płatności</string>
+    <string name="bill_payment_last_paid_dt">Ostatni zapłacony %1$s</string>
     <string name="bill_payment_not_exits">[Żaden]</string>
-    <string name="bill_payments_tablet_view">oznacz jako płatne, obejrzyj lub dodaj płatności za rachunki &#8230;</string>
-    <string name="bill_payment_amt_outstanding">Łącznie pozostałe:</string>
+    <string name="bill_payments_tablet_view">Oznacz jako płatne, obejrzyj lub dodaj płatności za rachunki &#8230;</string>
+    <string name="bill_payment_amt_outstanding">Razem zaległe:</string>
 
-    <string name="contact_name_hint">Kontakt, nazwa klienta lub firma</string>
+    <string name="contact_name_hint">Kontakt, nazwa klienta lub nazwa firmy</string>
     <string name="contact_payee_empty">Podaj nazwę kontaktu.</string>
-    <string name="contact_max_limit_exceed">Przekroczono maksymalną liczbę kontaktów, zaktualizuj, aby dodać więcej.</string>
-    <string name="recur_list_selectmode_title">Wybierz konfigurację cykliczną</string>
-    <string name="recur_details_title">Konfiguracja cykliczna</string>
+    <string name="contact_max_limit_exceed">Przekroczono maksymalną liczbę kontaktów, uaktualnienia, aby dodać więcej.</string>
+    <string name="recur_list_selectmode_title">Wybierz konfigurację powtarzającą</string>
+    <string name="recur_details_title">Konfiguracja powtarzającą</string>
     <string name="recur_details_saved">Utworzono nową konfigurację cykliczną.</string>
     <string name="recur_details_updated">Zaktualizowano konfigurację cykliczną</string>
     <string name="recur_details_edit">Edytuj konfigurację</string>
     <string name="recur_link_add_label">Dodaj powtarzającą się naturę</string>
-    <string name="recur_forecast_period_is">Obecnie przewidywany okres wynosi %1$s.</string>
+    <string name="recur_forecast_period_is">Aktualnie prognozowany okres jest ustawiony na %1$s.</string>
     <string name="recur_forecast_period_date">Oznacza to, że powtarzające się wpisy będą tworzone automatycznie do %1$s.</string>
     <string name="recur_forecast_view_settings">Wyświetl okres prognozy</string>
     <string-array name="recur_config_add_options">
         <item>Wybierz istniejącą konfigurację</item>
-        <item>Utwórz nową konfigurację cykliczną</item>
+        <item>Utwórz nową konfigurację powtarzające</item>
     </string-array>
 
     <string name="attachment_title">Załączniki</string>
     <string name="attachment_title_count">Załączniki (%1$d)</string>
-    <string name="attachment_non_exists">Brak załączników, dotknij powyżej przycisków, aby dodać zdjęcie lub plik do tego wpisu.</string>
+    <string name="attachment_non_exists">Brak załączników, dotknij powyżej przycisków, aby dodać zdjęcie lub plik do tego wpisy.</string>
     <string name="attachment_take_photo">Robić zdjęcie</string>
     <string name="attachment_add_file">Dodaj istniejący plik</string>
-    <string name="attachment_deleting_snackbar">Kasowanie&#8230; %1$s</string>
+    <string name="attachment_deleting_snackbar">Usuwanie&#8230; %1$s</string>
     <string name="bill_attachments_tablet_view">Dodaj lub wyświetl potwierdzenia / załączniki &#8230;</string>
     <string name="bill_attachments_save_label">Zapisz i załaduj ponownie, aby dodać załączniki</string>
 
     <string name="cat_no_of_linked_rows_txs_bills">%1$d transakcje, %2$d rachunki.</string>
     <string name="cat_no_of_linked_rows_txs">%1$d transakcje.</string>
 
-    <string name="acct_1name">Gotówkowy</string>
-    <string name="acct_1desc">kliknij tutaj, aby edytować lub usunąć dowolne konto.</string>
+    <string name="acct_1name">Portfel gotówkowy</string>
+    <string name="acct_1desc">Kliknij tutaj, aby edytować lub usunąć dowolne konto.</string>
     <string name="acct_2name">Karta kredytowa</string>
-    <string name="acct_2desc">wystarczy, aby wyświetlić transakcje na koncie.</string>
+    <string name="acct_2desc">Wystarczy, aby wyświetlić transakcje na koncie.</string>
     <string name="acct_3name">Konto bankowe</string>
     <string name="acct_3desc">wyświetlić szczegóły konta, aby ustawić budżet miesięczny.</string>
 
-    <string name="transfer_title">transfer funduszy</string>
+    <string name="transfer_title">Transfer funduszy</string>
     <string name="view_settings">Ustawienia widoku</string>
     <string name="google_drive_not_linked">Połącz swoje konto Google, aby zachować kopię zapasową danych w pamięci Google Drive.</string>
 
     <string name="cat_icon">Ikona</string>
     <!-- <string name="tax_percent">Tax Rate</string> -->
     <string name="bill_date">Data rachunku</string>
-    <string name="bill_notify_enable">Pokaż codzienne przypomnienie / powiadomienie</string>
-    <string name="menu_txs_list">transakcji</string>
+    <string name="bill_notify_enable">Pokaż codzienne przypomnienie powiadomienie</string>
+    <string name="menu_txs_list">Transakcje</string>
 
     <string name="contacts_and_groups_label">Kontakty i grupy</string>
-    <string name="contacts_list">Łączność</string>
+    <string name="contacts_list">Kontakty</string>
     <string name="contact_select">Wybierz kontakt</string>
     <string name="contact_new">Nowy kontakt</string>
     <string name="contact_details">Szczegóły kontaktu</string>
@@ -951,25 +951,25 @@
     <string name="contact_email">Adres e-mail</string>
     <string name="contact_phone_alt">Alternatywny numer telefonu</string>
     <string name="contact_email_alt">Alternatywny adres e-mail</string>
-    <string name="contact_address">Adres kontaktowy</string>
+    <string name="contact_address">Adres fizyczny kontaktowy</string>
     <string name="contact_deleted">Kontakt został usunięty pomyślnie</string>
     <string name="contact_inuse_warn_msg">Kontakt aktualnie używany</string>
     <string name="contact_deleted_warn">Wybrany kontakt zostanie usunięty.</string>
-    <string name="contact_member_of_group">Członek 2 grup</string>
+    <string name="contact_member_of_group">Członek %1$d grup</string>
 
     <string name="group_new">Nowa grupa</string>
     <string name="group_details">Szczegóły grupy</string>
     <string name="group_name_hint">Nazwa grupy lub zespołu</string>
-    <string name="export_body">&lt;p&gt; Wysłane z przypomnienia o rachunkach aplikacji na Androida &lt;/p&gt;</string>
+    <string name="export_body">&lt;p&gt; Wysłane z aplikacji \'Przypomnienie o rachunku\' na Androida &lt;/p&gt;</string>
     <string name="contact_all_title">Wszystkie kontakty</string>
     <string name="contact_group_title">Grupy</string>
     <string name="group_list_empty_hint">Nie istnieje grupa kontaktów. \n(Dotknij pływającego przycisku, aby go utworzyć)</string>
     <string name="group_list_empty">Nie istnieje grupa kontaktów.</string>
-    <string name="group_saved">Grupa kontaktów została zapisana</string>
+    <string name="group_saved">Grupa kontaktów zapisana</string>
     <string name="group_name_empty">Nazwa grupy jest pusta..!</string>
     <string name="delete_unsaved_warn">Nie można usunąć niezapisanego rekordu.</string>
     <string name="group_deleted">Grupa została pomyślnie usunięta.</string>
-    <string name="group_delete_warn">Wybrane grupy zostaną usunięte.</string>
+    <string name="group_delete_warn">Wybrane grup(y) zostaną usunięte.</string>
     <string name="group_contacts_conut">%1$d kontakty</string>
     <string name="group_add_members">Dodaj członków</string>
     <string name="group_select_contacts">Wybierz kontakty</string>
@@ -979,7 +979,7 @@
 
     <string name="display_theme">Motyw</string>
     <string-array name="display_themes">
-        <item>Domyślne ustawienie systemowe</item>
+        <item>Domyślne systemowe</item>
         <item>Lekki</item>
         <item>Ciemny</item>
     </string-array>
