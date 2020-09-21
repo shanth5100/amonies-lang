@@ -427,156 +427,156 @@
     <string name="bill_rpt_comparison_monthwise_label">Miesięczne porównanie przez %1$d miesiące</string>
     <string name="bill_rpt_comparison_yearwise_label">Porównanie przez %1$d lat</string>
 
-    <string name="bill_rpt_trends_title">rachunki</string>
+    <string name="bill_rpt_trends_title">trendy Rachunek</string>
     <string name="bill_rpt_trend_daywise_last_30">Porównanie 30 dni</string>
-    <string name="bill_rpt_trend_daywise_this_week">7-dniowe porównanie, przez cały tydzień</string>
+    <string name="bill_rpt_trend_daywise_this_week">Porównanie 7-dniowe dla całego tygodnia.</string>
     <string name="bill_rpt_trend_daywise_this_month">porównanie całego miesiąca</string>
-    <string name="bill_rpt_trend_daywise_for_3_months">ostatnie 3 miesiące porównania</string>
-    <string name="bill_rpt_trend_daywise_for_6_months">ostatnie 6 miesięcy porównania</string>
-    <string name="bill_rpt_trend_daywise_this_year">porównanie całoroczne lub 12 miesięcy</string>
+    <string name="bill_rpt_trend_daywise_for_3_months">Ostatnie 3 miesiące porównania</string>
+    <string name="bill_rpt_trend_daywise_for_6_months">Ostatnie 6 miesięcy porównania</string>
+    <string name="bill_rpt_trend_daywise_this_year">Porównanie całoroczne lub 12 miesięcy</string>
 
-    <string name="rpt_pdf_menu_title">generuj pdf</string>
-    <string name="rpt_pdf_name_dialog_title">generować raport pdf</string>
+    <string name="rpt_pdf_menu_title">Generuj pdf</string>
+    <string name="rpt_pdf_name_dialog_title">Generować raport pdf</string>
     <string name="rpt_pdf_name_already_exists">nazwa pliku pdf istnieje już, użyj innej nazwy.</string>
-    <string name="rpt_pdf_name_get_error">nie można pobrać pliku pdf..!</string>
-    <string name="rpt_pdf_generate_error">nie można wygenerować pliku pdf, czy jest podłączona karta sd?</string>
+    <string name="rpt_pdf_name_get_error">Nie można pobrać pliku pdf..!</string>
+    <string name="rpt_pdf_generate_error">Nie można wygenerować pliku pdf, czy jest podłączona karta sd?</string>
     <string name="rpt_pdf_name_dialog_field">Nazwa pliku</string>
-    <string name="rpt_pdf_unsupported_title">urządzenie nie jest obsługiwane</string>
-    <string name="rpt_pdf_unsupported_info">musisz co najmniej używać Android KitKat aby wygenerować raporty w formacie pdf. \nPrzepraszam..!</string>
+    <string name="rpt_pdf_unsupported_title">Urządzenie nie jest obsługiwane</string>
+    <string name="rpt_pdf_unsupported_info">Musisz co najmniej używać Android KitKat aby wygenerować raporty w formacie pdf. \nPrzepraszam..!</string>
     <string name="rpt_pdf_success_title">generacji kompletne</string>
-    <string name="rpt_pdf_success_view_reports">przeglądaj raporty</string>
-    <string name="rpt_pdf_success_info_file">nowy raport pdf jest zapisywany jako: \n%1$s</string>
-    <string name="rpt_pdf_generating_progress">generowanie raportu pdf</string>
-    <string name="rpt_pdf_created_date">utworzony: %1$s</string>
-    <string name="rpt_pdf_delete_confirm">usunąć wybrany plik raportu \'%1$s\'?</string>
-    <string name="rpt_pdf_bills_filename_templete">raporty %1$s - %2$s</string>
-    <string name="rpt_pdf_view_activity_not_found">nie można znaleźć czytnika plików PDF. należy zainstalować dowolną aplikację obsługującą przeglądarkę pdf, taką jak czytnik Acrobat.</string>
+    <string name="rpt_pdf_success_view_reports">Wyświetl raporty</string>
+    <string name="rpt_pdf_success_info_file">Nowy raport pdf jest zapisywany jako: \n%1$s</string>
+    <string name="rpt_pdf_generating_progress">Generowanie raportu pdf</string>
+    <string name="rpt_pdf_created_date">Utworzony dnia: %1$s</string>
+    <string name="rpt_pdf_delete_confirm">Usunąć wybrany plik raportu \'%1$s\'?</string>
+    <string name="rpt_pdf_bills_filename_templete">Raporty rachunek %1$s - %2$s</string>
+    <string name="rpt_pdf_view_activity_not_found">Nie można znaleźć czytnika plików PDF. należy zainstalować dowolną aplikację obsługującą przeglądarkę pdf, taką jak czytnik Acrobat.</string>
 
     <string-array name="rpt_pdf_select_options">
-        <item>wyświetlić / otworzyć</item>
-        <item>udostępnij raport</item>
-        <item>kasować</item>
+        <item>Wyświetlić / otworzyć</item>
+        <item>Udostępnij raport</item>
+        <item>Kasować</item>
     </string-array>
 
     <!--	Repeation  -->
-    <string name="bill_repeat_info">przy użyciu poniżej powtarzającej się konfiguracji:</string>
-    <string name="bill_repeat">powtarzające się rozliczenia</string>
-    <string name="bill_every">powtarza się co jakiś czas</string>
-    <string name="bill_next_due">następna termin</string>
-    <string name="bill_end_none">powtarzanie na zawsze</string>
-    <string name="bill_ends_on">powtarzaj do momentu</string>
+    <string name="bill_repeat_info">Przy użyciu poniżej powtarzającej się konfiguracji:</string>
+    <string name="bill_repeat">Rachunek cykliczny</string>
+    <string name="bill_every">Powtarzaj co</string>
+    <string name="bill_next_due">Data następnego wystąpienia</string>
+    <string name="bill_end_none">Powtarz na zawsze</string>
+    <string name="bill_ends_on">Powtarzaj do momentu</string>
     <string name="bill_ends_count_title">Zasady płatności</string>
     <string name="bill_ends_count_label">Liczba rat lub wystąpienia</string>
     <string name="bill_ends_count">Powtarza się %1$d razy</string>
     <string name="bill_repeat_disable">Wyłącz lub zatrzymaj automatyczne tworzenie powtarzających się wpisów</string>
     <string name="bill_repeat_until_value">Powtarzaj do %1$s r</string>
     <string name="bill_err_future_dt">proszę podaj przyszłą datę.</string>
-    <string name="bill_err_end_dt">\'następna data\' powinna być przed \'powtarzać do daty\'</string>
+    <string name="bill_err_end_dt">\'Powtarzaj do daty\' powinno być późniejsze niż \'Następna data wystąpienia\'</string>
     <string-array name="repeat_array">
-        <item>dni</item>
-        <item>tygodni</item>
-        <item>miesiące</item>
-        <item>data miesiąca</item>
+        <item>Dni</item>
+        <item>Tygodni</item>
+        <item>Miesiące</item>
+        <item>Data miesiąca</item>
         <item>Lat</item>
     </string-array>
-    <string name="bill_rpt_save">stosować powtarzające się zmiany</string>
+    <string name="bill_rpt_save">Stosować powtarzające się zmiany</string>
     <string-array name="bill_rpt_save">
-        <item>bez usuwania żadnych rachunków i tworzenia nowych rachunków, jeśli jest to wymagane.</item>
-        <item>usuwać i ponownie tworzyć rachunki przy użyciu nowych powtarzających się zmian. Rachunki należące do tych powtarzających się ustawień będą realizowane tylko.</item>
+        <item>Bez usuwania żadnego rachunku i tworzenia nowego rachunku, jeśli jest to wymagane.</item>
+        <item>Usuwać i ponownie tworzyć rachunki przy użyciu nowych powtarzających się zmian. Rachunki należące do tych powtarzających się ustawień będą realizowane tylko.</item>
         <!-- <item>Effect this and all bills.</item> -->
     </string-array>
-    <string name="bill_rpt_remove">usunąć powtarzającą się naturę</string>
+    <string name="bill_rpt_remove">Usunąć powtarzającą się naturę</string>
     <string-array name="bill_rpt_remove">
-        <item>tylko dla tego rachunku.</item>
-        <item>za te i wszystkie powiązane rachunki.</item>
+        <item>Tylko dla tego rachunku.</item>
+        <item>Za te i wszystkie powiązane rachunki.</item>
     </string-array>
 
-    <string name="bill_list_options_view">zobacz szczegóły rachunku</string>
-    <string name="bill_list_options_select">wybierz wiersz</string>
-    <string name="bill_list_options_copy">utworzyć kopię (duplikat)</string>
-    <string name="bill_list_options_paid">oznaczony jako zapłacony</string>
-    <string name="bill_list_options_unpaid">oznacz jako niezapłacone</string>
-    <string name="bill_list_options_delete">usunąć rachunek</string>
+    <string name="bill_list_options_view">Zobacz szczegóły rachunek</string>
+    <string name="bill_list_options_select">Wybierz wiersz</string>
+    <string name="bill_list_options_copy">Utworzyć kopię (duplikat)</string>
+    <string name="bill_list_options_paid">Oznacz jako zapłacone</string>
+    <string name="bill_list_options_unpaid">Oznacz jako niezapłacone</string>
+    <string name="bill_list_options_delete">Usunąć rachunek</string>
 
-    <string name="bill_marked_paid_msg">rachunek oznaczony jako płatny</string>
-    <string name="bill_marked_unpaid_msg">rachunek zostaje wyzerowany na niezapłacone</string>
-    <string name="bill_removed_recurring">rachunek nie związany z powtarzającą się konfiguracją</string>
+    <string name="bill_marked_paid_msg">Rachunek oznaczony jako płatny</string>
+    <string name="bill_marked_unpaid_msg">Rachunek zostaje wyzerowany na niezapłacone</string>
+    <string name="bill_removed_recurring">Rachunek nie związany z powtarzającą się konfiguracją</string>
 
 
     <!-- ==================================================================== -->
     <!-- HOME.XML -->
 
-    <string name="inst_name">Nazwa profilu firmy</string>
+    <string name="inst_name">Biznesowego nazwa profilu </string>
     <string name="inst_name_hint">Nazwa firmy lub gospodarstwa domowego do prowadzenia ksiąg rachunkowych.</string>
-    <string name="inst_dialog_title">szczegóły profilu</string>
+    <string name="inst_dialog_title">Szczegóły profilu</string>
     <string name="inst_dialog_title_edit">Edytuj profil</string>
-    <string name="inst_list_title">profile</string>
-    <string name="menu_add_profile_title">dodaj profil</string>
-    <string name="home_no_instances">nie ma profilu, utwórz nowy profil.</string>
+    <string name="inst_list_title">Profile</string>
+    <string name="menu_add_profile_title">Dodaj profil</string>
+    <string name="home_no_instances">Nie ma profilu, utwórz nowy profil.</string>
 
-    <string name="help">Wsparcie </string>
-    <string name="inst_new">utwórz nowy profil</string>
-    <string name="inst_delete">usuń ten profil</string>
+    <string name="help">Pomocy </string>
+    <string name="inst_new">Utwórz nowy profil</string>
+    <string name="inst_delete">Usuń ten profil</string>
     <string name="inst_delete_warn">profil \'%1$s\' a wszystkie dane w nim zostaną usunięte. \nKontyntynuj?</string>
     <string name="inst_delete_err_1inst">nie, to nie jest możliwe..!! \nponieważ jest to jedyny profil dostępny w tej aplikacji i potrzebujesz do wynajęcia jednego profilu do pracy. </string>
-    <string name="inst_profile_photo">kliknij tutaj, aby zmienić zdjęcie profilu</string>
+    <string name="inst_profile_photo">Kliknij tutaj, aby zmienić zdjęcie profilu</string>
     <string name="inst_change_photo">Zmień zdjęcie</string>
-    <string name="inst_photo_from_gallery">z galerii</string>
-    <string name="inst_photo_from_camera">przechwytywanie fotografii</string>
-    <string name="inst_warn_no_multi_instance">ta wersja aplikacji obsługuje tylko jeden profil. więc usuń niepotrzebne profile lub uaktualnij do wersji premium, aby korzystać z wielu profili.</string>
+    <string name="inst_photo_from_gallery">Z galerii</string>
+    <string name="inst_photo_from_camera">Przechwytywanie fotografii</string>
+    <string name="inst_warn_no_multi_instance">Ta wersja aplikacji obsługuje tylko jeden profil. więc usuń niepotrzebne profile lub uaktualnij do wersji premium, aby korzystać z wielu profili.</string>
 
     <string name="home_help_text">profil to zorganizowana kolekcja danych, np. książka do przechowywania lub księgowości (a nie do konta bankowego). dane (weksle, kategorie, etykiety) należące do jednego profilu są przechowywane w jednym miejscu i nigdy nie mieszane z danymi innych profili. \n\nwięc daje Ci większą kontrolę i lepsze zarządzanie. przykład: jeden profil wydatków osobistych, drugi dla Twojego biura lub wydatków biznesowych.</string>
     <!--<string name="home_data_inst_name">My Expenses / Income</string>-->
     <string name="inst_rename">Edytuj profil</string>
-    <string name="inst_open">wybierz ten profil</string>
-    <string name="default_currency">domyślna waluta</string>
+    <string name="inst_open">Wybierz ten profil</string>
+    <string name="default_currency">Domyślna waluta</string>
 
-    <string name="inst_error_add_fail">nie można dodać profilu.</string>
-    <string name="inst_error_edit_fail">nie można zmienić profilu.</string>
-    <string name="inst_error_edit_name_invalid">wprowadź prawidłowy opis profilu</string>
-    <string name="inst_default_curr">domyślna waluta: %1$s</string>
+    <string name="inst_error_add_fail">Nie można dodać profilu.</string>
+    <string name="inst_error_edit_fail">Nie można zmienić profilu.</string>
+    <string name="inst_error_edit_name_invalid">Wprowadź prawidłową nazwę profilu</string>
+    <string name="inst_default_curr">Domyślna waluta: %1$s</string>
     <string name="inst_error_max_limit">Maksymalny limit profilu osiągnięty dla wersji próbnej należy uaktualnić, aby utworzyć więcej profili danych.</string>
 
 
     <!-- ==================================================================== -->
     <!-- Backup / Recovery -->
-    <string name="bkp_title">utworzyć kopię zapasową / przywracać</string>
-    <string name="bkp_location">miejsce przechowywania</string>
-    <string name="bkp_location_info">pliki kopii zapasowych są przechowywane w: \n\n%1$s</string>
+    <string name="bkp_title">Utworzyć kopię zapasową / przywracać</string>
+    <string name="bkp_location">Miejsce przechowywania</string>
+    <string name="bkp_location_info">Pliki kopii zapasowych są przechowywane w: \n\n%1$s</string>
     <!--<string name="bkp_restore_note">Select a backup to Restore, etc.</string>-->
-    <string name="bkp_name">nazwa kopii zapasowej</string>
+    <string name="bkp_name">Nazwa kopii zapasowej</string>
     <string name="bkp_created">utworzony: %1$s</string>
     <!--<string name="bkp_new_pref"> Photo Preference</string>-->
-    <string name="bkp_name_new"> nazwa kopii zapasowej</string>
+    <string name="bkp_name_new"> Nazwa kopii zapasowej</string>
     <!--<string name="bkp_photos_include">kopię zapasową, w tym zdjęcia</string>
     <string name="bkp_photos_ignore">Backups ignore Photos</string>-->
     <!--<string name="bkp_create">Create Backup</string>-->
-    <string name="bkp_list_empty">nie ma kopii zapasowej..!</string>
-    <string name="bkp_duplicate_bkp">duplikat nazwy kopii zapasowej, proszę podać inną nazwę lub usunąć istniejące..!</string>
-    <string name="bkp_name_invalid">nieprawidłowa nazwa kopii zapasowej \'%1$s\'. \n\nunikaj spacji i znaków specjalnych, takich jak: \\ /</string>
-    <string name="bkp_failed">nie udało się wykonać kopii zapasowej..! upewnij się, że jest wystarczająco dużo wolnego miejsca.</string>
-    <string name="bkp_inprogress_warn">tworzenie kopii zapasowych / przywracanie w toku, bądź cierpliwość..!</string>
+    <string name="bkp_list_empty">Nie ma kopii zapasowej..!</string>
+    <string name="bkp_duplicate_bkp">Duplikat nazwy kopii zapasowej, proszę podać inną nazwę lub usunąć istniejące..!</string>
+    <string name="bkp_name_invalid">Nieprawidłowa nazwa kopii zapasowej \'%1$s\'. \n\nnikaj spacji i znaków specjalnych, takich jak: \\ /</string>
+    <string name="bkp_failed">Nie udało się wykonać kopii zapasowej..! upewnij się, że jest wystarczająco dużo wolnego miejsca.</string>
+    <string name="bkp_inprogress_warn">Tworzenie kopii zapasowych / przywracanie w toku, bądź cierpliwość..!</string>
 
-    <string name="bkp_restore_fail">przywracanie nie powiodło się..! spróbuj później po pewnym czasie.</string>
-    <string name="bkp_send">udostępnij kopię zapasową</string>
-    <string name="bkp_existing_label">istniejące kopie zapasowe (%1$d)</string>
-    <string name="bkp_create">utworzyć nową kopię zapasową</string>
-    <string name="bkp_send_sub">plik kopii zapasowej \'%1$s\'</string>
-    <string name="bkp_rename">zmienić nazwę kopii zapasowej</string>
-    <string name="bkp_rename_success">pomyślnie zmienił nazwę \'%1$s\' na \'%2$s\'.</string>
-    <string name="bkp_rename_failed">nie zmienił nazwy \'%1$s\' na \'%2$s\'.</string>
-    <string name="bkp_delete">usunąć kopię zapasową</string>
-    <string name="bkp_delete_confirm">usunąć wybrane dane z kopii zapasowej \'%1$s\'?</string>
-    <string name="bkp_delete_success">pomyślnie usunięto.</string>
-    <string name="bkp_delete_fail">nie można usunąć.</string>
-    <string name="bkp_restore_external">przywrócenie zewnętrznej chmury</string>
-    <string name="bkp_restore_external_title">pobieranie i przywracanie</string>
-    <string name="bkp_restore_confirm_cloud">przywrócenie zajmie kilka sekund na kilka minut, więc bądź cierpliwy w zależności od rozmiaru kopii zapasowej. \n\nkliknij dalej, aby wybrać zewnętrzny plik kopii zapasowej do importowania i przywracania danych.</string>
+    <string name="bkp_restore_fail">Przywracanie nie powiodło się..! spróbuj później po pewnym czasie.</string>
+    <string name="bkp_send">Udostępnij kopię zapasową</string>
+    <string name="bkp_existing_label">Istniejące kopie zapasowe (%1$d)</string>
+    <string name="bkp_create">Utworzyć nową kopię zapasową</string>
+    <string name="bkp_send_sub">Plik kopii zapasowej \'%1$s\'</string>
+    <string name="bkp_rename">Zmienić nazwę kopii zapasowej</string>
+    <string name="bkp_rename_success">Pomyślnie zmienił nazwę \'%1$s\' na \'%2$s\'.</string>
+    <string name="bkp_rename_failed">Nie zmienił nazwy \'%1$s\' na \'%2$s\'.</string>
+    <string name="bkp_delete">Usunąć kopię zapasową</string>
+    <string name="bkp_delete_confirm">Usunąć wybrane dane z kopii zapasowej \'%1$s\'?</string>
+    <string name="bkp_delete_success">Pomyślnie usunięto.</string>
+    <string name="bkp_delete_fail">Nie udało się usunąć.</string>
+    <string name="bkp_restore_external">Przywrócenie zewnętrznej chmury</string>
+    <string name="bkp_restore_external_title">Pobieranie i przywracanie</string>
+    <string name="bkp_restore_confirm_cloud">Przywrócenie zajmie kilka sekund na kilka minut, więc bądź cierpliwy w zależności od rozmiaru kopii zapasowej. \n\nkliknij dalej, aby wybrać zewnętrzny plik kopii zapasowej do importowania i przywracania danych.</string>
     <string name="bkp_last_backup">Ostatnia kopia zapasowa</string>
     <string name="bkp_last_info">Wykonaj kopię zapasową danych aplikacji i załączników na Dysku Google. Możesz je przywrócić po ponownym zainstalowaniu aplikacji, zmianie telefonu lub skopiowaniu danych na inne urządzenie.</string>
     <string name="bkp_last_local_time">Lokalny: %1$s</string>
     <string name="bkp_last_size">Rozmiar: %1$s</string>
-    <string name="bkp_backup_now">utworzyć kopię zapasową</string>
+    <string name="bkp_backup_now">Utworzyć kopię zapasową</string>
     <string name="bkp_restore_now">Przywracać</string>
     <string name="bkp_google_drive_setting">Ustawienia Google DRIVE</string>
     <string name="bkp_google_drive_info">Dodaj konto Google, aby przechowywać najnowsze kopie zapasowe. Włączenie Kopii zapasowej w Google DRIVE spowoduje zastąpienie istniejącej kopii zapasowej aplikacji w Google DRIVE, więc pamiętaj o tym, jeśli używasz jej na wielu urządzeniach.</string>
@@ -586,7 +586,7 @@
     <string name="bkp_create_confirm_msg">Tworzenie kopii zapasowej może potrwać od kilku sekund do minut w zależności od wielkości danych aplikacji, więc bądź cierpliwy. \n\nKontynuować tworzenie kopii zapasowej?</string>
     <string name="bkp_over_wifi_label">Utwórz kopię zapasową za pomocą</string>
     <string name="bkp_success">Pomyślnie utworzono kopię zapasową.</string>
-    <string name="bkp_restore_confirm_msg">Przywracanie zajmie od kilku sekund do kilku minut, więc proszę o cierpliwość. \n\nWszystkie istniejące dane aplikacji na tym urządzeniu zostaną zastąpione z ostatniej kopii zapasowej. Czy chcesz kontynuować operację przywracania?</string>
+    <string name="bkp_restore_confirm_msg">Przywrócenie zajmie kilka sekund od kilku sekund do kilku minut, więc prosimy o cierpliwość. \n\nWszystkie istniejące dane aplikacji na tym urządzeniu zostaną nadpisane z ostatniej kopii zapasowej. Czy chcesz kontynuować operację przywracania?</string>
 
     <string-array name="bkp_to_google_drive">
         <item>@string/never</item>
@@ -596,31 +596,31 @@
 
     <string-array name="bkp_over_wifi">
         <item>Tylko wifi</item>
-        <item>Wi-Fi lub komórkowa transmisja danych</item>
+        <item>Wi-Fi lub komórkowa danych</item>
     </string-array>
 
     <!-- ==================================================================== -->
     <!-- PREFERENCES.XML -->
 
-    <string name="pref_key">preferencje</string>
+    <string name="pref_key">Preferencje</string>
 
     <!--<string name="prefTitleAppSetting">App Settings</string>
     <string name="prefKeyAppSetting">appSettings</string>-->
-    <string name="prefTitleGeneralSetting">generał</string>
-    <string name="prefTitleDataSetting">kopie zapasowe i raporty</string>
-    <string name="prefTitleDataSettingTrial">utworzyć kopię zapasową</string>
+    <string name="prefTitleGeneralSetting">Generał</string>
+    <string name="prefTitleDataSetting">Kopie zapasowe i raporty</string>
+    <string name="prefTitleDataSettingTrial">zapasową</string>
     <!--<string name="prefKeyAppSetting">appSettings</string>-->
 
-    <string name="prefTitleAppPIN">4 cyfry</string>
+    <string name="prefTitleAppPIN">4-cyfrowy PIN</string>
     <string name="prefSummaryAppPIN">Ze względów bezpieczeństwa można ustawić pinezkę, aby uruchomić aplikację. raz ustawiony, zostaniesz poproszony o PIN po każdym uruchomieniu aplikacji</string>
 
     <string name="prefTitleAppPINChange">Zmień PIN</string>
-    <string name="prefSummaryAppPINChange">dotknij tutaj, aby zmienić 4 cyfry.</string>
+    <string name="prefSummaryAppPINChange">Dotknij tutaj, aby zmienić 4 cyfry.</string>
 
-    <string name="prefTitleStartupScreen">zmienić ekran startowy</string>
-    <string name="prefSummaryStartupScreen">domyślnym lub głównym ekranem, który pojawia się po uruchomieniu aplikacji.</string>
+    <string name="prefTitleStartupScreen">Ekran startowy</string>
+    <string name="prefSummaryStartupScreen">Strona docelowa aplikacji, która pojawia się po uruchomieniu aplikacji.</string>
 
-    <string name="prefTitleChangeLanguage">język: %1$s</string>
+    <string name="prefTitleChangeLanguage">Język: %1$s</string>
     <string name="prefSummaryChangeLanguage">kliknij tutaj, aby zmienić język</string>
 
     <string name="prefTitleEnableSubcategories">Włącz podkategorie</string>
@@ -628,42 +628,42 @@
 
     <string name="prefTitleInstSetting">profil</string>
 
-    <string name="prefTitleDefaultCurrency">domyślna waluta profilu: %1$s</string>
-    <string name="prefSummaryDefaultCurrency">waluta, która jest wstępnie wypełniona podczas dodawania dowolnego nowego rekordu dla tego profilu.</string>
+    <string name="prefTitleDefaultCurrency">Domyślna waluta profilu: %1$s</string>
+    <string name="prefSummaryDefaultCurrency">Waluta, która jest wstępnie wypełniona podczas dodawania dowolnego nowego rekordu dla tego profilu.</string>
 
     <string name="prefTitleManageInstance">zarządzać profilem</string>
-    <string name="prefSummaryManageInstance">do tworzenia, usuwania lub zmiany waluty dowolnego innego profilu.</string>
+    <string name="prefSummaryManageInstance">Do tworzenia, usuwania lub zmiany waluty dowolnego innego profilu.</string>
 
     <!--<string name="prefKeyBillSettings">billsSettings</string>-->
-    <string name="prefTitleBillSettings">rachunki</string>
+    <string name="prefTitleBillSettings">Rachunki</string>
     <!--<string name="prefSummaryBillSettings">App data backup &amp; restore settings</string>-->
 
-    <string name="prefTitleNotifyTick">powiadomienia o przypomnieniach</string>
-    <string name="prefSummaryNotifyTick">powiadom mnie o rachunkach, które zostały oznaczone jako takie. (odznacz, aby wyłączyć)</string>
-    <string name="prefSummaryNotifyUnTick">powiadomienia są teraz wyłączone. (wybierz, aby włączyć)</string>
+    <string name="prefTitleNotifyTick">Włącz powiadomienia przypominające</string>
+    <string name="prefSummaryNotifyTick">Powiadom mnie o wszelkich oznaczonych rachunkach, aby to zrobić. (odznacz, aby wyłączyć)</string>
+    <string name="prefSummaryNotifyUnTick">Powiadomienia są teraz wyłączone. (wybierz, aby włączyć)</string>
 
-    <string name="prefTitleNotifyTime">czas powiadomienia: %1$s:%2$s</string>
+    <string name="prefTitleNotifyTime">Czas powiadomienia: %1$s:%2$s</string>
     <string name="prefSummaryNotifyTime">w tej chwili pojawiają się powiadomienia, codziennie</string>
 
-    <string name="prefTitleNotifyDays">domyślne powiadomienie o przypomnieniu</string>
-    <string name="prefSummaryNotifyDays">w przypadku nowych rachunków jest to wstępnie zaznaczona opcja powiadomienia o codziennych przypomnieniach. przykład: 5 dni przed terminem wymagalności</string>
+    <string name="prefTitleNotifyDays">Domyślne powiadomienie o przypomnieniu</string>
+    <string name="prefSummaryNotifyDays">W przypadku nowych rachunków jest to wstępnie zaznaczona opcja powiadomienia o codziennych przypomnieniach. przykład: 5 dni przed terminem wymagalności</string>
 
-    <string name="prefTitleForcast">okres prognozy</string>
-    <string name="prefTitleForcastDialog">tworzyć powtarzające się rachunki</string>
-    <string name="prefSummaryForcast">powtarzające się weksle będą automatycznie generowane z wyprzedzeniem do określonego okresu. przykład: 3 miesiące wcześniej</string>
+    <string name="prefTitleForcast">Okres prognozy</string>
+    <string name="prefTitleForcastDialog">Tworzyć powtarzające się rachunki</string>
+    <string name="prefSummaryForcast">Powtarzające się weksle będą automatycznie generowane z wyprzedzeniem do określonego okresu. przykład: 3 miesiące wcześniej</string>
 
-    <string name="pref_inst_currency_set_to">waluta profilu ustawiona na: %1$s</string>
+    <string name="pref_inst_currency_set_to">Waluta profilu ustawiona na: %1$s</string>
 
     <!-- Backup / restore preferences (29.mar.2015) -->
 
-    <string name="prefTitlePDFReports">generowane raporty</string>
-    <string name="prefSummaryPDFReports">kliknij tutaj, aby wyświetlić listę generowanych plików PDF. za każdym razem, gdy generowany jest raport pdf, są one przechowywane w pamięci podręcznej przez aplikację, gdzie można wyświetlać, udostępniać, usuwać je według potrzeb.</string>
+    <string name="prefTitlePDFReports">Generowane raporty</string>
+    <string name="prefSummaryPDFReports">Kliknij tutaj, aby wyświetlić listę generowanych plików PDF. za każdym razem, gdy generowany jest raport pdf, są one przechowywane w pamięci podręcznej przez aplikację, gdzie można wyświetlać, udostępniać, usuwać je według potrzeb.</string>
 
-    <string name="prefTitleBackupPhotos">kopia zapasowa zawiera załączniki</string>
-    <string name="prefSummaryBackupPhotosTick">kopie zapasowe będą teraz zawierać dane, a także dołączone zdjęcia z potwierdzeniem, tak jak w przypadku pełnej kopii zapasowej</string>
-    <string name="prefSummaryBackupPhotosUnTick">szybka kopia zapasowa jest aktywna, więc kopie zapasowe zawierają tylko dane i ignorują wszystkie załączone zdjęcia</string>
+    <string name="prefTitleBackupPhotos">Kopia zapasowa zawiera załączniki</string>
+    <string name="prefSummaryBackupPhotosTick">Kopie zapasowe będą teraz zawierać dane, a także dołączone zdjęcia z potwierdzeniem, tak jak w przypadku pełnej kopii zapasowej</string>
+    <string name="prefSummaryBackupPhotosUnTick">Szybka kopia zapasowa jest aktywna, więc kopie zapasowe zawierają tylko dane i ignorują wszystkie załączone zdjęcia</string>
 
-    <string name="prefSummaryBackupAccount">Wybierz konto na Dysku Google, aby zapisać wszystkie kopie zapasowe danych aplikacji.</string>
+    <string name="prefSummaryBackupAccount">Wybierz konto Dysku Google, aby zapisać wszystkie kopie zapasowe danych aplikacji. Włączenie kopii zapasowej na Dysku Google spowoduje nadpisanie wszystkich istniejących kopii na Dysku Google, więc pamiętaj o tym podczas używania na wielu urządzeniach.</string>
     <string name="prefSummaryBackupAccountUnlink">Czy chcesz odłączyć swoje konto na Dysku Google? Aby Twoje dane nie zostały zapisane w chmurze.</string>
 
     <string name="prefTitleBackupDriveSyncTime">Czas ostatniej synchronizacji kopii zapasowej</string>
@@ -672,57 +672,57 @@
     <string name="prefSummaryBackupWiFi">Włącz wykonywanie kopii zapasowej Dysku Google tylko przez Wi-Fi. Odznacz korzystanie z WiFi i mobilnego internetu.</string>
 
     <!-- Access Denied / Root detected Activity -->
-    <string name="title_activity_access_denied">brak dostępu</string>
-    <string name="access_denied_lable">coś poszło nie tak..!</string>
-    <string name="access_denied_msg">spróbuj ponownie lub skontaktuj się z developerem w sprawie problemu.</string>
-    <string name="access_denied_autofixed">problem został rozwiązany automatycznie. \n\nzrestartuj aplikację i masz dobry pomysł.</string>
+    <string name="title_activity_access_denied">Odmowa dostępu</string>
+    <string name="access_denied_lable">Coś poszło nie tak..!</string>
+    <string name="access_denied_msg">Spróbuj ponownie lub skontaktuj się z developerem w sprawie problemu.</string>
+    <string name="access_denied_autofixed">Problem został rozwiązany automatycznie. \n\nzrestartuj aplikację i masz dobry pomysł.</string>
 
     <!-- Filter Fragement -->
-    <string name="filter_data">filtruj dane</string>
-    <string name="filter_menu">filtr</string>
-    <string name="filter_apply">nałóż filtr</string>
-    <string name="filter_selected_save">zapisać</string>
-    <string name="filter_clear">nastawić</string>
-    <string name="filter_invert">odwrócenie</string>
-    <string name="filter_sort_by">sortuj według: %1$s</string>
-    <string name="filter_category_title">kategorie filtrów</string>
-    <string name="filter_categories_all">kategorie (wszystkie)</string>
-    <string name="filter_categories_count">kategorie (%1$d)</string>
-    <string name="filter_currency_title">filtruj walutę</string>
-    <string name="filter_currencies_all">waluty (wszystkie)</string>
-    <string name="filter_currencies_count">waluty (%1$d)</string>
-    <string name="filter_photo_title">filtruj rekordy</string>
-    <string name="filter_photo_any">zdjęcie pokwitowania (any)</string>
-    <string name="filter_photo_yes">załączone zdjęcie</string>
-    <string name="filter_photo_no">zdjęcie nie jest dołączone</string>
+    <string name="filter_data">Filtruj dane</string>
+    <string name="filter_menu">Filtr</string>
+    <string name="filter_apply">Nałóż filtr</string>
+    <string name="filter_selected_save">Zaoszczędzić</string>
+    <string name="filter_clear">Resetowanie</string>
+    <string name="filter_invert">Odwrócenie</string>
+    <string name="filter_sort_by">Sortuj według: %1$s</string>
+    <string name="filter_category_title">Kategorie filtrów</string>
+    <string name="filter_categories_all">Kategorie (wszystkie)</string>
+    <string name="filter_categories_count">Kategorie (%1$d)</string>
+    <string name="filter_currency_title">Filtruj walutę</string>
+    <string name="filter_currencies_all">Waluty (wszystkie)</string>
+    <string name="filter_currencies_count">Waluty (%1$d)</string>
+    <string name="filter_photo_title">Filtruj rekordy</string>
+    <string name="filter_photo_any">Zdjęcie pokwitowania (dowolne)</string>
+    <string name="filter_photo_yes">Załączone zdjęcie</string>
+    <string name="filter_photo_no">Zdjęcie nie jest podłączone</string>
 
     <!-- New Recurring Screen -->
     <string name="bills_paid_total">płatny: %1$s</string>
-    <string name="recurbill_total">całkowity: </string>
+    <string name="recurbill_total">Całkowity: </string>
     <string name="bills_overdue_total">przeterminowany: %1$s</string>
     <string name="bills_upcoming_total">najbliższe: %1$s</string>
-    <string name="recurbill_list_empty">nie istnieją powtarzające się konfiguracje. \n(kliknij pływający przycisk \'+\' aby go utworzyć)</string>
-    <string name="recurbill_list_title">powtarzające się konfiguracje</string>
-    <string name="recurbill_list_subtitle">za rachunki</string>
-    <string name="bills_recur_subtitle">każdy %1$s %2$s</string>
-    <string name="menu_recurbill_delete">usunąć powtarzające się</string>
-    <string name="recurbill_list_unselected">proszę wybrać powtarzającą się konfigurację z lewej ramki.</string>
-    <string name="recurring">powtarzające się</string>
+    <string name="recurbill_list_empty">Nie istnieją powtarzające się konfiguracje. \n(kliknij pływający przycisk \'+\' aby go utworzyć)</string>
+    <string name="recurbill_list_title">Powtarzające się konfiguracje</string>
+    <string name="recurbill_list_subtitle">Za rachunki</string>
+    <string name="bills_recur_subtitle">Każdy %1$s %2$s</string>
+    <string name="menu_recurbill_delete">Usuń cykliczne</string>
+    <string name="recurbill_list_unselected">Proszę wybrać powtarzającą się konfigurację z lewej ramki.</string>
+    <string name="recurring">Powtarzające</string>
 
-    <string name="currency_all">wszystkie waluty</string>
-    <string name="title_activity_inst_edit">szczegóły profilu</string>
+    <string name="currency_all">Wszystkie waluty</string>
+    <string name="title_activity_inst_edit">Szczegóły profilu</string>
 
     <!-- Period, ViewPager, TabLayout -->
-    <string name="period_dashboard_change">okres zmian</string>
-    <string name="period_daily">codziennie</string>
-    <string name="period_weekly">co tydzień</string>
-    <string name="period_monthly">miesięczny</string>
-    <string name="period_yearly">rocznie</string>
-    <string name="period_custom">zakres niestandardowy</string>
+    <string name="period_dashboard_change">Okres zmian</string>
+    <string name="period_daily">Codziennie</string>
+    <string name="period_weekly">Co tydzień</string>
+    <string name="period_monthly">Miesięczny</string>
+    <string name="period_yearly">Rocznie</string>
+    <string name="period_custom">Zakres niestandardowy</string>
     <string name="period_custom_range">%1$s - %2$s</string>
-    <string name="period_custom_range_title">wybierz zakres dat</string>
-    <string name="period_custom_enter_from">wprowadź od daty</string>
-    <string name="period_custom_enter_to">wprowadź datę</string>
+    <string name="period_custom_range_title">Wybierz zakres dat</string>
+    <string name="period_custom_enter_from">Wprowadź od daty</string>
+    <string name="period_custom_enter_to">Wprowadź datę</string>
 
     <string name="period_today">dzisiaj</string>
     <string name="period_yesterday">wczoraj</string>
