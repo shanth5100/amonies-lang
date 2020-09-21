@@ -724,111 +724,111 @@
     <string name="period_custom_enter_from">Wprowadź od daty</string>
     <string name="period_custom_enter_to">Wprowadź datę</string>
 
-    <string name="period_today">dzisiaj</string>
-    <string name="period_yesterday">wczoraj</string>
-    <string name="period_tomorrow">jutro</string>
-    <string name="period_thisweek">w tym tygodniu</string>
-    <string name="period_lastweek">zeszły tydzień</string>
-    <string name="period_nextweek">w następnym tygodniu</string>
+    <string name="period_today">Dzisiaj</string>
+    <string name="period_yesterday">Wczoraj</string>
+    <string name="period_tomorrow">Jutro</string>
+    <string name="period_thisweek">W tym tygodniu</string>
+    <string name="period_lastweek">Zeszły tydzień</string>
+    <string name="period_nextweek">W następnym tygodniu</string>
     <string name="period_rangeweek">w/c %1$s</string>
     <string name="period_rangeweek2">%1$s - %2$s</string>
-    <string name="period_thismonth">ten miesiąc</string>
-    <string name="period_lastmonth">w zeszłym miesiącu</string>
-    <string name="period_nextmonth">w następnym miesiącu</string>
+    <string name="period_thismonth">Ten miesiąc</string>
+    <string name="period_lastmonth">W zeszłym miesiącu</string>
+    <string name="period_nextmonth">W następnym miesiącu</string>
     <string name="period_thisyear">W tym roku</string>
-    <string name="period_lastyear">ostatni rok</string>
+    <string name="period_lastyear">Ostatni rok</string>
     <string name="period_nextyear">Następny rok</string>
     <string name="period_and_future">%1$s i przyszłość</string>
-    <string name="period_custom_last_7days">ostatnie 7 dni</string>
-    <string name="period_custom_last_30days">ostatnie 30 dni</string>
-    <string name="period_custom_last_3months">ostatnie 3 miesiące</string>
-    <string name="period_custom_recent_6months">ostatnie 6 miesięcy</string>
-    <string name="period_custom_recent_12months">ostatnie 12 miesięcy</string>
-    <string name="period_custom_date_range">niestandardowy zakres dat</string>
+    <string name="period_custom_last_7days">Ostatnie 7 dni</string>
+    <string name="period_custom_last_30days">Ostatnie 30 dni</string>
+    <string name="period_custom_last_3months">Ostatnie 3 miesiące</string>
+    <string name="period_custom_recent_6months">Ostatnie 6 miesięcy</string>
+    <string name="period_custom_recent_12months">Ostatnie 12 miesięcy</string>
+    <string name="period_custom_date_range">Niestandardowy zakres dat</string>
 
     <!-- Dashboard -->
-    <string name="dashboard_title">deska rozdzielcza</string>
-    <string name="dashboard_title_bill_chart_payable">należności (według kategorii)</string>
-    <string name="dashboard_title_bill_chart_receivable">należności (według kategorii)</string>
-    <string name="dashboard_title_bill_chart_payable_status">należności płatne (według stanu)</string>
-    <string name="dashboard_title_bill_chart_receivable_status">należności (według stanu)</string>
-    <string name="dashboard_summary">rachunki </string>
+    <string name="dashboard_title">Deska rozdzielcza</string>
+    <string name="dashboard_title_bill_chart_payable">Płatne rachunki (według kategorii)</string>
+    <string name="dashboard_title_bill_chart_receivable">Należności rachunki (według kategorii)</string>
+    <string name="dashboard_title_bill_chart_payable_status">Płatne rachunki (według stanu)</string>
+    <string name="dashboard_title_bill_chart_receivable_status">Należności rachunki (według stanu)</string>
+    <string name="dashboard_summary">Rachunek overview </string>
     <!--<string name="dashboard_summary_period">%1$s to %2$s</string>-->
-    <string name="dashboard_summary_receivable">należności: </string>
-    <string name="dashboard_summary_payable">płatny: </string>
-    <string name="dashboard_summary_total">całkowity: </string>
+    <string name="dashboard_summary_receivable">Należności: </string>
+    <string name="dashboard_summary_payable">Płatny: </string>
+    <string name="dashboard_summary_total">Całkowity: </string>
 
     <!-- About / welcome Screen -->
     <string name="about_title">o</string>
-    <string name="about_version">wersja: %1$s</string>
-    <string name="about_version_trial">wersja: %1$s (bezpłatna wersja próbna)</string>
-    <string name="about_description">przypomnienia o rachunkach pomaga organizować i śledzić rachunki zarówno płatne / nieopłacone, jak i należne / należne. po prostu dodaj rachunek do tej aplikacji i będzie to przypominać codziennie o tym, dopóki nie zaznaczysz go jako płatnego lub usuniesz. rachunki oznaczone jako powtarzające się są automatycznie tworzone na podstawie dostarczonych konfiguracji i okresu prognozy, co zapewnia całkowity spokój.</string>
+    <string name="about_version">Wersja: %1$s</string>
+    <string name="about_version_trial">Wersja: %1$s (bezpłatna wersja próbna)</string>
+    <string name="about_description">Przypomnienia o rachunkach pomaga organizować i śledzić rachunki zarówno płatne / nieopłacone, jak i płatne / należności. po prostu dodaj rachunek do tej aplikacji i będzie to przypominać codziennie o tym, dopóki nie zaznaczysz go jako płatnego lub usuniesz. rachunki oznaczone jako powtarzające się są automatycznie tworzone na podstawie dostarczonych konfiguracji i okresu prognozy, co zapewnia całkowity spokój.</string>
     <string name="about_facebook">Polub nas na Facebooku</string>
     <string name="about_twitter">Śledź nas na Twitterze</string>
     <string name="about_googleplay">Oceń tę aplikację</string>
     <string name="about_share">Udostępnij tą aplikację</string>
-    <string name="about_welcome_tutorial">ekrany instruktażowe</string>
-    <string name="about_visit_124">wejdź na stronę 124APPS</string>
+    <string name="about_welcome_tutorial">Ekrany samouczków</string>
+    <string name="about_visit_124">Odwiedź 124APPS</string>
 
-    <string name="feature_label_free">darmowy okres próbny</string>
-    <string name="feature_desc_free">wersja zawiera podstawowe funkcje do zarządzania rachunkami \n</string>
+    <string name="feature_label_free">Darmowy próbny</string>
+    <string name="feature_desc_free">Wersja zawiera podstawowe funkcje do zarządzania rachunkami \n</string>
     <string-array name="feature_items_free">
-        <item>codzienne powiadomienie o przypomnieniu rachunków</item>
-        <item>dołącz zdjęcie do rachunków</item>
-        <item>stałe wsparcie rachunków</item>
-        <item>ograniczone rachunki (300)</item>
-        <item>ograniczone kategorie i podkategorie (70)</item>
-        <item>zmień czas powiadomienia o przypomnieniu</item>
-        <item>wyszukiwać rachunki</item>
-        <item>ogólny przegląd bonów za każdy miesiąc</item>
-        <item>wyświetlać rachunki według statusu</item>
+        <item>Codzienne powiadomienie o przypomnieniu rachunków</item>
+        <item>Dołącz zdjęcie do rachunk</item>
+        <item>Obsługa powtarzających się rachunków</item>
+        <item>Ograniczone rachunki (300)</item>
+        <item>Ograniczone kategorie i podkategorie (70)</item>
+        <item>Zmień czas powiadomienia o przypomnieniu</item>
+        <item>Wyszukiwać rachunki</item>
+        <item>Deska rozdzielcza przegląd za bonów każdy miesiąc</item>
+        <item>Wyświetlać rachunki według statusu</item>
         <item>Zobacz rachunki miesiąca</item>
-        <item>widok kalendarza rachunków</item>
-        <item>wielokrotny wybór: skreślenie wielu rachunków i kategorii</item>
-        <item>wielokrotny wybór: skopiuj wiele faktur i kategorii</item>
-        <item>raporty: kalkulacje kategorii dla każdego miesiąca</item>
-        <item>skanuj kod kreskowy i dodaj go do notatek</item>
-        <item>dodaj do rachunku adres płatnika rachunków</item>
-        <item>tworzenie kopii zapasowych, w tym załączonych zdjęć</item>
-        <item>dzienne zaplanowane kopie zapasowe</item>
-        <item>tylko jeden profil</item>
+        <item>Widok kalendarza rachunków</item>
+        <item>Wielokrotny wybór: usuwanie wielu rachunków i kategorii</item>
+        <item>Wielokrotny wybór: skopiuj wiele faktur i kategorii</item>
+        <item>Raporty: kalkulacje kategorii dla każdego miesiąca</item>
+        <item>Skanuj kod kreskowy i dodaj go rachunk notatek</item>
+        <item>Dodaj adres URL płatności rachunku do rachunku</item>
+        <item>Utwórz kopię zapasową, w tym załączone zdjęcia</item>
+        <item>Dzienne zaplanowane kopie zapasowe</item>
+        <item>Tylko jeden profil</item>
     </string-array>
-    <string name="feature_label_pro">premia</string>
+    <string name="feature_label_pro">Opłata za naukę</string>
     <string name="feature_desc_pro">obejmuje to wszystkie funkcje udostępnione przez \'bezpłatną wersję próbną\' \n\t\t\t+\nponiżej cech premii: \n</string>
     <string-array name="feature_items_pro">
-        <item>nielimitowane rachunki</item>
-        <item>nieograniczone kategorie i podkategorie</item>
-        <item>usuwanie powtarzających się rachunków i ich konfiguracji w jednym ruchu. (usunięcie zbiorcze)</item>
-        <item>wielokrotny wybór: zmiana kategorii wielu rachunków</item>
-        <item>wielokrotny wybór: powiadomienie o przypomnieniu o rachunkach</item>
-        <item>przegląd panelu dla każdego dnia, tygodnia, miesiąca i roku.</item>
-        <item>wyświetlać rachunki za każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
-        <item>raporty: kalkulacje mądrych kategorii na każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
-        <item>raporty: trendy banknotów</item>
-        <item> raporty: porównanie tygodni, dni, miesięcy, lat</item>
-        <item>raporty: generowanie raportów PDF i udostępnianie</item>
-        <item>zmienić ekran startowy</item>
-        <item>kontroluje zaplanowane kopie zapasowe</item>
-        <item>udostępnianie i eksportowanie kopii zapasowych za pośrednictwem poczty e-mail, dysku, folderu dropbox</item>
-        <item>przywracanie lokalnych kopii zapasowych i pobieranie z chmury</item>
-        <item>bezpieczeństwo aplikacji za pomocą pinów i odcisków palców</item>
+        <item>Nielimitowane rachunki</item>
+        <item>Nieograniczone kategorie i podkategorie</item>
+        <item>Usuwanie powtarzających się rachunków i ich konfiguracji w jednym ruchu. (usunięcie zbiorcze)</item>
+        <item>Wielokrotny wybór: zmiana kategorii wielu rachunków</item>
+        <item>Wielokrotny wybór: powiadomienie o przypomnieniu o rachunkach</item>
+        <item>Przegląd panelu dla każdego dnia, tygodnia, miesiąca i roku.</item>
+        <item>Wyświetlać rachunki za każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
+        <item>Raporty: kalkulacje mądrych kategorii na każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
+        <item>Raporty: trendy rachunki</item>
+        <item> Raporty: porównanie tygodni, dni, miesięcy, lat</item>
+        <item>Raporty: Generowanie raportów PDF i udostępnianie</item>
+        <item>Zmienić ekran startowy</item>
+        <item>Kontroluje zaplanowane kopie zapasowe</item>
+        <item>Udostępnianie i eksportowanie kopii zapasowych za pośrednictwem poczty e-mail, dysku, folderu dropbox</item>
+        <item>Przywracanie lokalnych kopii zapasowych i pobieranie z chmury</item>
+        <item>Bezpieczeństwo aplikacji za pomocą pinów i odcisków palców</item>
     </string-array>
-    <string name="feature_label_multiprof">wielu profilach</string>
-    <string name="feature_desc_multiprof">wymaga to wersji premium.\npomaga utrzymać wiele profili, w których każdy profil zawiera własne dane. na przykład oddzielić swoje wydatki osobiste z kosztami Twojego biznesu. Każdy profil ma swój własny profil: \n</string>
+    <string name="feature_label_multiprof">Wielu profilach</string>
+    <string name="feature_desc_multiprof">Wymaga to wersji premium.\npomaga utrzymać wiele profili, w których każdy profil zawiera własne dane. na przykład oddzielić swoje wydatki osobiste z kosztami Twojego biznesu. Każdy profil ma swój własny:\n</string>
     <string-array name="feature_items_multiprof">
-        <item>kategorie</item>
-        <item>rachunki</item>
-        <item>powtarzające się ustawienia rachunku</item>
-        <item>raporty i inne ekrany będą uwzględniały rachunki z własnego profilu</item>
-        <item>umożliwi to zarządzanie profilami</item>
+        <item>Kategorie</item>
+        <item>Rachunki</item>
+        <item>Powtarzające się ustawienia rachunek</item>
+        <item>Raporty i inne ekrany będą uwzględniały rachunki z własnego profilu</item>
+        <item>Umożliwi to zarządzanie profilami</item>
     </string-array>
-    <string name="feature_tab_title">cechy</string>
+    <string name="feature_tab_title">Cechy</string>
     <string name="feature_tab_cloud_title">Abonament w chmurze</string>
-    <string name="feature_comparison_title">cechuje porównanie</string>
+    <string name="feature_comparison_title">Porównanie funkcji</string>
     <string name="feature_subscription_title">funkcje i uaktualnienie</string>
-    <string name="feature_this_version">to jest bezpłatna wersja próbna weksli przypomnienie aplikacji i możesz kupić poniżej uaktualnień, aby cieszyć się aplikacją w najlepszym wydaniu.</string>
-    <string name="feature_view_comparison">przeglądaj funkcje porównania</string>
-    <string name="feature_purchased">zakupione</string>
+    <string name="feature_this_version">Jest to bezpłatna wersja próbna aplikacji przypominającej o rachunkach i możesz kupić poniższe aktualizacje, aby cieszyć się nią w pełni.</string>
+    <string name="feature_view_comparison">Wyświetl funkcje porównawcze</string>
+    <string name="feature_purchased">Zakupione</string>
 
     <string name="welcome_title1_bill_detail">dodać nowe przypomnienie o rachunku</string>
     <string name="welcome_info1_bill_detail">wpisz szczegóły rachunku i zapisz. obsługuje także powtarzające się rachunki i zmienia walutę.</string>
