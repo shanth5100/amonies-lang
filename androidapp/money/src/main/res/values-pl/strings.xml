@@ -2,22 +2,22 @@
 <resources>
     <string name="app_name">Just Money</string>
 
-    <string name="reconcile">pogodzić</string>
-    <string name="menu_accts">Kont</string>
-    <string name="menu_search_txs">transakcje wyszukiwania</string>
-    <string name="menu_budget">wydatków budżetowych</string>
-    <string name="bills_reminder">przypomnienia o rachunkach</string>
+    <string name="reconcile">Pogodzić</string>
+    <string name="menu_accts">Konta</string>
+    <string name="menu_search_txs">Transakcje wyszukiwania</string>
+    <string name="menu_budget">Wydatków budżetowych</string>
+    <string name="bills_reminder">Przypomnienia rachunek</string>
     <string name="menu_txs_calendar">widok kalendarza</string>
-    <string name="menu_txs_cat_report">transakcje według kategorii</string>
-    <string name="menu_txs_recurring">powtarzające się transakcje</string>
-    <string name="menu_bills_header">przypomnienia o rachunkach</string>
-    <string name="menu_bills_list">rachunki</string>
-    <string name="menu_bills_list_status">rachunki według statusu</string>
-    <string name="menu_bills_calendar">widok kalendarza</string>
-    <string name="menu_bills_recurring">powtarzające się rachunki</string>
-    <string name="for_transactions">dla transakcji</string>
+    <string name="menu_txs_cat_report">Transakcje według kategorii</string>
+    <string name="menu_txs_recurring">Powtarzające się transakcje</string>
+    <string name="menu_bills_header">Przypomnienia rachunek</string>
+    <string name="menu_bills_list">Rachunki</string>
+    <string name="menu_bills_list_status">Rachunek według statusu</string>
+    <string name="menu_bills_calendar">Widok kalendarza</string>
+    <string name="menu_bills_recurring">Powtarzające się rachunki</string>
+    <string name="for_transactions">Dla transakcji</string>
 
-    <string name="export_body">&lt;p&gt; wysłane z aplikacji android \'tylko pieniądze\' &lt;/p&gt;</string>
+    <string name="export_body">&lt;p&gt; Wysłane z \'Just Money\' aplikacji android &lt;/p&gt;</string>
     <string name="app_try_title">tylko przypomnienie pieniędzy</string>
     <string name="app_try_remind">Czy próbowałeś jeszcze tej aplikacji? jego prosty i łatwy w obsłudze.</string>
     <string name="app_use_remind">Czy dodałeś dzisiaj swoje wydatki?</string>
@@ -30,118 +30,118 @@
     <string name="acct_add">Utwórz konto</string>
     <string name="acct_delete">Usuń konto</string>
     <!-- <string name="accts">Account</string>  -->
-    <string name="acct_final_bal">bieżące saldo</string>
-    <string name="acct_saved_success">konto zostało zapisane.</string>
-    <string name="acct_delete_unsaved">nie można usunąć niezapisanego konta.</string>
-    <string name="acct_delete_success">pomyślnie skreślono konto.</string>
+    <string name="acct_final_bal">Bieżące saldo</string>
+    <string name="acct_saved_success">Konto zostało zapisane pomyślnie.</string>
+    <string name="acct_delete_unsaved">Nie można usunąć niezapisanego konta.</string>
+    <string name="acct_delete_success">Pomyślnie skreślono konto.</string>
     <string name="acct_delete_warn">wybranego konta, a wszystkie transakcje z nim zostaną usunięte..!</string>
-    <string name="acct_delete_error_msg">błąd..!\n musisz działać co najmniej jedno aktywne konto.</string>
+    <string name="acct_delete_error_msg">Błąd..!\n musisz działać co najmniej jedno aktywne konto.</string>
 
-    <string name="acct_desc_default">saldo otwarcia konta to: %1$s</string>
-    <string name="acct_menu_filter_favorite">ulubione konta</string>
-    <string name="acct_menu_filter_off">pokaż wszystkie konta</string>
+    <string name="acct_desc_default">Saldo otwarcia konta to: %1$s</string>
+    <string name="acct_menu_filter_favorite">Tylko ulubione konta</string>
+    <string name="acct_menu_filter_off">Pokaż wszystkie konta</string>
 
     <!--  Account Details -->
     <string name="acct_details">Szczegóły Konta</string>
-    <string name="acct_details_new">nowe szczegóły konta</string>
+    <string name="acct_details_new">Nowe szczegóły konta</string>
     <string name="acct_name">Nazwa konta</string>
-    <string name="acct_desc">opis</string>
+    <string name="acct_desc">Opis</string>
     <string name="acct_init_bal">Bilans otwarcia</string>
-    <string name="acct_budget">miesięczny budżet</string>
-    <string name="acct_currency">waluta</string>
-    <string name="acct_inclInTot">łącznie z sumą</string>
-    <string name="acct_tx_status">domyślny stan transakcji</string>
-    <string name="acct_active">często używane lub ulubione konto</string>
+    <string name="acct_budget">Miesięczny budżet</string>
+    <string name="acct_currency">Waluta</string>
+    <string name="acct_inclInTot">W tym saldo w sumie</string>
+    <string name="acct_tx_status">Domyślny stan transakcji</string>
+    <string name="acct_active">Często używane lub ulubione konto</string>
     <string name="acct_active_help_msg">na ekranach kont, które można filtrować, aby przeglądać tylko ulubione konta, nie martwiąc się o konta nieaktywne / zamknięte (często nie używasz). \n\ndlatego zamiast kasowania konta, które mogłoby usunąć powiązane z nią transakcje, możesz użyć tej opcji.</string>
     <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
-    <string name="acct_list_empty">nie ma konta..!</string>
-    <string name="acct_list_empty_warning">nie ma konta, najpierw utwórz konto.</string>
-    <string name="acct_list_total_rows">%1$d sumy kont:</string>
+    <string name="acct_list_empty">Konto nie istnieje ..!</string>
+    <string name="acct_list_empty_warning">Konto nie istnieje ..!, najpierw utwórz konto.</string>
+    <string name="acct_list_total_rows">%1$d całkowite saldo konta:</string>
     <string name="acct_list_total_rows_multi">%1$d kont w wielu walutach</string>
-    <string name="acct_list_all_currencies">wszystkie waluty</string>
-    <string name="acct_list_xxx_Accounts">%1$s kont</string>
-    <string name="acct_name_err">nazwa konta jest pusta..!</string>
+    <string name="acct_list_all_currencies">Wszystkie waluty</string>
+    <string name="acct_list_xxx_Accounts">%1$s konta</string>
+    <string name="acct_name_err">Nazwa konta jest pusta..!</string>
 
     <!-- ==================================================================== -->
     <!-- tx.xml -->
 
     <string name="tx_detail_tab">Detale</string>
-    <string name="tx_detail_tab_new">wprowadź szczegóły</string>
+    <string name="tx_detail_tab_new">Wprowadź szczegóły</string>
     <string name="tx_detail_title_new">Nowa transakcja</string>
     <string name="tx_detail_title_edit">Istniejąca transakcja</string>
     <string name="tx_bill_pmt_label">Wybierz rachunek, aby dodać płatność</string>
     <string name="tx_bill_pmt_select">%1$s, \t%2$s%3$s, \t%4$s</string>
-    <string name="tx_bill_pmt_notes">opłata za rachunki</string>
-    <string name="tx_bill_pmt_not_selected">wybierz rachunek do wypełnienia płatności.</string>
+    <string name="tx_bill_pmt_notes">Opłata za rachunki</string>
+    <string name="tx_bill_pmt_not_selected">Wybierz rachunku do wypełnienia płatności.</string>
     <!-- <string name="tx_bill_payment_no_bills">There are no bills please create one, before making any bill payments.</string> -->
-    <string name="tx_payee">odbiorcy, płatnika lub przedmiotu</string>
+    <string name="tx_payee">Odbiorcy, płatnika lub przedmiotu</string>
     <string name="tx_payee_hint">Osoba kontaktowa, firma lub nazwa sklepu</string>
-    <string name="tx_transf_amt">kwota przelewu</string>
-    <string name="tx_date">Data dokonania transakcji</string>
-    <string name="tx_account">wybierz konto</string>
+    <string name="tx_transf_amt">Kwota przelewu</string>
+    <string name="tx_date">Data transakcji</string>
+    <string name="tx_account">Wybierz konto</string>
     <!--<string name="tx_deposit">Deposit</string>
     <string name="tx_withdraw">Withdraw</string>-->
-    <string name="tx_status">status transakcji</string>
-    <string name="tx_new">dodaj dochód / dochód</string>
-    <string name="tx_bill_pmt">opłata za rachunki</string>
-    <string name="tx_list_empty">nie ma transakcji..!</string>
-    <string name="tx_repeats">powtarzająca się transakcja</string>
+    <string name="tx_status">Status transakcji</string>
+    <string name="tx_new">Dodaj wydatki / dochody</string>
+    <string name="tx_bill_pmt">Opłata za rachunki</string>
+    <string name="tx_list_empty">Nie ma transakcji..!</string>
+    <string name="tx_repeats">Powtarzająca się transakcja</string>
     <!--<string name="tx_rpt_notify_me">Notify me when the transaction is auto generated.</string>-->
-    <string name="tx_error_save_pic">błąd podczas zapisywania obrazu: %1$s</string>
+    <string name="tx_error_save_pic">Błąd podczas zapisywania obrazu: %1$s</string>
 
-    <string name="tx_delete_warn">usunąć wybrane transakcje?</string>
-    <string name="tx_delete_multi">Usunięto %1$d transakcje.</string>
-    <string name="tx_multi_update_count">Aktualizowano %1$d transakcje.</string>
-    <string name="tx_duplicate_warn">Powtórz kopie zapasowe %1$d transakcji?</string>
+    <string name="tx_delete_warn">Usunąć wybrane transakcje?</string>
+    <string name="tx_delete_multi">Usunięto %1$d transakcj(e).</string>
+    <string name="tx_multi_update_count">Aktualizowano %1$d transakcj(e).</string>
+    <string name="tx_duplicate_warn">Zostanie utworzonych %1$d zduplikowanych transakcji, kontynuować?</string>
     <string name="tx_duplicate_multi">%1$d utworzonych transakcji.</string>
-    <string name="tx_delete_success">pomyślnie skreślono transakcje.</string>
-    <string name="tx_delete_unsaved">nie można usunąć niezapisanej transakcji.</string>
-    <string name="tx_amt_err">wpisz prawidłową kwotę..!</string>
-    <string name="tx_err_future_dt">proszę podaj przyszłą datę.</string>
-    <string name="tx_photo_not_supported">niezdolny do przechwytywania zdjęcia, urządzenia nieobsługiwanego..!</string>
+    <string name="tx_delete_success">Pomyślnie skreślono transakcje.</string>
+    <string name="tx_delete_unsaved">Nie można usunąć niezapisanej transakcji.</string>
+    <string name="tx_amt_err">Wpisz prawidłową kwotę..!</string>
+    <string name="tx_err_future_dt">Proszę podaj przyszłą datę.</string>
+    <string name="tx_photo_not_supported">Niezdolny do przechwytywania zdjęcia, urządzenia nieobsługiwanego..!</string>
     <string-array name="tx_status">
-        <item>nieważne / nieprawidłowe</item>
-        <item>niejasne / oczekujące</item>
-        <item>wyczyszczone</item>
-        <item>wyczyszczone i pogodzone</item>
+        <item>Unieważnić / nieprawidłowe</item>
+        <item>Niejasne / oczekujące</item>
+        <item>Wyczyszczone</item>
+        <item>Wyczyszczone i pogodzone</item>
     </string-array>
-    <string name="tx_add_suc">nowa transakcja została dodana</string>
-    <string name="tx_update_suc">zaktualizowana transakcja</string>
-    <string name="tx_err_end_dt">\'następna data transakcji\' powinna być przed \'powtarzać do daty\'</string>
-    <string name="tx_rpt_save">stosować powtarzające się zmiany</string>
+    <string name="tx_add_suc">Nowa transakcja została dodana</string>
+    <string name="tx_update_suc">Zaktualizowana transakcja</string>
+    <string name="tx_err_end_dt">\'Powtarzane do daty\' powinno być po \'Dacie następnej transakcji\'</string>
+    <string name="tx_rpt_save">Stosować powtarzające się zmiany</string>
     <string-array name="tx_rpt_save">
         <item>bez usuwania transakcji i tworzenia nowych transakcji, jeśli jest to wymagane.</item>
-        <item>usuwać i ponownie tworzyć transakcje przy użyciu nowych powtarzających się zmian. transakcje związane z tą powtarzającą się konfiguracją zostaną zrealizowane</item>
+        <item>Usuwać i odtwarzać transakcje przy użyciu nowych powtarzających się zmian. wpłynie to na transakcje związane z tą powtarzającą się konfiguracją</item>
         <!-- <item>Effect this &amp; all bills.</item> -->
     </string-array>
-    <string name="tx_rpt_remove">usunąć powtarzającą się naturę</string>
+    <string name="tx_rpt_remove">Usunąć powtarzającą się naturę</string>
     <string-array name="tx_rpt_remove">
-        <item>tylko dla tej transakcji.</item>
-        <item>za te i wszystkie powiązane transakcje.</item>
+        <item>Tylko dla tej transakcji.</item>
+        <item>Za te i wszystkie powiązane transakcje.</item>
     </string-array>
-    <string name="bill_delete_single_warn">rachunku i każdej powiązanej transakcji płatniczej zostanie usunięta, kontynuuj?</string>
-    <string name="bill_delete_multi_warn">wybrane rachunki i wszelkie powiązane transakcje płatności bankowej zostaną usunięte, kontynuuj?</string>
-    <string name="tx_bill_mark_unpaid_warning_title">oznaczać jako niezapłaconą</string>
-    <string name="tx_bill_mark_unpaid_warning">usunąć transakcje powiązane z tym projektem?</string>
+    <string name="bill_delete_single_warn">Rachunku i każdej powiązanej transakcji płatniczej zostanie usunięta, kontynuuj?</string>
+    <string name="bill_delete_multi_warn">Wybrane rachunki i wszelkie powiązane transakcje płatności rachunki zostaną usunięte, kontynuuj?</string>
+    <string name="tx_bill_mark_unpaid_warning_title">Oznaczać jako niezapłaconą</string>
+    <string name="tx_bill_mark_unpaid_warning">Usunąć transakcje powiązane z tym rachunki?</string>
 
     <!-- Transaction list -->
-    <string name="tx_view_txs">przeglądać transakcje</string>
-    <string name="tx_list_title">transakcji</string>
-    <string name="tx_list_filter_dialog">filtruj widoczne etykiety</string>
+    <string name="tx_view_txs">Przeglądać transakcje</string>
+    <string name="tx_list_title">Transakcji</string>
+    <string name="tx_list_filter_dialog">Filtruj widoczne etykiety</string>
 
     <string name="tx_export_subject">transakcje pieniężne</string>
-    <string name="tx_export_title">eksportuj jako csv</string>
-    <string name="tx_export_type">tekst/zwykły</string>
-    <string name="tx_list_total_rows"> %1$s wierszy razem: </string>
+    <string name="tx_export_title">Eksportuj jako csv</string>
+    <string name="tx_export_type">Tekst/zwykły</string>
+    <string name="tx_list_total_rows"> %1$s suma wierszy: </string>
     <string name="tx_list_total_rows_multi_curr"> %1$s wiersze w wielu walutach </string>
     <string name="tx_list_cleared">(wyczyszczone: </string>
 
-    <string name="tx_list_options_view">wyświetlić szczegóły transakcji</string>
+    <string name="tx_list_options_view">Wyświetlić szczegóły transakcji</string>
     <string name="tx_list_options_select">wybierz ten wiersz</string>
-    <string name="tx_list_options_copy">utworzyć kopię (duplikat)</string>
-    <string name="tx_list_options_delete">usunąć transakcję</string>
+    <string name="tx_list_options_copy">Utworzyć kopię (duplikat)</string>
+    <string name="tx_list_options_delete">Usunąć transakcję</string>
 
-    <string name="tx_removed_recurring">transakcja niezwiązana z powtarzającą się konfiguracją.</string>
+    <string name="tx_removed_recurring">Transakcja została odłączona od powtarzającą się konfiguracją.</string>
 
     <!-- Fund Transfer -->
     <string name="transfer_fromAcct">z konta</string>
