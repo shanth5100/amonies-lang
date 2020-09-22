@@ -366,98 +366,98 @@
         <item>Dzienne zaplanowane kopie zapasowe</item>
         <item>Tylko jeden profil</item>
     </string-array>
-    <string name="feature_label_pro">premia</string>
-    <string name="feature_desc_pro">obejmuje to wszystkie funkcje udostępnione przez \'bezpłatną wersję próbną\' \n\t\t\t+\nponiżej funkcji premium: \n</string>
+    <string name="feature_label_pro">Opłata za naukę</string>
+    <string name="feature_desc_pro">Obejmuje to wszystkie funkcje udostępnione przez \'bezpłatną wersję próbną\' \n\t\t\t+\nponiżej funkcji premium: \n</string>
     <string-array name="feature_items_pro">
-        <item>nieograniczone transakcje</item>
-        <item>nielimitowane konta</item>
-        <item>nieograniczone kategorie i podkategorie</item>
-        <item>usuwaj powtarzające się transakcje i konfigurację w jednym ruchu. (usunięcie zbiorcze)</item>
-        <item>wielokrotny wybór: zmiana kategorii transakcji</item>
-        <item>widżet skrótów na ekranie głównym</item>
-        <item>zmienić ekran startowy</item>
-        <item>planista budżetu na dzień, tydzień, miesiąc i rok</item>
-        <item>przegląd panelu dla każdego dnia, tygodnia, miesiąca i roku.</item>
-        <item>przeglądać transakcje na każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
-        <item>transfer funduszy między kontami różnych walut</item>
-        <item>raporty: kategoria mądrych wydatków i przychodów za każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
-        <item>raporty: tendencja do wydatków i dochodów</item>
-        <item>raporty: porównanie tygodni, dni, miesięcy, lat</item>
-        <item>raporty: generowanie raportów PDF i udostępnianie</item>
-        <item>transakcji eksportowych i załączonych fotografii</item>
-        <item>kontroluje zaplanowane kopie zapasowe</item>
-        <item>udostępnianie i eksportowanie kopii zapasowych za pośrednictwem poczty e-mail, ddrive, dropbox</item>
-        <item>przywracanie lokalnych kopii zapasowych i pobieranie z chmury</item>
-        <item>bezpieczeństwo aplikacji za pomocą pinów i odcisków palców</item>
+        <item>Nieograniczone transakcje</item>
+        <item>Nielimitowane konta</item>
+        <item>Nieograniczone kategorie i podkategorie</item>
+        <item>Usuwaj powtarzające się transakcje i konfigurację w jednym ruchu. (usunięcie zbiorcze)</item>
+        <item>Wielokrotny wybór: zmiana kategorii transakcji</item>
+        <item>Widżet skrótów na ekranie głównym</item>
+        <item>Zmienić ekran startowy</item>
+        <item>Planista budżetu na dzień, tydzień, miesiąc i rok</item>
+        <item>Przegląd deska rozdzielcza dla każdego dnia, tygodnia, miesiąca i roku.</item>
+        <item>Przeglądać transakcje na każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
+        <item>Transfer funduszy między kontami różnych walut</item>
+        <item>Raporty: kategoria mądrych wydatków i przychodów za każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
+        <item>Raporty: tendencja do wydatków i dochodów</item>
+        <item>Raporty: porównanie tygodni, dni, miesięcy, lat</item>
+        <item>Raporty: generowanie raportów PDF i udostępnianie</item>
+        <item>Transakcji eksportowych i załączonych fotografii</item>
+        <item>Kontroluje zaplanowane kopie zapasowe</item>
+        <item>Udostępnianie i eksportowanie kopii zapasowych za pośrednictwem poczty e-mail, drive, dropbox</item>
+        <item>Przywracanie lokalnych kopii zapasowych i pobieranie z chmury</item>
+        <item>Bezpieczeństwo aplikacji za pomocą PIN i odcisków palców</item>
     </string-array>
-    <string name="feature_label_bills">przypomnienia o rachunkach</string>
-    <string name="feature_desc_bills">wymaga to wersji premium.\ndodaje wezwania do przypomnienia możliwości aplikacji i pomaga powiązać płatność z transakcją, podobnie jak podwójny wpis. \n</string>
+    <string name="feature_label_bills">Przypomnienia o rachunkach</string>
+    <string name="feature_desc_bills">Wymaga to wersji premium.\ndodaje Bills Reminder możliwości aplikacji i pomaga powiązać płatność z transakcją, podobnie jak podwójny wpis. \n</string>
     <string-array name="feature_items_bills">
-        <item>zintegrowane przypomnienie weksli</item>
-        <item>zarządzać prostymi i powtarzającymi się rachunkami</item>
-        <item>codzienne rachunki przypominają powiadomienie</item>
-        <item>dołącz zdjęcie do rachunków</item>
-        <item>widżety na ekranie głównym dla rachunków</item>
-        <item>zmień czas powiadomienia o przypomnieniu</item>
-        <item>usuwanie powtarzających się rachunków i ich konfiguracji w jednym ruchu. (usunięcie zbiorcze)</item>
-        <item>Przegląd panelu zawiera rachunki</item>
-        <item>wyświetlać rachunki według statusu</item>
-        <item>wyświetlać rachunki za każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
-        <item>widok kalendarza rachunków</item>
-        <item>wyszukiwać rachunki</item>
-        <item>wielokrotny wybór: duże usunięcie rachunków i kategorii</item>
-        <item>wielokrotny wybór: powielanie zbiorów rachunków i kategorii</item>
-        <item>wielokrotny wybór: zmiana kategorii bonów</item>
-        <item>wielokrotny wybór: powiadomienie o przypomnieniu o rachunkach</item>
-        <item>raporty: kalkulacje mądrych kategorii na każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
-        <item>raporty: trendy banknotów</item>
-        <item>raporty: porównanie tygodni, dni, miesięcy, lat</item>
-        <item>raporty: generowanie raportów PDF i udostępnianie</item>
-        <item>skanuj kod kreskowy i dodaj go do notatek</item>
-        <item>dodaj do rachunku adres płatnika rachunków</item>
+        <item>Zintegrowane przypomnienie weksli</item>
+        <item>Zarządzać prostymi i powtarzającymi się rachunkami</item>
+        <item>Codzienne rachunki przypominają powiadomienie</item>
+        <item>Dołącz zdjęcie do rachunków</item>
+        <item>Widżety na ekranie głównym dla rachunków</item>
+        <item>Zmień czas powiadomienia o przypomnieniu</item>
+        <item>Usuwanie powtarzających się rachunków i ich konfiguracji w jednym ruchu. (usunięcie zbiorcze)</item>
+        <item>Przegląd deska rozdzielcza zawiera rachunki</item>
+        <item>Wyświetlać rachunki według statusu</item>
+        <item>Wyświetlać rachunki za każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
+        <item>Widok kalendarza rachunków</item>
+        <item>Wyszukiwać rachunki</item>
+        <item>Wielokrotny wybór: duże usunięcie rachunków i kategorii</item>
+        <item>wielokrotny wybór: zbiorcze duplikowanie rachunków i kategorii</item>
+        <item>wielokrotny wybór: zmień kategorię rachunek</item>
+        <item>Wielokrotny wybór: zmień powiadomienie przypominające o rachunku</item>
+        <item>Raporty: rachunki według kategorii za każdy dzień, tydzień, miesiąc, rok i okres niestandardowy</item>
+        <item>Raporty: trendy rachunek</item>
+        <item>Raporty: porównanie tygodni, dni, miesięcy, lat</item>
+        <item>Raporty: generowanie raportów PDF i udostępnianie</item>
+        <item>Skanuj kod kreskowy i dodaj go do rachunek notatek</item>
+        <item>Dodaj adres URL płatności rachunku do rachunku</item>
     </string-array>
     <string name="feature_label_multiprof">wiele profili</string>
     <string-array name="feature_items_multiprof">
-        <item>Kont</item>
-        <item>transakcji</item>
-        <item>budżety</item>
-        <item>kategorie i podkategorie</item>
-        <item>rachunki</item>
-        <item>powtarzające się ustawienia</item>
-        <item>raporty i inne ekrany będą uwzględniać wpisy z własnego profilu</item>
-        <item>umożliwi to zarządzanie profilami</item>
+        <item>Konta</item>
+        <item>Transakcji</item>
+        <item>Budżety</item>
+        <item>Kategorie i podkategorie</item>
+        <item>Rachunki</item>
+        <item>Powtarzające się ustawienia</item>
+        <item>Rraporty i inne ekrany będą uwzględniać wpisy z własnego profilu</item>
+        <item>Umożliwi to zarządzanie swoimi profilami</item>
     </string-array>
-    <string name="feature_this_version">to jest bezpłatna wersja próbna tylko aplikacji pieniężnej i możesz kupić poniżej uaktualnień, aby cieszyć się aplikacją w najlepszym wydaniu.</string>
+    <string name="feature_this_version">to jest bezpłatna wersja próbna tylko Just Money pieniężnej i możesz kupić poniżej uaktualnień, aby cieszyć się aplikacją w najlepszym wydaniu.</string>
 
 
-    <string name="welcome_title4_tx_account">dodaj konto</string>
-    <string name="welcome_info4_tx_account">konto to konto bankowe lub gotówka w portfelu i jest potrzebne do wpisu transakcji.</string>
-    <string name="welcome_title1_tx_detail">dodaj dochód lub dochód</string>
-    <string name="welcome_info1_tx_detail">wpisz szczegóły transakcji i zapisz. obsługuje również powtarzające się transakcje.</string>
-    <string name="welcome_title1_tx_receipt">zdjęcie pokwitowanie</string>
-    <string name="welcome_info1_tx_receipt">przejdź bez karty, załączając pokwitowanie kosztów wraz ze szczegółami transakcji.</string>
-    <string name="welcome_title2_tx_email">transakcje dzielone i wpływy</string>
-    <string name="welcome_info2_tx_email">eksportuj csv format wydatków i przychodów, w tym załączone zdjęcia z potwierdzeniem odbioru (na e-mail, folder dropbox, dysk).</string>
+    <string name="welcome_title4_tx_account">Dodaj konto</string>
+    <string name="welcome_info4_tx_account">Konto reprezentuje twoje konto bankowe lub gotówkę w portfelu i jest potrzebne do wprowadzania transakcji.</string>
+    <string name="welcome_title1_tx_detail">Dodaj wydatki lub dochód</string>
+    <string name="welcome_info1_tx_detail">Wpisz szczegóły transakcji i zapisz. obsługuje również powtarzające się transakcje.</string>
+    <string name="welcome_title1_tx_receipt">Zdjęcie pokwitowanie</string>
+    <string name="welcome_info1_tx_receipt">Przejdź bez z papieru, dołączając wydatków wraz ze szczegółami transakcji.</string>
+    <string name="welcome_title2_tx_email">Udostępniaj transakcje i wpływy</string>
+    <string name="welcome_info2_tx_email">Eksportuj wydatki i dochody w formacie CSV, w tym załączone zdjęcia paragonów (na e-mail, Dropbox, Dysk).</string>
 
-    <string name="welcome_title3_tx_list">prosty układ kart</string>
-    <string name="welcome_info3_tx_list">przeglądać transakcje dla każdego okresu i łatwo przesuwać między kartami. filtrowanie danych na podstawie kategorii, kont, itp.</string>
-    <string name="welcome_title4_tx_budget">planista budżetu</string>
-    <string name="welcome_info4_tx_budget">dodaj budżety wydatków i pozostań w kontroli swoich wydatków.</string>
+    <string name="welcome_title3_tx_list">Prosty układ zakładek</string>
+    <string name="welcome_info3_tx_list">Przeglądać transakcje dla każdego okresu i łatwo przesuwać między zakładek. Filtrowanie danych na podstawie kategorii, kont, itp.</string>
+    <string name="welcome_title4_tx_budget">Planista budżetu</string>
+    <string name="welcome_info4_tx_budget">Dodaj budżety wydatków i pozostań w kontroli swoich wydatków.</string>
     <string name="welcome_title5_tx_reports">obszerne raporty i wykresy</string>
-    <string name="welcome_info5_tx_reports">porównać wydatki między okresami i kategoriami, wyświetlić salda kont zarówno raporty historyczne, jak i prognozowane, oraz raporty trendów przepływów pieniężnych.</string>
-    <string name="welcome_title6_tx_drawer">menu szuflad nawigacyjnych</string>
-    <string name="welcome_info6_tx_drawer">panel sterowania, konta, wiele walut, kategorię i podkategorie, planer budżetu, widok kalendarza, wiele profili, tworzenie kopii zapasowych i przywracanie, i wiele innych.</string>
+    <string name="welcome_info5_tx_reports">Porównać wydatki między okresami i kategoriami, wyświetlić salda kont zarówno raporty historyczne, jak i prognozowane, oraz raporty trendów przepływów pieniężnych.</string>
+    <string name="welcome_title6_tx_drawer">Menu szuflad nawigacyjnych</string>
+    <string name="welcome_info6_tx_drawer">Deska rozdzielcza, konta, wiele walut, kategorię i podkategorie, planer budżetu, widok kalendarza, wiele profili, tworzenie kopii zapasowych i przywracanie, i wiele innych.</string>
 
-    <string name="widget_acct_balance_title">bilans konta</string>
-    <string name="widget_acct_balance">bilansowy: </string>
-    <string name="widget_shortcuts_title">tylko skróty pieniędzy</string>
+    <string name="widget_acct_balance_title">Bilans konta</string>
+    <string name="widget_acct_balance">Bilansowy: </string>
+    <string name="widget_shortcuts_title">Just Money na skróty</string>
     <string name="widget_shortcuts">(skróty)</string>
-    <string name="coach_mark_add_bill">kliknij przycisk \'+\' pływający, aby dodać wydatki, dochody lub transfer funduszy</string>
+    <string name="coach_mark_add_bill">Kliknij przycisk \'+\' pływający, aby dodać wydatki, dochody lub transfer funduszy</string>
 
-    <string name="error_max_txs_exceeded">liczba transakcji przekroczyła limit maksymalny. Zaktualizuj, aby dodać więcej transakcji.</string>
-    <string name="error_max_accounts_exceeded">liczba kont przekroczyła maksymalny limit, zaktualizuj, aby dodać więcej kont.</string>
+    <string name="error_max_txs_exceeded">Liczba transakcji przekroczyła limit maksymalny. Zaktualizuj, aby dodać więcej transakcji.</string>
+    <string name="error_max_accounts_exceeded">Liczba kont przekroczyła maksymalny limit, zaktualizuj, aby dodać więcej kont.</string>
 
-    <string name="tx_new_expense">Wprowadź wydatki</string>
-    <string name="tx_new_income">Wprowadź dochód</string>
+    <string name="tx_new_expense">Dodaj wydatki</string>
+    <string name="tx_new_income">Dodaj dochód</string>
     <string name="tx_bills_disabled_msg">Czy wiesz, że ta aplikacja obsługuje zintegrowaną funkcję przypomnienia o rachunkach? Włącz, aby zarządzać rachunkami i płatnościami.</string>
 </resources>
