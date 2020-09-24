@@ -36,7 +36,7 @@
     <string name="share">Teilen</string>
     <string name="add">hinzufügen</string>
     <string name="cat_detail">Kategorie Details</string>
-    <string name="expense">Aufwand</string>
+    <string name="expense">Kostenaufwand</string>
     <string name="income">Einkommen</string>
     <string name="receivable">Empfangbar</string>
     <string name="payable">Zahlbar</string>
@@ -384,7 +384,7 @@
     <string name="tx_photo_select_from_gallery">Aus der Galerie auswählen</string>
     <string-array name="tx_photo_options">
         <item>Foto ansehen</item>
-        <item>Tehme neues foto</item>
+        <item>Nehme neues foto</item>
         <item>Aus der Galerie auswählen</item>
         <item>Foto entfernen</item>
     </string-array>
@@ -405,15 +405,15 @@
     <string name="bill_rpt_total_payable">Summe zahlbar ist %1$s</string>
     <string name="bill_rpt_total_receivable">Gesamtforderungen beträgt %1$s</string>
     <string name="bill_rpt_type_cat_payable">Rechnungen zahlbar nach Kategorie</string>
-    <string name="bill_rpt_type_cat_receivable">Forderungen Nach Kategorie</string>
+    <string name="bill_rpt_type_cat_receivable">Rechnungen forderungen Nach Kategorie</string>
     <string name="bill_rpt_charts_saved">Erzeugte Berichte (%1$d)</string>
     <string name="bill_rpt_charts_saved_empty">Keine gespeicherten Berichte.\n Haben Sie versucht pdf Report Feature noch zu generieren?</string>
     <string name="bill_rpt_charts_saved_loc">pdf Berichte werden gespeichert bei: %1$s</string>
 
     <string name="bill_rpt_1categorywise_pay_label">Kategorie weise Chart (zahlbar)</string>
-    <string name="bill_rpt_1categorywise_pay_info">Kreisdiagramm mit kategorienbezogenem Vergleich für den Zeitraum.</string>
+    <string name="bill_rpt_1categorywise_pay_info">Kreisdiagramm mit kategorie weise Vergleich für den Zeitraum.</string>
     <string name="bill_rpt_2categorywise_receive_label">Kategorie weise Chart (empfangbar)</string>
-    <string name="bill_rpt_2categorywise_receive_info">Kreisdiagramm mit kategorienbezogenem Vergleich für den Zeitraum.</string>
+    <string name="bill_rpt_2categorywise_receive_info">Kreisdiagramm mit kategorie weise Vergleich für den Zeitraum.</string>
     <string name="bill_rpt_3trends_30days_label">Rechnungen Trends für 30 Tage</string>
     <string name="bill_rpt_3trends_30days_info">Line Diagramm zeigt Tag weise Vergleich der beiden zahlbar und empfangbar für die letzten 30 Tage</string>
     <string name="bill_rpt_4monthwise_pay_label">Monatlicher Vergleich (zahlbar)</string>
@@ -564,7 +564,7 @@
     <string name="bkp_send_sub">Sicherungsdatei \'%1$s\'</string>
     <string name="bkp_rename">Backup umbenennen</string>
     <string name="bkp_rename_success">erfolgreich umbenannt \'%1$s\' zu \'%2$s\'.</string>
-    <string name="bkp_rename_failed">Benennen Sie fehlgeschlagenes \'%1$s\' zu \'%2$s\'.</string>
+    <string name="bkp_rename_failed">Fehlgeschlagenes zu Benennen Sie \'%1$s\' zu \'%2$s\'.</string>
     <string name="bkp_delete">Sicherung löschen</string>
     <string name="bkp_delete_confirm">Löschen der ausgewählten Datensicherung \'%1$s\'?</string>
     <string name="bkp_delete_success">Erfolgreich gelöscht.</string>
@@ -858,7 +858,7 @@
 
     <string name="widget_bill_single_title">Eine Rechnung verfolgen</string>
     <string name="widget_bill_paid_on">bezahlt auf %1$s</string>
-    <string name="widget_bill_due_in">fällig in %1$d Tagen</string>
+    <string name="widget_bill_due_in">Fällig in %1$d Tagen</string>
     <string name="widget_bill_due_tomorrow">Fällig morgen</string>
     <string name="widget_bill_due_today">Fällig heute</string>
     <string name="widget_bill_due_yesterday">Fällig gestern</string>

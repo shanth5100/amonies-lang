@@ -28,7 +28,7 @@
 
     <!-- Account List -->
     <string name="acct_add">benutzerkonto anlegen</string>
-    <string name="acct_delete">Löschen Sie ein Konto</string>
+    <string name="acct_delete">Löschen Sie Konto</string>
     <!-- <string name="accts">Account</string>  -->
     <string name="acct_final_bal">Aktuelles gleichgewicht</string>
     <string name="acct_saved_success">Konto erfolgreich gespeichert.</string>
@@ -52,7 +52,7 @@
     <string name="acct_inclInTot">Enthalten Saldo in der Summe</string>
     <string name="acct_tx_status">Standard Transaktionsstatus</string>
     <string name="acct_active">Häufig benutztes oder lieblings konto</string>
-    <string name="acct_active_help_msg">in konten bildschirm können sie filtern um nur lieblings konten anzeigen, ohne sich über inaktive / geschlossene Konten (die Sie nicht häufig verwenden). \n\nalso anstatt ein Konto zu löschen, das die damit verbundenen transaktionen entfernen würde, können Sie diese Option verwenden.</string>
+    <string name="acct_active_help_msg">Im Bildschirm Konten können Sie filtern, um nur Lieblingskonten anzuzeigen, ohne sich über inaktive / geschlossene Konten Gedanken machen zu müssen (die Sie nicht oft verwenden). \n\nso können Sie diese Option verwenden, anstatt ein Konto zu löschen, durch das die zugehörigen Transaktionen entfernt werden</string>
     <!-- <string name="acct_default_label">Default Label (for the account Transactions)</string>  -->
     <string name="acct_list_empty">Kein Konto existiert..!</string>
     <string name="acct_list_empty_warning">Kein Konto vorhanden, bitte zuerst ein Konto erstellen.</string>
@@ -146,7 +146,7 @@
     <!-- Fund Transfer -->
     <string name="transfer_fromAcct">Vom Konto</string>
     <string name="transfer_toAcct">zu berücksichtigen</string>
-    <string name="transfer_toAmt">Überweisungsbetrag nach Umrechnung in</string>
+    <string name="transfer_toAmt">Übertragener Betrag nach Umwandlung in</string>
     <string name="transfer_exRate">Wechselkurs ist </string>
     <string name="transfer_rate_modify">Rate ändern</string>
     <string name="transfer_save">Geld übertragen</string>
@@ -175,7 +175,7 @@
     <string name="import_success">%1$d transaktionen erfolgreich importiert.</string>
     <string name="import_fail_wrong_content">Kann die datei nicht importieren, bitte den Inhalt der Datei überprüfen.</string>
     <string name="import_error_file">\'%1$s\' kann nicht gelesen werden, bitte überprüfen sie ob die CSV Datei existiert.</string>
-    <string name="import_progress_msg">Daten ziehen&#8230;</string>
+    <string name="import_progress_msg">Abrufen von Daten&#8230;</string>
     <string name="import_already_started">import schon im Gange, bitte nach irgendwann versuchen..!!</string>
     <string name="import_confirm">importieren von transaktionen aus \'%1$s\' in das Konto \'%2$s\'.\n\nmöchtest du fortfahren?</string>
 
